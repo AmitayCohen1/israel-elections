@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { Analytics } from "@vercel/analytics/next";
 import { Frank_Ruhl_Libre, Heebo, Noto_Sans_Arabic, Noto_Sans_Ethiopic } from "next/font/google";
 import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
@@ -57,6 +58,7 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
             <TabBar />
           </div>
         </DictionaryProvider>
+        <Analytics />
       </body>
     </html>
   );
