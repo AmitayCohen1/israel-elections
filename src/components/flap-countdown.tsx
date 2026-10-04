@@ -52,7 +52,8 @@ function Flap({ value }: { value: string }) {
 
 function FlapNum({ n }: { n: number }) {
   return (
-    <span className="inline-flex gap-[0.12em] rounded-[0.42em] bg-mist p-[0.18em]">
+    // A number reads left to right in every language: without this, a right-to-left page lays the two tiles out mirrored (07 as 70).
+    <span dir="ltr" className="inline-flex gap-[0.12em] rounded-[0.42em] bg-mist p-[0.18em]">
       {[...pad(n)].map((c, i, a) => (
         <Flap key={a.length - i} value={c} />
       ))}
