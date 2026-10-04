@@ -43,11 +43,11 @@ export function HeroFocus({ lists, counts }: { lists: HeroListItem[]; counts: st
             <span className="mt-1.5 block text-ink-2">{l.count} מועמדים ברשימה</span>
             <span className="mt-6 flex items-center justify-center">
               {l.faces.slice(1, 4).map((f, k) => (
-                <Face key={k} f={f} sizes="56px" className={`size-[3.1rem] rounded-full bg-tile text-xs text-ink/40 ring-[3px] ring-paper ${k ? "-ms-2.5" : ""}`} />
+                <Face key={k} f={f} sizes="56px" className={`size-[3.1rem] rounded-full bg-tile text-base text-ink/40 ring-[3px] ring-paper ${k ? "-ms-2.5" : ""}`} />
               ))}
             </span>
           </Link>
-          <p className="mt-5 text-center text-sm text-ink-2 tabular-nums" dir="rtl">
+          <p className="mt-5 text-center text-base text-ink-2 tabular-nums" dir="rtl">
             רשימה {shown[0] + 1} מתוך {lists.length} ·{" "}
             <Link href="/#lists" className="font-medium text-ink underline underline-offset-4">
               לכולן
@@ -82,7 +82,7 @@ export function HeroRegister({ lists, counts }: { lists: HeroListItem[]; counts:
                       <Face key={k} f={f} sizes="32px" className={`size-7 rounded-full bg-tile text-[0.55rem] text-ink/40 ring-2 ring-paper ${k ? "-ms-1.5" : ""}`} />
                     ))}
                   </span>
-                  <span className="text-sm whitespace-nowrap text-ink-2">+{Math.max(l.count - 4, 0)}</span>
+                  <span className="text-base whitespace-nowrap text-ink-2">+{Math.max(l.count - 4, 0)}</span>
                 </span>
               </span>
             </Link>

@@ -107,7 +107,7 @@ export function TopicChat({ topics }: { topics: ChatTopic[] }) {
                 <Link href={`/topics#${m.t.key}:${m.r.id}`} className="flex items-end gap-2.5">
                   <Avatar name={m.r.face.name} src={m.r.face.src} color={m.r.face.color} size={38} />
                   <span className="max-w-[30rem] rounded-2xl rounded-es-md bg-paper px-4 py-2.5">
-                    <span className="title block text-sm text-ink-2">{m.r.name}</span>
+                    <span className="title block text-base text-ink-2">{m.r.name}</span>
                     <span className="line-clamp-3 block text-base leading-snug text-pretty">{m.r.text}</span>
                   </span>
                 </Link>

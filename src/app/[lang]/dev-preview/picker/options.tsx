@@ -142,7 +142,7 @@ export function PickerShuffle({ rows, topics }: Props) {
                 type="button"
                 aria-pressed={locked[i]}
                 onClick={() => setLocked((l) => l.map((v, j) => (j === i ? !v : v)))}
-                className={`mt-3 rounded-full px-4 py-1.5 text-sm font-medium transition ${locked[i] ? "bg-ink text-paper" : "bg-tile hover:bg-line"}`}
+                className={`mt-3 rounded-full px-4 py-1.5 text-base font-medium transition ${locked[i] ? "bg-ink text-paper" : "bg-tile hover:bg-line"}`}
               >
                 {locked[i] ? "נעולה" : "נעלו"}
               </button>
@@ -183,7 +183,7 @@ export function PickerCheckboxMenu({ rows, topics }: Props) {
       <div ref={wrap} className="relative flex flex-wrap items-center gap-2">
         <span className="text-xl whitespace-nowrap text-ink">אני מתלבט בין</span>
         <button type="button" aria-expanded={open} onClick={() => setOpen(!open)} className="inline-flex h-10 items-center gap-2 rounded-lg border border-ink/20 bg-paper px-4 text-base font-medium hover:border-ink/40">
-          רשימות {picked.length > 0 && <span className="grid min-w-5 place-items-center rounded-full bg-ink px-1.5 text-xs text-paper">{picked.length}</span>} <span aria-hidden>▾</span>
+          רשימות {picked.length > 0 && <span className="grid min-w-5 place-items-center rounded-full bg-ink px-1.5 text-base text-paper">{picked.length}</span>} <span aria-hidden>▾</span>
         </button>
         {picked.map((slug) => (
           <span key={slug} className="inline-flex h-11 items-center gap-1.5 rounded-lg bg-tile ps-1.5 pe-1 text-base">
@@ -195,7 +195,7 @@ export function PickerCheckboxMenu({ rows, topics }: Props) {
           </span>
         ))}
         {picked.length > 0 && (
-          <button type="button" onClick={() => setPicked([])} className="text-sm text-ink-2 underline-offset-4 hover:underline">
+          <button type="button" onClick={() => setPicked([])} className="text-base text-ink-2 underline-offset-4 hover:underline">
             ניקוי
           </button>
         )}
@@ -215,9 +215,9 @@ export function PickerCheckboxMenu({ rows, topics }: Props) {
                   </li>
                 );
               })}
-              {shown.length === 0 && <li className="px-2 py-3 text-sm text-ink-2">לא נמצאה רשימה.</li>}
+              {shown.length === 0 && <li className="px-2 py-3 text-base text-ink-2">לא נמצאה רשימה.</li>}
             </ul>
-            {picked.length >= MAX && <p className="px-2 pt-2 text-xs text-muted">אפשר להשוות עד {MAX} רשימות.</p>}
+            {picked.length >= MAX && <p className="px-2 pt-2 text-base text-muted">אפשר להשוות עד {MAX} רשימות.</p>}
           </div>
         )}
       </div>
@@ -236,11 +236,11 @@ export function PickerPills({ rows, topics }: Props) {
     <div>
       <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
         <input value={q} onChange={(e) => setQ(e.target.value)} placeholder="סינון רשימות..." aria-label="סינון רשימות" className="h-9 w-48 rounded-lg border border-ink/20 px-3 text-base outline-none focus:border-ink" />
-        <span className="text-sm text-muted">
+        <span className="text-base text-muted">
           {picked.length} מתוך {MAX} נבחרו
         </span>
         {picked.length > 0 && (
-          <button type="button" onClick={() => setPicked([])} className="text-sm text-ink-2 underline-offset-4 hover:underline">
+          <button type="button" onClick={() => setPicked([])} className="text-base text-ink-2 underline-offset-4 hover:underline">
             ניקוי
           </button>
         )}
@@ -255,7 +255,7 @@ export function PickerPills({ rows, topics }: Props) {
               aria-pressed={on}
               disabled={!on && picked.length >= MAX}
               onClick={() => toggle(r.slug)}
-              className={`h-8 rounded-full px-3 text-sm font-medium transition disabled:opacity-40 ${on ? "bg-ink text-paper" : "bg-tile hover:bg-line"}`}
+              className={`h-8 rounded-full px-3 text-base font-medium transition disabled:opacity-40 ${on ? "bg-ink text-paper" : "bg-tile hover:bg-line"}`}
             >
               {r.name}
             </button>

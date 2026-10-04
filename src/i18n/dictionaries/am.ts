@@ -28,7 +28,7 @@ export const am: Dictionary = {
     map: "የአቋም ካርታ",
     people: "የፓርቲ መሪዎች",
     lists: "ፓርቲዎች",
-    vote: "እንዴት እንመርጣለን",
+    vote: "የድምጽ መስጫ መመሪያ",
     about: "ምንጮችና ዘዴ",
     resources: "ይፋዊ አገናኞች",
     contact: "አግኙን",

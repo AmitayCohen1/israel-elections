@@ -45,7 +45,7 @@ export function YouTubeLite({ id, title, outlet }: { id: string; title: string; 
       </div>
       <figcaption className="mt-2">
         <span className="block leading-snug font-medium text-pretty">{title}</span>
-        <span className="block text-sm text-ink-2">{outlet}</span>
+        <span className="block text-base text-ink-2">{outlet}</span>
       </figcaption>
     </figure>
   );

@@ -90,7 +90,7 @@ export function TopicColumn({ topics, every = 9000, className = "" }: { topics: 
           ))}
         </ul>
 
-        <Link href={`/topics#${t.key}`} className="mt-auto shrink-0 pt-3 text-sm text-ink-2 underline-offset-4 hover:text-ink hover:underline">
+        <Link href={`/topics#${t.key}`} className="mt-auto shrink-0 pt-3 text-base text-ink-2 underline-offset-4 hover:text-ink hover:underline">
           {tx.all(t.rows.length, t.label)} <Arrow />
         </Link>
       </div>

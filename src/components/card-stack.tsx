@@ -72,7 +72,7 @@ export async function CardStack({ cards, title, body, href, cta }: { cards: Stac
                     className={`sc-card ${i === n - 1 ? "sc-last" : ""} ${SURFACES[i % SURFACES.length]}`}
                     style={{ "--a": outA, "--b": outB } as React.CSSProperties}
                   >
-                    <p className="text-sm tracking-widest text-ink-2 tabular-nums" dir="ltr">
+                    <p className="text-base tracking-widest text-ink-2 tabular-nums" dir="ltr">
                       {String(i + 1).padStart(2, "0")} / {String(n).padStart(2, "0")}
                     </p>
                     <p className="title mt-6 text-[1.7rem] leading-snug text-pretty sm:text-[1.9rem]">{t.ask(topicLabel(dict, c.topic))}</p>

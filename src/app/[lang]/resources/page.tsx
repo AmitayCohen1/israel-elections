@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { getMessages } from "@/i18n";
 import Link from "@/i18n/link";
 import { m } from "@/i18n/messages/resources";
@@ -18,7 +19,7 @@ const OFFICIAL_URLS = [
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getMessages(m);
-  return { title: t.title };
+  return pageMeta({ path: "/resources", title: t.title, description: t.hint });
 }
 
 export default async function Resources() {

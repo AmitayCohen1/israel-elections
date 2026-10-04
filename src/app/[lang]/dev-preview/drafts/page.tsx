@@ -51,7 +51,7 @@ function Header({ draft, list, tight }: { draft: Draft; list?: ListMeta; tight?:
   const host = new URL(draft.source_url).hostname.replace(/^www\./, "");
   return (
     <header className={`${tight ? "pb-10" : "pb-14"} pt-12 text-center`}>
-      <p className="text-sm tracking-wide text-muted">טיוטה לבדיקה פנימית · לא מפורסם באתר</p>
+      <p className="text-base tracking-wide text-muted">טיוטה לבדיקה פנימית · לא מפורסם באתר</p>
       <h1 className="serif mt-5 text-[clamp(2.75rem,4.6vw,4.5rem)]">{list?.name ?? draft.slug}</h1>
       <p className="mt-5 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-lg text-ink-2">
         {list && <Ballot letters={list.letters} color={list.color} size="sm" className="-rotate-6" />}
@@ -101,7 +101,7 @@ function OptionDocument({ draft, list }: { draft: Draft; list?: ListMeta }) {
       <div className="border-t border-line-strong">
         {groups.map(([key, items], gi) => (
           <section key={key} className="py-10">
-            <p className="flex items-center gap-3 text-sm font-semibold tracking-widest text-muted">
+            <p className="flex items-center gap-3 text-base font-semibold tracking-widest text-muted">
               <TopicIllustration topic={key} className="!mx-0 !w-11 shrink-0" />
               {TOPICS[key].label}
             </p>
@@ -159,7 +159,7 @@ function OptionTestimony({ draft, list }: { draft: Draft; list?: ListMeta }) {
       <Header draft={draft} list={list} />
       {grouped(draft.positions).map(([key, items]) => (
         <section key={key} className="border-t border-line py-12">
-          <p className="flex items-center gap-3 text-sm font-semibold tracking-widest text-muted">
+          <p className="flex items-center gap-3 text-base font-semibold tracking-widest text-muted">
             <TopicIllustration topic={key} className="!mx-0 !w-11 shrink-0" />
             {TOPICS[key].label}
           </p>
@@ -236,7 +236,7 @@ function OptionGallery({ draft, list }: { draft: Draft; list?: ListMeta }) {
           <a key={key} href={`#g-${key}`} className="group rounded-[1.75rem] bg-tile/60 px-4 pt-5 pb-4 text-center transition hover:bg-tile">
             <TopicIllustration topic={key} className="!w-16 transition group-hover:scale-105" />
             <span className="mt-3 block leading-tight font-medium">{TOPICS[key].label}</span>
-            <span className="mt-1 block text-sm text-muted">{items.length} עמדות</span>
+            <span className="mt-1 block text-base text-muted">{items.length} עמדות</span>
           </a>
         ))}
       </nav>
@@ -314,7 +314,7 @@ function OptionDigest({ draft, list }: { draft: Draft; list?: ListMeta }) {
           <ul className="mt-6 space-y-4 border-r-2 border-line-strong pr-4">
             {items.map((p, i) => (
               <li key={i} className="leading-relaxed text-ink-2">
-                ”{p.quote}“ <span className="text-sm text-muted">· מתוך המצע</span>
+                ”{p.quote}“ <span className="text-base text-muted">· מתוך המצע</span>
               </li>
             ))}
           </ul>
@@ -357,7 +357,7 @@ function OptionTakeFirst({ draft, list }: { draft: Draft; list?: ListMeta }) {
             key={key}
             name="l-topics"
             title={<span className="text-[1.45rem] leading-snug sm:text-[1.7rem]">{draft.topic_titles?.[key]}</span>}
-            sub={<span className="text-sm tracking-wide text-muted">{TOPICS[key].label}</span>}
+            sub={<span className="text-base tracking-wide text-muted">{TOPICS[key].label}</span>}
             lead={<TopicIllustration topic={key} className="!mx-0 !w-14 shrink-0" />}
           >
             <p className="text-lg leading-relaxed text-pretty sm:text-xl">{draft.topic_digests?.[key]}</p>
@@ -418,7 +418,7 @@ export default async function DraftDesigns() {
 
   return (
     <div className="pb-24">
-      <nav className="mx-auto flex max-w-3xl flex-wrap items-center justify-center gap-x-5 gap-y-1 px-4 pt-8 text-sm text-ink-2" dir="ltr">
+      <nav className="mx-auto flex max-w-3xl flex-wrap items-center justify-center gap-x-5 gap-y-1 px-4 pt-8 text-base text-ink-2" dir="ltr">
         {OPTIONS.map((o) => (
           <a key={o.id} href={`#${o.id}`} className="underline-offset-4 hover:underline">
             {o.id.toUpperCase()} · {o.title}
@@ -431,7 +431,7 @@ export default async function DraftDesigns() {
             <span className="serif text-6xl uppercase">{o.id}</span>
             <div>
               <p className="title text-xl">{o.title}</p>
-              <p className="mt-1 text-sm text-ink-2">{o.note}</p>
+              <p className="mt-1 text-base text-ink-2">{o.note}</p>
             </div>
           </div>
           <div className="mt-6">{RENDER[o.id as keyof typeof RENDER]}</div>

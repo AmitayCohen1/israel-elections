@@ -49,7 +49,7 @@ export default async function OverviewOptions() {
             {main.slice(0, 6).map((l) => (
               <ListMark key={l.slug} list={l} size={40} />
             ))}
-            <span className="ms-1 text-sm text-ink-2">ועוד {lists.length - 6}</span>
+            <span className="ms-1 text-base text-ink-2">ועוד {lists.length - 6}</span>
           </span>
         </Link>
         <Link href="/people" className={TILE}>
@@ -68,7 +68,7 @@ export default async function OverviewOptions() {
           <span className="title mt-1 text-6xl leading-none tabular-nums">{positions}</span>
           {first && (
             <span className="mt-auto block pt-5">
-              <span className="block text-sm text-ink-2">{first.name} · כלכלה</span>
+              <span className="block text-base text-ink-2">{first.name} · כלכלה</span>
               <span className="mt-1 line-clamp-2 block text-lg leading-snug">{first.gist}</span>
             </span>
           )}

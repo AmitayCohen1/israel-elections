@@ -2,6 +2,7 @@ import { getIntl, getMessages } from "@/i18n";
 import { defineMessages } from "@/i18n/messages";
 import { arCount, ruPlural } from "@/i18n/messages/plural";
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { Suspense } from "react";
 import { getSearchIndex } from "@/lib/data";
 import { View, ViewHead } from "@/components/view-head";
@@ -34,7 +35,7 @@ const m = defineMessages(
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getMessages(m);
-  return { title: t.title };
+  return pageMeta({ path: "/search", title: t.title });
 }
 
 export default async function SearchPage() {

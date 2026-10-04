@@ -44,7 +44,7 @@ async function load() {
 function Stat({ label, value }: { label: string; value: number }) {
   return (
     <div className="rounded-2xl bg-tile p-5">
-      <p className="text-sm text-muted">{label}</p>
+      <p className="text-base text-muted">{label}</p>
       <p className="mt-1 text-3xl font-medium tabular-nums">{fmt.format(value)}</p>
     </div>
   );
@@ -54,11 +54,11 @@ function Chart({ days }: { days: Day[] }) {
   const max = Math.max(1, ...days.map((d) => d.views));
   return (
     <div className="rounded-2xl bg-tile p-5">
-      <p className="text-sm text-muted">Page views per day · last 30 days</p>
+      <p className="text-base text-muted">Page views per day · last 30 days</p>
       <div className="mt-4 flex h-40 items-end gap-1" role="img" aria-label="Daily page views">
         {days.map((d) => (
           <div key={d.day} className="group relative flex-1 rounded-t bg-accent/80 hover:bg-accent" style={{ height: `${Math.max(2, (d.views / max) * 100)}%` }}>
-            <span className="pointer-events-none absolute bottom-full left-1/2 z-10 mb-1 hidden -translate-x-1/2 whitespace-nowrap rounded bg-ink px-2 py-1 text-xs text-paper group-hover:block">
+            <span className="pointer-events-none absolute bottom-full left-1/2 z-10 mb-1 hidden -translate-x-1/2 whitespace-nowrap rounded bg-ink px-2 py-1 text-base text-paper group-hover:block">
               {d.day} · {d.views} views · {d.visitors} visitors
             </span>
           </div>
@@ -72,10 +72,10 @@ function Top({ title, rows, empty = "No data yet" }: { title: string; rows: Coun
   const max = Math.max(1, ...rows.map((r) => r.n));
   return (
     <div className="rounded-2xl bg-tile p-5">
-      <p className="text-sm text-muted">{title}</p>
+      <p className="text-base text-muted">{title}</p>
       <ul className="mt-3 space-y-2">
         {rows.map((r) => (
-          <li key={r.label} className="relative overflow-hidden rounded-lg px-3 py-1.5 text-sm">
+          <li key={r.label} className="relative overflow-hidden rounded-lg px-3 py-1.5 text-base">
             <span className="absolute inset-y-0 start-0 bg-accent/10" style={{ width: `${(r.n / max) * 100}%` }} />
             <span className="relative flex justify-between gap-4">
               <span className="truncate" dir="auto">{r.label}</span>
@@ -83,7 +83,7 @@ function Top({ title, rows, empty = "No data yet" }: { title: string; rows: Coun
             </span>
           </li>
         ))}
-        {rows.length === 0 && <li className="text-sm text-ink-2">{empty}</li>}
+        {rows.length === 0 && <li className="text-base text-ink-2">{empty}</li>}
       </ul>
     </div>
   );
@@ -110,7 +110,7 @@ async function Dashboard() {
             <Top title="Languages" rows={d.langs} />
           </div>
         </div>
-        <p className="mt-3 text-xs text-muted">Cookieless and anonymous. Visitors are counted per day; bots are skipped.</p>
+        <p className="mt-3 text-base text-muted">Cookieless and anonymous. Visitors are counted per day; bots are skipped.</p>
       </section>
 
       <section className="mt-12">
@@ -118,7 +118,7 @@ async function Dashboard() {
         <ul className="mt-4 border-t border-line">
           {d.messages.map((m) => (
             <li key={m.id} className="border-b border-line py-5">
-              <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1 text-sm text-muted">
+              <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1 text-base text-muted">
                 <span className="text-base font-medium text-ink" dir="auto">
                   {m.contact ? <a href={`mailto:${m.contact}`} className="hover:underline">{m.contact}</a> : (m.list_name ?? "No email")}
                 </span>
@@ -127,7 +127,7 @@ async function Dashboard() {
               </div>
               <p className="mt-2 whitespace-pre-wrap leading-relaxed" dir="auto">{m.message}</p>
               {(m.link || m.name || m.list_name) && (
-                <div className="mt-2 flex flex-wrap gap-x-5 text-sm text-ink-2">
+                <div className="mt-2 flex flex-wrap gap-x-5 text-base text-ink-2">
                   {m.link && <a href={m.link} target="_blank" rel="noreferrer noopener" className="text-accent hover:underline" dir="ltr">{m.link}</a>}
                   {m.name && <span dir="auto">{m.name}</span>}
                   {m.list_name && m.contact && <span dir="auto">{m.list_name}</span>}
@@ -144,7 +144,7 @@ async function Dashboard() {
 
 async function Who() {
   const admin = await getAdmin();
-  return <span className="text-sm text-ink-2">{admin?.email}</span>;
+  return <span className="text-base text-ink-2">{admin?.email}</span>;
 }
 
 export default function AdminPage() {

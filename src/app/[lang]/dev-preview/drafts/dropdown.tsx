@@ -23,9 +23,9 @@ export function TopicDropdown({ groups }: { groups: Group[] }) {
           <Image src={`/media/illustrations/topics/${g.key}.png`} alt="" width={200} height={200} className="w-11" />
           <span className="flex-1">
             <span className="block text-lg leading-tight font-medium">{g.label}</span>
-            <span className="block text-sm text-muted">{g.items.length} עמדות</span>
+            <span className="block text-base text-muted">{g.items.length} עמדות</span>
           </span>
-          <span aria-hidden className={`text-sm text-ink-2 transition ${open ? "rotate-180" : ""}`}>
+          <span aria-hidden className={`text-base text-ink-2 transition ${open ? "rotate-180" : ""}`}>
             ▼
           </span>
         </button>
@@ -43,7 +43,7 @@ export function TopicDropdown({ groups }: { groups: Group[] }) {
                 >
                   <Image src={`/media/illustrations/topics/${t.key}.png`} alt="" width={200} height={200} className="w-9" />
                   <span className="flex-1 font-medium">{t.label}</span>
-                  <span className="text-sm text-muted">{t.items.length}</span>
+                  <span className="text-base text-muted">{t.items.length}</span>
                 </button>
               </li>
             ))}

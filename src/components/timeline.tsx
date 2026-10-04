@@ -76,7 +76,7 @@ export function Timeline({ compact = false }: { compact?: boolean }) {
                     <p className="flex flex-wrap items-center gap-x-3 gap-y-1 text-base text-muted">
                       {new Date(e.date).toLocaleDateString(`${LOCALE_INFO[lang].intl}-u-ca-gregory`, { day: "numeric", month: "long", timeZone: "UTC" })}
                       {isNext && (
-                        <span className="rounded-full bg-ink px-3 py-0.5 text-sm font-medium text-paper">
+                        <span className="rounded-full bg-ink px-3 py-0.5 text-base font-medium text-paper">
                           {t.next}
                           {daysAway > 0 ? t.inDays(daysAway, tm.days(daysAway)) : t.isToday}
                         </span>

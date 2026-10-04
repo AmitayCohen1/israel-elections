@@ -37,7 +37,7 @@ export function HeroRow({ lists, counts }: { lists: HeroListItem[]; counts: stri
                 ))}
               </span>
               <span className="title mt-4 line-clamp-2 text-[1.3rem] leading-tight underline-offset-4 group-hover:underline">{l.name}</span>
-              <span className="mt-1 text-sm text-ink-2">{l.count} מועמדים</span>
+              <span className="mt-1 text-base text-ink-2">{l.count} מועמדים</span>
             </Link>
           );
         })}

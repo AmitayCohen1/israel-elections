@@ -33,11 +33,11 @@ export function HeroBoard({ stances, counts }: { stances: StancesByTopic; counts
                 <TopicIllustration topic={topic} className="!w-16" />
               </span>
               <span className="serif flex-1 text-5xl leading-none">{TOPICS[topic].label}</span>
-              <span className="text-sm text-white/60">מה הרשימות אומרות</span>
+              <span className="text-base text-white/60">מה הרשימות אומרות</span>
             </div>
             {say.map((s, i) => (
               <Link key={s.slug} href={`/lists/${s.slug}#positions`} style={vars({ "--d": `${120 + i * 110}ms`, "--i": i + 1 })} className="flip group flex items-center gap-4 border-b border-line px-5 py-3.5 last:border-b-0">
-                <Lead l={who(s)} sizes="48px" className="size-11 shrink-0 rounded-full bg-tile text-xs" />
+                <Lead l={who(s)} sizes="48px" className="size-11 shrink-0 rounded-full bg-tile text-base" />
                 <span className="title w-32 shrink-0 leading-tight underline-offset-4 group-hover:underline">{s.name}</span>
                 <span className="min-w-0 flex-1 text-[1.05rem] leading-snug text-ink-2 text-pretty">{s.text}</span>
               </Link>
@@ -129,7 +129,7 @@ export function HeroFlip({ stances, counts }: { stances: StancesByTopic; counts:
             {say.map((s, i) => (
               <Link key={s.slug} href={`/lists/${s.slug}#positions`} style={vars({ "--d": `${250 + i * 140}ms`, "--i": i + 1 })} className="flipcard group relative block h-[9.25rem]">
                 <span className={`${face} flex items-start gap-3 p-4`}>
-                  <Lead l={who(s)} sizes="48px" className="size-10 shrink-0 rounded-full bg-tile text-xs" />
+                  <Lead l={who(s)} sizes="48px" className="size-10 shrink-0 rounded-full bg-tile text-base" />
                   <span className="min-w-0 leading-snug">
                     <span className="title block underline-offset-4 group-hover:underline">{s.name}</span>
                     <span className="mt-0.5 block text-[0.98rem] text-ink-2 text-pretty">{s.text}</span>

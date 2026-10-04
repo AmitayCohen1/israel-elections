@@ -59,7 +59,7 @@ export default async function DraftPage({ params }: PageProps<"/[lang]/drafts/[s
       <div className="mx-auto max-w-4xl">
         <TopicCanvas>
           <header className="pt-12 pb-12 text-center sm:pt-14">
-            <p className="text-sm tracking-wide text-muted">
+            <p className="text-base tracking-wide text-muted">
               טיוטה לבדיקה פנימית · {draft.status === "approved" ? "מאושרת, מפורסמת בעמוד הרשימה" : "לא מפורסם באתר"}
               {draft.review && ` · סקירה: ${draft.review.verdict}`}
             </p>
@@ -73,7 +73,7 @@ export default async function DraftPage({ params }: PageProps<"/[lang]/drafts/[s
                 </a>
               </span>
             </p>
-            {draft.review?.notes && <p className="mx-auto mt-5 max-w-xl text-sm leading-relaxed text-ink-2">{draft.review.notes}</p>}
+            {draft.review?.notes && <p className="mx-auto mt-5 max-w-xl text-base leading-relaxed text-ink-2">{draft.review.notes}</p>}
           </header>
 
           <div className="border-t border-ink/10">

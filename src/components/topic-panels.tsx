@@ -61,7 +61,7 @@ export function topicItems(lists: List[], key: TopicKey, ui: TopicUi = HE_UI): R
     const body = (
       <div>
         <OwnWords items={items} summary={digest} />
-        <p className="mt-5 text-sm font-semibold">
+        <p className="mt-5 text-lg font-semibold">
           <Link href={`/lists/${l.slug}#positions`} className="text-accent underline-offset-4 hover:underline">
             {t.allPositionsOf(l.name)} <Arrow />
           </Link>
@@ -87,13 +87,13 @@ export function topicItems(lists: List[], key: TopicKey, ui: TopicUi = HE_UI): R
                     {l.name}
                   </Link>
                 </h3>
-                {gist && <p className="mt-1 text-lg text-ink-2">{gist}</p>}
+                {gist && <p className="mt-1 text-xl text-ink-2">{gist}</p>}
               </div>
             </div>
             <div className="mt-6">
               <OwnWords items={items} summary={digest} />
             </div>
-            <div className="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-sm font-semibold">
+            <div className="mt-8 flex flex-wrap gap-x-6 gap-y-2 text-lg font-semibold">
               <Link href={`/lists/${l.slug}#positions`} className="text-accent underline-offset-4 hover:underline">
                 {t.allPositionsOf(l.name)} <Arrow />
               </Link>
@@ -133,7 +133,7 @@ export async function TopicEmpty({ topic }: { topic: TopicKey }) {
     <div className="flex min-h-[22rem] flex-col items-center justify-center text-center">
       <TopicIllustration topic={topic} className="!w-32 mix-blend-multiply" />
       <p className="title mt-6 text-2xl">{t.pickTitle}</p>
-      <p className="mt-2 max-w-sm text-lg text-ink-2">{t.pickBody(topicLabel(dict, topic))}</p>
+      <p className="mt-2 max-w-sm text-xl text-ink-2">{t.pickBody(topicLabel(dict, topic))}</p>
     </div>
   );
 }

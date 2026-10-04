@@ -20,7 +20,7 @@ function useCycle(n: number, ms: number) {
 function Bubble({ v, className = "" }: { v: Voice; className?: string }) {
   return (
     <div className={`rounded-[1.75rem] border border-line bg-card p-5 text-right shadow-[0_30px_60px_-30px_rgb(0_12_31/0.5)] ${className}`} dir="rtl">
-      <p className="text-sm text-ink-2">
+      <p className="text-base text-ink-2">
         {v.list} · {v.topic}
       </p>
       <p className="serif mt-2 text-[1.45rem] leading-[1.2]">{v.text}</p>
@@ -137,7 +137,7 @@ export function OptionCoverflow({ voices }: { voices: Voice[] }) {
             <Image src={v.img} alt={d === 0 ? v.leader : ""} fill sizes="340px" className="object-cover object-top" priority={k < 2} />
             <span className={`absolute inset-0 bg-[linear-gradient(180deg,transparent_42%,rgb(0_12_31/0.88)_100%)] transition-opacity duration-500 ${d === 0 ? "opacity-100" : "opacity-0"}`} />
             <span className={`absolute inset-x-6 bottom-6 text-right text-white transition-opacity duration-500 ${d === 0 ? "opacity-100" : "opacity-0"}`} dir="rtl">
-              <span className="block text-sm text-white/70">
+              <span className="block text-base text-white/70">
                 {v.list} · {v.topic}
               </span>
               <span className="serif mt-1.5 block text-[1.5rem] leading-[1.18]">{v.text}</span>

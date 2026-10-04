@@ -29,7 +29,7 @@ export default async function PickerDesigns() {
   };
   return (
     <div className="pb-24">
-      <p className="mx-auto mt-8 max-w-3xl px-4 text-center text-sm text-muted">Real data. Every option picks the lists and feeds the same full comparison.</p>
+      <p className="mx-auto mt-8 max-w-3xl px-4 text-center text-base text-muted">Real data. Every option picks the lists and feeds the same full comparison.</p>
       <div className="mx-auto mt-6 max-w-[80rem] px-4">
         <Tabs
           tabs={OPTIONS.map((o) => ({ id: o.id, label: `${o.id.toUpperCase()} · ${o.title}` }))}

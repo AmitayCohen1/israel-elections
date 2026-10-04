@@ -4,11 +4,11 @@ import { defineMessages } from "@/i18n/messages";
 export const m = defineMessages(
   {
     title: "קישורים רשמיים",
-    hint: "אל תסתמכו רק עלינו. כל המקומות הרשמיים, במקום אחד.",
-    state: "המדינה",
+    hint: "אל תסתמכו רק עלינו. קישורים למקורות הרשמיים ולחומרי רקע, במקום אחד.",
+    state: "מקורות ממשלתיים",
     official: [
       ["ועדת הבחירות המרכזית", "האתר הרשמי של הבחירות: הודעות, החלטות, ובליל הבחירות — תוצאות האמת."],
-      ["איפה אני מצביע?", "מזינים תעודת זהות ומקבלים את כתובת הקלפי שלכם."],
+      ["איפה אני מצביע?", "מזינים מספר תעודת זהות ומקבלים את כתובת הקלפי שלכם."],
       ["רשימות המועמדים שאושרו", "כל רשימה כפי שהוגשה לוועדה: המועמדים, הסדר ואותיות הפתק."],
       ["אתר הכנסת", "הכנסת היוצאת: חברי הכנסת, הוועדות והחקיקה."],
       ["המאגר הפתוח של הכנסת", "נתונים פתוחים למי שרוצה לבדוק בעצמו: כהונות, הצעות חוק והצבעות."],
@@ -24,10 +24,10 @@ export const m = defineMessages(
   {
     en: {
       title: "Official links",
-      hint: "Don't rely on us alone. All the official places, in one spot.",
-      state: "The state",
+      hint: "Don't rely on us alone. Links to official sources and background research, in one place.",
+      state: "Government sources",
       official: [
-        ["Central Elections Committee", "The official elections website: announcements, decisions and, on election night, the real results."],
+        ["Central Elections Committee", "The official elections website: announcements, decisions and, on election night, the vote counts."],
         ["Where do I vote?", "Enter your ID number and get the address of your polling station."],
         ["Approved candidate lists", "Each list as submitted to the committee: the candidates, their order and the ballot letters."],
         ["Knesset website", "The outgoing Knesset: members, committees and legislation."],
@@ -37,9 +37,9 @@ export const m = defineMessages(
       idi: "Israel Democracy Institute",
       idiText: "An independent research institute: overviews of the parties and an archive of platforms from past elections.",
       perParty: "Each party's official page",
-      perPartyText: "As published by the Elections Committee, in the order used on its site: the parties from the polls first, then all the rest.",
+      perPartyText: "As published by the Elections Committee, in the same groups as our party directory: parties included in polls first, then the others.",
       howWeUse: "How do we use these sources?",
-      aboutLink: "Sources and method",
+      aboutLink: "Sources and methodology",
     },
     ar: {
       title: "روابط رسمية",

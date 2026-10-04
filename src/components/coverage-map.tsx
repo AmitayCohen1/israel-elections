@@ -63,12 +63,12 @@ export async function CoverageMap({ lists }: { lists: List[] }) {
   const head = (
     <thead>
       <tr className="border-b border-ink/10 align-bottom">
-        <th className="pb-3 text-start text-sm font-normal text-muted">{t.party}</th>
+        <th className="pb-3 text-start text-base font-normal text-muted">{t.party}</th>
         {TOPIC_KEYS.map((k) => (
           <th key={k} scope="col" className="px-1 pb-3 text-center font-normal">
             <Link href={`/#${k}`} className="group flex flex-col items-center gap-1">
               <TopicIllustration topic={k} className="!w-14 transition group-hover:scale-110" />
-              <span className="text-xs leading-tight text-ink-2 group-hover:underline">{topicLabel(dict, k)}</span>
+              <span className="text-base leading-tight text-ink-2 group-hover:underline">{topicLabel(dict, k)}</span>
             </Link>
           </th>
         ))}

@@ -26,7 +26,7 @@ export function AccRow({
           <span className="title block text-xl">{title}</span>
           {sub && <span className="mt-1 block text-base text-ink-2">{sub}</span>}
         </span>
-        {meta && <span className="shrink-0 text-sm text-ink-2">{meta}</span>}
+        {meta && <span className="shrink-0 text-base text-ink-2">{meta}</span>}
         <Chevron className="size-8 bg-tile" />
       </summary>
       <div className="pb-6">{children}</div>
@@ -40,7 +40,7 @@ export function AccEmpty({ title, lead, note }: { title: React.ReactNode; lead?:
     <div className="flex items-center gap-4 border-b border-line py-4 opacity-45">
       {lead}
       <span className="title flex-1 text-xl">{title}</span>
-      <span className="shrink-0 text-sm">{note}</span>
+      <span className="shrink-0 text-base">{note}</span>
     </div>
   );
 }

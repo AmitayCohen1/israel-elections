@@ -112,7 +112,7 @@ export function CountdownDots() {
             );
           })}
         </div>
-        <p className="mt-5 flex justify-between text-sm text-ink-2" aria-hidden>
+        <p className="mt-5 flex justify-between text-base text-ink-2" aria-hidden>
           <span>פיזור הכנסת</span>
           <span>יום הבחירות</span>
         </p>

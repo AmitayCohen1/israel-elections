@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { getLocale, getMessages } from "@/i18n";
 import { defineMessages } from "@/i18n/messages";
 import { getDataset } from "@/lib/data";
@@ -9,14 +10,14 @@ import { View, ViewHead } from "@/components/view-head";
 const m = defineMessages(
   {
     title: "ראשי המפלגות",
-    description: "מי עומד בראש כל מפלגה, מה עשה בחייו ומי איתו בצוות.",
-    hint: "בראש כל מפלגה עומד אדם. בחרו אחד כדי לקרוא מי הוא, מה עשה בחייו ומי איתו בצוות.",
+    description: "ראשי המפלגות והמועמדים המובילים: רקע, ניסיון ותפקידים ציבוריים.",
+    hint: "בחרו ראש מפלגה כדי לקרוא על הרקע והניסיון שלו ולהכיר את המועמדים המובילים ברשימה.",
   },
   {
     en: {
       title: "Party leaders",
-      description: "Who heads each party, what they have done in their life, and who is on their team.",
-      hint: "Every party has someone at its head. Pick one to read who they are, what they have done, and who is on their team.",
+      description: "Party leaders and leading candidates: background, experience and public service.",
+      hint: "Choose a party leader to explore their background and experience, and meet the leading candidates on their list.",
     },
     ar: {
       title: "رؤساء الأحزاب",
@@ -38,7 +39,7 @@ const m = defineMessages(
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getMessages(m);
-  return { title: t.title, description: t.description };
+  return pageMeta({ path: "/people", title: t.title, description: t.description });
 }
 
 export default async function People() {

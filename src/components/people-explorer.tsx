@@ -8,13 +8,13 @@ import { Avatar } from "@/components/avatar";
 
 const m = defineMessages(
   {
-    others: (n: number) => `עוד ${n} מפלגות, שעוד אין עליהן תמונה או רקע`,
+    others: (n: number) => `עוד ${n} מפלגות`,
     place: (p: number): [string, string] => (p === 1 ? ["בראש ", ""] : [`מקום ${p} ב`, ""]),
     sitting: (n: number) => (n === 1 ? "חבר כנסת מכהן אחד ברשימה" : `${n} חברי כנסת מכהנים ברשימה`),
     source: "מקור",
     moreAbout: (name: string) => `עוד על ${name}`,
     noBackground: (name: string) => `עוד לא מצאנו רקע על ${name}.`,
-    team: (list: string) => `הצוות של ${list}`,
+    team: (list: string) => `המועמדים המובילים של ${list}`,
     toPage: (name: string) => `לעמוד של ${name}`,
     wholeList: "לכל הרשימה",
     whatPartiesSay: "מה המפלגות אומרות",
@@ -22,20 +22,20 @@ const m = defineMessages(
   },
   {
     en: {
-      others: (n: number) => `${n} more parties, with no photo or background yet`,
+      others: (n: number) => `${n} more ${n === 1 ? "party" : "parties"}`,
       place: (p: number): [string, string] => (p === 1 ? ["Heads ", ""] : [`No. ${p} on `, ""]),
       sitting: (n: number) => `${n} sitting ${n === 1 ? "MK" : "MKs"} on the list`,
       source: "Source",
       moreAbout: (name: string) => `More about ${name}`,
       noBackground: (name: string) => `We haven't found any background on ${name} yet.`,
-      team: (list: string) => `${list}'s team`,
+      team: (list: string) => `Leading candidates for ${list}`,
       toPage: (name: string) => `${name}'s page`,
-      wholeList: "The whole list",
+      wholeList: "View the full candidate list",
       whatPartiesSay: "What the parties say",
       pick: "Pick a name to read about them.",
     },
     ar: {
-      others: (n: number) => `${arCount(n, ["حزب آخر", "حزبان آخران", "أحزاب أخرى", "حزبًا آخر"])}، لا توجد عنها صورة أو خلفية بعد`,
+      others: (n: number) => `${arCount(n, ["حزب آخر", "حزبان آخران", "أحزاب أخرى", "حزبًا آخر"])}`,
       place: (p: number): [string, string] => (p === 1 ? ["على رأس ", ""] : [`المكان ${p} في `, ""]),
       sitting: (n: number) => `${arCount(n, ["عضو كنيست حالي واحد", "عضوا كنيست حاليان", "أعضاء كنيست حاليين", "عضو كنيست حاليًا"])} في القائمة`,
       source: "المصدر",
@@ -48,7 +48,7 @@ const m = defineMessages(
       pick: "اختاروا اسمًا لتقرؤوا عنه.",
     },
     ru: {
-      others: (n: number) => `Ещё ${n} ${ruPlural(n, "партия, о которой", "партии, о которых", "партий, о которых")} пока нет фото и справки`,
+      others: (n: number) => `Ещё ${n} ${ruPlural(n, "партия", "партии", "партий")}`,
       place: (p: number): [string, string] => (p === 1 ? ["Во главе: ", ""] : [`№${p} в списке: `, ""]),
       sitting: (n: number) => `${n} ${ruPlural(n, "действующий депутат", "действующих депутата", "действующих депутатов")} Кнессета в списке`,
       source: "Источник",
@@ -61,7 +61,7 @@ const m = defineMessages(
       pick: "Выберите имя, чтобы прочитать о человеке.",
     },
     am: {
-      others: (n: number) => `ሌሎች ${n} ፓርቲዎች፣ ገና ፎቶ ወይም ዳራ የሌላቸው`,
+      others: (n: number) => `ሌሎች ${n} ፓርቲዎች`,
       place: (p: number): [string, string] => (p === 1 ? ["", "ን ይመራል"] : ["በ", ` ዝርዝር ውስጥ ቁጥር ${p}`]),
       sitting: (n: number) => (n === 1 ? "በዝርዝሩ ውስጥ አንድ የአሁን የክኔሴት አባል" : `በዝርዝሩ ውስጥ ${n} የአሁን የክኔሴት አባላት`),
       source: "ምንጭ",
@@ -120,12 +120,12 @@ export function PeopleExplorer({ leaders }: { leaders: LeaderEntry[] }) {
           type="button"
           onClick={() => setSel({ slug: l.slug, pos: 1 })}
           aria-pressed={on}
-          className={`flex w-24 flex-col items-center gap-1.5 rounded-2xl p-2 text-center transition lg:w-full lg:flex-row lg:gap-4 lg:px-3 lg:py-2.5 lg:text-start ${on ? "bg-mist" : "hover:bg-mist/60"}`}
+          className={`flex w-28 flex-col items-center gap-1.5 rounded-2xl p-2 text-center transition lg:w-full lg:flex-row lg:gap-5 lg:px-3 lg:py-3 lg:text-start ${on ? "bg-mist" : "hover:bg-mist/60"}`}
         >
-          <Avatar name={lead.name} src={lead.img} color={l.color} size={60} />
+          <Avatar name={lead.name} src={lead.img} color={l.color} size={88} />
           <span className="min-w-0 lg:flex-1">
-            <span className={`block truncate text-base leading-tight lg:text-lg ${on ? "title" : "font-medium"}`}>{lead.name}</span>
-            <span className="block truncate text-sm leading-tight text-ink-2 lg:text-base">{l.listName}</span>
+            <span className={`block truncate text-lg leading-tight lg:text-xl ${on ? "title" : "font-medium"}`}>{lead.name}</span>
+            <span className="block truncate text-lg leading-tight text-ink-2 lg:text-lg">{l.listName}</span>
           </span>
         </button>
       </li>
@@ -133,13 +133,13 @@ export function PeopleExplorer({ leaders }: { leaders: LeaderEntry[] }) {
   };
 
   return (
-    <div className={`grid items-start gap-6 lg:grid-cols-[24rem_minmax(0,1fr)] lg:gap-14 ${order ? "" : "[&_ul]:invisible"}`}>
+    <div className={`grid items-start gap-6 lg:grid-cols-[28rem_minmax(0,1fr)] lg:gap-14 ${order ? "" : "[&_ul]:invisible"}`}>
       {/* The picker: a strip of faces on phones, a scrolling list beside the person on wide screens. */}
       <div className="scrollbar-none -mx-4 overflow-x-auto px-4 sm:-mx-8 sm:px-8 lg:sticky lg:top-8 lg:mx-0 lg:max-h-[calc(100dvh-10rem)] lg:overflow-y-auto lg:overflow-x-visible lg:px-0">
         <ul className="flex gap-1 lg:flex-col">{main.map(row)}</ul>
         {other.length > 0 && (
           <details className="group mt-3 hidden border-t border-line pt-3 lg:block">
-            <summary className="cursor-pointer px-3 text-sm font-semibold text-accent underline-offset-4 hover:underline">{t.others(other.length)}</summary>
+            <summary className="cursor-pointer px-3 text-lg font-semibold text-accent underline-offset-4 hover:underline">{t.others(other.length)}</summary>
             <ul className="mt-2 flex flex-col gap-1">{other.map(row)}</ul>
           </details>
         )}
@@ -152,7 +152,7 @@ export function PeopleExplorer({ leaders }: { leaders: LeaderEntry[] }) {
               <Avatar name={person.name} src={person.img} color={list.color} size={120} />
               <div className="min-w-0">
                 <h2 className="serif text-4xl leading-tight text-balance sm:text-5xl">{person.name}</h2>
-                <p className="mt-1.5 text-lg text-ink-2">
+                <p className="mt-1.5 text-xl text-ink-2">
                   {t.place(person.position)[0]}
                   <Link href={`/lists/${list.slug}`} className="font-medium text-ink underline-offset-4 hover:underline">
                     {list.listName}
@@ -160,21 +160,21 @@ export function PeopleExplorer({ leaders }: { leaders: LeaderEntry[] }) {
                   {t.place(person.position)[1]}
                   {person.role && <span> · {person.role}</span>}
                 </p>
-                {list.sittingMks > 0 && <p className="mt-0.5 text-base text-ink-2">{t.sitting(list.sittingMks)}</p>}
+                {list.sittingMks > 0 && <p className="mt-0.5 text-lg text-ink-2">{t.sitting(list.sittingMks)}</p>}
               </div>
             </div>
 
-            {person.line && <p className="mt-6 text-xl leading-snug text-pretty">{person.line}</p>}
+            {person.line && <p className="mt-6 text-2xl leading-snug text-pretty">{person.line}</p>}
 
             {person.facts.length > 0 && (
               <dl className="mt-6 divide-y divide-line border-t border-line">
                 {person.facts.map((f, i) => (
                   <div key={i} className="grid grid-cols-[7rem_1fr] items-baseline gap-4 py-3 sm:grid-cols-[11rem_1fr]">
-                    <dt className="text-base text-ink-2">{f.label}</dt>
-                    <dd className="text-lg text-pretty">
+                    <dt className="text-lg text-ink-2">{f.label}</dt>
+                    <dd className="text-xl text-pretty">
                       {f.value}
                       {f.url && (
-                        <a href={f.url} target="_blank" rel="noreferrer" aria-label={t.source} title={t.source} className="ms-1.5 text-sm text-ink-2 transition hover:text-accent">
+                        <a href={f.url} target="_blank" rel="noreferrer" aria-label={t.source} title={t.source} className="ms-1.5 text-lg text-ink-2 transition hover:text-accent">
                           ↗
                         </a>
                       )}
@@ -187,17 +187,17 @@ export function PeopleExplorer({ leaders }: { leaders: LeaderEntry[] }) {
             {person.bio &&
               (person.facts.length > 0 ? (
                 <details className="group mt-4">
-                  <summary className="inline-block cursor-pointer text-base font-semibold text-accent underline-offset-4 hover:underline">{t.moreAbout(person.name)}</summary>
-                  <p className="mt-2 text-lg leading-relaxed text-pretty text-ink-2">{person.bio}</p>
+                  <summary className="inline-block cursor-pointer text-lg font-semibold text-accent underline-offset-4 hover:underline">{t.moreAbout(person.name)}</summary>
+                  <p className="mt-2 text-xl leading-relaxed text-pretty text-ink-2">{person.bio}</p>
                 </details>
               ) : (
-                <p className="mt-5 text-lg leading-relaxed text-pretty text-ink-2">{person.bio}</p>
+                <p className="mt-5 text-xl leading-relaxed text-pretty text-ink-2">{person.bio}</p>
               ))}
-            {!person.bio && !person.line && person.facts.length === 0 && <p className="mt-6 text-lg text-ink-2">{t.noBackground(person.name)}</p>}
+            {!person.bio && !person.line && person.facts.length === 0 && <p className="mt-6 text-xl text-ink-2">{t.noBackground(person.name)}</p>}
 
             {team.length > 1 && (
               <div className="mt-10">
-                <h3 className="mb-3 text-base text-ink-2">{t.team(list.listName)}</h3>
+                <h3 className="mb-3 text-lg text-ink-2">{t.team(list.listName)}</h3>
                 <ul className="flex flex-wrap gap-2">
                   {team.map((p) => (
                     <li key={p.position}>
@@ -205,9 +205,9 @@ export function PeopleExplorer({ leaders }: { leaders: LeaderEntry[] }) {
                         type="button"
                         onClick={() => setSel({ slug: list.slug, pos: p.position })}
                         aria-pressed={p.position === person.position}
-                        className={`flex items-center gap-2 rounded-full border px-4 py-1.5 text-base transition ${p.position === person.position ? "border-ink font-medium" : "border-line hover:border-ink-2"}`}
+                        className={`flex items-center gap-2 rounded-full border px-4 py-1.5 text-lg transition ${p.position === person.position ? "border-ink font-medium" : "border-line hover:border-ink-2"}`}
                       >
-                        <span className="text-sm text-ink-2 tabular-nums">{p.position}</span>
+                        <span className="text-lg text-ink-2 tabular-nums">{p.position}</span>
                         {p.name}
                       </button>
                     </li>
@@ -216,7 +216,7 @@ export function PeopleExplorer({ leaders }: { leaders: LeaderEntry[] }) {
               </div>
             )}
 
-            <p className="mt-10 flex flex-wrap items-center gap-x-6 gap-y-3 text-base font-medium">
+            <p className="mt-10 flex flex-wrap items-center gap-x-6 gap-y-3 text-lg font-medium">
               <Link href={`/lists/${list.slug}/${person.position}`} className="rounded-full bg-ink px-5 py-2.5 text-paper transition hover:bg-accent">
                 {t.toPage(person.name)}
               </Link>
@@ -229,7 +229,7 @@ export function PeopleExplorer({ leaders }: { leaders: LeaderEntry[] }) {
             </p>
           </>
         ) : (
-          <p className="py-10 text-lg text-ink-2">{t.pick}</p>
+          <p className="py-10 text-xl text-ink-2">{t.pick}</p>
         )}
       </article>
     </div>

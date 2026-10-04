@@ -53,7 +53,7 @@ export function PartyFan({ parties, every = 1300 }: { parties: FanParty[]; every
             className="toss-in absolute flex h-[5.5rem] w-[4.25rem] flex-col items-center justify-center gap-1 rounded-xl bg-paper p-1.5 text-center shadow-[0_14px_24px_-16px_rgb(0_12_31/0.45)] ring-1 ring-ink/5 [transform:rotate(var(--rot))]"
           >
             <PartyMark slug={p.slug} letters={p.letters} color={p.color} size="xs" />
-            <span className="title line-clamp-2 text-[0.65rem] leading-tight">{p.name}</span>
+            <span className="title line-clamp-2 text-base leading-tight">{p.name}</span>
           </span>
         );
       })}

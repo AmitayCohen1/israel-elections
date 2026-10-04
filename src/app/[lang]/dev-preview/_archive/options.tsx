@@ -34,7 +34,7 @@ export function OptionRows({ people, voices }: { people: PersonData[]; voices: V
                           className="flex h-[12.5rem] w-[15rem] shrink-0 flex-col justify-center rounded-[1.75rem] border border-line bg-card p-5 text-right shadow-[0_24px_50px_-36px_rgb(0_12_31/0.5)]"
                           dir="rtl"
                         >
-                          <span className="text-sm text-ink-2">
+                          <span className="text-base text-ink-2">
                             {v.list} · {v.topic}
                           </span>
                           <span className="serif mt-2 line-clamp-4 text-[1.35rem] leading-[1.2]">{v.text}</span>
@@ -75,7 +75,7 @@ export function OptionFloor({ people, voices }: { people: PersonData[]; voices: 
                         </Link>
                         {i % 4 === 2 && v && (
                           <Link href={v.href} tabIndex={copy ? -1 : undefined} className="flex aspect-[4/5] flex-col justify-end rounded-2xl bg-accent p-3.5 text-right text-white" dir="rtl">
-                            <span className="text-xs text-white/65">{v.list}</span>
+                            <span className="text-base text-white/65">{v.list}</span>
                             <span className="serif mt-1 line-clamp-5 text-lg leading-[1.15]">{v.text}</span>
                           </Link>
                         )}
@@ -107,7 +107,7 @@ export function OptionFlip({ people, voices }: { people: PersonData[]; voices: V
               <div className="absolute inset-0 grid [transform:rotateY(180deg)] place-items-center rounded-2xl bg-accent p-2 text-center text-white [backface-visibility:hidden]" dir="rtl">
                 <div>
                   <p className="serif text-lg leading-tight">{v.topic}</p>
-                  <p className="mt-1 text-xs text-white/65">{p.list}</p>
+                  <p className="mt-1 text-base text-white/65">{p.list}</p>
                 </div>
               </div>
             </div>

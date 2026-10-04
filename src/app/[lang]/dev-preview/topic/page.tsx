@@ -48,7 +48,7 @@ function EqualCard({ r, h }: { r: Row; h: string }) {
       </div>
       {r.gist && <p className="mt-4 leading-snug font-medium">{r.gist}</p>}
       <p className="mt-3 line-clamp-6 leading-relaxed text-ink-2">{r.text}</p>
-      <Link href={`/lists/${r.l.slug}#positions`} className="mt-auto pt-4 text-sm font-semibold text-accent underline-offset-4 hover:underline">
+      <Link href={`/lists/${r.l.slug}#positions`} className="mt-auto pt-4 text-base font-semibold text-accent underline-offset-4 hover:underline">
         להמשך ←
       </Link>
     </div>
@@ -111,7 +111,7 @@ function OptionText({ rows }: { rows: Row[] }) {
             <h3 className="title text-2xl">{r.l.name}</h3>
             {r.gist && <p className="mt-1 font-medium text-ink-2">{r.gist}</p>}
             <p className="mt-3 line-clamp-5 text-lg leading-relaxed text-pretty">{r.text}</p>
-            <Link href={`/lists/${r.l.slug}#positions`} className="mt-2 inline-block text-sm font-semibold text-accent underline-offset-4 hover:underline">
+            <Link href={`/lists/${r.l.slug}#positions`} className="mt-2 inline-block text-base font-semibold text-accent underline-offset-4 hover:underline">
               להמשך ←
             </Link>
           </article>
@@ -164,12 +164,12 @@ function OptionFlip({ rows }: { rows: Row[] }) {
               </span>
               <h3 className="title mt-5 text-2xl">{r.l.name}</h3>
               {r.gist && <p className="mt-2 text-lg leading-snug font-medium text-ink-2">{r.gist}</p>}
-              <p className="mt-auto text-sm text-muted">הפכו את הכרטיס כדי לקרוא</p>
+              <p className="mt-auto text-base text-muted">הפכו את הכרטיס כדי לקרוא</p>
             </div>
             <div className="absolute inset-0 flex flex-col rounded-[2rem] bg-paper p-7 shadow-[0_30px_50px_-36px_rgb(0_12_31/0.35)] ring-1 ring-ink/10 [backface-visibility:hidden] [transform:rotateY(180deg)]">
               <h3 className="title text-lg">{r.l.name}</h3>
               <p className="mt-3 overflow-y-auto leading-relaxed text-ink-2">{r.text}</p>
-              <Link href={`/lists/${r.l.slug}#positions`} className="mt-auto pt-3 text-sm font-semibold text-accent underline-offset-4 hover:underline">
+              <Link href={`/lists/${r.l.slug}#positions`} className="mt-auto pt-3 text-base font-semibold text-accent underline-offset-4 hover:underline">
                 להמשך ←
               </Link>
             </div>
@@ -192,11 +192,11 @@ function OptionVoices({ rows }: { rows: Row[] }) {
             </span>
             <div>
               <h3 className="title text-xl">{r.l.name}</h3>
-              {r.gist && <p className="text-sm text-ink-2">{r.gist}</p>}
+              {r.gist && <p className="text-base text-ink-2">{r.gist}</p>}
             </div>
           </div>
           <blockquote className="serif mt-6 line-clamp-7 text-[1.35rem] leading-snug text-pretty">”{r.items[0].quote}“</blockquote>
-          <a href={r.items[0].source_url} target="_blank" rel="noreferrer" className="mt-auto pt-4 text-sm text-accent underline-offset-4 hover:underline">
+          <a href={r.items[0].source_url} target="_blank" rel="noreferrer" className="mt-auto pt-4 text-base text-accent underline-offset-4 hover:underline">
             {sourceLabel(r.items[0])} ↗
           </a>
         </li>
@@ -219,7 +219,7 @@ function OptionWall({ rows }: { rows: Row[] }) {
                 </span>
                 <span className="title text-lg leading-tight">{l.name}</span>
               </span>
-              {gist && <span className="text-sm leading-snug text-ink-2">{gist}</span>}
+              {gist && <span className="text-base leading-snug text-ink-2">{gist}</span>}
             </summary>
             <div className="px-6 pb-7">
               <p className="max-w-3xl text-lg leading-relaxed text-pretty">{digest ?? text}</p>
@@ -246,7 +246,7 @@ function OptionFacesText({ rows }: { rows: Row[] }) {
               <h3 className="title text-2xl">{r.l.name}</h3>
               {r.gist && <p className="mt-1 font-medium text-ink-2">{r.gist}</p>}
               <p className="mt-3 line-clamp-6 text-lg leading-relaxed text-pretty">{r.text}</p>
-              <Link href={`/lists/${r.l.slug}#positions`} className="mt-2 inline-block text-sm font-semibold text-accent underline-offset-4 hover:underline">
+              <Link href={`/lists/${r.l.slug}#positions`} className="mt-2 inline-block text-base font-semibold text-accent underline-offset-4 hover:underline">
                 להמשך ←
               </Link>
             </div>
@@ -272,7 +272,7 @@ export default async function TopicDesigns() {
   };
   return (
     <div className="pb-24">
-      <p className="mx-auto mt-8 max-w-3xl px-4 text-center text-sm text-muted">
+      <p className="mx-auto mt-8 max-w-3xl px-4 text-center text-base text-muted">
         Real data: {TOPICS[KEY].label}, {rows.length} of {total} lists, strict official order. Pick an option below.
       </p>
       <div className="mx-auto mt-6 max-w-[90rem] px-4">

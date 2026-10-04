@@ -180,7 +180,7 @@ export function PartyCompare({
       <div ref={wrap} className="relative flex flex-wrap items-center gap-2">
         <span className="text-lg whitespace-nowrap text-ink sm:text-xl">{tx.torn}</span>
         <button type="button" aria-expanded={open} onClick={() => setOpen(!open)} className="inline-flex h-10 items-center gap-2 rounded-lg border border-ink/20 bg-paper px-4 text-base font-medium hover:border-ink/40">
-          {dict.nav.lists} {selected.length > 0 && <span className="grid min-w-5 place-items-center rounded-full bg-ink px-1.5 text-xs text-paper">{selected.length}</span>} <span aria-hidden>▾</span>
+          {dict.nav.lists} {selected.length > 0 && <span className="grid min-w-5 place-items-center rounded-full bg-ink px-1.5 text-base text-paper">{selected.length}</span>} <span aria-hidden>▾</span>
         </button>
         {selected.map((r) => (
           <span key={r.slug} className="inline-flex h-11 max-w-full items-center gap-1.5 rounded-lg bg-tile ps-1.5 pe-1 text-base">
@@ -194,7 +194,7 @@ export function PartyCompare({
           </span>
         ))}
         {selected.length > 0 && (
-          <button type="button" onClick={() => setPicked([])} className="text-sm text-ink-2 underline-offset-4 hover:underline">
+          <button type="button" onClick={() => setPicked([])} className="text-base text-ink-2 underline-offset-4 hover:underline">
             {tx.clear}
           </button>
         )}
@@ -223,14 +223,14 @@ export function PartyCompare({
                         <input type="checkbox" checked={on} disabled={locked} onChange={() => toggle(r.slug)} className="size-5 shrink-0 accent-[#0b1f3a] md:size-4" />
                         <span className="grid size-8 shrink-0 place-items-center">{r.markSm ?? r.mark}</span>
                         <span className="text-base">{r.name}</span>
-                        {r.wrote === false && <span className="ms-auto text-xs text-muted">{tx.noPlatform}</span>}
+                        {r.wrote === false && <span className="ms-auto text-base text-muted">{tx.noPlatform}</span>}
                       </label>
                     </li>
                   );
                 })}
-                {shown.length === 0 && <li className="px-2 py-3 text-sm text-ink-2">{tx.noMatch}</li>}
+                {shown.length === 0 && <li className="px-2 py-3 text-base text-ink-2">{tx.noMatch}</li>}
               </ul>
-              {(picked ?? []).length >= MAX && <p className="px-2 pt-2 text-xs text-muted">{tx.limit(MAX)}</p>}
+              {(picked ?? []).length >= MAX && <p className="px-2 pt-2 text-base text-muted">{tx.limit(MAX)}</p>}
             </div>
           </>
         )}
@@ -321,7 +321,7 @@ export function PartyCompare({
       )}
 
       {silentNames.length > 0 && (
-        <div className="mt-10 text-sm leading-snug text-ink-2">
+        <div className="mt-10 text-base leading-snug text-ink-2">
           <p>
             {tx.found(rows.filter((r) => r.wrote !== false).length, total)}
           </p>

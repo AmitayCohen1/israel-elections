@@ -28,7 +28,7 @@ export function QuoteWall({ quotes }: { quotes: WallQuote[] }) {
               <span className="flex items-center gap-3">
                 <Avatar name={q.face.name} src={q.face.src} color={q.face.color} size={48} />
                 <span className="title flex-1 text-lg leading-tight">{q.party}</span>
-                <span className="flex shrink-0 items-center gap-1.5 rounded-full bg-mist py-1 ps-1.5 pe-3 text-sm">
+                <span className="flex shrink-0 items-center gap-1.5 rounded-full bg-mist py-1 ps-1.5 pe-3 text-base">
                   <Image src={q.art} alt="" width={48} height={48} className="size-6 object-contain mix-blend-multiply" />
                   {q.topic}
                 </span>

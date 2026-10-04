@@ -2,9 +2,9 @@ import { defineMessages } from "@/i18n/messages";
 
 export const m = defineMessages(
   {
-    metaTitle: "איך זה עובד",
+    metaTitle: "מדריך להצבעה",
     metaDescription: "איך מצביעים, איך קולות הופכים ל-120 מנדטים, ולוח הזמנים עד הקלפי.",
-    title: "איך מצביעים",
+    title: "מדריך הצבעה: איך זה עובד",
     hint: "בישראל בוחרים פתק, לא אדם. מצביעים למפלגה, והיא מקבלת מנדטים לפי חלקה בקולות, שמתמלאים לפי הסדר שלה: מקום 1, מקום 2, וכן הלאה.",
     electionDay: "ביום הבחירות",
     tray: { lead: "בוחרים פתק.", text: "מאחורי הפרגוד מחכה מגש עם פתק לכל מפלגה." },
@@ -29,7 +29,7 @@ export const m = defineMessages(
       surplus: "עודפים",
       total: "סך הכול",
       p1: "אחרי החלוקה הראשונה נשארים מנדטים שלא חולקו, כי כל מפלגה קיבלה רק מספר שלם של מודדים.",
-      p2: "את השאר מחלקים בשיטת באדר–עופר, מנדט אחד בכל פעם, למפלגה שהממוצע שלה הגבוה ביותר: הקולות שלה, מחולקים במספר המנדטים שיש לה, ועוד אחד. השיטה נוטה מעט לטובת מפלגות גדולות.",
+      p2: "את השאר מחלקים בשיטת באדר–עופר, מנדט אחד בכל פעם, למפלגה שהממוצע שלה הגבוה ביותר: הקולות שלה, מחולקים ב־(מספר המנדטים שיש לה + 1). השיטה נוטה מעט לטובת מפלגות גדולות.",
     },
     s4: {
       title: "הסכמי עודפים",
@@ -41,12 +41,12 @@ export const m = defineMessages(
   },
   {
     en: {
-      metaTitle: "How it works",
+      metaTitle: "Voting guide",
       metaDescription: "How to vote, how votes turn into 120 seats, and the timeline to election day.",
-      title: "How to vote",
-      hint: "In Israel you choose a ballot, not a person. You vote for a party, and it gets seats according to its share of the votes, filled in its own order: spot 1, spot 2, and so on.",
+      title: "Voting guide: how it works",
+      hint: "In Israel you vote for a party list. The party wins seats based on its share of the votes, and candidates enter the Knesset in list order: first, second, and so on.",
       electionDay: "On election day",
-      tray: { lead: "Pick a ballot.", text: "Behind the screen a tray waits with a slip for every party." },
+      tray: { lead: "Pick a ballot.", text: "Behind the voting screen, a tray holds ballot slips for each party." },
       envelope: { lead: "Put it in the envelope.", text: "One slip, one envelope." },
       box: { lead: "Drop it in the box.", text: "In front of the polling committee, and that's all." },
       fromVotes: "From votes to seats",
@@ -68,7 +68,7 @@ export const m = defineMessages(
         surplus: "Surplus",
         total: "Total",
         p1: "After the first round some seats remain unassigned, because each party received only a whole number of quotas.",
-        p2: "The rest are assigned by the Bader–Ofer method, one seat at a time, to the party with the highest average: its votes divided by the number of seats it already has, plus one. The method slightly favours large parties.",
+        p2: "The rest are assigned by the Bader–Ofer method, one seat at a time, to the party with the highest average: its votes divided by (the number of seats it already has + 1). The method slightly favours large parties.",
       },
       s4: {
         title: "Surplus-vote agreements",
@@ -81,7 +81,7 @@ export const m = defineMessages(
     ar: {
       metaTitle: "كيف يعمل",
       metaDescription: "كيف نصوّت، وكيف تتحول الأصوات إلى 120 مقعدًا، والجدول الزمني حتى يوم الاقتراع.",
-      title: "كيف نصوّت",
+      title: "دليل التصويت: كيف يعمل",
       hint: "في إسرائيل نختار ورقة اقتراع لا شخصًا. نصوّت لحزب، ويحصل على مقاعد بحسب حصته من الأصوات، وتُملأ بحسب ترتيبه: المرتبة 1، المرتبة 2، وهكذا.",
       electionDay: "في يوم الانتخابات",
       tray: { lead: "اختاروا ورقة.", text: "خلف الستارة صينية فيها ورقة لكل حزب." },
@@ -119,7 +119,7 @@ export const m = defineMessages(
     ru: {
       metaTitle: "Как это работает",
       metaDescription: "Как голосовать, как голоса превращаются в 120 мандатов и что будет до дня выборов.",
-      title: "Как голосовать",
+      title: "Гид по голосованию: как это работает",
       hint: "В Израиле выбирают бюллетень, а не человека. Вы голосуете за партию, и она получает мандаты в соответствии с долей голосов, а заполняются они в её порядке: место 1, место 2 и так далее.",
       electionDay: "В день выборов",
       tray: { lead: "Выберите бюллетень.", text: "За ширмой стоит лоток с бюллетенем для каждой партии." },
@@ -157,7 +157,7 @@ export const m = defineMessages(
     am: {
       metaTitle: "እንዴት ይሠራል",
       metaDescription: "እንዴት እንደምንመርጥ፣ ድምፆች እንዴት ወደ 120 መቀመጫዎች እንደሚለወጡና እስከ ምርጫ ቀን ድረስ ያለው የጊዜ ሰሌዳ።",
-      title: "እንዴት እንመርጣለን",
+      title: "የድምጽ መስጫ መመሪያ፡ እንዴት ይሠራል",
       hint: "በእስራኤል የሚመረጠው የምርጫ ወረቀት እንጂ ሰው አይደለም። ለፓርቲ ድምፅ ይሰጣሉ፤ ፓርቲው ባገኘው የድምፅ ድርሻ መጠን መቀመጫዎችን ያገኛል፤ መቀመጫዎቹም በራሱ ቅደም ተከተል ይሞላሉ፦ ቁጥር 1፣ ቁጥር 2፣ እያለ።",
       electionDay: "በምርጫ ቀን",
       tray: { lead: "የምርጫ ወረቀት ይምረጡ።", text: "ከመጋረጃው ጀርባ ለእያንዳንዱ ፓርቲ ወረቀት ያለው ትሪ ይጠብቅዎታል።" },

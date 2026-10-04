@@ -9,7 +9,7 @@ import { listColor } from "@/lib/color";
 import { Ballot } from "./ballot";
 import { PartyMark } from "./party-mark";
 
-const m = defineMessages(
+export const m = defineMessages(
   {
     candidates: (n: number) => `${n} מועמדים`,
     positions: (n: number) => `עמדות ב-${n} נושאים`,
@@ -109,8 +109,8 @@ export async function PartyCard({ list }: { list: List }) {
               <Face key={c.position} c={c} size={32} />
             ))}
           </span>
-          <span className="text-sm text-ink-2">{t.candidates(list.candidates.length)}</span>
-          <span className="ms-auto text-sm text-ink-2">{topics > 0 ? t.positions(topics) : t.noPlatform}</span>
+          <span className="text-base text-ink-2">{t.candidates(list.candidates.length)}</span>
+          <span className="ms-auto text-base text-ink-2">{topics > 0 ? t.positions(topics) : t.noPlatform}</span>
         </span>
       </Link>
     </li>

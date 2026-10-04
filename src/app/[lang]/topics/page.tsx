@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { getDictionary, getMessages } from "@/i18n";
 import { defineMessages } from "@/i18n/messages";
 import { getDataset } from "@/lib/data";
@@ -40,7 +41,7 @@ const m = defineMessages(
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getMessages(m);
-  return { title: t.title, description: t.description };
+  return pageMeta({ path: "/topics", title: t.title, description: t.description });
 }
 
 /** One view of the dashboard: what the lists say, by topic. */
@@ -60,7 +61,7 @@ export default async function Topics() {
           return {
             key,
             label: topicLabel(dict, key),
-            icon: <TopicIllustration topic={key} className="!w-12" />,
+            icon: <TopicIllustration topic={key} className="!w-20" />,
             rows: rows.map((r) => ({ id: r.id, name: r.name, gist: r.gist, mark: r.mark, body: r.body })),
             silent: lists.filter((l) => !rows.some((r) => r.id === l.slug)).map((l) => ({ slug: l.slug, name: l.name })),
             total: lists.length,

@@ -17,7 +17,7 @@ export default function DevPreview() {
   return (
     <div className="mx-auto max-w-3xl px-4 pb-24">
       <header className="pt-12 pb-10 text-center">
-        <p className="text-sm tracking-wide text-muted">פנימי · לא מפורסם באתר</p>
+        <p className="text-base tracking-wide text-muted">פנימי · לא מפורסם באתר</p>
         <h1 className="serif mt-5 text-5xl sm:text-6xl">Design options</h1>
       </header>
       <ul className="border-t border-line">

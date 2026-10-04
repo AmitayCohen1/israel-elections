@@ -9,7 +9,7 @@ export type Mixed = ({ kind: "person" } & PersonData) | ({ kind: "position" } & 
 const CARD = "block rounded-[1.5rem] border border-line bg-card p-3 text-right shadow-[0_24px_50px_-34px_rgb(0_12_31/0.5)]";
 
 function Tag({ letters }: { letters: string }) {
-  return <span className="slip shrink-0 rounded-[4px] border border-line-strong px-1.5 py-0.5 font-ballot text-xs leading-none font-black text-ink">{letters}</span>;
+  return <span className="slip shrink-0 rounded-[4px] border border-line-strong px-1.5 py-0.5 font-ballot text-base leading-none font-black text-ink">{letters}</span>;
 }
 
 function PersonBody({ p, fill = false }: { p: PersonData; fill?: boolean }) {
@@ -20,7 +20,7 @@ function PersonBody({ p, fill = false }: { p: PersonData; fill?: boolean }) {
       </div>
       <div className="px-1 pt-3 pb-1">
         <p className="title truncate text-xl">{p.name}</p>
-        <p className="mt-1.5 flex items-center gap-2 text-sm text-ink-2">
+        <p className="mt-1.5 flex items-center gap-2 text-base text-ink-2">
           <Tag letters={p.letters} />
           <span className="truncate">
             מקום {p.slot} · {p.list}
@@ -42,10 +42,10 @@ function PositionBody({ p, fill = false, clamp = "line-clamp-3" }: { p: Position
         ) : (
           <span className="grid size-full place-items-center font-ballot text-5xl font-black text-ink/25">{p.letters}</span>
         )}
-        <span className="absolute top-2.5 right-2.5 rounded-full bg-card/95 px-2.5 py-1 text-xs font-medium shadow-sm">{p.topic}</span>
+        <span className="absolute top-2.5 right-2.5 rounded-full bg-card/95 px-2.5 py-1 text-base font-medium shadow-sm">{p.topic}</span>
       </div>
       <div className="px-1 pt-3 pb-1">
-        <p className="text-sm font-medium text-ink-2">{p.list}</p>
+        <p className="text-base font-medium text-ink-2">{p.list}</p>
         <p className={`serif mt-1 text-[1.2rem] leading-[1.22] ${clamp}`}>{text}</p>
       </div>
     </div>
@@ -60,7 +60,7 @@ function ListBody({ l, fill = false }: { l: ListData; fill?: boolean }) {
       </div>
       <div className="px-1 pt-3 pb-1">
         <p className="title truncate text-xl">{l.name}</p>
-        <div className="mt-1.5 flex items-center gap-2.5 text-sm text-ink-2">
+        <div className="mt-1.5 flex items-center gap-2.5 text-base text-ink-2">
           <span className="flex -space-x-2 space-x-reverse">
             {l.faces.map((f, i) =>
               f ? <Image key={i} src={f} alt="" width={24} height={24} className="size-6 rounded-full object-cover object-top ring-2 ring-card" /> : <span key={i} className="size-6 rounded-full bg-tile ring-2 ring-card" />,
@@ -168,7 +168,7 @@ export function OptionOrbit({ people, total }: { people: PersonData[]; total: nu
       <div className="absolute top-1/2 left-1/2 grid size-[9.5rem] -translate-x-1/2 -translate-y-1/2 place-items-center rounded-full bg-ink text-center text-white" dir="rtl">
         <div>
           <p className="serif text-5xl">{total.toLocaleString("he-IL")}</p>
-          <p className="mt-1 text-sm text-white/70">מועמדים</p>
+          <p className="mt-1 text-base text-white/70">מועמדים</p>
         </div>
       </div>
     </div>
@@ -185,15 +185,15 @@ export function OptionBento({ person, position, list, extra, stats }: { person: 
         <span className="absolute inset-0 bg-[linear-gradient(180deg,transparent_50%,rgb(0_12_31/0.8)_100%)]" />
         <span className="absolute inset-x-5 bottom-4 text-white">
           <span className="title block text-2xl">{person.name}</span>
-          <span className="text-sm text-white/75">
+          <span className="text-base text-white/75">
             מקום {person.slot} · {person.list}
           </span>
         </span>
       </Link>
       <Link href={position.href} className={`${tile} col-span-2 row-span-2 flex flex-col bg-ink p-5 text-white`}>
-        <span className="text-sm text-white/60">{position.topic}</span>
+        <span className="text-base text-white/60">{position.topic}</span>
         <span className="serif mt-3 line-clamp-6 text-[1.45rem] leading-[1.2]">{position.point}</span>
-        <span className="mt-auto flex items-center gap-2.5 pt-3 text-sm">
+        <span className="mt-auto flex items-center gap-2.5 pt-3 text-base">
           {position.img && <Image src={position.img} alt="" width={28} height={28} className="size-7 rounded-full object-cover object-top" />}
           {position.list}
         </span>
@@ -211,7 +211,7 @@ export function OptionBento({ person, position, list, extra, stats }: { person: 
         <div key={s.label} className={`${tile} grid place-items-center bg-tile text-center`}>
           <div>
             <p className="serif text-4xl">{s.n}</p>
-            <p className="text-sm text-ink-2">{s.label}</p>
+            <p className="text-base text-ink-2">{s.label}</p>
           </div>
         </div>
       ))}
@@ -222,7 +222,7 @@ export function OptionBento({ person, position, list, extra, stats }: { person: 
       ))}
       <div className={`${tile} col-span-2 flex flex-wrap content-center gap-2 bg-[#e6ecf7] p-4`}>
         {["ביטחון", "כלכלה", "דיור", "דת ומדינה", "משפט", "חינוך"].map((t) => (
-          <span key={t} className="rounded-full bg-card px-3 py-1 text-sm font-medium">
+          <span key={t} className="rounded-full bg-card px-3 py-1 text-base font-medium">
             {t}
           </span>
         ))}
@@ -246,7 +246,7 @@ export function OptionFeed({ positions }: { positions: PositionData[] }) {
                   <span className="slip grid size-13 shrink-0 place-items-center rounded-full border border-line-strong font-ballot text-lg font-black">{p.letters}</span>
                 )}
                 <div className="min-w-0 flex-1 rounded-[1.5rem] rounded-tr-md border border-line bg-card p-4 shadow-[0_20px_44px_-32px_rgb(0_12_31/0.5)] transition group-hover:-translate-y-0.5">
-                  <p className="flex items-center gap-2 text-sm">
+                  <p className="flex items-center gap-2 text-base">
                     <span className="font-medium">{p.list}</span>
                     <span className="text-ink-2">· {p.topic}</span>
                   </p>

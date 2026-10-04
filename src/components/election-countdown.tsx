@@ -64,7 +64,7 @@ export function ElectionCountdown() {
         <p className="serif text-3xl">{new Date(Date.UTC(YEAR, MONTH, 1)).toLocaleDateString(`${LOCALE_INFO[lang].intl}-u-ca-gregory`, { month: "long", year: "numeric", timeZone: "UTC" })}</p>
         <div className="mt-5 grid grid-cols-7 gap-y-1 text-center">
           {t.weekdays.map((d, i) => (
-            <span key={i} className="pb-2 text-sm text-muted">
+            <span key={i} className="pb-2 text-base text-muted">
               {d}
             </span>
           ))}
@@ -88,7 +88,7 @@ export function ElectionCountdown() {
             );
           })}
         </div>
-        <ul className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-line pt-5 text-sm text-ink-2">
+        <ul className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-2 border-t border-line pt-5 text-base text-ink-2">
           <li className="flex items-center gap-2">
             <span className="size-3.5 rounded-full ring-2 ring-ink" />
             {t.legendToday}

@@ -7,6 +7,7 @@ import { Rail, TabBar } from "@/components/shell";
 import { LOCALES, LOCALE_INFO, getDictionary, hasLocale } from "@/i18n";
 import { Track } from "@/components/track";
 import { DictionaryProvider } from "@/i18n/provider";
+import { SITE_URL, pageMeta } from "@/lib/seo";
 import "../globals.css";
 
 const heebo = Heebo({ variable: "--font-heebo", subsets: ["hebrew", "latin"] });
@@ -20,11 +21,15 @@ export const generateStaticParams = () => LOCALES.map((lang) => ({ lang }));
 export async function generateMetadata({ params }: LayoutProps<"/[lang]">): Promise<Metadata> {
   const { lang } = await params;
   if (!hasLocale(lang)) return {};
-  const { meta } = await getDictionary(lang);
+  const { meta, ui } = await getDictionary(lang);
+  // Pages override the title, canonical and share card with pageMeta(); this is the frame they inherit.
+  const base = await pageMeta({});
   return {
+    ...base,
+    metadataBase: new URL(SITE_URL),
     title: { default: meta.title, template: meta.titleTemplate },
-    description: meta.description,
-    alternates: { languages: Object.fromEntries(LOCALES.map((l) => [l, `/${l}`])) },
+    applicationName: ui.brand,
+    formatDetection: { telephone: false, email: false, address: false },
   };
 }
 

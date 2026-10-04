@@ -71,7 +71,7 @@ export function HeroColumns({ lists, counts }: { lists: HeroListItem[]; counts: 
                             {l.point}
                           </span>
                         )}
-                        <span className="mt-3 flex items-center gap-2 text-sm text-ink-2">
+                        <span className="mt-3 flex items-center gap-2 text-base text-ink-2">
                           <span className="flex">
                             {l.faces.slice(1, 4).map((f, j) => (
                               <Face key={j} f={f} sizes="32px" className={`size-7 rounded-full bg-tile text-[0.55rem] text-ink/40 ring-2 ring-paper ${j ? "-ms-2" : ""}`} />

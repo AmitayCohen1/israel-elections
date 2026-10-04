@@ -121,7 +121,7 @@ export function SearchBox({ size = "md", openUp = false }: { size?: "sm" | "md" 
                     <Avatar name={r.n} src={r.i} color={r.c} size={40} />
                     <span className="min-w-0 flex-1 text-start">
                       <span className="block truncate font-medium">{r.n}</span>
-                      <span className="block truncate text-sm text-muted">
+                      <span className="block truncate text-base text-muted">
                         מקום {r.p} ב{r.l}
                       </span>
                     </span>
@@ -134,7 +134,7 @@ export function SearchBox({ size = "md", openUp = false }: { size?: "sm" | "md" 
               <Link
                 href={`/search?q=${encodeURIComponent(q.trim())}`}
                 onClick={() => setOpen(false)}
-                className="block px-5 py-2.5 text-center text-sm font-medium text-accent transition hover:bg-tile/70"
+                className="block px-5 py-2.5 text-center text-base font-medium text-accent transition hover:bg-tile/70"
               >
                 כל {results.length} התוצאות
               </Link>

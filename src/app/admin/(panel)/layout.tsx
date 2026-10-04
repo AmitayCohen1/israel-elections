@@ -14,7 +14,7 @@ async function Gate({ children }: { children: React.ReactNode }) {
       <p className="text-xl font-medium">No access</p>
       <p className="text-ink-2">This account isn&apos;t allowed here.</p>
       <SignOutButton redirectUrl="/admin/sign-in">
-        <button className="rounded-full bg-tile px-5 py-2.5 text-sm font-medium hover:bg-mist-deep">Sign out</button>
+        <button className="rounded-full bg-tile px-5 py-2.5 text-base font-medium hover:bg-mist-deep">Sign out</button>
       </SignOutButton>
     </main>
   );

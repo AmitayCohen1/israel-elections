@@ -19,9 +19,9 @@ function Option({ k, title, note, children, tall = true }: { k: string; title: s
   return (
     <section>
       <h3 className="mb-2 flex items-baseline gap-3">
-        <span className="grid size-8 place-items-center rounded-full bg-ink text-sm text-white">{k}</span>
+        <span className="grid size-8 place-items-center rounded-full bg-ink text-base text-white">{k}</span>
         <span className="title text-lg">{title}</span>
-        <span className="text-sm text-ink-2">{note}</span>
+        <span className="text-base text-ink-2">{note}</span>
       </h3>
       <div className={tall ? "h-[34rem]" : "h-[19rem]"}>{children}</div>
     </section>
@@ -122,7 +122,7 @@ export default async function CardOptions() {
                         </span>
                       ))}
                     </span>
-                    <span className="shrink-0 text-sm text-ink-2 tabular-nums">{t.rows.length} מפלגות</span>
+                    <span className="shrink-0 text-base text-ink-2 tabular-nums">{t.rows.length} מפלגות</span>
                   </Link>
                 </li>
               ))}
@@ -151,7 +151,7 @@ export default async function CardOptions() {
                       <span className="line-clamp-1 min-w-0 flex-1 text-base text-ink-2">
                         <span className="text-ink">{r.name}:</span> {r.text}
                       </span>
-                      <span className="shrink-0 text-sm text-ink-2 tabular-nums">+{t.rows.length - 1}</span>
+                      <span className="shrink-0 text-base text-ink-2 tabular-nums">+{t.rows.length - 1}</span>
                     </Link>
                   </li>
                 );
@@ -190,9 +190,9 @@ export default async function CardOptions() {
                     <span className="min-w-0">
                       <span className="block truncate">
                         <span className="title text-lg">{p.name}</span>
-                        <span className="text-sm text-ink-2"> · {p.party}</span>
+                        <span className="text-base text-ink-2"> · {p.party}</span>
                       </span>
-                      <span className="block truncate text-sm text-ink-2">{p.facts[0]?.value}</span>
+                      <span className="block truncate text-base text-ink-2">{p.facts[0]?.value}</span>
                     </span>
                   </li>
                 ))}
@@ -224,7 +224,7 @@ export default async function CardOptions() {
                         </span>
                       ))}
                     </span>
-                    <span className="shrink-0 text-sm text-ink-2 tabular-nums">{l.candidates.length} מועמדים</span>
+                    <span className="shrink-0 text-base text-ink-2 tabular-nums">{l.candidates.length} מועמדים</span>
                   </Link>
                 </li>
               ))}
@@ -240,11 +240,11 @@ export default async function CardOptions() {
                     <Avatar name={p.name} src={p.img} color={p.color} size={40} />
                     <span className="w-32 shrink-0">
                       <span className="title block truncate text-base leading-tight">{p.name}</span>
-                      <span className="block truncate text-sm text-ink-2">{p.party}</span>
+                      <span className="block truncate text-base text-ink-2">{p.party}</span>
                     </span>
                     <span className="flex min-w-0 flex-1 flex-wrap justify-end gap-1.5">
                       {p.facts.map((f, k) => (
-                        <span key={k} className="rounded-full bg-paper px-2.5 py-0.5 text-xs text-ink-2">
+                        <span key={k} className="rounded-full bg-paper px-2.5 py-0.5 text-base text-ink-2">
                           {f.label}
                         </span>
                       ))}

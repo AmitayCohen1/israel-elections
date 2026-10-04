@@ -64,7 +64,7 @@ export function HeroToss({ stances, counts }: { stances: StancesByTopic; counts:
               style={{ ["--r" as string]: TILT[i], ["--fx" as string]: SIDE[i], ["--ox" as string]: SIDE[(i + 2) % 6], ["--d" as string]: `${300 + i * 240}ms`, ["--i" as string]: i + 1 }}
               className="toss group flex items-start gap-3.5 rounded-[1.5rem] bg-paper p-4 shadow-[0_16px_34px_-24px_rgb(0_12_31/0.3)] ring-1 ring-line"
             >
-              <Lead l={who(s)} sizes="48px" className="mt-0.5 size-10 shrink-0 rounded-full bg-tile text-xs" />
+              <Lead l={who(s)} sizes="48px" className="mt-0.5 size-10 shrink-0 rounded-full bg-tile text-base" />
               <span className="min-w-0 text-lg leading-snug">
                 <span className="title underline-offset-4 group-hover:underline">{s.name}</span>
                 <span className="block text-ink-2 text-pretty">{s.text}</span>
@@ -126,10 +126,10 @@ export function HeroChat({ stances, counts }: { stances: StancesByTopic; counts:
         <Words counts={counts} />
         <div className="mx-auto w-full max-w-[32rem] overflow-hidden rounded-[2.25rem] bg-paper shadow-[0_30px_60px_-40px_rgb(0_12_31/0.35)] ring-1 ring-line">
           <div className="flex items-center gap-3 border-b border-line px-5 py-3.5">
-            <span className="grid size-10 place-items-center rounded-full bg-ink text-sm font-bold text-white">מי?</span>
+            <span className="grid size-10 place-items-center rounded-full bg-ink text-base font-bold text-white">מי?</span>
             <span>
               <span className="title block leading-tight">מי רץ?</span>
-              <span className="text-sm text-ink-2">כל הרשימות, בסבבים ובסדר אקראי</span>
+              <span className="text-base text-ink-2">כל הרשימות, בסבבים ובסדר אקראי</span>
             </span>
           </div>
           <div className="relative flex h-[30rem] flex-col justify-end gap-3 px-5 pt-6 pb-5">

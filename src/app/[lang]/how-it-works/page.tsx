@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { getMessages } from "@/i18n";
 import { m } from "@/i18n/messages/how-it-works";
 import Image from "next/image";
@@ -10,7 +11,7 @@ import { Timeline } from "@/components/timeline";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getMessages(m);
-  return { title: t.metaTitle, description: t.metaDescription };
+  return pageMeta({ path: "/how-it-works", title: t.metaTitle, description: t.metaDescription });
 }
 
 function Painted({ name }: { name: string }) {
@@ -68,7 +69,7 @@ export default async function HowItWorks() {
         </Step>
         <Step label={t.step("3")} title={t.s3.title} tile="bg-[#dbe6fa]" visual={
           <div className="w-[72%] rounded-[1.5rem] bg-card p-4 shadow-[0_30px_60px_-30px_rgb(10_12_27/0.4)]">
-            <p className="text-center text-sm font-medium">{t.s3.card}</p>
+            <p className="text-center text-base font-medium">{t.s3.card}</p>
             {[
               [t.s3.first, "115"],
               [t.s3.surplus, "5+"],

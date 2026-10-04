@@ -94,7 +94,7 @@ export function TopicStage({ topics, every = 9000, className = "" }: { topics: C
       {/* The categories, all eight in a row, each with its painted object: the one in view is framed, and the card walks along the row by itself */}
       <div role="tablist" aria-label={dict.nav.topics} className="mt-4 grid shrink-0 grid-cols-8 gap-1.5">
         {topics.map((x, n) => (
-          <button key={x.key} type="button" role="tab" aria-selected={n === on} onClick={() => setI(lap * L + n)} className={`flex flex-col items-center gap-0.5 rounded-2xl px-1 pt-1.5 pb-2 text-sm transition ${n === on ? "title bg-paper ring-2 ring-ink" : "text-ink-2 hover:bg-paper/70 hover:text-ink"}`}>
+          <button key={x.key} type="button" role="tab" aria-selected={n === on} onClick={() => setI(lap * L + n)} className={`flex flex-col items-center gap-0.5 rounded-2xl px-1 pt-1.5 pb-2 text-base transition ${n === on ? "title bg-paper ring-2 ring-ink" : "text-ink-2 hover:bg-paper/70 hover:text-ink"}`}>
             <span className="relative size-10">
               <Image src={x.art} alt="" fill sizes="40px" loading="eager" className="object-contain mix-blend-multiply" />
             </span>
@@ -112,8 +112,15 @@ export function TopicStage({ topics, every = 9000, className = "" }: { topics: C
                 <span className="title text-lg leading-tight">{r.name}</span>
               </span>
               {r.quoted ? (
-                <span className="mt-2.5 block border-s-2 border-ink/20 ps-3">
-                  <span className="line-clamp-5 text-lg leading-snug text-pretty">{r.text}</span>
+                // Set as a quote: a large opening mark, closed with the matching mark.
+                <span className="mt-1 flex gap-2">
+                  <span aria-hidden className="serif -mt-2 shrink-0 text-[4.5rem] leading-[0.8] font-bold text-accent">
+                    {/\p{Script=Hebrew}/u.test(r.text) ? "”" : "“"}
+                  </span>
+                  <q className="line-clamp-5 pt-1.5 text-lg leading-snug text-pretty before:content-none after:content-none">
+                    {r.text}
+                    {/\p{Script=Hebrew}/u.test(r.text) ? "“" : "”"}
+                  </q>
                 </span>
               ) : (
                 <span className="mt-2 line-clamp-5 text-lg leading-snug text-pretty">{r.text}</span>

@@ -36,11 +36,13 @@ function host(u: string) {
   }
 }
 
-const POP = 416; // popover width, px
-type Open = { slug: string; left: number; top?: number; bottom?: number };
+const POP = 520; // popover width, px
+type Open = { slug: string; left: number; top?: number; bottom?: number; sheet?: boolean };
+const SHEET_BELOW = 1024; // below this the axis runs top to bottom and the words open as a sheet from the bottom
 
 /** Where the popover goes: beside the party that was pressed, below it when there is room and above when there is not, kept inside the window. */
 function place(slug: string, el: HTMLElement): Open {
+  if (window.innerWidth < SHEET_BELOW) return { slug, left: 0, sheet: true };
   const r = el.getBoundingClientRect();
   const width = Math.min(POP, window.innerWidth - 32);
   const left = Math.max(
@@ -161,22 +163,44 @@ export function AxisStacks({ axes }: { axes: AxisData[] }) {
   useEffect(() => {
     if (!open) return;
     const close = () => setOpen(null);
+    const width = window.innerWidth;
+    const onScroll = (e: Event) => !pop.current?.contains(e.target as Node) && close();
+    const onResize = () => window.innerWidth !== width && close();
     const key = (e: KeyboardEvent) => e.key === "Escape" && close();
     const press = (e: PointerEvent) => {
       const t = e.target as HTMLElement;
       if (!pop.current?.contains(t) && !t.closest("[data-party]")) close();
     };
-    window.addEventListener("scroll", close, true);
-    window.addEventListener("resize", close);
+    window.addEventListener("scroll", onScroll, true);
+    window.addEventListener("resize", onResize);
     window.addEventListener("keydown", key);
     window.addEventListener("pointerdown", press);
     return () => {
-      window.removeEventListener("scroll", close, true);
-      window.removeEventListener("resize", close);
+      window.removeEventListener("scroll", onScroll, true);
+      window.removeEventListener("resize", onResize);
       window.removeEventListener("keydown", key);
       window.removeEventListener("pointerdown", press);
     };
   }, [open]);
+
+  const chip = (c: Cell) => {
+    const active = open?.slug === c.slug;
+    return (
+      <button
+        type="button"
+        data-party
+        onClick={(e) => setOpen(active ? null : place(c.slug, e.currentTarget))}
+        aria-expanded={active}
+        className={`inline-flex cursor-pointer items-center gap-3 rounded-full border-2 py-1.5 pe-3 ps-1.5 text-xl font-medium transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${active ? "border-ink bg-ink text-paper shadow-md" : "border-ink/25 bg-paper shadow-[0_2px_0_rgb(0_12_31/0.12)] hover:-translate-y-0.5 hover:border-ink hover:shadow-[0_6px_14px_-8px_rgb(0_12_31/0.4)]"}`}
+      >
+        <Avatar name={c.name} src={c.face} color={c.color} size={40} />
+        {c.name}
+        <span aria-hidden className={`grid size-7 place-items-center rounded-full text-base ${active ? "bg-paper/20" : "bg-tile"}`}>
+          {active ? "×" : "+"}
+        </span>
+      </button>
+    );
+  };
 
   return (
     <div>
@@ -192,59 +216,47 @@ export function AxisStacks({ axes }: { axes: AxisData[] }) {
           }}
         />
       </p>
-      <p className="mt-2 max-w-3xl text-lg text-ink-2">{axis.question}</p>
+      <p className="mt-2 max-w-3xl text-xl text-ink-2">{axis.question}</p>
+      <p className="mt-3 inline-flex items-center gap-2 rounded-full bg-mist px-4 py-1.5 text-lg font-medium text-ink">
+        <span aria-hidden>👆</span> לחצו על מפלגה כדי לקרוא את הציטוט שלה
+      </p>
 
       <div className="min-w-0">
-        <div className="mt-12">
-          <div className="grid items-end gap-4" style={cols}>
-            {axis.scale.map((lv) => (
-              <ul
-                key={lv.level}
-                className="flex flex-col-reverse items-center gap-2 pb-4"
-              >
+        {/* Phones and tablets: the axis runs top to bottom, each stop a section with its parties wrapped beneath. */}
+        <ol className="relative mt-8 border-s-4 border-ink ps-6 lg:hidden">
+          {axis.scale.map((lv) => (
+            <li key={lv.level} className="relative pb-9 last:pb-0">
+              <span aria-hidden className="absolute -start-[2.2rem] top-1.5 size-5 rounded-full border-4 border-paper bg-ink" />
+              <p className="text-xl font-medium leading-tight">{lv.short}</p>
+              <p className="mt-1 text-lg leading-snug text-ink-2">{lv.label}</p>
+              <ul className="mt-3 flex flex-wrap gap-2.5">
                 {axis.cells
                   .filter((c) => c.level === lv.level)
-                  .map((c) => {
-                    const active = open?.slug === c.slug;
-                    return (
-                      <li key={c.slug}>
-                        <button
-                          type="button"
-                          data-party
-                          onClick={(e) =>
-                            setOpen(
-                              active ? null : place(c.slug, e.currentTarget),
-                            )
-                          }
-                          aria-expanded={active}
-                          className={`inline-flex items-center gap-2.5 rounded-full border py-1 pe-4 ps-1 text-lg transition ${active ? "border-ink bg-ink text-paper" : "border-line bg-paper hover:border-line-strong"}`}
-                        >
-                          <Avatar
-                            name={c.name}
-                            src={c.face}
-                            color={c.color}
-                            size={30}
-                          />
-                          {c.name}
-                        </button>
-                      </li>
-                    );
-                  })}
+                  .map((c) => (
+                    <li key={c.slug}>{chip(c)}</li>
+                  ))}
+              </ul>
+            </li>
+          ))}
+        </ol>
+
+        <div className="mt-12 hidden lg:block">
+          <div className="grid items-end gap-4" style={cols}>
+            {axis.scale.map((lv) => (
+              <ul key={lv.level} className="flex flex-col-reverse items-center gap-2 pb-4">
+                {axis.cells
+                  .filter((c) => c.level === lv.level)
+                  .map((c) => (
+                    <li key={c.slug}>{chip(c)}</li>
+                  ))}
               </ul>
             ))}
           </div>
           <div className="relative">
-            <div
-              aria-hidden
-              className="absolute inset-x-0 top-1/2 h-1 -translate-y-1/2 rounded-full bg-ink"
-            />
+            <div aria-hidden className="absolute inset-x-0 top-1/2 h-1 -translate-y-1/2 rounded-full bg-ink" />
             <div className="relative grid gap-4" style={cols}>
               {axis.scale.map((lv) => (
-                <span
-                  key={lv.level}
-                  aria-hidden
-                  className="mx-auto size-5 rounded-full border-4 border-paper bg-ink"
-                />
+                <span key={lv.level} aria-hidden className="mx-auto size-5 rounded-full border-4 border-paper bg-ink" />
               ))}
             </div>
           </div>
@@ -252,9 +264,7 @@ export function AxisStacks({ axes }: { axes: AxisData[] }) {
             {axis.scale.map((lv) => (
               <div key={lv.level} className="text-center">
                 <p className="text-xl font-medium leading-tight">{lv.short}</p>
-                <p className="mx-auto mt-2 max-w-[17rem] text-base leading-snug text-ink-2">
-                  {lv.label}
-                </p>
+                <p className="mx-auto mt-2 max-w-[17rem] text-base leading-snug text-ink-2">{lv.label}</p>
               </div>
             ))}
           </div>
@@ -271,21 +281,21 @@ export function AxisStacks({ axes }: { axes: AxisData[] }) {
           ref={pop}
           role="dialog"
           aria-label={cell.name}
-          className="fixed z-50 max-h-[70vh] overflow-y-auto rounded-[1.75rem] border border-line bg-paper p-6 shadow-[0_18px_40px_-22px_rgb(0_12_31/0.3)]"
-          style={{
-            left: open.left,
-            top: open.top,
-            bottom: open.bottom,
-            width: `min(${POP}px, calc(100vw - 2rem))`,
-          }}
+          className={`fixed z-50 overflow-y-auto border border-line-strong bg-paper shadow-[0_24px_50px_-20px_rgb(0_12_31/0.4)] ${open.sheet ? "inset-x-0 bottom-0 max-h-[75dvh] rounded-t-[1.75rem] p-5 pb-[max(1.25rem,env(safe-area-inset-bottom))] sm:p-7" : "max-h-[75vh] rounded-[1.75rem] p-7"}`}
+          style={open.sheet ? undefined : { left: open.left, top: open.top, bottom: open.bottom, width: `min(${POP}px, calc(100vw - 2rem))` }}
         >
-          <p className="text-base font-medium leading-snug">
+          {open.sheet && (
+            <button type="button" onClick={() => setOpen(null)} aria-label="סגירה" className="absolute end-4 top-4 grid size-11 place-items-center rounded-full bg-tile text-2xl hover:bg-mist">
+              ×
+            </button>
+          )}
+          <p className={`title text-2xl leading-snug ${open.sheet ? "pe-12" : ""}`}>
             {axis.scale.find((s) => s.level === cell.level)?.label}
           </p>
-          <blockquote className="mt-3 border-s-2 border-line-strong ps-4 text-lg leading-relaxed text-ink-2">
+          <blockquote className="mt-4 border-s-4 border-line-strong ps-5 text-xl leading-relaxed text-ink">
             {cell.quote}
           </blockquote>
-          <span className="mt-3 flex flex-wrap items-center gap-3 text-sm">
+          <span className="mt-5 flex flex-wrap items-center gap-3 text-lg">
             <a
               href={cell.source_url}
               target="_blank"
@@ -296,7 +306,7 @@ export function AxisStacks({ axes }: { axes: AxisData[] }) {
               {host(cell.source_url)} ↗
             </a>
             {cell.draft && (
-              <span className="rounded-full bg-tile px-3 py-0.5 text-ink-2">
+              <span className="rounded-full bg-tile px-3 py-1 text-ink-2">
                 טיוטה, לא אושר
               </span>
             )}

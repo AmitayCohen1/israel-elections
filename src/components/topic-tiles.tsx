@@ -29,7 +29,7 @@ export async function TopicTiles({ lists }: { lists: List[] }) {
             <Link href={`/#${key}`} className="group flex h-full flex-col items-center rounded-[2.5rem] bg-mist px-5 pt-8 pb-7 text-center transition hover:bg-tile">
               <TopicIllustration topic={key} className="!w-28 mix-blend-multiply transition group-hover:scale-105" />
               <span className="title mt-5 text-2xl">{topicLabel(dict, key)}</span>
-              <span className="mt-2 text-sm text-ink-2">
+              <span className="mt-2 text-base text-ink-2">
                 {t.wrote(n, lists.length)}
               </span>
             </Link>

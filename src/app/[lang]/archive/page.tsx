@@ -80,7 +80,7 @@ export default async function Archive() {
             <Link key={k} href={`/topics#${k}`} className="group flex flex-col items-center rounded-[2rem] px-2 pt-4 pb-5 text-center transition hover:bg-tile">
               <TopicIllustration topic={k} className="!w-28 transition duration-300 group-hover:scale-105 sm:!w-32" />
               <span className="title mt-1 text-xl">{TOPICS[k].label}</span>
-              <span className="mt-0.5 text-sm text-ink-2">
+              <span className="mt-0.5 text-base text-ink-2">
                 {topicItems(sorted, k).length} מתוך {lists.length} רשימות
               </span>
             </Link>

@@ -15,7 +15,7 @@ export default function CountdownPreview() {
   return (
     <div className="mx-auto max-w-[72rem] px-5 pb-24 sm:px-10">
       <header className="pt-12 pb-10 text-center">
-        <p className="text-sm tracking-wide text-muted">פנימי · לא מפורסם באתר</p>
+        <p className="text-base tracking-wide text-muted">פנימי · לא מפורסם באתר</p>
         <h1 className="serif mt-5 text-5xl sm:text-6xl">Countdown options</h1>
       </header>
       <div className="flex flex-col gap-8">

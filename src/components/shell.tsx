@@ -118,11 +118,11 @@ export function TabBar() {
   const path = usePathname();
   const { nav, ui } = useDict();
   return (
-    <nav aria-label={ui.viewsAria} className="fixed inset-x-0 bottom-0 z-40 grid grid-cols-5 border-t border-line bg-paper pb-[env(safe-area-inset-bottom)] backdrop-blur-[1.5px] lg:hidden">
+    <nav aria-label={ui.viewsAria} className="fixed inset-x-0 bottom-0 z-40 grid grid-cols-6 border-t border-line bg-paper pb-[env(safe-area-inset-bottom)] backdrop-blur-[1.5px] lg:hidden">
       {VIEWS.map((v) => {
         const on = isActive(path, v.match);
         return (
-          <Link key={v.id} href={v.href} aria-current={on ? "page" : undefined} className={`flex flex-col items-center gap-0.5 py-2 text-xs ${on ? "title text-ink" : "text-ink-2"}`}>
+          <Link key={v.id} href={v.href} aria-current={on ? "page" : undefined} className={`flex flex-col items-center gap-0.5 px-0.5 py-2 text-center text-base leading-tight ${on ? "title text-ink" : "text-ink-2"}`}>
             <Icon id={v.id} />
             {nav[v.key]}
           </Link>

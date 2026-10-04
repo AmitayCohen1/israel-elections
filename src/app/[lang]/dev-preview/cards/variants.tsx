@@ -40,8 +40,8 @@ export function TopicCarousel({ topics }: { topics: ChatTopic[] }) {
                   <li key={r.id} className="flex items-center gap-3 py-1">
                     <Avatar name={r.face.name} src={r.face.src} color={r.face.color} size={34} />
                     <span className="min-w-0">
-                      <span className="title block text-sm leading-tight">{r.name}</span>
-                      <span className="line-clamp-1 block text-sm text-ink-2">{r.text}</span>
+                      <span className="title block text-base leading-tight">{r.name}</span>
+                      <span className="line-clamp-1 block text-base text-ink-2">{r.text}</span>
                     </span>
                   </li>
                 ))}
@@ -85,7 +85,7 @@ export function RoundTable({ topics }: { topics: ChatTopic[] }) {
         </div>
       </div>
       <div key={`${t.key}-${who}`} className="card-in mt-4 flex-1 rounded-2xl bg-paper p-4">
-        <p className="title text-sm text-ink-2">{speaker.name}</p>
+        <p className="title text-base text-ink-2">{speaker.name}</p>
         <p className="mt-1 text-lg leading-snug text-pretty">{speaker.text}</p>
       </div>
     </div>
@@ -112,13 +112,13 @@ export function DeckFeature({ faces, people }: { faces: { src: string; name: str
           <Avatar name={p.name} src={p.img} color={p.color} size={72} />
           <div>
             <p className="title text-xl leading-tight">{p.name}</p>
-            <p className="text-sm text-ink-2">{p.party}</p>
+            <p className="text-base text-ink-2">{p.party}</p>
             {p.headline && <p className="mt-1 text-base">{p.headline}</p>}
           </div>
         </div>
         <dl className="mt-3 divide-y divide-ink/10 border-t border-ink/10">
           {p.facts.map((f, k) => (
-            <div key={k} className="flex gap-3 py-1.5 text-sm">
+            <div key={k} className="flex gap-3 py-1.5 text-base">
               <dt className="w-24 shrink-0 text-ink-2">{f.label}</dt>
               <dd>{f.value}</dd>
             </div>
@@ -143,7 +143,7 @@ export function Directory({ people }: { people: StripPerson[] }) {
               <span className={`block overflow-hidden rounded-full transition duration-300 ${k === on ? "scale-110 ring-4 ring-ink" : "opacity-60"}`}>
                 <Avatar name={q.name} src={q.img} color={q.color} size={60} />
               </span>
-              <span className="line-clamp-1 text-xs text-ink-2">{q.name}</span>
+              <span className="line-clamp-1 text-base text-ink-2">{q.name}</span>
             </button>
           </li>
         ))}
@@ -155,7 +155,7 @@ export function Directory({ people }: { people: StripPerson[] }) {
         {p.headline && <p className="mt-1 text-base">{p.headline}</p>}
         <ul className="mt-2 flex flex-wrap gap-2">
           {p.facts.map((f, k) => (
-            <li key={k} className="rounded-full bg-mist px-3 py-1 text-sm">
+            <li key={k} className="rounded-full bg-mist px-3 py-1 text-base">
               <span className="text-ink-2">{f.label}: </span>
               {f.value}
             </li>
@@ -189,7 +189,7 @@ export function Spotlight({ topics }: { topics: ChatTopic[] }) {
           <Avatar name={r.face.name} src={r.face.src} color={r.face.color} size={44} />
           <span>
             <span className="title block text-lg leading-tight">{r.name}</span>
-            <span className="text-sm text-ink-2">על {t.label}</span>
+            <span className="text-base text-ink-2">על {t.label}</span>
           </span>
         </p>
       </div>
@@ -271,7 +271,7 @@ export function PersonFile({ people }: { people: StripPerson[] }) {
                   ✓
                 </span>
                 <span className="min-w-0">
-                  <span className="block text-sm text-ink-2">{f.label}</span>
+                  <span className="block text-base text-ink-2">{f.label}</span>
                   <span className="line-clamp-2 block text-base leading-snug">{f.value}</span>
                 </span>
               </li>

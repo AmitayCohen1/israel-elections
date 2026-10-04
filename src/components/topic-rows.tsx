@@ -28,7 +28,7 @@ export function CanvasRow({ id, lead, title, sub, name = "rows", children }: { i
         <span className="grid size-16 shrink-0 place-items-center">{lead}</span>
         <span className="flex-1">
           <span className="title block text-2xl sm:text-3xl">{title}</span>
-          {sub && <span className="mt-1 block text-base text-ink-2">{sub}</span>}
+          {sub && <span className="mt-1 block text-lg text-ink-2">{sub}</span>}
         </span>
         <Chevron className="size-10 bg-paper" />
       </summary>
@@ -64,12 +64,12 @@ export async function QuoteList({ items, heading = true }: { items: QuoteItem[];
   const t = await getMessages(m);
   return (
     <div className={heading ? "mt-7" : "mt-4"}>
-      {heading && <p className="text-sm font-semibold tracking-wide text-muted">{t.inTheirWords}</p>}
+      {heading && <p className="text-lg font-semibold tracking-wide text-muted">{t.inTheirWords}</p>}
       <ul className="mt-3 space-y-4 border-s-2 border-ink/15 ps-4">
         {items.map((q, i) => (
           <li key={i}>
             <p className="leading-relaxed text-ink-2">{t.quote(q.quote)}</p>
-            <a href={q.href} target="_blank" rel="noreferrer" className="mt-1 inline-block text-sm text-accent underline-offset-4 hover:underline">
+            <a href={q.href} target="_blank" rel="noreferrer" className="mt-1 inline-block text-lg text-accent underline-offset-4 hover:underline">
               {q.label} ↗
             </a>
           </li>
@@ -86,14 +86,14 @@ export async function QuoteList({ items, heading = true }: { items: QuoteItem[];
 export async function OwnWords({ items, summary, size = "lg" }: { items: Position[]; summary?: string | null; size?: "base" | "lg" }) {
   const t = await getMessages(m);
   const { sourceTypes } = await getDictionary();
-  const big = size === "lg" ? "text-lg leading-[1.7] sm:text-xl sm:leading-[1.7]" : "text-base leading-relaxed";
+  const big = size === "lg" ? "text-xl leading-[1.7] sm:text-2xl sm:leading-[1.7]" : "text-lg leading-relaxed";
   return (
     <div>
       <ul className="space-y-5 border-s-2 border-ink/20 ps-4">
         {items.map((p, i) => (
           <li key={i}>
             <p className={`${big} text-pretty`}>{t.quote(p.quote)}</p>
-            <a href={p.source_url} target="_blank" rel="noreferrer" className="mt-1 inline-block text-sm text-accent underline-offset-4 hover:underline">
+            <a href={p.source_url} target="_blank" rel="noreferrer" className="mt-1 inline-block text-lg text-accent underline-offset-4 hover:underline">
               {sourceLabel(p, sourceTypes)} ↗
             </a>
           </li>
@@ -101,11 +101,11 @@ export async function OwnWords({ items, summary, size = "lg" }: { items: Positio
       </ul>
       {(summary || items.some((p) => p.point)) && (
         <div className="mt-6">
-          <p className="text-sm font-semibold tracking-wide text-muted">{t.ours}</p>
+          <p className="text-lg font-semibold tracking-wide text-muted">{t.ours}</p>
           {summary ? (
-            <p className="mt-1 text-base leading-relaxed text-pretty text-ink-2">{summary}</p>
+            <p className="mt-1 text-lg leading-relaxed text-pretty text-ink-2">{summary}</p>
           ) : (
-            <ul className="mt-1 space-y-1.5 text-base leading-relaxed text-pretty text-ink-2">
+            <ul className="mt-1 space-y-1.5 text-lg leading-relaxed text-pretty text-ink-2">
               {items.map((p, i) => (
                 <li key={i}>{p.point}</li>
               ))}

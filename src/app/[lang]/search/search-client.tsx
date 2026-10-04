@@ -88,7 +88,7 @@ export function SearchClient({ index }: { index: SearchEntry[] }) {
                     <Avatar name={r.n} src={r.i} color={r.c} size={56} />
                     <span className="min-w-0 flex-1">
                       <span className="block truncate text-xl font-medium">{r.n}</span>
-                      <span className="block truncate text-sm text-muted">
+                      <span className="block truncate text-base text-muted">
                         {t.slot(r.p, r.l)}
                         {r.k && ` · ${r.k}`}
                       </span>

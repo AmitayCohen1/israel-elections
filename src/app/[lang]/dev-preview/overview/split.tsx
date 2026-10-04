@@ -16,14 +16,14 @@ export function Split({ topics }: { topics: SplitTopic[] }) {
           <button key={x.key} role="tab" aria-selected={x.key === key} onClick={() => setKey(x.key)} className={`flex items-center gap-3 rounded-2xl px-3 py-2 text-start transition ${x.key === key ? "bg-mist" : "hover:bg-mist/60"}`}>
             <span className="w-10 shrink-0">{x.art}</span>
             <span className="title flex-1 text-lg">{x.label}</span>
-            <span className="text-sm text-ink-2 tabular-nums">{x.rows.length}</span>
+            <span className="text-base text-ink-2 tabular-nums">{x.rows.length}</span>
           </button>
         ))}
       </div>
       <div className="rounded-[2rem] bg-mist p-6">
         <div className="flex items-baseline justify-between">
           <h3 className="serif text-5xl leading-none">{t.label}</h3>
-          <Link href={`/topics#${t.key}`} className="text-sm text-ink-2 underline-offset-4 hover:text-ink hover:underline">
+          <Link href={`/topics#${t.key}`} className="text-base text-ink-2 underline-offset-4 hover:text-ink hover:underline">
             כל {t.rows.length} הרשימות ←
           </Link>
         </div>
@@ -34,7 +34,7 @@ export function Split({ topics }: { topics: SplitTopic[] }) {
                 <span className="mt-0.5 grid size-11 shrink-0 place-items-center">{r.mark}</span>
                 <span className="min-w-0">
                   <span className="title block text-base leading-tight">{r.name}</span>
-                  {r.gist && <span className="mt-0.5 line-clamp-2 block text-sm leading-snug text-ink-2">{r.gist}</span>}
+                  {r.gist && <span className="mt-0.5 line-clamp-2 block text-base leading-snug text-ink-2">{r.gist}</span>}
                 </span>
               </Link>
             </li>

@@ -82,7 +82,7 @@ export function useFair(stances: StancesByTopic) {
 /** Says out loud that this is a sample, and that the sample changes. */
 export function FairNote({ shown, total, className = "" }: { shown: number; total: number; className?: string }) {
   return (
-    <p className={`text-center text-sm text-ink-2 ${className}`}>
+    <p className={`text-center text-base text-ink-2 ${className}`}>
       {shown} מתוך {total} רשימות עם עמדה בנושא · בכל סבב מופיעות אחרות, בסדר אקראי
     </p>
   );
@@ -105,7 +105,7 @@ function MiniTabs({ topic, pick, className = "" }: { topic: TopicKey; pick: (k: 
 function Say({ s, i, className = "" }: { s: Stance; i: number; className?: string }) {
   return (
     <Link href={`/lists/${s.slug}#positions`} style={{ animationDelay: `${250 + i * 170}ms` }} className={`card-in group flex items-center gap-3.5 rounded-[1.5rem] bg-paper px-4 py-3 shadow-[0_14px_30px_-24px_rgb(0_12_31/0.25)] ${className}`}>
-      <Lead l={{ ...s, faces: s.face ? [s.face] : [] }} sizes="48px" className="size-10 shrink-0 rounded-full bg-tile text-xs" />
+      <Lead l={{ ...s, faces: s.face ? [s.face] : [] }} sizes="48px" className="size-10 shrink-0 rounded-full bg-tile text-base" />
       <span className="min-w-0 text-lg leading-snug">
         <span className="title underline-offset-4 group-hover:underline">{s.name}</span>
         <span className="text-ink-2"> · {s.text}</span>
@@ -124,7 +124,7 @@ function Top({ counts }: { counts: string }) {
       <div className="mx-auto mt-5 max-w-[30rem]">
         <SearchBox size="lg" />
       </div>
-      <p className="mt-3 text-sm text-ink-2">{counts}</p>
+      <p className="mt-3 text-base text-ink-2">{counts}</p>
     </div>
   );
 }
@@ -247,7 +247,7 @@ function TopicTabs({ topic, pick, className = "" }: { topic: TopicKey; pick: (k:
 
 function Foot() {
   return (
-    <p className="mt-8 text-center text-sm text-ink-2">
+    <p className="mt-8 text-center text-base text-ink-2">
       לכל העמדות של כל הרשימות ·{" "}
       <Link href="/positions" className="font-medium text-ink underline underline-offset-4">
         עמוד העמדות
@@ -273,7 +273,7 @@ export function HeroTopics({ stances, counts }: { stances: StancesByTopic; count
           {row.map((s) => (
             <Link key={s.slug} href={`/lists/${s.slug}#positions`} className="card-in group flex flex-col rounded-[2rem] bg-paper p-6 shadow-[0_14px_30px_-24px_rgb(0_12_31/0.25)]">
               <span className="flex items-center gap-3">
-                <Lead l={{ ...s, faces: s.face ? [s.face] : [] }} sizes="64px" className="size-12 rounded-full bg-tile text-sm" />
+                <Lead l={{ ...s, faces: s.face ? [s.face] : [] }} sizes="64px" className="size-12 rounded-full bg-tile text-base" />
                 <span className="title text-xl underline-offset-4 group-hover:underline">{s.name}</span>
               </span>
               <span className="mt-4 text-xl leading-snug text-pretty">{s.text}</span>
@@ -334,7 +334,7 @@ export function HeroCentre({ stances, counts }: { stances: StancesByTopic; count
   const cards = (items: Stance[]) =>
     items.map((s) => (
       <Link key={s.slug} href={`/lists/${s.slug}#positions`} className="card-in group flex items-start gap-4 rounded-[2rem] bg-paper p-5 shadow-[0_14px_30px_-24px_rgb(0_12_31/0.25)]">
-        <Lead l={{ ...s, faces: s.face ? [s.face] : [] }} sizes="64px" className="size-12 shrink-0 rounded-full bg-tile text-sm" />
+        <Lead l={{ ...s, faces: s.face ? [s.face] : [] }} sizes="64px" className="size-12 shrink-0 rounded-full bg-tile text-base" />
         <span className="min-w-0">
           <span className="title block text-lg underline-offset-4 group-hover:underline">{s.name}</span>
           <span className="mt-1 block text-lg leading-snug text-ink-2 text-pretty">{s.text}</span>

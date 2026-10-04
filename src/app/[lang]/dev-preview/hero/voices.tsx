@@ -48,8 +48,8 @@ export function OptionVoices({ voices }: { voices: Voice[] }) {
 
       {/* What it says */}
       <div dir="rtl">
-        <p className="flex items-center gap-2.5 text-sm text-ink-2">
-          <span className="slip rounded-[4px] border border-line-strong px-1.5 py-0.5 font-ballot text-xs leading-none font-black text-ink">{v.letters}</span>
+        <p className="flex items-center gap-2.5 text-base text-ink-2">
+          <span className="slip rounded-[4px] border border-line-strong px-1.5 py-0.5 font-ballot text-base leading-none font-black text-ink">{v.letters}</span>
           {v.topic}
         </p>
         <p className="title mt-3 text-3xl">{v.list}</p>

@@ -22,11 +22,11 @@ export const m = defineMessages(
     who4b: ", ואתקן.",
     howTitle: "איך נאסף המידע",
     stats: (c: Counts, f: Fmt) =>
-      `באתר ${c.lists} מפלגות ו-${f(c.candidates)} מועמדים. ל-${c.withPositions} מפלגות מצאנו מצע או אתר עם עמדות, ומהם ${f(c.positions)} עמדות עם ציטוט ומקור.`,
+      `באתר ${c.lists} מפלגות ו-${f(c.candidates)} מועמדים. ל-${c.withPositions} מפלגות מצאנו מצע או אתר עם עמדות, ותיעדנו ${f(c.positions)} עמדות עם ציטוט ומקור.`,
     steps: [
       ["המפלגות והמועמדים", "לקחנו את רשימות המועמדים שאישרה ועדת הבחירות המרכזית: מי ברשימה, באיזה מקום, ומה אותיות הפתק. למפלגות שמופיעות בסקרים השלמנו את הרשימה המלאה מערוץ הכנסת."],
       ["רקע על כל מועמד", "לכל מועמד חיפשנו ערך בוויקיפדיה העברית ותמונה ברישיון חופשי בוויקישיתוף, ולמי שכיהן בכנסת הוספנו את הכהונות והתפקידים ממאגר המידע הפתוח של הכנסת. כשההתאמה נעשתה לפי שם בלבד, זה כתוב בעמוד של המועמד. מי שלא מצאנו עליו מקור אמין נשאר בלי ביוגרפיה."],
-      ["ראשי המפלגות", "לחמשת הראשונים בכל מפלגה אספנו עובדות קריירה: שירות צבאי ולאומי, השכלה, רקע מקצועי, תפקידים ציבוריים וכהונה בכנסת. כל עובדה מקושרת לעמוד שבו קראנו אותה. לא כללנו האשמות, פרשות או פרטים על החיים הפרטיים, ולא כתבנו דבר על מי שלא מצאנו עליו מקור."],
+      ["המועמדים המובילים", "לחמשת הראשונים בכל מפלגה אספנו עובדות קריירה: שירות צבאי ולאומי, השכלה, רקע מקצועי, תפקידים ציבוריים וכהונה בכנסת. כל עובדה מקושרת לעמוד שבו קראנו אותה. לא כללנו האשמות, פרשות או פרטים על החיים הפרטיים, ולא כתבנו דבר על מי שלא מצאנו עליו מקור."],
       ["העמדות", "קראנו את המצע ואת האתר של כל מפלגה, וחילקנו את מה שכתבה לשמונה נושאים. לכל עמדה שמרנו את הציטוט המקורי, מילה במילה, ואת הקישור לעמוד שממנו נלקח, ומתחתיו כתבנו תקציר קצר וניטרלי. קודם הציטוט, אחר כך התקציר."],
       ["הבדיקה", "שמרנו עותק של כל עמוד מקור, וכל ציטוט נבדק אוטומטית מול העותק הזה: ציטוט שלא מופיע בו מילה במילה לא עולה לאתר."],
       ["כלים", "חלק מהאיסוף ומהסיכום נעשה בעזרת כלי בינה מלאכותית. הכללים שבעמוד הזה חלים גם עליהם: רק מה שכתוב במקור, ציטוט וקישור לכל דבר, ו״לא מצאנו״ במקום ניחוש."],
@@ -38,7 +38,7 @@ export const m = defineMessages(
       ["רק מה שהמפלגה פרסמה בעצמה", "העמדות נלקחות מהמצע של המפלגה ומהאתר שלה, בלבד. לא מהתקשורת, לא מראיונות ולא מהערכות שלנו. מפלגה שלא פרסמה מצע שמצאנו תקבל את הכיתוב ״לא מצאנו מצע״."],
       ["איך נכתבים התקצירים", "כל תקציר הוא סיכום שלנו של הציטוטים שמופיעים מעליו. אורכו תלוי בכמה המפלגה כתבה על הנושא, לא בדעה שלנו, וכל ציטוט נבדק מול הטקסט המקורי."],
       ["ציטוט ומקור לכל עמדה", "קודם מופיע הציטוט המקורי עם קישור, כדי שתוכלו לבדוק בעצמכם. הניסוח שלנו בא אחריו, קצר וניטרלי."],
-      ["״לא מצאנו״ היא תשובה", "אם מפלגה לא פרסמה עמדה בנושא, כך נכתוב. אנחנו לא משלימים לפי מוניטין."],
+      ["״לא מצאנו״ היא תשובה", "אם לא מצאנו עמדה שפרסמה המפלגה בנושא, כך נכתוב. אנחנו לא משלימים לפי מוניטין."],
       ["התאמה אוטומטית מסומנת", "כשביוגרפיה הותאמה למועמד לפי שם בלבד, זה כתוב בעמוד שלו."],
     ],
     sourcesTitle: "המקורות",
@@ -53,7 +53,7 @@ export const m = defineMessages(
   },
   {
     en: {
-      title: "Sources and method",
+      title: "Sources and methodology",
       hint: "Who is behind the site, where the information comes from, and how it is collected and checked.",
       whoTitle: "Who is behind the site",
       who1: "I built “Who to Vote For?” on my own, not for profit, because I think information about the elections lacks transparency and accessibility. You can find me on X:",
@@ -64,11 +64,11 @@ export const m = defineMessages(
       who4b: ", and I will fix it.",
       howTitle: "How the information was collected",
       stats: (c: Counts, f: Fmt) =>
-        `The site covers ${c.lists} parties and ${f(c.candidates)} candidates. For ${c.withPositions} parties we found a platform or a website with positions, and from them ${f(c.positions)} positions with a quote and a source.`,
+        `The site covers ${c.lists} parties and ${f(c.candidates)} candidates. For ${c.withPositions} parties we found a platform or a website with positions, and documented ${f(c.positions)} positions with quotes and sources.`,
       steps: [
-        ["Parties and candidates", "We took the candidate lists approved by the Central Elections Committee: who is on each list, in which spot, and the ballot letters. For the parties that appear in the polls, we filled in the full list from the Knesset Channel."],
+        ["Parties and candidates", "We took the candidate lists approved by the Central Elections Committee: who is on each list, their list positions, and the letters on each ballot slip. For the parties that appear in the polls, we filled in the full list from the Knesset Channel."],
         ["Background on each candidate", "For each candidate we looked for an entry on Hebrew Wikipedia and a freely licensed photo on Wikimedia Commons, and for anyone who served in the Knesset we added their terms and roles from the Knesset's open data. When a match was made by name alone, the candidate's page says so. Anyone for whom we found no reliable source is left without a biography."],
-        ["Party leaders", "For the top five on each list we gathered career facts: military and national service, education, professional background, public roles and Knesset service. Every fact links to the page where we read it. We did not include accusations, affairs or details about private life, and we wrote nothing about anyone for whom we found no source."],
+        ["Leading candidates", "For the top five on each list we gathered career facts: military and national service, education, professional background, public roles and Knesset service. Every fact links to the page where we read it. We did not include accusations, affairs or details about private life, and we wrote nothing about anyone for whom we found no source."],
         ["Positions", "We read each party's platform and website and sorted what it wrote into eight topics. For every position we kept the original quote, word for word, and the link to the page it came from, and wrote a short, neutral summary below it: the quote first, then the summary."],
         ["Checking", "We saved a copy of every source page, and every quote is automatically checked against that copy: a quote that does not appear in it word for word does not go on the site."],
         ["Tools", "Part of the collecting and summarizing was done with AI tools. The rules on this page apply to them too: only what the source says, a quote and a link for everything, and “we found nothing” instead of a guess."],
@@ -79,8 +79,8 @@ export const m = defineMessages(
         ["No ranking, and no fixed first party", "On the topic pages the parties appear in a random order that changes with every visit, and in the party index the order is the official order of the Central Elections Committee. There are no forecasts and no ranking here."],
         ["Only what the party published itself", "Positions are taken only from the party's platform and its own website. Not from the media, not from interviews and not from our own estimates. A party that has not published a platform we could find gets the label “No platform found”."],
         ["How the summaries are written", "Each summary is our own digest of the quotes shown above it. Its length depends on how much the party wrote on the topic, not on our opinion, and every quote is checked against the original text."],
-        ["A quote and a source for every position", "Our wording is short and neutral. Beneath it appear the original quote and a link, so you can check for yourself."],
-        ["“We found nothing” is an answer", "If a party has not published a position on a topic, that is what we write. We don't fill gaps based on reputation."],
+        ["A quote and a source for every position", "The original quote and source link appear first, so you can check for yourself. Our short, neutral summary follows."],
+        ["“We found nothing” is an answer", "If we cannot find a published position on a topic, we say so. We don't fill gaps based on reputation."],
         ["Automatic matches are marked", "When a biography was matched to a candidate by name alone, it says so on their page."],
       ],
       sourcesTitle: "Sources",

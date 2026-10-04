@@ -15,7 +15,7 @@ export async function CandidateRow({ c, color }: { c: Candidate; color: string |
         <Avatar name={c.display_name} src={c.image_url} color={color} size={56} />
         <span className="min-w-0 flex-1">
           <span className="block truncate text-xl font-medium">{c.display_name}</span>
-          {sub && <span className="block truncate text-sm text-muted">{sub}</span>}
+          {sub && <span className="block truncate text-base text-muted">{sub}</span>}
         </span>
         <span aria-hidden className="text-xl text-muted transition ltr:group-hover:translate-x-1 rtl:group-hover:-translate-x-1 group-hover:text-ink">
           <Arrow>←</Arrow>

@@ -30,7 +30,7 @@ const CANVAS = "mx-auto grid max-w-[104rem] items-center gap-12 overflow-hidden 
 function Line({ s, i = 0, delay = false }: { s: Stance; i?: number; delay?: boolean }) {
   return (
     <Link href={`/lists/${s.slug}#positions`} style={delay ? { animationDelay: `${250 + i * 170}ms` } : undefined} className={`group flex items-start gap-3.5 ${delay ? "card-in" : ""}`}>
-      <Lead l={{ ...s, faces: s.face ? [s.face] : [] }} sizes="48px" className="mt-0.5 size-10 shrink-0 rounded-full bg-tile text-xs" />
+      <Lead l={{ ...s, faces: s.face ? [s.face] : [] }} sizes="48px" className="mt-0.5 size-10 shrink-0 rounded-full bg-tile text-base" />
       <span className="min-w-0 text-lg leading-snug">
         <span className="title underline-offset-4 group-hover:underline">{s.name}</span>
         <span className="block text-ink-2 text-pretty">{s.text}</span>

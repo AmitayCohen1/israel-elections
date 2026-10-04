@@ -22,7 +22,7 @@ export function Reader({ items }: { items: ReaderItem[] }) {
               <span className="grid size-12 shrink-0 place-items-center">{i.mark}</span>
               <span className="min-w-0">
                 <span className="title block text-lg">{i.name}</span>
-                {i.gist && <span className="block truncate text-sm text-ink-2">{i.gist}</span>}
+                {i.gist && <span className="block truncate text-base text-ink-2">{i.gist}</span>}
               </span>
             </button>
           </li>

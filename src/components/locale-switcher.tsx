@@ -91,7 +91,7 @@ export function LocaleSwitcher({ className = "", variant = "row" }: { className?
                 className={`flex items-center justify-between rounded-2xl px-3.5 py-2 text-base transition ${on ? "title bg-mist text-ink" : "text-ink-2 hover:bg-mist/70 hover:text-ink"}`}
               >
                 {LOCALE_INFO[l].native}
-                <span lang="en" className="text-xs uppercase tracking-wider text-ink-2/70">
+                <span lang="en" className="text-base uppercase tracking-wider text-ink-2/70">
                   {l}
                 </span>
               </NextLink>

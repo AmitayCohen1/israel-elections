@@ -27,7 +27,7 @@ export const ar: Dictionary = {
     map: "خريطة المواقف",
     people: "رؤساء الأحزاب",
     lists: "الأحزاب",
-    vote: "كيف نصوّت",
+    vote: "دليل التصويت",
     about: "المصادر والمنهجية",
     resources: "روابط رسمية",
     contact: "اتصل بنا",

@@ -96,7 +96,7 @@ export function SeatsCalculator() {
         </dl>
         <table className="mb-10 w-full text-lg">
           <thead>
-            <tr className="text-start text-sm text-muted">
+            <tr className="text-start text-base text-muted">
               <th className="pb-3 font-normal">{t.party}</th>
               <th className="pb-3 font-normal">{t.first}</th>
               <th className="pb-3 font-normal">{t.surplus}</th>
@@ -126,7 +126,7 @@ function Mini({ label, value }: { label: string; value: string }) {
   return (
     <div>
       <dd className="serif text-3xl tabular-nums sm:text-4xl">{value}</dd>
-      <dt className="mt-1 text-sm text-muted">{label}</dt>
+      <dt className="mt-1 text-base text-muted">{label}</dt>
     </div>
   );
 }

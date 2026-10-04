@@ -1,9 +1,11 @@
-import { getIntl, getMessages } from "@/i18n";
+import { getIntl, getLocale, getMessages } from "@/i18n";
 import type { Metadata } from "next";
+import { SITE_URL, localeUrl, pageMeta } from "@/lib/seo";
+import { JsonLd } from "@/components/json-ld";
 import Link from "@/i18n/link";
 import { notFound } from "next/navigation";
 import { getDataset, getList } from "@/lib/data";
-import { hebrewKnessets } from "@/lib/text";
+import { hebrewKnessets, leadBio } from "@/lib/text";
 import { mkLabelT, mkMessages } from "@/components/candidate-messages";
 import { m } from "./messages";
 import { Avatar } from "@/components/avatar";
@@ -26,10 +28,11 @@ export async function generateMetadata({ params }: PageProps<"/[lang]/lists/[slu
   const data = await load(params);
   if (!data) return {};
   const t = await getMessages(m);
-  return {
+  return pageMeta({
+    path: `/lists/${data.list.slug}/${data.c.position}`,
     title: t.title(data.c.display_name, data.c.position, data.list.name),
-    description: data.c.bio?.slice(0, 160) ?? t.description(data.c.display_name, data.c.position, data.list.name),
-  };
+    description: leadBio(data.c.bio, 160) ?? t.description(data.c.display_name, data.c.position, data.list.name),
+  });
 }
 
 export default async function CandidatePage({ params }: PageProps<"/[lang]/lists/[slug]/[position]">) {
@@ -43,9 +46,21 @@ export default async function CandidatePage({ params }: PageProps<"/[lang]/lists
   const k = c.knesset;
 
   const card = "rounded-[2rem] bg-mist p-5 sm:p-6";
+  const lang = await getLocale();
 
   return (
     <View>
+      <JsonLd
+        data={{
+          "@type": "Person",
+          name: c.display_name,
+          url: SITE_URL + localeUrl(lang, `/lists/${list.slug}/${c.position}`),
+          ...(c.image_url ? { image: c.image_url } : {}),
+          ...(c.bio ? { description: leadBio(c.bio, 300) } : {}),
+          ...(c.wiki_url && !c.wiki_guessed ? { sameAs: [c.wiki_url] } : {}),
+          memberOf: { "@type": "Organization", name: list.name, url: SITE_URL + localeUrl(lang, `/lists/${list.slug}`) },
+        }}
+      />
       <ViewHead
         title={c.display_name}
         back={{ href: `/lists/${list.slug}`, label: list.name }}
@@ -59,7 +74,7 @@ export default async function CandidatePage({ params }: PageProps<"/[lang]/lists
           {c.bio ? (
             <>
               <p className="mt-3 max-w-[38rem] text-lg leading-relaxed text-pretty">{c.bio}</p>
-              <p className="mt-4 text-sm text-ink-2">
+              <p className="mt-4 text-base text-ink-2">
                 {t.from}{" "}
                 <a href={c.wiki_url!} target="_blank" rel="noreferrer" className="text-accent underline-offset-4 hover:underline">
                   {t.wikipedia} ↗
@@ -72,7 +87,7 @@ export default async function CandidatePage({ params }: PageProps<"/[lang]/lists
             <p className="mt-3 text-lg text-ink-2">{t.noInfo(c.display_name)}</p>
           )}
           {c.image_url && c.image_page && (
-            <p className="mt-4 border-t border-ink/10 pt-3 text-xs text-ink-2">
+            <p className="mt-4 border-t border-ink/10 pt-3 text-base text-ink-2">
               {t.photo}{" "}
               <a href={c.image_page} target="_blank" rel="noreferrer" className="underline underline-offset-4">
                 {t.commons}
@@ -100,7 +115,7 @@ export default async function CandidatePage({ params }: PageProps<"/[lang]/lists
                       .reverse()
                       .map((r, i) => (
                         <li key={i} className="flex items-baseline gap-3">
-                          <span className="w-24 shrink-0 text-sm text-ink-2 tabular-nums">
+                          <span className="w-24 shrink-0 text-base text-ink-2 tabular-nums">
                             {r.start.slice(0, 4)}–{r.end ? r.end.slice(0, 4) : t.today}
                           </span>
                           <span>
@@ -113,7 +128,7 @@ export default async function CandidatePage({ params }: PageProps<"/[lang]/lists
                 </AccRow>
               </div>
             )}
-            <p className="mt-3 text-sm text-ink-2">
+            <p className="mt-3 text-base text-ink-2">
               {t.from}{" "}
               <a href={k.url} target="_blank" rel="noreferrer" className="text-accent underline-offset-4 hover:underline">
                 {t.knessetSite} ↗
@@ -135,7 +150,7 @@ function Fact({ value, label }: { value: React.ReactNode; label: string }) {
   return (
     <div>
       <dd className="serif text-5xl tabular-nums">{value}</dd>
-      <dt className="mt-1 text-sm text-ink-2">{label}</dt>
+      <dt className="mt-1 text-base text-ink-2">{label}</dt>
     </div>
   );
 }
@@ -143,7 +158,7 @@ function Fact({ value, label }: { value: React.ReactNode; label: string }) {
 function Neighbor({ href, label, name, end }: { href: string; label: string; name: string; end?: boolean }) {
   return (
     <Link href={href} className={`group ${end ? "text-end" : ""}`}>
-      <span className="block text-sm text-ink-2">{label}</span>
+      <span className="block text-base text-ink-2">{label}</span>
       <span className="block text-xl font-medium underline-offset-4 group-hover:underline">{name}</span>
     </Link>
   );

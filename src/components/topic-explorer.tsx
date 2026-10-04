@@ -89,7 +89,7 @@ export function TopicExplorer({ topics, defaultKey }: { topics: ExplorerTopic[];
   };
 
   return (
-    <div ref={root} id="topics" className="scroll-mt-24 lg:grid lg:grid-cols-[18rem_minmax(0,1fr)] lg:gap-14 lg:items-start">
+    <div ref={root} id="topics" className="scroll-mt-24 lg:grid lg:grid-cols-[22rem_minmax(0,1fr)] lg:gap-14 lg:items-start">
       {/* One click: pick a topic. A chip strip on small screens, a sticky side list on wide ones. */}
       <nav aria-label={dict.nav.topics} className="scrollbar-none sticky top-0 z-10 -mx-4 mb-6 flex gap-2 overflow-x-auto bg-paper/95 px-4 py-2 backdrop-blur-[1.5px] sm:-mx-8 sm:px-8 lg:top-4 lg:mx-0 lg:mb-0 lg:flex-col lg:gap-1 lg:overflow-visible lg:bg-transparent lg:p-0 lg:backdrop-blur-none">
         {topics.map((x) => {
@@ -100,9 +100,9 @@ export function TopicExplorer({ topics, defaultKey }: { topics: ExplorerTopic[];
               type="button"
               aria-pressed={on}
               onClick={() => pickTopic(x.key)}
-              className={`flex shrink-0 items-center gap-3 rounded-full px-4 py-2 text-lg transition lg:rounded-2xl lg:px-3 lg:py-2.5 lg:text-xl ${on ? "bg-ink text-white lg:bg-mist lg:text-ink" : "bg-tile hover:bg-mist lg:bg-transparent"}`}
+              className={`flex shrink-0 items-center gap-3 rounded-full px-4 py-2 text-xl transition lg:rounded-2xl lg:px-3 lg:py-1.5 lg:text-2xl ${on ? "bg-ink text-white lg:bg-mist lg:text-ink" : "bg-tile hover:bg-mist lg:bg-transparent"}`}
             >
-              <span className="hidden size-14 shrink-0 place-items-center lg:grid">{x.icon}</span>
+              <span className="hidden size-20 shrink-0 place-items-center lg:grid">{x.icon}</span>
               <span className="title leading-tight">{x.label}</span>
             </button>
           );
@@ -111,7 +111,7 @@ export function TopicExplorer({ topics, defaultKey }: { topics: ExplorerTopic[];
 
       {/* One line per list. Open one for the full text: it opens in place, in a single column, so nothing jumps. */}
       <div className="min-w-0 max-w-3xl">
-        <p className="mb-3 text-lg text-ink-2">
+        <p className="mb-3 text-xl text-ink-2">
           {tx.wrote(t.rows.length, t.total, t.label)}
         </p>
         <div className="border-t border-line">
@@ -120,8 +120,8 @@ export function TopicExplorer({ topics, defaultKey }: { topics: ExplorerTopic[];
               <summary className="flex cursor-pointer items-center gap-3 py-3.5">
                 <span className="grid size-11 shrink-0 place-items-center">{r.mark}</span>
                 <span className="min-w-0 flex-1">
-                  <span className="title block text-lg leading-tight">{r.name}</span>
-                  {r.gist && <span className="mt-0.5 line-clamp-1 block text-base leading-snug text-ink-2 group-open:hidden">{r.gist}</span>}
+                  <span className="title block text-xl leading-tight">{r.name}</span>
+                  {r.gist && <span className="mt-0.5 line-clamp-1 block text-lg leading-snug text-ink-2 group-open:hidden">{r.gist}</span>}
                 </span>
                 <Chevron className="size-8 bg-tile" />
               </summary>
@@ -131,7 +131,7 @@ export function TopicExplorer({ topics, defaultKey }: { topics: ExplorerTopic[];
         </div>
 
         {t.silent.length > 0 && (
-          <details className="mt-4 text-sm leading-snug text-ink-2">
+          <details className="mt-4 text-lg leading-snug text-ink-2">
             <summary className="inline-block cursor-pointer font-semibold text-accent underline-offset-4 hover:underline">
               {tx.silent(t.silent.length, t.label)}
             </summary>

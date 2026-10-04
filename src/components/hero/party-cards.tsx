@@ -39,7 +39,7 @@ function GalleryCard({ t }: { t: Team }) {
       <span className="flex items-center justify-between gap-3 px-2 pt-3 pb-1.5">
         <span className="min-w-0">
           <span className="title block truncate text-[1.35rem] leading-tight">{t.name}</span>
-          <span className="mt-0.5 block truncate text-sm text-ink-2">
+          <span className="mt-0.5 block truncate text-base text-ink-2">
             בראשות {lead.name} · {t.count} מועמדים
           </span>
         </span>
@@ -54,11 +54,11 @@ function GroupCard({ t }: { t: Team }) {
   const p = t.people;
   // Left to right on screen; the lead in the middle, slot 2 to their right, the way the page reads.
   const row: [TeamPerson | undefined, string][] = [
-    [p[4], "z-[1] size-12 text-sm"],
+    [p[4], "z-[1] size-12 text-base"],
     [p[2], "z-[2] -ms-3.5 size-[4.25rem] text-lg"],
     [p[0], "z-[3] -ms-3.5 size-[5.75rem] text-2xl"],
     [p[1], "z-[2] -ms-3.5 size-[4.25rem] text-lg"],
-    [p[3], "z-[1] -ms-3.5 size-12 text-sm"],
+    [p[3], "z-[1] -ms-3.5 size-12 text-base"],
   ];
   return (
     <Link href={`/lists/${t.slug}`} className={`${CARD} flex flex-col items-center rounded-[1.75rem] px-4 pt-7 pb-5 text-center`}>
@@ -66,7 +66,7 @@ function GroupCard({ t }: { t: Team }) {
         {row.map(([person, cls], k) => person && <Face key={k} p={person} sizes="100px" className={`rounded-full ring-[3px] ring-card ${cls}`} />)}
       </span>
       <span className="title mt-5 block max-w-full truncate text-[1.35rem] leading-tight">{t.name}</span>
-      <span className="mt-1.5 flex items-center gap-2 text-sm text-ink-2">
+      <span className="mt-1.5 flex items-center gap-2 text-base text-ink-2">
         <Slip letters={t.letters} className="h-7 w-[1.4rem] rounded-[4px] text-[0.7rem]" />
         {t.count} מועמדים
       </span>
@@ -88,7 +88,7 @@ function PortraitCard({ t }: { t: Team }) {
         <span className="mt-3 flex items-center justify-between gap-3">
           <span className="flex items-center">
             {rest.slice(0, 4).map((p, k) => (
-              <Face key={p.slot} p={p} sizes="44px" className={`size-10 rounded-full text-xs ring-2 ring-card ${k ? "-ms-2.5" : ""}`} />
+              <Face key={p.slot} p={p} sizes="44px" className={`size-10 rounded-full text-base ring-2 ring-card ${k ? "-ms-2.5" : ""}`} />
             ))}
           </span>
           <span className="shrink-0 text-ink-2">{t.count} מועמדים</span>
@@ -111,7 +111,7 @@ function RowCard({ t }: { t: Team }) {
       <span className="flex shrink-0 items-center">
         <Face p={lead} sizes="60px" className="z-[1] size-14 rounded-full text-base ring-[3px] ring-card" />
         {rest.slice(0, 4).map((p) => (
-          <Face key={p.slot} p={p} sizes="48px" className="-ms-2.5 size-11 rounded-full text-xs ring-[3px] ring-card" />
+          <Face key={p.slot} p={p} sizes="48px" className="-ms-2.5 size-11 rounded-full text-base ring-[3px] ring-card" />
         ))}
       </span>
     </Link>

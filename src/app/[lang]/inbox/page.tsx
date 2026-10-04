@@ -20,20 +20,20 @@ export default async function Inbox() {
   return (
     <div className="mx-auto max-w-3xl px-4 pb-24">
       <header className="pt-12 pb-10 text-center">
-        <p className="text-sm tracking-wide text-muted">פנימי · לא מפורסם באתר</p>
+        <p className="text-base tracking-wide text-muted">פנימי · לא מפורסם באתר</p>
         <h1 className="serif mt-5 text-5xl sm:text-6xl">פניות</h1>
         <p className="mt-4 text-ink-2">{rows.length} פניות. הודעות מעמוד יצירת הקשר.</p>
       </header>
       <ul className="border-t border-line">
         {rows.map((r) => (
           <li key={r.id} className="border-b border-line py-7">
-            <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1 text-sm text-muted">
+            <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1 text-base text-muted">
               <span className="title text-xl text-ink" dir="auto">{r.contact ?? r.list_name ?? "ללא מייל"}</span>
               <span>{new Date(r.created_at).toLocaleString(intl)}</span>
               <span className="rounded-full bg-tile px-3 py-0.5">{r.status}</span>
             </div>
             <p className="mt-3 text-lg leading-relaxed whitespace-pre-wrap">{r.message}</p>
-            <div className="mt-3 flex flex-wrap gap-x-6 gap-y-1 text-sm text-ink-2">
+            <div className="mt-3 flex flex-wrap gap-x-6 gap-y-1 text-base text-ink-2">
               {r.link && (
                 <a href={r.link} target="_blank" rel="noreferrer" className="text-accent underline-offset-4 hover:underline" dir="ltr">
                   {r.link}

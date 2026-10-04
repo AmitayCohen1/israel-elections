@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { getMessages } from "@/i18n";
 import { defineMessages } from "@/i18n/messages";
 import { arCount, ruPlural } from "@/i18n/messages/plural";
 import { getDataset } from "@/lib/data";
-import { PartyCard } from "@/components/list-card";
+import { m as cardMessages } from "@/components/list-card";
+import { PartyExplorer, type PartyEntry } from "@/components/party-explorer";
 import { View, ViewHead } from "@/components/view-head";
 
 const m = defineMessages(
@@ -48,39 +50,34 @@ const m = defineMessages(
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getMessages(m);
-  return { title: t.title, description: t.description };
+  return pageMeta({ path: "/lists", title: t.title, description: t.description });
 }
 
-const GRID = "grid gap-3 sm:grid-cols-2 xl:grid-cols-3 min-[110rem]:grid-cols-4";
-
-/** Every party as a card on a grid: first the ones in the polls, then all the rest, each group in the official order. Nothing is folded away. */
+/** Every party, in the official order, with the ones in the polls first. Same layout as the party heads: names on one side, the picked party beside them. */
 export default async function Lists() {
-  const t = await getMessages(m);
+  const [t, card] = await Promise.all([getMessages(m), getMessages(cardMessages)]);
   const lists = await getDataset();
-  const sorted = [...lists].sort((a, b) => a.cec_order - b.cec_order);
-  const main = sorted.filter((l) => l.tier === "main");
-  const other = sorted.filter((l) => l.tier !== "main");
+  const sorted = [...lists].sort((a, b) => (a.tier === b.tier ? a.cec_order - b.cec_order : a.tier === "main" ? -1 : 1));
+  const parties: PartyEntry[] = sorted.map((l) => {
+    const lead = l.candidates[0];
+    const topics = new Set(l.platform?.positions.map((p) => p.topic)).size;
+    return {
+      slug: l.slug,
+      name: l.name,
+      color: l.color,
+      letters: l.letters,
+      main: l.tier === "main",
+      leader: lead ? { name: lead.display_name, img: lead.image_url } : null,
+      summary: l.summary,
+      candidatesLabel: card.candidates(l.candidates.length),
+      positionsLabel: topics > 0 ? card.positions(topics) : card.noPlatform,
+      top: l.candidates.slice(0, 5).map((c) => ({ position: c.position, name: c.display_name })),
+    };
+  });
   return (
     <View>
       <ViewHead title={t.title} hint={t.hint(lists.length)} />
-
-      <h2 className="title flex items-baseline gap-2 pb-3 text-xl">
-        {t.inPolls} <span className="text-base font-normal text-ink-2 tabular-nums">{main.length}</span>
-      </h2>
-      <ul className={GRID}>
-        {main.map((l) => (
-          <PartyCard key={l.slug} list={l} />
-        ))}
-      </ul>
-
-      <h2 className="title flex items-baseline gap-2 pt-10 pb-3 text-xl">
-        {t.more} <span className="text-base font-normal text-ink-2 tabular-nums">{other.length}</span>
-      </h2>
-      <ul className={GRID}>
-        {other.map((l) => (
-          <PartyCard key={l.slug} list={l} />
-        ))}
-      </ul>
+      <PartyExplorer parties={parties} moreLabel={t.more} />
     </View>
   );
 }

@@ -18,7 +18,7 @@ export function Ballot({
 }) {
   const t = useMessages(ballot);
   const dims = {
-    xs: "h-9 w-7 text-sm rounded-[0.25rem]",
+    xs: "h-9 w-7 text-base rounded-[0.25rem]",
     sm: "h-14 w-11 text-xl rounded-[0.3rem]",
     md: "h-28 w-22 text-4xl rounded-[0.45rem]",
     lg: "h-44 w-34 text-6xl rounded-[0.55rem]",

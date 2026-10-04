@@ -83,7 +83,7 @@ export function FlapCountdown({ className = "text-[clamp(2.2rem,3vw,3.2rem)]", g
           <span className={`serif ${className}`}>
             <FlapNum n={u.n} />
           </span>
-          <span className="text-xs font-medium tracking-wide text-muted">{u.label}</span>
+          <span className="text-base font-medium tracking-wide text-muted">{u.label}</span>
         </div>
       ))}
     </div>

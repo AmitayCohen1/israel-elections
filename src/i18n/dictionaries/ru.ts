@@ -27,7 +27,7 @@ export const ru: Dictionary = {
     map: "Карта позиций",
     people: "Лидеры партий",
     lists: "Партии",
-    vote: "Как голосовать",
+    vote: "Гид по голосованию",
     about: "Источники и метод",
     resources: "Официальные ссылки",
     contact: "Контакты",

@@ -1,6 +1,7 @@
 import { getIntl, getMessages } from "@/i18n";
 import { m } from "@/i18n/messages/about";
 import type { Metadata } from "next";
+import { pageMeta } from "@/lib/seo";
 import { View, ViewHead } from "@/components/view-head";
 import Link from "@/i18n/link";
 import { AccRow } from "@/components/accordion";
@@ -16,7 +17,7 @@ const SOURCE_URLS = [
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getMessages(m);
-  return { title: t.title };
+  return pageMeta({ path: "/about", title: t.title, description: t.hint });
 }
 
 export default async function About() {
