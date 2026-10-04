@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import Link from "@/i18n/link";
 import { LocaleSwitcher } from "./locale-switcher";
 import { Logo } from "./logo";
@@ -20,7 +21,9 @@ export function Footer({ dict }: { dict: Dictionary }) {
           ))}
         </nav>
       </div>
-      <LocaleSwitcher className="mx-auto max-w-[72rem] px-5 pb-10 sm:px-10" />
+      <Suspense>
+        <LocaleSwitcher className="mx-auto max-w-[72rem] px-5 pb-10 sm:px-10" />
+      </Suspense>
     </footer>
   );
 }

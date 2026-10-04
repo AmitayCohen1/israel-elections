@@ -2,7 +2,7 @@
 
 import Link from "@/i18n/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { Suspense, useState } from "react";
 import { Logo } from "@/components/logo";
 import { SearchBox } from "@/components/search-box";
 import { LocaleSwitcher } from "@/components/locale-switcher";
@@ -113,8 +113,10 @@ export function Rail() {
         <div className="px-1">
           <Logo />
         </div>
-        <LocaleSwitcher variant="menu" className="mt-5" />
-        <NavLinks />
+        <Suspense>
+          <LocaleSwitcher variant="menu" className="mt-5" />
+          <NavLinks />
+        </Suspense>
         <div className="mt-auto pt-6">
           <SearchBox size="sm" openUp />
         </div>

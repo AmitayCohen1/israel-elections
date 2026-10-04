@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import { Analytics } from "@vercel/analytics/next";
 import { Frank_Ruhl_Libre, Heebo, Noto_Sans_Arabic, Noto_Sans_Ethiopic } from "next/font/google";
@@ -40,11 +41,16 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
   return (
     <html lang={lang} dir={LOCALE_INFO[lang].dir} className={`${heebo.variable} ${frank.variable} ${arabic.variable} ${ethiopic.variable} h-full antialiased`}>
       <body className="font-sans">
-        <Track />
-        <DictionaryProvider dict={dict}>
+        {/* The pieces that read the address sit behind Suspense, so pages that are not prerendered still get the frame at once. */}
+        <Suspense>
+          <Track />
+        </Suspense>
+        <DictionaryProvider lang={lang} dict={dict}>
           {/* A fixed app. The sidebar is the card: grey, rounded, floating. The content is simply the page, and scrolls on its own. */}
           <div className="flex h-dvh flex-col">
-            <Header />
+            <Suspense fallback={<div className="h-16 shrink-0 lg:hidden" />}>
+              <Header />
+            </Suspense>
             <div className="flex min-h-0 flex-1">
               <Rail />
               <div data-scroll-root className="flex min-w-0 flex-1 flex-col overflow-y-auto">

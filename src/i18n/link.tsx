@@ -1,14 +1,13 @@
 "use client";
 
 import NextLink from "next/link";
-import { useParams } from "next/navigation";
-import type { ComponentProps } from "react";
-import { DEFAULT_LOCALE, hasLocale } from "./config";
+import { useContext, type ComponentProps } from "react";
+import { DEFAULT_LOCALE } from "./config";
+import { LangCtx } from "./provider";
 
-/** The current language, from the URL. Client components only. */
+/** The current language, handed down by the layout (reading it from the URL here would keep every page that links anywhere from prerendering). Client components only. */
 export function useLocale() {
-  const { lang } = useParams<{ lang?: string }>();
-  return lang && hasLocale(lang) ? lang : DEFAULT_LOCALE;
+  return useContext(LangCtx) ?? DEFAULT_LOCALE;
 }
 
 /** Puts the language in front of a path: "/lists" becomes "/en/lists". Anything that is not an absolute path is left alone. */

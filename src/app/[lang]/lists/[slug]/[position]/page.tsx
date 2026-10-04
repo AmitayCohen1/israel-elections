@@ -1,5 +1,6 @@
 import { getLocale, getMessages } from "@/i18n";
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { SITE_URL, localeUrl, pageMeta } from "@/lib/seo";
 import { JsonLd } from "@/components/json-ld";
 import { notFound } from "next/navigation";
@@ -9,7 +10,7 @@ import { mkLabelT, mkMessages } from "@/components/candidate-messages";
 import { m } from "./messages";
 import { Avatar } from "@/components/avatar";
 import { View, ViewHead } from "@/components/view-head";
-import { CandidateProfile } from "@/components/candidate-profile";
+import { CandidateProfile, CandidateSkeleton } from "@/components/candidate-profile";
 
 // Only the top of each slate is prerendered (every candidate x 5 languages was ~6,000 pages and broke the build); the rest render on first visit.
 export async function generateStaticParams() {
@@ -34,7 +35,22 @@ export async function generateMetadata({ params }: PageProps<"/[lang]/lists/[slu
   });
 }
 
-export default async function CandidatePage({ params }: PageProps<"/[lang]/lists/[slug]/[position]">) {
+// Most candidates are not prerendered, so who this is depends on the address: the page opens at once on a placeholder and the person streams in.
+export default function CandidatePage({ params }: PageProps<"/[lang]/lists/[slug]/[position]">) {
+  return (
+    <Suspense
+      fallback={
+        <View width="wide">
+          <CandidateSkeleton />
+        </View>
+      }
+    >
+      <Candidate params={params} />
+    </Suspense>
+  );
+}
+
+async function Candidate({ params }: { params: PageProps<"/[lang]/lists/[slug]/[position]">["params"] }) {
   const [t, mk] = await Promise.all([getMessages(m), getMessages(mkMessages)]);
   const data = await load(params);
   if (!data) notFound();

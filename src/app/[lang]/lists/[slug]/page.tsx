@@ -1,16 +1,19 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { SITE_URL, localeUrl, pageMeta } from "@/lib/seo";
 import { JsonLd } from "@/components/json-ld";
 import { notFound } from "next/navigation";
 import { getDataset, getList, type List } from "@/lib/data";
 import { TOPIC_KEYS } from "@/lib/topics";
 import { getDictionary, getLocale, getMessages } from "@/i18n";
-import Link from "@/i18n/link";
 import { PartyMark } from "@/components/party-mark";
 import { partyLogo } from "@/lib/logos";
 import { AccRow } from "@/components/accordion";
 import { Avatar } from "@/components/avatar";
 import { View, ViewHead } from "@/components/view-head";
+import { CandidateProfile, CandidateSkeleton, popupId } from "@/components/candidate-profile";
+import { Popup, PopupLink } from "@/components/popup";
+import { m as cm } from "./[position]/messages";
 import { YouTubeLite } from "@/components/youtube-lite";
 import { TopicIcon } from "@/components/topic-icon";
 import { OwnWords } from "@/components/topic-rows";
@@ -39,7 +42,22 @@ export async function generateMetadata({ params }: PageProps<"/[lang]/lists/[slu
   });
 }
 
-export default async function ListPage({ params }: PageProps<"/[lang]/lists/[slug]">) {
+// Which party this is comes from the address, so it is read inside the boundary: moving between parties shows the frame at once.
+export default function ListPage({ params }: PageProps<"/[lang]/lists/[slug]">) {
+  return (
+    <Suspense
+      fallback={
+        <View width="read">
+          <CandidateSkeleton />
+        </View>
+      }
+    >
+      <Party params={params} />
+    </Suspense>
+  );
+}
+
+async function Party({ params }: { params: PageProps<"/[lang]/lists/[slug]">["params"] }) {
   const { slug } = await params;
   const list = await getList(slug);
   if (!list) notFound();
@@ -83,8 +101,33 @@ export default async function ListPage({ params }: PageProps<"/[lang]/lists/[slu
         <Media slug={list.slug} />
         <About list={list} />
       </div>
+      <Popups list={list} />
     </View>
   );
+}
+
+/** One closed popup per candidate we know something about; the faces and rows above open them. The rest link to their own pages. */
+async function Popups({ list }: { list: List }) {
+  const [t, mk] = await Promise.all([getMessages(cm), getMessages(mkMessages)]);
+  return list.candidates
+    .filter((c) => c.bio || c.knesset)
+    .map((c) => (
+      <Popup key={c.position} id={popupId(c.position)}>
+        <header className="mb-6 flex items-center gap-4 pe-12">
+          <Avatar name={c.display_name} src={c.image_url} color={list.color} size={96} />
+          <div className="min-w-0">
+            <h2 id={`${popupId(c.position)}-title`} className="title text-3xl text-balance sm:text-4xl">
+              {c.display_name}
+            </h2>
+            <p className="mt-1.5 text-lg text-ink-2">
+              {t.hint(c.position, list.name)}
+              {c.knesset ? ` · ${mkLabelT(mk, c.knesset)}` : ""}
+            </p>
+          </div>
+        </header>
+        <CandidateProfile list={list} c={c} popup />
+      </Popup>
+    ));
 }
 
 /** Section heading + a hairline rule: the one shape every section on the page shares. */
@@ -160,11 +203,11 @@ async function Faces({ list }: { list: List }) {
       <ol className="mt-3 flex justify-between gap-1 overflow-x-auto pb-1">
         {top.map((c) => (
           <li key={c.position} className="w-[6.25rem] shrink-0">
-            <Link href={`/lists/${c.list_slug}/${c.position}`} scroll={false} className="group flex flex-col items-center gap-2 rounded-2xl p-2 text-center transition hover:bg-mist">
+            <PopupLink popup={popupId(c.position)} href={`/lists/${c.list_slug}/${c.position}`} className="group flex flex-col items-center gap-2 rounded-2xl p-2 text-center transition hover:bg-mist">
               <Avatar name={c.display_name} src={c.image_url} color={list.color} size={64} priority />
               <span className="line-clamp-2 text-base leading-tight font-medium">{c.display_name}</span>
               <span className="-mt-1 text-base text-muted tabular-nums">{c.position}</span>
-            </Link>
+            </PopupLink>
           </li>
         ))}
       </ol>
@@ -172,7 +215,7 @@ async function Faces({ list }: { list: List }) {
   );
 }
 
-/** The slate, one line each; a person opens as a popup over this page. */
+/** The slate, one line each; a person we know something about opens as a popup over this page. */
 async function People({ list, top: n }: { list: List; top: number }) {
   const [t, mk] = await Promise.all([getMessages(m), getMessages(mkMessages)]);
   const top = list.candidates.slice(0, n);
@@ -182,14 +225,14 @@ async function People({ list, top: n }: { list: List; top: number }) {
       <Heading>{t.whoIsOnList}</Heading>
       <div className={rows}>
         {top.map((c) => (
-          <Link key={c.position} href={`/lists/${c.list_slug}/${c.position}`} scroll={false} className="flex items-center gap-4 border-b border-line py-3.5 transition hover:bg-mist/60">
+          <PopupLink key={c.position} popup={popupId(c.position)} href={`/lists/${c.list_slug}/${c.position}`} className="flex items-center gap-4 border-b border-line py-3.5 transition hover:bg-mist/60">
             <span className="serif w-6 shrink-0 text-center text-xl text-muted tabular-nums">{c.position}</span>
             <Avatar name={c.display_name} src={c.image_url} color={list.color} size={48} className="shrink-0" />
             <span className="min-w-0 flex-1">
               <span className="block truncate text-xl font-medium">{c.display_name}</span>
               <span className="block truncate text-lg text-ink-2">{c.knesset ? mkLabelT(mk, c.knesset) : shortBio(c.bio, 70)}</span>
             </span>
-          </Link>
+          </PopupLink>
         ))}
       </div>
       {rest.length > 0 && (
@@ -199,9 +242,9 @@ async function People({ list, top: n }: { list: List; top: number }) {
             {rest.map((c) => (
               <li key={c.position} className="flex min-w-0 gap-2">
                 <span className="w-7 shrink-0 text-end text-muted tabular-nums">{c.position}</span>
-                <Link href={`/lists/${c.list_slug}/${c.position}`} scroll={false} className="truncate underline-offset-4 hover:underline">
+                <PopupLink popup={popupId(c.position)} href={`/lists/${c.list_slug}/${c.position}`} className="truncate underline-offset-4 hover:underline">
                   {c.display_name}
-                </Link>
+                </PopupLink>
               </li>
             ))}
           </ol>
