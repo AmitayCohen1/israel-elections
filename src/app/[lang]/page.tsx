@@ -154,9 +154,9 @@ export default async function Home() {
             </Link>
           </p>
         </div>
-        <div className="flex items-end gap-4">
+        <div className="flex flex-col gap-3">
+          <p className="text-sm text-ink-2">{t.until(electionDay)}</p>
           <FlapCountdown className="text-[1.9rem]" gap="gap-2.5" />
-          <p className="pb-5 text-sm text-ink-2">{t.until(electionDay)}</p>
         </div>
       </header>
 
