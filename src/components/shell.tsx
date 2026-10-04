@@ -8,6 +8,7 @@ import { SearchBox } from "@/components/search-box";
 import { LocaleSwitcher } from "@/components/locale-switcher";
 import { useDict } from "@/i18n/provider";
 import { MORE, VIEWS, isActive, stripLocale } from "@/lib/nav";
+import { useScrolledDown } from "@/components/hide-on-scroll";
 
 const PATHS: Record<string, React.ReactNode> = {
   search: (
@@ -127,16 +128,20 @@ function NavLinks({ onNavigate }: { onNavigate?: () => void }) {
 
 /**
  * Wide screens: the classic top bar. The name on the start side, the views in a row (the current one underlined where the
- * bar meets the page), then search and language at the end. It stays at the top while the page scrolls under it; search
- * opens as a band just below it.
+ * bar meets the page), then search and language at the end. It slides away while the page is scrolled down, so each
+ * section has the whole screen, and comes back the moment the page is scrolled up; search opens as a band just below it.
  */
 export function TopBar() {
   const { nav, ui } = useDict();
   const path = usePathname();
   const [searchOn, setSearchOn] = useState<string | null>(null);
   const searching = searchOn === path;
+  // Out of the way while reading down; never while its search is open or something in it has the keyboard.
+  const down = useScrolledDown();
+  const [held, setHeld] = useState(false);
+  const away = down && !searching && !held;
   return (
-    <header className="sticky top-0 z-40 hidden border-b border-line bg-paper/90 backdrop-blur-md xl:block">
+    <header onFocusCapture={() => setHeld(true)} onBlurCapture={() => setHeld(false)} className={`sticky top-0 z-40 hidden border-b border-line bg-paper/90 backdrop-blur-md transition-transform duration-300 motion-reduce:transition-none xl:block ${away ? "-translate-y-full" : ""}`}>
       <div className="mx-auto flex h-20 max-w-[88rem] items-center gap-10 px-8">
         <Logo />
         <nav aria-label={ui.viewsAria} className="flex h-full items-center gap-1">
@@ -189,6 +194,7 @@ export function TopBar() {
 /**
  * Phones and narrower screens: a slim top bar with the menu button, the name and a search button. The menu opens the same sidebar as a drawer
  * from the start edge (name, language, views, quieter links); the search button turns the bar into the one search.
+ * Like the wide bar, it slides away while the page is scrolled down and comes back on the way up.
  */
 export function Header() {
   const { ui } = useDict();
@@ -204,8 +210,10 @@ export function Header() {
       <path d="M6 6l12 12M18 6L6 18" />
     </svg>
   );
+  const away = useScrolledDown() && !menu && !searching;
   return (
-    <header className="sticky top-0 z-40 flex h-16 shrink-0 items-center gap-3 bg-paper/90 px-4 backdrop-blur-md xl:hidden">
+    <>
+    <header className={`sticky top-0 z-40 flex h-16 shrink-0 items-center gap-3 bg-paper/90 px-4 backdrop-blur-md transition-transform duration-300 motion-reduce:transition-none xl:hidden ${away ? "-translate-y-full" : ""}`}>
       {searching ? (
         <>
           <div className="min-w-0 flex-1">
@@ -231,7 +239,9 @@ export function Header() {
           </button>
         </>
       )}
+    </header>
 
+      {/* Outside the bar: a bar with a backdrop blur, or one that is sliding away, would trap a fixed child inside itself. */}
       {menu && (
         <div
           id="drawer"
@@ -256,6 +266,6 @@ export function Header() {
           </div>
         </div>
       )}
-    </header>
+    </>
   );
 }

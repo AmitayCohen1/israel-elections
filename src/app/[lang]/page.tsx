@@ -4,6 +4,7 @@ import { arCount, ruPlural } from "@/i18n/messages/plural";
 import { getDataset } from "@/lib/data";
 import { loadAxes } from "@/lib/axes";
 import { FlapCountdown } from "@/components/flap-countdown";
+import { VoteClip } from "@/components/vote-clip";
 import Image from "next/image";
 import { PartyFan } from "@/components/party-fan";
 import { MapTeaser } from "@/components/map-teaser";
@@ -270,14 +271,11 @@ export default async function Home() {
     <div className="pb-8">
       <JsonLd data={{ "@type": "WebSite", name: dict.ui.brand, url: SITE_URL + localeUrl(locale), inLanguage: locale, description: dict.meta.description }} />
 
-      {/* The hero: the name, the countdown, and the question it is all for: where to start. */}
+      {/* The hero: the slip going into the box, the name, and the question it is all for: where to start. (The countdown is with "how to vote", at the end.) */}
       <section className="mx-auto max-w-[88rem] px-4 pt-6 sm:px-8 sm:pt-8">
         <div className="flex flex-col items-center text-center">
-          <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2">
-            <p className="text-lg whitespace-nowrap text-ink-2">{t.until(electionDay)}</p>
-            <FlapCountdown className="text-[1.4rem]" gap="gap-2" />
-          </div>
-          <h1 className="serif mt-5 text-[clamp(3.2rem,5.6vw,6rem)] leading-[0.95] text-balance">{dict.ui.brand}</h1>
+          <VoteClip autoplay loop className="pointer-events-none h-36 w-auto object-contain sm:h-44" />
+          <h1 className="serif mt-2 text-[clamp(3.2rem,5.6vw,6rem)] leading-[0.95] text-balance">{dict.ui.brand}</h1>
           <p className="mt-4 max-w-2xl text-lg leading-snug text-ink-2 text-pretty sm:text-xl">
             {dict.ui.blurb}{" "}
             <Link href="/about" className="font-medium text-ink underline underline-offset-4">
@@ -303,7 +301,7 @@ export default async function Home() {
       </section>
 
       {/* One sentence that sharpens word by word as it scrolls past. */}
-      <section className="mx-auto max-w-[62rem] px-4 py-40 text-center sm:py-56">
+      <section className="mx-auto max-w-[62rem] px-4 pt-36 pb-6 text-center sm:pt-48 sm:pb-10">
         <Statement
           className="serif text-[clamp(2.5rem,5.6vw,6rem)] leading-[1.06]"
           parts={[
@@ -363,6 +361,11 @@ export default async function Home() {
       </Section>
 
       <Section id="vote" title={t.voteTitle} wide>
+        {/* How long is left, where the page talks about election day */}
+        <div className="mb-10 flex flex-wrap items-center gap-x-5 gap-y-3 sm:mb-14">
+          <p className="text-xl whitespace-nowrap text-ink-2">{t.until(electionDay)}</p>
+          <FlapCountdown className="text-[1.9rem]" gap="gap-2.5" />
+        </div>
         <div className="grid gap-x-4 gap-y-12 md:grid-cols-3">
           <TileFigure compact className="bg-cream" lead={g.tray.lead} text={g.tray.text}>
             <Painted name="tray" />
