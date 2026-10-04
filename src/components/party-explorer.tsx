@@ -97,7 +97,7 @@ export function PartyExplorer({ parties, moreLabel }: { parties: PartyEntry[]; m
 
   return (
     <div className="grid items-start gap-6 lg:grid-cols-[28rem_minmax(0,1fr)] lg:gap-14">
-      <div className="scrollbar-none -mx-4 overflow-x-auto px-4 sm:-mx-8 sm:px-8 lg:sticky lg:top-8 lg:mx-0 lg:max-h-[calc(100dvh-10rem)] lg:overflow-y-auto lg:overflow-x-visible lg:px-0">
+      <div className="scrollbar-none -mx-4 overflow-x-auto px-4 sm:-mx-8 sm:px-8 lg:sticky lg:top-24 xl:top-28 lg:mx-0 lg:max-h-[calc(100dvh-8rem)] xl:max-h-[calc(100dvh-9rem)] lg:overflow-y-auto lg:overflow-x-visible lg:px-0">
         <ul className="flex gap-1 lg:flex-col">{main.map(row)}</ul>
         {other.length > 0 && (
           <details className="group mt-3 hidden border-t border-line pt-3 lg:block">

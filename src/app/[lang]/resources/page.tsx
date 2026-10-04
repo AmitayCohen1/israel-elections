@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { pageMeta } from "@/lib/seo";
-import { getMessages } from "@/i18n";
+import { getDictionary, getMessages } from "@/i18n";
 import Link from "@/i18n/link";
 import { m } from "@/i18n/messages/resources";
 import { getDataset } from "@/lib/data";
@@ -19,11 +19,13 @@ const OFFICIAL_URLS = [
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getMessages(m);
-  return pageMeta({ path: "/resources", title: t.title, description: t.hint });
+  const dict = await getDictionary();
+  return pageMeta({ path: "/resources", title: dict.nav.resources, description: t.hint });
 }
 
 export default async function Resources() {
   const t = await getMessages(m);
+  const dict = await getDictionary();
   const lists = await getDataset();
   const ordered = [...lists.filter((l) => l.tier === "main"), ...lists.filter((l) => l.tier !== "main")].filter(
     (l): l is typeof l & { cec_url: string } => !!l.cec_url,
@@ -31,7 +33,7 @@ export default async function Resources() {
 
   return (
     <View width="read">
-      <ViewHead title={t.title} hint={t.hint} />
+      <ViewHead title={dict.nav.resources} hint={t.hint} />
 
       <h2 className="title pb-3 text-2xl">{t.state}</h2>
       <ul className="border-t border-line">

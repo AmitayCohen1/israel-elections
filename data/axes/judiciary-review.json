@@ -46,6 +46,11 @@
    "match": "עצמאות מערכת המשפט"
   },
   {
+   "slug": "democrats",
+   "level": 1,
+   "match": "לבטל את החוקים שקידמה הממשלה"
+  },
+  {
    "slug": "together",
    "level": 2,
    "match": "בהסכמה רחבה"
@@ -79,6 +84,16 @@
    "slug": "utj",
    "level": 3,
    "match": "שינוי היקף הסמכות"
+  },
+  {
+   "slug": "otzma-yehudit",
+   "level": 3,
+   "match": "מבחן זכות העמידה"
+  },
+  {
+   "slug": "rzp-zehut",
+   "level": 3,
+   "match": "במסגרת סמכויותיה בלבד"
   },
   {
    "slug": "noam",

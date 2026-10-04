@@ -56,6 +56,11 @@
    "match": "ועדת חקירה ממלכתית"
   },
   {
+   "slug": "democrats",
+   "level": 1,
+   "match": "ועדת חקירה ממלכתית"
+  },
+  {
    "slug": "amcha-yisrael",
    "level": 2,
    "match": "ועדת חקירה עצמאית"

@@ -1,17 +1,18 @@
 import { getDictionary, getMessages } from "@/i18n";
 import { defineMessages } from "@/i18n/messages";
+import { positionLabels } from "@/i18n/messages/positions";
 import { SOURCE_TYPES, topicLabel, type TopicKey } from "@/lib/topics";
 import type { Position } from "@/lib/data";
 import { TopicIllustration } from "@/components/illustration";
 import { Chevron } from "@/components/chevron";
 
 const m = defineMessages(
-  { inTheirWords: "במילים שלהם", ours: "תקציר שלנו", quote: (q: string) => `”${q}“` },
+  { quote: (q: string) => `”${q}“` },
   {
-    en: { inTheirWords: "In their own words", ours: "Our summary", quote: (q: string) => `“${q}”` },
-    ar: { inTheirWords: "بكلماتهم", ours: "ملخصنا", quote: (q: string) => `«${q}»` },
-    ru: { inTheirWords: "Их словами", ours: "Наше краткое изложение", quote: (q: string) => `«${q}»` },
-    am: { inTheirWords: "በራሳቸው ቃል", ours: "የእኛ ማጠቃለያ", quote: (q: string) => `«${q}»` },
+    en: { quote: (q: string) => `“${q}”` },
+    ar: { quote: (q: string) => `«${q}»` },
+    ru: { quote: (q: string) => `«${q}»` },
+    am: { quote: (q: string) => `«${q}»` },
   },
 );
 
@@ -62,15 +63,16 @@ export type QuoteItem = { quote: string; href: string; label: string };
 export async function QuoteList({ items, heading = true }: { items: QuoteItem[]; heading?: boolean }) {
   if (!items.length) return null;
   const t = await getMessages(m);
+  const labels = await getMessages(positionLabels);
   return (
     <div className={heading ? "mt-7" : "mt-4"}>
-      {heading && <p className="text-lg font-semibold tracking-wide text-muted">{t.inTheirWords}</p>}
+      {heading && <p className="text-lg font-semibold tracking-wide text-muted">{labels.quote}</p>}
       <ul className="mt-3 space-y-4 border-s-2 border-ink/15 ps-4">
         {items.map((q, i) => (
           <li key={i}>
             <p className="leading-relaxed text-ink-2">{t.quote(q.quote)}</p>
             <a href={q.href} target="_blank" rel="noreferrer" className="mt-1 inline-block text-lg text-accent underline-offset-4 hover:underline">
-              {q.label} ↗
+              {labels.source} · {q.label} ↗
             </a>
           </li>
         ))}
@@ -85,23 +87,25 @@ export async function QuoteList({ items, heading = true }: { items: QuoteItem[];
  */
 export async function OwnWords({ items, summary, size = "lg" }: { items: Position[]; summary?: string | null; size?: "base" | "lg" }) {
   const t = await getMessages(m);
+  const labels = await getMessages(positionLabels);
   const { sourceTypes } = await getDictionary();
   const big = size === "lg" ? "text-xl leading-[1.7] sm:text-2xl sm:leading-[1.7]" : "text-lg leading-relaxed";
   return (
     <div>
+      <p className="mb-3 text-lg font-semibold text-muted">{labels.quote}</p>
       <ul className="space-y-5 border-s-2 border-ink/20 ps-4">
         {items.map((p, i) => (
           <li key={i}>
             <p className={`${big} text-pretty`}>{t.quote(p.quote)}</p>
             <a href={p.source_url} target="_blank" rel="noreferrer" className="mt-1 inline-block text-lg text-accent underline-offset-4 hover:underline">
-              {sourceLabel(p, sourceTypes)} ↗
+              {labels.source} · {sourceLabel(p, sourceTypes)} ↗
             </a>
           </li>
         ))}
       </ul>
       {(summary || items.some((p) => p.point)) && (
         <div className="mt-6">
-          <p className="text-lg font-semibold tracking-wide text-muted">{t.ours}</p>
+          <p className="text-lg font-semibold tracking-wide text-muted">{labels.summary}</p>
           {summary ? (
             <p className="mt-1 text-lg leading-relaxed text-pretty text-ink-2">{summary}</p>
           ) : (

@@ -4,12 +4,12 @@ import type { Dictionary } from "@/i18n/dictionaries/he";
 export const TOPICS = {
   security: { label: "ביטחון", emoji: "🛡️" },
   economy: { label: "כלכלה", emoji: "💸" },
-  religion_state: { label: "דת", emoji: "🕍" },
-  judiciary: { label: "משפט", emoji: "⚖️" },
+  religion_state: { label: "דת ומדינה", emoji: "🕍" },
+  judiciary: { label: "מערכת המשפט", emoji: "⚖️" },
   housing: { label: "דיור", emoji: "🏠" },
   education: { label: "חינוך", emoji: "🎓" },
-  welfare_health: { label: "רווחה", emoji: "🩺" },
-  governance: { label: "שלטון", emoji: "🏛️" },
+  welfare_health: { label: "רווחה ובריאות", emoji: "🩺" },
+  governance: { label: "שלטון ודמוקרטיה", emoji: "🏛️" },
 } as const;
 
 export type TopicKey = keyof typeof TOPICS;

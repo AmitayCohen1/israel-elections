@@ -279,7 +279,7 @@ export function AxisStacks({ axes }: { axes: AxisData[] }) {
         </div>
 
         <p className="mt-10 max-w-4xl text-base leading-relaxed text-ink-2">
-          אין עמדה מתועדת בשאלה זו ({axis.uncoded.length} מפלגות):{" "}
+          טרם סיווגנו בשאלה זו ({axis.uncoded.length} מפלגות):{" "}
           {axis.uncoded.map((l) => l.name).join(" · ")}
         </p>
       </div>
@@ -311,9 +311,9 @@ export function AxisStacks({ axes }: { axes: AxisData[] }) {
               target="_blank"
               rel="noreferrer"
               className="text-accent underline underline-offset-4"
-              dir="ltr"
+              dir="auto"
             >
-              {host(cell.source_url)} ↗
+              למקור המלא · {host(cell.source_url)} ↗
             </a>
             {cell.draft && (
               <span className="rounded-full bg-tile px-3 py-1 text-ink-2">

@@ -34,7 +34,7 @@ export const m = defineMessages(
     rulesTitle: "הכללים שלנו",
     rules: [
       ["אותה תבנית לכל מפלגה", "כל מפלגה מקבלת את אותו עמוד, אותם נושאים ואותה רמת פירוט."],
-      ["בלי דירוג, ובלי מפלגה ראשונה קבועה", "בעמודי הנושאים המפלגות מופיעות בסדר אקראי שמשתנה בכל ביקור, ובאינדקס המפלגות הסדר הוא הסדר הרשמי של ועדת הבחירות המרכזית. אין כאן תחזיות ואין דירוג."],
+      ["בלי דירוג, ובלי מפלגה ראשונה קבועה", "בעמודי הנושאים המפלגות מופיעות בסדר אקראי שמשתנה בכל ביקור, ובאינדקס המפלגות מוצגות תחילה המפלגות שמופיעות בסקרים. בתוך כל קבוצה נשמר הסדר הרשמי של ועדת הבחירות המרכזית. אין כאן תחזיות ואין דירוג."],
       ["רק מה שהמפלגה וראשיה אמרו בעצמם", "העמדות נלקחות קודם כול מהמצע של המפלגה ומהאתר שלה. למפלגה שלא פרסמה מצע לבחירות האלה הוספנו גם דברים שאמרו ראשיה במילים שלהם, בהודעה רשמית או בראיון. כל ציטוט כזה מסומן בסוג המקור שלו ומקושר לכתבה. ניסוח של עיתונאי אינו ציטוט ולא עולה לאתר, וגם לא הערכות שלנו."],
       ["איך נכתבים התקצירים", "כל תקציר הוא סיכום שלנו של הציטוטים שמופיעים מעליו. אורכו תלוי בכמה המפלגה כתבה על הנושא, לא בדעה שלנו, וכל ציטוט נבדק מול הטקסט המקורי."],
       ["ציטוט ומקור לכל עמדה", "קודם מופיע הציטוט המקורי עם קישור, כדי שתוכלו לבדוק בעצמכם. הניסוח שלנו בא אחריו, קצר וניטרלי."],
@@ -66,7 +66,7 @@ export const m = defineMessages(
       stats: (c: Counts, f: Fmt) =>
         `The site covers ${c.lists} parties and ${f(c.candidates)} candidates. For ${c.withPositions} parties we found a platform or a website with positions, and documented ${f(c.positions)} positions with quotes and sources.`,
       steps: [
-        ["Parties and candidates", "We took the candidate lists approved by the Central Elections Committee: who is on each list, their list positions, and the letters on each ballot slip. For the parties that appear in the polls, we filled in the full list from the Knesset Channel."],
+        ["Parties and candidates", "We took the candidate lists approved by the Central Elections Committee: who is on each list, their candidate ranks, and the letters on each ballot slip. For the parties that appear in the polls, we filled in the full list from the Knesset Channel."],
         ["Background on each candidate", "For each candidate we looked for an entry on Hebrew Wikipedia and a freely licensed photo on Wikimedia Commons, and for anyone who served in the Knesset we added their terms and roles from the Knesset's open data. When a match was made by name alone, the candidate's page says so. Anyone for whom we found no reliable source is left without a biography."],
         ["Leading candidates", "For the top five on each list we gathered career facts: military and national service, education, professional background, public roles and Knesset service. Every fact links to the page where we read it. We did not include accusations, affairs or details about private life, and we wrote nothing about anyone for whom we found no source."],
         ["Positions", "We read each party's platform and website and sorted what it wrote into eight topics. For every position we kept the original quote, word for word, and the link to the page it came from, and wrote a short, neutral summary below it: the quote first, then the summary."],
@@ -76,7 +76,7 @@ export const m = defineMessages(
       rulesTitle: "Our rules",
       rules: [
         ["The same format for every party", "Every party gets the same page, the same topics and the same level of detail."],
-        ["No ranking, and no fixed first party", "On the topic pages the parties appear in a random order that changes with every visit, and in the party index the order is the official order of the Central Elections Committee. There are no forecasts and no ranking here."],
+        ["No ranking, and no fixed first party", "On the topic pages the parties appear in a random order that changes with every visit, and in the party directory parties included in polls appear first. Within each group we follow the official Central Elections Committee order. There are no forecasts and no ranking here."],
         ["Only what the party and its leaders said themselves", "Positions are taken first from the party's platform and its own website. For a party that has not published a platform for this election we also added things its leaders said in their own words, in an official statement or an interview. Every such quote is labelled with its kind of source and links to the article. A journalist's wording is not a quote and does not go on the site, and neither do our own estimates."],
         ["How the summaries are written", "Each summary is our own digest of the quotes shown above it. Its length depends on how much the party wrote on the topic, not on our opinion, and every quote is checked against the original text."],
         ["A quote and a source for every position", "The original quote and source link appear first, so you can check for yourself. Our short, neutral summary follows."],
@@ -117,7 +117,7 @@ export const m = defineMessages(
       rulesTitle: "قواعدنا",
       rules: [
         ["قالب واحد لكل حزب", "يحصل كل حزب على الصفحة نفسها، والقضايا نفسها، ومستوى التفصيل نفسه."],
-        ["بلا ترتيب، وبلا حزب أول ثابت", "في صفحات القضايا تظهر الأحزاب بترتيب عشوائي يتغير في كل زيارة، وفي فهرس الأحزاب يكون الترتيب هو الترتيب الرسمي للجنة الانتخابات المركزية. لا توجد هنا توقعات ولا تصنيف."],
+        ["بلا ترتيب، وبلا حزب أول ثابت", "في صفحات القضايا تظهر الأحزاب بترتيب عشوائي يتغير في كل زيارة، وفي دليل الأحزاب تظهر الأحزاب الواردة في استطلاعات الرأي أولًا. داخل كل مجموعة نحافظ على الترتيب الرسمي للجنة الانتخابات المركزية. لا توجد هنا توقعات ولا تصنيف."],
         ["فقط ما قاله الحزب وقادته بأنفسهم", "تؤخذ المواقف أولًا من البرنامج الانتخابي للحزب ومن موقعه الإلكتروني. وللحزب الذي لم ينشر برنامجًا لهذه الانتخابات أضفنا أيضًا ما قاله قادته بكلماتهم، في بيان رسمي أو في مقابلة. وكل اقتباس كهذا مُعلَّم بنوع مصدره ومرتبط بالمقال. صياغة الصحفي ليست اقتباسًا ولا تُنشر في الموقع، وكذلك تقديراتنا."],
         ["كيف تُكتب الملخصات", "كل ملخص هو تلخيص منا للاقتباسات الظاهرة فوقه. ويتوقف طوله على مقدار ما كتبه الحزب عن القضية، لا على رأينا، ويُفحص كل اقتباس مقابل النص الأصلي."],
         ["اقتباس ومصدر لكل موقف", "يظهر أولًا الاقتباس الأصلي مع رابط، لتتمكنوا من التحقق بأنفسكم. وتأتي صياغتنا بعده، قصيرة ومحايدة."],
@@ -158,7 +158,7 @@ export const m = defineMessages(
       rulesTitle: "Наши правила",
       rules: [
         ["Один формат для всех партий", "Каждая партия получает ту же страницу, те же темы и тот же уровень подробности."],
-        ["Без рейтингов и без постоянной первой партии", "На страницах тем партии идут в случайном порядке, который меняется при каждом визите, а в индексе партий порядок — официальный порядок Центральной избирательной комиссии. Здесь нет прогнозов и рейтингов."],
+        ["Без рейтингов и без постоянной первой партии", "На страницах тем партии идут в случайном порядке, который меняется при каждом визите, а в справочнике партий сначала показаны партии из опросов. В каждой группе сохраняется официальный порядок Центральной избирательной комиссии. Здесь нет прогнозов и рейтингов."],
         ["Только то, что сказали сама партия и её лидеры", "Позиции берутся прежде всего из платформы партии и с её сайта. Для партии, не опубликовавшей платформу к этим выборам, мы добавили и то, что её лидеры сказали своими словами — в официальном заявлении или в интервью. Каждая такая цитата помечена типом источника и ведёт на статью. Пересказ журналиста — не цитата и на сайт не попадает, как и наши оценки."],
         ["Как пишутся резюме", "Каждое резюме — наш пересказ цитат, приведённых над ним. Его длина зависит от того, сколько партия написала по теме, а не от нашего мнения, и каждая цитата сверяется с оригинальным текстом."],
         ["Цитата и источник для каждой позиции", "Сначала идёт оригинальная цитата со ссылкой, чтобы вы могли проверить сами. Наша формулировка — после неё, короткая и нейтральная."],
@@ -199,7 +199,7 @@ export const m = defineMessages(
       rulesTitle: "ደንቦቻችን",
       rules: [
         ["ለሁሉም ፓርቲ አንድ ዓይነት ቅርጸት", "እያንዳንዱ ፓርቲ ተመሳሳይ ገጽ፣ ተመሳሳይ ርዕሶችና ተመሳሳይ የዝርዝር ደረጃ ያገኛል።"],
-        ["ደረጃ አሰጣጥ የለም፤ ቋሚ የመጀመሪያ ፓርቲም የለም", "በርዕስ ገጾች ላይ ፓርቲዎቹ በእያንዳንዱ ጉብኝት በሚለወጥ በዘፈቀደ ቅደም ተከተል ይታያሉ፤ በፓርቲዎች ማውጫ ውስጥ ደግሞ ቅደም ተከተሉ የማዕከላዊ ምርጫ ኮሚቴ ይፋዊ ቅደም ተከተል ነው። እዚህ ትንበያም ሆነ ደረጃ አሰጣጥ የለም።"],
+        ["ደረጃ አሰጣጥ የለም፤ ቋሚ የመጀመሪያ ፓርቲም የለም", "በርዕስ ገጾች ላይ ፓርቲዎቹ በእያንዳንዱ ጉብኝት በሚለወጥ በዘፈቀደ ቅደም ተከተል ይታያሉ፤ በፓርቲዎች ማውጫ ውስጥ በሕዝብ አስተያየት ጥናቶች የሚታዩት መጀመሪያ ይቀርባሉ። በእያንዳንዱ ቡድን የማዕከላዊ ምርጫ ኮሚቴ ይፋዊ ቅደም ተከተል ይጠበቃል። እዚህ ትንበያም ሆነ ደረጃ አሰጣጥ የለም።"],
         ["ፓርቲውና መሪዎቹ ራሳቸው የተናገሩት ብቻ", "አቋሞች በመጀመሪያ የሚወሰዱት ከፓርቲው የምርጫ ፕሮግራምና ከራሱ ድረ ገጽ ነው። ለዚህ ምርጫ ፕሮግራም ላላወጣ ፓርቲ መሪዎቹ በራሳቸው ቃል በይፋዊ መግለጫ ወይም በቃለ መጠይቅ የተናገሩትንም ጨምረናል። እያንዳንዱ እንዲህ ያለ ጥቅስ በምንጩ ዓይነት ተለይቶ ከጽሑፉ ጋር ተያይዟል። የጋዜጠኛ አገላለጽ ጥቅስ አይደለም፣ ወደ ድረ ገጹም አይገባም፤ የእኛ ግምትም እንዲሁ።"],
         ["ማጠቃለያዎች እንዴት ይጻፋሉ", "እያንዳንዱ ማጠቃለያ ከላዩ የሚታዩትን ጥቅሶች የእኛ ማጠቃለያ ነው። ርዝመቱ የሚወሰነው ፓርቲው በርዕሱ ላይ ምን ያህል እንደጻፈ ነው እንጂ በእኛ አስተያየት አይደለም፤ እያንዳንዱም ጥቅስ ከዋናው ጽሑፍ ጋር ይነጻጸራል።"],
         ["ለእያንዳንዱ አቋም ጥቅስና ምንጭ", "መጀመሪያ ዋናው ጥቅስና አገናኝ ይታያል፤ ራስዎ ማረጋገጥ እንዲችሉ። አጭርና ገለልተኛ አጻጻፋችን ከዚያ በኋላ ይመጣል።"],

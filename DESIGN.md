@@ -42,6 +42,13 @@ Tone: governmental-like — calm, institutional, trustworthy. Never busy, never 
 - Time-based content (countdown, calendar, timeline) reads dates from `src/lib/election.ts` only, and works in Israel time.
 
 ## Wording
+- Section names come from `dict.nav` in navigation, public page headings, metadata, and overview cards: **סקירה**, **עמדות לפי נושא**, **מפת עמדות**, **ראשי המפלגות**, **מפלגות**, **מדריך הצבעה**, **מקורות ושיטה**, **קישורים ומידע נוסף**, **יצירת קשר**. Use the corresponding dictionary labels in other languages.
+- Topic labels describe the complete category: **דת ומדינה**, **מערכת המשפט**, **רווחה ובריאות**, **שלטון ודמוקרטיה**. Keep the Hebrew defaults in `src/lib/topics.ts` aligned with the dictionary.
+- A **מפלגה** is a party; a **רשימת מועמדים** is its ordered slate. Candidate ranks use **מקום X ברשימת Y**. The party leader and the first candidate on a slate are distinct roles.
+- A **מצע** is a platform document; **עמדות** can also be documented from other eligible sources. Missing recorded positions do not establish that a platform does not exist. Say **טרם תיעדנו עמדות**, **לא מצאנו עמדה בנושא זה**, or **המידע עדיין בבדיקה** as appropriate. On the map, an unclassified party is **טרם סיווגנו**, not a party with no position.
+- Quote, summary, and source-link labels live in `src/i18n/messages/positions.ts`: **ציטוט מהמקור**, **תקציר שלנו**, **למקור המלא**. Preserve verbatim source text.
+- Explain **מנדטים — מושבים בכנסת** once in the Hebrew voting guide, then use **מנדטים** for seat allocation. English uses **seats**.
+- Explain ordering per view: parties in polls first in the directory, official order within each group; random order on topic pages. Avoid claiming a single official order across all views.
 - Say **מפלגות**, not רשימות, wherever a visitor reads about the parties. רשימה is kept only for the slate of candidates itself (רשימות המועמדים, מי ברשימה, מקום ברשימת X, המפלגות ברשימה) and the official timeline milestones.
 
 ## Conduct (editorial, non-negotiable)

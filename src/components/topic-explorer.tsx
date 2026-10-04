@@ -20,24 +20,24 @@ export type ExplorerTopic = {
 
 const m = defineMessages(
   {
-    wrote: (n: number, total: number, topic: string) => `${n} מתוך ${total} מפלגות פרסמו עמדה ב${topic}`,
-    silent: (n: number, topic: string) => `לא מצאנו עמדה ב${topic} אצל ${n} מפלגות`,
+    wrote: (n: number, total: number, topic: string) => `מצאנו עמדה בנושא ${topic} אצל ${n} מתוך ${total} מפלגות. הסדר אקראי ומשתנה בכל ביקור.`,
+    silent: (n: number, topic: string) => `לא מצאנו עמדה בנושא ${topic} אצל ${n} מפלגות`,
   },
   {
     en: {
-      wrote: (n: number, total: number, topic: string) => `${n} of ${total} parties published a position on ${topic}`,
+      wrote: (n: number, total: number, topic: string) => `We found a position on ${topic} for ${n} of ${total} parties. The order is random and changes on each visit.`,
       silent: (n: number, topic: string) => `No position on ${topic} found for ${n} ${n === 1 ? "party" : "parties"}`,
     },
     ar: {
-      wrote: (n: number, total: number, topic: string) => `نشر ${n} من ${total} حزبًا موقفًا في قضية «${topic}»`,
+      wrote: (n: number, total: number, topic: string) => `وجدنا موقفًا في قضية «${topic}» لدى ${n} من ${total} حزبًا. الترتيب عشوائي ويتغير في كل زيارة.`,
       silent: (n: number, topic: string) => `لم نجد موقفًا في قضية «${topic}» لدى ${arCount(n, ["حزب واحد", "حزبين", "أحزاب", "حزبًا"])}`,
     },
     ru: {
-      wrote: (n: number, total: number, topic: string) => `${n} из ${total} партий ${ruPlural(n, "опубликовала", "опубликовали", "опубликовали")} позицию по теме «${topic}»`,
+      wrote: (n: number, total: number, topic: string) => `Мы нашли позицию по теме «${topic}» у ${n} из ${total} партий. Порядок случайный и меняется при каждом посещении.`,
       silent: (n: number, topic: string) => `Позиции по теме «${topic}» не нашли у ${n} ${ruPlural(n, "партии", "партий", "партий")}`,
     },
     am: {
-      wrote: (n: number, total: number, topic: string) => `ከ${total} ፓርቲዎች ውስጥ ${n} በ${topic} ላይ አቋማቸውን አሳትመዋል`,
+      wrote: (n: number, total: number, topic: string) => `በ${topic} ላይ ከ${total} ፓርቲዎች ውስጥ ለ${n} አቋም አግኝተናል። ቅደም ተከተሉ በዘፈቀደ ነው፣ በእያንዳንዱ ጉብኝትም ይቀየራል።`,
       silent: (n: number, topic: string) => `በ${topic} ላይ አቋም ያላገኘንላቸው ${n} ፓርቲዎች`,
     },
   },

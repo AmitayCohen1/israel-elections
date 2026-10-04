@@ -2,10 +2,10 @@ import { defineMessages } from "@/i18n/messages";
 
 export const m = defineMessages(
   {
-    metaTitle: "מדריך להצבעה",
+    metaTitle: "מדריך הצבעה",
     metaDescription: "איך מצביעים, איך קולות הופכים ל-120 מנדטים, ולוח הזמנים עד הקלפי.",
-    title: "מדריך הצבעה: איך זה עובד",
-    hint: "בישראל בוחרים פתק, לא אדם. מצביעים למפלגה, והיא מקבלת מנדטים לפי חלקה בקולות, שמתמלאים לפי הסדר שלה: מקום 1, מקום 2, וכן הלאה.",
+    title: "מדריך הצבעה",
+    hint: "בישראל מצביעים לרשימת מועמדים באמצעות פתק הצבעה. הרשימה מקבלת מנדטים — מושבים בכנסת — לפי חלקה בקולות. המועמדים נכנסים לכנסת לפי סדרם ברשימה: מקום 1, מקום 2, וכן הלאה.",
     electionDay: "ביום הבחירות",
     tray: { lead: "בוחרים פתק.", text: "מאחורי הפרגוד מחכה מגש עם פתק לכל מפלגה." },
     envelope: { lead: "מכניסים למעטפה.", text: "פתק אחד, במעטפה אחת." },
@@ -18,7 +18,7 @@ export const m = defineMessages(
       p2: "הקולות שניתנו למפלגות שנפלו לא נספרים בהמשך. החישוב הבא נעשה רק על המפלגות שעברו.",
     },
     s2: {
-      title: "120 מושבים",
+      title: "120 מנדטים",
       p1: "מחברים את הקולות של כל המפלגות שעברו את אחוז החסימה ומחלקים ב-120. התוצאה היא ״המודד״: כמה קולות שווה מנדט אחד.",
       p2: "כל מפלגה מקבלת מנדט על כל מודד שלם שהצליחה לצבור. מי שצברה 2.7 מודדים מקבלת בשלב הזה שני מנדטים.",
     },
@@ -43,7 +43,7 @@ export const m = defineMessages(
     en: {
       metaTitle: "Voting guide",
       metaDescription: "How to vote, how votes turn into 120 seats, and the timeline to election day.",
-      title: "Voting guide: how it works",
+      title: "Voting guide",
       hint: "In Israel you vote for a party list. The party wins seats based on its share of the votes, and candidates enter the Knesset in list order: first, second, and so on.",
       electionDay: "On election day",
       tray: { lead: "Pick a ballot.", text: "Behind the voting screen, a tray holds ballot slips for each party." },
@@ -81,7 +81,7 @@ export const m = defineMessages(
     ar: {
       metaTitle: "كيف يعمل",
       metaDescription: "كيف نصوّت، وكيف تتحول الأصوات إلى 120 مقعدًا، والجدول الزمني حتى يوم الاقتراع.",
-      title: "دليل التصويت: كيف يعمل",
+      title: "دليل التصويت",
       hint: "في إسرائيل نختار ورقة اقتراع لا شخصًا. نصوّت لحزب، ويحصل على مقاعد بحسب حصته من الأصوات، وتُملأ بحسب ترتيبه: المرتبة 1، المرتبة 2، وهكذا.",
       electionDay: "في يوم الانتخابات",
       tray: { lead: "اختاروا ورقة.", text: "خلف الستارة صينية فيها ورقة لكل حزب." },
@@ -119,7 +119,7 @@ export const m = defineMessages(
     ru: {
       metaTitle: "Как это работает",
       metaDescription: "Как голосовать, как голоса превращаются в 120 мандатов и что будет до дня выборов.",
-      title: "Гид по голосованию: как это работает",
+      title: "Гид по голосованию",
       hint: "В Израиле выбирают бюллетень, а не человека. Вы голосуете за партию, и она получает мандаты в соответствии с долей голосов, а заполняются они в её порядке: место 1, место 2 и так далее.",
       electionDay: "В день выборов",
       tray: { lead: "Выберите бюллетень.", text: "За ширмой стоит лоток с бюллетенем для каждой партии." },
@@ -157,7 +157,7 @@ export const m = defineMessages(
     am: {
       metaTitle: "እንዴት ይሠራል",
       metaDescription: "እንዴት እንደምንመርጥ፣ ድምፆች እንዴት ወደ 120 መቀመጫዎች እንደሚለወጡና እስከ ምርጫ ቀን ድረስ ያለው የጊዜ ሰሌዳ።",
-      title: "የድምጽ መስጫ መመሪያ፡ እንዴት ይሠራል",
+      title: "የድምጽ መስጫ መመሪያ",
       hint: "በእስራኤል የሚመረጠው የምርጫ ወረቀት እንጂ ሰው አይደለም። ለፓርቲ ድምፅ ይሰጣሉ፤ ፓርቲው ባገኘው የድምፅ ድርሻ መጠን መቀመጫዎችን ያገኛል፤ መቀመጫዎቹም በራሱ ቅደም ተከተል ይሞላሉ፦ ቁጥር 1፣ ቁጥር 2፣ እያለ።",
       electionDay: "በምርጫ ቀን",
       tray: { lead: "የምርጫ ወረቀት ይምረጡ።", text: "ከመጋረጃው ጀርባ ለእያንዳንዱ ፓርቲ ወረቀት ያለው ትሪ ይጠብቅዎታል።" },

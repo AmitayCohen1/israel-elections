@@ -71,6 +71,11 @@
    "match": "מאבק במונופולים"
   },
   {
+   "slug": "blue-and-white",
+   "level": 3,
+   "match": "פתיחת השוק לתחרות"
+  },
+  {
    "slug": "amcha-yisrael",
    "level": 4,
    "match": "חתירה לשוק חופשי"
@@ -94,6 +99,16 @@
    "slug": "yisrael-beiteinu",
    "level": 4,
    "match": "צמצום המגזר הציבורי"
+  },
+  {
+   "slug": "likud",
+   "level": 4,
+   "match": "שוק חופשי, פחות רגולציה"
+  },
+  {
+   "slug": "rzp-zehut",
+   "level": 4,
+   "match": "מס הכנסה בשיעור אחיד"
   }
  ]
 }

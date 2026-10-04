@@ -93,7 +93,7 @@ async function Party({ params }: { params: PageProps<"/[lang]/lists/[slug]">["pa
       {lead && <p className="text-xl leading-relaxed text-pretty">{lead}</p>}
       <Links list={list} />
       <Faces list={list} />
-      {!hasPositions && <p className="mt-4 w-fit rounded-full bg-mist px-4 py-1.5 text-base text-ink-2">{found ? t.platformPending : t.platformMissing}</p>}
+      {!hasPositions && <p className="mt-4 w-fit rounded-full bg-mist px-4 py-1.5 text-base text-ink-2">{found ? t.positionsPending : t.positionsMissing}</p>}
 
       <div className="mt-10 space-y-12">
         {hasPositions && <Positions list={list} />}

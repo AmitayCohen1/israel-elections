@@ -10,7 +10,7 @@ export default async function PositionMap() {
   const axes = (await loadAxes()).filter((a) => a.ordered);
   return (
     <View>
-      <ViewHead title="מפת עמדות" hint="בחרו נושא, וראו איפה כל מפלגה עומדת. לחצו על מפלגה כדי לקרוא את מה שכתבה, עם המקור." />
+      <ViewHead title="מפת עמדות" hint="השוואת עמדות המפלגות בשאלות נבחרות. המיקום מבוסס על סיווג שלנו של ציטוטים מהמקורות. בחרו שאלה ולחצו על מפלגה לקריאת הציטוט והמקור." />
       <AxisStacks axes={axes} />
     </View>
   );

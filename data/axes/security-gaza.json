@@ -60,6 +60,11 @@
    "match": "הגירה מרצון"
   },
   {
+   "slug": "otzma-yehudit",
+   "level": 3,
+   "match": "עידוד הגירה מרצון מעזה"
+  },
+  {
    "slug": "brit-olam",
    "level": 4,
    "match": "לבטל את הסכמי אוסלו"

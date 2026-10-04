@@ -3,7 +3,7 @@ import { DEFAULT_LOCALE, LOCALES } from "@/i18n/config";
 import { getDataset } from "@/lib/data";
 import { SITE_URL, languageAlternates, localeUrl } from "@/lib/seo";
 
-const VIEWS = ["", "/topics", "/people", "/lists", "/how-it-works", "/about", "/resources", "/contact"];
+const VIEWS = ["", "/topics", "/quiz", "/coalition", "/closeness", "/people", "/lists", "/how-it-works", "/about", "/resources", "/contact"];
 
 /** Every public page in every language, each entry listing its siblings in the other languages. ~1.5k pages × 5 languages, well under the 50k limit. */
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

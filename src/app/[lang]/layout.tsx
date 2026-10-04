@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { Analytics } from "@vercel/analytics/next";
 import { Frank_Ruhl_Libre, Heebo, Noto_Sans_Arabic, Noto_Sans_Ethiopic } from "next/font/google";
 import { Footer } from "@/components/footer";
-import { Header, Rail } from "@/components/shell";
+import { Header, TopBar } from "@/components/shell";
 import { LOCALES, LOCALE_INFO, getDictionary, hasLocale } from "@/i18n";
 import { Track } from "@/components/track";
 import { DictionaryProvider } from "@/i18n/provider";
@@ -46,20 +46,14 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
           <Track />
         </Suspense>
         <DictionaryProvider lang={lang} dict={dict}>
-          {/* A fixed app. The sidebar is the card: grey, rounded, floating. The content is simply the page, and scrolls on its own. */}
-          <div className="flex h-dvh flex-col">
-            <Suspense fallback={<div className="h-16 shrink-0 lg:hidden" />}>
+          {/* A classic page: the bar stays at the top, the page scrolls under it, the footer closes it. */}
+          <div className="flex min-h-dvh flex-col">
+            <Suspense fallback={<div className="h-16 shrink-0 xl:h-20" />}>
               <Header />
+              <TopBar />
             </Suspense>
-            <div className="flex min-h-0 flex-1">
-              <Rail />
-              <div data-scroll-root className="flex min-w-0 flex-1 flex-col overflow-y-auto">
-                <main className="flex-1 lg:min-h-0">{children}</main>
-                <div className="lg:hidden">
-                  <Footer dict={dict} />
-                </div>
-              </div>
-            </div>
+            <main className="flex-1">{children}</main>
+            <Footer dict={dict} />
           </div>
         </DictionaryProvider>
         <Analytics />

@@ -76,6 +76,21 @@
    "match": "אינה רואה צורך בפינוי"
   },
   {
+   "slug": "amcha-yisrael",
+   "level": 3,
+   "match": "מתנגדת להקמת מדינה פלסטינית"
+  },
+  {
+   "slug": "reservists-economic",
+   "level": 3,
+   "match": "למניעת הקמת מדינה פלסטינית"
+  },
+  {
+   "slug": "yashar",
+   "level": 3,
+   "match": "שתי מדינות לשני עמים"
+  },
+  {
    "slug": "otzma-yehudit",
    "level": 4,
    "match": "החלת ריבונות"
@@ -104,6 +119,11 @@
    "slug": "ahi",
    "level": 4,
    "match": "מתנגדת לכל ויתור טריטוריאלי"
+  },
+  {
+   "slug": "rzp-zehut",
+   "level": 4,
+   "match": "מלאה על יהודה ושומרון"
   }
  ]
 }

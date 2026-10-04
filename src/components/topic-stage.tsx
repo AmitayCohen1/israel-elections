@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link, { useMessages } from "@/i18n/link";
 import { defineMessages } from "@/i18n/messages";
+import { positionLabels } from "@/i18n/messages/positions";
 import { arCount, ruPlural } from "@/i18n/messages/plural";
 import { useDict } from "@/i18n/provider";
 import { useEffect, useRef, useState } from "react";
@@ -12,7 +13,6 @@ import { Arrow } from "@/components/arrow";
 
 const m = defineMessages(
   {
-    title: "עמדות",
     sub: "מה המפלגות אומרות, במילים שלהן",
     allOn: (topic: string) => `כל העמדות בנושא ${topic}`,
     count: (n: number) => `${n} מפלגות`,
@@ -20,28 +20,24 @@ const m = defineMessages(
   },
   {
     en: {
-      title: "Positions",
       sub: "What the parties say, in their own words",
       allOn: (topic: string) => `All positions on ${topic}`,
       count: (n: number) => `${n} ${n === 1 ? "party" : "parties"}`,
       rest: (n: number, topic: string) => ` wrote on ${topic}. Only some are shown here, and others come up each round · See all `,
     },
     ar: {
-      title: "المواقف",
       sub: "ماذا تقول الأحزاب، بكلماتها",
       allOn: (topic: string) => `جميع المواقف في قضية ${topic}`,
       count: (n: number) => arCount(n, ["حزب واحد", "حزبان", "أحزاب", "حزبًا"]),
       rest: (n: number, topic: string) => ` ${n === 1 ? "تناول" : n === 2 ? "تناولا" : "تناولت"} «${topic}». نعرض هنا بعضها فقط، وفي كل دورة تظهر أحزاب أخرى · للجميع `,
     },
     ru: {
-      title: "Позиции",
       sub: "Что говорят партии, их собственными словами",
       allOn: (topic: string) => `Все позиции по теме «${topic}»`,
       count: (n: number) => `${n} ${ruPlural(n, "партия", "партии", "партий")}`,
       rest: (n: number, topic: string) => ` ${ruPlural(n, "написала", "написали", "написали")} по теме «${topic}». Здесь показана только часть, в каждом круге — другие · Ко всем `,
     },
     am: {
-      title: "አቋሞች",
       sub: "ፓርቲዎች በራሳቸው ቃል ምን ይላሉ",
       allOn: (topic: string) => `በ${topic} ላይ ያሉ ሁሉም አቋሞች`,
       count: (n: number) => `${n} ፓርቲዎች`,
@@ -62,6 +58,7 @@ const SHOWN = 8;
  */
 export function TopicStage({ topics, every = 9000, className = "" }: { topics: ChatTopic[]; every?: number; className?: string }) {
   const tx = useMessages(m);
+  const labels = useMessages(positionLabels);
   const dict = useDict();
   const L = topics.length;
   const [i, setI] = useState(0);
@@ -90,7 +87,7 @@ export function TopicStage({ topics, every = 9000, className = "" }: { topics: C
     <section onMouseEnter={() => setHeld(true)} onMouseLeave={() => setHeld(false)} className={`flex min-h-[30rem] flex-col overflow-hidden rounded-[2rem] bg-mist p-6 lg:min-h-0 ${className}`}>
       <div className="flex shrink-0 items-start justify-between gap-3">
         <div>
-          <h2 className="title text-2xl leading-tight">{tx.title}</h2>
+          <h2 className="title text-2xl leading-tight">{dict.nav.topics}</h2>
           <p className="mt-0.5 text-base text-ink-2">{tx.sub}</p>
         </div>
         <Link href={`/topics#${t.key}`} aria-label={tx.allOn(t.label)} className="grid size-10 shrink-0 place-items-center rounded-full bg-paper hover:bg-ink hover:text-white">
@@ -130,7 +127,7 @@ export function TopicStage({ topics, every = 9000, className = "" }: { topics: C
                   </q>
                 </span>
               ) : (
-                <span className="mt-2 line-clamp-5 text-lg leading-snug text-pretty">{r.text}</span>
+                <span className="mt-2 block text-lg leading-snug text-pretty"><span className="block text-sm font-semibold text-muted">{labels.summary}</span><span className="line-clamp-5">{r.text}</span></span>
               )}
             </Link>
           </li>

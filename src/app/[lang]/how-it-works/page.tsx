@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { pageMeta } from "@/lib/seo";
-import { getMessages } from "@/i18n";
+import { getDictionary, getMessages } from "@/i18n";
 import { m } from "@/i18n/messages/how-it-works";
 import Image from "next/image";
 import { View, ViewHead } from "@/components/view-head";
@@ -11,7 +11,8 @@ import { Timeline } from "@/components/timeline";
 
 export async function generateMetadata(): Promise<Metadata> {
   const t = await getMessages(m);
-  return pageMeta({ path: "/how-it-works", title: t.metaTitle, description: t.metaDescription });
+  const dict = await getDictionary();
+  return pageMeta({ path: "/how-it-works", title: dict.nav.vote, description: t.metaDescription });
 }
 
 function Painted({ name }: { name: string }) {
@@ -34,9 +35,10 @@ function Step({ label, title, tile, visual, children }: { label: string; title: 
 
 export default async function HowItWorks() {
   const t = await getMessages(m);
+  const dict = await getDictionary();
   return (
     <View>
-      <ViewHead title={t.title} hint={t.hint} />
+      <ViewHead title={dict.nav.vote} hint={t.hint} />
 
       <SectionTitle compact>{t.electionDay}</SectionTitle>
       <div className="grid gap-4 gap-y-8 sm:grid-cols-2 lg:grid-cols-3">

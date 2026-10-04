@@ -3,9 +3,9 @@ import { ordinalEn } from "@/components/candidate-messages";
 
 export const m = defineMessages(
   {
-    title: (name: string, pos: number, list: string) => `${name} — מקום ${pos} ב${list}`,
+    title: (name: string, pos: number, list: string) => `${name} — מקום ${pos} ברשימת ${list}`,
     description: (name: string, pos: number, list: string) => `${name}, מקום ${pos} ברשימת ${list} לכנסת ה-26.`,
-    hint: (pos: number, list: string) => `מקום ${pos} ב${list}`,
+    hint: (pos: number, list: string) => `מקום ${pos} ברשימת ${list}`,
     background: "רקע",
     from: "מתוך",
     wikipedia: "ויקיפדיה",
@@ -27,9 +27,9 @@ export const m = defineMessages(
   },
   {
     en: {
-      title: (name, pos, list) => `${name} — #${pos} on the ${list} list`,
-      description: (name, pos, list) => `${name}, number ${pos} on the ${list} list for the 26th Knesset.`,
-      hint: (pos, list) => `#${pos} on the ${list} list`,
+      title: (name, pos, list) => `${name} — #${pos} on the ${list} candidate list`,
+      description: (name, pos, list) => `${name}, number ${pos} on the ${list} candidate list for the 26th Knesset.`,
+      hint: (pos, list) => `#${pos} on the ${list} candidate list`,
       background: "Background",
       from: "From",
       wikipedia: "Wikipedia",
@@ -50,9 +50,9 @@ export const m = defineMessages(
       prev: (pos) => `Previous · #${pos}`,
     },
     ar: {
-      title: (name, pos, list) => `${name} — المرتبة ${pos} في ${list}`,
+      title: (name, pos, list) => `${name} — المرتبة ${pos} في قائمة ${list}`,
       description: (name, pos, list) => `${name}، المرتبة ${pos} في قائمة ${list} لانتخابات الكنيست الـ26.`,
-      hint: (pos, list) => `المرتبة ${pos} في ${list}`,
+      hint: (pos, list) => `المرتبة ${pos} في قائمة ${list}`,
       background: "نبذة",
       from: "من",
       wikipedia: "ويكيبيديا",
@@ -96,9 +96,9 @@ export const m = defineMessages(
       prev: (pos) => `Предыдущий · место ${pos}`,
     },
     am: {
-      title: (name, pos, list) => `${name} — ${pos}ኛ ደረጃ በ${list}`,
+      title: (name, pos, list) => `${name} — በ${list} ዝርዝር ${pos}ኛ ደረጃ`,
       description: (name, pos, list) => `${name}፣ በ${list} ዝርዝር ለ26ኛው ክኔሴት ${pos}ኛ ደረጃ።`,
-      hint: (pos, list) => `${pos}ኛ ደረጃ በ${list}`,
+      hint: (pos, list) => `በ${list} ዝርዝር ${pos}ኛ ደረጃ`,
       background: "ዳራ",
       from: "ምንጭ፦",
       wikipedia: "ውክፔዲያ",

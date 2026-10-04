@@ -1,11 +1,9 @@
 "use client";
 
-import Image from "next/image";
 import { useEffect, useState } from "react";
 import { PartyMark } from "@/components/party-mark";
 
 export type FanParty = { slug: string; name: string; letters: string; color: string | null; count: number };
-export type FanTopic = { key: string; label: string; art: string };
 
 // A loose pile of small cards, as if tossed on a table: where each one lands, and how it leans.
 const PILE = [
@@ -67,24 +65,6 @@ export function PartyFan({ parties, every = 1300 }: { parties: FanParty[]; every
         <>
           <PartyMark slug={p.slug} letters={p.letters} color={p.color} size="xs" />
           <span className="title line-clamp-2 text-base leading-tight">{p.name}</span>
-        </>
-      )}
-    />
-  );
-}
-
-/** The eight topics as the pile: each card its painted object and its name. */
-export function TopicFan({ topics, every = 1700 }: { topics: FanTopic[]; every?: number }) {
-  return (
-    <Pile
-      items={topics}
-      every={every}
-      card={(t) => (
-        <>
-          <span className="relative block size-12">
-            <Image src={t.art} alt="" fill sizes="48px" loading="eager" className="object-contain mix-blend-multiply" />
-          </span>
-          <span className="title line-clamp-2 text-base leading-tight">{t.label}</span>
         </>
       )}
     />

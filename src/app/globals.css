@@ -1034,3 +1034,10 @@ details[open]::details-content {
     animation: none;
   }
 }
+
+/* The closeness map's lines: drawn once the faces have finished gliding to their places. */
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+}

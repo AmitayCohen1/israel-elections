@@ -1,0 +1,597 @@
+[
+ {
+  "key": "list_platforms|ahi|topic_titles.security",
+  "he": "שמירה על כל שטחי הארץ",
+  "value": "Holding on to all parts of the Land"
+ },
+ {
+  "key": "list_platforms|ahi|topic_titles.education",
+  "he": "חינוך לגיל הרך והכשרת מורים",
+  "value": "Early childhood education and teacher training"
+ },
+ {
+  "key": "list_platforms|ahi|topic_titles.governance",
+  "he": "מינוי לפי מקצועיות וביטול 'רב מטעם'",
+  "value": "Appointment by professionalism and abolishing the 'appointed rabbi'"
+ },
+ {
+  "key": "list_platforms|ahi|topic_titles.religion_state",
+  "he": "תמיכה בלומדי תורה",
+  "value": "Support for Torah students"
+ },
+ {
+  "key": "list_platforms|ahi|topic_titles.welfare_health",
+  "he": "שכר עובדים סוציאליים ונוער בסיכון",
+  "value": "Social workers' pay and at-risk youth"
+ },
+ {
+  "key": "list_platforms|blue-and-white|topic_titles.economy",
+  "he": "כלכלה חופשית וצדק חברתי (2022)",
+  "value": "Free economy and social justice (2022)"
+ },
+ {
+  "key": "list_platforms|blue-and-white|topic_titles.security",
+  "he": "צמצום הסכסוך; חיזוק ההתיישבות ורצועות ביטחון",
+  "value": "Shrinking the conflict; strengthening settlement and security strips"
+ },
+ {
+  "key": "list_platforms|blue-and-white|topic_titles.education",
+  "he": "חיזוק החינוך הציבורי (2022)",
+  "value": "Strengthening public education (2022)"
+ },
+ {
+  "key": "list_platforms|blue-and-white|topic_titles.judiciary",
+  "he": "הסדרת חוקי היסוד וביקורת על הפרקליטות",
+  "value": "Regulating the Basic Laws and oversight of the State Attorney's Office"
+ },
+ {
+  "key": "list_platforms|blue-and-white|topic_titles.governance",
+  "he": "ועדת חקירה ממלכתית, ממשלה חוצת גושים",
+  "value": "State commission of inquiry, cross-bloc government"
+ },
+ {
+  "key": "list_platforms|blue-and-white|topic_titles.religion_state",
+  "he": "שירות לכל; שבת בסמכות הרשויות",
+  "value": "Service for all; Shabbat under the authority of local government"
+ },
+ {
+  "key": "list_platforms|blue-and-white|topic_titles.welfare_health",
+  "he": "חיזוק הבריאות הציבורית (2022)",
+  "value": "Strengthening public health (2022)"
+ },
+ {
+  "key": "list_platforms|brit-olam|topic_titles.economy",
+  "he": "ביטול הפרטה והפחתת מסים",
+  "value": "Cancelling privatization and cutting taxes"
+ },
+ {
+  "key": "list_platforms|brit-olam|topic_titles.security",
+  "he": "ריבונות וביטול הסכמי אוסלו",
+  "value": "Sovereignty and cancelling the Oslo Accords"
+ },
+ {
+  "key": "list_platforms|brit-olam|topic_titles.judiciary",
+  "he": "חוקה ורפורמה במערכת המשפט",
+  "value": "A constitution and reform of the judicial system"
+ },
+ {
+  "key": "list_platforms|brit-olam|topic_titles.governance",
+  "he": "ממשל העם למען העם וועדות ממלכתיות",
+  "value": "Government of the people for the people, and state commissions"
+ },
+ {
+  "key": "list_platforms|brit-olam|topic_titles.religion_state",
+  "he": "ברית עשרת הדברות",
+  "value": "The Covenant of the Ten Commandments"
+ },
+ {
+  "key": "list_platforms|brit-olam|topic_titles.welfare_health",
+  "he": "זכויות אדם וקצבאות",
+  "value": "Human rights and benefits"
+ },
+ {
+  "key": "list_platforms|hatikun|topic_titles.judiciary",
+  "he": "חוקה לישראל",
+  "value": "A constitution for Israel"
+ },
+ {
+  "key": "list_platforms|hatikun|topic_titles.governance",
+  "he": "בחירה אישית ואזורית וממשלה מקצועית",
+  "value": "Personal and regional elections and a professional government"
+ },
+ {
+  "key": "list_platforms|hatikun|topic_titles.religion_state",
+  "he": "שוויון בנטל וזכות הבחירה",
+  "value": "Equal sharing of the burden and the right to vote"
+ },
+ {
+  "key": "list_platforms|likud|topic_titles.economy",
+  "he": "שוק חופשי, פחות רגולציה, יותר תחרות",
+  "value": "Free market, less regulation, more competition"
+ },
+ {
+  "key": "list_platforms|likud|topic_titles.housing",
+  "he": "השקעה בדיור ובפריפריה",
+  "value": "Investment in housing and the periphery"
+ },
+ {
+  "key": "list_platforms|likud|topic_titles.security",
+  "he": "צה\"ל חזק, ריבונות והרחבת מעגל השלום",
+  "value": "A strong IDF, sovereignty and expanding the circle of peace"
+ },
+ {
+  "key": "list_platforms|likud|topic_titles.education",
+  "he": "מצוינות, אהבת הארץ ומורשת ישראל",
+  "value": "Excellence, love of the Land and the heritage of Israel"
+ },
+ {
+  "key": "list_platforms|likud|topic_titles.judiciary",
+  "he": "נתניהו: להחזיר איזון",
+  "value": "Netanyahu: restoring balance"
+ },
+ {
+  "key": "list_platforms|likud|topic_titles.governance",
+  "he": "נתניהו: נגד ועדת חקירה ממלכתית",
+  "value": "Netanyahu: against a state commission of inquiry"
+ },
+ {
+  "key": "list_platforms|likud|topic_titles.religion_state",
+  "he": "הרחבת מעגל המשרתים בצה\"ל",
+  "value": "Expanding the circle of those who serve in the IDF"
+ },
+ {
+  "key": "list_platforms|likud|topic_titles.welfare_health",
+  "he": "השקעה בבריאות ובפריפריה",
+  "value": "Investment in health and the periphery"
+ },
+ {
+  "key": "list_platforms|me-and-you|topic_titles.economy",
+  "he": "כניסת המדינה כשחקן מרכזי לשוק",
+  "value": "The state entering the market as a central player"
+ },
+ {
+  "key": "list_platforms|me-and-you|topic_titles.security",
+  "he": "תוכנית מרשל לעזה, פדרציה פלסטינית; משאל עם",
+  "value": "A Marshall Plan for Gaza, a Palestinian federation; a referendum"
+ },
+ {
+  "key": "list_platforms|me-and-you|topic_titles.education",
+  "he": "יעד: חינוך ללא תשלום נוסף מהגיל הרך ועד האקדמיה",
+  "value": "Goal: education at no extra charge from early childhood through academia"
+ },
+ {
+  "key": "list_platforms|me-and-you|topic_titles.judiciary",
+  "he": "עצמאות והתמקצעות, תיקון חוק הפרשנות",
+  "value": "Independence and professionalization, amending the Interpretation Law"
+ },
+ {
+  "key": "list_platforms|me-and-you|topic_titles.governance",
+  "he": "משרדים חברתיים ומשאל עם על הסכם שלום",
+  "value": "Social ministries and a referendum on a peace agreement"
+ },
+ {
+  "key": "list_platforms|me-and-you|topic_titles.religion_state",
+  "he": "הפרדה הדרגתית בין מימדי הדת הכופים למוסדות המדינה",
+  "value": "Gradual separation between the coercive dimensions of religion and state institutions"
+ },
+ {
+  "key": "list_platforms|me-and-you|topic_titles.welfare_health",
+  "he": "רשות לאמצעי רפואה (רפא\"ר), סל תרופות ועלויות בריאות",
+  "value": "An Authority for Medical Means (RAFAR), the medicines basket and health costs"
+ },
+ {
+  "key": "list_platforms|noam|topic_titles.education",
+  "he": "רפורמה בחינוך",
+  "value": "Education reform"
+ },
+ {
+  "key": "list_platforms|noam|topic_titles.judiciary",
+  "he": "פסקת התגברות ופיצול תפקיד היועמ\"ש",
+  "value": "An override clause and splitting the Attorney General's role"
+ },
+ {
+  "key": "list_platforms|noam|topic_titles.governance",
+  "he": "משילות ומינויי אמון",
+  "value": "Governability and appointments of trust"
+ },
+ {
+  "key": "list_platforms|noam|topic_titles.religion_state",
+  "he": "זהות יהודית ושמירת השבת",
+  "value": "Jewish identity and Shabbat observance"
+ },
+ {
+  "key": "list_platforms|otzma-yehudit|topic_titles.security",
+  "he": "ריבונות ישראלית ביהודה ושומרון",
+  "value": "Israeli sovereignty in Judea and Samaria"
+ },
+ {
+  "key": "list_platforms|otzma-yehudit|topic_titles.education",
+  "he": "חיזוק הזהות והמסורת היהודית בחינוך",
+  "value": "Strengthening Jewish identity and tradition in education"
+ },
+ {
+  "key": "list_platforms|otzma-yehudit|topic_titles.judiciary",
+  "he": "פיטורי היועמ\"שית, שימוע לשופטי עליון",
+  "value": "Dismissing the Attorney General, hearings for Supreme Court justices"
+ },
+ {
+  "key": "list_platforms|otzma-yehudit|topic_titles.governance",
+  "he": "רפורמות בשלטון לחיזוק האופי היהודי",
+  "value": "Reforms in government to strengthen the Jewish character"
+ },
+ {
+  "key": "list_platforms|otzma-yehudit|topic_titles.religion_state",
+  "he": "מסלולי שירות ייעודיים לחרדים",
+  "value": "Dedicated service tracks for Haredim"
+ },
+ {
+  "key": "list_platforms|shma|topic_titles.economy",
+  "he": "מימון ממכירת קרקעות צבא וגז לוויתן",
+  "value": "Funding from the sale of army land and Leviathan gas"
+ },
+ {
+  "key": "list_platforms|shma|topic_titles.housing",
+  "he": "סיוע בדיור ומכירת קרקעות צבא",
+  "value": "Housing assistance and the sale of army land"
+ },
+ {
+  "key": "list_platforms|shma|topic_titles.security",
+  "he": "גיוס חובה ליהודים, יחידת לוחמה רוחנית",
+  "value": "Mandatory conscription for Jews, a spiritual warfare unit"
+ },
+ {
+  "key": "list_platforms|shma|topic_titles.education",
+  "he": "לימודים וקריירה ללא תשלום למסיימי שירות",
+  "value": "Free studies and career development for those who complete service"
+ },
+ {
+  "key": "list_platforms|shma|topic_titles.judiciary",
+  "he": "הסרת סמכות בג\"ץ לבטל החלטות הכנסת",
+  "value": "Removing the High Court's power to strike down Knesset decisions"
+ },
+ {
+  "key": "list_platforms|shma|topic_titles.governance",
+  "he": "תפקיד שר לחיבור יהודים בארץ ובעולם",
+  "value": "A ministerial post for connecting Jews in Israel and around the world"
+ },
+ {
+  "key": "list_platforms|shma|topic_titles.religion_state",
+  "he": "איסור מצעדי גאווה, ענישת בגידה, צנזורת פורנוגרפיה",
+  "value": "Banning pride parades, punishing infidelity, censoring pornography"
+ },
+ {
+  "key": "list_platforms|shma|topic_titles.welfare_health",
+  "he": "עלות מחייה מלאה וסל תרופות מורחב",
+  "value": "Full cost of living and an expanded medicines basket"
+ },
+ {
+  "key": "list_platforms|tzomet-beit-israel|topic_titles.housing",
+  "he": "תשתיות מקדימות, ערבות מדינה של 600 אלף ש\"ח",
+  "value": "Infrastructure first, a state guarantee of NIS 600 thousand"
+ },
+ {
+  "key": "list_platforms|tzomet-beit-israel|topic_titles.security",
+  "he": "ריבונות בבקעת הירדן, שיטור מונחה נתונים",
+  "value": "Sovereignty in the Jordan Valley, data-driven policing"
+ },
+ {
+  "key": "list_platforms|tzomet-beit-israel|topic_titles.judiciary",
+  "he": "קציבת זמנים: 90 ימים משטרה, 120 פרקליטות",
+  "value": "Time limits: 90 days for the police, 120 for the State Attorney's Office"
+ },
+ {
+  "key": "list_platforms|tzomet-beit-israel|topic_titles.religion_state",
+  "he": "שירות לאומי מורחב; שלילת שירותי מדינה ממי שאינו משרת",
+  "value": "Expanded national service; denial of state services to those who do not serve"
+ },
+ {
+  "key": "list_platforms|tzomet-beit-israel|topic_titles.welfare_health",
+  "he": "השלמת פנסיה לשכר מינימום, בתנאי שירות",
+  "value": "Pension top-up to the minimum wage, conditional on service"
+ },
+ {
+  "key": "platform_positions|293|source_title",
+  "he": "נתניהו: \"כל עוד אני ראש הממשלה - לא תקום מדינה פלשתינית\" - ערוץ 14",
+  "value": "Netanyahu: \"As long as I am prime minister - no Palestinian state will be established\" - Channel 14"
+ },
+ {
+  "key": "platform_positions|294|source_title",
+  "he": "נתניהו בפטריוטים: \"הקיום של מדינת ישראל עומד בבחירות האלה\" - ערוץ 14",
+  "value": "Netanyahu on \"The Patriots\": \"The existence of the State of Israel is at stake in these elections\" - Channel 14"
+ },
+ {
+  "key": "platform_positions|295|source_title",
+  "he": "נתניהו בפטריוטים: \"הקיום של מדינת ישראל עומד בבחירות האלה\" - ערוץ 14",
+  "value": "Netanyahu on \"The Patriots\": \"The existence of the State of Israel is at stake in these elections\" - Channel 14"
+ },
+ {
+  "key": "platform_positions|296|source_title",
+  "he": "נתניהו בפטריוטים: \"הקיום של מדינת ישראל עומד בבחירות האלה\" - ערוץ 14",
+  "value": "Netanyahu on \"The Patriots\": \"The existence of the State of Israel is at stake in these elections\" - Channel 14"
+ },
+ {
+  "key": "platform_positions|297|source_title",
+  "he": "נתניהו בפטריוטים: \"הקיום של מדינת ישראל עומד בבחירות האלה\" - ערוץ 14",
+  "value": "Netanyahu on \"The Patriots\": \"The existence of the State of Israel is at stake in these elections\" - Channel 14"
+ },
+ {
+  "key": "platform_positions|298|source_title",
+  "he": "נתניהו בפטריוטים: \"הקיום של מדינת ישראל עומד בבחירות האלה\" - ערוץ 14",
+  "value": "Netanyahu on \"The Patriots\": \"The existence of the State of Israel is at stake in these elections\" - Channel 14"
+ },
+ {
+  "key": "platform_positions|302|source_title",
+  "he": "בן גביר דורש לקבל לידיו את תיק הביטחון, ולתת לגוטליב את תיק המשפטים",
+  "value": "Ben Gvir demands the defense portfolio for himself, and the justice portfolio for Gottlieb"
+ },
+ {
+  "key": "platform_positions|303|source_title",
+  "he": "פינוי או בינוי: מה התוכנית של כל מפלגה ליהודה ושומרון",
+  "value": "Evacuate or build: what each party's plan is for Judea and Samaria"
+ },
+ {
+  "key": "platform_positions|304|source_title",
+  "he": "פינוי או בינוי: מה התוכנית של כל מפלגה ליהודה ושומרון",
+  "value": "Evacuate or build: what each party's plan is for Judea and Samaria"
+ },
+ {
+  "key": "platform_positions|305|source_title",
+  "he": "בן גביר דורש לקבל לידיו את תיק הביטחון, ולתת לגוטליב את תיק המשפטים",
+  "value": "Ben Gvir demands the defense portfolio for himself, and the justice portfolio for Gottlieb"
+ },
+ {
+  "key": "platform_positions|306|source_title",
+  "he": "בן גביר דורש לקבל לידיו את תיק הביטחון, ולתת לגוטליב את תיק המשפטים",
+  "value": "Ben Gvir demands the defense portfolio for himself, and the justice portfolio for Gottlieb"
+ },
+ {
+  "key": "platform_positions|307|source_title",
+  "he": "ביקשנו מכל המפלגות את התוכנית לסוגיית הגיוס. רק אחת לא ענתה",
+  "value": "We asked all the parties for their plan on the conscription issue. Only one did not answer"
+ },
+ {
+  "key": "platform_positions|391|source_title",
+  "he": "יעקב אשר על המפלגות החרדיות החדשות: \"בזבוז קולות\". איזנקוט? \"ירצה שותפים\"",
+  "value": "Yaakov Asher on the new Haredi parties: \"A waste of votes\". Eisenkot? \"He will want partners\""
+ },
+ {
+  "key": "platform_positions|392|source_title",
+  "he": "\"שלא יגידו 'לא ידענו'\": מה התוכנית של כל מפלגה בנושא שהצית מחאה חסרת תקדים",
+  "value": "\"So they won't say 'we didn't know'\": what each party's plan is on the issue that ignited an unprecedented protest"
+ },
+ {
+  "key": "platform_positions|393|source_title",
+  "he": "בחירות 2026: מה הם מציעים?",
+  "value": "Elections 2026: What are they proposing?"
+ },
+ {
+  "key": "platform_positions|394|source_title",
+  "he": "בגלל הצניחה בסקרים - ש\"ס משנה כיוון: קמפיין בעד החיילים",
+  "value": "Because of the plunge in the polls - Shas changes direction: a campaign in favor of the soldiers"
+ },
+ {
+  "key": "platform_positions|395|source_title",
+  "he": "\"שלא יגידו 'לא ידענו'\": מה התוכנית של כל מפלגה בנושא שהצית מחאה חסרת תקדים",
+  "value": "\"So they won't say 'we didn't know'\": what each party's plan is on the issue that ignited an unprecedented protest"
+ },
+ {
+  "key": "platform_positions|405|source_title",
+  "he": "מנסור עבאס: \"מדינת פלסטין קיימת, רוצים שגם ארה\"ב וישראל יכירו בה\" (N12)",
+  "value": "Mansour Abbas: \"The State of Palestine exists, we want the US and Israel to recognize it too\" (N12)"
+ },
+ {
+  "key": "platform_positions|406|source_title",
+  "he": "עבאס הציג את יעד רע\"מ בממשלה הבאה: עצירת ההריסות וחיזוק ההתיישבות הבדואית (ערוץ 7)",
+  "value": "Abbas presented Ra'am's goal in the next government: stopping the demolitions and strengthening Bedouin settlement (Channel 7)"
+ },
+ {
+  "key": "platform_positions|407|source_title",
+  "he": "\"العربية الموحدة\" تنتخب قائمة مرشحيها لانتخابات الكنيست.. ومنصور عباس لـ\"القدس العربي\": لصفحة جديدة بيضاء مع الأحزاب العربية (القدس العربي)",
+  "value": "\"The United Arab List\" elects its list of candidates for the Knesset elections.. and Mansour Abbas to Al-Quds Al-Arabi: For a new, blank page with the Arab parties (Al-Quds Al-Arabi)"
+ },
+ {
+  "key": "platform_positions|408|source_title",
+  "he": "خلال مؤتمر صحفي في الناصرة.. منصور عباس يعلن انضمام سيغالوفيتش إلى القائمة العربية الموحدة (كل العرب)",
+  "value": "At a press conference in Nazareth.. Mansour Abbas announces that Segalovitz is joining the United Arab List (Kul al-Arab)"
+ },
+ {
+  "key": "platform_positions|409|source_title",
+  "he": "מצע המפלגה משנת 2020–21",
+  "value": "The party's platform from 2020–21"
+ },
+ {
+  "key": "platform_positions|410|source_title",
+  "he": "מצע המפלגה משנת 2020–21",
+  "value": "The party's platform from 2020–21"
+ },
+ {
+  "key": "platform_positions|411|source_title",
+  "he": "מצע המפלגה משנת 2020–21",
+  "value": "The party's platform from 2020–21"
+ },
+ {
+  "key": "platform_positions|412|source_title",
+  "he": "מצע המפלגה משנת 2020–21",
+  "value": "The party's platform from 2020–21"
+ },
+ {
+  "key": "platform_positions|413|source_title",
+  "he": "מצע המפלגה משנת 2020–21",
+  "value": "The party's platform from 2020–21"
+ },
+ {
+  "key": "platform_positions|414|source_title",
+  "he": "מצע המפלגה משנת 2020–21",
+  "value": "The party's platform from 2020–21"
+ },
+ {
+  "key": "platform_positions|415|source_title",
+  "he": "מצע המפלגה משנת 2020–21",
+  "value": "The party's platform from 2020–21"
+ },
+ {
+  "key": "platform_positions|416|source_title",
+  "he": "מצע המפלגה משנת 2020–21",
+  "value": "The party's platform from 2020–21"
+ },
+ {
+  "key": "platform_positions|417|source_title",
+  "he": "מצע המפלגה משנת 2020–21",
+  "value": "The party's platform from 2020–21"
+ },
+ {
+  "key": "platform_positions|418|source_title",
+  "he": "מצע המפלגה משנת 2020–21",
+  "value": "The party's platform from 2020–21"
+ },
+ {
+  "key": "platform_positions|419|source_title",
+  "he": "מצע המפלגה משנת 2020–21",
+  "value": "The party's platform from 2020–21"
+ },
+ {
+  "key": "platform_positions|422|source_title",
+  "he": "מצע המפלגה משנת 2020–21",
+  "value": "The party's platform from 2020–21"
+ },
+ {
+  "key": "platform_positions|423|source_title",
+  "he": "מצע המפלגה משנת 2020–21",
+  "value": "The party's platform from 2020–21"
+ },
+ {
+  "key": "platform_positions|424|source_title",
+  "he": "מצע המפלגה משנת 2020–21",
+  "value": "The party's platform from 2020–21"
+ },
+ {
+  "key": "platform_positions|425|source_title",
+  "he": "מצע המפלגה משנת 2020–21",
+  "value": "The party's platform from 2020–21"
+ },
+ {
+  "key": "platform_positions|426|source_title",
+  "he": "מצע המפלגה משנת 2020–21",
+  "value": "The party's platform from 2020–21"
+ },
+ {
+  "key": "platform_positions|427|source_title",
+  "he": "עקרונות המחנה הממלכתי, 2022",
+  "value": "National Unity Principles, 2022"
+ },
+ {
+  "key": "platform_positions|428|source_title",
+  "he": "עקרונות המחנה הממלכתי, 2022",
+  "value": "National Unity Principles, 2022"
+ },
+ {
+  "key": "platform_positions|429|source_title",
+  "he": "עקרונות המחנה הממלכתי, 2022",
+  "value": "National Unity Principles, 2022"
+ },
+ {
+  "key": "platform_positions|430|source_title",
+  "he": "עקרונות המחנה הממלכתי, 2022",
+  "value": "National Unity Principles, 2022"
+ },
+ {
+  "key": "platform_positions|431|source_title",
+  "he": "עקרונות המחנה הממלכתי, 2022",
+  "value": "National Unity Principles, 2022"
+ },
+ {
+  "key": "platform_positions|432|source_title",
+  "he": "עקרונות המחנה הממלכתי, 2022",
+  "value": "National Unity Principles, 2022"
+ },
+ {
+  "key": "platform_positions|433|source_title",
+  "he": "עקרונות המחנה הממלכתי, 2022",
+  "value": "National Unity Principles, 2022"
+ },
+ {
+  "key": "platform_positions|434|source_title",
+  "he": "עקרונות המחנה הממלכתי, 2022",
+  "value": "National Unity Principles, 2022"
+ },
+ {
+  "key": "platform_positions|435|source_title",
+  "he": "עקרונות המחנה הממלכתי, 2022",
+  "value": "National Unity Principles, 2022"
+ },
+ {
+  "key": "platform_positions|436|source_title",
+  "he": "עקרונות המחנה הממלכתי, 2022",
+  "value": "National Unity Principles, 2022"
+ },
+ {
+  "key": "platform_positions|437|source_title",
+  "he": "עקרונות המחנה הממלכתי, 2022",
+  "value": "National Unity Principles, 2022"
+ },
+ {
+  "key": "platform_positions|438|source_title",
+  "he": "עקרונות המחנה הממלכתי, 2022",
+  "value": "National Unity Principles, 2022"
+ },
+ {
+  "key": "platform_positions|439|source_title",
+  "he": "עקרונות המחנה הממלכתי, 2022",
+  "value": "National Unity Principles, 2022"
+ },
+ {
+  "key": "platform_positions|440|source_title",
+  "he": "עקרונות המחנה הממלכתי, 2022",
+  "value": "National Unity Principles, 2022"
+ },
+ {
+  "key": "platform_positions|441|source_title",
+  "he": "עקרונות המחנה הממלכתי, 2022",
+  "value": "National Unity Principles, 2022"
+ },
+ {
+  "key": "platform_positions|442|source_title",
+  "he": "פינוי או בינוי: מה התוכנית של כל מפלגה ליהודה ושומרון",
+  "value": "Evacuate or build: what each party's plan is for Judea and Samaria"
+ },
+ {
+  "key": "platform_positions|443|source_title",
+  "he": "פינוי או בינוי: מה התוכנית של כל מפלגה ליהודה ושומרון",
+  "value": "Evacuate or build: what each party's plan is for Judea and Samaria"
+ },
+ {
+  "key": "platform_positions|444|source_title",
+  "he": "ראיון באולפן ערוץ 7 | \"אל תפחדו\": הקרב של גנץ על הקולות",
+  "value": "Interview in the Channel 7 studio | \"Don't be afraid\": Gantz's battle for the votes"
+ },
+ {
+  "key": "platform_positions|445|source_title",
+  "he": "ביקשנו מכל המפלגות את התוכנית לסוגיית הגיוס. רק אחת לא ענתה",
+  "value": "We asked all the parties for their plan on the conscription issue. Only one did not answer"
+ },
+ {
+  "key": "platform_positions|446|source_title",
+  "he": "ביקשנו מכל המפלגות את התוכנית לסוגיית הגיוס. רק אחת לא ענתה",
+  "value": "We asked all the parties for their plan on the conscription issue. Only one did not answer"
+ },
+ {
+  "key": "platform_positions|447|source_title",
+  "he": "\"שלא יגידו 'לא ידענו'\": מה התוכנית של כל מפלגה בנושא שהצית מחאה חסרת תקדים",
+  "value": "\"So they won't say 'we didn't know'\": what each party's plan is on the issue that ignited an unprecedented protest"
+ },
+ {
+  "key": "platform_positions|448|source_title",
+  "he": "\"שלא יגידו 'לא ידענו'\": מה התוכנית של כל מפלגה בנושא שהצית מחאה חסרת תקדים",
+  "value": "\"So they won't say 'we didn't know'\": what each party's plan is on the issue that ignited an unprecedented protest"
+ },
+ {
+  "key": "platform_positions|449|source_title",
+  "he": "גנץ מתעקש על ועדת חקירה ממלכתית: זה מה שחושבת עליזה בלוך",
+  "value": "Gantz insists on a state commission of inquiry: this is what Aliza Bloch thinks"
+ },
+ {
+  "key": "platform_positions|450|source_title",
+  "he": "ראיון באולפן ערוץ 7 | \"אל תפחדו\": הקרב של גנץ על הקולות",
+  "value": "Interview in the Channel 7 studio | \"Don't be afraid\": Gantz's battle for the votes"
+ }
+]

@@ -13,28 +13,28 @@ export const m = defineMessages(
   {
     candidates: (n: number) => `${n} מועמדים`,
     positions: (n: number) => `עמדות ב-${n} נושאים`,
-    noPlatform: "לא מצאנו מצע",
+    noPositions: "טרם תיעדנו עמדות",
   },
   {
     en: {
       candidates: (n: number) => `${n} ${n === 1 ? "candidate" : "candidates"}`,
       positions: (n: number) => `Positions on ${n} ${n === 1 ? "topic" : "topics"}`,
-      noPlatform: "No platform found",
+      noPositions: "No positions documented yet",
     },
     ar: {
       candidates: (n: number) => arCount(n, ["مرشح واحد", "مرشحان", "مرشحين", "مرشحًا"]),
       positions: (n: number) => `مواقف في ${arCount(n, ["قضية واحدة", "قضيتين", "قضايا", "قضية"])}`,
-      noPlatform: "لم نجد برنامجًا",
+      noPositions: "لم نوثّق مواقف بعد",
     },
     ru: {
       candidates: (n: number) => `${n} ${ruPlural(n, "кандидат", "кандидата", "кандидатов")}`,
       positions: (n: number) => `Позиции по ${n} ${ruPlural(n, "теме", "темам", "темам")}`,
-      noPlatform: "Программа не найдена",
+      noPositions: "Позиции пока не задокументированы",
     },
     am: {
       candidates: (n: number) => `${n} እጩዎች`,
       positions: (n: number) => `በ${n} ርዕሶች ላይ አቋሞች`,
-      noPlatform: "መርሐ ግብር አላገኘንም",
+      noPositions: "አቋሞች ገና አልተመዘገቡም",
     },
   },
 );
@@ -110,7 +110,7 @@ export async function PartyCard({ list }: { list: List }) {
             ))}
           </span>
           <span className="text-base whitespace-nowrap text-ink-2">{t.candidates(list.candidates.length)}</span>
-          <span className="ms-auto text-base whitespace-nowrap text-ink-2">{topics > 0 ? t.positions(topics) : t.noPlatform}</span>
+          <span className="ms-auto text-base text-ink-2">{topics > 0 ? t.positions(topics) : t.noPositions}</span>
         </span>
       </Link>
     </li>

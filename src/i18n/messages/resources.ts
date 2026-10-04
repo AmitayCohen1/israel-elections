@@ -3,13 +3,13 @@ import { defineMessages } from "@/i18n/messages";
 /** `official` lines up with the links in the page: name, then what is there. */
 export const m = defineMessages(
   {
-    title: "קישורים רשמיים",
+    title: "קישורים ומידע נוסף",
     hint: "אל תסתמכו רק עלינו. קישורים למקורות הרשמיים ולחומרי רקע, במקום אחד.",
     state: "מקורות ממשלתיים",
     official: [
       ["ועדת הבחירות המרכזית", "האתר הרשמי של הבחירות: הודעות, החלטות, ובליל הבחירות — תוצאות האמת."],
       ["איפה אני מצביע?", "מזינים מספר תעודת זהות ומקבלים את כתובת הקלפי שלכם."],
-      ["רשימות המועמדים שאושרו", "כל רשימה כפי שהוגשה לוועדה: המועמדים, הסדר ואותיות הפתק."],
+      ["רשימות המועמדים שאושרו", "כל רשימת מועמדים כפי שהוגשה לוועדה: המועמדים, הסדר ואותיות הפתק."],
       ["אתר הכנסת", "הכנסת היוצאת: חברי הכנסת, הוועדות והחקיקה."],
       ["המאגר הפתוח של הכנסת", "נתונים פתוחים למי שרוצה לבדוק בעצמו: כהונות, הצעות חוק והצבעות."],
     ],
@@ -23,13 +23,13 @@ export const m = defineMessages(
   },
   {
     en: {
-      title: "Official links",
+      title: "Links and further reading",
       hint: "Don't rely on us alone. Links to official sources and background research, in one place.",
       state: "Government sources",
       official: [
         ["Central Elections Committee", "The official elections website: announcements, decisions and, on election night, the vote counts."],
         ["Where do I vote?", "Enter your ID number and get the address of your polling station."],
-        ["Approved candidate lists", "Each list as submitted to the committee: the candidates, their order and the ballot letters."],
+        ["Approved candidate lists", "Each candidate list as submitted to the committee: the candidates, their order and the ballot letters."],
         ["Knesset website", "The outgoing Knesset: members, committees and legislation."],
         ["Knesset open data", "Open data for anyone who wants to check for themselves: terms in office, bills and votes."],
       ],
@@ -42,8 +42,8 @@ export const m = defineMessages(
       aboutLink: "Sources and methodology",
     },
     ar: {
-      title: "روابط رسمية",
-      hint: "لا تعتمدوا علينا وحدنا. جميع الجهات الرسمية في مكان واحد.",
+      title: "روابط ومعلومات إضافية",
+      hint: "روابط إلى المصادر الرسمية والأبحاث والمعلومات الإضافية، في مكان واحد.",
       state: "الدولة",
       official: [
         ["لجنة الانتخابات المركزية", "الموقع الرسمي للانتخابات: بلاغات وقرارات، وفي ليلة الانتخابات — النتائج الحقيقية."],
@@ -56,13 +56,13 @@ export const m = defineMessages(
       idi: "المعهد الإسرائيلي للديمقراطية",
       idiText: "معهد أبحاث مستقل: مراجعات عن الأحزاب وأرشيف برامج انتخابية من حملات سابقة.",
       perParty: "الصفحة الرسمية لكل حزب",
-      perPartyText: "كما نشرتها لجنة الانتخابات، بحسب الترتيب في موقعها: الأحزاب الواردة في استطلاعات الرأي أولًا ثم بقية الأحزاب.",
+      perPartyText: "كما نشرتها لجنة الانتخابات، بحسب المجموعات في دليل الأحزاب لدينا: الأحزاب الواردة في استطلاعات الرأي أولًا ثم بقية الأحزاب.",
       howWeUse: "كيف نستخدم هذه المصادر؟",
       aboutLink: "المصادر والمنهجية",
     },
     ru: {
-      title: "Официальные ссылки",
-      hint: "Не полагайтесь только на нас. Все официальные источники — в одном месте.",
+      title: "Ссылки и дополнительные материалы",
+      hint: "Ссылки на официальные источники, исследования и справочные материалы в одном месте.",
       state: "Государство",
       official: [
         ["Центральная избирательная комиссия", "Официальный сайт выборов: сообщения, решения и, в ночь выборов, настоящие результаты."],
@@ -75,13 +75,13 @@ export const m = defineMessages(
       idi: "Израильский институт демократии",
       idiText: "Независимый исследовательский институт: обзоры партий и архив платформ с прошлых выборов.",
       perParty: "Официальная страница каждой партии",
-      perPartyText: "В том виде, в каком её опубликовала избирательная комиссия, в порядке с её сайта: сначала партии из опросов, затем все остальные.",
+      perPartyText: "В том виде, в каком её опубликовала избирательная комиссия, по группам в нашем справочнике партий: сначала партии из опросов, затем все остальные.",
       howWeUse: "Как мы используем эти источники?",
       aboutLink: "Источники и метод",
     },
     am: {
-      title: "ይፋዊ አገናኞች",
-      hint: "በእኛ ብቻ አይተማመኑ። ሁሉም ይፋዊ ምንጮች በአንድ ቦታ።",
+      title: "አገናኞችና ተጨማሪ መረጃ",
+      hint: "ይፋዊ ምንጮች፣ ምርምርና ተጨማሪ መረጃ በአንድ ቦታ።",
       state: "መንግሥት",
       official: [
         ["ማዕከላዊ ምርጫ ኮሚቴ", "የምርጫው ይፋዊ ድረ ገጽ፦ መግለጫዎች፣ ውሳኔዎችና በምርጫ ምሽት እውነተኛው ውጤት።"],

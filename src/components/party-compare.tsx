@@ -35,14 +35,14 @@ const m = defineMessages(
     done: "סיום",
     searchPlaceholder: "חיפוש מפלגה...",
     searchLabel: "חיפוש מפלגה",
-    noPlatform: "אין מצע",
+    noPositions: "טרם תיעדנו עמדות",
     noMatch: "לא נמצאה מפלגה.",
     limit: (max: number) => `אפשר להשוות עד ${max} מפלגות.`,
     start: "בחרו מפלגה כדי להתחיל.",
     noPosition: "לא מצאנו עמדה",
-    noPositionOn: (topic: string) => `לא מצאנו עמדה של המפלגה ב${topic}.`,
+    noPositionOn: (topic: string) => `לא מצאנו עמדה של המפלגה בנושא ${topic}.`,
     found: (n: number, total: number) => `מצאנו עמדות של ${n} מתוך ${total} מפלגות. הסדר אקראי ומשתנה בכל ביקור.`,
-    missing: (n: number) => `לא מצאנו מצע ל-${n} מפלגות`,
+    missing: (n: number) => `טרם תיעדנו עמדות של ${n} מפלגות`,
   },
   {
     en: {
@@ -54,14 +54,14 @@ const m = defineMessages(
       done: "Done",
       searchPlaceholder: "Search for a party...",
       searchLabel: "Search for a party",
-      noPlatform: "No platform",
+      noPositions: "No positions documented yet",
       noMatch: "No party found.",
       limit: (max: number) => `You can compare up to ${max} parties.`,
       start: "Pick a party to get started.",
       noPosition: "No position found",
       noPositionOn: (topic: string) => `We found no position by this party on ${topic}.`,
       found: (n: number, total: number) => `We found positions for ${n} of ${total} parties. The order is random and changes on every visit.`,
-      missing: (n: number) => `No platform found for ${n} ${n === 1 ? "party" : "parties"}`,
+      missing: (n: number) => `No positions documented yet for ${n} ${n === 1 ? "party" : "parties"}`,
     },
     ar: {
       torn: "أنا متردد بين",
@@ -72,14 +72,14 @@ const m = defineMessages(
       done: "تم",
       searchPlaceholder: "البحث عن حزب...",
       searchLabel: "البحث عن حزب",
-      noPlatform: "لا يوجد برنامج",
+      noPositions: "لم نوثّق مواقف بعد",
       noMatch: "لم يُعثر على حزب.",
       limit: (max: number) => `يمكن مقارنة ${max} أحزاب كحد أقصى.`,
       start: "اختاروا حزبًا للبدء.",
       noPosition: "لم نجد موقفًا",
       noPositionOn: (topic: string) => `لم نجد موقفًا للحزب في قضية «${topic}».`,
       found: (n: number, total: number) => `وجدنا مواقف لـ${n} من أصل ${total} حزبًا. الترتيب عشوائي ويتغير في كل زيارة.`,
-      missing: (n: number) => `لم نجد برنامجًا لـ${arCount(n, ["حزب واحد", "حزبين", "أحزاب", "حزبًا"])}`,
+      missing: (n: number) => `لم نوثّق مواقف لـ${arCount(n, ["حزب واحد", "حزبين", "أحزاب", "حزبًا"])}`,
     },
     ru: {
       torn: "Я выбираю между",
@@ -90,14 +90,14 @@ const m = defineMessages(
       done: "Готово",
       searchPlaceholder: "Поиск партии...",
       searchLabel: "Поиск партии",
-      noPlatform: "Нет программы",
+      noPositions: "Позиции пока не задокументированы",
       noMatch: "Партия не найдена.",
       limit: (max: number) => `Можно сравнить до ${max} партий.`,
       start: "Выберите партию, чтобы начать.",
       noPosition: "Позиция не найдена",
       noPositionOn: (topic: string) => `Позиция партии по теме «${topic}» не найдена.`,
       found: (n: number, total: number) => `Мы нашли позиции ${n} из ${total} партий. Порядок случайный и меняется при каждом посещении.`,
-      missing: (n: number) => `Для ${n} ${ruPlural(n, "партии", "партий", "партий")} программа не найдена`,
+      missing: (n: number) => `Для ${n} ${ruPlural(n, "партии", "партий", "партий")} позиции пока не задокументированы`,
     },
     am: {
       torn: "በእነዚህ መካከል እያመነታሁ ነው",
@@ -108,14 +108,14 @@ const m = defineMessages(
       done: "ተጠናቋል",
       searchPlaceholder: "ፓርቲ ፈልግ...",
       searchLabel: "ፓርቲ ፈልግ",
-      noPlatform: "መርሐ ግብር የለም",
+      noPositions: "አቋሞች ገና አልተመዘገቡም",
       noMatch: "ፓርቲ አልተገኘም።",
       limit: (max: number) => `እስከ ${max} ፓርቲዎች ማወዳደር ይቻላል።`,
       start: "ለመጀመር ፓርቲ ይምረጡ።",
       noPosition: "አቋም አላገኘንም",
       noPositionOn: (topic: string) => `ፓርቲው በ${topic} ላይ ያለውን አቋም አላገኘንም።`,
       found: (n: number, total: number) => `ከ${total} ፓርቲዎች ውስጥ የ${n} ፓርቲዎችን አቋም አግኝተናል። ቅደም ተከተሉ በዘፈቀደ ሲሆን በእያንዳንዱ ጉብኝት ይለወጣል።`,
-      missing: (n: number) => `ለ${n} ፓርቲዎች መርሐ ግብር አላገኘንም`,
+      missing: (n: number) => `ለ${n} ፓርቲዎች አቋሞች ገና አልመዘገብንም`,
     },
   },
 );
@@ -223,7 +223,7 @@ export function PartyCompare({
                         <input type="checkbox" checked={on} disabled={locked} onChange={() => toggle(r.slug)} className="size-5 shrink-0 accent-[#0b1f3a] md:size-4" />
                         <span className="grid size-8 shrink-0 place-items-center">{r.markSm ?? r.mark}</span>
                         <span className="text-base">{r.name}</span>
-                        {r.wrote === false && <span className="ms-auto text-base text-muted">{tx.noPlatform}</span>}
+                        {r.wrote === false && <span className="ms-auto text-base text-muted">{tx.noPositions}</span>}
                       </label>
                     </li>
                   );

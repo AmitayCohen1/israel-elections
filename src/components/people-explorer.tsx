@@ -2,6 +2,7 @@
 
 import Link, { useMessages } from "@/i18n/link";
 import { defineMessages } from "@/i18n/messages";
+import { positionLabels } from "@/i18n/messages/positions";
 import { arCount, ruPlural } from "@/i18n/messages/plural";
 import { useEffect, useState } from "react";
 import { Avatar } from "@/components/avatar";
@@ -9,68 +10,68 @@ import { Avatar } from "@/components/avatar";
 const m = defineMessages(
   {
     others: (n: number) => `עוד ${n} מפלגות`,
-    place: (p: number): [string, string] => (p === 1 ? ["בראש ", ""] : [`מקום ${p} ב`, ""]),
+    place: (p: number): [string, string] => (p === 1 ? ["בראש רשימת ", ""] : [`מקום ${p} ברשימת `, ""]),
     sitting: (n: number) => (n === 1 ? "חבר כנסת מכהן אחד ברשימה" : `${n} חברי כנסת מכהנים ברשימה`),
-    source: "מקור",
+
     moreAbout: (name: string) => `עוד על ${name}`,
     noBackground: (name: string) => `עוד לא מצאנו רקע על ${name}.`,
     team: (list: string) => `המועמדים המובילים של ${list}`,
     toPage: (name: string) => `לעמוד של ${name}`,
-    wholeList: "לכל הרשימה",
-    whatPartiesSay: "מה המפלגות אומרות",
+    wholeList: "לרשימת המועמדים המלאה",
+    whatPartiesSay: "עמדות לפי נושא",
     pick: "בחרו שם כדי לקרוא עליו.",
   },
   {
     en: {
       others: (n: number) => `${n} more ${n === 1 ? "party" : "parties"}`,
-      place: (p: number): [string, string] => (p === 1 ? ["Heads ", ""] : [`No. ${p} on `, ""]),
+      place: (p: number): [string, string] => (p === 1 ? ["Heads the candidate list for ", ""] : [`No. ${p} on the candidate list for `, ""]),
       sitting: (n: number) => `${n} sitting ${n === 1 ? "MK" : "MKs"} on the list`,
-      source: "Source",
+
       moreAbout: (name: string) => `More about ${name}`,
       noBackground: (name: string) => `We haven't found any background on ${name} yet.`,
       team: (list: string) => `Leading candidates for ${list}`,
       toPage: (name: string) => `${name}'s page`,
       wholeList: "View the full candidate list",
-      whatPartiesSay: "What the parties say",
+      whatPartiesSay: "Party positions",
       pick: "Pick a name to read about them.",
     },
     ar: {
       others: (n: number) => `${arCount(n, ["حزب آخر", "حزبان آخران", "أحزاب أخرى", "حزبًا آخر"])}`,
-      place: (p: number): [string, string] => (p === 1 ? ["على رأس ", ""] : [`المكان ${p} في `, ""]),
+      place: (p: number): [string, string] => (p === 1 ? ["على رأس قائمة مرشحي ", ""] : [`المرتبة ${p} في قائمة مرشحي `, ""]),
       sitting: (n: number) => `${arCount(n, ["عضو كنيست حالي واحد", "عضوا كنيست حاليان", "أعضاء كنيست حاليين", "عضو كنيست حاليًا"])} في القائمة`,
-      source: "المصدر",
+
       moreAbout: (name: string) => `المزيد عن ${name}`,
       noBackground: (name: string) => `لم نجد بعد خلفية عن ${name}.`,
       team: (list: string) => `فريق ${list}`,
       toPage: (name: string) => `إلى صفحة ${name}`,
-      wholeList: "إلى القائمة كاملة",
-      whatPartiesSay: "ماذا تقول الأحزاب",
+      wholeList: "إلى قائمة المرشحين كاملة",
+      whatPartiesSay: "مواقف الأحزاب",
       pick: "اختاروا اسمًا لتقرؤوا عنه.",
     },
     ru: {
       others: (n: number) => `Ещё ${n} ${ruPlural(n, "партия", "партии", "партий")}`,
-      place: (p: number): [string, string] => (p === 1 ? ["Во главе: ", ""] : [`№${p} в списке: `, ""]),
+      place: (p: number): [string, string] => (p === 1 ? ["Во главе списка кандидатов: ", ""] : [`№${p} в списке кандидатов: `, ""]),
       sitting: (n: number) => `${n} ${ruPlural(n, "действующий депутат", "действующих депутата", "действующих депутатов")} Кнессета в списке`,
-      source: "Источник",
+
       moreAbout: (name: string) => `Подробнее: ${name}`,
       noBackground: (name: string) => `Справки пока нет: ${name}.`,
       team: (list: string) => `Команда: ${list}`,
       toPage: (name: string) => `Страница: ${name}`,
-      wholeList: "Весь список",
-      whatPartiesSay: "Что говорят партии",
+      wholeList: "Полный список кандидатов",
+      whatPartiesSay: "Позиции партий",
       pick: "Выберите имя, чтобы прочитать о человеке.",
     },
     am: {
       others: (n: number) => `ሌሎች ${n} ፓርቲዎች`,
-      place: (p: number): [string, string] => (p === 1 ? ["", "ን ይመራል"] : ["በ", ` ዝርዝር ውስጥ ቁጥር ${p}`]),
+      place: (p: number): [string, string] => (p === 1 ? ["የ", " የእጩ ዝርዝርን ይመራል"] : ["በ", ` የእጩ ዝርዝር ውስጥ ቁጥር ${p}`]),
       sitting: (n: number) => (n === 1 ? "በዝርዝሩ ውስጥ አንድ የአሁን የክኔሴት አባል" : `በዝርዝሩ ውስጥ ${n} የአሁን የክኔሴት አባላት`),
-      source: "ምንጭ",
+
       moreAbout: (name: string) => `ስለ ${name} ተጨማሪ`,
       noBackground: (name: string) => `ስለ ${name} ገና ዳራ አላገኘንም።`,
       team: (list: string) => `የ${list} ቡድን`,
       toPage: (name: string) => `ወደ ${name} ገጽ`,
-      wholeList: "ወደ ሙሉው ዝርዝር",
-      whatPartiesSay: "ፓርቲዎች ምን ይላሉ",
+      wholeList: "ወደ ሙሉው የእጩ ዝርዝር",
+      whatPartiesSay: "የፓርቲዎች አቋሞች",
       pick: "ስለ እሱ ለማንበብ ስም ይምረጡ።",
     },
   },
@@ -86,6 +87,7 @@ export type LeaderEntry = { slug: string; listName: string; color: string | null
  */
 export function PeopleExplorer({ leaders }: { leaders: LeaderEntry[] }) {
   const t = useMessages(m);
+  const labels = useMessages(positionLabels);
   const [order, setOrder] = useState<LeaderEntry[] | null>(null);
   const [sel, setSel] = useState<{ slug: string; pos: number } | null>(null);
 
@@ -135,7 +137,7 @@ export function PeopleExplorer({ leaders }: { leaders: LeaderEntry[] }) {
   return (
     <div className={`grid items-start gap-6 lg:grid-cols-[28rem_minmax(0,1fr)] lg:gap-14 ${order ? "" : "[&_ul]:invisible"}`}>
       {/* The picker: a strip of faces on phones, a scrolling list beside the person on wide screens. */}
-      <div className="scrollbar-none -mx-4 overflow-x-auto px-4 sm:-mx-8 sm:px-8 lg:sticky lg:top-8 lg:mx-0 lg:max-h-[calc(100dvh-10rem)] lg:overflow-y-auto lg:overflow-x-visible lg:px-0">
+      <div className="scrollbar-none -mx-4 overflow-x-auto px-4 sm:-mx-8 sm:px-8 lg:sticky lg:top-24 xl:top-28 lg:mx-0 lg:max-h-[calc(100dvh-8rem)] xl:max-h-[calc(100dvh-9rem)] lg:overflow-y-auto lg:overflow-x-visible lg:px-0">
         <ul className="flex gap-1 lg:flex-col">{main.map(row)}</ul>
         {other.length > 0 && (
           <details className="group mt-3 hidden border-t border-line pt-3 lg:block">
@@ -174,7 +176,7 @@ export function PeopleExplorer({ leaders }: { leaders: LeaderEntry[] }) {
                     <dd className="text-xl text-pretty">
                       {f.value}
                       {f.url && (
-                        <a href={f.url} target="_blank" rel="noreferrer" aria-label={t.source} title={t.source} className="ms-1.5 text-lg text-ink-2 transition hover:text-accent">
+                        <a href={f.url} target="_blank" rel="noreferrer" aria-label={labels.source} title={labels.source} className="ms-1.5 text-lg text-ink-2 transition hover:text-accent">
                           ↗
                         </a>
                       )}

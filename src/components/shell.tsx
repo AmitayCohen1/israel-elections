@@ -2,7 +2,7 @@
 
 import Link from "@/i18n/link";
 import { usePathname } from "next/navigation";
-import { Suspense, useState } from "react";
+import { useState } from "react";
 import { Logo } from "@/components/logo";
 import { SearchBox } from "@/components/search-box";
 import { LocaleSwitcher } from "@/components/locale-switcher";
@@ -38,6 +38,26 @@ const PATHS: Record<string, React.ReactNode> = {
     </>
   ),
   topics: <path d="M4 6h16M4 12h16M4 18h9" />,
+  quiz: (
+    <>
+      <circle cx="12" cy="12" r="8.5" />
+      <circle cx="12" cy="12" r="4.5" />
+      <circle cx="12" cy="12" r="0.8" />
+    </>
+  ),
+  coalition: (
+    <>
+      <path d="M3.5 18a8.5 8.5 0 0 1 17 0" />
+      <path d="M7.5 18a4.5 4.5 0 0 1 9 0" />
+    </>
+  ),
+  closeness: (
+    <>
+      <circle cx="7" cy="8" r="2.2" />
+      <circle cx="10.5" cy="11" r="2.2" />
+      <circle cx="17" cy="16" r="2.2" />
+    </>
+  ),
   map: (
     <>
       <path d="M4 12h16" />
@@ -105,28 +125,69 @@ function NavLinks({ onNavigate }: { onNavigate?: () => void }) {
   );
 }
 
-/** Desktop: the sidebar, a grey panel attached to the screen edge and the bottom, 98% of the height (so it starts just below the top), rounded only at the top corner that faces the content. The name and language on top, the views, the quieter links, then search at the bottom. */
-export function Rail() {
+/**
+ * Wide screens: the classic top bar. The name on the start side, the views in a row (the current one underlined where the
+ * bar meets the page), then search and language at the end. It stays at the top while the page scrolls under it; search
+ * opens as a band just below it.
+ */
+export function TopBar() {
+  const { nav, ui } = useDict();
+  const path = usePathname();
+  const [searchOn, setSearchOn] = useState<string | null>(null);
+  const searching = searchOn === path;
   return (
-    <aside className="hidden w-[20rem] shrink-0 lg:flex lg:items-end">
-      <div className="flex h-[98%] w-full flex-col overflow-y-auto rounded-se-[2rem] bg-mist px-5 pt-7 pb-5">
-        <div className="px-1">
-          <Logo />
-        </div>
-        <Suspense>
-          <LocaleSwitcher variant="menu" className="mt-5" />
-          <NavLinks />
-        </Suspense>
-        <div className="mt-auto pt-6">
-          <SearchBox size="sm" openUp />
+    <header className="sticky top-0 z-40 hidden border-b border-line bg-paper/90 backdrop-blur-md xl:block">
+      <div className="mx-auto flex h-20 max-w-[88rem] items-center gap-10 px-8">
+        <Logo />
+        <nav aria-label={ui.viewsAria} className="flex h-full items-center gap-1">
+          {VIEWS.filter((v) => v.id !== "home").map((v) => {
+            const on = isActive(path, v.match);
+            return (
+              <Link
+                key={v.id}
+                href={v.href}
+                aria-current={on ? "page" : undefined}
+                className={`relative rounded-full px-4 py-2 text-lg whitespace-nowrap transition ${on ? "font-medium text-ink after:absolute after:inset-x-4 after:-bottom-[1.3rem] after:h-0.5 after:rounded-full after:bg-ink" : "text-ink-2 hover:bg-mist hover:text-ink"}`}
+              >
+                {nav[v.key]}
+              </Link>
+            );
+          })}
+        </nav>
+        <div className="ms-auto flex items-center gap-3">
+          <button
+            type="button"
+            aria-label={ui.searchAria}
+            aria-expanded={searching}
+            onClick={() => setSearchOn(searching ? null : path)}
+            className={`grid size-11 place-items-center rounded-full transition ${searching ? "bg-ink text-paper" : "bg-mist hover:bg-mist-deep"}`}
+          >
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden className="size-5">
+              <circle cx="11" cy="11" r="6.5" />
+              <path d="M16 16l4 4" />
+            </svg>
+          </button>
+          <LocaleSwitcher variant="menu" className="w-40" />
         </div>
       </div>
-    </aside>
+      {searching && (
+        <div
+          className="border-t border-line bg-paper"
+          onKeyDown={(e) => {
+            if (e.key === "Escape") setSearchOn(null);
+          }}
+        >
+          <div className="mx-auto max-w-2xl px-8 py-5">
+            <SearchBox size="md" autoFocus />
+          </div>
+        </div>
+      )}
+    </header>
   );
 }
 
 /**
- * Phones: a slim top bar with the menu button, the name and a search button. The menu opens the same sidebar as a drawer
+ * Phones and narrower screens: a slim top bar with the menu button, the name and a search button. The menu opens the same sidebar as a drawer
  * from the start edge (name, language, views, quieter links); the search button turns the bar into the one search.
  */
 export function Header() {
@@ -144,7 +205,7 @@ export function Header() {
     </svg>
   );
   return (
-    <header className="flex h-16 shrink-0 items-center gap-3 px-4 lg:hidden">
+    <header className="sticky top-0 z-40 flex h-16 shrink-0 items-center gap-3 bg-paper/90 px-4 backdrop-blur-md xl:hidden">
       {searching ? (
         <>
           <div className="min-w-0 flex-1">
