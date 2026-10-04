@@ -217,7 +217,7 @@ async function People({ list, top: n }: { list: List; top: number }) {
           <summary className="inline-block cursor-pointer text-base font-semibold text-accent underline-offset-4 hover:underline">{t.allCandidates(list.candidates.length)}</summary>
           <ol className="mt-3 grid gap-x-6 gap-y-1 text-base sm:grid-cols-2">
             {rest.map((c) => (
-              <li key={c.position} className="flex gap-2">
+              <li key={c.position} className="flex min-w-0 gap-2">
                 <span className="w-7 shrink-0 text-end text-muted tabular-nums">{c.position}</span>
                 <Link href={`/lists/${c.list_slug}/${c.position}`} className="truncate underline-offset-4 hover:underline">
                   {c.display_name}

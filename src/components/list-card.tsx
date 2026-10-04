@@ -93,7 +93,7 @@ export async function PartyCard({ list }: { list: List }) {
   const [leader, ...rest] = list.candidates;
   const topics = new Set(list.platform?.positions.map((p) => p.topic)).size;
   return (
-    <li>
+    <li className="min-w-0">
       <Link href={`/lists/${list.slug}`} className="group flex h-full flex-col gap-5 rounded-[1.75rem] bg-mist p-5 transition hover:bg-mist-deep">
         <span className="flex items-center gap-3.5">
           <Face c={leader} size={60} />
@@ -103,14 +103,14 @@ export async function PartyCard({ list }: { list: List }) {
           </span>
           <PartyMark slug={list.slug} letters={list.letters} color={list.color} size="sm" />
         </span>
-        <span className="mt-auto flex items-center gap-3">
+        <span className="mt-auto flex flex-wrap items-center gap-x-3 gap-y-1.5">
           <span className="flex -space-x-2 rtl:space-x-reverse">
             {rest.slice(0, 4).map((c) => (
               <Face key={c.position} c={c} size={32} />
             ))}
           </span>
-          <span className="text-base text-ink-2">{t.candidates(list.candidates.length)}</span>
-          <span className="ms-auto text-base text-ink-2">{topics > 0 ? t.positions(topics) : t.noPlatform}</span>
+          <span className="text-base whitespace-nowrap text-ink-2">{t.candidates(list.candidates.length)}</span>
+          <span className="ms-auto text-base whitespace-nowrap text-ink-2">{topics > 0 ? t.positions(topics) : t.noPlatform}</span>
         </span>
       </Link>
     </li>

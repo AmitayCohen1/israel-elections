@@ -2,6 +2,7 @@
 
 import Link from "@/i18n/link";
 import { usePathname } from "next/navigation";
+import { useState } from "react";
 import { Logo } from "@/components/header";
 import { SearchBox } from "@/components/search-box";
 import { LocaleSwitcher } from "@/components/locale-switcher";
@@ -55,6 +56,13 @@ const PATHS: Record<string, React.ReactNode> = {
     <>
       <rect x="5" y="3" width="14" height="18" rx="2" />
       <path d="M9 8h6M9 12h6M9 16h4" />
+    </>
+  ),
+  more: (
+    <>
+      <circle cx="5" cy="12" r="1.4" />
+      <circle cx="12" cy="12" r="1.4" />
+      <circle cx="19" cy="12" r="1.4" />
     </>
   ),
   vote: (
@@ -113,21 +121,60 @@ export function Rail() {
   );
 }
 
-/** Phones: the same views as a bar along the bottom. */
+// Phones: the bar holds four views; the others, the quieter links and the languages open from "more".
+const BAR = ["home", "topics", "people", "lists"];
+
+/** Phones: the views as a bar along the bottom, the last entry opening a sheet with everything else. Labels stay full size, so the bar keeps to five. */
 export function TabBar() {
-  const path = usePathname();
+  const full = usePathname();
+  const path = stripLocale(full);
   const { nav, ui } = useDict();
+  // Remembers the page the sheet was opened on, so following a link closes it.
+  const [openOn, setOpenOn] = useState<string | null>(null);
+  const open = openOn === full;
+  const bar = VIEWS.filter((v) => BAR.includes(v.id));
+  const rest = [...VIEWS.filter((v) => !BAR.includes(v.id)).map((v) => ({ ...v, on: isActive(path, v.match) })), ...MORE.map((l) => ({ ...l, on: path === l.href }))];
+  const inRest = rest.some((r) => r.on);
+  const tab = (on: boolean) => `flex min-w-0 flex-col items-center gap-0.5 px-0.5 py-2 text-center text-base leading-tight ${on ? "title text-ink" : "text-ink-2"}`;
   return (
-    <nav aria-label={ui.viewsAria} className="fixed inset-x-0 bottom-0 z-40 grid grid-cols-6 border-t border-line bg-paper pb-[env(safe-area-inset-bottom)] backdrop-blur-[1.5px] lg:hidden">
-      {VIEWS.map((v) => {
-        const on = isActive(path, v.match);
-        return (
-          <Link key={v.id} href={v.href} aria-current={on ? "page" : undefined} className={`flex flex-col items-center gap-0.5 px-0.5 py-2 text-center text-base leading-tight ${on ? "title text-ink" : "text-ink-2"}`}>
-            <Icon id={v.id} />
-            {nav[v.key]}
-          </Link>
-        );
-      })}
-    </nav>
+    <div
+      className="relative z-40 shrink-0 lg:hidden"
+      onKeyDown={(e) => {
+        if (e.key === "Escape") setOpenOn(null);
+      }}
+    >
+      {open && (
+        <>
+          <button type="button" aria-label={ui.close} onClick={() => setOpenOn(null)} className="fixed inset-0 bg-ink/30" />
+          <div id="more-sheet" className="menu-pop absolute inset-x-0 bottom-full max-h-[75dvh] overflow-y-auto rounded-t-[2rem] bg-paper px-4 pt-5 pb-4 shadow-[0_-24px_60px_-30px_rgb(0_12_31/0.5)]">
+            <nav aria-label={ui.moreAria} className="grid gap-1">
+              {rest.map((r) => (
+                <Link key={r.id} href={r.href} aria-current={r.on ? "page" : undefined} className={`flex items-center gap-3.5 rounded-2xl px-4 py-3 text-xl ${r.on ? "title bg-mist" : "text-ink-2"}`}>
+                  <Icon id={r.id} />
+                  {nav[r.key]}
+                </Link>
+              ))}
+            </nav>
+            <div className="mx-3 my-3 border-t border-line" />
+            <LocaleSwitcher className="gap-x-5 gap-y-2 px-4 py-2 text-lg" />
+          </div>
+        </>
+      )}
+      <nav aria-label={ui.viewsAria} className="relative grid grid-cols-5 border-t border-line bg-paper pb-[env(safe-area-inset-bottom)]">
+        {bar.map((v) => {
+          const on = !open && isActive(path, v.match);
+          return (
+            <Link key={v.id} href={v.href} aria-current={on ? "page" : undefined} onClick={() => setOpenOn(null)} className={tab(on)}>
+              <Icon id={v.id} />
+              {nav[v.key]}
+            </Link>
+          );
+        })}
+        <button type="button" aria-expanded={open} aria-controls="more-sheet" onClick={() => setOpenOn(open ? null : full)} className={tab(open || inRest)}>
+          <Icon id="more" />
+          {ui.moreAria}
+        </button>
+      </nav>
+    </div>
   );
 }

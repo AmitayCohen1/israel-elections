@@ -5,7 +5,7 @@ import Link, { useMessages } from "@/i18n/link";
 import { defineMessages } from "@/i18n/messages";
 import { arCount, ruPlural } from "@/i18n/messages/plural";
 import { useDict } from "@/i18n/provider";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Avatar } from "@/components/avatar";
 import type { ChatTopic } from "@/components/topic-chat";
 import { Arrow } from "@/components/arrow";
@@ -50,7 +50,7 @@ const m = defineMessages(
   },
 );
 
-// Up to eight are drawn; the card shows as many as fit whole (the rest wrap out of sight), so a short screen gets three and a tall one more.
+// Up to eight are drawn; the card shows as many as fit whole (the rest wrap out of sight), so a short screen gets three and a tall one more. A phone, where the card has no fixed height, shows four.
 const SHOWN = 8;
 
 /**
@@ -74,6 +74,13 @@ export function TopicStage({ topics, every = 9000, className = "" }: { topics: C
   }, [held, every]);
 
   const on = i % L;
+  // On a phone the categories are a row that scrolls sideways: keep the one in view in the middle of it.
+  const tabs = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const row = tabs.current;
+    const tab = row?.children[on] as HTMLElement | undefined;
+    if (row && tab && row.scrollWidth > row.clientWidth) row.scrollTo({ left: tab.offsetLeft - (row.clientWidth - tab.offsetWidth) / 2, behavior: "smooth" });
+  }, [on]);
   const t = topics[on];
   const lap = Math.floor(i / L);
   // Each category starts from a different party, and moves on every lap.
@@ -92,9 +99,9 @@ export function TopicStage({ topics, every = 9000, className = "" }: { topics: C
       </div>
 
       {/* The categories, all eight in a row, each with its painted object: the one in view is framed, and the card walks along the row by itself */}
-      <div role="tablist" aria-label={dict.nav.topics} className="mt-4 grid shrink-0 grid-cols-8 gap-1.5">
+      <div ref={tabs} role="tablist" aria-label={dict.nav.topics} className="scrollbar-none relative -mx-6 mt-4 flex shrink-0 gap-1.5 overflow-x-auto px-6 py-1 lg:mx-0 lg:grid lg:grid-cols-8 lg:overflow-visible lg:p-0">
         {topics.map((x, n) => (
-          <button key={x.key} type="button" role="tab" aria-selected={n === on} onClick={() => setI(lap * L + n)} className={`flex flex-col items-center gap-0.5 rounded-2xl px-1 pt-1.5 pb-2 text-base transition ${n === on ? "title bg-paper ring-2 ring-ink" : "text-ink-2 hover:bg-paper/70 hover:text-ink"}`}>
+          <button key={x.key} type="button" role="tab" aria-selected={n === on} onClick={() => setI(lap * L + n)} className={`flex shrink-0 flex-col items-center gap-0.5 rounded-2xl px-3 pt-1.5 pb-2 text-base whitespace-nowrap transition lg:shrink lg:px-1 lg:whitespace-normal ${n === on ? "title bg-paper ring-2 ring-ink" : "text-ink-2 hover:bg-paper/70 hover:text-ink"}`}>
             <span className="relative size-10">
               <Image src={x.art} alt="" fill sizes="40px" loading="eager" className="object-contain mix-blend-multiply" />
             </span>
@@ -105,7 +112,7 @@ export function TopicStage({ topics, every = 9000, className = "" }: { topics: C
 
       <ul key={i} style={{ perspective: "1100px" }} className="mt-4 flex min-h-0 flex-1 flex-col flex-wrap content-start gap-x-8 gap-y-3 overflow-hidden">
         {rows.map((r, k) => (
-          <li key={r.id} style={{ "--d": `${180 + k * 130}ms` } as React.CSSProperties} className="board-in w-full">
+          <li key={r.id} style={{ "--d": `${180 + k * 130}ms` } as React.CSSProperties} className="board-in w-full max-lg:nth-[n+5]:hidden">
             <Link href={`/topics#${t.key}:${r.id}`} className="block rounded-[1.5rem] bg-paper p-4">
               <span className="flex items-center gap-3">
                 <Avatar name={r.face.name} src={r.face.src} color={r.face.color} size={40} />

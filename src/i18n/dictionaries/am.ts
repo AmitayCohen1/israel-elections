@@ -17,6 +17,7 @@ export const am: Dictionary = {
     searchLong: "እጩን በስም ፈልግ",
     searchAria: "እጩን በስም ፈልግ",
     searchBtn: "ፈልግ",
+    close: "ዝጋ",
     nfTitle: "ይህ ወረቀት በምርጫ ሣጥኑ ውስጥ የለም",
     nfBody: "የፈለጉትን ገጽ አላገኘንም።",
     nfCta: "ሁሉም ፓርቲዎች",

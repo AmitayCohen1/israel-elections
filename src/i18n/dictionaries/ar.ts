@@ -16,6 +16,7 @@ export const ar: Dictionary = {
     searchLong: "ابحث عن مرشح بالاسم",
     searchAria: "البحث عن مرشح بالاسم",
     searchBtn: "بحث",
+    close: "إغلاق",
     nfTitle: "هذه الورقة ليست في صندوق الاقتراع",
     nfBody: "لم نجد الصفحة التي تبحث عنها.",
     nfCta: "جميع الأحزاب",

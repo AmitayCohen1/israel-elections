@@ -63,7 +63,7 @@ export function PersonStrip({ people: all, every = 3500, show = 9 }: { people: S
   const arrow = "grid size-9 shrink-0 place-items-center rounded-full bg-paper transition hover:bg-ink hover:text-white";
   return (
     <div onMouseEnter={() => setHeld(true)} onMouseLeave={() => setHeld(false)} className="flex h-full flex-col">
-      <div className="relative min-h-[7.5rem] flex-1 overflow-hidden">
+      <div className="relative min-h-[8.75rem] flex-1 overflow-hidden sm:min-h-[7.5rem]">
         {[i - 1, i, i + 1].map((step) => {
           const p = at(step);
           return (

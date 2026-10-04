@@ -16,6 +16,7 @@ export const en: Dictionary = {
     searchLong: "Search for a candidate by name",
     searchAria: "Search for a candidate by name",
     searchBtn: "Search",
+    close: "Close",
     nfTitle: "Page not found",
     nfBody: "We could not find the page you were looking for.",
     nfCta: "All parties",

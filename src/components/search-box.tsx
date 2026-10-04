@@ -30,7 +30,7 @@ const loadIndex = (lang: string) => {
 };
 
 /** The one primary action. `lg` is the hero size: 96px tall on desktop, as on america.gov. */
-export function SearchBox({ size = "md", openUp = false }: { size?: "sm" | "md" | "lg"; openUp?: boolean }) {
+export function SearchBox({ size = "md", openUp = false, autoFocus = false }: { size?: "sm" | "md" | "lg"; openUp?: boolean; autoFocus?: boolean }) {
   const router = useRouter();
   const lang = useLocale();
   const { ui } = useDict();
@@ -91,6 +91,7 @@ export function SearchBox({ size = "md", openUp = false }: { size?: "sm" | "md" 
           if (!index) loadIndex(lang).then(setIndex, () => {});
         }}
         autoComplete="off"
+        autoFocus={autoFocus}
         placeholder={sm ? ui.searchShort : ui.searchLong}
         aria-label={ui.searchAria}
         className={`w-full rounded-full bg-transparent outline-none placeholder:text-muted ${lg ? "h-16 pr-7 pl-20 text-lg sm:h-24 sm:pr-11 sm:pl-28 sm:text-2xl" : sm ? "h-11 pr-5 pl-14 text-base" : "h-16 pr-7 pl-20 text-lg"}`}

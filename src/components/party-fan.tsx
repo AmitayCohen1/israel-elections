@@ -37,7 +37,7 @@ export function PartyFan({ parties, every = 1300 }: { parties: FanParty[]; every
     return () => clearInterval(id);
   }, [held, n, S, every]);
   return (
-    <span onMouseEnter={() => setHeld(true)} onMouseLeave={() => setHeld(false)} className="relative block h-[8.5rem] w-[17.5rem] shrink-0">
+    <span onMouseEnter={() => setHeld(true)} onMouseLeave={() => setHeld(false)} className="relative block h-[8.5rem] w-[17.5rem] shrink-0 max-[359px]:scale-[0.85]">
       {PILE.slice(0, S).map((s, k) => {
         // How many times this slot has been swapped so far: slots take turns, one per tick.
         const turns = Math.floor((tick + (S - 1 - k)) / S);

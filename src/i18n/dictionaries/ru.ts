@@ -16,6 +16,7 @@ export const ru: Dictionary = {
     searchLong: "Найти кандидата по имени",
     searchAria: "Поиск кандидата по имени",
     searchBtn: "Поиск",
+    close: "Закрыть",
     nfTitle: "Этого бюллетеня нет в урне",
     nfBody: "Мы не нашли страницу, которую вы искали.",
     nfCta: "Все партии",
