@@ -30,7 +30,7 @@ const said = (x) => !x.unverified && (x.source_type === "official_statement" || 
  * { platformRows, positionRows, approvedCount } for the lists in `known` (a Set of slugs).
  * Approved extraction drafts (data/extracted/<slug>.json, status "approved") give a list's positions from its own pages,
  * with the per-topic gist and digest. A list that published a platform for this election (registry status "found", with
- * an approved extraction) shows only that. Every other list also shows what its leaders said, after its own pages,
+ * an approved extraction that is not marked with an earlier platform_year) shows only that. Every other list also shows what its leaders said, after its own pages,
  * each with its kind of source and a link.
  */
 export function buildPlatforms(known) {
@@ -47,12 +47,14 @@ export function buildPlatforms(known) {
       // The page a quote was actually found on is its source; pages saved as the list's platform count as "platform".
       const hit = snaps.find((sn) => sn.text.includes(norm(x.quote)));
       const own = hit ? (hit.field === "platform_url" || hit.field.startsWith("plan_") ? "platform" : "party_site") : "platform";
-      return { topic: x.topic, point: x.stance, quote: x.quote, source_url: hit?.url ?? d.source_url, source_title: null, source_type: own, date: null };
+      // A document from an earlier election says so on every quote (source_title), next to its link.
+      return { topic: x.topic, point: x.stance, quote: x.quote, source_url: hit?.url ?? d.source_url, source_title: own === "platform" ? (d.source_title ?? null) : null, source_type: own, date: null };
     });
     const b = base.get(d.slug) ?? { slug: d.slug, platform_doc: null, self_description: null, notes: null };
     bySlug.set(d.slug, { ...b, positions, researched_at: d.extracted_at, topic_titles: d.topic_titles ?? null, topic_digests: d.topic_digests ?? null });
   }
-  const hasPlatform = new Set(approved.filter((d) => registry[d.slug]?.status === "found").map((d) => d.slug));
+  // A platform written for an earlier election (platform_year) is shown, but is not one "for this election".
+  const hasPlatform = new Set(approved.filter((d) => registry[d.slug]?.status === "found" && !d.platform_year).map((d) => d.slug));
   for (const [slug, p] of bySlug) {
     if (!hasPlatform.has(slug)) p.positions = [...p.positions, ...(base.get(slug)?.positions ?? []).filter(said)];
     p.topics_without_position = TOPIC_KEYS.filter((k) => !p.positions.some((x) => x.topic === k));
