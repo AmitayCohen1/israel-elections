@@ -1,7 +1,8 @@
 // Load data/*.json into Neon. Replaces all rows; safe to re-run.
 // Usage: node --env-file=.env.local scripts/seed.mjs
 import { neon } from "@neondatabase/serverless";
-import { readFileSync, readdirSync, existsSync } from "node:fs";
+import { readFileSync } from "node:fs";
+import { buildPlatforms } from "./platforms-lib.mjs";
 
 const sql = neon(process.env.DATABASE_URL);
 const data = (f) => JSON.parse(readFileSync(new URL(`../data/${f}`, import.meta.url)));
@@ -27,65 +28,8 @@ const candidateRows = lists.flatMap((l) => l.candidates.map((c) => {
   };
 }));
 
-const platformDir = new URL("../data/platforms/", import.meta.url);
-const basePlatforms = existsSync(platformDir)
-  ? readdirSync(platformDir).filter((f) => f.endsWith(".json")).map((f) => JSON.parse(readFileSync(new URL(f, platformDir))))
-  : [];
 const known = new Set(lists.map((l) => l.slug));
-
-// Approved extraction drafts (data/extracted/<slug>.json with status "approved") replace a list's positions with
-// quotes taken from the list's own pages, and add the per-topic gist and digest the list page shows.
-const TOPIC_KEYS = ["security", "economy", "religion_state", "judiciary", "housing", "education", "welfare_health", "governance"];
-const norm = (s) => s.replace(/״/g, '"').replace(/׳/g, "'").replace(/[–—־]/g, "-").replace(/\s+/g, " ").trim();
-const extractedDir = new URL("../data/extracted/", import.meta.url);
-const snapshotsDir = new URL("../data/snapshots/", import.meta.url);
-
-function snapshotsFor(slug) {
-  const dir = new URL(`${slug}/`, snapshotsDir);
-  if (!existsSync(dir)) return [];
-  return readdirSync(dir).filter((f) => f.endsWith(".json")).flatMap((f) => {
-    const j = JSON.parse(readFileSync(new URL(f, dir)));
-    return j.text ? [{ field: f.replace(/\.json$/, ""), url: j.url, text: norm(j.text) }] : [];
-  });
-}
-
-const approved = existsSync(extractedDir)
-  ? readdirSync(extractedDir).filter((f) => f.endsWith(".json")).map((f) => JSON.parse(readFileSync(new URL(f, extractedDir)))).filter((d) => d.status === "approved" && known.has(d.slug))
-  : [];
-
-const platformBySlug = new Map(basePlatforms.map((p) => [p.slug, p]));
-for (const d of approved) {
-  const snaps = snapshotsFor(d.slug);
-  const positions = d.positions.map((x) => {
-    // The page a quote was actually found on is its source; pages saved as the list's platform count as "platform".
-    const hit = snaps.find((sn) => sn.text.includes(norm(x.quote)));
-    const own = hit ? (hit.field === "platform_url" || hit.field.startsWith("plan_") ? "platform" : "party_site") : "platform";
-    return { topic: x.topic, point: x.stance, quote: x.quote, source_url: hit?.url ?? d.source_url, source_title: null, source_type: own, date: null };
-  });
-  const base = platformBySlug.get(d.slug) ?? { slug: d.slug, platform_doc: null, self_description: null, notes: null };
-  platformBySlug.set(d.slug, {
-    ...base,
-    positions,
-    topics_without_position: TOPIC_KEYS.filter((k) => !positions.some((x) => x.topic === k)),
-    researched_at: d.extracted_at,
-    topic_titles: d.topic_titles ?? null,
-    topic_digests: d.topic_digests ?? null,
-  });
-}
-const platforms = [...platformBySlug.values()];
-const platformRows = platforms.filter((p) => known.has(p.slug)).map((p) => ({
-  list_slug: p.slug, platform_doc: p.platform_doc ?? null, self_description: p.self_description ?? null,
-  topics_without_position: p.topics_without_position ?? [], researched_at: p.researched_at ?? null, notes: p.notes ?? null,
-  topic_titles: p.topic_titles ?? null, topic_digests: p.topic_digests ?? null,
-}));
-// Own words only: a list's positions come from its own platform or site. Older research that leaned on news reports,
-// interviews or statements is not published (lists with an approved draft already use quotes from their own pages).
-const OWN = new Set(["platform", "party_site"]);
-const positionRows = platforms.filter((p) => known.has(p.slug)).flatMap((p) => (p.positions ?? []).filter((x) => OWN.has(x.source_type)).map((x) => ({
-  list_slug: p.slug, topic: x.topic, point: x.point, quote: x.quote, source_url: x.source_url,
-  source_title: x.source_title ?? null, source_type: x.source_type ?? null,
-  source_date: /^\d{4}-\d{2}-\d{2}$/.test(x.date ?? "") ? x.date : null,
-})));
+const { platformRows, positionRows, approvedCount } = buildPlatforms(known);
 
 // json_populate_recordset keeps this to one round trip per table.
 await sql.transaction([
@@ -100,7 +44,7 @@ await sql.transaction([
       FROM json_populate_recordset(null::platform_positions, ${JSON.stringify(positionRows)})`,
 ]);
 
-console.log(`seeded ${listRows.length} lists, ${candidateRows.length} candidates, ${platformRows.length} platforms, ${positionRows.length} positions (${approved.length} from approved drafts)`);
+console.log(`seeded ${listRows.length} lists, ${candidateRows.length} candidates, ${platformRows.length} platforms, ${positionRows.length} positions (${approvedCount} lists from approved drafts)`);
 
 // Tell the running app to drop its cached dataset.
 if (process.env.REVALIDATE_URL && process.env.REVALIDATE_SECRET) {
