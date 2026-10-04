@@ -4,11 +4,11 @@ import { Arrow } from "@/components/arrow";
 
 /**
  * Every dashboard view sits in the same frame: one gutter, one top edge, and the content centred in the space beside the sidebar.
- * `read` keeps text-led pages to a comfortable column; the default fills the screen up to a wide cap.
+ * `read` keeps text-led pages to a comfortable column, `wide` holds two of them side by side; the default fills the screen up to a wide cap.
  * On desktop the view's `ViewHead` stays put and only what is under it scrolls; on phones the whole view scrolls as one.
  */
-export function View({ children, width = "full" }: { children: React.ReactNode; width?: "full" | "read" | "form" }) {
-  const max = width === "read" ? "max-w-4xl" : width === "form" ? "max-w-2xl" : "max-w-[88rem]";
+export function View({ children, width = "full" }: { children: React.ReactNode; width?: "full" | "wide" | "read" | "form" }) {
+  const max = width === "wide" ? "max-w-6xl" : width === "read" ? "max-w-4xl" : width === "form" ? "max-w-2xl" : "max-w-[88rem]";
   const all = Children.toArray(children);
   const head = all.find((c) => isValidElement(c) && c.type === ViewHead);
   const body = all.filter((c) => c !== head);

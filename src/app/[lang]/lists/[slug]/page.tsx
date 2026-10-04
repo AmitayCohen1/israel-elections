@@ -7,7 +7,6 @@ import { TOPIC_KEYS } from "@/lib/topics";
 import { getDictionary, getLocale, getMessages } from "@/i18n";
 import Link from "@/i18n/link";
 import { PartyMark } from "@/components/party-mark";
-import { Ballot } from "@/components/ballot";
 import { partyLogo } from "@/lib/logos";
 import { AccRow } from "@/components/accordion";
 import { Avatar } from "@/components/avatar";
@@ -15,7 +14,7 @@ import { View, ViewHead } from "@/components/view-head";
 import { YouTubeLite } from "@/components/youtube-lite";
 import { TopicIcon } from "@/components/topic-icon";
 import { OwnWords } from "@/components/topic-rows";
-import { leadBio, shortBio } from "@/lib/text";
+import { shortBio } from "@/lib/text";
 import { mkLabelT, mkMessages } from "@/components/candidate-messages";
 import { m } from "./messages";
 import { quoteGist } from "@/lib/quotes";
@@ -54,7 +53,7 @@ export default async function ListPage({ params }: PageProps<"/[lang]/lists/[slu
   const logo = partyLogo(list.slug);
   const lang = await getLocale();
   return (
-    <View>
+    <View width="read">
       <JsonLd
         data={{
           "@type": "PoliticalParty",
@@ -72,24 +71,17 @@ export default async function ListPage({ params }: PageProps<"/[lang]/lists/[slu
         hint={t.hint({ total: list.candidates.length, served, sitting })}
       />
 
-      {/* Wikipedia-style article: a single reading column with one facts panel to the side. */}
-      <div className="lg:grid lg:grid-cols-[minmax(0,1fr)_19rem] lg:items-start lg:gap-x-12">
-        <article className="lg:col-start-1 lg:row-start-1 lg:min-w-0">
-          {lead && <p className="max-w-3xl text-xl leading-relaxed text-pretty">{lead}</p>}
-          <Faces list={list} />
-          {!hasPositions && <p className="mt-4 w-fit rounded-full bg-mist px-4 py-1.5 text-base text-ink-2">{found ? t.platformPending : t.platformMissing}</p>}
+      {/* One centred reading column: the opening line, the official links, the faces, then the sections. */}
+      {lead && <p className="text-xl leading-relaxed text-pretty">{lead}</p>}
+      <Links list={list} />
+      <Faces list={list} />
+      {!hasPositions && <p className="mt-4 w-fit rounded-full bg-mist px-4 py-1.5 text-base text-ink-2">{found ? t.platformPending : t.platformMissing}</p>}
 
-          <div className="mt-10 space-y-12">
-            {hasPositions && <Positions list={list} />}
-            <People list={list} top={hasPositions ? 8 : 12} />
-            <Media slug={list.slug} />
-            <About list={list} />
-          </div>
-        </article>
-
-        <div className="mt-10 lg:col-start-2 lg:row-start-1 lg:mt-0 lg:sticky lg:top-8">
-          <Infobox list={list} served={served} sitting={sitting} />
-        </div>
+      <div className="mt-10 space-y-12">
+        {hasPositions && <Positions list={list} />}
+        <People list={list} top={hasPositions ? 8 : 12} />
+        <Media slug={list.slug} />
+        <About list={list} />
       </div>
     </View>
   );
@@ -165,10 +157,10 @@ async function Faces({ list }: { list: List }) {
           {t.allCandidates(list.candidates.length)} <span aria-hidden>↓</span>
         </a>
       </div>
-      <ol className="mt-3 flex gap-2 overflow-x-auto pb-1">
+      <ol className="mt-3 flex justify-between gap-1 overflow-x-auto pb-1">
         {top.map((c) => (
-          <li key={c.position} className="w-[6.5rem] shrink-0">
-            <Link href={`/lists/${c.list_slug}/${c.position}`} className="group flex flex-col items-center gap-2 rounded-2xl p-2 text-center transition hover:bg-mist">
+          <li key={c.position} className="w-[6.25rem] shrink-0">
+            <Link href={`/lists/${c.list_slug}/${c.position}`} scroll={false} className="group flex flex-col items-center gap-2 rounded-2xl p-2 text-center transition hover:bg-mist">
               <Avatar name={c.display_name} src={c.image_url} color={list.color} size={64} priority />
               <span className="line-clamp-2 text-base leading-tight font-medium">{c.display_name}</span>
               <span className="-mt-1 text-base text-muted tabular-nums">{c.position}</span>
@@ -180,7 +172,7 @@ async function Faces({ list }: { list: List }) {
   );
 }
 
-/** The slate, one line each; open a person for the opening of their background, then on to their page. */
+/** The slate, one line each; a person opens as a popup over this page. */
 async function People({ list, top: n }: { list: List; top: number }) {
   const [t, mk] = await Promise.all([getMessages(m), getMessages(mkMessages)]);
   const top = list.candidates.slice(0, n);
@@ -189,37 +181,25 @@ async function People({ list, top: n }: { list: List; top: number }) {
     <section id="people" className="scroll-mt-8">
       <Heading>{t.whoIsOnList}</Heading>
       <div className={rows}>
-        {top.map((c) => {
-          const bio = leadBio(c.bio, 220);
-          return (
-            <details key={c.position} name="people" className="group border-b border-line">
-              <summary className="flex cursor-pointer items-center gap-4 py-4">
-                <span className="serif w-5 shrink-0 text-center text-lg text-muted tabular-nums">{c.position}</span>
-                <Avatar name={c.display_name} src={c.image_url} color={list.color} size={40} className="shrink-0" />
-                <span className="min-w-0 flex-1">
-                  <span className="block truncate text-lg font-medium">{c.display_name}</span>
-                  <span className="block truncate text-base text-ink-2">{c.knesset ? mkLabelT(mk, c.knesset) : shortBio(c.bio, 50)}</span>
-                </span>
-                {plus}
-              </summary>
-              <div className="pb-6 ps-[4.25rem]">
-                {bio && <p className="text-base leading-relaxed text-pretty text-ink-2">{bio}</p>}
-                <Link href={`/lists/${c.list_slug}/${c.position}`} className="mt-2 inline-block text-base font-semibold text-accent underline-offset-4 hover:underline">
-                  {t.toPersonPage(c.display_name)} <span aria-hidden className="inline-block ltr:-scale-x-100">←</span>
-                </Link>
-              </div>
-            </details>
-          );
-        })}
+        {top.map((c) => (
+          <Link key={c.position} href={`/lists/${c.list_slug}/${c.position}`} scroll={false} className="flex items-center gap-4 border-b border-line py-3.5 transition hover:bg-mist/60">
+            <span className="serif w-6 shrink-0 text-center text-xl text-muted tabular-nums">{c.position}</span>
+            <Avatar name={c.display_name} src={c.image_url} color={list.color} size={48} className="shrink-0" />
+            <span className="min-w-0 flex-1">
+              <span className="block truncate text-xl font-medium">{c.display_name}</span>
+              <span className="block truncate text-lg text-ink-2">{c.knesset ? mkLabelT(mk, c.knesset) : shortBio(c.bio, 70)}</span>
+            </span>
+          </Link>
+        ))}
       </div>
       {rest.length > 0 && (
         <details className="group mt-3">
           <summary className="inline-block cursor-pointer text-base font-semibold text-accent underline-offset-4 hover:underline">{t.allCandidates(list.candidates.length)}</summary>
-          <ol className="mt-3 grid gap-x-6 gap-y-1 text-base sm:grid-cols-2">
+          <ol className="mt-3 grid gap-x-6 gap-y-1.5 text-lg sm:grid-cols-2">
             {rest.map((c) => (
               <li key={c.position} className="flex min-w-0 gap-2">
                 <span className="w-7 shrink-0 text-end text-muted tabular-nums">{c.position}</span>
-                <Link href={`/lists/${c.list_slug}/${c.position}`} className="truncate underline-offset-4 hover:underline">
+                <Link href={`/lists/${c.list_slug}/${c.position}`} scroll={false} className="truncate underline-offset-4 hover:underline">
                   {c.display_name}
                 </Link>
               </li>
@@ -269,8 +249,8 @@ async function Media({ slug }: { slug: string }) {
   );
 }
 
-/** The facts panel: the mark, the numbers that matter, who leads, and every official link — the one grey surface on the page. */
-async function Infobox({ list, served, sitting }: { list: List; served: number; sitting: number }) {
+/** Every official link of the party, as one quiet row of pills under the opening line. */
+async function Links({ list }: { list: List }) {
   const t = await getMessages(m);
   const SOCIAL = t.social;
   const src = (sources as Record<string, { website?: string | null; platform_url?: string | null }>)[list.slug];
@@ -287,60 +267,17 @@ async function Infobox({ list, served, sitting }: { list: List; served: number; 
     return true;
   });
 
-  const leader = list.candidates[0];
-  const facts: { label: string; value: React.ReactNode }[] = [
-    { label: t.ballotLetters, value: list.letters },
-    { label: t.candidatesLabel, value: list.candidates.length },
-  ];
-  if (served > 0) facts.push({ label: t.servedLabel, value: served });
-  if (sitting > 0) facts.push({ label: t.sittingLabel, value: sitting });
-  if (leader)
-    facts.push({
-      label: t.leaderLabel,
-      value: (
-        <Link href={`/lists/${leader.list_slug}/${leader.position}`} className="underline-offset-4 hover:underline">
-          {leader.display_name}
-        </Link>
-      ),
-    });
-
+  if (!links.length) return null;
   return (
-    <aside className="rounded-[1.75rem] bg-mist p-5">
-      <div className="flex items-center gap-4">
-        {partyLogo(list.slug) ? <PartyMark slug={list.slug} letters={list.letters} color={list.color} size="md" /> : <Ballot letters={list.letters} color={list.color} size="md" />}
-        <div className="min-w-0">
-          <p className="title text-xl leading-tight text-balance">{list.name}</p>
-          {list.official_name !== list.name && <p className="mt-1 text-base leading-snug text-ink-2">{list.official_name}</p>}
-        </div>
-      </div>
-
-      <dl className="mt-5 border-t border-ink/10 text-base">
-        {facts.map((f) => (
-          <div key={f.label} className="flex items-baseline justify-between gap-3 border-b border-ink/10 py-2.5">
-            <dt className="text-base text-muted">{f.label}</dt>
-            <dd className="tabular-nums text-end font-medium">{f.value}</dd>
-          </div>
-        ))}
-        {list.parties.length > 1 && (
-          <div className="border-b border-ink/10 py-2.5">
-            <dt className="text-base text-muted">{t.partiesInList}</dt>
-            <dd className="mt-1 leading-snug">{list.parties.join(" · ")}</dd>
-          </div>
-        )}
-      </dl>
-
-      {links.length > 0 && (
-        <ul className="mt-4 flex flex-wrap gap-2">
-          {links.map((l) => (
-            <li key={l.href}>
-              <a href={l.href} target="_blank" rel="noreferrer" className="block rounded-full bg-paper px-3.5 py-1.5 text-base font-medium transition hover:bg-ink hover:text-paper">
-                {l.label} ↗
-              </a>
-            </li>
-          ))}
-        </ul>
-      )}
-    </aside>
+    <ul className="mt-5 flex flex-wrap gap-2">
+      {links.map((l) => (
+        <li key={l.href}>
+          <a href={l.href} target="_blank" rel="noreferrer" className="block rounded-full bg-mist px-4 py-1.5 text-base font-medium transition hover:bg-ink hover:text-paper">
+            {l.label} ↗
+          </a>
+        </li>
+      ))}
+    </ul>
   );
 }
 
@@ -352,6 +289,7 @@ async function About({ list }: { list: List }) {
       <AccRow title={t.aboutParty}>
         <div className="space-y-12 leading-relaxed">
           <Block label={t.officialName}>{list.official_name}</Block>
+          <Block label={t.ballotLetters}>{list.letters}</Block>
           {list.parties.length > 0 && <Block label={t.partiesInList}>{list.parties.join(" · ")}</Block>}
           {list.background.length > 0 && (
             <Block label={t.background}>
