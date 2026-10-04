@@ -509,6 +509,33 @@ details[open]::details-content {
   block-size: auto;
 }
 
+/* The phone drawer slides in from the start edge, its shade fading in behind it */
+@keyframes drawer-in {
+  from {
+    transform: translateX(var(--drawer-from, -100%));
+  }
+}
+@keyframes shade-in {
+  from {
+    opacity: 0;
+  }
+}
+[dir="rtl"] .drawer-in {
+  --drawer-from: 100%;
+}
+.drawer-in {
+  animation: drawer-in 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.drawer-shade {
+  animation: shade-in 0.2s ease-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .drawer-in,
+  .drawer-shade {
+    animation: none;
+  }
+}
+
 /* Small floating menus (the topic dropdown) pop in from the control */
 @keyframes menu-pop {
   from {

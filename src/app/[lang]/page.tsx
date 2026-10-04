@@ -14,6 +14,8 @@ import Link from "@/i18n/link";
 import { Gate } from "@/components/gate";
 import { VoteClip } from "@/components/vote-clip";
 import { JsonLd } from "@/components/json-ld";
+import { MapLead } from "@/components/map-lead";
+import { loadAxes } from "@/lib/axes";
 import { SITE_URL, localeUrl } from "@/lib/seo";
 
 const m = defineMessages(
@@ -142,8 +144,24 @@ export default async function Home() {
       facts: [],
     }));
 
+  // The lead: one question from the position map (only those whose answers form a scale), every party at its answer.
+  // The map's questions and codings exist in Hebrew only, so the other languages keep the overview without it.
+  const axes =
+    locale === "he"
+      ? (await loadAxes())
+          .filter((a) => a.ordered)
+          .map((a) => ({
+            id: a.id,
+            short: a.short,
+            question: a.question,
+            stops: a.scale.map((s) => ({ level: s.level, short: s.short, parties: a.cells.filter((c) => c.level === s.level).map((c) => ({ slug: c.slug, name: c.name, color: c.color, face: c.face })) })),
+            uncoded: a.uncoded.length,
+          }))
+      : [];
+  const lead = axes.length > 0;
+
   return (
-    <div className="mx-auto flex w-full max-w-[88rem] flex-col gap-5 p-4 sm:p-8 lg:h-dvh lg:min-h-[40rem] lg:px-10 lg:py-8">
+    <div className={`mx-auto flex w-full max-w-[88rem] flex-col gap-5 p-4 sm:p-8 lg:h-dvh lg:px-10 lg:py-8 ${lead ? "lg:min-h-[66rem]" : "lg:min-h-[40rem]"}`}>
       <JsonLd data={{ "@type": "WebSite", name: dict.ui.brand, url: SITE_URL + localeUrl(locale), inLanguage: locale, description: dict.meta.description }} />
       <header className="flex shrink-0 flex-wrap items-end justify-between gap-4">
         <div>
@@ -163,22 +181,25 @@ export default async function Home() {
       </header>
 
       {/* The grid fills the screen. The people card is only as tall as its content; the guide takes the rest of that column with its clip growing to fit; the positions card shows as many parties as fit. So no card is mostly air, on a short screen or a tall one. */}
-      <div className="grid gap-4 lg:min-h-0 lg:flex-1 lg:grid-cols-12 lg:grid-rows-[auto_minmax(0,1fr)_minmax(0,1fr)]">
+      {/* With the map leading, it runs across the top; under it the people and the positions side by side, and the two gates share the row under the people. On a phone: the map, the positions, the people, the parties, the guide. */}
+      <div className={`grid gap-4 lg:min-h-0 lg:flex-1 lg:grid-cols-12 ${lead ? "lg:grid-rows-[auto_auto_minmax(0,1fr)]" : "lg:grid-rows-[auto_minmax(0,1fr)_minmax(0,1fr)]"}`}>
+        {lead && <MapLead className="lg:col-span-12 lg:row-start-1" axes={axes} />}
+
         {/* People: a lot of faces, moving, and every one of them has a page */}
-        <Card className="lg:col-span-6 lg:col-start-1 lg:row-start-1" title={t.peopleTitle} note={t.peopleNote} href="/people">
+        <Card className={`max-lg:order-1 lg:col-span-6 lg:col-start-1 ${lead ? "lg:row-start-2" : "lg:row-start-1"}`} title={t.peopleTitle} note={t.peopleNote} href="/people">
           <PersonStrip people={strip} />
         </Card>
 
-        {/* Under the people, one above the other, two gates of the same shape: words at the start side, one visual at the other. The parties (grey, three party cards with their ballot slips) and the guide (cream, the voting clip). */}
-        <Gate className="lg:col-span-6 lg:col-start-1 lg:row-start-2" href="/lists" title={dict.nav.lists} line={t.partiesLine(lists.length)} cta={t.partiesCta}>
+        {/* Under the people, one above the other (on a phone the positions come between them), two gates of the same shape: words at the start side, one visual at the other. The parties (grey, three party cards with their ballot slips) and the guide (cream, the voting clip). */}
+        <Gate className={`max-lg:order-1 lg:col-start-1 ${lead ? "lg:col-span-3 lg:row-start-3" : "lg:col-span-6 lg:row-start-2"}`} slim={lead} href="/lists" title={dict.nav.lists} line={t.partiesLine(lists.length)} cta={t.partiesCta}>
           <PartyFan parties={sorted.map((l) => ({ slug: l.slug, name: l.name, letters: l.letters, color: l.color, count: l.candidates.length }))} />
         </Gate>
-        <Gate className="lg:col-span-6 lg:col-start-1 lg:row-start-3" href="/how-it-works" title={t.guideTitle} line={t.guideLine} cta={t.guideCta} tone="bg-cream hover:bg-[#f8f4de]">
+        <Gate className={`max-lg:order-2 lg:row-start-3 ${lead ? "lg:col-span-3 lg:col-start-4" : "lg:col-span-6 lg:col-start-1"}`} slim={lead} href="/how-it-works" title={t.guideTitle} line={t.guideLine} cta={t.guideCta} tone="bg-cream hover:bg-[#f8f4de]">
           <VoteClip autoplay loop className="pointer-events-none h-full max-h-[11rem] min-h-0 w-auto object-contain" />
         </Gate>
 
         {/* Positions, led by the category: the title is the category, and a few parties respond to it; then the next one */}
-        <TopicStage className="lg:col-span-6 lg:col-start-7 lg:row-span-3 lg:row-start-1" topics={stageTopics} />
+        <TopicStage className={`lg:col-span-6 lg:col-start-7 ${lead ? "lg:row-span-2 lg:row-start-2" : "lg:row-span-3 lg:row-start-1"}`} topics={stageTopics} />
       </div>
     </div>
   );

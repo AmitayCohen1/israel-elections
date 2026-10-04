@@ -16,6 +16,7 @@ export const he = {
     searchAria: "חיפוש מועמד לפי שם",
     searchBtn: "חיפוש",
     close: "סגירה",
+    menu: "תפריט",
     nfTitle: "העמוד לא נמצא",
     nfBody: "לא מצאנו את העמוד שחיפשתם.",
     nfCta: "לכל המפלגות",

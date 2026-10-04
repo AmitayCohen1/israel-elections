@@ -54,15 +54,17 @@ function place(slug: string, el: HTMLElement): Open {
     : { slug, left, bottom: window.innerHeight - r.top + 10 };
 }
 
-/** The topic inside the question sentence: it reads as part of the sentence, and opens a short list of the other topics under it. */
-function TopicMenu({
+/** The topic inside the question sentence: it reads as part of the sentence, and opens a short list of the other topics under it. `idle` is its look at rest (the overview sets it on a grey card). */
+export function TopicMenu({
   axes,
   value,
   onChange,
+  idle = "bg-tile hover:bg-mist",
 }: {
-  axes: AxisData[];
+  axes: { id: string; short: string }[];
   value: string;
   onChange: (id: string) => void;
+  idle?: string;
 }) {
   const [show, setShow] = useState(false);
   const root = useRef<HTMLSpanElement>(null);
@@ -88,7 +90,7 @@ function TopicMenu({
         aria-haspopup="listbox"
         aria-expanded={show}
         onClick={() => setShow((v) => !v)}
-        className={`inline-flex items-center gap-2 rounded-full px-4 py-1.5 transition ${show ? "bg-ink text-paper" : "bg-tile hover:bg-mist"}`}
+        className={`inline-flex items-center gap-2 rounded-full px-4 py-1.5 transition ${show ? "bg-ink text-paper" : idle}`}
       >
         {current.short}
         <svg
@@ -148,11 +150,17 @@ function TopicMenu({
   );
 }
 
-/** One thick line with named stops; the parties stack upward from their stop. Pressing a party opens its words right there. */
+/** One thick line with named stops on a grey card (the look of the overview's lead); the parties stand at their stop as faces. Pressing a party opens its words right there. */
 export function AxisStacks({ axes }: { axes: AxisData[] }) {
   const [id, setId] = useState(axes[0].id);
   const [open, setOpen] = useState<Open | null>(null);
   const pop = useRef<HTMLDivElement>(null);
+  // A link can name the question to open on (the overview does): /map#security-gaza.
+  useEffect(() => {
+    const asked = window.location.hash.slice(1);
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    if (axes.some((a) => a.id === asked)) setId(asked);
+  }, [axes]);
   const axis = axes.find((a) => a.id === id)!;
   const cell = axis.cells.find((c) => c.slug === open?.slug);
   const cols = {
@@ -183,6 +191,7 @@ export function AxisStacks({ axes }: { axes: AxisData[] }) {
     };
   }, [open]);
 
+  // A party at its stop is its leader's face, as on the overview; its name leads the words that open.
   const chip = (c: Cell) => {
     const active = open?.slug === c.slug;
     return (
@@ -191,19 +200,17 @@ export function AxisStacks({ axes }: { axes: AxisData[] }) {
         data-party
         onClick={(e) => setOpen(active ? null : place(c.slug, e.currentTarget))}
         aria-expanded={active}
-        className={`inline-flex cursor-pointer items-center gap-3 rounded-full border-2 py-1.5 pe-3 ps-1.5 text-xl font-medium transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${active ? "border-ink bg-ink text-paper shadow-md" : "border-ink/25 bg-paper shadow-[0_2px_0_rgb(0_12_31/0.12)] hover:-translate-y-0.5 hover:border-ink hover:shadow-[0_6px_14px_-8px_rgb(0_12_31/0.4)]"}`}
+        aria-label={c.name}
+        title={c.name}
+        className={`block cursor-pointer rounded-full ring-2 transition focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ${active ? "ring-ink ring-offset-2 ring-offset-mist" : "ring-paper hover:-translate-y-0.5 hover:ring-ink"}`}
       >
-        <Avatar name={c.name} src={c.face} color={c.color} size={40} />
-        {c.name}
-        <span aria-hidden className={`grid size-7 place-items-center rounded-full text-base ${active ? "bg-paper/20" : "bg-tile"}`}>
-          {active ? "×" : "+"}
-        </span>
+        <Avatar name={c.name} src={c.face} color={c.color} size={52} />
       </button>
     );
   };
 
   return (
-    <div>
+    <div className="rounded-[2rem] bg-mist p-6 sm:p-8">
       {/* The question is one sentence; the topic in it is the control. */}
       <p className="title flex flex-wrap items-center gap-x-3 gap-y-2 text-2xl sm:text-3xl">
         מה עמדת המפלגות בנושא
@@ -214,10 +221,11 @@ export function AxisStacks({ axes }: { axes: AxisData[] }) {
             setId(next);
             setOpen(null);
           }}
+          idle="bg-paper hover:bg-mist-deep"
         />
       </p>
       <p className="mt-2 max-w-3xl text-xl text-ink-2">{axis.question}</p>
-      <p className="mt-3 inline-flex items-center gap-2 rounded-full bg-mist px-4 py-1.5 text-lg font-medium text-ink">
+      <p className="mt-3 inline-flex items-center gap-2 rounded-full bg-paper px-4 py-1.5 text-lg font-medium text-ink">
         <span aria-hidden>👆</span> לחצו על מפלגה כדי לקרוא את הציטוט שלה
       </p>
 
@@ -226,10 +234,10 @@ export function AxisStacks({ axes }: { axes: AxisData[] }) {
         <ol className="relative mt-8 border-s-4 border-ink ps-6 lg:hidden">
           {axis.scale.map((lv) => (
             <li key={lv.level} className="relative pb-9 last:pb-0">
-              <span aria-hidden className="absolute -start-[2.2rem] top-1.5 size-5 rounded-full border-4 border-paper bg-ink" />
+              <span aria-hidden className="absolute -start-[2.2rem] top-1.5 size-5 rounded-full border-4 border-mist bg-ink" />
               <p className="text-xl font-medium leading-tight">{lv.short}</p>
               <p className="mt-1 text-lg leading-snug text-ink-2">{lv.label}</p>
-              <ul className="mt-3 flex flex-wrap gap-2.5">
+              <ul className="mt-3 flex flex-wrap gap-2">
                 {axis.cells
                   .filter((c) => c.level === lv.level)
                   .map((c) => (
@@ -243,7 +251,7 @@ export function AxisStacks({ axes }: { axes: AxisData[] }) {
         <div className="mt-12 hidden lg:block">
           <div className="grid items-end gap-4" style={cols}>
             {axis.scale.map((lv) => (
-              <ul key={lv.level} className="flex flex-col-reverse items-center gap-2 pb-4">
+              <ul key={lv.level} className="flex flex-wrap justify-center gap-2 pb-4">
                 {axis.cells
                   .filter((c) => c.level === lv.level)
                   .map((c) => (
@@ -256,7 +264,7 @@ export function AxisStacks({ axes }: { axes: AxisData[] }) {
             <div aria-hidden className="absolute inset-x-0 top-1/2 h-1 -translate-y-1/2 rounded-full bg-ink" />
             <div className="relative grid gap-4" style={cols}>
               {axis.scale.map((lv) => (
-                <span key={lv.level} aria-hidden className="mx-auto size-5 rounded-full border-4 border-paper bg-ink" />
+                <span key={lv.level} aria-hidden className="mx-auto size-5 rounded-full border-4 border-mist bg-ink" />
               ))}
             </div>
           </div>
@@ -270,7 +278,7 @@ export function AxisStacks({ axes }: { axes: AxisData[] }) {
           </div>
         </div>
 
-        <p className="mt-10 max-w-4xl text-base leading-relaxed text-muted">
+        <p className="mt-10 max-w-4xl text-base leading-relaxed text-ink-2">
           אין עמדה מתועדת בשאלה זו ({axis.uncoded.length} מפלגות):{" "}
           {axis.uncoded.map((l) => l.name).join(" · ")}
         </p>
@@ -289,9 +297,11 @@ export function AxisStacks({ axes }: { axes: AxisData[] }) {
               ×
             </button>
           )}
-          <p className={`title text-2xl leading-snug ${open.sheet ? "pe-12" : ""}`}>
-            {axis.scale.find((s) => s.level === cell.level)?.label}
+          <p className={`flex items-center gap-3 text-xl font-medium ${open.sheet ? "pe-12" : ""}`}>
+            <Avatar name={cell.name} src={cell.face} color={cell.color} size={44} />
+            {cell.name}
           </p>
+          <p className="title mt-4 text-2xl leading-snug">{axis.scale.find((s) => s.level === cell.level)?.label}</p>
           <blockquote className="mt-4 border-s-4 border-line-strong ps-5 text-xl leading-relaxed text-ink">
             {cell.quote}
           </blockquote>

@@ -1,29 +1,12 @@
 import { NextResponse, type NextFetchEvent, type NextRequest } from "next/server";
 import { clerkMiddleware } from "@clerk/nextjs/server";
-import { match } from "@formatjs/intl-localematcher";
-import Negotiator from "negotiator";
-import { DEFAULT_LOCALE, LOCALES, hasLocale } from "@/i18n/config";
+import { DEFAULT_LOCALE, hasLocale } from "@/i18n/config";
 
-function pickLocale(request: NextRequest) {
-  const saved = request.cookies.get("lang")?.value;
-  if (saved && hasLocale(saved)) return saved;
-  const languages = new Negotiator({ headers: { "accept-language": request.headers.get("accept-language") ?? "" } }).languages();
-  try {
-    return match(languages, LOCALES, DEFAULT_LOCALE);
-  } catch {
-    return DEFAULT_LOCALE;
-  }
-}
-
+// An address without a language is always Hebrew, whatever the browser prefers; the other languages are a choice made in the switcher.
 function localize(request: NextRequest) {
   const { pathname } = request.nextUrl;
-  const first = pathname.split("/")[1];
-  if (hasLocale(first)) {
-    const res = NextResponse.next();
-    res.cookies.set("lang", first, { path: "/", maxAge: 60 * 60 * 24 * 365, sameSite: "lax" });
-    return res;
-  }
-  request.nextUrl.pathname = `/${pickLocale(request)}${pathname === "/" ? "" : pathname}`;
+  if (hasLocale(pathname.split("/")[1])) return NextResponse.next();
+  request.nextUrl.pathname = `/${DEFAULT_LOCALE}${pathname === "/" ? "" : pathname}`;
   return NextResponse.redirect(request.nextUrl);
 }
 

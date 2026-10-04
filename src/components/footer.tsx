@@ -1,6 +1,6 @@
 import Link from "@/i18n/link";
 import { LocaleSwitcher } from "./locale-switcher";
-import { Logo } from "./header";
+import { Logo } from "./logo";
 import { MORE, VIEWS } from "@/lib/nav";
 import type { Dictionary } from "@/i18n";
 

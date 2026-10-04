@@ -10,7 +10,7 @@ import { mkLabelT, mkMessages } from "@/components/candidate-messages";
 import { m } from "./messages";
 import { Avatar } from "@/components/avatar";
 import { View, ViewHead } from "@/components/view-head";
-import { AccRow } from "@/components/accordion";
+import { Chevron } from "@/components/chevron";
 
 // Only the top of each slate is prerendered (every candidate x 5 languages was ~6,000 pages and broke the build); the rest render on first visit.
 export async function generateStaticParams() {
@@ -45,8 +45,11 @@ export default async function CandidatePage({ params }: PageProps<"/[lang]/lists
   const next = list.candidates.find((x) => x.position === c.position + 1);
   const k = c.knesset;
 
-  const card = "rounded-[2rem] bg-mist p-5 sm:p-6";
   const lang = await getLocale();
+  const [lead, rest] = splitBio(c.bio);
+  // The newest roles are on the page; the rest open on request, so the view fits one screen.
+  const roles = k ? k.roles.slice().reverse() : [];
+  const quiet = "underline underline-offset-4 hover:text-ink";
 
   return (
     <View>
@@ -64,73 +67,83 @@ export default async function CandidatePage({ params }: PageProps<"/[lang]/lists
       <ViewHead
         title={c.display_name}
         back={{ href: `/lists/${list.slug}`, label: list.name }}
-        lead={<Avatar name={c.display_name} src={c.image_url} color={list.color} size={80} />}
+        lead={<Avatar name={c.display_name} src={c.image_url} color={list.color} size={96} priority />}
         hint={`${t.hint(c.position, list.name)}${k ? ` · ${mkLabelT(mk, k)}` : ""}`}
       />
 
-      <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_minmax(0,1fr)] lg:items-start">
-        <section className={card}>
-          <h2 className="title text-2xl">{t.background}</h2>
-          {c.bio ? (
+      {/* No panels: the background as large reading text, the Knesset record as plain rows beside it. */}
+      <div className={`grid gap-x-16 gap-y-10 lg:items-start ${k ? "lg:grid-cols-[minmax(0,1.2fr)_minmax(0,1fr)]" : ""}`}>
+        <section className="max-w-[44rem]">
+          {lead ? (
             <>
-              <p className="mt-3 max-w-[38rem] text-lg leading-relaxed text-pretty">{c.bio}</p>
-              <p className="mt-4 text-base text-ink-2">
+              <p className="text-xl leading-relaxed text-pretty lg:text-2xl lg:leading-relaxed">{lead}</p>
+              {rest && (
+                <details className="group mt-2">
+                  <summary className={more}>
+                    {t.readMore}
+                    <Chevron className="size-8 bg-tile" />
+                  </summary>
+                  <p className="pt-2 text-xl leading-relaxed text-pretty text-ink-2">{rest}</p>
+                </details>
+              )}
+              <p className="mt-5 text-base text-muted">
                 {t.from}{" "}
-                <a href={c.wiki_url!} target="_blank" rel="noreferrer" className="text-accent underline-offset-4 hover:underline">
+                <a href={c.wiki_url!} target="_blank" rel="noreferrer" className={quiet}>
                   {t.wikipedia} ↗
                 </a>{" "}
                 · CC BY-SA 4.0
-                {c.wiki_guessed && ` · ${t.wikiGuessed}`}
+                {c.image_url && c.image_page && (
+                  <>
+                    {" · "}
+                    {t.photo}{" "}
+                    <a href={c.image_page} target="_blank" rel="noreferrer" className={quiet}>
+                      {t.commons}
+                    </a>
+                    {c.image_artist && ` · ${c.image_artist}`}
+                    {c.image_license && ` · ${c.image_license}`}
+                  </>
+                )}
               </p>
+              {c.wiki_guessed && <p className="mt-1 text-base text-muted">{t.wikiGuessed}</p>}
             </>
           ) : (
-            <p className="mt-3 text-lg text-ink-2">{t.noInfo(c.display_name)}</p>
-          )}
-          {c.image_url && c.image_page && (
-            <p className="mt-4 border-t border-ink/10 pt-3 text-base text-ink-2">
-              {t.photo}{" "}
-              <a href={c.image_page} target="_blank" rel="noreferrer" className="underline underline-offset-4">
-                {t.commons}
-              </a>
-              {c.image_artist && ` · ${c.image_artist}`}
-              {c.image_license && ` · ${c.image_license}`}
-            </p>
+            <p className="text-xl text-ink-2 lg:text-2xl">{t.noInfo(c.display_name)}</p>
           )}
         </section>
 
         {k && (
-          <section className={card}>
+          <section>
             <h2 className="title text-2xl">{t.inKnesset}</h2>
-            <dl className="mt-4 grid grid-cols-3 gap-4">
+            <dl className="mt-3 border-t border-line">
               <Fact value={k.terms.length} label={k.terms.length === 1 ? t.knessetOne(k.terms[0]) : t.knessetMany(hebrewKnessets(k.terms))} />
               <Fact value={k.bills_initiated.toLocaleString(intl)} label={t.bills} />
               <Fact value={k.roles.length} label={t.roles} />
             </dl>
-            {k.roles.length > 0 && (
-              <div className="mt-4 border-t border-ink/10">
-                <AccRow title={t.rolesHeading} meta={k.roles.length}>
-                  <ol className="space-y-3">
-                    {k.roles
-                      .slice()
-                      .reverse()
-                      .map((r, i) => (
-                        <li key={i} className="flex items-baseline gap-3">
-                          <span className="w-24 shrink-0 text-base text-ink-2 tabular-nums">
-                            {r.start.slice(0, 4)}–{r.end ? r.end.slice(0, 4) : t.today}
-                          </span>
-                          <span>
-                            <span className="font-medium">{r.role}</span>
-                            {r.detail && <span className="text-ink-2"> · {r.detail}</span>}
-                          </span>
-                        </li>
+            {roles.length > 0 && (
+              <>
+                <ol className="mt-5 space-y-3">
+                  {roles.slice(0, SHOWN).map((r, i) => (
+                    <Role key={i} years={`${r.start.slice(0, 4)}–${r.end ? r.end.slice(0, 4) : t.today}`} role={r.role} detail={r.detail} />
+                  ))}
+                </ol>
+                {roles.length > SHOWN && (
+                  <details className="group mt-2">
+                    <summary className={more}>
+                      {t.allRoles(roles.length)}
+                      <Chevron className="size-8 bg-tile" />
+                    </summary>
+                    <ol className="space-y-3 pt-2">
+                      {roles.slice(SHOWN).map((r, i) => (
+                        <Role key={i} years={`${r.start.slice(0, 4)}–${r.end ? r.end.slice(0, 4) : t.today}`} role={r.role} detail={r.detail} />
                       ))}
-                  </ol>
-                </AccRow>
-              </div>
+                    </ol>
+                  </details>
+                )}
+              </>
             )}
-            <p className="mt-3 text-base text-ink-2">
+            <p className="mt-5 text-base text-muted">
               {t.from}{" "}
-              <a href={k.url} target="_blank" rel="noreferrer" className="text-accent underline-offset-4 hover:underline">
+              <a href={k.url} target="_blank" rel="noreferrer" className={quiet}>
                 {t.knessetSite} ↗
               </a>
             </p>
@@ -138,7 +151,7 @@ export default async function CandidatePage({ params }: PageProps<"/[lang]/lists
         )}
       </div>
 
-      <nav className="mt-6 grid max-w-xl grid-cols-2 gap-4 border-t border-line pt-5">
+      <nav className="mt-8 grid grid-cols-2 gap-4 border-t border-line pt-4">
         {next ? <Neighbor href={`/lists/${list.slug}/${next.position}`} label={t.next(next.position)} name={next.display_name} /> : <span />}
         {prev ? <Neighbor href={`/lists/${list.slug}/${prev.position}`} label={t.prev(prev.position)} name={prev.display_name} end /> : <span />}
       </nav>
@@ -146,12 +159,36 @@ export default async function CandidatePage({ params }: PageProps<"/[lang]/lists
   );
 }
 
+const SHOWN = 4;
+const more = "flex w-fit cursor-pointer items-center gap-3 py-2 text-lg font-medium text-accent";
+
+/** The opening sentences of the background, and whatever follows them. */
+function splitBio(bio: string | null, max = 380): [string | null, string | null] {
+  const s = leadBio(bio, Infinity);
+  if (!s || s.length <= max) return [s, null];
+  const ends = [...s.matchAll(/[.።]\s/g)].map((x) => x.index + 1);
+  const stop = ends.findLast((e) => e <= max && e > max * 0.4) ?? ends.find((e) => e > max);
+  return stop ? [s.slice(0, stop), s.slice(stop).trim()] : [s, null];
+}
+
 function Fact({ value, label }: { value: React.ReactNode; label: string }) {
   return (
-    <div>
-      <dd className="serif text-5xl tabular-nums">{value}</dd>
-      <dt className="mt-1 text-base text-ink-2">{label}</dt>
+    <div className="flex items-baseline justify-between gap-4 border-b border-line py-3 text-xl">
+      <dt className="text-ink-2">{label}</dt>
+      <dd className="font-medium tabular-nums">{value}</dd>
     </div>
+  );
+}
+
+function Role({ years, role, detail }: { years: string; role: string; detail: string | null }) {
+  return (
+    <li className="flex items-baseline gap-4 text-lg">
+      <span className="w-28 shrink-0 text-muted tabular-nums">{years}</span>
+      <span>
+        <span className="font-medium">{role}</span>
+        {detail && <span className="text-ink-2"> · {detail}</span>}
+      </span>
+    </li>
   );
 }
 

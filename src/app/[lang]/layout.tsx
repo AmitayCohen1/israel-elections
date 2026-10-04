@@ -2,9 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Analytics } from "@vercel/analytics/next";
 import { Frank_Ruhl_Libre, Heebo, Noto_Sans_Arabic, Noto_Sans_Ethiopic } from "next/font/google";
-import { Header } from "@/components/header";
 import { Footer } from "@/components/footer";
-import { Rail, TabBar } from "@/components/shell";
+import { Header, Rail } from "@/components/shell";
 import { LOCALES, LOCALE_INFO, getDictionary, hasLocale } from "@/i18n";
 import { Track } from "@/components/track";
 import { DictionaryProvider } from "@/i18n/provider";
@@ -55,7 +54,6 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
                 </div>
               </div>
             </div>
-            <TabBar />
           </div>
         </DictionaryProvider>
         <Analytics />

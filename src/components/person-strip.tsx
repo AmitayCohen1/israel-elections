@@ -18,6 +18,9 @@ const m = defineMessages(
   },
 );
 
+// How many faces the row holds on a phone (the row hides the sixth onwards to match).
+const SMALL = 5;
+
 export type StripPerson = {
   slug: string;
   name: string;
@@ -42,12 +45,19 @@ export function PersonStrip({ people: all, every = 3500, show = 9 }: { people: S
   // The row holds `show` people. Which ones is drawn afresh on every visit (a run of the official order from a random
   // starting point), so over time everyone gets shown and no one is always left out. It stays put for the whole visit.
   const [from, setFrom] = useState(0);
+  // A phone has room for fewer faces in the row. Until the browser says which it is, the extra ones are only hidden (see the row).
+  const [small, setSmall] = useState(false);
   useEffect(() => {
     // Randomness exists only in the browser: the server always renders the same HTML.
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setFrom(Math.floor(Math.random() * all.length));
+    const mq = window.matchMedia("(max-width: 639px)");
+    const fit = () => setSmall(mq.matches);
+    fit();
+    mq.addEventListener("change", fit);
+    return () => mq.removeEventListener("change", fit);
   }, [all.length]);
-  const people = Array.from({ length: Math.min(show, all.length) }, (_, k) => all[(from + k) % all.length]);
+  const people = Array.from({ length: Math.min(small ? Math.min(SMALL, show) : show, all.length) }, (_, k) => all[(from + k) % all.length]);
   const n = people.length;
   const [i, setI] = useState(0);
   const [held, setHeld] = useState(false);
@@ -63,7 +73,7 @@ export function PersonStrip({ people: all, every = 3500, show = 9 }: { people: S
   const arrow = "grid size-9 shrink-0 place-items-center rounded-full bg-paper transition hover:bg-ink hover:text-white";
   return (
     <div onMouseEnter={() => setHeld(true)} onMouseLeave={() => setHeld(false)} className="flex h-full flex-col">
-      <div className="relative min-h-[8.75rem] flex-1 overflow-hidden sm:min-h-[7.5rem]">
+      <div className="relative flex-1 overflow-hidden sm:min-h-[7.5rem]">
         {[i - 1, i, i + 1].map((step) => {
           const p = at(step);
           return (
@@ -73,7 +83,8 @@ export function PersonStrip({ people: all, every = 3500, show = 9 }: { people: S
               tabIndex={step === i ? 0 : -1}
               aria-hidden={step !== i}
               style={{ transform: `translateX(${sign * (step - i) * 100}%)` }}
-              className="absolute inset-x-0 bottom-0 flex gap-4 transition-transform duration-500 ease-[cubic-bezier(0.2,0.8,0.2,1)] motion-reduce:transition-none"
+              // On a phone the card is as tall as the person in view; on wider screens the people sit at the bottom of a fixed stage.
+              className={`inset-x-0 top-0 flex gap-4 transition-transform duration-500 ease-[cubic-bezier(0.2,0.8,0.2,1)] motion-reduce:transition-none sm:absolute sm:top-auto sm:bottom-0 ${step === i ? "relative" : "absolute"}`}
             >
               <span className="relative block h-28 w-24 shrink-0 self-start overflow-hidden rounded-2xl bg-paper">
                 {p.img ? <Image src={p.img} alt="" fill sizes="96px" loading="eager" className="object-cover object-top" /> : <span className="grid size-full place-items-center"><Avatar name={p.name} src={null} color={p.color} size={72} /></span>}
@@ -94,13 +105,13 @@ export function PersonStrip({ people: all, every = 3500, show = 9 }: { people: S
       </div>
 
       {/* The list stands still; the highlight walks along it. Back and forward at the ends, or pick a face. */}
-      <div className="mt-3 flex shrink-0 items-center gap-3">
+      <div className="mt-4 flex shrink-0 items-center gap-3 sm:mt-3">
         <button type="button" onClick={() => setI(i - 1)} aria-label={t.prev} className={arrow}>
           <Arrow>→</Arrow>
         </button>
         <ul className="flex min-w-0 flex-1 items-center justify-between">
           {people.map((q, k) => (
-            <li key={q.slug}>
+            <li key={q.slug} className="max-sm:nth-[n+6]:hidden">
               <button type="button" onClick={() => setI(i + (k - on))} title={q.name} aria-label={q.name} aria-pressed={k === on} className={`block overflow-hidden rounded-full transition duration-300 ${k === on ? "ring-2 ring-ink ring-offset-2 ring-offset-mist" : "opacity-55 hover:opacity-100"}`}>
                 <Avatar name={q.name} src={q.img} color={q.color} size={42} priority />
               </button>
