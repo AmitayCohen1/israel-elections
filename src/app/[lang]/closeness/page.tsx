@@ -26,7 +26,7 @@ export default async function Closeness() {
     }),
   ];
   return (
-    <View>
+    <View width="wide">
       <ViewHead title={t.title} hint={t.hint} />
       <PartySpace views={views} parties={parties} />
     </View>

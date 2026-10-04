@@ -15,7 +15,7 @@ export default async function Quiz() {
   const t = (await getMessages(m)).quiz;
   const { axes, parties } = await loadMatchData(await getLocale());
   return (
-    <View>
+    <View width="wide">
       <ViewHead title={t.title} hint={t.hint} />
       <MatchQuiz axes={axes} parties={parties} />
     </View>

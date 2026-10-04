@@ -3,7 +3,7 @@ import { distance, type QAxis, type QParty } from "@/lib/match";
 /** Over all questions, parties need this many coded ones to be placed, and a pair this many shared ones for its distance to count. A single topic has fewer questions, so there the bar is lower (see `layout`). */
 export const MIN_CODED = 3;
 const MIN_SHARED = 2;
-const GAP = 0.11; // the least room between two faces, in the layout's [0, 1] units
+const GAP = 0.15; // the least room between two faces and their names, in the layout's [0, 1] units
 
 export type SpacePoint = { slug: string; x: number; y: number; near: { slug: string; close: number; shared: number }[] };
 

@@ -4,13 +4,13 @@ import { Arrow } from "@/components/arrow";
 import { ModeTabs } from "@/components/mode-tabs";
 
 /**
- * Every dashboard view sits in the same frame: one gutter, one top edge, and the content centred in the space beside the sidebar.
- * `read` keeps text-led pages to a comfortable column, `wide` holds two of them side by side; the default fills the screen up to a wide cap.
- * On desktop the view's `ViewHead` stays put and only what is under it scrolls; on phones the whole view scrolls as one.
+ * Every page sits in the same frame: one column of one width, the page head, then the content. Nothing spreads to the screen's
+ * edges. `wide` gives the interactive tools a little more room; `read` narrows it to a reading measure for text-led pages,
+ * `form` further for a form.
  * A page that is one mode of a view gets that view's tabs above its title.
  */
 export function View({ children, width = "full" }: { children: React.ReactNode; width?: "full" | "wide" | "read" | "form" }) {
-  const max = width === "wide" ? "max-w-6xl" : width === "read" ? "max-w-4xl" : width === "form" ? "max-w-2xl" : "max-w-[88rem]";
+  const max = width === "read" ? "max-w-3xl" : width === "form" ? "max-w-2xl" : width === "wide" ? "max-w-7xl" : "max-w-6xl";
   const all = Children.toArray(children);
   const head = all.find((c) => isValidElement(c) && c.type === ViewHead);
   const body = all.filter((c) => c !== head);
@@ -31,10 +31,14 @@ export function View({ children, width = "full" }: { children: React.ReactNode; 
   );
 }
 
-/** A view's title: small, to the start side, one line saying what to do here. `back` is the way up, `lead` a small mark before the title, `children` the facts or actions at the end. */
+/**
+ * A page's head: the title in the serif at a reading size (content pages are not heroes), one line under it saying what is
+ * here, and a hairline closing it off from the content. `back` is the way up, `lead` a mark before the title (a party's logo),
+ * `children` the facts or actions under the line.
+ */
 export function ViewHead({ title, hint, back, lead, children }: { title: string; hint?: string; back?: { href: string; label: string }; lead?: React.ReactNode; children?: React.ReactNode }) {
   return (
-    <header className="mb-6 lg:mb-8">
+    <header className="mb-8 border-b border-line pb-6 lg:mb-10">
       {back && (
         <Link href={back.href} className="mb-3 inline-block text-base text-ink-2 underline-offset-4 hover:text-ink hover:underline">
           <Arrow>→</Arrow> {back.label}
@@ -42,11 +46,9 @@ export function ViewHead({ title, hint, back, lead, children }: { title: string;
       )}
       <div className="flex items-center gap-4">
         {lead}
-        <div className="min-w-0">
-          <h1 className="title text-3xl text-balance sm:text-4xl">{title}</h1>
-          {hint && <p className="mt-1.5 max-w-2xl text-lg text-ink-2">{hint}</p>}
-        </div>
+        <h1 className="serif text-4xl leading-tight text-balance sm:text-5xl">{title}</h1>
       </div>
+      {hint && <p className="mt-2 max-w-2xl text-lg leading-snug text-ink-2 text-pretty sm:text-xl">{hint}</p>}
       {children && <div className="mt-4">{children}</div>}
     </header>
   );

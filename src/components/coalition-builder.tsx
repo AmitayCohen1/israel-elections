@@ -70,7 +70,7 @@ export function CoalitionBuilder({ axes, parties, query }: { axes: QAxis[]; part
   ];
 
   return (
-    <div className="grid gap-10 lg:grid-cols-[minmax(0,1fr)_minmax(0,34rem)] lg:items-start lg:gap-12">
+    <div className="grid gap-10 lg:grid-cols-2 lg:items-start lg:gap-12">
       <section>
         <div className="rounded-[2rem] bg-tile p-5 sm:p-7">
           <div className="flex flex-wrap items-baseline justify-between gap-3">
@@ -98,7 +98,7 @@ export function CoalitionBuilder({ axes, parties, query }: { axes: QAxis[]; part
             const n = seats[p.slug] ?? 0;
             const on = coalition.includes(p.slug);
             return (
-              <li key={p.slug} className="grid grid-cols-[auto_minmax(0,1fr)_auto_auto] items-center gap-x-3 gap-y-3 py-3 sm:flex sm:gap-x-4">
+              <li key={p.slug} className="grid grid-cols-[auto_minmax(0,1fr)_auto_auto] items-center gap-x-3 gap-y-2 py-3">
                 <Avatar name={p.name} src={p.face} color={p.color} size={44} />
                 <label htmlFor={`seats-${p.slug}`} className="min-w-0 flex-1 truncate text-lg font-medium">
                   {p.name}
@@ -113,15 +113,15 @@ export function CoalitionBuilder({ axes, parties, query }: { axes: QAxis[]; part
                   value={n}
                   onChange={(e) => setSeats(p.slug, Number(e.target.value))}
                   aria-valuetext={t.seats(n)}
-                  className="order-last col-span-4 w-full sm:order-none sm:w-56"
+                  className="order-last col-span-4 w-full"
                   style={{ accentColor: p.color }}
                 />
-                <span className="text-end text-lg tabular-nums sm:w-24">{n ? t.seats(n) : "—"}</span>
+                <span className="text-end text-lg tabular-nums">{n ? t.seats(n) : "—"}</span>
                 <button
                   type="button"
                   onClick={() => toggle(p.slug)}
                   aria-pressed={on}
-                  className={`rounded-full px-4 py-2 text-base whitespace-nowrap transition sm:w-36 ${on ? "bg-ink text-paper" : "bg-mist hover:bg-mist-deep"}`}
+                  className={`w-32 rounded-full px-4 py-2 text-base whitespace-nowrap transition ${on ? "bg-ink text-paper" : "bg-mist hover:bg-mist-deep"}`}
                 >
                   {on ? t.join : t.add}
                 </button>

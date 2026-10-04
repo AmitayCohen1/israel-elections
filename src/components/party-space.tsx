@@ -60,9 +60,9 @@ export function PartySpace({ views, parties }: { views: SpaceView[]; parties: QP
       </div>
       <p className="mb-5 min-h-7 text-lg text-ink-2">{view.questions.length > 0 ? `${t.basedOn} ${view.questions.join(" · ")}` : t.few}</p>
 
-      <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,24rem)] lg:items-start">
+      <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,21rem)] lg:items-start">
         {/* One box for every topic, so the faces glide between layouts instead of the box jumping; taller on phones so they have room. */}
-        <div className="relative aspect-[4/5] w-full overflow-hidden rounded-[2rem] bg-tile sm:aspect-[17/10]">
+        <div className="relative aspect-[4/5] w-full overflow-hidden rounded-[2rem] bg-tile sm:aspect-[3/2]">
           <svg key={viewId + on} className="pointer-events-none absolute inset-0 size-full animate-[fade_0.4s_0.5s_both]" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden>
             {sel &&
               sel.near.map((n) => {

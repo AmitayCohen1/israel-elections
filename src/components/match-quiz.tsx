@@ -64,7 +64,7 @@ export function MatchQuiz({ axes: all, parties }: { axes: QAxis[]; parties: QPar
   const openParty = open ? coded.find((p) => p.slug === open) : null;
 
   return (
-    <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,30rem)] lg:items-start lg:gap-12">
+    <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_minmax(0,28rem)] lg:items-start lg:gap-14">
       <section>
         <ol className="flex gap-2" aria-label={t.progress(Math.min(step + 1, axes.length), axes.length)}>
           {axes.map((a, i) => (

@@ -48,9 +48,9 @@ export async function generateMetadata(): Promise<Metadata> {
   return pageMeta({ path: "/lists", title: dict.nav.lists, description: t.description });
 }
 
-const GRID = "grid gap-3 sm:grid-cols-2 xl:grid-cols-3 min-[110rem]:grid-cols-4";
+const GRID = "grid gap-x-12 border-t border-line lg:grid-cols-2";
 
-/** Every party as a card on a grid: first the ones in the polls, then all the rest, each group in the official order. Nothing is folded away. */
+/** Every party as an index row, two columns on wide screens: first the ones in the polls, then all the rest, each group in the official order. Nothing is folded away. */
 export default async function Lists() {
   const t = await getMessages(m);
   const dict = await getDictionary();
@@ -62,8 +62,8 @@ export default async function Lists() {
     <View>
       <ViewHead title={dict.nav.lists} hint={t.hint(lists.length)} />
 
-      <h2 className="title flex items-baseline gap-2 pb-3 text-xl">
-        {t.inPolls} <span className="text-base font-normal text-ink-2 tabular-nums">{main.length}</span>
+      <h2 className="title flex items-baseline gap-2 pb-3 text-2xl">
+        {t.inPolls} <span className="text-lg font-normal text-ink-2 tabular-nums">{main.length}</span>
       </h2>
       <ul className={GRID}>
         {main.map((l) => (
@@ -71,8 +71,8 @@ export default async function Lists() {
         ))}
       </ul>
 
-      <h2 className="title flex items-baseline gap-2 pt-10 pb-3 text-xl">
-        {t.more} <span className="text-base font-normal text-ink-2 tabular-nums">{other.length}</span>
+      <h2 className="title flex items-baseline gap-2 pt-14 pb-3 text-2xl">
+        {t.more} <span className="text-lg font-normal text-ink-2 tabular-nums">{other.length}</span>
       </h2>
       <ul className={GRID}>
         {other.map((l) => (

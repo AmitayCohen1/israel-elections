@@ -85,33 +85,24 @@ export function ListRow({ list }: { list: List }) {
 }
 
 /**
- * One party as a card, for a grid: the lead person's face and the party's name on top with the ballot slip beside them,
- * and underneath what is inside: the next few faces, how many candidates, and whether we found positions.
+ * One party as an index row: the leader's face, the party's name (the largest thing) with its leader under it, then quietly
+ * how many candidates and on how many topics we documented positions, and its logo or ballot slip last.
  */
 export async function PartyCard({ list }: { list: List }) {
   const t = await getMessages(m);
-  const [leader, ...rest] = list.candidates;
+  const leader = list.candidates[0];
   const topics = new Set(list.platform?.positions.map((p) => p.topic)).size;
   return (
-    <li className="min-w-0">
-      <Link href={`/lists/${list.slug}`} className="group flex h-full flex-col gap-5 rounded-[1.75rem] bg-mist p-5 transition hover:bg-mist-deep">
-        <span className="flex items-center gap-3.5">
-          <Face c={leader} size={60} />
-          <span className="min-w-0 flex-1">
-            <span className="title block text-xl leading-tight text-balance">{list.name}</span>
-            {leader && <span className="mt-0.5 block truncate text-base text-ink-2">{leader.display_name}</span>}
+    <li className="min-w-0 border-b border-line">
+      <Link href={`/lists/${list.slug}`} className="group flex items-center gap-4 py-3.5">
+        <Face c={leader} size={52} />
+        <span className="min-w-0 flex-1">
+          <span className="title block truncate text-xl transition group-hover:text-accent">{list.name}</span>
+          <span className="mt-0.5 block truncate text-base text-ink-2">
+            {[leader?.display_name, t.candidates(list.candidates.length), topics > 0 ? t.positions(topics) : t.noPositions].filter(Boolean).join(" · ")}
           </span>
-          <PartyMark slug={list.slug} letters={list.letters} color={list.color} size="sm" />
         </span>
-        <span className="mt-auto flex flex-wrap items-center gap-x-3 gap-y-1.5">
-          <span className="flex -space-x-2 rtl:space-x-reverse">
-            {rest.slice(0, 4).map((c) => (
-              <Face key={c.position} c={c} size={32} />
-            ))}
-          </span>
-          <span className="text-base whitespace-nowrap text-ink-2">{t.candidates(list.candidates.length)}</span>
-          <span className="ms-auto text-base text-ink-2">{topics > 0 ? t.positions(topics) : t.noPositions}</span>
-        </span>
+        <PartyMark slug={list.slug} letters={list.letters} color={list.color} size="sm" />
       </Link>
     </li>
   );

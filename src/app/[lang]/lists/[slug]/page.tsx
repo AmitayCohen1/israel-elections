@@ -15,14 +15,13 @@ import { CandidateProfile, CandidateSkeleton, popupId } from "@/components/candi
 import { Popup, PopupLink } from "@/components/popup";
 import { m as cm } from "./[position]/messages";
 import { YouTubeLite } from "@/components/youtube-lite";
-import { TopicIcon } from "@/components/topic-icon";
 import { OwnWords } from "@/components/topic-rows";
-import { shortBio } from "@/lib/text";
 import { mkLabelT, mkMessages } from "@/components/candidate-messages";
 import { m } from "./messages";
 import { quoteGist } from "@/lib/quotes";
 import sources from "../../../../../data/sources.json";
 import { Chevron } from "@/components/chevron";
+import { TopicIllustration } from "@/components/illustration";
 
 type MediaItem = { title: string; url: string; outlet: string; date: string | null };
 const mediaFor = (slug: string): MediaItem[] => (sources as Record<string, { media?: MediaItem[] }>)[slug]?.media ?? [];
@@ -71,7 +70,7 @@ async function Party({ params }: { params: PageProps<"/[lang]/lists/[slug]">["pa
   const logo = partyLogo(list.slug);
   const lang = await getLocale();
   return (
-    <View width="read">
+    <View>
       <JsonLd
         data={{
           "@type": "PoliticalParty",
@@ -87,19 +86,22 @@ async function Party({ params }: { params: PageProps<"/[lang]/lists/[slug]">["pa
         back={{ href: "/lists", label: t.allParties }}
         lead={<PartyMark slug={list.slug} letters={list.letters} color={list.color} size="sm" />}
         hint={t.hint({ total: list.candidates.length, served, sitting })}
-      />
+      >
+        <Links list={list} />
+      </ViewHead>
 
-      {/* One centred reading column: the opening line, the official links, the faces, then the sections. */}
-      {lead && <p className="text-xl leading-relaxed text-pretty">{lead}</p>}
-      <Links list={list} />
-      <Faces list={list} />
-      {!hasPositions && <p className="mt-4 w-fit rounded-full bg-mist px-4 py-1.5 text-base text-ink-2">{found ? t.positionsPending : t.positionsMissing}</p>}
-
-      <div className="mt-10 space-y-12">
-        {hasPositions && <Positions list={list} />}
-        <People list={list} top={hasPositions ? 8 : 12} />
-        <Media slug={list.slug} />
-        <About list={list} />
+      {/* Two columns: what the party says leads; who is on its slate sits beside it. */}
+      <div className="grid gap-12 lg:grid-cols-[minmax(0,1fr)_20rem]">
+        <div className="min-w-0 space-y-14">
+          {lead && <p className="text-xl leading-relaxed text-pretty">{lead}</p>}
+          {hasPositions ? <Positions list={list} /> : <p className="w-fit rounded-full bg-mist px-4 py-2 text-lg text-ink-2">{found ? t.positionsPending : t.positionsMissing}</p>}
+          <People list={list} />
+          <Media slug={list.slug} />
+          <About list={list} />
+        </div>
+        <aside className="lg:sticky lg:top-28 lg:self-start">
+          <Slate list={list} />
+        </aside>
       </div>
       <Popups list={list} />
     </View>
@@ -130,14 +132,11 @@ async function Popups({ list }: { list: List }) {
     ));
 }
 
-/** Section heading + a hairline rule: the one shape every section on the page shares. */
+/** A section's title: the one shape every section on the page opens with. */
 function Heading({ children }: { children: React.ReactNode }) {
   return <h2 className="title text-2xl text-balance">{children}</h2>;
 }
-const rows = "mt-3 border-t border-line";
-const plus = (
-  <Chevron className="size-8 bg-tile" />
-);
+const plus = <Chevron className="size-9 shrink-0 bg-paper" />;
 
 /** What the party says: one quiet line icon per topic, the topic, a one-line gist; open a row for the quotes. */
 async function Positions({ list }: { list: List }) {
@@ -148,25 +147,26 @@ async function Positions({ list }: { list: List }) {
   return (
     <section>
       <Heading>{t.whatSays}</Heading>
-      <div className={rows}>
+      {/* One grey panel, a row per topic: its painted object, the topic and the party's words; a row opens to every quote. */}
+      <div className="mt-4 rounded-[2rem] bg-mist p-2">
         {TOPIC_KEYS.map((key) => {
           const items = byTopic.get(key) ?? [];
           if (!items.length) return null;
           const digest = p?.topic_digests?.[key];
           const gist = quoteGist(items) ?? items[0].point;
           return (
-            <details key={key} name="topics" className="group border-b border-line">
-              <summary className="flex cursor-pointer items-center gap-4 py-4">
-                <span className="grid size-11 shrink-0 place-items-center rounded-2xl bg-tile text-ink/75">
-                  <TopicIcon topic={key} className="size-6" />
+            <details key={key} name="topics" className="group rounded-3xl transition open:bg-paper open:shadow-[0_14px_30px_-24px_rgb(0_12_31/0.25)]">
+              <summary className="flex cursor-pointer items-center gap-4 rounded-3xl p-3 transition hover:bg-paper/60">
+                <span className="grid size-16 shrink-0 place-items-center rounded-full bg-paper">
+                  <TopicIllustration topic={key} className="!w-12" />
                 </span>
                 <span className="min-w-0 flex-1">
                   <span className="title block text-xl">{dict.topics[key]}</span>
-                  <span className="mt-0.5 block truncate text-base text-ink-2">{gist}</span>
+                  <span className="mt-0.5 line-clamp-1 block text-lg text-ink-2 group-open:line-clamp-none">{gist}</span>
                 </span>
                 {plus}
               </summary>
-              <div className="pt-1 pb-6 ps-[3.75rem]">
+              <div className="px-4 pt-1 pb-6 sm:ps-[5.75rem]">
                 <OwnWords items={items} summary={digest} size="base" />
               </div>
             </details>
@@ -187,67 +187,60 @@ async function Positions({ list }: { list: List }) {
   );
 }
 
-/** The top of the slate as faces, right under the opening line, so the people are one glance away; each face opens that person. */
-async function Faces({ list }: { list: List }) {
-  const t = await getMessages(m);
-  const top = list.candidates.slice(0, 8);
-  if (!top.length) return null;
+/** The side column: the head of the slate, then the next few, each opening that person over the page. */
+async function Slate({ list }: { list: List }) {
+  const [t, mk] = await Promise.all([getMessages(m), getMessages(mkMessages)]);
+  const [leader, ...rest] = list.candidates;
+  if (!leader) return null;
   return (
-    <div className="mt-8">
-      <div className="flex items-baseline justify-between gap-4">
-        <p className="text-base text-muted">{t.whoIsOnList}</p>
-        <a href="#people" className="text-base font-semibold text-accent underline-offset-4 hover:underline">
-          {t.allCandidates(list.candidates.length)} <span aria-hidden>↓</span>
-        </a>
-      </div>
-      <ol className="mt-3 flex justify-between gap-1 overflow-x-auto pb-1">
-        {top.map((c) => (
-          <li key={c.position} className="w-[6.25rem] shrink-0">
-            <PopupLink popup={popupId(c.position)} href={`/lists/${c.list_slug}/${c.position}`} className="group flex flex-col items-center gap-2 rounded-2xl p-2 text-center transition hover:bg-mist">
-              <Avatar name={c.display_name} src={c.image_url} color={list.color} size={64} priority />
-              <span className="line-clamp-2 text-base leading-tight font-medium">{c.display_name}</span>
-              <span className="-mt-1 text-base text-muted tabular-nums">{c.position}</span>
+    <div className="rounded-[2rem] bg-mist p-5">
+      <p className="text-base text-ink-2">{t.leaderLabel}</p>
+      <PopupLink popup={popupId(leader.position)} href={`/lists/${list.slug}/${leader.position}`} className="mt-3 flex items-center gap-4 rounded-2xl transition hover:opacity-80">
+        <Avatar name={leader.display_name} src={leader.image_url} color={list.color} size={72} priority />
+        <span className="min-w-0">
+          <span className="title block text-xl leading-tight">{leader.display_name}</span>
+          {leader.knesset && <span className="mt-0.5 block text-base text-ink-2">{mkLabelT(mk, leader.knesset)}</span>}
+        </span>
+      </PopupLink>
+      <ol className="mt-5 border-t border-ink/10">
+        {rest.slice(0, 7).map((c) => (
+          <li key={c.position}>
+            <PopupLink popup={popupId(c.position)} href={`/lists/${list.slug}/${c.position}`} className="flex items-center gap-3 border-b border-ink/10 py-2.5 transition hover:bg-paper/50">
+              <span className="w-5 shrink-0 text-center text-base text-ink-2 tabular-nums">{c.position}</span>
+              <Avatar name={c.display_name} src={c.image_url} color={list.color} size={36} />
+              <span className="min-w-0 flex-1 truncate text-lg">{c.display_name}</span>
             </PopupLink>
           </li>
         ))}
       </ol>
+      <a href="#people" className="mt-4 inline-block text-lg font-medium text-accent underline-offset-4 hover:underline">
+        {t.allCandidates(list.candidates.length)} <span aria-hidden>↓</span>
+      </a>
     </div>
   );
 }
 
-/** The slate, one line each; a person we know something about opens as a popup over this page. */
-async function People({ list, top: n }: { list: List; top: number }) {
-  const [t, mk] = await Promise.all([getMessages(m), getMessages(mkMessages)]);
-  const top = list.candidates.slice(0, n);
-  const rest = list.candidates.slice(n);
+/** The whole slate in order, two columns of names; the first twenty show, the rest open under them. */
+async function People({ list }: { list: List }) {
+  const t = await getMessages(m);
+  const first = list.candidates.slice(0, 20);
+  const rest = list.candidates.slice(20);
+  const item = (c: List["candidates"][number]) => (
+    <li key={c.position} className="flex min-w-0 items-baseline gap-3 border-b border-line py-2">
+      <span className="w-7 shrink-0 text-end text-base text-ink-2 tabular-nums">{c.position}</span>
+      <PopupLink popup={popupId(c.position)} href={`/lists/${c.list_slug}/${c.position}`} className="truncate text-lg underline-offset-4 hover:underline">
+        {c.display_name}
+      </PopupLink>
+    </li>
+  );
   return (
-    <section id="people" className="scroll-mt-8">
+    <section id="people" className="scroll-mt-28">
       <Heading>{t.whoIsOnList}</Heading>
-      <div className={rows}>
-        {top.map((c) => (
-          <PopupLink key={c.position} popup={popupId(c.position)} href={`/lists/${c.list_slug}/${c.position}`} className="flex items-center gap-4 border-b border-line py-3.5 transition hover:bg-mist/60">
-            <span className="serif w-6 shrink-0 text-center text-xl text-muted tabular-nums">{c.position}</span>
-            <Avatar name={c.display_name} src={c.image_url} color={list.color} size={48} className="shrink-0" />
-            <span className="min-w-0 flex-1">
-              <span className="block truncate text-xl font-medium">{c.display_name}</span>
-              <span className="block truncate text-lg text-ink-2">{c.knesset ? mkLabelT(mk, c.knesset) : shortBio(c.bio, 70)}</span>
-            </span>
-          </PopupLink>
-        ))}
-      </div>
+      <ol className="mt-4 grid gap-x-10 sm:grid-cols-2">{first.map(item)}</ol>
       {rest.length > 0 && (
         <details className="group mt-3">
-          <summary className="inline-block cursor-pointer text-base font-semibold text-accent underline-offset-4 hover:underline">{t.allCandidates(list.candidates.length)}</summary>
-          <ol className="mt-3 grid gap-x-6 gap-y-1.5 text-lg sm:grid-cols-2">
-            {rest.map((c) => (
-              <li key={c.position} className="flex min-w-0 gap-2">
-                <span className="w-7 shrink-0 text-end text-muted tabular-nums">{c.position}</span>
-                <PopupLink popup={popupId(c.position)} href={`/lists/${c.list_slug}/${c.position}`} className="truncate underline-offset-4 hover:underline">
-                  {c.display_name}
-                </PopupLink>
-              </li>
-            ))}
-          </ol>
+          <summary className="inline-block cursor-pointer text-lg font-medium text-accent underline-offset-4 hover:underline group-open:hidden">{t.allCandidates(list.candidates.length)}</summary>
+          <ol className="grid gap-x-10 sm:grid-cols-2">{rest.map(item)}</ol>
         </details>
       )}
     </section>

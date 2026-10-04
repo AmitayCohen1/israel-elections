@@ -26,7 +26,7 @@ export default async function Coalition({ searchParams }: { searchParams: Search
   const t = (await getMessages(m)).coalition;
   const { axes, parties } = await loadMatchData(await getLocale());
   return (
-    <View>
+    <View width="wide">
       <ViewHead title={t.title} hint={t.hint} />
       <Suspense fallback={<CoalitionBuilder axes={axes} parties={parties} query={{}} />}>
         <FromLink searchParams={searchParams} axes={axes} parties={parties} />
