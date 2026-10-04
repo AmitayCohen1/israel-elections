@@ -1,0 +1,759 @@
+{
+ "locale": "ar",
+ "series": "names",
+ "target_language": "Arabic",
+ "source_language": "Hebrew",
+ "instructions": "Each item is a Hebrew NAME (person, party or list). Write how that name is conventionally written in Arabic (Arabic). Examples: بنيامين نتنياهو، يائير لبيد، الليكود، يش عتيد. Use the established Arabic spelling (Arabic Wikipedia, Al-Jazeera, Arab-Israeli media) for known figures and parties; otherwise a standard transliteration. Arabic letters only, no diacritics (tashkeel) unless needed. \"ctx\" is context to identify the person or party (list, slot, MK status, start of bio): use it, do not translate it. Names are given either in natural order or surname-first (official form like \"כהן יוסי\"): always output the natural given-name-first order. Party and list names: use the established Arabic name of the party if there is one, otherwise translate the meaning (e.g. \"הציונות הדתית\" = Religious Zionism) rather than transliterate. Keep ballot-letter acronyms as they are written. Output: for every item return {\"key\": <same key>, \"value\": <your translation>}. Return ONLY a JSON array (or {\"items\":[...]}) with one entry per input item, same keys, no omissions, no extra commentary. Value must be non-empty and written in the target script; never leave Hebrew letters in it. Preserve numbers, placeholders and punctuation meaning. Save the result as data/i18n/done/<locale>/<same file name>.",
+ "items": [
+  {
+   "key": "candidates|likud:55|display_name",
+   "he": "שי גלילי",
+   "ctx": "רשימת הליכוד, מקום 55"
+  },
+  {
+   "key": "candidates|likud:55|official_name",
+   "he": "גלילי שי",
+   "ctx": "רשימת הליכוד, מקום 55"
+  },
+  {
+   "key": "candidates|likud:56|display_name",
+   "he": "מוטי יוגב",
+   "ctx": "רשימת הליכוד, מקום 56"
+  },
+  {
+   "key": "candidates|likud:56|official_name",
+   "he": "יוגב מוטי",
+   "ctx": "רשימת הליכוד, מקום 56"
+  },
+  {
+   "key": "candidates|likud:57|display_name",
+   "he": "אייל אלי",
+   "ctx": "רשימת הליכוד, מקום 57"
+  },
+  {
+   "key": "candidates|likud:57|official_name",
+   "he": "אלי אייל",
+   "ctx": "רשימת הליכוד, מקום 57"
+  },
+  {
+   "key": "candidates|likud:58|display_name",
+   "he": "קלך שי שמואל יצחק",
+   "ctx": "רשימת הליכוד, מקום 58"
+  },
+  {
+   "key": "candidates|likud:59|display_name",
+   "he": "עוזי דיין",
+   "ctx": "רשימת הליכוד, מקום 59 — עוזי דיין הוא פוליטיקאי ואיש צבא ישראלי. כיהן כחבר הכנסת מטעם מפלגת הל"
+  },
+  {
+   "key": "candidates|likud:59|official_name",
+   "he": "דיין עוזי",
+   "ctx": "רשימת הליכוד, מקום 59 — עוזי דיין הוא פוליטיקאי ואיש צבא ישראלי. כיהן כחבר הכנסת מטעם מפלגת הל"
+  },
+  {
+   "key": "candidates|likud:60|display_name",
+   "he": "אבשלום טל",
+   "ctx": "רשימת הליכוד, מקום 60"
+  },
+  {
+   "key": "candidates|likud:60|official_name",
+   "he": "טל אבשלום",
+   "ctx": "רשימת הליכוד, מקום 60"
+  },
+  {
+   "key": "candidates|likud:61|display_name",
+   "he": "חדד אלון",
+   "ctx": "רשימת הליכוד, מקום 61"
+  },
+  {
+   "key": "candidates|likud:61|official_name",
+   "he": "אלון חדד",
+   "ctx": "רשימת הליכוד, מקום 61"
+  },
+  {
+   "key": "candidates|likud:62|display_name",
+   "he": "דרור קאפח",
+   "ctx": "רשימת הליכוד, מקום 62"
+  },
+  {
+   "key": "candidates|likud:62|official_name",
+   "he": "קאפח דרור",
+   "ctx": "רשימת הליכוד, מקום 62"
+  },
+  {
+   "key": "candidates|likud:63|display_name",
+   "he": "סמיר זידאן",
+   "ctx": "רשימת הליכוד, מקום 63"
+  },
+  {
+   "key": "candidates|likud:63|official_name",
+   "he": "זידאן סמיר",
+   "ctx": "רשימת הליכוד, מקום 63"
+  },
+  {
+   "key": "candidates|likud:64|display_name",
+   "he": "אברהם דז'ורייב",
+   "ctx": "רשימת הליכוד, מקום 64"
+  },
+  {
+   "key": "candidates|likud:64|official_name",
+   "he": "דז'ורייב אברהם",
+   "ctx": "רשימת הליכוד, מקום 64"
+  },
+  {
+   "key": "candidates|likud:65|display_name",
+   "he": "אושר שקלים",
+   "ctx": "רשימת הליכוד, מקום 65, חבר/ת הכנסת מכהן/ת — אושר שקלים הוא חבר הכנסת מטעם הליכוד, ויו\"ר הועדה לפניות הציבור בכנסת."
+  },
+  {
+   "key": "candidates|likud:65|official_name",
+   "he": "שקלים אושר",
+   "ctx": "רשימת הליכוד, מקום 65, חבר/ת הכנסת מכהן/ת — אושר שקלים הוא חבר הכנסת מטעם הליכוד, ויו\"ר הועדה לפניות הציבור בכנסת."
+  },
+  {
+   "key": "candidates|likud:66|display_name",
+   "he": "אלוש גבי גבריאל",
+   "ctx": "רשימת הליכוד, מקום 66"
+  },
+  {
+   "key": "candidates|likud:67|display_name",
+   "he": "ויטלי חייקין",
+   "ctx": "רשימת הליכוד, מקום 67"
+  },
+  {
+   "key": "candidates|likud:67|official_name",
+   "he": "חייקין ויטלי",
+   "ctx": "רשימת הליכוד, מקום 67"
+  },
+  {
+   "key": "candidates|likud:68|display_name",
+   "he": "אלמז זרו",
+   "ctx": "רשימת הליכוד, מקום 68"
+  },
+  {
+   "key": "candidates|likud:68|official_name",
+   "he": "זרו אלמז",
+   "ctx": "רשימת הליכוד, מקום 68"
+  },
+  {
+   "key": "candidates|likud:69|display_name",
+   "he": "יורם טמשוט",
+   "ctx": "רשימת הליכוד, מקום 69"
+  },
+  {
+   "key": "candidates|likud:69|official_name",
+   "he": "טמשוט יורם",
+   "ctx": "רשימת הליכוד, מקום 69"
+  },
+  {
+   "key": "candidates|likud:70|display_name",
+   "he": "מזמר טוב יוחנן",
+   "ctx": "רשימת הליכוד, מקום 70"
+  },
+  {
+   "key": "candidates|likud:71|display_name",
+   "he": "גורל משה חיים",
+   "ctx": "רשימת הליכוד, מקום 71"
+  },
+  {
+   "key": "candidates|likud:72|display_name",
+   "he": "יוחאי שטרית",
+   "ctx": "רשימת הליכוד, מקום 72"
+  },
+  {
+   "key": "candidates|likud:72|official_name",
+   "he": "שטרית יוחאי",
+   "ctx": "רשימת הליכוד, מקום 72"
+  },
+  {
+   "key": "candidates|likud:73|display_name",
+   "he": "אדי כהן",
+   "ctx": "רשימת הליכוד, מקום 73"
+  },
+  {
+   "key": "candidates|likud:73|official_name",
+   "he": "כהן אדי",
+   "ctx": "רשימת הליכוד, מקום 73"
+  },
+  {
+   "key": "candidates|likud:74|display_name",
+   "he": "זאב שמש",
+   "ctx": "רשימת הליכוד, מקום 74"
+  },
+  {
+   "key": "candidates|likud:74|official_name",
+   "he": "שמש זאב",
+   "ctx": "רשימת הליכוד, מקום 74"
+  },
+  {
+   "key": "candidates|likud:75|display_name",
+   "he": "אליהו שתיוי",
+   "ctx": "רשימת הליכוד, מקום 75"
+  },
+  {
+   "key": "candidates|likud:75|official_name",
+   "he": "שתיוי אליהו",
+   "ctx": "רשימת הליכוד, מקום 75"
+  },
+  {
+   "key": "candidates|likud:76|display_name",
+   "he": "עפיף עבד",
+   "ctx": "רשימת הליכוד, מקום 76, חבר/ת הכנסת מכהן/ת — עפיף עבד הוא פוליטיקאי דרוזי ישראלי המכהן כחבר הכנסת העשרים וחמש, מטעם"
+  },
+  {
+   "key": "candidates|likud:76|official_name",
+   "he": "עבד עפיף",
+   "ctx": "רשימת הליכוד, מקום 76, חבר/ת הכנסת מכהן/ת — עפיף עבד הוא פוליטיקאי דרוזי ישראלי המכהן כחבר הכנסת העשרים וחמש, מטעם"
+  },
+  {
+   "key": "candidates|likud:77|display_name",
+   "he": "מאי הדר",
+   "ctx": "רשימת הליכוד, מקום 77"
+  },
+  {
+   "key": "candidates|likud:77|official_name",
+   "he": "הדר מאי",
+   "ctx": "רשימת הליכוד, מקום 77"
+  },
+  {
+   "key": "candidates|likud:78|display_name",
+   "he": "בר גיל יעקב",
+   "ctx": "רשימת הליכוד, מקום 78"
+  },
+  {
+   "key": "candidates|likud:79|display_name",
+   "he": "דור חרלפ",
+   "ctx": "רשימת הליכוד, מקום 79"
+  },
+  {
+   "key": "candidates|likud:79|official_name",
+   "he": "חרלפ דור",
+   "ctx": "רשימת הליכוד, מקום 79"
+  },
+  {
+   "key": "candidates|likud:80|display_name",
+   "he": "שאשא כהן אבישי ציון",
+   "ctx": "רשימת הליכוד, מקום 80"
+  },
+  {
+   "key": "candidates|likud:81|display_name",
+   "he": "עדי ברוך",
+   "ctx": "רשימת הליכוד, מקום 81"
+  },
+  {
+   "key": "candidates|likud:81|official_name",
+   "he": "ברוך עדי",
+   "ctx": "רשימת הליכוד, מקום 81"
+  },
+  {
+   "key": "candidates|likud:82|display_name",
+   "he": "דין מילוא",
+   "ctx": "רשימת הליכוד, מקום 82"
+  },
+  {
+   "key": "candidates|likud:82|official_name",
+   "he": "מילוא דין",
+   "ctx": "רשימת הליכוד, מקום 82"
+  },
+  {
+   "key": "candidates|likud:83|display_name",
+   "he": "בן-שושן יואל שלמה",
+   "ctx": "רשימת הליכוד, מקום 83"
+  },
+  {
+   "key": "candidates|likud:84|display_name",
+   "he": "ציון לנקרי",
+   "ctx": "רשימת הליכוד, מקום 84"
+  },
+  {
+   "key": "candidates|likud:84|official_name",
+   "he": "לנקרי ציון",
+   "ctx": "רשימת הליכוד, מקום 84"
+  },
+  {
+   "key": "candidates|likud:85|display_name",
+   "he": "דודו מור",
+   "ctx": "רשימת הליכוד, מקום 85"
+  },
+  {
+   "key": "candidates|likud:85|official_name",
+   "he": "מור דודו",
+   "ctx": "רשימת הליכוד, מקום 85"
+  },
+  {
+   "key": "candidates|likud:86|display_name",
+   "he": "אריאל בוכניק",
+   "ctx": "רשימת הליכוד, מקום 86"
+  },
+  {
+   "key": "candidates|likud:86|official_name",
+   "he": "בוכניק אריאל",
+   "ctx": "רשימת הליכוד, מקום 86"
+  },
+  {
+   "key": "candidates|likud:87|display_name",
+   "he": "מיכאליס אמציה אהרון",
+   "ctx": "רשימת הליכוד, מקום 87"
+  },
+  {
+   "key": "candidates|likud:88|display_name",
+   "he": "אופיר סבאן",
+   "ctx": "רשימת הליכוד, מקום 88"
+  },
+  {
+   "key": "candidates|likud:88|official_name",
+   "he": "סבאן אופיר",
+   "ctx": "רשימת הליכוד, מקום 88"
+  },
+  {
+   "key": "candidates|likud:89|display_name",
+   "he": "אהוד ניניו",
+   "ctx": "רשימת הליכוד, מקום 89"
+  },
+  {
+   "key": "candidates|likud:89|official_name",
+   "he": "ניניו אהוד",
+   "ctx": "רשימת הליכוד, מקום 89"
+  },
+  {
+   "key": "candidates|likud:90|display_name",
+   "he": "סושרד עודד יהודה",
+   "ctx": "רשימת הליכוד, מקום 90"
+  },
+  {
+   "key": "candidates|likud:91|display_name",
+   "he": "לסקר מרציאנו גוליאט",
+   "ctx": "רשימת הליכוד, מקום 91"
+  },
+  {
+   "key": "candidates|likud:92|display_name",
+   "he": "שטגמן איריס רחל",
+   "ctx": "רשימת הליכוד, מקום 92"
+  },
+  {
+   "key": "candidates|likud:93|display_name",
+   "he": "צפורה פינברג",
+   "ctx": "רשימת הליכוד, מקום 93"
+  },
+  {
+   "key": "candidates|likud:93|official_name",
+   "he": "פינברג צפורה",
+   "ctx": "רשימת הליכוד, מקום 93"
+  },
+  {
+   "key": "candidates|likud:94|display_name",
+   "he": "בן פנחס יוסף-איל",
+   "ctx": "רשימת הליכוד, מקום 94"
+  },
+  {
+   "key": "candidates|likud:95|display_name",
+   "he": "דוד אברהם",
+   "ctx": "רשימת הליכוד, מקום 95"
+  },
+  {
+   "key": "candidates|likud:95|official_name",
+   "he": "אברהם דוד",
+   "ctx": "רשימת הליכוד, מקום 95"
+  },
+  {
+   "key": "candidates|likud:96|display_name",
+   "he": "כוכבה מתתיהו",
+   "ctx": "רשימת הליכוד, מקום 96"
+  },
+  {
+   "key": "candidates|likud:96|official_name",
+   "he": "מתתיהו כוכבה",
+   "ctx": "רשימת הליכוד, מקום 96"
+  },
+  {
+   "key": "candidates|likud:97|display_name",
+   "he": "רצון שרעבי",
+   "ctx": "רשימת הליכוד, מקום 97"
+  },
+  {
+   "key": "candidates|likud:97|official_name",
+   "he": "שרעבי רצון",
+   "ctx": "רשימת הליכוד, מקום 97"
+  },
+  {
+   "key": "candidates|likud:98|display_name",
+   "he": "דה מרקדו רחל",
+   "ctx": "רשימת הליכוד, מקום 98"
+  },
+  {
+   "key": "candidates|likud:99|display_name",
+   "he": "אלוני ממו מדינה",
+   "ctx": "רשימת הליכוד, מקום 99"
+  },
+  {
+   "key": "candidates|likud:100|display_name",
+   "he": "מיכאל קליינר",
+   "ctx": "רשימת הליכוד, מקום 100 — מיכאל קליינר הוא משפטן ישראלי, נשיא בית הדין של הליכוד החל מיולי 2013 "
+  },
+  {
+   "key": "candidates|likud:100|official_name",
+   "he": "קליינר מיכאל",
+   "ctx": "רשימת הליכוד, מקום 100 — מיכאל קליינר הוא משפטן ישראלי, נשיא בית הדין של הליכוד החל מיולי 2013 "
+  },
+  {
+   "key": "candidates|likud:101|display_name",
+   "he": "אוחנה מאיר שמעון",
+   "ctx": "רשימת הליכוד, מקום 101"
+  },
+  {
+   "key": "candidates|likud:102|display_name",
+   "he": "צפריר סלמון",
+   "ctx": "רשימת הליכוד, מקום 102"
+  },
+  {
+   "key": "candidates|likud:102|official_name",
+   "he": "סלמון צפריר",
+   "ctx": "רשימת הליכוד, מקום 102"
+  },
+  {
+   "key": "candidates|likud:103|display_name",
+   "he": "אילה לנדא",
+   "ctx": "רשימת הליכוד, מקום 103"
+  },
+  {
+   "key": "candidates|likud:103|official_name",
+   "he": "לנדא אילה",
+   "ctx": "רשימת הליכוד, מקום 103"
+  },
+  {
+   "key": "candidates|likud:104|display_name",
+   "he": "מלמד יונתן גמליאל",
+   "ctx": "רשימת הליכוד, מקום 104"
+  },
+  {
+   "key": "candidates|likud:105|display_name",
+   "he": "אורנה יפרח",
+   "ctx": "רשימת הליכוד, מקום 105"
+  },
+  {
+   "key": "candidates|likud:105|official_name",
+   "he": "יפרח אורנה",
+   "ctx": "רשימת הליכוד, מקום 105"
+  },
+  {
+   "key": "candidates|likud:106|display_name",
+   "he": "אליהו שלוח",
+   "ctx": "רשימת הליכוד, מקום 106"
+  },
+  {
+   "key": "candidates|likud:106|official_name",
+   "he": "שלוח אליהו",
+   "ctx": "רשימת הליכוד, מקום 106"
+  },
+  {
+   "key": "candidates|likud:107|display_name",
+   "he": "יוסף קיסטר",
+   "ctx": "רשימת הליכוד, מקום 107"
+  },
+  {
+   "key": "candidates|likud:107|official_name",
+   "he": "קיסטר יוסף",
+   "ctx": "רשימת הליכוד, מקום 107"
+  },
+  {
+   "key": "candidates|likud:108|display_name",
+   "he": "יצחק דניאלי",
+   "ctx": "רשימת הליכוד, מקום 108"
+  },
+  {
+   "key": "candidates|likud:108|official_name",
+   "he": "דניאלי יצחק",
+   "ctx": "רשימת הליכוד, מקום 108"
+  },
+  {
+   "key": "candidates|likud:109|display_name",
+   "he": "ברוך נתח",
+   "ctx": "רשימת הליכוד, מקום 109"
+  },
+  {
+   "key": "candidates|likud:109|official_name",
+   "he": "נתח ברוך",
+   "ctx": "רשימת הליכוד, מקום 109"
+  },
+  {
+   "key": "candidates|likud:110|display_name",
+   "he": "החרמוני בת שבע",
+   "ctx": "רשימת הליכוד, מקום 110"
+  },
+  {
+   "key": "candidates|likud:111|display_name",
+   "he": "שישיצקי יצחק מאיר",
+   "ctx": "רשימת הליכוד, מקום 111"
+  },
+  {
+   "key": "candidates|likud:112|display_name",
+   "he": "מיכאל רייף",
+   "ctx": "רשימת הליכוד, מקום 112"
+  },
+  {
+   "key": "candidates|likud:112|official_name",
+   "he": "רייף מיכאל",
+   "ctx": "רשימת הליכוד, מקום 112"
+  },
+  {
+   "key": "candidates|likud:113|display_name",
+   "he": "יעל שמרגד",
+   "ctx": "רשימת הליכוד, מקום 113"
+  },
+  {
+   "key": "candidates|likud:113|official_name",
+   "he": "שמרגד יעל",
+   "ctx": "רשימת הליכוד, מקום 113"
+  },
+  {
+   "key": "candidates|likud:114|display_name",
+   "he": "חדוה שפיגל",
+   "ctx": "רשימת הליכוד, מקום 114"
+  },
+  {
+   "key": "candidates|likud:114|official_name",
+   "he": "שפיגל חדוה",
+   "ctx": "רשימת הליכוד, מקום 114"
+  },
+  {
+   "key": "candidates|likud:115|display_name",
+   "he": "נעמי בלומנטל",
+   "ctx": "רשימת הליכוד, מקום 115 — נעמי בלומנטל היא אשת ציבור ישראלית. הייתה חברת הכנסת מטעם הליכוד בכנסו"
+  },
+  {
+   "key": "candidates|likud:115|official_name",
+   "he": "בלומנטל נעמי",
+   "ctx": "רשימת הליכוד, מקום 115 — נעמי בלומנטל היא אשת ציבור ישראלית. הייתה חברת הכנסת מטעם הליכוד בכנסו"
+  },
+  {
+   "key": "candidates|likud:116|display_name",
+   "he": "אסתר טימור",
+   "ctx": "רשימת הליכוד, מקום 116"
+  },
+  {
+   "key": "candidates|likud:116|official_name",
+   "he": "טימור אסתר",
+   "ctx": "רשימת הליכוד, מקום 116"
+  },
+  {
+   "key": "candidates|likud:117|display_name",
+   "he": "גל ענבל פריטנה",
+   "ctx": "רשימת הליכוד, מקום 117"
+  },
+  {
+   "key": "candidates|likud:118|display_name",
+   "he": "בנימין ביטון",
+   "ctx": "רשימת הליכוד, מקום 118"
+  },
+  {
+   "key": "candidates|likud:118|official_name",
+   "he": "ביטון בנימין",
+   "ctx": "רשימת הליכוד, מקום 118"
+  },
+  {
+   "key": "candidates|likud:119|display_name",
+   "he": "צביקה ברוט",
+   "ctx": "רשימת הליכוד, מקום 119"
+  },
+  {
+   "key": "candidates|likud:119|official_name",
+   "he": "ברוט צביקה",
+   "ctx": "רשימת הליכוד, מקום 119"
+  },
+  {
+   "key": "candidates|likud:120|display_name",
+   "he": "חיים ביבס",
+   "ctx": "רשימת הליכוד, מקום 120"
+  },
+  {
+   "key": "candidates|likud:120|official_name",
+   "he": "ביבס חיים",
+   "ctx": "רשימת הליכוד, מקום 120"
+  },
+  {
+   "key": "candidates|me-and-you:1|display_name",
+   "he": "אלון גלעדי",
+   "ctx": "רשימת אני ואתה מפלגת העם הישראלית, מקום 1"
+  },
+  {
+   "key": "candidates|me-and-you:1|official_name",
+   "he": "גלעדי אלון",
+   "ctx": "רשימת אני ואתה מפלגת העם הישראלית, מקום 1"
+  },
+  {
+   "key": "candidates|me-and-you:2|display_name",
+   "he": "גלעדי ז'ולסון מאיה",
+   "ctx": "רשימת אני ואתה מפלגת העם הישראלית, מקום 2"
+  },
+  {
+   "key": "candidates|me-and-you:3|display_name",
+   "he": "איציק זלכה",
+   "ctx": "רשימת אני ואתה מפלגת העם הישראלית, מקום 3"
+  },
+  {
+   "key": "candidates|me-and-you:3|official_name",
+   "he": "זלכה איציק",
+   "ctx": "רשימת אני ואתה מפלגת העם הישראלית, מקום 3"
+  },
+  {
+   "key": "candidates|me-and-you:4|display_name",
+   "he": "לודמילה פורטנוב",
+   "ctx": "רשימת אני ואתה מפלגת העם הישראלית, מקום 4"
+  },
+  {
+   "key": "candidates|me-and-you:4|official_name",
+   "he": "פורטנוב לודמילה",
+   "ctx": "רשימת אני ואתה מפלגת העם הישראלית, מקום 4"
+  },
+  {
+   "key": "candidates|me-and-you:5|display_name",
+   "he": "עזרא שוהם",
+   "ctx": "רשימת אני ואתה מפלגת העם הישראלית, מקום 5"
+  },
+  {
+   "key": "candidates|me-and-you:5|official_name",
+   "he": "שוהם עזרא",
+   "ctx": "רשימת אני ואתה מפלגת העם הישראלית, מקום 5"
+  },
+  {
+   "key": "candidates|me-and-you:6|display_name",
+   "he": "משה אמויאל",
+   "ctx": "רשימת אני ואתה מפלגת העם הישראלית, מקום 6"
+  },
+  {
+   "key": "candidates|me-and-you:6|official_name",
+   "he": "אמויאל משה",
+   "ctx": "רשימת אני ואתה מפלגת העם הישראלית, מקום 6"
+  },
+  {
+   "key": "candidates|me-and-you:7|display_name",
+   "he": "יהודה שרעבי",
+   "ctx": "רשימת אני ואתה מפלגת העם הישראלית, מקום 7"
+  },
+  {
+   "key": "candidates|me-and-you:7|official_name",
+   "he": "שרעבי יהודה",
+   "ctx": "רשימת אני ואתה מפלגת העם הישראלית, מקום 7"
+  },
+  {
+   "key": "candidates|mishpat-tzedek:1|display_name",
+   "he": "עמיר רננה לריסה",
+   "ctx": "רשימת משפט צדק, מקום 1"
+  },
+  {
+   "key": "candidates|mishpat-tzedek:2|display_name",
+   "he": "גאולה עמיר",
+   "ctx": "רשימת משפט צדק, מקום 2"
+  },
+  {
+   "key": "candidates|mishpat-tzedek:2|official_name",
+   "he": "עמיר גאולה",
+   "ctx": "רשימת משפט צדק, מקום 2"
+  },
+  {
+   "key": "candidates|mishpat-tzedek:3|display_name",
+   "he": "אליעזר יהודי",
+   "ctx": "רשימת משפט צדק, מקום 3"
+  },
+  {
+   "key": "candidates|mishpat-tzedek:3|official_name",
+   "he": "יהודי אליעזר",
+   "ctx": "רשימת משפט צדק, מקום 3"
+  },
+  {
+   "key": "candidates|mishpat-tzedek:4|display_name",
+   "he": "יצחק כהן",
+   "ctx": "רשימת משפט צדק, מקום 4"
+  },
+  {
+   "key": "candidates|mishpat-tzedek:4|official_name",
+   "he": "כהן יצחק",
+   "ctx": "רשימת משפט צדק, מקום 4"
+  },
+  {
+   "key": "candidates|mishpat-tzedek:5|display_name",
+   "he": "יליזבטה יודין",
+   "ctx": "רשימת משפט צדק, מקום 5"
+  },
+  {
+   "key": "candidates|mishpat-tzedek:5|official_name",
+   "he": "יודין יליזבטה",
+   "ctx": "רשימת משפט צדק, מקום 5"
+  },
+  {
+   "key": "candidates|mishpat-tzedek:6|display_name",
+   "he": "טטיאנה וישנבצקי",
+   "ctx": "רשימת משפט צדק, מקום 6"
+  },
+  {
+   "key": "candidates|mishpat-tzedek:6|official_name",
+   "he": "וישנבצקי טטיאנה",
+   "ctx": "רשימת משפט צדק, מקום 6"
+  },
+  {
+   "key": "candidates|mishpat-tzedek:7|display_name",
+   "he": "קלמן אליהו חיים יפים",
+   "ctx": "רשימת משפט צדק, מקום 7"
+  },
+  {
+   "key": "candidates|mishpat-tzedek:8|display_name",
+   "he": "דינה מאירסון",
+   "ctx": "רשימת משפט צדק, מקום 8"
+  },
+  {
+   "key": "candidates|mishpat-tzedek:8|official_name",
+   "he": "מאירסון דינה",
+   "ctx": "רשימת משפט צדק, מקום 8"
+  },
+  {
+   "key": "candidates|new-order:1|display_name",
+   "he": "אופק אביטל חי",
+   "ctx": "רשימת סדר חדש, מקום 1"
+  },
+  {
+   "key": "candidates|new-order:2|display_name",
+   "he": "לביא נאור",
+   "ctx": "רשימת סדר חדש, מקום 2"
+  },
+  {
+   "key": "candidates|new-order:2|official_name",
+   "he": "נאור לביא",
+   "ctx": "רשימת סדר חדש, מקום 2"
+  },
+  {
+   "key": "candidates|new-order:3|display_name",
+   "he": "דניאל בטיטו",
+   "ctx": "רשימת סדר חדש, מקום 3"
+  },
+  {
+   "key": "candidates|new-order:3|official_name",
+   "he": "בטיטו דניאל",
+   "ctx": "רשימת סדר חדש, מקום 3"
+  },
+  {
+   "key": "candidates|new-order:4|display_name",
+   "he": "זהבית שמש",
+   "ctx": "רשימת סדר חדש, מקום 4"
+  },
+  {
+   "key": "candidates|new-order:4|official_name",
+   "he": "שמש זהבית",
+   "ctx": "רשימת סדר חדש, מקום 4"
+  },
+  {
+   "key": "candidates|new-order:5|display_name",
+   "he": "פאולה קוין",
+   "ctx": "רשימת סדר חדש, מקום 5"
+  },
+  {
+   "key": "candidates|new-order:5|official_name",
+   "he": "קוין פאולה",
+   "ctx": "רשימת סדר חדש, מקום 5"
+  },
+  {
+   "key": "candidates|new-order:6|display_name",
+   "he": "טובול ז'ק יעקב",
+   "ctx": "רשימת סדר חדש, מקום 6"
+  }
+ ]
+}

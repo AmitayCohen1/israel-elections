@@ -1,0 +1,37 @@
+{
+ "slug": "betach",
+ "researched_at": "2026-10-03",
+ "links": [
+  {
+   "url": "https://www.facebook.com/semiongrafman",
+   "kind": "leader_facebook",
+   "title": "פייסבוק סמיון גרפמן",
+   "owner": "סמיון גרפמן",
+   "found_via": "linked from he.wikipedia external links (leader's page; name matches)",
+   "status": "login-wall"
+  },
+  {
+   "url": "https://www.instagram.com/semion",
+   "kind": "leader_instagram",
+   "title": "אינסטגרם סמיון גרפמן",
+   "owner": "סמיון גרפמן",
+   "found_via": "linked from he.wikipedia external links",
+   "status": "login-wall"
+  }
+ ],
+ "unverified": [
+  {
+   "url": "https://twitter.com/semiongrafman",
+   "note": "X account of leader seen in search result, not confirmed"
+  },
+  {
+   "url": "https://www.facebook.com/219930441807532",
+   "note": "Facebook page search hit titled סמיון גרפמן; unverified"
+  },
+  {
+   "url": "https://www.youtube.com/channel/UCM2nKB0vfR_g0Ido0XKwG8A",
+   "note": "YouTube channel from Wikipedia, likely leader's, unconfirmed"
+  }
+ ],
+ "notes": "No party website found. Leader links come from Wikipedia external links, not an official page; moderate confidence. Party-specific accounts not found."
+}

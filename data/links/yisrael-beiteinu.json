@@ -1,0 +1,72 @@
+{
+  "slug": "yisrael-beiteinu",
+  "researched_at": "2026-10-03",
+  "links": [
+    {
+      "url": "https://beytenu.org.il/",
+      "kind": "website",
+      "title": "האתר הרשמי",
+      "owner": "list",
+      "found_via": "seed + fetched",
+      "status": "ok"
+    },
+    {
+      "url": "https://beytenu.org.il/party-platform/",
+      "kind": "platform",
+      "title": "המצע שלנו",
+      "owner": "list",
+      "found_via": "seed",
+      "status": "ok"
+    },
+    {
+      "url": "https://beytenu.org.il/party-platform-israel-beytenu-next-government/",
+      "kind": "positions_page",
+      "title": "קווי יסוד לממשלה הבאה",
+      "owner": "list",
+      "found_via": "seed",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.facebook.com/beytenu",
+      "kind": "facebook",
+      "title": "עמוד הפייסבוק",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "login-wall"
+    },
+    {
+      "url": "https://www.instagram.com/beytenu",
+      "kind": "instagram",
+      "title": "אינסטגרם",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "login-wall"
+    },
+    {
+      "url": "https://x.com/beytenu",
+      "kind": "x",
+      "title": "חשבון X",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "login-wall"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCXlgsb8j1pRJfBY1GAsiyvg",
+      "kind": "youtube",
+      "title": "ערוץ יוטיוב",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.tiktok.com/@young_israel_beytenu_",
+      "kind": "tiktok",
+      "title": "טיקטוק (צעירי ישראל ביתנו)",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "login-wall"
+    }
+  ],
+  "unverified": [],
+  "notes": "קישורים נשלפו מ-HTML של דף הבית (curl). לא נמצאו חשבונות אישיים של ליברמן שנבדקו."
+}

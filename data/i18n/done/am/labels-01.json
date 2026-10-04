@@ -1,0 +1,602 @@
+[
+ {
+  "key": "list_platforms|amcha-yisrael|self_description.source_title",
+  "he": "עמך ישראל – המפלגה בראשות עופר וינטר (דף הבית)",
+  "value": "አምቻ እስራኤል – በኦፈር ቪንተር የሚመራ ፓርቲ (መነሻ ገጽ)"
+ },
+ {
+  "key": "list_platforms|amcha-yisrael|platform_doc.title",
+  "he": "מסמך אבני היסוד של התנועה",
+  "value": "የንቅናቄው መሠረታዊ ሰነድ"
+ },
+ {
+  "key": "list_platforms|amcha-yisrael|topic_titles.economy",
+  "he": "שבירת מונופולים, הסרת חסמי יבוא",
+  "value": "ሞኖፖሊዎችን መስበር፣ የማስመጣት እንቅፋቶችን ማስወገድ"
+ },
+ {
+  "key": "list_platforms|amcha-yisrael|topic_titles.housing",
+  "he": "התחדשות עירונית עם מיגון בקצוות הארץ",
+  "value": "በሀገሪቱ ጠርዝ አካባቢዎች ከጥበቃ መጠለያ ጋር የከተማ ዳግም ግንባታ"
+ },
+ {
+  "key": "list_platforms|amcha-yisrael|topic_titles.security",
+  "he": "מהכלה להכרעה, \"הגירה מרצון\" מעזה",
+  "value": "ከመግታት ወደ ድል፣ ከጋዛ \"በፈቃደኝነት ስደት\""
+ },
+ {
+  "key": "list_platforms|amcha-yisrael|topic_titles.education",
+  "he": "ליבה, עצמאות למנהלי בתי ספר, ביזור",
+  "value": "ዋና ትምህርቶች፣ ለትምህርት ቤት ርዕሰ መምህራን ነጻነት፣ ሥልጣን ማስፋፋት"
+ },
+ {
+  "key": "list_platforms|amcha-yisrael|topic_titles.judiciary",
+  "he": "ערכאת ערעור על בג\"ץ, פיצול היועמ\"ש",
+  "value": "በከፍተኛ ፍርድ ቤት ላይ ይግባኝ ሰሚ ችሎት፣ የጠቅላይ አቃቤ ሕግን ሚና መክፈል"
+ },
+ {
+  "key": "list_platforms|amcha-yisrael|topic_titles.governance",
+  "he": "ועדת חקירה עם סמכות אכיפה, ביזור",
+  "value": "የማስፈጸም ሥልጣን ያለው የምርመራ ኮሚሽን፣ ሥልጣን ማስፋፋት"
+ },
+ {
+  "key": "list_platforms|amcha-yisrael|topic_titles.religion_state",
+  "he": "חוק יסוד: השירות ותגמול דיפרנציאלי",
+  "value": "መሠረታዊ ሕግ፡ አገልግሎትና ልዩነት ያለው ሽልማት"
+ },
+ {
+  "key": "list_platforms|beyachad-natzliach|topic_titles.economy",
+  "he": "יוקר המחיה ו\"כלכלה הוגנת\" ליהודים וערבים",
+  "value": "የኑሮ ውድነትና \"ፍትሐዊ ኢኮኖሚ\" ለአይሁድና ለአረብ"
+ },
+ {
+  "key": "list_platforms|beyachad-natzliach|topic_titles.security",
+  "he": "ביטול חוק שירות הביטחון, ביטחון בחברה הערבית ושלום",
+  "value": "የደኅንነት አገልግሎት ሕግን መሻር፣ በአረብ ማኅበረሰብ ውስጥ ደኅንነትና ሰላም"
+ },
+ {
+  "key": "list_platforms|democrats|self_description.source_title",
+  "he": "מה המצע - תוכניות העבודה של מפלגת הדמוקרטים",
+  "value": "መርሐ ግብሩ ምንድን ነው - የዴሞክራቶች ፓርቲ የሥራ ዕቅዶች"
+ },
+ {
+  "key": "list_platforms|democrats|platform_doc.title",
+  "he": "מה המצע - תוכניות העבודה של מפלגת הדמוקרטים",
+  "value": "መርሐ ግብሩ ምንድን ነው - የዴሞክራቶች ፓርቲ የሥራ ዕቅዶች"
+ },
+ {
+  "key": "list_platforms|democrats|topic_titles.economy",
+  "he": "סדרי עדיפויות, יוקר מחיה ושיקום הפריפריה",
+  "value": "ቅድሚያ የሚሰጣቸው ጉዳዮች፣ የኑሮ ውድነትና የዳር አካባቢዎች መልሶ ግንባታ"
+ },
+ {
+  "key": "list_platforms|democrats|topic_titles.housing",
+  "he": "התחדשות עירונית, שכירות ארוכת טווח ודיור ציבורי",
+  "value": "የከተማ ዳግም ግንባታ፣ የረጅም ጊዜ ኪራይና የሕዝብ መኖሪያ ቤት"
+ },
+ {
+  "key": "list_platforms|democrats|topic_titles.security",
+  "he": "מדיניות של יוזמה והכרעה (כותרת בלבד)",
+  "value": "የቅድሚያ ዕርምጃና የድል ፖሊሲ (ርዕስ ብቻ)"
+ },
+ {
+  "key": "list_platforms|democrats|topic_titles.education",
+  "he": "הרחבת מסגרות ציבוריות לגיל הרך",
+  "value": "ለሕፃናት የሕዝብ ተቋማትን ማስፋት"
+ },
+ {
+  "key": "list_platforms|democrats|topic_titles.judiciary",
+  "he": "ביצור הדמוקרטיה והגנה על שלטון החוק (כותרת בלבד)",
+  "value": "ዴሞክራሲን ማጠናከርና የሕግ የበላይነትን መጠበቅ (ርዕስ ብቻ)"
+ },
+ {
+  "key": "list_platforms|democrats|topic_titles.religion_state",
+  "he": "ישראל חופשית, מתנגדת לכפייה ולהדרה (כותרת בלבד)",
+  "value": "ነጻ እስራኤል፣ ማስገደድንና ማግለልን የምትቃወም (ርዕስ ብቻ)"
+ },
+ {
+  "key": "list_platforms|democrats|topic_titles.welfare_health",
+  "he": "קיצור שבוע העבודה, חופשת לידה ושירותי בריאות",
+  "value": "የሥራ ሳምንትን ማሳጠር፣ የወሊድ ፈቃድና የጤና አገልግሎቶች"
+ },
+ {
+  "key": "list_platforms|gan-eden|topic_titles.economy",
+  "he": "תוכנית היובל הלאומי: שמיטת חובות ושכר בסיס",
+  "value": "የብሔራዊ ኢዮቤልዩ ዕቅድ፡ የዕዳ ስረዛና መሠረታዊ ደመወዝ"
+ },
+ {
+  "key": "list_platforms|gan-eden|topic_titles.housing",
+  "he": "דיור בר-השגה ושחרור חסמי תכנון",
+  "value": "ተመጣጣኝ ዋጋ ያለው መኖሪያ ቤትና የዕቅድ እንቅፋቶችን ማስወገድ"
+ },
+ {
+  "key": "list_platforms|gan-eden|topic_titles.security",
+  "he": "הגנה על אזרחים ומשרד שלום ופיוס",
+  "value": "ዜጎችን መጠበቅና የሰላምና እርቅ ሚኒስቴር"
+ },
+ {
+  "key": "list_platforms|gan-eden|topic_titles.education",
+  "he": "חינוך לערכים ולימודי כלכלה ומשפט",
+  "value": "የእሴት ትምህርት እንዲሁም የኢኮኖሚና የሕግ ትምህርት"
+ },
+ {
+  "key": "list_platforms|gan-eden|topic_titles.judiciary",
+  "he": "קיצור הליכים ואחריות בעלי תפקיד",
+  "value": "የሥነ ሥርዓቶችን ማሳጠር እና የሹመኞች ተጠያቂነት"
+ },
+ {
+  "key": "list_platforms|gan-eden|topic_titles.governance",
+  "he": "תקציב פתוח והצבעות ציבוריות מאובטחות",
+  "value": "ግልጽ በጀትና ደኅንነቱ የተጠበቀ የሕዝብ ድምጽ አሰጣጥ"
+ },
+ {
+  "key": "list_platforms|gan-eden|topic_titles.welfare_health",
+  "he": "רפואה מונעת ובריאות נפש",
+  "value": "የመከላከያ ሕክምናና የአእምሮ ጤና"
+ },
+ {
+  "key": "list_platforms|haredi-public|self_description.source_title",
+  "he": "הפעם, לוקחים אחריות · הציבור החרדי (דף הבית)",
+  "value": "በዚህ ጊዜ ኃላፊነት እንወስዳለን · የሃረዲ ሕዝብ (መነሻ ገጽ)"
+ },
+ {
+  "key": "list_platforms|haredi-public|platform_doc.title",
+  "he": "המצע – הפעם לוקחים אחריות. בכל תחום.",
+  "value": "መርሐ ግብር – በዚህ ጊዜ ኃላፊነት እንወስዳለን። በሁሉም መስክ።"
+ },
+ {
+  "key": "list_platforms|haredi-public|topic_titles.economy",
+  "he": "משק חופשי, מיסים נמוכים, הכשרות ורפורמת ואוצ׳רים",
+  "value": "ነጻ ገበያ፣ ዝቅተኛ ግብር፣ የሙያ ሥልጠናዎች እና የቫውቸር ማሻሻያ"
+ },
+ {
+  "key": "list_platforms|haredi-public|topic_titles.housing",
+  "he": "נגד שיכוני חרדים מנותקים; אזורי תעסוקה ברשויות חרדיות",
+  "value": "ከሌሎች የተነጠሉ የሃረዲ መኖሪያ ሰፈሮችን በመቃወም፤ በሃረዲ አስተዳደሮች ውስጥ የሥራ ቀጣናዎች"
+ },
+ {
+  "key": "list_platforms|haredi-public|topic_titles.security",
+  "he": "חיזוק המסלולים החרדיים בצה״ל",
+  "value": "በእስራኤል መከላከያ ሠራዊት ውስጥ የሃረዲ ዱካዎችን ማጠናከር"
+ },
+ {
+  "key": "list_platforms|haredi-public|topic_titles.education",
+  "he": "עצמאות החינוך לצד אנגלית ומתמטיקה",
+  "value": "የትምህርት ነጻነት ከእንግሊዝኛና ከሒሳብ ጋር"
+ },
+ {
+  "key": "list_platforms|haredi-public|topic_titles.religion_state",
+  "he": "הגנה על לומדי תורה; שירות לשאינם לומדים",
+  "value": "ኦሪት ተማሪዎችን መጠበቅ፤ ለማይማሩት አገልግሎት"
+ },
+ {
+  "key": "list_platforms|israel-first|topic_titles.economy",
+  "he": "צמצום משרדי ממשלה והפחתת מס חברות",
+  "value": "የመንግሥት ሚኒስቴሮችን መቀነስና የድርጅት ግብርን ማውረድ"
+ },
+ {
+  "key": "list_platforms|israel-first|topic_titles.security",
+  "he": "פירוז חיזבאללה, ביטול הסכמי אוסלו, הסברה",
+  "value": "ሂዝቦላህን ከመሣሪያ ማጽዳት፣ የኦስሎ ስምምነቶችን መሻር፣ ማብራሪያና ፕሮፓጋንዳ"
+ },
+ {
+  "key": "list_platforms|israel-first|topic_titles.education",
+  "he": "שוברי חינוך להורים",
+  "value": "ለወላጆች የትምህርት ቫውቸሮች"
+ },
+ {
+  "key": "list_platforms|israel-first|topic_titles.religion_state",
+  "he": "שירות לאומי-אזרחי למי שאינו משרת; שלילת הטבות מדינה",
+  "value": "ለማያገለግሉ ሀገራዊ-ሲቪል አገልግሎት፤ የመንግሥት ጥቅማ ጥቅሞችን መከልከል"
+ },
+ {
+  "key": "list_platforms|israel-first|topic_titles.welfare_health",
+  "he": "לגליזציה מלאה של קנאביס",
+  "value": "ካናቢስን ሙሉ በሙሉ ሕጋዊ ማድረግ"
+ },
+ {
+  "key": "list_platforms|joint-list|self_description.source_title",
+  "he": "הרשימה המשותפת חוזרת: חד״ש, תע״ל ובל״ד יתמודדו יחד בבחירות (אתר המפלגה הקומוניסטית הישראלית)",
+  "value": "የጋራ ዝርዝሩ ተመልሷል፡ ሃዳሽ፣ ታዓል እና ባላድ በምርጫው በአንድ ላይ ይወዳደራሉ (የእስራኤል ኮሚኒስት ፓርቲ ድረ ገጽ)"
+ },
+ {
+  "key": "list_platforms|joint-list|topic_titles.economy",
+  "he": "שכר מינימום לפחות 70% מהממוצע, מע\"מ 10%",
+  "value": "ዝቅተኛ ደመወዝ ከአማካይ ቢያንስ 70%፣ ተጨማሪ እሴት ታክስ 10%"
+ },
+ {
+  "key": "list_platforms|joint-list|topic_titles.housing",
+  "he": "דיור ציבורי; שכר דירה לא מעל 20% מההכנסה",
+  "value": "የሕዝብ መኖሪያ ቤት፤ የቤት ኪራይ ከገቢ ከ20% የማይበልጥ"
+ },
+ {
+  "key": "list_platforms|joint-list|topic_titles.security",
+  "he": "רשות למאבק בפשיעה המאורגנת; קיצוץ בהוצאות הצבאיות",
+  "value": "የተደራጀ ወንጀልን የሚዋጋ ባለሥልጣን፤ በወታደራዊ ወጪዎች ላይ ቅነሳ"
+ },
+ {
+  "key": "list_platforms|joint-list|topic_titles.education",
+  "he": "חינוך חינם מגיל 0 ועד הדוקטורט",
+  "value": "ከ0 ዓመት ዕድሜ እስከ ዶክትሬት ነጻ ትምህርት"
+ },
+ {
+  "key": "list_platforms|joint-list|topic_titles.judiciary",
+  "he": "עצמאות מערכת המשפט כתנאי למאבק בפשיעה",
+  "value": "የፍትሕ ሥርዓት ነጻነት ወንጀልን ለመዋጋት እንደ ቅድመ ሁኔታ"
+ },
+ {
+  "key": "list_platforms|joint-list|topic_titles.governance",
+  "he": "שוויון אזרחי, שומרי סף, חיזוק הרשויות הערביות",
+  "value": "የዜግነት እኩልነት፣ የበር ጠባቂዎች፣ የአረብ አስተዳደሮችን ማጠናከር"
+ },
+ {
+  "key": "list_platforms|joint-list|topic_titles.welfare_health",
+  "he": "קצבה בסיסית של 25% מהשכר הממוצע",
+  "value": "ከአማካይ ደመወዝ 25% የሆነ መሠረታዊ ድጎማ"
+ },
+ {
+  "key": "list_platforms|likud|self_description.source_title",
+  "he": "נתניהו באירוע הרמת כוסית של הליכוד: \"הצלנו את ישראל מהשמדה. אין ישר - זה בלוף\" - וואלה",
+  "value": "ኔታንያሁ በሊኩድ የብርጭቆ ማንሳት ዝግጅት ላይ፡ \"እስራኤልን ከጥፋት አድነናል። ቀና ሰው የለም - ይህ ማጭበርበር ነው\" - ዋላ"
+ },
+ {
+  "key": "list_platforms|orot-hashahar|topic_titles.economy",
+  "he": "פתיחת השוק לתחרות, מס שטוח ואחיד, סגירת תאגידי המים",
+  "value": "ገበያውን ለውድድር መክፈት፣ ጠፍጣፋና ወጥ ግብር፣ የውኃ ኮርፖሬሽኖችን መዝጋት"
+ },
+ {
+  "key": "list_platforms|orot-hashahar|topic_titles.housing",
+  "he": "רפורמה ברמ\"י, הפסקת ספסרות בקרקע ו\"מלחמת חורמה\" ביוקר הדיור",
+  "value": "በእስራኤል የመሬት ባለሥልጣን ላይ ማሻሻያ፣ የመሬት ግምት ቁማርን ማስቆም እና የቤት ውድነት ላይ \"ሁለንተናዊ ጦርነት\""
+ },
+ {
+  "key": "list_platforms|orot-hashahar|topic_titles.security",
+  "he": "ביטול הדרגתי של אוסלו, הריסת כפרים, הגירה מעזה, עונש מוות לעוסקים בטרור, ריבונות על כל הארץ",
+  "value": "ኦስሎን ቀስ በቀስ መሻር፣ መንደሮችን ማፍረስ፣ ከጋዛ ስደት፣ በሽብር ለተሳተፉ የሞት ቅጣት፣ በመላው ምድር ላይ ሉዓላዊነት"
+ },
+ {
+  "key": "list_platforms|orot-hashahar|topic_titles.education",
+  "he": "חופש חינוכי עם תכני ליבה; שביתות לא יתקבלו בשנת הלימודים",
+  "value": "ዋና ይዘቶች ያሉት የትምህርት ነጻነት፤ በትምህርት ዓመቱ ውስጥ የሥራ ማቆም አድማዎች አይፈቀዱም"
+ },
+ {
+  "key": "list_platforms|orot-hashahar|topic_titles.judiciary",
+  "he": "עונש מוות לעוסקים בטרור; משפט מהיר מחוץ לבתי המשפט",
+  "value": "በሽብር ለተሳተፉ የሞት ቅጣት፤ ከፍርድ ቤቶች ውጭ ፈጣን ፍርድ"
+ },
+ {
+  "key": "list_platforms|orot-hashahar|topic_titles.governance",
+  "he": "הגבלת כהונה ל-8 שנים, צמצום משרדי ממשלה, חיסול הבירוקרטיה תוך 4 שנים",
+  "value": "የሥልጣን ዘመንን በ8 ዓመት መገደብ፣ የመንግሥት ሚኒስቴሮችን መቀነስ፣ በ4 ዓመት ውስጥ ቢሮክራሲን ማስወገድ"
+ },
+ {
+  "key": "list_platforms|orot-hashahar|topic_titles.religion_state",
+  "he": "שוויון בנטל, תחבורה בשבת לפי רשות מקומית, הגדרת יהודי כהלכה",
+  "value": "የሸክም እኩልነት፣ በሰንበት የሕዝብ ትራንስፖርት በአካባቢ አስተዳደር መሠረት፣ በሃላካ መሠረት የአይሁድን ትርጉም መወሰን"
+ },
+ {
+  "key": "list_platforms|orot-hashahar|topic_titles.welfare_health",
+  "he": "קצבאות לקשישים, שני הורים פעילים, סיוע לנפגעי המלחמה",
+  "value": "ለአረጋውያን ድጎማዎች፣ ሁለት ንቁ ወላጆች፣ ለጦርነት ተጎጂዎች ድጋፍ"
+ },
+ {
+  "key": "list_platforms|pirates|topic_titles.security",
+  "he": "שלום בין כל יושבי הארץ",
+  "value": "በምድሪቱ በሚኖሩ ሁሉ መካከል ሰላም"
+ },
+ {
+  "key": "list_platforms|pirates|topic_titles.education",
+  "he": "חינוך חינם במוסדות ממשלתיים",
+  "value": "በመንግሥት ተቋማት ነጻ ትምህርት"
+ },
+ {
+  "key": "list_platforms|pirates|topic_titles.governance",
+  "he": "ביטול אחוז החסימה, דמוקרטיה השתתפותית ושקיפות",
+  "value": "የማገጃ ደረጃን መሻር፣ ተሳታፊ ዴሞክራሲና ግልጽነት"
+ },
+ {
+  "key": "list_platforms|pirates|topic_titles.welfare_health",
+  "he": "שירותים לכל מחזור החיים",
+  "value": "ለሕይወት ዑደት ሁሉ አገልግሎቶች"
+ },
+ {
+  "key": "list_platforms|raam|self_description.source_title",
+  "he": "خلال مؤتمر صحفي في الناصرة.. منصور عباس يعلن انضمام سيغالوفيتش إلى القائمة العربية الموحدة (كل العرب)",
+  "value": "በናዝሬት በተካሄደ ጋዜጣዊ መግለጫ ላይ፡ መንሱር አባስ ሲጋሎቪች ወደ የተባበረው የአረብ ዝርዝር (ኩል አል-አራብ) መቀላቀላቸውን አወጁ"
+ },
+ {
+  "key": "list_platforms|reservists-economic|self_description.source_title",
+  "he": "עקרי המצע – המילואימניקים",
+  "value": "የመርሐ ግብሩ ዋና ዋና ነጥቦች – ተጠባባቂዎቹ"
+ },
+ {
+  "key": "list_platforms|reservists-economic|platform_doc.title",
+  "he": "עקרי המצע – המילואימניקים (מצע מפלגת המילואימניקים, אחת משתי המפלגות ברשימה)",
+  "value": "የመርሐ ግብሩ ዋና ዋና ነጥቦች – ተጠባባቂዎቹ (በዝርዝሩ ውስጥ ካሉት ሁለት ፓርቲዎች አንዱ የሆነው የተጠባባቂዎቹ ፓርቲ መርሐ ግብር)"
+ },
+ {
+  "key": "list_platforms|reservists-economic|topic_titles.economy",
+  "he": "הטבות מס לפריפריה, שלוש רפורמות בשנה",
+  "value": "ለዳር አካባቢዎች የግብር ማበረታቻዎች፣ በዓመት ሦስት ማሻሻያዎች"
+ },
+ {
+  "key": "list_platforms|reservists-economic|topic_titles.housing",
+  "he": "קרקעות וסבסוד שכר דירה למילואימניקים",
+  "value": "ለተጠባባቂ ወታደሮች መሬትና የቤት ኪራይ ድጎማ"
+ },
+ {
+  "key": "list_platforms|reservists-economic|topic_titles.security",
+  "he": "יוזמה והתקפיות, שליטה בפרימטר ובפילדלפי",
+  "value": "የቅድሚያ ዕርምጃና የማጥቃት አቋም፣ በድንበር ዙሪያና በፊላደልፊ ኮሪደር ላይ ቁጥጥር"
+ },
+ {
+  "key": "list_platforms|reservists-economic|topic_titles.education",
+  "he": "תקציבי חינוך רק למוסדות שותפים בשירות",
+  "value": "የትምህርት በጀት በአገልግሎት ለሚተባበሩ ተቋማት ብቻ"
+ },
+ {
+  "key": "list_platforms|reservists-economic|topic_titles.judiciary",
+  "he": "פיצול היועמ\"ש, תיקונים בהסכמות רחבות",
+  "value": "የጠቅላይ አቃቤ ሕግን ሚና መክፈል፣ ማሻሻያዎች በሰፊ ስምምነት"
+ },
+ {
+  "key": "list_platforms|reservists-economic|topic_titles.governance",
+  "he": "ממשלה ציונית, ועדת חקירה, הגבלת כהונה",
+  "value": "ጽዮናዊ መንግሥት፣ የምርመራ ኮሚሽን፣ የሥልጣን ዘመን ገደብ"
+ },
+ {
+  "key": "list_platforms|reservists-economic|topic_titles.religion_state",
+  "he": "גיוס לכולם וסנקציות על מי שאינו משרת",
+  "value": "ለሁሉም ግዳጅ እና በማያገለግሉ ላይ ማዕቀብ"
+ },
+ {
+  "key": "list_platforms|rzp-zehut|self_description.source_title",
+  "he": "מצע המפלגה - מפלגת הציונות הדתית",
+  "value": "የፓርቲው መርሐ ግብር - የሃይማኖታዊ ጽዮናዊነት ፓርቲ"
+ },
+ {
+  "key": "list_platforms|rzp-zehut|topic_titles.economy",
+  "he": "תמריצי מס ליזמים בנגב ובגליל",
+  "value": "በነጌቭና በገሊላ ለሚገኙ ሥራ ፈጣሪዎች የግብር ማበረታቻዎች"
+ },
+ {
+  "key": "list_platforms|rzp-zehut|topic_titles.housing",
+  "he": "יישובים חדשים ועדיפות בדיור",
+  "value": "አዳዲስ ሰፈራዎችና በመኖሪያ ቤት ቅድሚያ"
+ },
+ {
+  "key": "list_platforms|rzp-zehut|topic_titles.security",
+  "he": "פשיעה מאורגנת, מילואים וחוק יסוד המשרתים",
+  "value": "የተደራጀ ወንጀል፣ ተጠባባቂዎችና የአገልጋዮች መሠረታዊ ሕግ"
+ },
+ {
+  "key": "list_platforms|rzp-zehut|topic_titles.religion_state",
+  "he": "תוכנית לאומית לגיוס חרדים",
+  "value": "ሃረዲዎችን ለመመልመል ብሔራዊ ዕቅድ"
+ },
+ {
+  "key": "list_platforms|shas|self_description.source_title",
+  "he": "ללא הפתעות: ש\"ס פרסמה את רשימתה לבחירות לכנסת",
+  "value": "ያለ አስገራሚ ነገር፡ ሽ\"ስ ለክኔሴት ምርጫ የዕጩዎቹን ዝርዝር አወጣ"
+ },
+ {
+  "key": "list_platforms|together|self_description.source_title",
+  "he": "מפלגת ביחד בראשות נפתלי בנט | ביחד נתקן את ישראל | עמוד בית",
+  "value": "በናፍታሊ ቤኔት የሚመራ በአንድ ላይ ፓርቲ | በአንድ ላይ እስራኤልን እናስተካክላለን | መነሻ ገጽ"
+ },
+ {
+  "key": "list_platforms|together|platform_doc.title",
+  "he": "תוכניות התיקון של ישראל – תכניות מפלגת ביחד בראשות נפתלי בנט",
+  "value": "የእስራኤል የማስተካከያ ዕቅዶች – በናፍታሊ ቤኔት የሚመራው በአንድ ላይ ፓርቲ ዕቅዶች"
+ },
+ {
+  "key": "list_platforms|together|topic_titles.economy",
+  "he": "מחירי המזון: מינוס 30% בשלוש שנים",
+  "value": "የምግብ ዋጋ፡ በሦስት ዓመት ውስጥ ሲቀነስ 30%"
+ },
+ {
+  "key": "list_platforms|together|topic_titles.housing",
+  "he": "יותר היצע, פחות בירוקרטיה",
+  "value": "ብዙ አቅርቦት፣ አነስተኛ ቢሮክራሲ"
+ },
+ {
+  "key": "list_platforms|together|topic_titles.security",
+  "he": "מפסיביות ליוזמה והכרעה; הפשיעה — איום לאומי",
+  "value": "ከተገዥነት ወደ ቅድሚያ ዕርምጃና ድል፤ ወንጀል — ብሔራዊ ስጋት"
+ },
+ {
+  "key": "list_platforms|together|topic_titles.education",
+  "he": "תקצוב ציבורי רק עם 100% ליבה",
+  "value": "የሕዝብ በጀት ለ100% ዋና ትምህርቶች ብቻ"
+ },
+ {
+  "key": "list_platforms|together|topic_titles.judiciary",
+  "he": "הסדרה — רק בהסכמה רחבה",
+  "value": "ደንብ ማበጀት — በሰፊ ስምምነት ብቻ"
+ },
+ {
+  "key": "list_platforms|together|topic_titles.governance",
+  "he": "חוקה, הגבלת כהונה, ועדת חקירה",
+  "value": "ሕገ መንግሥት፣ የሥልጣን ዘመን ገደብ፣ የምርመራ ኮሚሽን"
+ },
+ {
+  "key": "list_platforms|together|topic_titles.religion_state",
+  "he": "שבת לפי הרשות המקומית, זוגיות אזרחית",
+  "value": "ሰንበት በአካባቢ አስተዳደር መሠረት፣ ሲቪል ጥንዶች"
+ },
+ {
+  "key": "list_platforms|together|topic_titles.welfare_health",
+  "he": "רפואה בקהילה, קרוב לבית",
+  "value": "በማኅበረሰቡ ውስጥ ሕክምና፣ ለቤት ቅርብ"
+ },
+ {
+  "key": "list_platforms|yashar|self_description.source_title",
+  "he": "עמוד הבית - ישר! עם איזנקוט (תיאור האתר)",
+  "value": "መነሻ ገጽ - ያሻር! ከአይዘንኮት ጋር (የድረ ገጹ መግለጫ)"
+ },
+ {
+  "key": "list_platforms|yashar|platform_doc.title",
+  "he": "תכניות – 10 הצעדים (אתר ישר! עם איזנקוט)",
+  "value": "ዕቅዶች – 10 ዕርምጃዎች (ያሻር! ከአይዘንኮት ጋር ድረ ገጽ)"
+ },
+ {
+  "key": "list_platforms|yashar|topic_titles.economy",
+  "he": "תמריצים לנושאי הנטל, פירוק ריכוזיות",
+  "value": "የሸክም ጉዳዮች ማበረታቻዎች፣ ማዕከላዊነትን ማፍረስ"
+ },
+ {
+  "key": "list_platforms|yashar|topic_titles.security",
+  "he": "תפיסת ביטחון חדשה, קבינט נגד פשיעה",
+  "value": "አዲስ የደኅንነት አመለካከት፣ ወንጀልን የሚዋጋ ካቢኔ"
+ },
+ {
+  "key": "list_platforms|yashar|topic_titles.education",
+  "he": "עדיפות לחינוך הממלכתי, לימודי ליבה לכל",
+  "value": "ለመንግሥታዊ ትምህርት ቅድሚያ፣ ዋና ትምህርቶች ለሁሉም"
+ },
+ {
+  "key": "list_platforms|yashar|topic_titles.judiciary",
+  "he": "חוק יסוד החקיקה, מערכת משפט עצמאית",
+  "value": "የሕግ አወጣጥ መሠረታዊ ሕግ፣ ነጻ የፍትሕ ሥርዓት"
+ },
+ {
+  "key": "list_platforms|yashar|topic_titles.governance",
+  "he": "ועדת חקירה, שתי קדנציות, מיליון עולים",
+  "value": "የምርመራ ኮሚሽን፣ ሁለት የሥልጣን ዘመን፣ አንድ ሚሊዮን ስደተኞች (ኦሊም)"
+ },
+ {
+  "key": "list_platforms|yashar|topic_titles.religion_state",
+  "he": "שירות ממלכתי לכל, הסדרים בהידברות",
+  "value": "ለሁሉም መንግሥታዊ አገልግሎት፣ በውይይት የሚደረጉ ዝግጅቶች"
+ },
+ {
+  "key": "list_platforms|yashar|topic_titles.welfare_health",
+  "he": "שיקום נפגעי המלחמה, שירותים בפריפריה",
+  "value": "የጦርነት ተጎጂዎች መልሶ ማቋቋም፣ በዳር አካባቢዎች አገልግሎቶች"
+ },
+ {
+  "key": "list_platforms|yisrael-beiteinu|self_description.source_title",
+  "he": "מפלגת ישראל ביתנו – דף הבית",
+  "value": "የእስራኤል ቤተናው ፓርቲ – መነሻ ገጽ"
+ },
+ {
+  "key": "list_platforms|yisrael-beiteinu|platform_doc.title",
+  "he": "המצע שלנו - מפלגת ישראל ביתנו",
+  "value": "የእኛ መርሐ ግብር - የእስራኤል ቤተናው ፓርቲ"
+ },
+ {
+  "key": "list_platforms|yisrael-beiteinu|topic_titles.economy",
+  "he": "עסקת חבילה: פירוק מונופולים והפחתת רגולציה",
+  "value": "የጥቅል ስምምነት፡ ሞኖፖሊዎችን ማፍረስና ደንቦችን መቀነስ"
+ },
+ {
+  "key": "list_platforms|yisrael-beiteinu|topic_titles.housing",
+  "he": "הגדלת היצע ותחרות על המחיר לצרכן",
+  "value": "አቅርቦትን መጨመርና ለተጠቃሚው ዋጋ ውድድር"
+ },
+ {
+  "key": "list_platforms|yisrael-beiteinu|topic_titles.security",
+  "he": "גיוס חובה לכל אזרח; תקציב הביטחון ל-95 מיליארד",
+  "value": "ለእያንዳንዱ ዜጋ የግዴታ ግዳጅ፤ የመከላከያ በጀት ወደ 95 ቢሊዮን"
+ },
+ {
+  "key": "list_platforms|yisrael-beiteinu|topic_titles.education",
+  "he": "חובת ליבה לכל תלמיד; תקצוב רק למי שמלמד אותה",
+  "value": "ለእያንዳንዱ ተማሪ የግዴታ ዋና ትምህርቶች፤ በጀት የሚሰጠው ለሚያስተምሩ ብቻ"
+ },
+ {
+  "key": "list_platforms|yisrael-beiteinu|topic_titles.judiciary",
+  "he": "חוקה ובית משפט לחוקה; נגד ההתגברות",
+  "value": "ሕገ መንግሥትና የሕገ መንግሥት ፍርድ ቤት፤ የመሻር አንቀጽን በመቃወም"
+ },
+ {
+  "key": "list_platforms|yisrael-beiteinu|topic_titles.governance",
+  "he": "ועדת חקירה, שתי קדנציות, תיקון חוק הלאום",
+  "value": "የምርመራ ኮሚሽን፣ ሁለት የሥልጣን ዘመን፣ የብሔር መንግሥት ሕግን ማሻሻል"
+ },
+ {
+  "key": "list_platforms|yisrael-beiteinu|topic_titles.religion_state",
+  "he": "הפרדת דת ומדינה ונישואין אזרחיים",
+  "value": "የሃይማኖትና የመንግሥት መለያየት እና ሲቪል ጋብቻ"
+ },
+ {
+  "key": "list_platforms|yisrael-beiteinu|topic_titles.welfare_health",
+  "he": "השלמת פנסיה לשכר מינימום, שני בתי חולים",
+  "value": "ጡረታን እስከ ዝቅተኛ ደመወዝ ማሟላት፣ ሁለት ሆስፒታሎች"
+ },
+ {
+  "key": "people|amcha-yisrael:1|headline",
+  "he": "תת-אלוף במילואים, מפקד עוצבת האש, מייסד \"עמך ישראל\"",
+  "value": "በተጠባባቂ ብርጋዴር ጄኔራል፣ የእሳት ክፍለ ጦር አዛዥ፣ የ\"አምቻ እስራኤል\" መስራች"
+ },
+ {
+  "key": "people|amcha-yisrael:1|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "ወታደራዊና ሀገራዊ አገልግሎት"
+ },
+ {
+  "key": "people|amcha-yisrael:1|facts.1.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "ወታደራዊና ሀገራዊ አገልግሎት"
+ },
+ {
+  "key": "people|amcha-yisrael:1|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|amcha-yisrael:2|headline",
+  "he": "פעיל הסברה, שדר לשעבר ב-i24NEWS, ממקימי עמותת \"ביחד\"",
+  "value": "የማብራሪያ ተሟጋች፣ የቀድሞ i24NEWS አቅራቢ፣ ከ\"በአንድ ላይ\" ማኅበር መስራቾች አንዱ"
+ },
+ {
+  "key": "people|amcha-yisrael:2|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "ወታደራዊና ሀገራዊ አገልግሎት"
+ },
+ {
+  "key": "people|amcha-yisrael:2|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|amcha-yisrael:2|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|amcha-yisrael:2|facts.3.label",
+  "he": "השכלה",
+  "value": "ትምህርት"
+ },
+ {
+  "key": "people|amcha-yisrael:3|headline",
+  "he": "עיתונאית ושדרנית חדשות, הגישה את \"זמן שישי\" בחדשות 13",
+  "value": "ጋዜጠኛና የዜና አቅራቢ፣ በቻናል 13 ዜና \"ዜማን ሺሺ\" ፕሮግራምን አቅርባለች"
+ },
+ {
+  "key": "people|amcha-yisrael:3|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|amcha-yisrael:3|facts.1.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "ወታደራዊና ሀገራዊ አገልግሎት"
+ },
+ {
+  "key": "people|amcha-yisrael:3|facts.2.label",
+  "he": "השכלה",
+  "value": "ትምህርት"
+ },
+ {
+  "key": "people|amcha-yisrael:3|facts.3.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|amcha-yisrael:4|headline",
+  "he": "עורך דין, יו\"ר האופוזיציה בלשכת עורכי הדין (2026)",
+  "value": "ጠበቃ፣ በጠበቆች ማኅበር ውስጥ የተቃዋሚው ሊቀ መንበር (2026)"
+ }
+]

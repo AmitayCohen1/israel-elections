@@ -1,0 +1,289 @@
+{
+ "locale": "ru",
+ "series": "text",
+ "target_language": "Russian",
+ "source_language": "Hebrew",
+ "instructions": "Each item is Hebrew prose (biography, background, platform summary, research notes). Translate faithfully into natural, neutral Russian (Cyrillic). Do not add, drop or soften facts or claims. Keep every number, date and year exactly as in the source. Person, party and place names must be written as in the \"names\" convention for Russian. This is a non-partisan election guide: neutral register. Output: for every item return {\"key\": <same key>, \"value\": <your translation>}. Return ONLY a JSON array (or {\"items\":[...]}) with one entry per input item, same keys, no omissions, no extra commentary. Value must be non-empty and written in the target script; never leave Hebrew letters in it. Preserve numbers, placeholders and punctuation meaning. Save the result as data/i18n/done/<locale>/<same file name>.",
+ "items": [
+  {
+   "key": "people|rzp-zehut:4|facts.2.value",
+   "he": "חבר כנסת מ-2021 (הכנסת ה-24), יו\"ר ועדת החוקה (נכון ל-2026)"
+  },
+  {
+   "key": "people|rzp-zehut:4|facts.3.value",
+   "he": "תואר ראשון במשפטים בר-אילן; תואר שני במשפט ציבורי 2012"
+  },
+  {
+   "key": "people|rzp-zehut:5|facts.0.value",
+   "he": "מאמן בכיר ומדריך מוסמך מלשכת המאמנים ב-2016"
+  },
+  {
+   "key": "people|rzp-zehut:5|facts.1.value",
+   "he": "יו\"ר פורום תקווה; מועמד לכנסת ה-26"
+  },
+  {
+   "key": "people|rzp-zehut:5|facts.2.value",
+   "he": "שירת בצנחנים במסגרת ההסדר; במילואים בחטיבה 55"
+  },
+  {
+   "key": "people|rzp-zehut:5|facts.3.value",
+   "he": "תואר ראשון בחינוך (2001), תואר שני בניהול מערכות חינוך (2017)"
+  },
+  {
+   "key": "people|sharshar:1|facts.0.value",
+   "he": "ראש רשימת שרשר לאהבה ולאחדות העם לכנסת ה-26 (2026)"
+  },
+  {
+   "key": "people|sharshar:2|facts.0.value",
+   "he": "סוכנת נסיעות, לפי הצגתה בעת הגשת הרשימה ב-2026"
+  },
+  {
+   "key": "people|shas:1|facts.0.value",
+   "he": "מזכ\"ל ש\"ס 1985, מנכ\"ל משרד הפנים 1986, שר הפנים מ-1988"
+  },
+  {
+   "key": "people|shas:1|facts.1.value",
+   "he": "כיהן גם כשר הכלכלה ושר הבריאות; מ-2013 יו\"ר ש\"ס"
+  },
+  {
+   "key": "people|shas:1|facts.2.value",
+   "he": "חבר כנסת מטעם ש\"ס; חזר לכנסת בבחירות לכנסת ה-25"
+  },
+  {
+   "key": "people|shas:2|facts.0.value",
+   "he": "חבר כנסת מ-2018; יו\"ר ועדת האתיקה עד יולי 2024"
+  },
+  {
+   "key": "people|shas:2|facts.1.value",
+   "he": "חובש, ראש סניף איחוד הצלה לכיש, יועץ בכיר לשר אריה דרעי 2015–2017"
+  },
+  {
+   "key": "people|shas:2|facts.2.value",
+   "he": "שנת שירות לאומי (לא שירת בצה\"ל)"
+  },
+  {
+   "key": "people|shas:3|facts.0.value",
+   "he": "2008–2015 ר\"מ בישיבת תפארת צבי; 2005–2009 לימד בקריית נוער"
+  },
+  {
+   "key": "people|shas:3|facts.1.value",
+   "he": "חבר מועצת עיריית ירושלים מ-2013; שר לשירותי דת"
+  },
+  {
+   "key": "people|shas:3|facts.2.value",
+   "he": "חבר כנסת מטעם ש\"ס מ-2016"
+  },
+  {
+   "key": "people|shas:3|facts.3.value",
+   "he": "תואר שני במדיניות ומינהל ציבורי, האוניברסיטה העברית"
+  },
+  {
+   "key": "people|shas:4|facts.0.value",
+   "he": "מנכ\"ל החברה הממשלתית \"המשקם\" 1997–2007; מנכ\"ל רשת מעיין החינוך התורני 2007–2013"
+  },
+  {
+   "key": "people|shas:4|facts.1.value",
+   "he": "סגן שר הפנים, שר הרווחה והביטחון החברתי, שר העבודה"
+  },
+  {
+   "key": "people|shas:4|facts.2.value",
+   "he": "חבר כנסת מטעם ש\"ס, יו\"ר סיעת ש\"ס בעבר"
+  },
+  {
+   "key": "people|shas:4|facts.3.value",
+   "he": "מורה-חייל וקצין בחטיבת הנח\"ל"
+  },
+  {
+   "key": "people|shas:5|facts.0.value",
+   "he": "מנכ\"ל עמותת מגדל אור 2003–2014; מנכ\"ל רשת בני יוסף 2015–2021"
+  },
+  {
+   "key": "people|shas:5|facts.1.value",
+   "he": "חבר מועצת העיר מגדל העמק; מנהל לשכת אריה דרעי; מנכ\"ל תנועת ש\"ס"
+  },
+  {
+   "key": "people|shas:5|facts.2.value",
+   "he": "חבר כנסת מטעם ש\"ס; כיהן כשר במשרד החינוך"
+  },
+  {
+   "key": "people|together:1|facts.0.value",
+   "he": "ממייסדי חברת סייוטה, שנמכרה ב-2005; מנכ\"ל סולוטו"
+  },
+  {
+   "key": "people|together:1|facts.1.value",
+   "he": "שירות בסיירת מטכ\"ל ובמגלן, סרן במילואים"
+  },
+  {
+   "key": "people|together:1|facts.2.value",
+   "he": "שר הכלכלה 2013–2015, שר החינוך 2015–2019, שר הביטחון 2019–2020"
+  },
+  {
+   "key": "people|together:1|facts.3.value",
+   "he": "ראש הממשלה 2021–2022"
+  },
+  {
+   "key": "people|together:2|facts.0.value",
+   "he": "עיתונאי, כותב טור שבועי 1989–2012, מנחה ומגיש תוכניות טלוויזיה ומהדורת חדשות"
+  },
+  {
+   "key": "people|together:2|facts.1.value",
+   "he": "שירות בצה\"ל 1982–1985, כתב במחנה"
+  },
+  {
+   "key": "people|together:2|facts.2.value",
+   "he": "הקים את יש עתיד ב-2012; שר האוצר 2013–2014, שר החוץ 2021–2022"
+  },
+  {
+   "key": "people|together:2|facts.3.value",
+   "he": "ראש הממשלה יולי–דצמבר 2022, ראש האופוזיציה מ-2023"
+  },
+  {
+   "key": "people|together:3|facts.0.value",
+   "he": "אגף התקציבים באוצר 2004–2011; שותפה בקרן הון סיכון 2021–2025"
+  },
+  {
+   "key": "people|together:3|facts.1.value",
+   "he": "מנכ\"לית משרד התחבורה 2016–2020, מנכ\"לית משרד האוצר ב-2020"
+  },
+  {
+   "key": "people|together:3|facts.2.value",
+   "he": "תואר ראשון ושני בכלכלה ובמנהל עסקים, האוניברסיטה העברית"
+  },
+  {
+   "key": "people|together:3|facts.3.value",
+   "he": "שירות בצה\"ל, שוחררה בדרגת סגן"
+  },
+  {
+   "key": "people|together:4|facts.0.value",
+   "he": "הקימה מרכזי נוער 'דרך אתגר'; מרצה"
+  },
+  {
+   "key": "people|together:4|facts.1.value",
+   "he": "חברת מועצת העיר תל אביב-יפו 2013–2015"
+  },
+  {
+   "key": "people|together:4|facts.2.value",
+   "he": "חברת כנסת 2015–2019 (כולנו) ומ-2021 (יש עתיד)"
+  },
+  {
+   "key": "people|together:4|facts.3.value",
+   "he": "תואר ראשון במשפטים ובמנהל ציבורי ותואר שני במנהל עסקים, הבינתחומי הרצליה"
+  },
+  {
+   "key": "people|together:5|facts.0.value",
+   "he": "יועץ משפטי ליועץ המשפטי לממשלה, מנהל פרויקט מסע 2013–2019"
+  },
+  {
+   "key": "people|together:5|facts.1.value",
+   "he": "מנכ\"ל משרד התקשורת 2020–2023"
+  },
+  {
+   "key": "people|together:5|facts.2.value",
+   "he": "תואר ראשון בניהול ובמשפטים, אוניברסיטת תל אביב; תואר שני במשפטים, NYU"
+  },
+  {
+   "key": "people|tzomet-beit-israel:1|facts.0.value",
+   "he": "שירות בגבעתי (סיירת), קצין בדרגת סרן"
+  },
+  {
+   "key": "people|tzomet-beit-israel:1|facts.1.value",
+   "he": "חבר הכנסת ה-21 עד ה-24 (2019-2022)"
+  },
+  {
+   "key": "people|tzomet-beit-israel:1|facts.2.value",
+   "he": "סגן השר לביטחון הפנים 2020-2022"
+  },
+  {
+   "key": "people|tzomet-beit-israel:1|facts.3.value",
+   "he": "לימודי משפטים במכללה למנהל"
+  },
+  {
+   "key": "people|tzomet-beit-israel:2|facts.0.value",
+   "he": "יו\"ר מפלגת צומת (נוסדה ב-1983), בחבירה עם בית ישראל ב-2026"
+  },
+  {
+   "key": "people|utj:1|facts.0.value",
+   "he": "ראש עיריית בני ברק 2008–2013"
+  },
+  {
+   "key": "people|utj:1|facts.1.value",
+   "he": "עבודה בעיריית בני ברק מ-1990, מנהל לשכת ראש העיר"
+  },
+  {
+   "key": "people|utj:1|facts.2.value",
+   "he": "חבר כנסת 2013–2015 ומ-2016; יושב ראש ועדת החוקה 2020–2021, ועדת הפנים 2023–2025"
+  },
+  {
+   "key": "people|utj:2|facts.0.value",
+   "he": "מנהל חינוכי במוסדות תורניים בירושלים מ-1974"
+  },
+  {
+   "key": "people|utj:2|facts.1.value",
+   "he": "חבר מועצת העיר ירושלים 2003"
+  },
+  {
+   "key": "people|utj:2|facts.2.value",
+   "he": "שר הבינוי והשיכון דצמבר 2022 עד 2025"
+  },
+  {
+   "key": "people|utj:2|facts.3.value",
+   "he": "חבר כנסת מנובמבר 2022, בהפסקה"
+  },
+  {
+   "key": "people|utj:3|facts.0.value",
+   "he": "ראש עיריית ביתר עילית 2001–2007; סגן ראש עיריית ירושלים 2008–2013"
+  },
+  {
+   "key": "people|utj:3|facts.1.value",
+   "he": "מנכ\"ל המכון החרדי למחקרי מדיניות 2018–2019"
+  },
+  {
+   "key": "people|utj:3|facts.2.value",
+   "he": "חבר כנסת בכנסות 21, 24 ו-25"
+  },
+  {
+   "key": "people|utj:4|facts.0.value",
+   "he": "מנהל משרדי אגודת ישראל בירושלים, ממייסדי העיתון 'המבשר'"
+  },
+  {
+   "key": "people|utj:4|facts.1.value",
+   "he": "חבר מועצת העיר ירושלים מ-1983, סגן ראש העירייה 1989–2007"
+  },
+  {
+   "key": "people|utj:4|facts.2.value",
+   "he": "סגן שר הבינוי והשיכון, סגן שר החינוך, שר ירושלים ומורשת 2023–2025"
+  },
+  {
+   "key": "people|utj:4|facts.3.value",
+   "he": "חבר כנסת מ-1996 בהפסקות"
+  },
+  {
+   "key": "people|yashar:1|facts.0.value",
+   "he": "שירות בצה\"ל 1978–2019, מפקד חטיבת גולני; הרמטכ\"ל 2015–2019"
+  },
+  {
+   "key": "people|yashar:1|facts.1.value",
+   "he": "תואר ראשון בהיסטוריה (תל אביב), תואר שני במדע המדינה (חיפה)"
+  },
+  {
+   "key": "people|yashar:1|facts.2.value",
+   "he": "חבר כנסת נובמבר 2022 עד 2025"
+  },
+  {
+   "key": "people|yashar:1|facts.3.value",
+   "he": "שר בלי תיק 2023–2024, משקיף בקבינט המלחמה"
+  },
+  {
+   "key": "people|yashar:2|facts.0.value",
+   "he": "שירות בצה\"ל מ-1979, לוחם בגולני"
+  },
+  {
+   "key": "people|yashar:2|facts.1.value",
+   "he": "שירות בשב\"כ 1982–2016, ראש השב\"כ 2011–2016"
+  },
+  {
+   "key": "people|yashar:2|facts.2.value",
+   "he": "תואר ראשון ושני במדע המדינה, אוניברסיטת חיפה"
+  }
+ ]
+}

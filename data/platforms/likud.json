@@ -1,0 +1,82 @@
+{
+  "slug": "likud",
+  "platform_doc": null,
+  "self_description": {
+    "quote": "אנחנו ימין",
+    "source_url": "https://www.walla.co.il/news/breaking-news/3868649",
+    "source_title": "נתניהו באירוע הרמת כוסית של הליכוד: \"הצלנו את ישראל מהשמדה. אין ישר - זה בלוף\" - וואלה"
+  },
+  "positions": [
+    {
+      "topic": "security",
+      "point": "הרשימה מתנגדת להקמת מדינה פלסטינית \"שנשלטת על ידי איראן\", ברצועת עזה וביהודה ושומרון.",
+      "quote": "כל עוד אני ראש הממשלה, לא תקום מדינה פלשתינית שנשלטת על ידי איראן: לא בעזה ולא ביהודה ושומרון. נקודה",
+      "source_url": "https://www.c14.co.il/article/1671420",
+      "source_title": "נתניהו: \"כל עוד אני ראש הממשלה - לא תקום מדינה פלשתינית\" - ערוץ 14",
+      "source_type": "news_report",
+      "date": "2026-08-22"
+    },
+    {
+      "topic": "security",
+      "point": "הרשימה מציבה כיעד הכרעה של המשטר באיראן.",
+      "quote": "צריך להכריע את המשטר הזה, אני מחויב לזה וזה אפשרי",
+      "source_url": "https://www.c14.co.il/article/1684168",
+      "source_title": "נתניהו בפטריוטים: \"הקיום של מדינת ישראל עומד בבחירות האלה\" - ערוץ 14",
+      "source_type": "interview",
+      "date": "2026-08-30"
+    },
+    {
+      "topic": "security",
+      "point": "הרשימה תומכת בפירוק חמאס מנשקו ובחיסולו כחלק מהתוכנית לרצועת עזה.",
+      "quote": "התוכנית לעזה היא חיסול חמאס, נפרק את נשקו בדרך הקלה או בדרך הקשה. אנחנו נפרק אותם מנשקם, אני מחויב לזה ואעשה את זה",
+      "source_url": "https://www.c14.co.il/article/1684168",
+      "source_title": "נתניהו בפטריוטים: \"הקיום של מדינת ישראל עומד בבחירות האלה\" - ערוץ 14",
+      "source_type": "interview",
+      "date": "2026-08-30"
+    },
+    {
+      "topic": "religion_state",
+      "point": "הרשימה מציעה להעביר לאחר הבחירות חוק גיוס מלא שיענה על צורכי צה\"ל.",
+      "quote": "לאחר הבחירות נקים ממשלה לאומית רחבה שתעביר מיד חוק גיוס מלא שיענה על צרכי צה\"ל",
+      "source_url": "https://www.walla.co.il/news/politics/3857882",
+      "source_title": "נתניהו: \"מי שלא לומד תורה יתגייס או שילך לכלא\" - וואלה",
+      "source_type": "news_report",
+      "date": "2026-08-02"
+    },
+    {
+      "topic": "religion_state",
+      "point": "הרשימה תומכת בגיוס מי שאינו לומד תורה ובמאסר למי שמסרב להתגייס.",
+      "quote": "מי שלא לומד תורה – יתגייס. ומי שאומר 'נמות ולא נתגייס' – שילך מיד לכלא",
+      "source_url": "https://www.c14.co.il/article/1684168",
+      "source_title": "נתניהו בפטריוטים: \"הקיום של מדינת ישראל עומד בבחירות האלה\" - ערוץ 14",
+      "source_type": "interview",
+      "date": "2026-08-30"
+    },
+    {
+      "topic": "judiciary",
+      "point": "הרשימה תומכת בשינויים במערכת המשפט שמטרתם, לדבריה, להחזיר את האיזון בין הרשויות.",
+      "quote": "יש הבנה שמוכרחים להחזיר איזון, ועם ההבנה הזאת נצליח לעשות את זה",
+      "source_url": "https://www.c14.co.il/article/1684168",
+      "source_title": "נתניהו בפטריוטים: \"הקיום של מדינת ישראל עומד בבחירות האלה\" - ערוץ 14",
+      "source_type": "interview",
+      "date": "2026-08-30"
+    },
+    {
+      "topic": "governance",
+      "point": "הרשימה מתנגדת להקמת ועדת חקירה ממלכתית לאירועי 7 באוקטובר.",
+      "quote": "ועדת החקירה הממלכתית היא לא ממלכתית, היא תוצאה ידועה מראש",
+      "source_url": "https://www.c14.co.il/article/1684168",
+      "source_title": "נתניהו בפטריוטים: \"הקיום של מדינת ישראל עומד בבחירות האלה\" - ערוץ 14",
+      "source_type": "interview",
+      "date": "2026-08-30"
+    }
+  ],
+  "topics_without_position": [
+    "economy",
+    "housing",
+    "education",
+    "welfare_health"
+  ],
+  "researched_at": "2026-10-02",
+  "notes": "No 2026 platform: per IDI's Likud page (https://www.idi.org.il/policy/parties-and-elections/parties/likud/), Likud has not published a platform since 2009; likud.org.il shows no policy pages. Likud declined ynet/Yedioth election questionnaires ('לא משתתפים בשאלונים', ynet 28.09.26), so no positions on economy/housing/education/health were found in 2026 sources. Older economic pledges (2022 cost-of-living plan) deliberately not used. All positions are statements by list leader Netanyahu as reported in news outlets, not official party documents. All quotes were re-verified on 2026-10-02 as exact substrings of the raw page HTML. Items to check: (1) Disarmament quote verified in raw HTML: the direct quote refers to Hamas; Hezbollah is mentioned only in the article's subtitle (journalist's summary), so the point was limited to Hamas. (2) The judiciary quote is general ('להחזיר איזון') and gives no specific measures. (3) The two Walla 02.08.26 quotes come from a closed-door discussion as reported by the press. (4) The Palestinian-state quote says 'שנשלטת על ידי איראן'; on 09.08.26 Haaretz reported a broader version without that qualifier ('לא תקום מדינה פלסטינית – לא בעזה ולא ביו\"ש'). (5) The 'self_description' ('אנחנו ימין') is a short remark at a campaign event (Walla 18.09.26). The same speech attacks another list, and that part was deliberately left out. The reviewer may prefer null. Some sources are Channel 14 (c14.co.il). Kan and Israel Hayom pages returned 403 and were not used. The Palestinian-state point keeps the qualifier 'שנשלטת על ידי איראן' as stated in the source."
+}

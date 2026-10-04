@@ -1,0 +1,759 @@
+{
+ "locale": "ar",
+ "series": "names",
+ "target_language": "Arabic",
+ "source_language": "Hebrew",
+ "instructions": "Each item is a Hebrew NAME (person, party or list). Write how that name is conventionally written in Arabic (Arabic). Examples: بنيامين نتنياهو، يائير لبيد، الليكود، يش عتيد. Use the established Arabic spelling (Arabic Wikipedia, Al-Jazeera, Arab-Israeli media) for known figures and parties; otherwise a standard transliteration. Arabic letters only, no diacritics (tashkeel) unless needed. \"ctx\" is context to identify the person or party (list, slot, MK status, start of bio): use it, do not translate it. Names are given either in natural order or surname-first (official form like \"כהן יוסי\"): always output the natural given-name-first order. Party and list names: use the established Arabic name of the party if there is one, otherwise translate the meaning (e.g. \"הציונות הדתית\" = Religious Zionism) rather than transliterate. Keep ballot-letter acronyms as they are written. Output: for every item return {\"key\": <same key>, \"value\": <your translation>}. Return ONLY a JSON array (or {\"items\":[...]}) with one entry per input item, same keys, no omissions, no extra commentary. Value must be non-empty and written in the target script; never leave Hebrew letters in it. Preserve numbers, placeholders and punctuation meaning. Save the result as data/i18n/done/<locale>/<same file name>.",
+ "items": [
+  {
+   "key": "candidates|democrats:3|official_name",
+   "he": "קריב גלעד",
+   "ctx": "רשימת הדמוקרטים, מקום 3, חבר/ת הכנסת מכהן/ת — הרב גלעד קריב הוא חבר הכנסת מטעם מפלגת העבודה, יו\"ר ועדת העלייה, הקליט"
+  },
+  {
+   "key": "candidates|democrats:4|display_name",
+   "he": "אפרת רייטן",
+   "ctx": "רשימת הדמוקרטים, מקום 4, חבר/ת הכנסת מכהן/ת — אפרת רייטן-מרום היא עורכת דין ופוליטיקאית ישראלית, המכהנת כחברת הכנסת "
+  },
+  {
+   "key": "candidates|democrats:4|official_name",
+   "he": "רייטן מרום אפרת",
+   "ctx": "רשימת הדמוקרטים, מקום 4, חבר/ת הכנסת מכהן/ת — אפרת רייטן-מרום היא עורכת דין ופוליטיקאית ישראלית, המכהנת כחברת הכנסת "
+  },
+  {
+   "key": "candidates|democrats:5|display_name",
+   "he": "יאיא פינק",
+   "ctx": "רשימת הדמוקרטים, מקום 5 — יאיר פינק הוא פעיל שמאל חברתי ופוליטי, אחד ממובילי המחאה למען שוויון ב"
+  },
+  {
+   "key": "candidates|democrats:5|official_name",
+   "he": "פינק יאיר",
+   "ctx": "רשימת הדמוקרטים, מקום 5 — יאיר פינק הוא פעיל שמאל חברתי ופוליטי, אחד ממובילי המחאה למען שוויון ב"
+  },
+  {
+   "key": "candidates|democrats:6|display_name",
+   "he": "גבי לסקי",
+   "ctx": "רשימת הדמוקרטים, מקום 6 — גבריאלה לסקי-שוץ היא חברת כנסת לשעבר מטעם מפלגת מרצ, עורכת דין ופעילת "
+  },
+  {
+   "key": "candidates|democrats:6|official_name",
+   "he": "לסקי שוץ גבריאלה",
+   "ctx": "רשימת הדמוקרטים, מקום 6 — גבריאלה לסקי-שוץ היא חברת כנסת לשעבר מטעם מפלגת מרצ, עורכת דין ופעילת "
+  },
+  {
+   "key": "candidates|democrats:7|display_name",
+   "he": "עמרי רונן",
+   "ctx": "רשימת הדמוקרטים, מקום 7 — עמרי רונן הוא עורך דין ופעיל חברתי ישראלי, חבר מפלגת \"הדמוקרטים\". היה "
+  },
+  {
+   "key": "candidates|democrats:7|official_name",
+   "he": "רונן עמרי",
+   "ctx": "רשימת הדמוקרטים, מקום 7 — עמרי רונן הוא עורך דין ופעיל חברתי ישראלי, חבר מפלגת \"הדמוקרטים\". היה "
+  },
+  {
+   "key": "candidates|democrats:8|display_name",
+   "he": "מיכל רוזין",
+   "ctx": "רשימת הדמוקרטים, מקום 8 — מיכל רוזין היא פוליטיקאית ישראלית; בעבר כיהנה כחברת הכנסת מטעם מרצ וכי"
+  },
+  {
+   "key": "candidates|democrats:8|official_name",
+   "he": "רוזין מיכל",
+   "ctx": "רשימת הדמוקרטים, מקום 8 — מיכל רוזין היא פוליטיקאית ישראלית; בעבר כיהנה כחברת הכנסת מטעם מרצ וכי"
+  },
+  {
+   "key": "candidates|democrats:9|display_name",
+   "he": "משה רדמן",
+   "ctx": "רשימת הדמוקרטים, מקום 9 — משה רדמן אבוטבול הוא ממובילי המחאה נגד הרפורמה המשפטית והמחאה נגד ממשל"
+  },
+  {
+   "key": "candidates|democrats:9|official_name",
+   "he": "רדמן משה",
+   "ctx": "רשימת הדמוקרטים, מקום 9 — משה רדמן אבוטבול הוא ממובילי המחאה נגד הרפורמה המשפטית והמחאה נגד ממשל"
+  },
+  {
+   "key": "candidates|democrats:10|display_name",
+   "he": "סומיה בשיר",
+   "ctx": "רשימת הדמוקרטים, מקום 10 — סומיה בשיר היא פעילה חברתית ופוליטית ערבייה-ישראלית, במקצועה מטפלת באמ"
+  },
+  {
+   "key": "candidates|democrats:10|official_name",
+   "he": "בשיר סומייה",
+   "ctx": "רשימת הדמוקרטים, מקום 10 — סומיה בשיר היא פעילה חברתית ופוליטית ערבייה-ישראלית, במקצועה מטפלת באמ"
+  },
+  {
+   "key": "candidates|democrats:11|display_name",
+   "he": "נמרוד שפר",
+   "ctx": "רשימת הדמוקרטים, מקום 11 — נמרוד שפר הוא אלוף בדימוס בצה\"ל ששירת בתפקידו האחרון כראש אגף התכנון. "
+  },
+  {
+   "key": "candidates|democrats:11|official_name",
+   "he": "שפר נמרוד",
+   "ctx": "רשימת הדמוקרטים, מקום 11 — נמרוד שפר הוא אלוף בדימוס בצה\"ל ששירת בתפקידו האחרון כראש אגף התכנון. "
+  },
+  {
+   "key": "candidates|democrats:12|display_name",
+   "he": "מורן זר קצנשטיין",
+   "ctx": "רשימת הדמוקרטים, מקום 12 — מורן זר קצנשטיין היא מרצה, יועצת אסטרטגית ותקשורת, יזמת עסקית וחברתית;"
+  },
+  {
+   "key": "candidates|democrats:12|official_name",
+   "he": "זר קצנשטיין מורן",
+   "ctx": "רשימת הדמוקרטים, מקום 12 — מורן זר קצנשטיין היא מרצה, יועצת אסטרטגית ותקשורת, יזמת עסקית וחברתית;"
+  },
+  {
+   "key": "candidates|democrats:13|display_name",
+   "he": "אבי דבוש",
+   "ctx": "רשימת הדמוקרטים, מקום 13 — אבי דבוש הוא פעיל סביבתי, חברתי ופוליטי ישראלי. עוסק בנושאי צדק חברתי "
+  },
+  {
+   "key": "candidates|democrats:13|official_name",
+   "he": "דאבוש אבי",
+   "ctx": "רשימת הדמוקרטים, מקום 13 — אבי דבוש הוא פעיל סביבתי, חברתי ופוליטי ישראלי. עוסק בנושאי צדק חברתי "
+  },
+  {
+   "key": "candidates|democrats:14|display_name",
+   "he": "אמילי מואטי",
+   "ctx": "רשימת הדמוקרטים, מקום 14 — אמילי חיה מואטי היא פוליטיקאית ישראלית, חברת הכנסת לשעבר מטעם מפלגת הע"
+  },
+  {
+   "key": "candidates|democrats:14|official_name",
+   "he": "מואטי אמילי חיה",
+   "ctx": "רשימת הדמוקרטים, מקום 14 — אמילי חיה מואטי היא פוליטיקאית ישראלית, חברת הכנסת לשעבר מטעם מפלגת הע"
+  },
+  {
+   "key": "candidates|democrats:15|display_name",
+   "he": "תומר אביטל",
+   "ctx": "רשימת הדמוקרטים, מקום 15 — תומר אביטל הוא אקטיביסט ועיתונאי עצמאי, בלוגר פוליטי, מייסד מיזם התקשו"
+  },
+  {
+   "key": "candidates|democrats:15|official_name",
+   "he": "אביטל תומר",
+   "ctx": "רשימת הדמוקרטים, מקום 15 — תומר אביטל הוא אקטיביסט ועיתונאי עצמאי, בלוגר פוליטי, מייסד מיזם התקשו"
+  },
+  {
+   "key": "candidates|democrats:16|display_name",
+   "he": "רוזוליו נאווה חיה",
+   "ctx": "רשימת הדמוקרטים, מקום 16 — נאווה רוזוליו היא פעילה חברתית, עורכת דין ורואת חשבון ישראלית, דמות בו"
+  },
+  {
+   "key": "candidates|democrats:17|display_name",
+   "he": "רם שפע",
+   "ctx": "רשימת הדמוקרטים, מקום 17 — רם שפע הוא איש חינוך ופוליטיקאי ישראלי. כיהן כחבר הכנסת מטעם מפלגת העב"
+  },
+  {
+   "key": "candidates|democrats:17|official_name",
+   "he": "שפע רם",
+   "ctx": "רשימת הדמוקרטים, מקום 17 — רם שפע הוא איש חינוך ופוליטיקאי ישראלי. כיהן כחבר הכנסת מטעם מפלגת העב"
+  },
+  {
+   "key": "candidates|democrats:18|display_name",
+   "he": "עלי סלאלחה",
+   "ctx": "רשימת הדמוקרטים, מקום 18 — עלי סלאלחה הוא פוליטיקאי ואיש חינוך דרוזי-ישראלי, בעבר כיהן כחבר הכנסת"
+  },
+  {
+   "key": "candidates|democrats:18|official_name",
+   "he": "סלאלחה עלי",
+   "ctx": "רשימת הדמוקרטים, מקום 18 — עלי סלאלחה הוא פוליטיקאי ואיש חינוך דרוזי-ישראלי, בעבר כיהן כחבר הכנסת"
+  },
+  {
+   "key": "candidates|democrats:19|display_name",
+   "he": "רתם סיון",
+   "ctx": "רשימת הדמוקרטים, מקום 19"
+  },
+  {
+   "key": "candidates|democrats:19|official_name",
+   "he": "סיון הופמן רתם",
+   "ctx": "רשימת הדמוקרטים, מקום 19"
+  },
+  {
+   "key": "candidates|democrats:20|display_name",
+   "he": "ערן עציון",
+   "ctx": "רשימת הדמוקרטים, מקום 20 — ערן עציון הוא דיפלומט ישראלי אשר כיהן כסגן ראש המל\"ל, קונסול ישראל בסן"
+  },
+  {
+   "key": "candidates|democrats:20|official_name",
+   "he": "עציון ערן",
+   "ctx": "רשימת הדמוקרטים, מקום 20 — ערן עציון הוא דיפלומט ישראלי אשר כיהן כסגן ראש המל\"ל, קונסול ישראל בסן"
+  },
+  {
+   "key": "candidates|democrats:21|display_name",
+   "he": "מורן מישל",
+   "ctx": "רשימת הדמוקרטים, מקום 21"
+  },
+  {
+   "key": "candidates|democrats:21|official_name",
+   "he": "מישל מורן",
+   "ctx": "רשימת הדמוקרטים, מקום 21"
+  },
+  {
+   "key": "candidates|democrats:22|display_name",
+   "he": "מוסי רז",
+   "ctx": "רשימת הדמוקרטים, מקום 22 — מוסי רז הוא איש שמאל, פעיל שלום, סביבה וזכויות אדם ישראלי. בעבר כיהן כ"
+  },
+  {
+   "key": "candidates|democrats:22|official_name",
+   "he": "רז מוסי",
+   "ctx": "רשימת הדמוקרטים, מקום 22 — מוסי רז הוא איש שמאל, פעיל שלום, סביבה וזכויות אדם ישראלי. בעבר כיהן כ"
+  },
+  {
+   "key": "candidates|democrats:23|display_name",
+   "he": "גאלב סלאמנה",
+   "ctx": "רשימת הדמוקרטים, מקום 23"
+  },
+  {
+   "key": "candidates|democrats:23|official_name",
+   "he": "סלאמנה גאלב",
+   "ctx": "רשימת הדמוקרטים, מקום 23"
+  },
+  {
+   "key": "candidates|democrats:24|display_name",
+   "he": "פיאסצקי מורג קטי",
+   "ctx": "רשימת הדמוקרטים, מקום 24"
+  },
+  {
+   "key": "candidates|democrats:25|display_name",
+   "he": "אמיר ח'ניפס",
+   "ctx": "רשימת הדמוקרטים, מקום 25"
+  },
+  {
+   "key": "candidates|democrats:25|official_name",
+   "he": "ח'ניפס אמיר",
+   "ctx": "רשימת הדמוקרטים, מקום 25"
+  },
+  {
+   "key": "candidates|democrats:26|display_name",
+   "he": "ברוך רון מהרטה",
+   "ctx": "רשימת הדמוקרטים, מקום 26"
+  },
+  {
+   "key": "candidates|democrats:27|display_name",
+   "he": "עאיד בדיר",
+   "ctx": "רשימת הדמוקרטים, מקום 27"
+  },
+  {
+   "key": "candidates|democrats:27|official_name",
+   "he": "בדיר עאיד",
+   "ctx": "רשימת הדמוקרטים, מקום 27"
+  },
+  {
+   "key": "candidates|democrats:28|display_name",
+   "he": "חן אריאלי",
+   "ctx": "רשימת הדמוקרטים, מקום 28"
+  },
+  {
+   "key": "candidates|democrats:28|official_name",
+   "he": "אריאלי חן",
+   "ctx": "רשימת הדמוקרטים, מקום 28"
+  },
+  {
+   "key": "candidates|democrats:29|display_name",
+   "he": "גיל ביילין",
+   "ctx": "רשימת הדמוקרטים, מקום 29"
+  },
+  {
+   "key": "candidates|democrats:29|official_name",
+   "he": "ביילין גיל",
+   "ctx": "רשימת הדמוקרטים, מקום 29"
+  },
+  {
+   "key": "candidates|democrats:30|display_name",
+   "he": "כהן פארן יעל",
+   "ctx": "רשימת הדמוקרטים, מקום 30"
+  },
+  {
+   "key": "candidates|democrats:31|display_name",
+   "he": "ניסן ערן שלמה",
+   "ctx": "רשימת הדמוקרטים, מקום 31"
+  },
+  {
+   "key": "candidates|democrats:32|display_name",
+   "he": "הדס רגולסקי",
+   "ctx": "רשימת הדמוקרטים, מקום 32"
+  },
+  {
+   "key": "candidates|democrats:32|official_name",
+   "he": "רגולסקי הדס",
+   "ctx": "רשימת הדמוקרטים, מקום 32"
+  },
+  {
+   "key": "candidates|democrats:33|display_name",
+   "he": "אביתר באר",
+   "ctx": "רשימת הדמוקרטים, מקום 33"
+  },
+  {
+   "key": "candidates|democrats:33|official_name",
+   "he": "באר אביתר",
+   "ctx": "רשימת הדמוקרטים, מקום 33"
+  },
+  {
+   "key": "candidates|democrats:34|display_name",
+   "he": "וורטמן שהם ענבל",
+   "ctx": "רשימת הדמוקרטים, מקום 34"
+  },
+  {
+   "key": "candidates|democrats:35|display_name",
+   "he": "מיניץ' בנימין דניאל",
+   "ctx": "רשימת הדמוקרטים, מקום 35"
+  },
+  {
+   "key": "candidates|democrats:36|display_name",
+   "he": "הופמן אגיב לי",
+   "ctx": "רשימת הדמוקרטים, מקום 36"
+  },
+  {
+   "key": "candidates|democrats:37|display_name",
+   "he": "ירון ניב",
+   "ctx": "רשימת הדמוקרטים, מקום 37"
+  },
+  {
+   "key": "candidates|democrats:37|official_name",
+   "he": "ניב ירון",
+   "ctx": "רשימת הדמוקרטים, מקום 37"
+  },
+  {
+   "key": "candidates|democrats:38|display_name",
+   "he": "אליס גולדמן",
+   "ctx": "רשימת הדמוקרטים, מקום 38"
+  },
+  {
+   "key": "candidates|democrats:38|official_name",
+   "he": "גולדמן אליס",
+   "ctx": "רשימת הדמוקרטים, מקום 38"
+  },
+  {
+   "key": "candidates|democrats:39|display_name",
+   "he": "יואב אגמי",
+   "ctx": "רשימת הדמוקרטים, מקום 39"
+  },
+  {
+   "key": "candidates|democrats:39|official_name",
+   "he": "אגמי יואב",
+   "ctx": "רשימת הדמוקרטים, מקום 39"
+  },
+  {
+   "key": "candidates|democrats:40|display_name",
+   "he": "אבישי ליכטנשטיין",
+   "ctx": "רשימת הדמוקרטים, מקום 40"
+  },
+  {
+   "key": "candidates|democrats:40|official_name",
+   "he": "ליכטנשטיין אבישי",
+   "ctx": "רשימת הדמוקרטים, מקום 40"
+  },
+  {
+   "key": "candidates|democrats:41|display_name",
+   "he": "דה לם אולביה עמנואל",
+   "ctx": "רשימת הדמוקרטים, מקום 41"
+  },
+  {
+   "key": "candidates|democrats:42|display_name",
+   "he": "בן שאול ישראל צבי",
+   "ctx": "רשימת הדמוקרטים, מקום 42"
+  },
+  {
+   "key": "candidates|democrats:43|display_name",
+   "he": "עומר לובטון-גרנות",
+   "ctx": "רשימת הדמוקרטים, מקום 43"
+  },
+  {
+   "key": "candidates|democrats:43|official_name",
+   "he": "לובטון-גרנות עומר",
+   "ctx": "רשימת הדמוקרטים, מקום 43"
+  },
+  {
+   "key": "candidates|democrats:44|display_name",
+   "he": "ייגר זלינגר הדס",
+   "ctx": "רשימת הדמוקרטים, מקום 44"
+  },
+  {
+   "key": "candidates|democrats:45|display_name",
+   "he": "הגר ראובני",
+   "ctx": "רשימת הדמוקרטים, מקום 45"
+  },
+  {
+   "key": "candidates|democrats:45|official_name",
+   "he": "ראובני הגר",
+   "ctx": "רשימת הדמוקרטים, מקום 45"
+  },
+  {
+   "key": "candidates|democrats:46|display_name",
+   "he": "גיל און יהודית",
+   "ctx": "רשימת הדמוקרטים, מקום 46"
+  },
+  {
+   "key": "candidates|democrats:47|display_name",
+   "he": "נבו אביטבול טל",
+   "ctx": "רשימת הדמוקרטים, מקום 47"
+  },
+  {
+   "key": "candidates|democrats:48|display_name",
+   "he": "סימון אלפסי",
+   "ctx": "רשימת הדמוקרטים, מקום 48"
+  },
+  {
+   "key": "candidates|democrats:48|official_name",
+   "he": "אלפסי סימון",
+   "ctx": "רשימת הדמוקרטים, מקום 48"
+  },
+  {
+   "key": "candidates|democrats:49|display_name",
+   "he": "תומר רזניק",
+   "ctx": "רשימת הדמוקרטים, מקום 49"
+  },
+  {
+   "key": "candidates|democrats:49|official_name",
+   "he": "רזניק תומר",
+   "ctx": "רשימת הדמוקרטים, מקום 49"
+  },
+  {
+   "key": "candidates|democrats:50|display_name",
+   "he": "דגן לוין",
+   "ctx": "רשימת הדמוקרטים, מקום 50"
+  },
+  {
+   "key": "candidates|democrats:50|official_name",
+   "he": "לוין דגן",
+   "ctx": "רשימת הדמוקרטים, מקום 50"
+  },
+  {
+   "key": "candidates|democrats:51|display_name",
+   "he": "חוסקוביץ סילביו גבריאל",
+   "ctx": "רשימת הדמוקרטים, מקום 51"
+  },
+  {
+   "key": "candidates|democrats:52|display_name",
+   "he": "מורג דרור איש שלום",
+   "ctx": "רשימת הדמוקרטים, מקום 52"
+  },
+  {
+   "key": "candidates|democrats:53|display_name",
+   "he": "חיה כהן",
+   "ctx": "רשימת הדמוקרטים, מקום 53"
+  },
+  {
+   "key": "candidates|democrats:53|official_name",
+   "he": "כהן חיה",
+   "ctx": "רשימת הדמוקרטים, מקום 53"
+  },
+  {
+   "key": "candidates|democrats:54|display_name",
+   "he": "ביטי (שלוח) אורלי",
+   "ctx": "רשימת הדמוקרטים, מקום 54"
+  },
+  {
+   "key": "candidates|democrats:55|display_name",
+   "he": "נורי שקד מאיה",
+   "ctx": "רשימת הדמוקרטים, מקום 55"
+  },
+  {
+   "key": "candidates|democrats:56|display_name",
+   "he": "בן יהודה ערן",
+   "ctx": "רשימת הדמוקרטים, מקום 56"
+  },
+  {
+   "key": "candidates|democrats:57|display_name",
+   "he": "רועי ברזילי",
+   "ctx": "רשימת הדמוקרטים, מקום 57"
+  },
+  {
+   "key": "candidates|democrats:57|official_name",
+   "he": "ברזילי רועי",
+   "ctx": "רשימת הדמוקרטים, מקום 57"
+  },
+  {
+   "key": "candidates|democrats:58|display_name",
+   "he": "אברהם פרדס",
+   "ctx": "רשימת הדמוקרטים, מקום 58"
+  },
+  {
+   "key": "candidates|democrats:58|official_name",
+   "he": "פרדס אברהם",
+   "ctx": "רשימת הדמוקרטים, מקום 58"
+  },
+  {
+   "key": "candidates|democrats:59|display_name",
+   "he": "זועבי עבד אלכרים",
+   "ctx": "רשימת הדמוקרטים, מקום 59"
+  },
+  {
+   "key": "candidates|democrats:60|display_name",
+   "he": "נגה בוטנסקי",
+   "ctx": "רשימת הדמוקרטים, מקום 60"
+  },
+  {
+   "key": "candidates|democrats:60|official_name",
+   "he": "בוטנסקי נגה",
+   "ctx": "רשימת הדמוקרטים, מקום 60"
+  },
+  {
+   "key": "candidates|democrats:61|display_name",
+   "he": "שאנה אורליק",
+   "ctx": "רשימת הדמוקרטים, מקום 61"
+  },
+  {
+   "key": "candidates|democrats:61|official_name",
+   "he": "אורליק שאנה",
+   "ctx": "רשימת הדמוקרטים, מקום 61"
+  },
+  {
+   "key": "candidates|democrats:62|display_name",
+   "he": "בונה רות מלכה",
+   "ctx": "רשימת הדמוקרטים, מקום 62"
+  },
+  {
+   "key": "candidates|democrats:63|display_name",
+   "he": "יובל שוורץ",
+   "ctx": "רשימת הדמוקרטים, מקום 63"
+  },
+  {
+   "key": "candidates|democrats:63|official_name",
+   "he": "שוורץ יובל",
+   "ctx": "רשימת הדמוקרטים, מקום 63"
+  },
+  {
+   "key": "candidates|democrats:64|display_name",
+   "he": "אבו ריאש פרחאן",
+   "ctx": "רשימת הדמוקרטים, מקום 64"
+  },
+  {
+   "key": "candidates|democrats:65|display_name",
+   "he": "בן דוד גל",
+   "ctx": "רשימת הדמוקרטים, מקום 65"
+  },
+  {
+   "key": "candidates|democrats:66|display_name",
+   "he": "הדס זאנגי",
+   "ctx": "רשימת הדמוקרטים, מקום 66"
+  },
+  {
+   "key": "candidates|democrats:66|official_name",
+   "he": "זאנגי הדס",
+   "ctx": "רשימת הדמוקרטים, מקום 66"
+  },
+  {
+   "key": "candidates|democrats:67|display_name",
+   "he": "מירב ברקאי",
+   "ctx": "רשימת הדמוקרטים, מקום 67"
+  },
+  {
+   "key": "candidates|democrats:67|official_name",
+   "he": "ברקאי מירב",
+   "ctx": "רשימת הדמוקרטים, מקום 67"
+  },
+  {
+   "key": "candidates|democrats:68|display_name",
+   "he": "זקהיים גראוס אסתי",
+   "ctx": "רשימת הדמוקרטים, מקום 68"
+  },
+  {
+   "key": "candidates|democrats:69|display_name",
+   "he": "יוסף אפרתי",
+   "ctx": "רשימת הדמוקרטים, מקום 69"
+  },
+  {
+   "key": "candidates|democrats:69|official_name",
+   "he": "אפרתי יוסף",
+   "ctx": "רשימת הדמוקרטים, מקום 69"
+  },
+  {
+   "key": "candidates|democrats:70|display_name",
+   "he": "ניקולא מסעד",
+   "ctx": "רשימת הדמוקרטים, מקום 70"
+  },
+  {
+   "key": "candidates|democrats:70|official_name",
+   "he": "מסעד ניקולא",
+   "ctx": "רשימת הדמוקרטים, מקום 70"
+  },
+  {
+   "key": "candidates|democrats:71|display_name",
+   "he": "לימור לוינשטין",
+   "ctx": "רשימת הדמוקרטים, מקום 71"
+  },
+  {
+   "key": "candidates|democrats:71|official_name",
+   "he": "לוינשטין לימור",
+   "ctx": "רשימת הדמוקרטים, מקום 71"
+  },
+  {
+   "key": "candidates|democrats:72|display_name",
+   "he": "טל פאנץ",
+   "ctx": "רשימת הדמוקרטים, מקום 72"
+  },
+  {
+   "key": "candidates|democrats:72|official_name",
+   "he": "פאנץ טל",
+   "ctx": "רשימת הדמוקרטים, מקום 72"
+  },
+  {
+   "key": "candidates|democrats:73|display_name",
+   "he": "אורית מרנדה",
+   "ctx": "רשימת הדמוקרטים, מקום 73"
+  },
+  {
+   "key": "candidates|democrats:73|official_name",
+   "he": "מרנדה אורית",
+   "ctx": "רשימת הדמוקרטים, מקום 73"
+  },
+  {
+   "key": "candidates|democrats:74|display_name",
+   "he": "מגי סלע-וגר",
+   "ctx": "רשימת הדמוקרטים, מקום 74"
+  },
+  {
+   "key": "candidates|democrats:74|official_name",
+   "he": "סלע-וגר מגי",
+   "ctx": "רשימת הדמוקרטים, מקום 74"
+  },
+  {
+   "key": "candidates|democrats:75|display_name",
+   "he": "גדות זרצנסקי ירון",
+   "ctx": "רשימת הדמוקרטים, מקום 75"
+  },
+  {
+   "key": "candidates|democrats:76|display_name",
+   "he": "דפנה כהן",
+   "ctx": "רשימת הדמוקרטים, מקום 76"
+  },
+  {
+   "key": "candidates|democrats:76|official_name",
+   "he": "כהן דפנה",
+   "ctx": "רשימת הדמוקרטים, מקום 76"
+  },
+  {
+   "key": "candidates|democrats:77|display_name",
+   "he": "בית הלחמי חנה",
+   "ctx": "רשימת הדמוקרטים, מקום 77"
+  },
+  {
+   "key": "candidates|democrats:78|display_name",
+   "he": "כהן תניה סוניה",
+   "ctx": "רשימת הדמוקרטים, מקום 78"
+  },
+  {
+   "key": "candidates|democrats:79|display_name",
+   "he": "פז צמח",
+   "ctx": "רשימת הדמוקרטים, מקום 79"
+  },
+  {
+   "key": "candidates|democrats:79|official_name",
+   "he": "צמח פז",
+   "ctx": "רשימת הדמוקרטים, מקום 79"
+  },
+  {
+   "key": "candidates|democrats:80|display_name",
+   "he": "דניאל אזולאי",
+   "ctx": "רשימת הדמוקרטים, מקום 80"
+  },
+  {
+   "key": "candidates|democrats:80|official_name",
+   "he": "אזולאי דניאל",
+   "ctx": "רשימת הדמוקרטים, מקום 80"
+  },
+  {
+   "key": "candidates|democrats:81|display_name",
+   "he": "שרון שלום",
+   "ctx": "רשימת הדמוקרטים, מקום 81"
+  },
+  {
+   "key": "candidates|democrats:81|official_name",
+   "he": "שלום שרון",
+   "ctx": "רשימת הדמוקרטים, מקום 81"
+  },
+  {
+   "key": "candidates|democrats:82|display_name",
+   "he": "עידו מיכאלי",
+   "ctx": "רשימת הדמוקרטים, מקום 82"
+  },
+  {
+   "key": "candidates|democrats:82|official_name",
+   "he": "מיכאלי עידו",
+   "ctx": "רשימת הדמוקרטים, מקום 82"
+  },
+  {
+   "key": "candidates|democrats:83|display_name",
+   "he": "דקלה כהן",
+   "ctx": "רשימת הדמוקרטים, מקום 83"
+  },
+  {
+   "key": "candidates|democrats:83|official_name",
+   "he": "כהן דקלה",
+   "ctx": "רשימת הדמוקרטים, מקום 83"
+  },
+  {
+   "key": "candidates|democrats:84|display_name",
+   "he": "רועי סגמן",
+   "ctx": "רשימת הדמוקרטים, מקום 84"
+  },
+  {
+   "key": "candidates|democrats:84|official_name",
+   "he": "סגמן רועי",
+   "ctx": "רשימת הדמוקרטים, מקום 84"
+  },
+  {
+   "key": "candidates|democrats:85|display_name",
+   "he": "אבשלום פלד",
+   "ctx": "רשימת הדמוקרטים, מקום 85"
+  },
+  {
+   "key": "candidates|democrats:85|official_name",
+   "he": "פלד אבשלום",
+   "ctx": "רשימת הדמוקרטים, מקום 85"
+  },
+  {
+   "key": "candidates|democrats:86|display_name",
+   "he": "איזקוב נינה רחל",
+   "ctx": "רשימת הדמוקרטים, מקום 86"
+  },
+  {
+   "key": "candidates|democrats:87|display_name",
+   "he": "צביקה ניר",
+   "ctx": "רשימת הדמוקרטים, מקום 87 — צביקה ניר הוא סופר, משורר, משפטן ואיש ציבור ישראלי. החל מדצמבר 2015 מכ"
+  },
+  {
+   "key": "candidates|democrats:87|official_name",
+   "he": "ניר צביקה",
+   "ctx": "רשימת הדמוקרטים, מקום 87 — צביקה ניר הוא סופר, משורר, משפטן ואיש ציבור ישראלי. החל מדצמבר 2015 מכ"
+  },
+  {
+   "key": "candidates|democrats:88|display_name",
+   "he": "ינאי רובינשטיין",
+   "ctx": "רשימת הדמוקרטים, מקום 88"
+  },
+  {
+   "key": "candidates|democrats:88|official_name",
+   "he": "רובינשטיין ינאי",
+   "ctx": "רשימת הדמוקרטים, מקום 88"
+  },
+  {
+   "key": "candidates|democrats:89|display_name",
+   "he": "דבורי אברהם מנצ'ר",
+   "ctx": "רשימת הדמוקרטים, מקום 89"
+  },
+  {
+   "key": "candidates|democrats:90|display_name",
+   "he": "יורם קנדל",
+   "ctx": "רשימת הדמוקרטים, מקום 90"
+  },
+  {
+   "key": "candidates|democrats:90|official_name",
+   "he": "קנדל יורם",
+   "ctx": "רשימת הדמוקרטים, מקום 90"
+  },
+  {
+   "key": "candidates|democrats:91|display_name",
+   "he": "מאשה שיינדורף",
+   "ctx": "רשימת הדמוקרטים, מקום 91"
+  },
+  {
+   "key": "candidates|democrats:91|official_name",
+   "he": "שיינדורף מאשה",
+   "ctx": "רשימת הדמוקרטים, מקום 91"
+  },
+  {
+   "key": "candidates|democrats:92|display_name",
+   "he": "לורה ורטון",
+   "ctx": "רשימת הדמוקרטים, מקום 92"
+  }
+ ]
+}

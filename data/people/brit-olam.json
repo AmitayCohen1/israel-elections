@@ -1,0 +1,46 @@
+{
+  "slug": "brit-olam",
+  "researched_at": "2026-10-04",
+  "people": [
+    {
+      "position": 1,
+      "name": "עופר פינחס ליפשיץ",
+      "headline": null,
+      "facts": [],
+      "confidence": "low",
+      "notes": "נמצא רק כראש הרשימה; אין מידע קריירה."
+    },
+    {
+      "position": 2,
+      "name": "לב סבו",
+      "headline": null,
+      "facts": [],
+      "confidence": "low",
+      "notes": "לא נמצא מידע אמין."
+    },
+    {
+      "position": 3,
+      "name": "היאם עכאשה",
+      "headline": null,
+      "facts": [],
+      "confidence": "low",
+      "notes": "לא נמצא מידע אמין."
+    },
+    {
+      "position": 4,
+      "name": "האני זיאדה",
+      "headline": null,
+      "facts": [],
+      "confidence": "low",
+      "notes": "לא נמצא מידע אמין."
+    },
+    {
+      "position": 5,
+      "name": "שמעון שפירא",
+      "headline": null,
+      "facts": [],
+      "confidence": "low",
+      "notes": "שם נפוץ, לא זוהה."
+    }
+  ]
+}

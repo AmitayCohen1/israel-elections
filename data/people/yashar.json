@@ -1,0 +1,151 @@
+{
+ "slug": "yashar",
+ "researched_at": "2026-10-04",
+ "people": [
+  {
+   "position": 1,
+   "name": "גדי איזנקוט",
+   "headline": "רב-אלוף במילואים, הרמטכ\"ל לשעבר",
+   "facts": [
+    {
+     "label": "שירות צבאי ולאומי",
+     "value": "שירות בצה\"ל 1978–2019, מפקד חטיבת גולני; הרמטכ\"ל 2015–2019",
+     "source_url": "https://he.wikipedia.org/wiki/גדי_איזנקוט"
+    },
+    {
+     "label": "השכלה",
+     "value": "תואר ראשון בהיסטוריה (תל אביב), תואר שני במדע המדינה (חיפה)",
+     "source_url": "https://he.wikipedia.org/wiki/גדי_איזנקוט"
+    },
+    {
+     "label": "כנסת",
+     "value": "חבר כנסת נובמבר 2022 עד 2025",
+     "source_url": "https://he.wikipedia.org/wiki/גדי_איזנקוט"
+    },
+    {
+     "label": "תפקידים ציבוריים",
+     "value": "שר בלי תיק 2023–2024, משקיף בקבינט המלחמה",
+     "source_url": "https://he.wikipedia.org/wiki/גדי_איזנקוט"
+    }
+   ],
+   "confidence": "high",
+   "notes": "תיאור תפקיד מפלגתי שאינו ברור בסיכום לא נכלל."
+  },
+  {
+   "position": 2,
+   "name": "יורם כהן",
+   "headline": "ראש השב\"כ לשעבר",
+   "facts": [
+    {
+     "label": "שירות צבאי ולאומי",
+     "value": "שירות בצה\"ל מ-1979, לוחם בגולני",
+     "source_url": "https://he.wikipedia.org/wiki/יורם_כהן"
+    },
+    {
+     "label": "רקע מקצועי",
+     "value": "שירות בשב\"כ 1982–2016, ראש השב\"כ 2011–2016",
+     "source_url": "https://he.wikipedia.org/wiki/יורם_כהן"
+    },
+    {
+     "label": "השכלה",
+     "value": "תואר ראשון ושני במדע המדינה, אוניברסיטת חיפה",
+     "source_url": "https://he.wikipedia.org/wiki/יורם_כהן"
+    },
+    {
+     "label": "תפקידים ציבוריים",
+     "value": "מאז 2016 יועץ בתחום הביטחון ובעל תפקידי יעוץ בחברות סייבר",
+     "source_url": "https://he.wikipedia.org/wiki/יורם_כהן"
+    }
+   ],
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "position": 3,
+   "name": "אורית פרקש-הכהן",
+   "headline": "עורכת דין, שרת התיירות לשעבר",
+   "facts": [
+    {
+     "label": "רקע מקצועי",
+     "value": "עורכת דין; יועצת משפטית ברשות החשמל 2003–2011, יושבת ראש הרשות 2012–2015",
+     "source_url": "https://he.wikipedia.org/wiki/אורית_פרקש-הכהן"
+    },
+    {
+     "label": "השכלה",
+     "value": "תואר במשפטים (האוניברסיטה העברית 1988), תואר שני במנהל ציבורי מהרווארד",
+     "source_url": "https://he.wikipedia.org/wiki/אורית_פרקש-הכהן"
+    },
+    {
+     "label": "תפקידים ציבוריים",
+     "value": "שרת התיירות 2020–2021, שרת החדשנות והמדע 2021–2022",
+     "source_url": "https://he.wikipedia.org/wiki/אורית_פרקש-הכהן"
+    },
+    {
+     "label": "כנסת",
+     "value": "חברת כנסת מ-2019",
+     "source_url": "https://he.wikipedia.org/wiki/אורית_פרקש-הכהן"
+    }
+   ],
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "position": 4,
+   "name": "עדי אלטשולר",
+   "headline": "מייסדת תנועת נוער לילדים עם צרכים מיוחדים, יזמת חברתית",
+   "facts": [
+    {
+     "label": "רקע מקצועי",
+     "value": "הקימה את תנועת 'כנפיים של קרמבו' ב-2002; ניהלה את Google for Education בישראל 2013–2017",
+     "source_url": "https://he.wikipedia.org/wiki/עדי_אלטשולר"
+    },
+    {
+     "label": "רקע מקצועי",
+     "value": "מייסדת עמותת 'אינקלו' לחינוך מכיל מ-2017",
+     "source_url": "https://he.wikipedia.org/wiki/עדי_אלטשולר"
+    },
+    {
+     "label": "השכלה",
+     "value": "בוגרת בצלאל, האקדמיה לאמנות ועיצוב",
+     "source_url": "https://he.wikipedia.org/wiki/עדי_אלטשולר"
+    },
+    {
+     "label": "תפקידים ציבוריים",
+     "value": "הדליקה משואה בטקס יום העצמאות 2020",
+     "source_url": "https://he.wikipedia.org/wiki/עדי_אלטשולר"
+    }
+   ],
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "position": 5,
+   "name": "מתן כהנא",
+   "headline": "אלוף-משנה במילואים, טייס קרב, שר לשעבר",
+   "facts": [
+    {
+     "label": "שירות צבאי ולאומי",
+     "value": "שירות בחיל האוויר 1990–2018, טייס קרב ומפקד טייסת, דרגת אלוף-משנה",
+     "source_url": "https://he.wikipedia.org/wiki/מתן_כהנא"
+    },
+    {
+     "label": "השכלה",
+     "value": "תואר ראשון ושני במשפטים, אוניברסיטת בר-אילן",
+     "source_url": "https://he.wikipedia.org/wiki/מתן_כהנא"
+    },
+    {
+     "label": "תפקידים ציבוריים",
+     "value": "שר לשירותי דת 2021–2022",
+     "source_url": "https://he.wikipedia.org/wiki/מתן_כהנא"
+    },
+    {
+     "label": "כנסת",
+     "value": "חבר כנסת 2019–2025",
+     "source_url": "https://he.wikipedia.org/wiki/מתן_כהנא"
+    }
+   ],
+   "confidence": "high",
+   "notes": ""
+  }
+ ]
+}

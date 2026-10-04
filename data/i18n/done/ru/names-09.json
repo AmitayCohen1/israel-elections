@@ -1,0 +1,752 @@
+[
+ {
+  "key": "candidates|partnership-for-all:3|display_name",
+  "he": "בשארה שליאן",
+  "value": "Башара Шлиан"
+ },
+ {
+  "key": "candidates|partnership-for-all:3|official_name",
+  "he": "שליאן בשארה",
+  "value": "Башара Шлиан"
+ },
+ {
+  "key": "candidates|partnership-for-all:4|display_name",
+  "he": "כהן אליעזר עופר",
+  "value": "Офер Элиэзер Коэн"
+ },
+ {
+  "key": "candidates|partnership-for-all:5|display_name",
+  "he": "עודד גול-ורדי",
+  "value": "Одед Голь-Верди"
+ },
+ {
+  "key": "candidates|partnership-for-all:5|official_name",
+  "he": "גול-ורדי עודד",
+  "value": "Одед Голь-Верди"
+ },
+ {
+  "key": "candidates|partnership-for-all:6|display_name",
+  "he": "בדר אסתיבן ג'ון",
+  "value": "Джон Эстебан Бадр"
+ },
+ {
+  "key": "candidates|partnership-for-all:7|display_name",
+  "he": "עאדל שחאדה",
+  "value": "Адель Шехада"
+ },
+ {
+  "key": "candidates|partnership-for-all:7|official_name",
+  "he": "שחאדה עאדל",
+  "value": "Адель Шехада"
+ },
+ {
+  "key": "candidates|personal-safety:1|display_name",
+  "he": "מיכאל טופצ'יאשוילי",
+  "value": "Михаил Топчиашвили"
+ },
+ {
+  "key": "candidates|personal-safety:1|official_name",
+  "he": "טופצ'יאשוילי מיכאל",
+  "value": "Михаил Топчиашвили"
+ },
+ {
+  "key": "candidates|personal-safety:2|display_name",
+  "he": "גבריאל קיקוזשוילי",
+  "value": "Габриэль Кикозашвили"
+ },
+ {
+  "key": "candidates|personal-safety:2|official_name",
+  "he": "קיקוזשוילי גבריאל",
+  "value": "Габриэль Кикозашвили"
+ },
+ {
+  "key": "candidates|personal-safety:3|display_name",
+  "he": "איליה קיקוזשווילי",
+  "value": "Илья Кикозашвили"
+ },
+ {
+  "key": "candidates|personal-safety:3|official_name",
+  "he": "קיקוזשווילי איליה",
+  "value": "Илья Кикозашвили"
+ },
+ {
+  "key": "candidates|personal-safety:4|display_name",
+  "he": "מקואלה חונדיאשוילי",
+  "value": "Макуала Хундиашвили"
+ },
+ {
+  "key": "candidates|personal-safety:4|official_name",
+  "he": "חונדיאשוילי מקואלה",
+  "value": "Макуала Хундиашвили"
+ },
+ {
+  "key": "candidates|personal-safety:5|display_name",
+  "he": "נודרי יוסבאשוילי",
+  "value": "Нодари Иосебашвили"
+ },
+ {
+  "key": "candidates|personal-safety:5|official_name",
+  "he": "יוסבאשוילי נודרי",
+  "value": "Нодари Иосебашвили"
+ },
+ {
+  "key": "candidates|personal-safety:6|display_name",
+  "he": "יפית קיקוזשוילי",
+  "value": "Яфит Кикозашвили"
+ },
+ {
+  "key": "candidates|personal-safety:6|official_name",
+  "he": "קיקוזשוילי יפית",
+  "value": "Яфит Кикозашвили"
+ },
+ {
+  "key": "candidates|pirates:1|display_name",
+  "he": "שם טוב אוהד יעקב",
+  "value": "Охад Яаков Шем-Тов"
+ },
+ {
+  "key": "candidates|pirates:2|display_name",
+  "he": "כוזר ויסגרבר נועם",
+  "value": "Ноам Хозар Вайсгербер"
+ },
+ {
+  "key": "candidates|pirates:3|display_name",
+  "he": "דן אריאלי",
+  "value": "Дан Ариэли"
+ },
+ {
+  "key": "candidates|pirates:3|official_name",
+  "he": "אריאלי דן",
+  "value": "Дан Ариэли"
+ },
+ {
+  "key": "candidates|pirates:4|display_name",
+  "he": "מיטל רום",
+  "value": "Миталь Ром"
+ },
+ {
+  "key": "candidates|pirates:4|official_name",
+  "he": "רום מיטל",
+  "value": "Миталь Ром"
+ },
+ {
+  "key": "candidates|pirates:5|display_name",
+  "he": "קלייטמן רועי אברהם",
+  "value": "Рои Авраам Клейтман"
+ },
+ {
+  "key": "candidates|pirates:6|display_name",
+  "he": "לידיה מלטין",
+  "value": "Лидия Малтин"
+ },
+ {
+  "key": "candidates|pirates:6|official_name",
+  "he": "מלטין לידיה",
+  "value": "Лидия Малтин"
+ },
+ {
+  "key": "candidates|pirates:7|display_name",
+  "he": "לילך רובין",
+  "value": "Лилах Рубин"
+ },
+ {
+  "key": "candidates|pirates:7|official_name",
+  "he": "רובין לילך",
+  "value": "Лилах Рубин"
+ },
+ {
+  "key": "candidates|pirates:8|display_name",
+  "he": "פלבר דניאל בנימין",
+  "value": "Даниэль Биньямин Фелбер"
+ },
+ {
+  "key": "candidates|pirates:9|display_name",
+  "he": "דוד אילון",
+  "value": "Давид Эйлон"
+ },
+ {
+  "key": "candidates|pirates:9|official_name",
+  "he": "אילון דוד",
+  "value": "Давид Эйлон"
+ },
+ {
+  "key": "candidates|pirates:10|display_name",
+  "he": "גולדשטיין קיט לורנס",
+  "value": "Кит Лоуренс Гольдштейн"
+ },
+ {
+  "key": "candidates|pirates:11|display_name",
+  "he": "הופמן תהילה רון",
+  "value": "Тхила Рон Хофман"
+ },
+ {
+  "key": "candidates|pirates:12|display_name",
+  "he": "אביטל ורטהימר",
+  "value": "Авиталь Вертхаймер"
+ },
+ {
+  "key": "candidates|pirates:12|official_name",
+  "he": "ורטהימר אביטל",
+  "value": "Авиталь Вертхаймер"
+ },
+ {
+  "key": "candidates|pirates:13|display_name",
+  "he": "הללה סולברג רעי",
+  "value": "Халела Сольберг-Рай"
+ },
+ {
+  "key": "candidates|pirates:14|display_name",
+  "he": "ריינהרד סטו",
+  "value": "Райнхард Сто"
+ },
+ {
+  "key": "candidates|pirates:14|official_name",
+  "he": "סטו ריינהרד",
+  "value": "Райнхард Сто"
+ },
+ {
+  "key": "candidates|pirates:15|display_name",
+  "he": "ניר שגב",
+  "value": "Нир Сегев"
+ },
+ {
+  "key": "candidates|pirates:15|official_name",
+  "he": "שגב ניר",
+  "value": "Нир Сегев"
+ },
+ {
+  "key": "candidates|pirates:16|display_name",
+  "he": "זיו מרון רמי",
+  "value": "Рами Зив-Марон"
+ },
+ {
+  "key": "candidates|pirates:17|display_name",
+  "he": "נתנאל כהן",
+  "value": "Нетанэль Коэн"
+ },
+ {
+  "key": "candidates|pirates:17|official_name",
+  "he": "כהן נתנאל",
+  "value": "Нетанэль Коэн"
+ },
+ {
+  "key": "candidates|pirates:18|display_name",
+  "he": "חיים אלמקיאס",
+  "value": "Хаим Альмакиас"
+ },
+ {
+  "key": "candidates|pirates:18|official_name",
+  "he": "אלמקיאס חיים",
+  "value": "Хаим Альмакиас"
+ },
+ {
+  "key": "candidates|pirates:19|display_name",
+  "he": "חלמיש אהוד שחר",
+  "value": "Эхуд Шахар Хальмиш"
+ },
+ {
+  "key": "candidates|pirates:20|display_name",
+  "he": "וינשטיין יואב דוד",
+  "value": "Йоав Давид Вайнштейн"
+ },
+ {
+  "key": "candidates|pirates:21|display_name",
+  "he": "דור-שמשון נהיר",
+  "value": "Дор-Шимшон Нахир"
+ },
+ {
+  "key": "candidates|pirates:21|official_name",
+  "he": "נהיר דור-שמשון",
+  "value": "Дор-Шимшон Нахир"
+ },
+ {
+  "key": "candidates|pirates:22|display_name",
+  "he": "אורי גור",
+  "value": "Ури Гур"
+ },
+ {
+  "key": "candidates|pirates:22|official_name",
+  "he": "גור אורי",
+  "value": "Ури Гур"
+ },
+ {
+  "key": "candidates|pirates:23|display_name",
+  "he": "נתנאל רומנו",
+  "value": "Нетанэль Романо"
+ },
+ {
+  "key": "candidates|pirates:23|official_name",
+  "he": "רומנו נתנאל",
+  "value": "Нетанэль Романо"
+ },
+ {
+  "key": "candidates|pirates:24|display_name",
+  "he": "אור-מרדכי אורן",
+  "value": "Ор-Мордехай Орен"
+ },
+ {
+  "key": "candidates|pirates:24|official_name",
+  "he": "אורן אור-מרדכי",
+  "value": "Ор-Мордехай Орен"
+ },
+ {
+  "key": "candidates|raam:1|display_name",
+  "he": "מנסור עבאס",
+  "value": "Мансур Аббас"
+ },
+ {
+  "key": "candidates|raam:1|official_name",
+  "he": "עבאס מנסור",
+  "value": "Мансур Аббас"
+ },
+ {
+  "key": "candidates|raam:2|display_name",
+  "he": "יואב סגלוביץ",
+  "value": "Йоав Сегалович"
+ },
+ {
+  "key": "candidates|raam:2|official_name",
+  "he": "סגלוביץ יואב",
+  "value": "Йоав Сегалович"
+ },
+ {
+  "key": "candidates|raam:3|display_name",
+  "he": "וליד טאהא",
+  "value": "Валид Таха"
+ },
+ {
+  "key": "candidates|raam:3|official_name",
+  "he": "טאהא ווליד",
+  "value": "Валид Таха"
+ },
+ {
+  "key": "candidates|raam:4|display_name",
+  "he": "ואליד אלהואשלה",
+  "value": "Валид аль-Хуашла"
+ },
+ {
+  "key": "candidates|raam:4|official_name",
+  "he": "אל הואשלה ואליד",
+  "value": "Валид аль-Хуашла"
+ },
+ {
+  "key": "candidates|raam:5|display_name",
+  "he": "אימאן ח'טיב-יאסין",
+  "value": "Иман Хатиб-Ясин"
+ },
+ {
+  "key": "candidates|raam:5|official_name",
+  "he": "חטיב יאסין אימאן",
+  "value": "Иман Хатиб-Ясин"
+ },
+ {
+  "key": "candidates|raam:6|display_name",
+  "he": "יאסר חוג'יראת",
+  "value": "Ясир Хаджират"
+ },
+ {
+  "key": "candidates|raam:6|official_name",
+  "he": "חוגיראת יאסר",
+  "value": "Ясир Хаджират"
+ },
+ {
+  "key": "candidates|raam:7|display_name",
+  "he": "אברהים אל טורי",
+  "value": "Ибрагим ат-Тури"
+ },
+ {
+  "key": "candidates|raam:7|official_name",
+  "he": "אל טורי איברהים",
+  "value": "Ибрагим ат-Тури"
+ },
+ {
+  "key": "candidates|raam:8|display_name",
+  "he": "עבד אל-כרים מסרי",
+  "value": "Абд аль-Карим Масри"
+ },
+ {
+  "key": "candidates|raam:8|official_name",
+  "he": "מסרי עבד אל כרים",
+  "value": "Абд аль-Карим Масри"
+ },
+ {
+  "key": "candidates|raam:9|display_name",
+  "he": "עבד אל-כרים עזאם",
+  "value": "Абд аль-Карим Азам"
+ },
+ {
+  "key": "candidates|raam:9|official_name",
+  "he": "עזאם עבד אל כרים",
+  "value": "Абд аль-Карим Азам"
+ },
+ {
+  "key": "candidates|raam:10|display_name",
+  "he": "אברהים אבו לבן",
+  "value": "Ибрагим Абу Лубан"
+ },
+ {
+  "key": "candidates|raam:10|official_name",
+  "he": "אבו לבן אבראהים",
+  "value": "Ибрагим Абу Лубан"
+ },
+ {
+  "key": "candidates|raam:11|display_name",
+  "he": "מוחמד הייב",
+  "value": "Мухаммад Хаиб"
+ },
+ {
+  "key": "candidates|raam:11|official_name",
+  "he": "הייב מוחמד",
+  "value": "Мухаммад Хаиб"
+ },
+ {
+  "key": "candidates|raam:12|display_name",
+  "he": "אבו מוך המאם",
+  "value": "Хамам Абу Мух"
+ },
+ {
+  "key": "candidates|raam:13|display_name",
+  "he": "יאסר אלחרומי",
+  "value": "Ясир аль-Хруми"
+ },
+ {
+  "key": "candidates|raam:13|official_name",
+  "he": "אלחרומי יאסר",
+  "value": "Ясир аль-Хруми"
+ },
+ {
+  "key": "candidates|raam:14|display_name",
+  "he": "מוחמד זבידאת",
+  "value": "Мухаммад Забидат"
+ },
+ {
+  "key": "candidates|raam:14|official_name",
+  "he": "זבידאת מוחמד",
+  "value": "Мухаммад Забидат"
+ },
+ {
+  "key": "candidates|raam:15|display_name",
+  "he": "כמאל עישאן",
+  "value": "Камаль Исан"
+ },
+ {
+  "key": "candidates|raam:15|official_name",
+  "he": "עישאן כמאל",
+  "value": "Камаль Исан"
+ },
+ {
+  "key": "candidates|raam:16|display_name",
+  "he": "אשרף עדוי",
+  "value": "Ашраф Адауи"
+ },
+ {
+  "key": "candidates|raam:16|official_name",
+  "he": "עדוי אשרף",
+  "value": "Ашраф Адауи"
+ },
+ {
+  "key": "candidates|raam:17|display_name",
+  "he": "סוהיב אלעמור",
+  "value": "Сухейб аль-Амур"
+ },
+ {
+  "key": "candidates|raam:17|official_name",
+  "he": "אלעמור סוהיב",
+  "value": "Сухейб аль-Амур"
+ },
+ {
+  "key": "candidates|raam:18|display_name",
+  "he": "זועבי נסר אלדין",
+  "value": "Наср ад-Дин Зуаби"
+ },
+ {
+  "key": "candidates|raam:19|display_name",
+  "he": "נמר חוסין",
+  "value": "Нимр Хусейн"
+ },
+ {
+  "key": "candidates|raam:19|official_name",
+  "he": "חוסין נמר",
+  "value": "Нимр Хусейн"
+ },
+ {
+  "key": "candidates|raam:20|display_name",
+  "he": "יחיא דהאמשה",
+  "value": "Яхья Дахамше"
+ },
+ {
+  "key": "candidates|raam:20|official_name",
+  "he": "דהאמשה יחיא",
+  "value": "Яхья Дахамше"
+ },
+ {
+  "key": "candidates|raam:21|display_name",
+  "he": "דאוד עפאן",
+  "value": "Дауд Афан"
+ },
+ {
+  "key": "candidates|raam:21|official_name",
+  "he": "עפאן דאוד",
+  "value": "Дауд Афан"
+ },
+ {
+  "key": "candidates|raam:22|display_name",
+  "he": "ראפת גנאים",
+  "value": "Рафат Гнаим"
+ },
+ {
+  "key": "candidates|raam:22|official_name",
+  "he": "גנאים ראפת",
+  "value": "Рафат Гнаим"
+ },
+ {
+  "key": "candidates|raam:23|display_name",
+  "he": "חגאזי סאלח אנהאר",
+  "value": "Анхар Салех Хиджази"
+ },
+ {
+  "key": "candidates|raam:24|display_name",
+  "he": "באסם דראושה",
+  "value": "Басем Дарауше"
+ },
+ {
+  "key": "candidates|raam:24|official_name",
+  "he": "דראושה באסם",
+  "value": "Басем Дарауше"
+ },
+ {
+  "key": "candidates|raam:25|display_name",
+  "he": "אחמד ותד",
+  "value": "Ахмад Ватад"
+ },
+ {
+  "key": "candidates|raam:25|official_name",
+  "he": "ותד אחמד",
+  "value": "Ахмад Ватад"
+ },
+ {
+  "key": "candidates|raam:26|display_name",
+  "he": "אדם אלטורי",
+  "value": "Адам ат-Тури"
+ },
+ {
+  "key": "candidates|raam:26|official_name",
+  "he": "אלטורי אדם",
+  "value": "Адам ат-Тури"
+ },
+ {
+  "key": "candidates|raam:27|display_name",
+  "he": "איימן חרוב",
+  "value": "Айман Харуб"
+ },
+ {
+  "key": "candidates|raam:27|official_name",
+  "he": "חרוב איימן",
+  "value": "Айман Харуб"
+ },
+ {
+  "key": "candidates|raam:28|display_name",
+  "he": "חמודה חנאן",
+  "value": "Хамуда Ханан"
+ },
+ {
+  "key": "candidates|raam:28|official_name",
+  "he": "חנאן חמודה",
+  "value": "Хамуда Ханан"
+ },
+ {
+  "key": "candidates|raam:29|display_name",
+  "he": "יאסמין חמדאן",
+  "value": "Ясмин Хамдан"
+ },
+ {
+  "key": "candidates|raam:29|official_name",
+  "he": "חמדאן יאסמין",
+  "value": "Ясмин Хамдан"
+ },
+ {
+  "key": "candidates|raam:30|display_name",
+  "he": "פאטמה בשותי",
+  "value": "Фатима Башути"
+ },
+ {
+  "key": "candidates|raam:30|official_name",
+  "he": "בשותי פאטמה",
+  "value": "Фатима Башути"
+ },
+ {
+  "key": "candidates|raam:31|display_name",
+  "he": "דאהר אמארה",
+  "value": "Захер Амара"
+ },
+ {
+  "key": "candidates|raam:31|official_name",
+  "he": "אמארה דאהר",
+  "value": "Захер Амара"
+ },
+ {
+  "key": "candidates|raam:32|display_name",
+  "he": "עבדו עתמה",
+  "value": "Абдо Атма"
+ },
+ {
+  "key": "candidates|raam:32|official_name",
+  "he": "עתמה עבדו",
+  "value": "Абдо Атма"
+ },
+ {
+  "key": "candidates|raam:33|display_name",
+  "he": "מוחמד הייב",
+  "value": "Мухаммад Хаиб"
+ },
+ {
+  "key": "candidates|raam:33|official_name",
+  "he": "הייב מוחמד",
+  "value": "Мухаммад Хаиб"
+ },
+ {
+  "key": "candidates|raam:34|display_name",
+  "he": "אחמד חסן",
+  "value": "Ахмад Хасан"
+ },
+ {
+  "key": "candidates|raam:34|official_name",
+  "he": "חסן אחמד",
+  "value": "Ахмад Хасан"
+ },
+ {
+  "key": "candidates|raam:35|display_name",
+  "he": "עאסי ריאן חנין",
+  "value": "Ханин Риан Аси"
+ },
+ {
+  "key": "candidates|raam:36|display_name",
+  "he": "מוחמד נעראני",
+  "value": "Мухаммад Нарани"
+ },
+ {
+  "key": "candidates|raam:36|official_name",
+  "he": "נעראני מוחמד",
+  "value": "Мухаммад Нарани"
+ },
+ {
+  "key": "candidates|raam:37|display_name",
+  "he": "מוחמד עבאס",
+  "value": "Мухаммад Аббас"
+ },
+ {
+  "key": "candidates|raam:37|official_name",
+  "he": "עבאס מוחמד",
+  "value": "Мухаммад Аббас"
+ },
+ {
+  "key": "candidates|raam:38|display_name",
+  "he": "מנאל חסן",
+  "value": "Маналь Хасан"
+ },
+ {
+  "key": "candidates|raam:38|official_name",
+  "he": "חסן מנאל",
+  "value": "Маналь Хасан"
+ },
+ {
+  "key": "candidates|raam:39|display_name",
+  "he": "זהרה מנסור",
+  "value": "Зухра Мансур"
+ },
+ {
+  "key": "candidates|raam:39|official_name",
+  "he": "מנסור זהרה",
+  "value": "Зухра Мансур"
+ },
+ {
+  "key": "candidates|raam:40|display_name",
+  "he": "מנאר זריקאת",
+  "value": "Манар Зарикат"
+ },
+ {
+  "key": "candidates|raam:40|official_name",
+  "he": "זריקאת מנאר",
+  "value": "Манар Зарикат"
+ },
+ {
+  "key": "candidates|raam:41|display_name",
+  "he": "אדיב חמדאן",
+  "value": "Адиб Хамдан"
+ },
+ {
+  "key": "candidates|raam:41|official_name",
+  "he": "חמדאן אדיב",
+  "value": "Адиб Хамдан"
+ },
+ {
+  "key": "candidates|raam:42|display_name",
+  "he": "נאיל מחאמיד",
+  "value": "Наиль Махамид"
+ },
+ {
+  "key": "candidates|raam:42|official_name",
+  "he": "מחאמיד נאיל",
+  "value": "Наиль Махамид"
+ },
+ {
+  "key": "candidates|raam:43|display_name",
+  "he": "פאדי עגאוי",
+  "value": "Фади Агави"
+ },
+ {
+  "key": "candidates|raam:43|official_name",
+  "he": "עגאוי פאדי",
+  "value": "Фади Агави"
+ },
+ {
+  "key": "candidates|raam:44|display_name",
+  "he": "עוד אללה תחריר",
+  "value": "Ауда Аллах Тахрир"
+ },
+ {
+  "key": "candidates|raam:45|display_name",
+  "he": "וטפה אגבאריה",
+  "value": "Ватфа Агбария"
+ },
+ {
+  "key": "candidates|raam:45|official_name",
+  "he": "אגבאריה וטפה",
+  "value": "Ватфа Агбария"
+ },
+ {
+  "key": "candidates|raam:46|display_name",
+  "he": "עדן גלגולי",
+  "value": "Аден Гальгули"
+ },
+ {
+  "key": "candidates|raam:46|official_name",
+  "he": "גלגולי עדן",
+  "value": "Аден Гальгули"
+ },
+ {
+  "key": "candidates|raam:47|display_name",
+  "he": "מוחמד חאמד",
+  "value": "Мухаммад Хамед"
+ },
+ {
+  "key": "candidates|raam:47|official_name",
+  "he": "חאמד מוחמד",
+  "value": "Мухаммад Хамед"
+ },
+ {
+  "key": "candidates|raam:48|display_name",
+  "he": "מייתא הייב",
+  "value": "Майята Хаиб"
+ },
+ {
+  "key": "candidates|raam:48|official_name",
+  "he": "הייב מייתא",
+  "value": "Майята Хаиб"
+ },
+ {
+  "key": "candidates|raam:49|display_name",
+  "he": "אבראהים אגבאריה",
+  "value": "Ибрагим Агбария"
+ }
+]

@@ -1,0 +1,120 @@
+{
+  "slug": "together",
+  "researched_at": "2026-10-03",
+  "links": [
+    {
+      "url": "https://be-yahad.org.il/",
+      "kind": "website",
+      "title": "האתר הרשמי",
+      "owner": "list",
+      "found_via": "seed + fetched",
+      "status": "ok"
+    },
+    {
+      "url": "https://be-yahad.org.il/plans/",
+      "kind": "platform",
+      "title": "תוכניות ביחד נתקן",
+      "owner": "list",
+      "found_via": "seed",
+      "status": "ok"
+    },
+    {
+      "url": "https://be-yahad.org.il/the-scroll/",
+      "kind": "positions_page",
+      "title": "עקרונות",
+      "owner": "list",
+      "found_via": "seed",
+      "status": "ok"
+    },
+    {
+      "url": "https://be-yahad.org.il/volunteer/",
+      "kind": "other",
+      "title": "התנדבות",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://be-yahad.org.il/product/donate/",
+      "kind": "other",
+      "title": "תרומות",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://be-yahad.org.il/team/",
+      "kind": "other",
+      "title": "צוות",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://whatsapp.com/channel/0029VajOGiwCHDyhLzHerf3W",
+      "kind": "whatsapp",
+      "title": "ערוץ וואטסאפ",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.facebook.com/NaftaliBennett",
+      "kind": "leader_facebook",
+      "title": "פייסבוק נפתלי בנט",
+      "owner": "נפתלי בנט",
+      "found_via": "linked from official site header/footer",
+      "status": "login-wall"
+    },
+    {
+      "url": "https://www.instagram.com/naftalibennett",
+      "kind": "leader_instagram",
+      "title": "אינסטגרם נפתלי בנט",
+      "owner": "נפתלי בנט",
+      "found_via": "linked from official site header/footer",
+      "status": "login-wall"
+    },
+    {
+      "url": "https://x.com/naftalibennett",
+      "kind": "leader_x",
+      "title": "X נפתלי בנט",
+      "owner": "נפתלי בנט",
+      "found_via": "linked from official site header/footer",
+      "status": "login-wall"
+    },
+    {
+      "url": "https://www.youtube.com/user/naftalibennett",
+      "kind": "leader_youtube",
+      "title": "יוטיוב נפתלי בנט",
+      "owner": "נפתלי בנט",
+      "found_via": "linked from official site header/footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.tiktok.com/@naftalibennett_official",
+      "kind": "leader_tiktok",
+      "title": "טיקטוק נפתלי בנט",
+      "owner": "נפתלי בנט",
+      "found_via": "linked from official site header/footer",
+      "status": "login-wall"
+    },
+    {
+      "url": "https://t.me/s/naftalibennett1",
+      "kind": "leader_telegram",
+      "title": "טלגרם נפתלי בנט",
+      "owner": "נפתלי בנט",
+      "found_via": "linked from official site header/footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://linkedin.com/in/naftalibennett",
+      "kind": "other",
+      "title": "לינקדאין נפתלי בנט",
+      "owner": "נפתלי בנט",
+      "found_via": "linked from official site header/footer",
+      "status": "login-wall"
+    }
+  ],
+  "unverified": [],
+  "notes": "אתר הרשימה מקשר רק לחשבונות האישיים של בנט (ולא לחשבונות ייעודיים לרשימה או ליאיר לפיד). לא חיפשתי חשבונות לפיד/יש עתיד; ערוץ הוואטסאפ מקושר מהאתר ולכן מסווג כרשימה. ישנם עשרות קישורי קבוצות וואטסאפ אזוריות באתר (לא נוספו)."
+}

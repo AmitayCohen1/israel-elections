@@ -1,0 +1,115 @@
+{
+  "slug": "reservists-economic",
+  "researched_at": "2026-10-04",
+  "people": [
+    {
+      "position": 1,
+      "name": "יועז הנדל",
+      "headline": "מג\"ד מילואים (סא\"ל), שר התקשורת לשעבר, יו\"ר המילואימניקים",
+      "facts": [
+        {
+          "label": "שירות צבאי ולאומי",
+          "value": "התגייס 1993, לחם בשייטת 13; ב-2015 הקים את יחידת עומר; הקים בעת מלחמת חרבות ברזל גדוד מילואים",
+          "source_url": "https://he.wikipedia.org/wiki/%D7%99%D7%95%D7%A2%D7%96_%D7%94%D7%A0%D7%93%D7%9C"
+        },
+        {
+          "label": "רקע מקצועי",
+          "value": "דוקטור להיסטוריה, מרצה לשעבר בבר-אילן, יזם ושותף בקרן דיפנס טק",
+          "source_url": "https://he.wikipedia.org/wiki/%D7%99%D7%95%D7%A2%D7%96_%D7%94%D7%A0%D7%93%D7%9C"
+        },
+        {
+          "label": "תפקידים ציבוריים",
+          "value": "שר התקשורת וחבר כנסת לשעבר; יו\"ר מפלגת המילואימניקים",
+          "source_url": "https://he.wikipedia.org/wiki/%D7%99%D7%95%D7%A2%D7%96_%D7%94%D7%A0%D7%93%D7%9C"
+        }
+      ],
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "position": 2,
+      "name": "ירון זליכה",
+      "headline": "כלכלן ורואה חשבון, החשב הכללי באוצר 2003–2007, פרופסור",
+      "facts": [
+        {
+          "label": "תפקידים ציבוריים",
+          "value": "החשב הכללי במשרד האוצר 2003–2007",
+          "source_url": "https://he.wikipedia.org/wiki/%D7%99%D7%A8%D7%95%D7%9F_%D7%96%D7%9C%D7%99%D7%9B%D7%94"
+        },
+        {
+          "label": "רקע מקצועי",
+          "value": "1996–1998 מנהל התחום הכלכלי במשרד ראש הממשלה; ראש התמחות בחשבונאות בקריה האקדמית אונו",
+          "source_url": "https://he.wikipedia.org/wiki/%D7%99%D7%A8%D7%95%D7%9F_%D7%96%D7%9C%D7%99%D7%9B%D7%94"
+        },
+        {
+          "label": "תפקידים ציבוריים",
+          "value": "הקים את \"המפלגה הכלכלית החדשה\", התמודד בכנסת ה-24 וה-25",
+          "source_url": "https://he.wikipedia.org/wiki/%D7%99%D7%A8%D7%95%D7%9F_%D7%96%D7%9C%D7%99%D7%9B%D7%94"
+        },
+        {
+          "label": "השכלה",
+          "value": "תואר ראשון בכלכלה וחשבונאות, בר-אילן, 1994",
+          "source_url": "https://he.wikipedia.org/wiki/%D7%99%D7%A8%D7%95%D7%9F_%D7%96%D7%9C%D7%99%D7%9B%D7%94"
+        }
+      ],
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "position": 3,
+      "name": "עינת וילף",
+      "headline": "דוקטור למדע המדינה, חברת הכנסת ה-18, יועצת מדינית לשמעון פרס",
+      "facts": [
+        {
+          "label": "שירות צבאי ולאומי",
+          "value": "קצינה ביחידה 8200",
+          "source_url": "https://he.wikipedia.org/wiki/%D7%A2%D7%99%D7%A0%D7%AA_%D7%95%D7%99%D7%9C%D7%A3"
+        },
+        {
+          "label": "תפקידים ציבוריים",
+          "value": "2002–2006 יועצת מדינית למשנה לראש הממשלה שמעון פרס",
+          "source_url": "https://he.wikipedia.org/wiki/%D7%A2%D7%99%D7%A0%D7%AA_%D7%95%D7%99%D7%9C%D7%A3"
+        },
+        {
+          "label": "רקע מקצועי",
+          "value": "יועצת במקינזי; שותפה מנהלת בקרן ההון סיכון של כור תעשיות",
+          "source_url": "https://he.wikipedia.org/wiki/%D7%A2%D7%99%D7%A0%D7%AA_%D7%95%D7%99%D7%9C%D7%A3"
+        },
+        {
+          "label": "כנסת",
+          "value": "חברת הכנסת ה-18 מטעם העבודה והעצמאות; יו\"ר ועדת החינוך",
+          "source_url": "https://he.wikipedia.org/wiki/%D7%A2%D7%99%D7%A0%D7%AA_%D7%95%D7%99%D7%9C%D7%A3"
+        }
+      ],
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "position": 4,
+      "name": "חביב ווליבוביץ",
+      "headline": null,
+      "facts": [],
+      "confidence": "low",
+      "notes": "לא נמצא מקור אמין על חביב ווליבוביץ (חיפוש בעברית ובאנגלית, ללא תוצאה)."
+    },
+    {
+      "position": 5,
+      "name": "יואב שלמה אדומי",
+      "headline": "ממקימי מפלגת המילואימניקים, קצין מילואים",
+      "facts": [
+        {
+          "label": "תפקידים ציבוריים",
+          "value": "ממקימי ומנהיגי מפלגת המילואימניקים; מועמד מס' 5 ברשימה המשותפת",
+          "source_url": "https://en.wikipedia.org/wiki/The_Reservists_(political_party)"
+        },
+        {
+          "label": "שירות צבאי ולאומי",
+          "value": "קצין מילואים (Major Res.)",
+          "source_url": "https://en.wikipedia.org/wiki/The_Reservists_(political_party)"
+        }
+      ],
+      "confidence": "low",
+      "notes": "מקור אנגלי תמציתי; דיווח אחר תיאר אותו כרס\"ר גדוד 8111, לכן הדרגה לא חד-משמעית."
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "amcha-yisrael",
+  "researched_at": "2026-10-03",
+  "links": [
+    {
+      "url": "https://amchaisrael.co.il/",
+      "kind": "website",
+      "title": "האתר הרשמי",
+      "owner": "list",
+      "found_via": "seed; opened",
+      "status": "ok"
+    },
+    {
+      "url": "https://amchaisrael.co.il/foundations",
+      "kind": "platform",
+      "title": "אבני היסוד",
+      "owner": "list",
+      "found_via": "site menu",
+      "status": "ok"
+    },
+    {
+      "url": "https://amchaisrael.co.il/team",
+      "kind": "other",
+      "title": "הצוות והמועמדים",
+      "owner": "list",
+      "found_via": "site menu",
+      "status": "ok"
+    },
+    {
+      "url": "https://amchaisrael.co.il/events",
+      "kind": "other",
+      "title": "אירועים",
+      "owner": "list",
+      "found_via": "site menu",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.facebook.com/amchaisraelparty/",
+      "kind": "facebook",
+      "title": "עמוד הפייסבוק",
+      "owner": "list",
+      "found_via": "linked from official site",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.instagram.com/amcha_israel/",
+      "kind": "instagram",
+      "title": "אינסטגרם",
+      "owner": "list",
+      "found_via": "linked from official site",
+      "status": "ok"
+    },
+    {
+      "url": "https://go.oferwinter.co.il/whatsapp",
+      "kind": "whatsapp",
+      "title": "הצטרפות לוואטסאפ",
+      "owner": "list",
+      "found_via": "linked from official site",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.facebook.com/profile.php?id=100004463802432",
+      "kind": "leader_facebook",
+      "title": "פייסבוק של עופר וינטר",
+      "owner": "עופר וינטר",
+      "found_via": "official site /team page",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.instagram.com/ofer_winter/",
+      "kind": "leader_instagram",
+      "title": "אינסטגרם של עופר וינטר",
+      "owner": "עופר וינטר",
+      "found_via": "official site /team page",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.youtube.com/@winterofer",
+      "kind": "leader_youtube",
+      "title": "יוטיוב של עופר וינטר",
+      "owner": "עופר וינטר",
+      "found_via": "official site /team page",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.tiktok.com/@winterofer",
+      "kind": "leader_tiktok",
+      "title": "טיקטוק של עופר וינטר",
+      "owner": "עופר וינטר",
+      "found_via": "official site /team page",
+      "status": "ok"
+    }
+  ],
+  "unverified": [],
+  "notes": "Other team members have personal accounts on /team (not catalogued). gov.il 403."
+}

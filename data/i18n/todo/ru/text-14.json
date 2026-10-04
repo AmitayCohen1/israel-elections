@@ -1,0 +1,137 @@
+{
+ "locale": "ru",
+ "series": "text",
+ "target_language": "Russian",
+ "source_language": "Hebrew",
+ "instructions": "Each item is Hebrew prose (biography, background, platform summary, research notes). Translate faithfully into natural, neutral Russian (Cyrillic). Do not add, drop or soften facts or claims. Keep every number, date and year exactly as in the source. Person, party and place names must be written as in the \"names\" convention for Russian. This is a non-partisan election guide: neutral register. Output: for every item return {\"key\": <same key>, \"value\": <your translation>}. Return ONLY a JSON array (or {\"items\":[...]}) with one entry per input item, same keys, no omissions, no extra commentary. Value must be non-empty and written in the target script; never leave Hebrew letters in it. Preserve numbers, placeholders and punctuation meaning. Save the result as data/i18n/done/<locale>/<same file name>.",
+ "items": [
+  {
+   "key": "people|yashar:2|facts.3.value",
+   "he": "מאז 2016 יועץ בתחום הביטחון ובעל תפקידי יעוץ בחברות סייבר"
+  },
+  {
+   "key": "people|yashar:3|facts.0.value",
+   "he": "עורכת דין; יועצת משפטית ברשות החשמל 2003–2011, יושבת ראש הרשות 2012–2015"
+  },
+  {
+   "key": "people|yashar:3|facts.1.value",
+   "he": "תואר במשפטים (האוניברסיטה העברית 1988), תואר שני במנהל ציבורי מהרווארד"
+  },
+  {
+   "key": "people|yashar:3|facts.2.value",
+   "he": "שרת התיירות 2020–2021, שרת החדשנות והמדע 2021–2022"
+  },
+  {
+   "key": "people|yashar:3|facts.3.value",
+   "he": "חברת כנסת מ-2019"
+  },
+  {
+   "key": "people|yashar:4|facts.0.value",
+   "he": "הקימה את תנועת 'כנפיים של קרמבו' ב-2002; ניהלה את Google for Education בישראל 2013–2017"
+  },
+  {
+   "key": "people|yashar:4|facts.1.value",
+   "he": "מייסדת עמותת 'אינקלו' לחינוך מכיל מ-2017"
+  },
+  {
+   "key": "people|yashar:4|facts.2.value",
+   "he": "בוגרת בצלאל, האקדמיה לאמנות ועיצוב"
+  },
+  {
+   "key": "people|yashar:4|facts.3.value",
+   "he": "הדליקה משואה בטקס יום העצמאות 2020"
+  },
+  {
+   "key": "people|yashar:5|facts.0.value",
+   "he": "שירות בחיל האוויר 1990–2018, טייס קרב ומפקד טייסת, דרגת אלוף-משנה"
+  },
+  {
+   "key": "people|yashar:5|facts.1.value",
+   "he": "תואר ראשון ושני במשפטים, אוניברסיטת בר-אילן"
+  },
+  {
+   "key": "people|yashar:5|facts.2.value",
+   "he": "שר לשירותי דת 2021–2022"
+  },
+  {
+   "key": "people|yashar:5|facts.3.value",
+   "he": "חבר כנסת 2019–2025"
+  },
+  {
+   "key": "people|yisrael-beiteinu:1|facts.0.value",
+   "he": "מנכ\"ל משרד ראש הממשלה 1996–1997; הקים את ישראל ביתנו ב-1999"
+  },
+  {
+   "key": "people|yisrael-beiteinu:1|facts.1.value",
+   "he": "שר החוץ 2009–2012 ו-2013–2015, שר הביטחון 2016–2018, שר האוצר 2021–2022"
+  },
+  {
+   "key": "people|yisrael-beiteinu:1|facts.2.value",
+   "he": "חבר כנסת מ-1999 בהפסקות"
+  },
+  {
+   "key": "people|yisrael-beiteinu:1|facts.3.value",
+   "he": "תואר ראשון ביחסים בינלאומיים, האוניברסיטה העברית"
+  },
+  {
+   "key": "people|yisrael-beiteinu:2|facts.0.value",
+   "he": "רכז נוער, מחנך ומנהל פנימייה; רכז צפון בבני עקיבא"
+  },
+  {
+   "key": "people|yisrael-beiteinu:2|facts.1.value",
+   "he": "סגן ראש עיריית בית שאן 2003–2008, ראש העיר 2013–2018"
+  },
+  {
+   "key": "people|yisrael-beiteinu:2|facts.2.value",
+   "he": "קצין קישור במודיעין, רב-סרן במילואים"
+  },
+  {
+   "key": "people|yisrael-beiteinu:3|facts.0.value",
+   "he": "שירות בצה\"ל 1989–2019, חיל השריון, דרגת תת-אלוף"
+  },
+  {
+   "key": "people|yisrael-beiteinu:3|facts.1.value",
+   "he": "ראשת אגף העורף במטה לביטחון לאומי 2019–2022"
+  },
+  {
+   "key": "people|yisrael-beiteinu:3|facts.2.value",
+   "he": "התמודדה על ראשות עיריית גדרה ב-2024"
+  },
+  {
+   "key": "people|yisrael-beiteinu:3|facts.3.value",
+   "he": "תואר ראשון בסוציולוגיה וחינוך, תארים שניים במנהל עסקים ובביטחון לאומי"
+  },
+  {
+   "key": "people|yisrael-beiteinu:4|facts.0.value",
+   "he": "יועץ פוליטי ויועץ אסטרטגי; הקים חברת ייעוץ ב-2005"
+  },
+  {
+   "key": "people|yisrael-beiteinu:4|facts.1.value",
+   "he": "מנכ\"ל משרד העלייה והקליטה 2013–2015; שר החקלאות ושר לפיתוח הנגב והגליל 2021–2022"
+  },
+  {
+   "key": "people|yisrael-beiteinu:4|facts.2.value",
+   "he": "חבר כנסת 2015–2021 ומ-2022"
+  },
+  {
+   "key": "people|yisrael-beiteinu:4|facts.3.value",
+   "he": "תואר ראשון במשפטים וממשל ותואר שני בתקשורת פוליטית, רייכמן"
+  },
+  {
+   "key": "people|yisrael-beiteinu:5|facts.0.value",
+   "he": "שוטרת באוקראינה בתחום כוח אדם; עורכת דין"
+  },
+  {
+   "key": "people|yisrael-beiteinu:5|facts.1.value",
+   "he": "חברת מועצת העיר חולון מ-2004"
+  },
+  {
+   "key": "people|yisrael-beiteinu:5|facts.2.value",
+   "he": "חברת כנסת 2016–2018 ומאפריל 2019"
+  },
+  {
+   "key": "people|yisrael-beiteinu:5|facts.3.value",
+   "he": "תואר במשפטים, אוניברסיטת לוהנסק"
+  }
+ ]
+}

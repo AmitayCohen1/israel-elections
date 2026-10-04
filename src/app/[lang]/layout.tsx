@@ -1,0 +1,58 @@
+import type { Metadata } from "next";
+import { notFound } from "next/navigation";
+import { Frank_Ruhl_Libre, Heebo, Noto_Sans_Arabic, Noto_Sans_Ethiopic } from "next/font/google";
+import { Header } from "@/components/header";
+import { Footer } from "@/components/footer";
+import { Rail, TabBar } from "@/components/shell";
+import { LOCALES, LOCALE_INFO, getDictionary, hasLocale } from "@/i18n";
+import { Track } from "@/components/track";
+import { DictionaryProvider } from "@/i18n/provider";
+import "../globals.css";
+
+const heebo = Heebo({ variable: "--font-heebo", subsets: ["hebrew", "latin"] });
+const frank = Frank_Ruhl_Libre({ variable: "--font-frank", subsets: ["hebrew", "latin"], weight: ["400", "500", "700", "900"] });
+// Only fetched when a page actually shows these scripts.
+const arabic = Noto_Sans_Arabic({ variable: "--font-arabic", subsets: ["arabic"], preload: false });
+const ethiopic = Noto_Sans_Ethiopic({ variable: "--font-ethiopic", subsets: ["ethiopic"], preload: false });
+
+export const generateStaticParams = () => LOCALES.map((lang) => ({ lang }));
+
+export async function generateMetadata({ params }: LayoutProps<"/[lang]">): Promise<Metadata> {
+  const { lang } = await params;
+  if (!hasLocale(lang)) return {};
+  const { meta } = await getDictionary(lang);
+  return {
+    title: { default: meta.title, template: meta.titleTemplate },
+    description: meta.description,
+    alternates: { languages: Object.fromEntries(LOCALES.map((l) => [l, `/${l}`])) },
+  };
+}
+
+export default async function RootLayout({ children, params }: LayoutProps<"/[lang]">) {
+  const { lang } = await params;
+  if (!hasLocale(lang)) notFound();
+  const dict = await getDictionary(lang);
+  return (
+    <html lang={lang} dir={LOCALE_INFO[lang].dir} className={`${heebo.variable} ${frank.variable} ${arabic.variable} ${ethiopic.variable} h-full antialiased`}>
+      <body className="font-sans">
+        <Track />
+        <DictionaryProvider dict={dict}>
+          {/* A fixed app. The sidebar is the card: grey, rounded, floating. The content is simply the page, and scrolls on its own. */}
+          <div className="flex h-dvh flex-col">
+            <Header />
+            <div className="flex min-h-0 flex-1">
+              <Rail />
+              <div className="flex min-w-0 flex-1 flex-col overflow-y-auto pb-16 lg:pb-0">
+                <main className="flex-1 lg:min-h-0">{children}</main>
+                <div className="lg:hidden">
+                  <Footer dict={dict} />
+                </div>
+              </div>
+            </div>
+            <TabBar />
+          </div>
+        </DictionaryProvider>
+      </body>
+    </html>
+  );
+}

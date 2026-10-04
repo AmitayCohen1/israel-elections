@@ -1,0 +1,759 @@
+{
+ "locale": "ru",
+ "series": "names",
+ "target_language": "Russian",
+ "source_language": "Hebrew",
+ "instructions": "Each item is a Hebrew NAME (person, party or list). Write how that name is conventionally written in Russian (Cyrillic). Examples: Биньямин Нетаньяху, Яир Лапид, Ликуд, Еш Атид. Use the established Russian-language spelling (Wikipedia, Russian Israeli media: NEWSru.co.il, vesty.co.il); otherwise standard Hebrew-to-Russian practical transcription. \"ctx\" is context to identify the person or party (list, slot, MK status, start of bio): use it, do not translate it. Names are given either in natural order or surname-first (official form like \"כהן יוסי\"): always output the natural given-name-first order. Party and list names: use the established Russian name of the party if there is one, otherwise translate the meaning (e.g. \"הציונות הדתית\" = Religious Zionism) rather than transliterate. Keep ballot-letter acronyms as they are written. Output: for every item return {\"key\": <same key>, \"value\": <your translation>}. Return ONLY a JSON array (or {\"items\":[...]}) with one entry per input item, same keys, no omissions, no extra commentary. Value must be non-empty and written in the target script; never leave Hebrew letters in it. Preserve numbers, placeholders and punctuation meaning. Save the result as data/i18n/done/<locale>/<same file name>.",
+ "items": [
+  {
+   "key": "candidates|together:10|display_name",
+   "he": "יונתן שלו",
+   "ctx": "רשימת ביחד, מקום 10 — יונתן שלו הוא פעיל חברתי-פוליטי ישראלי ומייסד ארגון \"כתף אל כתף\", המיי"
+  },
+  {
+   "key": "candidates|together:10|official_name",
+   "he": "שלו יונתן",
+   "ctx": "רשימת ביחד, מקום 10 — יונתן שלו הוא פעיל חברתי-פוליטי ישראלי ומייסד ארגון \"כתף אל כתף\", המיי"
+  },
+  {
+   "key": "candidates|together:11|display_name",
+   "he": "ברוריה נעים ארמן",
+   "ctx": "רשימת ביחד, מקום 11"
+  },
+  {
+   "key": "candidates|together:11|official_name",
+   "he": "נעים ארמן ברוריה",
+   "ctx": "רשימת ביחד, מקום 11"
+  },
+  {
+   "key": "candidates|together:12|display_name",
+   "he": "רם בן ברק",
+   "ctx": "רשימת ביחד, מקום 12, חבר/ת הכנסת מכהן/ת — רם בן ברק הוא חבר הכנסת מטעם מפלגת יש עתיד, שימש יו\"ר ועדת החוץ והביטח"
+  },
+  {
+   "key": "candidates|together:12|official_name",
+   "he": "בן ברק רם",
+   "ctx": "רשימת ביחד, מקום 12, חבר/ת הכנסת מכהן/ת — רם בן ברק הוא חבר הכנסת מטעם מפלגת יש עתיד, שימש יו\"ר ועדת החוץ והביטח"
+  },
+  {
+   "key": "candidates|together:13|display_name",
+   "he": "אמיר סטרוגו",
+   "ctx": "רשימת ביחד, מקום 13"
+  },
+  {
+   "key": "candidates|together:13|official_name",
+   "he": "סטרוגו אמיר",
+   "ctx": "רשימת ביחד, מקום 13"
+  },
+  {
+   "key": "candidates|together:14|display_name",
+   "he": "נאור שירי",
+   "ctx": "רשימת ביחד, מקום 14, חבר/ת הכנסת מכהן/ת — נאור שירי הוא חבר הכנסת מטעם יש עתיד. בעבר היה חבר מועצת הוד השרון וסג"
+  },
+  {
+   "key": "candidates|together:14|official_name",
+   "he": "שירי נאור",
+   "ctx": "רשימת ביחד, מקום 14, חבר/ת הכנסת מכהן/ת — נאור שירי הוא חבר הכנסת מטעם יש עתיד. בעבר היה חבר מועצת הוד השרון וסג"
+  },
+  {
+   "key": "candidates|together:15|display_name",
+   "he": "ניסן זאבי",
+   "ctx": "רשימת ביחד, מקום 15 — ניסן זאבי הוא יזם עסקי וחברתי ישראלי. מייסד ארגון לובי 1701, ותנועת \"ה"
+  },
+  {
+   "key": "candidates|together:15|official_name",
+   "he": "זאבי ניסן",
+   "ctx": "רשימת ביחד, מקום 15 — ניסן זאבי הוא יזם עסקי וחברתי ישראלי. מייסד ארגון לובי 1701, ותנועת \"ה"
+  },
+  {
+   "key": "candidates|together:16|display_name",
+   "he": "ולדימיר בליאק",
+   "ctx": "רשימת ביחד, מקום 16, חבר/ת הכנסת מכהן/ת — ולדימיר בליאק הוא חבר הכנסת מטעם יש עתיד-ביחד. רואה חשבון בהכשרתו."
+  },
+  {
+   "key": "candidates|together:16|official_name",
+   "he": "בליאק ולדימיר",
+   "ctx": "רשימת ביחד, מקום 16, חבר/ת הכנסת מכהן/ת — ולדימיר בליאק הוא חבר הכנסת מטעם יש עתיד-ביחד. רואה חשבון בהכשרתו."
+  },
+  {
+   "key": "candidates|together:17|display_name",
+   "he": "אורלי אלידן-הראל",
+   "ctx": "רשימת ביחד, מקום 17"
+  },
+  {
+   "key": "candidates|together:17|official_name",
+   "he": "אלידן-הראל אורלי",
+   "ctx": "רשימת ביחד, מקום 17"
+  },
+  {
+   "key": "candidates|together:18|display_name",
+   "he": "יוראי להב-הרצנו",
+   "ctx": "רשימת ביחד, מקום 18, חבר/ת הכנסת מכהן/ת — יוראי להב-הרצנו הוא חבר הכנסת מטעם מפלגת יש עתיד ויו״ר השדולה הסביבתית"
+  },
+  {
+   "key": "candidates|together:18|official_name",
+   "he": "להב הרצנו יוראי",
+   "ctx": "רשימת ביחד, מקום 18, חבר/ת הכנסת מכהן/ת — יוראי להב-הרצנו הוא חבר הכנסת מטעם מפלגת יש עתיד ויו״ר השדולה הסביבתית"
+  },
+  {
+   "key": "candidates|together:19|display_name",
+   "he": "שחר ורון",
+   "ctx": "רשימת ביחד, מקום 19"
+  },
+  {
+   "key": "candidates|together:19|official_name",
+   "he": "ורון שחר",
+   "ctx": "רשימת ביחד, מקום 19"
+  },
+  {
+   "key": "candidates|together:20|display_name",
+   "he": "יסמין פרידמן",
+   "ctx": "רשימת ביחד, מקום 20, חבר/ת הכנסת מכהן/ת — יסמין סאקס פרידמן היא חברת הכנסת מטעם יש עתיד ויושבת ראש הוועדה המיוחד"
+  },
+  {
+   "key": "candidates|together:20|official_name",
+   "he": "פרידמן יסמין",
+   "ctx": "רשימת ביחד, מקום 20, חבר/ת הכנסת מכהן/ת — יסמין סאקס פרידמן היא חברת הכנסת מטעם יש עתיד ויושבת ראש הוועדה המיוחד"
+  },
+  {
+   "key": "candidates|together:21|display_name",
+   "he": "אסתי איילון קובו",
+   "ctx": "רשימת ביחד, מקום 21"
+  },
+  {
+   "key": "candidates|together:21|official_name",
+   "he": "איילון קובו אסתי",
+   "ctx": "רשימת ביחד, מקום 21"
+  },
+  {
+   "key": "candidates|together:22|display_name",
+   "he": "נטע אטיאס מויאל",
+   "ctx": "רשימת ביחד, מקום 22"
+  },
+  {
+   "key": "candidates|together:22|official_name",
+   "he": "אטיאס מויאל נטע",
+   "ctx": "רשימת ביחד, מקום 22"
+  },
+  {
+   "key": "candidates|together:23|display_name",
+   "he": "ג'רמי סלטן",
+   "ctx": "רשימת ביחד, מקום 23"
+  },
+  {
+   "key": "candidates|together:23|official_name",
+   "he": "סלטן ג'רמי",
+   "ctx": "רשימת ביחד, מקום 23"
+  },
+  {
+   "key": "candidates|together:24|display_name",
+   "he": "משה טור-פז",
+   "ctx": "רשימת ביחד, מקום 24 — משה יהודה טורפז הוא חבר הכנסת מטעם יש עתיד ולשעבר סגן יו\"ר הכנסת, איש "
+  },
+  {
+   "key": "candidates|together:24|official_name",
+   "he": "טור-פז משה יהודה",
+   "ctx": "רשימת ביחד, מקום 24 — משה יהודה טורפז הוא חבר הכנסת מטעם יש עתיד ולשעבר סגן יו\"ר הכנסת, איש "
+  },
+  {
+   "key": "candidates|together:25|display_name",
+   "he": "פלוטניצקי צבי גריגורי",
+   "ctx": "רשימת ביחד, מקום 25"
+  },
+  {
+   "key": "candidates|together:26|display_name",
+   "he": "אולסיה קנטור",
+   "ctx": "רשימת ביחד, מקום 26"
+  },
+  {
+   "key": "candidates|together:26|official_name",
+   "he": "קנטור אולסיה",
+   "ctx": "רשימת ביחד, מקום 26"
+  },
+  {
+   "key": "candidates|together:27|display_name",
+   "he": "סימון דוידסון",
+   "ctx": "רשימת ביחד, מקום 27, חבר/ת הכנסת מכהן/ת — סימון דוידסון הוא חבר הכנסת מטעם מפלגת \"יש עתיד\" וסגן יו\"ר הכנסת. קודם"
+  },
+  {
+   "key": "candidates|together:27|official_name",
+   "he": "דוידסון סימון",
+   "ctx": "רשימת ביחד, מקום 27, חבר/ת הכנסת מכהן/ת — סימון דוידסון הוא חבר הכנסת מטעם מפלגת \"יש עתיד\" וסגן יו\"ר הכנסת. קודם"
+  },
+  {
+   "key": "candidates|together:28|display_name",
+   "he": "מתי גיל",
+   "ctx": "רשימת ביחד, מקום 28"
+  },
+  {
+   "key": "candidates|together:28|official_name",
+   "he": "גיל מתי",
+   "ctx": "רשימת ביחד, מקום 28"
+  },
+  {
+   "key": "candidates|together:29|display_name",
+   "he": "טל מירון שלי",
+   "ctx": "רשימת ביחד, מקום 29"
+  },
+  {
+   "key": "candidates|together:30|display_name",
+   "he": "תומר וינר",
+   "ctx": "רשימת ביחד, מקום 30"
+  },
+  {
+   "key": "candidates|together:30|official_name",
+   "he": "וינר תומר",
+   "ctx": "רשימת ביחד, מקום 30"
+  },
+  {
+   "key": "candidates|together:31|display_name",
+   "he": "איריש מלכאי רוני",
+   "ctx": "רשימת ביחד, מקום 31"
+  },
+  {
+   "key": "candidates|together:32|display_name",
+   "he": "מזאל שחר תמר",
+   "ctx": "רשימת ביחד, מקום 32"
+  },
+  {
+   "key": "candidates|together:33|display_name",
+   "he": "צרפתי הרכבי מטי",
+   "ctx": "רשימת ביחד, מקום 33, חבר/ת הכנסת מכהן/ת — מטי צרפתי הרכבי היא פוליטיקאית ואגרונומית ישראלית המכהנת כחברת כנסת מט"
+  },
+  {
+   "key": "candidates|together:34|display_name",
+   "he": "לין שטרן יעל",
+   "ctx": "רשימת ביחד, מקום 34"
+  },
+  {
+   "key": "candidates|together:35|display_name",
+   "he": "עמית ברדה",
+   "ctx": "רשימת ביחד, מקום 35"
+  },
+  {
+   "key": "candidates|together:35|official_name",
+   "he": "ברדה עמית",
+   "ctx": "רשימת ביחד, מקום 35"
+  },
+  {
+   "key": "candidates|together:36|display_name",
+   "he": "עזוז עדי עליזה",
+   "ctx": "רשימת ביחד, מקום 36, חבר/ת הכנסת מכהן/ת — עדי עליזה עזוז היא חברת הכנסת מטעם מפלגת יש עתיד ועורכת דין בהכשרתה."
+  },
+  {
+   "key": "candidates|together:37|display_name",
+   "he": "ארקוס ליאת חדוה",
+   "ctx": "רשימת ביחד, מקום 37"
+  },
+  {
+   "key": "candidates|together:38|display_name",
+   "he": "עוז חיים",
+   "ctx": "רשימת ביחד, מקום 38, חבר/ת הכנסת מכהן/ת — עוז חיים הוא חבר הכנסת מטעם מפלגת \"יש עתיד\". עורך דין לקניין רוחני, תק"
+  },
+  {
+   "key": "candidates|together:38|official_name",
+   "he": "חיים עוז",
+   "ctx": "רשימת ביחד, מקום 38, חבר/ת הכנסת מכהן/ת — עוז חיים הוא חבר הכנסת מטעם מפלגת \"יש עתיד\". עורך דין לקניין רוחני, תק"
+  },
+  {
+   "key": "candidates|together:39|display_name",
+   "he": "עידו קרן",
+   "ctx": "רשימת ביחד, מקום 39"
+  },
+  {
+   "key": "candidates|together:39|official_name",
+   "he": "קרן עידו",
+   "ctx": "רשימת ביחד, מקום 39"
+  },
+  {
+   "key": "candidates|together:40|display_name",
+   "he": "אסף ויס",
+   "ctx": "רשימת ביחד, מקום 40"
+  },
+  {
+   "key": "candidates|together:40|official_name",
+   "he": "ויס אסף",
+   "ctx": "רשימת ביחד, מקום 40"
+  },
+  {
+   "key": "candidates|together:41|display_name",
+   "he": "מלאכי יחזקאל משה",
+   "ctx": "רשימת ביחד, מקום 41"
+  },
+  {
+   "key": "candidates|together:42|display_name",
+   "he": "חנה גול",
+   "ctx": "רשימת ביחד, מקום 42"
+  },
+  {
+   "key": "candidates|together:42|official_name",
+   "he": "גול חנה",
+   "ctx": "רשימת ביחד, מקום 42"
+  },
+  {
+   "key": "candidates|together:43|display_name",
+   "he": "מרב צימרמן",
+   "ctx": "רשימת ביחד, מקום 43"
+  },
+  {
+   "key": "candidates|together:43|official_name",
+   "he": "צימרמן מרב",
+   "ctx": "רשימת ביחד, מקום 43"
+  },
+  {
+   "key": "candidates|together:44|display_name",
+   "he": "אבו אל היג'א מוחמד",
+   "ctx": "רשימת ביחד, מקום 44, חבר/ת הכנסת מכהן/ת"
+  },
+  {
+   "key": "candidates|together:45|display_name",
+   "he": "ז'אנה כהן",
+   "ctx": "רשימת ביחד, מקום 45"
+  },
+  {
+   "key": "candidates|together:45|official_name",
+   "he": "כהן ז'אנה",
+   "ctx": "רשימת ביחד, מקום 45"
+  },
+  {
+   "key": "candidates|together:46|display_name",
+   "he": "לוי הילה אינס",
+   "ctx": "רשימת ביחד, מקום 46"
+  },
+  {
+   "key": "candidates|together:47|display_name",
+   "he": "דבורה אדלר",
+   "ctx": "רשימת ביחד, מקום 47"
+  },
+  {
+   "key": "candidates|together:47|official_name",
+   "he": "אדלר דבורה",
+   "ctx": "רשימת ביחד, מקום 47"
+  },
+  {
+   "key": "candidates|together:48|display_name",
+   "he": "עוז רוזגוביץ אלעד",
+   "ctx": "רשימת ביחד, מקום 48"
+  },
+  {
+   "key": "candidates|together:49|display_name",
+   "he": "יוסף סבג",
+   "ctx": "רשימת ביחד, מקום 49"
+  },
+  {
+   "key": "candidates|together:49|official_name",
+   "he": "סבג יוסף",
+   "ctx": "רשימת ביחד, מקום 49"
+  },
+  {
+   "key": "candidates|together:50|display_name",
+   "he": "סלבני כבביה מיכל",
+   "ctx": "רשימת ביחד, מקום 50, חבר/ת הכנסת מכהן/ת — מיכל סלבני כבביה היא חברת הכנסת מטעם מפלגת יש עתיד. בעבר שימשה נציגת ה"
+  },
+  {
+   "key": "candidates|together:51|display_name",
+   "he": "אבנר ברק",
+   "ctx": "רשימת ביחד, מקום 51"
+  },
+  {
+   "key": "candidates|together:51|official_name",
+   "he": "ברק אבנר",
+   "ctx": "רשימת ביחד, מקום 51"
+  },
+  {
+   "key": "candidates|together:52|display_name",
+   "he": "הדר שוייצר",
+   "ctx": "רשימת ביחד, מקום 52"
+  },
+  {
+   "key": "candidates|together:52|official_name",
+   "he": "שוייצר הדר",
+   "ctx": "רשימת ביחד, מקום 52"
+  },
+  {
+   "key": "candidates|together:53|display_name",
+   "he": "עופר ערד",
+   "ctx": "רשימת ביחד, מקום 53"
+  },
+  {
+   "key": "candidates|together:53|official_name",
+   "he": "ערד עופר",
+   "ctx": "רשימת ביחד, מקום 53"
+  },
+  {
+   "key": "candidates|together:54|display_name",
+   "he": "יהודה חיימוביץ",
+   "ctx": "רשימת ביחד, מקום 54"
+  },
+  {
+   "key": "candidates|together:54|official_name",
+   "he": "חיימוביץ יהודה",
+   "ctx": "רשימת ביחד, מקום 54"
+  },
+  {
+   "key": "candidates|together:55|display_name",
+   "he": "קליין בר נוי אמונה חן",
+   "ctx": "רשימת ביחד, מקום 55"
+  },
+  {
+   "key": "candidates|together:56|display_name",
+   "he": "גסאן כראם",
+   "ctx": "רשימת ביחד, מקום 56"
+  },
+  {
+   "key": "candidates|together:56|official_name",
+   "he": "כראם גסאן",
+   "ctx": "רשימת ביחד, מקום 56"
+  },
+  {
+   "key": "candidates|together:57|display_name",
+   "he": "אליס אחרק",
+   "ctx": "רשימת ביחד, מקום 57"
+  },
+  {
+   "key": "candidates|together:57|official_name",
+   "he": "אחרק אליס",
+   "ctx": "רשימת ביחד, מקום 57"
+  },
+  {
+   "key": "candidates|together:58|display_name",
+   "he": "שי-לי שאשא",
+   "ctx": "רשימת ביחד, מקום 58"
+  },
+  {
+   "key": "candidates|together:58|official_name",
+   "he": "שאשא שי-לי",
+   "ctx": "רשימת ביחד, מקום 58"
+  },
+  {
+   "key": "candidates|together:59|display_name",
+   "he": "רז חוה שרון",
+   "ctx": "רשימת ביחד, מקום 59"
+  },
+  {
+   "key": "candidates|together:60|display_name",
+   "he": "אלידור שילה",
+   "ctx": "רשימת ביחד, מקום 60"
+  },
+  {
+   "key": "candidates|together:60|official_name",
+   "he": "שילה אלידור",
+   "ctx": "רשימת ביחד, מקום 60"
+  },
+  {
+   "key": "candidates|together:61|display_name",
+   "he": "מרגוליס מישאל אסנת",
+   "ctx": "רשימת ביחד, מקום 61"
+  },
+  {
+   "key": "candidates|together:62|display_name",
+   "he": "זיו ורהפטיג",
+   "ctx": "רשימת ביחד, מקום 62"
+  },
+  {
+   "key": "candidates|together:62|official_name",
+   "he": "ורהפטיג זיו",
+   "ctx": "רשימת ביחד, מקום 62"
+  },
+  {
+   "key": "candidates|together:63|display_name",
+   "he": "רועי מרגלית",
+   "ctx": "רשימת ביחד, מקום 63"
+  },
+  {
+   "key": "candidates|together:63|official_name",
+   "he": "מרגלית רועי",
+   "ctx": "רשימת ביחד, מקום 63"
+  },
+  {
+   "key": "candidates|together:64|display_name",
+   "he": "שחר פאר-לי פנינה",
+   "ctx": "רשימת ביחד, מקום 64"
+  },
+  {
+   "key": "candidates|together:65|display_name",
+   "he": "אליעזר לוין",
+   "ctx": "רשימת ביחד, מקום 65"
+  },
+  {
+   "key": "candidates|together:65|official_name",
+   "he": "לוין אליעזר",
+   "ctx": "רשימת ביחד, מקום 65"
+  },
+  {
+   "key": "candidates|together:66|display_name",
+   "he": "זנקו אברהם אורי",
+   "ctx": "רשימת ביחד, מקום 66"
+  },
+  {
+   "key": "candidates|together:67|display_name",
+   "he": "משה גוטרמן נטלי",
+   "ctx": "רשימת ביחד, מקום 67"
+  },
+  {
+   "key": "candidates|together:68|display_name",
+   "he": "דמוז גובזה",
+   "ctx": "רשימת ביחד, מקום 68"
+  },
+  {
+   "key": "candidates|together:68|official_name",
+   "he": "גובזה דמוז",
+   "ctx": "רשימת ביחד, מקום 68"
+  },
+  {
+   "key": "candidates|together:69|display_name",
+   "he": "מאור עפר פליקס",
+   "ctx": "רשימת ביחד, מקום 69"
+  },
+  {
+   "key": "candidates|together:70|display_name",
+   "he": "רואי דוד",
+   "ctx": "רשימת ביחד, מקום 70"
+  },
+  {
+   "key": "candidates|together:70|official_name",
+   "he": "דוד רואי",
+   "ctx": "רשימת ביחד, מקום 70"
+  },
+  {
+   "key": "candidates|together:71|display_name",
+   "he": "ארז דרורי",
+   "ctx": "רשימת ביחד, מקום 71"
+  },
+  {
+   "key": "candidates|together:71|official_name",
+   "he": "דרורי ארז",
+   "ctx": "רשימת ביחד, מקום 71"
+  },
+  {
+   "key": "candidates|together:72|display_name",
+   "he": "יוני ארקין",
+   "ctx": "רשימת ביחד, מקום 72"
+  },
+  {
+   "key": "candidates|together:72|official_name",
+   "he": "ארקין יוני",
+   "ctx": "רשימת ביחד, מקום 72"
+  },
+  {
+   "key": "candidates|together:73|display_name",
+   "he": "אורן קציר",
+   "ctx": "רשימת ביחד, מקום 73"
+  },
+  {
+   "key": "candidates|together:73|official_name",
+   "he": "קציר אורן",
+   "ctx": "רשימת ביחד, מקום 73"
+  },
+  {
+   "key": "candidates|together:74|display_name",
+   "he": "צוקרמן חטואל לידיה",
+   "ctx": "רשימת ביחד, מקום 74"
+  },
+  {
+   "key": "candidates|together:75|display_name",
+   "he": "נמרוד ברוך",
+   "ctx": "רשימת ביחד, מקום 75"
+  },
+  {
+   "key": "candidates|together:75|official_name",
+   "he": "ברוך נמרוד",
+   "ctx": "רשימת ביחד, מקום 75"
+  },
+  {
+   "key": "candidates|together:76|display_name",
+   "he": "רונית יובל",
+   "ctx": "רשימת ביחד, מקום 76"
+  },
+  {
+   "key": "candidates|together:76|official_name",
+   "he": "יובל רונית",
+   "ctx": "רשימת ביחד, מקום 76"
+  },
+  {
+   "key": "candidates|together:77|display_name",
+   "he": "אלקובי בת שבע",
+   "ctx": "רשימת ביחד, מקום 77"
+  },
+  {
+   "key": "candidates|together:78|display_name",
+   "he": "גלית קוניק-הופמן",
+   "ctx": "רשימת ביחד, מקום 78"
+  },
+  {
+   "key": "candidates|together:78|official_name",
+   "he": "קוניק-הופמן גלית",
+   "ctx": "רשימת ביחד, מקום 78"
+  },
+  {
+   "key": "candidates|together:79|display_name",
+   "he": "אוריה גרושקא",
+   "ctx": "רשימת ביחד, מקום 79"
+  },
+  {
+   "key": "candidates|together:79|official_name",
+   "he": "גרושקא אוריה",
+   "ctx": "רשימת ביחד, מקום 79"
+  },
+  {
+   "key": "candidates|together:80|display_name",
+   "he": "אסף אברמוביץ",
+   "ctx": "רשימת ביחד, מקום 80"
+  },
+  {
+   "key": "candidates|together:80|official_name",
+   "he": "אברמוביץ אסף",
+   "ctx": "רשימת ביחד, מקום 80"
+  },
+  {
+   "key": "candidates|together:81|display_name",
+   "he": "עינת כרמל",
+   "ctx": "רשימת ביחד, מקום 81"
+  },
+  {
+   "key": "candidates|together:81|official_name",
+   "he": "כרמל עינת",
+   "ctx": "רשימת ביחד, מקום 81"
+  },
+  {
+   "key": "candidates|together:82|display_name",
+   "he": "סבג אפק משה",
+   "ctx": "רשימת ביחד, מקום 82"
+  },
+  {
+   "key": "candidates|together:83|display_name",
+   "he": "נוברוזוב פרצוב בטוליה טלי",
+   "ctx": "רשימת ביחד, מקום 83"
+  },
+  {
+   "key": "candidates|together:84|display_name",
+   "he": "טל הויגר",
+   "ctx": "רשימת ביחד, מקום 84"
+  },
+  {
+   "key": "candidates|together:84|official_name",
+   "he": "הויגר טל",
+   "ctx": "רשימת ביחד, מקום 84"
+  },
+  {
+   "key": "candidates|together:85|display_name",
+   "he": "פולאק איתי דוד",
+   "ctx": "רשימת ביחד, מקום 85"
+  },
+  {
+   "key": "candidates|together:86|display_name",
+   "he": "ילי קלריך",
+   "ctx": "רשימת ביחד, מקום 86"
+  },
+  {
+   "key": "candidates|together:86|official_name",
+   "he": "קלריך ילי",
+   "ctx": "רשימת ביחד, מקום 86"
+  },
+  {
+   "key": "candidates|together:87|display_name",
+   "he": "נמרוד אקרמן",
+   "ctx": "רשימת ביחד, מקום 87"
+  },
+  {
+   "key": "candidates|together:87|official_name",
+   "he": "אקרמן נמרוד",
+   "ctx": "רשימת ביחד, מקום 87"
+  },
+  {
+   "key": "candidates|together:88|display_name",
+   "he": "שגית עבו",
+   "ctx": "רשימת ביחד, מקום 88"
+  },
+  {
+   "key": "candidates|together:88|official_name",
+   "he": "עבו שגית",
+   "ctx": "רשימת ביחד, מקום 88"
+  },
+  {
+   "key": "candidates|together:89|display_name",
+   "he": "עדי מן",
+   "ctx": "רשימת ביחד, מקום 89"
+  },
+  {
+   "key": "candidates|together:89|official_name",
+   "he": "מן עדי",
+   "ctx": "רשימת ביחד, מקום 89"
+  },
+  {
+   "key": "candidates|together:90|display_name",
+   "he": "טלי אגרונוב",
+   "ctx": "רשימת ביחד, מקום 90"
+  },
+  {
+   "key": "candidates|together:90|official_name",
+   "he": "אגרונוב טלי",
+   "ctx": "רשימת ביחד, מקום 90"
+  },
+  {
+   "key": "candidates|together:91|display_name",
+   "he": "אברהמי מאירי סתיו",
+   "ctx": "רשימת ביחד, מקום 91"
+  },
+  {
+   "key": "candidates|together:92|display_name",
+   "he": "עידו ווגלטר",
+   "ctx": "רשימת ביחד, מקום 92"
+  },
+  {
+   "key": "candidates|together:92|official_name",
+   "he": "ווגלטר עידו",
+   "ctx": "רשימת ביחד, מקום 92"
+  },
+  {
+   "key": "candidates|together:93|display_name",
+   "he": "גלעד בר",
+   "ctx": "רשימת ביחד, מקום 93"
+  },
+  {
+   "key": "candidates|together:93|official_name",
+   "he": "בר גלעד",
+   "ctx": "רשימת ביחד, מקום 93"
+  },
+  {
+   "key": "candidates|together:94|display_name",
+   "he": "סימון הרצוג צביה",
+   "ctx": "רשימת ביחד, מקום 94"
+  },
+  {
+   "key": "candidates|together:95|display_name",
+   "he": "אריק סטון",
+   "ctx": "רשימת ביחד, מקום 95"
+  },
+  {
+   "key": "candidates|together:95|official_name",
+   "he": "סטון אריק",
+   "ctx": "רשימת ביחד, מקום 95"
+  },
+  {
+   "key": "candidates|together:96|display_name",
+   "he": "דנה קרין אליז",
+   "ctx": "רשימת ביחד, מקום 96"
+  },
+  {
+   "key": "candidates|together:97|display_name",
+   "he": "אייל פייבל",
+   "ctx": "רשימת ביחד, מקום 97"
+  },
+  {
+   "key": "candidates|together:97|official_name",
+   "he": "פייבל אייל",
+   "ctx": "רשימת ביחד, מקום 97"
+  },
+  {
+   "key": "candidates|together:98|display_name",
+   "he": "יעקובובסקי איב חיים",
+   "ctx": "רשימת ביחד, מקום 98"
+  },
+  {
+   "key": "candidates|together:99|display_name",
+   "he": "בן ישי יעקב",
+   "ctx": "רשימת ביחד, מקום 99"
+  }
+ ]
+}

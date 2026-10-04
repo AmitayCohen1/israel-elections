@@ -1,0 +1,12 @@
+{
+  "slug": "tkuma",
+  "researched_at": "2026-10-03",
+  "links": [],
+  "unverified": [
+    {
+      "url": "https://tkuma.org.il",
+      "note": "Under-construction WordPress page ('האתר בשלבי הקמה'); no mention of the party or Federman, so ownership unconfirmed"
+    }
+  ],
+  "notes": "Searched Hebrew/English names with leader names via WebSearch (results returned only news/IDI archive pages, no official social accounts); gov.il list page returned HTTP 403 to WebFetch so its links could not be read. No official presence confirmed."
+}

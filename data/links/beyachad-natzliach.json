@@ -1,0 +1,64 @@
+{
+  "slug": "beyachad-natzliach",
+  "researched_at": "2026-10-03",
+  "links": [
+    {
+      "url": "https://www.yahaad.com/",
+      "kind": "website",
+      "title": "האתר הרשמי",
+      "owner": "list",
+      "found_via": "seed website, opened",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.yahaad.com/aviporfile",
+      "kind": "leader_website",
+      "title": "פרופיל אבי שקד",
+      "owner": "אבי שקד",
+      "found_via": "seed positions page on official site",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.facebook.com/profile.php?id=61570866885286",
+      "kind": "facebook",
+      "title": "עמוד הפייסבוק",
+      "owner": "list",
+      "found_via": "linked from official site",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.instagram.com/yahad_natzliach",
+      "kind": "instagram",
+      "title": "עמוד האינסטגרם",
+      "owner": "list",
+      "found_via": "linked from official site; page title 'ביחד נצליח'",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.tiktok.com/@yahaad_natzleyah",
+      "kind": "tiktok",
+      "title": "חשבון טיקטוק",
+      "owner": "list",
+      "found_via": "linked from official site",
+      "status": "login-wall"
+    },
+    {
+      "url": "https://www.youtube.com/@%D7%99%D7%97%D7%93%D7%A0%D7%A6%D7%9C%D7%99%D7%97",
+      "kind": "youtube",
+      "title": "ערוץ היוטיוב",
+      "owner": "list",
+      "found_via": "linked from official site",
+      "status": "ok"
+    },
+    {
+      "url": "https://chat.whatsapp.com/DoITlyCieHm5DEcIkjKYJi",
+      "kind": "whatsapp",
+      "title": "קבוצת וואטסאפ",
+      "owner": "list",
+      "found_via": "linked from official site",
+      "status": "ok"
+    }
+  ],
+  "unverified": [],
+  "notes": "gov.il list page returned 403 to curl; not read. Domain yahaad.com is for 'ביחד נצליח' (Avi Shaked), not Bennett-Lapid 'ביחד'. Leader personal accounts not searched successfully."
+}

@@ -1,0 +1,96 @@
+{
+  "slug": "orot-hashahar",
+  "researched_at": "2026-10-04",
+  "people": [
+    {
+      "position": 1,
+      "name": "נסים לוק",
+      "headline": "מנהל מוזיאון הרצל לשעבר, יו\"ר מפלגת אורות השחר",
+      "facts": [
+        {
+          "label": "השכלה",
+          "value": "תארים בפסיכולוגיה ותקשורת ותואר ראשון בהנדסת מכונות",
+          "source_url": "https://orothashachar.org.il/"
+        },
+        {
+          "label": "רקע מקצועי",
+          "value": "ניהל את מוזיאון הרצל",
+          "source_url": "https://orothashachar.org.il/"
+        }
+      ],
+      "confidence": "medium",
+      "notes": "מקור יחיד: אתר המפלגה."
+    },
+    {
+      "position": 2,
+      "name": "בניהו הר שמש",
+      "headline": "מדען מדינה, מייסד ודובר מפלגת אורות השחר",
+      "facts": [
+        {
+          "label": "שירות צבאי ולאומי",
+          "value": "שירות בחטיבת גולני",
+          "source_url": "https://orothashachar.org.il/"
+        },
+        {
+          "label": "השכלה",
+          "value": "מדעי המדינה",
+          "source_url": "https://orothashachar.org.il/"
+        }
+      ],
+      "confidence": "medium",
+      "notes": "מקור יחיד: אתר המפלגה."
+    },
+    {
+      "position": 3,
+      "name": "יאיר אנסבכר",
+      "headline": "איש חינוך וחוקר, מייסד מכינת איתן",
+      "facts": [
+        {
+          "label": "שירות צבאי ולאומי",
+          "value": "לוחם במגלן מ-2002, מילואים במלחמת חרבות ברזל",
+          "source_url": "https://he.wikipedia.org/wiki/יאיר_אנסבכר"
+        },
+        {
+          "label": "רקע מקצועי",
+          "value": "מייסד ומנהל ראשון של המכינה הקדם-צבאית איתן 2011",
+          "source_url": "https://he.wikipedia.org/wiki/יאיר_אנסבכר"
+        },
+        {
+          "label": "השכלה",
+          "value": "תואר שני באוניברסיטת תל אביב (2016), דוקטורט באוניברסיטת אריאל (2024)",
+          "source_url": "https://he.wikipedia.org/wiki/יאיר_אנסבכר"
+        }
+      ],
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "position": 4,
+      "name": "יצחק אבוקרט",
+      "headline": "מומחה להתיישבות וחקלאות",
+      "facts": [
+        {
+          "label": "רקע מקצועי",
+          "value": "עוסק בחוות בודדות בדרום",
+          "source_url": "https://orothashachar.org.il/"
+        }
+      ],
+      "confidence": "low",
+      "notes": "מקור יחיד, פרטים מעטים."
+    },
+    {
+      "position": 5,
+      "name": "דב הלברטל",
+      "headline": "רב, עורך דין ופובליציסט",
+      "facts": [
+        {
+          "label": "רקע מקצועי",
+          "value": "רב מוסמך, עורך דין ופובליציסט",
+          "source_url": "https://orothashachar.org.il/"
+        }
+      ],
+      "confidence": "medium",
+      "notes": "התאמה לאתר המפלגה; לא הוזנו פרטים מוויקיפדיה (תיאור לא ניטרלי)."
+    }
+  ]
+}

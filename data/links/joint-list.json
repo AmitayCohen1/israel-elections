@@ -1,0 +1,32 @@
+{
+  "slug": "joint-list",
+  "researched_at": "2026-10-03",
+  "links": [
+    {
+      "url": "https://www.jointlist.org.il/",
+      "kind": "website",
+      "title": "האתר הרשמי",
+      "owner": "list",
+      "found_via": "seed; opened, tri-lingual site",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.jointlist.org.il/he/economic-plan/",
+      "kind": "platform",
+      "title": "התוכנית הכלכלית-חברתית",
+      "owner": "list",
+      "found_via": "menu of official site",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.jointlist.org.il/he/crime-plan/",
+      "kind": "positions_page",
+      "title": "תוכנית למיגור הפשיעה",
+      "owner": "list",
+      "found_via": "menu of official site",
+      "status": "ok"
+    }
+  ],
+  "unverified": [],
+  "notes": "Official site has no social media links in header/footer (only internal nav, volunteer page, contact). Web search not run for leader (Yousef Jabareen) accounts; gov.il page 403."
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "shma",
+  "researched_at": "2026-10-03",
+  "links": [
+    {
+      "url": "https://eomzone.com/",
+      "kind": "website",
+      "title": "האתר הרשמי",
+      "owner": "list",
+      "found_via": "linked from official site eomzone.com header/footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://eomzone.com/מצע/",
+      "kind": "platform",
+      "title": "המצע",
+      "owner": "list",
+      "found_via": "menu of official site",
+      "status": "ok"
+    },
+    {
+      "url": "https://eomzone.com/המהפכה/",
+      "kind": "positions_page",
+      "title": "המהפכה",
+      "owner": "list",
+      "found_via": "menu of official site",
+      "status": "ok"
+    },
+    {
+      "url": "https://eomzone.com/blog/",
+      "kind": "blog",
+      "title": "עדכונים",
+      "owner": "list",
+      "found_via": "menu of official site",
+      "status": "ok"
+    },
+    {
+      "url": "https://eomzone.com/תרומה/",
+      "kind": "other",
+      "title": "עמוד תרומה",
+      "owner": "list",
+      "found_via": "menu of official site",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.facebook.com/%D7%A9%D7%9E%D7%A2-101101788086202",
+      "kind": "facebook",
+      "title": "עמוד הפייסבוק",
+      "owner": "list",
+      "found_via": "linked from official site eomzone.com header/footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCzxRRj9k992Jx1ir-YRBDcQ/",
+      "kind": "youtube",
+      "title": "ערוץ היוטיוב",
+      "owner": "list",
+      "found_via": "linked from official site eomzone.com header/footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://twitter.com/naffigoldman",
+      "kind": "leader_x",
+      "title": "חשבון X של נפתלי גולדמן",
+      "owner": "נפתלי גולדמן",
+      "found_via": "linked from official site eomzone.com header/footer",
+      "status": "ok"
+    }
+  ],
+  "unverified": [],
+  "notes": "Fetched eomzone.com and extracted social/menu links. No Instagram/Telegram found on site or via search. gov.il page returned 403. Facebook/YouTube/X not individually opened; taken from official site. Platform content appears dated 2020-21."
+}

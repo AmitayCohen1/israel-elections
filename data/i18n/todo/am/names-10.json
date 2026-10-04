@@ -1,0 +1,759 @@
+{
+ "locale": "am",
+ "series": "names",
+ "target_language": "Amharic",
+ "source_language": "Hebrew",
+ "instructions": "Each item is a Hebrew NAME (person, party or list). Write how that name is conventionally written in Amharic (Ethiopic (Ge'ez fidel)). Examples: ቢንያሚን ኔታንያሁ, ያኢር ላፒድ, ሊኩድ, የሽ አቲድ. Transliterate into Amharic script using the conventional Amharic spelling where one exists (Amharic Wikipedia, Ethiopian media); otherwise a phonetic transliteration in fidel. \"ctx\" is context to identify the person or party (list, slot, MK status, start of bio): use it, do not translate it. Names are given either in natural order or surname-first (official form like \"כהן יוסי\"): always output the natural given-name-first order. Party and list names: use the established Amharic name of the party if there is one, otherwise translate the meaning (e.g. \"הציונות הדתית\" = Religious Zionism) rather than transliterate. Keep ballot-letter acronyms as they are written. Output: for every item return {\"key\": <same key>, \"value\": <your translation>}. Return ONLY a JSON array (or {\"items\":[...]}) with one entry per input item, same keys, no omissions, no extra commentary. Value must be non-empty and written in the target script; never leave Hebrew letters in it. Preserve numbers, placeholders and punctuation meaning. Save the result as data/i18n/done/<locale>/<same file name>.",
+ "items": [
+  {
+   "key": "candidates|raam:49|official_name",
+   "he": "אגבאריה אבראהים",
+   "ctx": "רשימת רע\"ם, מקום 49"
+  },
+  {
+   "key": "candidates|raam:50|display_name",
+   "he": "טארק קאדרייה",
+   "ctx": "רשימת רע\"ם, מקום 50"
+  },
+  {
+   "key": "candidates|raam:50|official_name",
+   "he": "קאדרייה טארק",
+   "ctx": "רשימת רע\"ם, מקום 50"
+  },
+  {
+   "key": "candidates|raam:51|display_name",
+   "he": "מגד מוהרה",
+   "ctx": "רשימת רע\"ם, מקום 51"
+  },
+  {
+   "key": "candidates|raam:51|official_name",
+   "he": "מוהרה מגד",
+   "ctx": "רשימת רע\"ם, מקום 51"
+  },
+  {
+   "key": "candidates|raam:52|display_name",
+   "he": "חייר עפאן",
+   "ctx": "רשימת רע\"ם, מקום 52"
+  },
+  {
+   "key": "candidates|raam:52|official_name",
+   "he": "עפאן חייר",
+   "ctx": "רשימת רע\"ם, מקום 52"
+  },
+  {
+   "key": "candidates|raam:53|display_name",
+   "he": "בדר גביילי חיתאם",
+   "ctx": "רשימת רע\"ם, מקום 53"
+  },
+  {
+   "key": "candidates|raam:54|display_name",
+   "he": "אחמד מרעי",
+   "ctx": "רשימת רע\"ם, מקום 54"
+  },
+  {
+   "key": "candidates|raam:54|official_name",
+   "he": "מרעי אחמד",
+   "ctx": "רשימת רע\"ם, מקום 54"
+  },
+  {
+   "key": "candidates|raam:55|display_name",
+   "he": "עפיף גיוסי",
+   "ctx": "רשימת רע\"ם, מקום 55"
+  },
+  {
+   "key": "candidates|raam:55|official_name",
+   "he": "גיוסי עפיף",
+   "ctx": "רשימת רע\"ם, מקום 55"
+  },
+  {
+   "key": "candidates|raam:56|display_name",
+   "he": "אמיר עומרי",
+   "ctx": "רשימת רע\"ם, מקום 56"
+  },
+  {
+   "key": "candidates|raam:56|official_name",
+   "he": "עומרי אמיר",
+   "ctx": "רשימת רע\"ם, מקום 56"
+  },
+  {
+   "key": "candidates|raam:57|display_name",
+   "he": "חסן חוגיראת",
+   "ctx": "רשימת רע\"ם, מקום 57"
+  },
+  {
+   "key": "candidates|raam:57|official_name",
+   "he": "חוגיראת חסן",
+   "ctx": "רשימת רע\"ם, מקום 57"
+  },
+  {
+   "key": "candidates|raam:58|display_name",
+   "he": "מחמוד סאלח",
+   "ctx": "רשימת רע\"ם, מקום 58"
+  },
+  {
+   "key": "candidates|raam:58|official_name",
+   "he": "סאלח מחמוד",
+   "ctx": "רשימת רע\"ם, מקום 58"
+  },
+  {
+   "key": "candidates|raam:59|display_name",
+   "he": "זיאד מינזל",
+   "ctx": "רשימת רע\"ם, מקום 59"
+  },
+  {
+   "key": "candidates|raam:59|official_name",
+   "he": "מינזל זיאד",
+   "ctx": "רשימת רע\"ם, מקום 59"
+  },
+  {
+   "key": "candidates|raam:60|display_name",
+   "he": "מאגדה סמארה",
+   "ctx": "רשימת רע\"ם, מקום 60"
+  },
+  {
+   "key": "candidates|raam:60|official_name",
+   "he": "סמארה מאגדה",
+   "ctx": "רשימת רע\"ם, מקום 60"
+  },
+  {
+   "key": "candidates|raam:61|display_name",
+   "he": "סאמי אשווי",
+   "ctx": "רשימת רע\"ם, מקום 61"
+  },
+  {
+   "key": "candidates|raam:61|official_name",
+   "he": "אשווי סאמי",
+   "ctx": "רשימת רע\"ם, מקום 61"
+  },
+  {
+   "key": "candidates|raam:62|display_name",
+   "he": "כאיד טאהא",
+   "ctx": "רשימת רע\"ם, מקום 62"
+  },
+  {
+   "key": "candidates|raam:62|official_name",
+   "he": "טאהא כאיד",
+   "ctx": "רשימת רע\"ם, מקום 62"
+  },
+  {
+   "key": "candidates|raam:63|display_name",
+   "he": "ממדוח הייב",
+   "ctx": "רשימת רע\"ם, מקום 63"
+  },
+  {
+   "key": "candidates|raam:63|official_name",
+   "he": "הייב ממדוח",
+   "ctx": "רשימת רע\"ם, מקום 63"
+  },
+  {
+   "key": "candidates|raam:64|display_name",
+   "he": "מוחמד רעד",
+   "ctx": "רשימת רע\"ם, מקום 64"
+  },
+  {
+   "key": "candidates|raam:64|official_name",
+   "he": "רעד מוחמד",
+   "ctx": "רשימת רע\"ם, מקום 64"
+  },
+  {
+   "key": "candidates|raam:65|display_name",
+   "he": "הינדאוי שימא",
+   "ctx": "רשימת רע\"ם, מקום 65"
+  },
+  {
+   "key": "candidates|raam:65|official_name",
+   "he": "שימא הינדאוי",
+   "ctx": "רשימת רע\"ם, מקום 65"
+  },
+  {
+   "key": "candidates|raam:66|display_name",
+   "he": "אבו עראר טלב",
+   "ctx": "רשימת רע\"ם, מקום 66 — טלב אבו עראר הוא ראש המועצה המקומית ערערה בנגב. בעבר כיהן כחבר הכנסת מ"
+  },
+  {
+   "key": "candidates|raam:67|display_name",
+   "he": "אל עמור אבראהים",
+   "ctx": "רשימת רע\"ם, מקום 67"
+  },
+  {
+   "key": "candidates|raam:68|display_name",
+   "he": "אבו מדעים עטא",
+   "ctx": "רשימת רע\"ם, מקום 68"
+  },
+  {
+   "key": "candidates|raam:69|display_name",
+   "he": "אל קצאצי גומעה",
+   "ctx": "רשימת רע\"ם, מקום 69"
+  },
+  {
+   "key": "candidates|raam:70|display_name",
+   "he": "מסעוד גנאים",
+   "ctx": "רשימת רע\"ם, מקום 70 — מסעוד גנאים הוא פוליטיקאי ערבי-ישראלי אשר כיהן כחבר הכנסת מטעם מפלגת ר"
+  },
+  {
+   "key": "candidates|raam:70|official_name",
+   "he": "גנאים מסעוד",
+   "ctx": "רשימת רע\"ם, מקום 70 — מסעוד גנאים הוא פוליטיקאי ערבי-ישראלי אשר כיהן כחבר הכנסת מטעם מפלגת ר"
+  },
+  {
+   "key": "candidates|raam:71|display_name",
+   "he": "מאזן גנאים",
+   "ctx": "רשימת רע\"ם, מקום 71 — מאזן גנאים הוא פוליטיקאי ואיש עסקים ערבי-ישראלי המכהן כראש עיריית סחני"
+  },
+  {
+   "key": "candidates|raam:71|official_name",
+   "he": "גנאים מאזן",
+   "ctx": "רשימת רע\"ם, מקום 71 — מאזן גנאים הוא פוליטיקאי ואיש עסקים ערבי-ישראלי המכהן כראש עיריית סחני"
+  },
+  {
+   "key": "candidates|raam:72|display_name",
+   "he": "אברהים צרצור",
+   "ctx": "רשימת רע\"ם, מקום 72 — שייח' אבראהים עבדאללה צרצור הוא חבר הכנסת לשעבר מטעם רע\"מ-תע\"ל, ולשעבר"
+  },
+  {
+   "key": "candidates|raam:72|official_name",
+   "he": "צרצור אברהים",
+   "ctx": "רשימת רע\"ם, מקום 72 — שייח' אבראהים עבדאללה צרצור הוא חבר הכנסת לשעבר מטעם רע\"מ-תע\"ל, ולשעבר"
+  },
+  {
+   "key": "candidates|raam:73|display_name",
+   "he": "דהאמשה עבד אלמאלכ",
+   "ctx": "רשימת רע\"ם, מקום 73"
+  },
+  {
+   "key": "candidates|reservists-economic:1|display_name",
+   "he": "יועז הנדל",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 1 — יועז הנדל הוא יו\"ר מפלגת המילואימניקים, כיהן כשר התקשורת וכחבר הכנסת. "
+  },
+  {
+   "key": "candidates|reservists-economic:1|official_name",
+   "he": "הנדל יועז",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 1 — יועז הנדל הוא יו\"ר מפלגת המילואימניקים, כיהן כשר התקשורת וכחבר הכנסת. "
+  },
+  {
+   "key": "candidates|reservists-economic:2|display_name",
+   "he": "ירון זליכה",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 2 — ירון זליכה הוא כלכלן ישראלי, רואה חשבון, איש אקדמיה ופוליטיקאי ישראלי."
+  },
+  {
+   "key": "candidates|reservists-economic:2|official_name",
+   "he": "זליכה ירון",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 2 — ירון זליכה הוא כלכלן ישראלי, רואה חשבון, איש אקדמיה ופוליטיקאי ישראלי."
+  },
+  {
+   "key": "candidates|reservists-economic:3|display_name",
+   "he": "עינת וילף",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 3 — עינת וילף היא דוקטור למדע המדינה שכיהנה כחברת הכנסת ה-18, מטעם סיעות \""
+  },
+  {
+   "key": "candidates|reservists-economic:3|official_name",
+   "he": "וילף עינת",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 3 — עינת וילף היא דוקטור למדע המדינה שכיהנה כחברת הכנסת ה-18, מטעם סיעות \""
+  },
+  {
+   "key": "candidates|reservists-economic:4|display_name",
+   "he": "חביב ווליבוביץ",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 4"
+  },
+  {
+   "key": "candidates|reservists-economic:4|official_name",
+   "he": "ווליבוביץ חביב",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 4"
+  },
+  {
+   "key": "candidates|reservists-economic:5|display_name",
+   "he": "יואב שלמה אדומי",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 5"
+  },
+  {
+   "key": "candidates|reservists-economic:5|official_name",
+   "he": "אדומי יואב שלמה",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 5"
+  },
+  {
+   "key": "candidates|reservists-economic:6|display_name",
+   "he": "אופיר שי לנגמן",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 6"
+  },
+  {
+   "key": "candidates|reservists-economic:6|official_name",
+   "he": "לנגמן אופיר שי",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 6"
+  },
+  {
+   "key": "candidates|reservists-economic:7|display_name",
+   "he": "שלומי דמרי",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 7"
+  },
+  {
+   "key": "candidates|reservists-economic:7|official_name",
+   "he": "דמרי שלומי",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 7"
+  },
+  {
+   "key": "candidates|reservists-economic:8|display_name",
+   "he": "ליאור גלבוע",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 8"
+  },
+  {
+   "key": "candidates|reservists-economic:8|official_name",
+   "he": "גלבוע ליאור",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 8"
+  },
+  {
+   "key": "candidates|reservists-economic:9|display_name",
+   "he": "תהילה פרץ",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 9"
+  },
+  {
+   "key": "candidates|reservists-economic:9|official_name",
+   "he": "פרץ תהילה",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 9"
+  },
+  {
+   "key": "candidates|reservists-economic:10|display_name",
+   "he": "שלום ביטון",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 10"
+  },
+  {
+   "key": "candidates|reservists-economic:10|official_name",
+   "he": "ביטון שלום",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 10"
+  },
+  {
+   "key": "candidates|reservists-economic:11|display_name",
+   "he": "עמליה קינן",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 11"
+  },
+  {
+   "key": "candidates|reservists-economic:11|official_name",
+   "he": "קינן עמליה",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 11"
+  },
+  {
+   "key": "candidates|reservists-economic:12|display_name",
+   "he": "הילה בורנשטיין",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 12"
+  },
+  {
+   "key": "candidates|reservists-economic:12|official_name",
+   "he": "בורנשטיין הילה",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 12"
+  },
+  {
+   "key": "candidates|reservists-economic:13|display_name",
+   "he": "איתי גיטלר",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 13"
+  },
+  {
+   "key": "candidates|reservists-economic:13|official_name",
+   "he": "גיטלר איתי",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 13"
+  },
+  {
+   "key": "candidates|reservists-economic:14|display_name",
+   "he": "משה אלישע",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 14"
+  },
+  {
+   "key": "candidates|reservists-economic:14|official_name",
+   "he": "אלישע משה",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 14"
+  },
+  {
+   "key": "candidates|reservists-economic:15|display_name",
+   "he": "יונתן בהט",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 15"
+  },
+  {
+   "key": "candidates|reservists-economic:15|official_name",
+   "he": "בהט יונתן",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 15"
+  },
+  {
+   "key": "candidates|reservists-economic:16|display_name",
+   "he": "מאור פז",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 16"
+  },
+  {
+   "key": "candidates|reservists-economic:16|official_name",
+   "he": "פז מאור",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 16"
+  },
+  {
+   "key": "candidates|reservists-economic:17|display_name",
+   "he": "אלמוג רום",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 17"
+  },
+  {
+   "key": "candidates|reservists-economic:17|official_name",
+   "he": "רום אלמוג",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 17"
+  },
+  {
+   "key": "candidates|reservists-economic:18|display_name",
+   "he": "דוד שבח",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 18"
+  },
+  {
+   "key": "candidates|reservists-economic:18|official_name",
+   "he": "שבח דוד",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 18"
+  },
+  {
+   "key": "candidates|reservists-economic:19|display_name",
+   "he": "דוד לוי",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 19"
+  },
+  {
+   "key": "candidates|reservists-economic:19|official_name",
+   "he": "לוי דוד",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 19"
+  },
+  {
+   "key": "candidates|reservists-economic:20|display_name",
+   "he": "סתיו נקי",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 20"
+  },
+  {
+   "key": "candidates|reservists-economic:20|official_name",
+   "he": "נקי סתיו",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 20"
+  },
+  {
+   "key": "candidates|reservists-economic:21|display_name",
+   "he": "בתאל טגן",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 21"
+  },
+  {
+   "key": "candidates|reservists-economic:21|official_name",
+   "he": "טגן בתאל",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 21"
+  },
+  {
+   "key": "candidates|reservists-economic:22|display_name",
+   "he": "כריסי חוברה הדס רנה",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 22"
+  },
+  {
+   "key": "candidates|reservists-economic:23|display_name",
+   "he": "רוית לוי",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 23"
+  },
+  {
+   "key": "candidates|reservists-economic:23|official_name",
+   "he": "לוי רוית",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 23"
+  },
+  {
+   "key": "candidates|reservists-economic:24|display_name",
+   "he": "אליאן לזמי",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 24"
+  },
+  {
+   "key": "candidates|reservists-economic:24|official_name",
+   "he": "לזמי אליאן",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 24"
+  },
+  {
+   "key": "candidates|reservists-economic:25|display_name",
+   "he": "גבריאל נתן",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 25"
+  },
+  {
+   "key": "candidates|reservists-economic:25|official_name",
+   "he": "נתן גבריאל",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 25"
+  },
+  {
+   "key": "candidates|reservists-economic:26|display_name",
+   "he": "חפציבה ספירט",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 26"
+  },
+  {
+   "key": "candidates|reservists-economic:26|official_name",
+   "he": "ספירט חפציבה",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 26"
+  },
+  {
+   "key": "candidates|reservists-economic:27|display_name",
+   "he": "עמית אריה אליעד",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 27"
+  },
+  {
+   "key": "candidates|reservists-economic:28|display_name",
+   "he": "יניב ששון",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 28"
+  },
+  {
+   "key": "candidates|reservists-economic:28|official_name",
+   "he": "ששון יניב",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 28"
+  },
+  {
+   "key": "candidates|reservists-economic:29|display_name",
+   "he": "סלונימסקי יוגב יבגני",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 29"
+  },
+  {
+   "key": "candidates|reservists-economic:30|display_name",
+   "he": "ניר אליהו",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 30"
+  },
+  {
+   "key": "candidates|reservists-economic:30|official_name",
+   "he": "אליהו ניר",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 30"
+  },
+  {
+   "key": "candidates|reservists-economic:31|display_name",
+   "he": "מזרחי איתמר חי",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 31"
+  },
+  {
+   "key": "candidates|reservists-economic:32|display_name",
+   "he": "יזהר קארבאט",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 32"
+  },
+  {
+   "key": "candidates|reservists-economic:32|official_name",
+   "he": "קארבאט יזהר",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 32"
+  },
+  {
+   "key": "candidates|reservists-economic:33|display_name",
+   "he": "בן דוד דור רון",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 33"
+  },
+  {
+   "key": "candidates|reservists-economic:34|display_name",
+   "he": "מנחם נגר",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 34"
+  },
+  {
+   "key": "candidates|reservists-economic:34|official_name",
+   "he": "נגר מנחם",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 34"
+  },
+  {
+   "key": "candidates|reservists-economic:35|display_name",
+   "he": "יעקב-גל מיקטן",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 35"
+  },
+  {
+   "key": "candidates|reservists-economic:35|official_name",
+   "he": "מיקטן יעקב-גל",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 35"
+  },
+  {
+   "key": "candidates|reservists-economic:36|display_name",
+   "he": "ברק ליליאן",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 36"
+  },
+  {
+   "key": "candidates|reservists-economic:36|official_name",
+   "he": "ליליאן ברק",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 36"
+  },
+  {
+   "key": "candidates|reservists-economic:37|display_name",
+   "he": "בר שמיאן",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 37"
+  },
+  {
+   "key": "candidates|reservists-economic:37|official_name",
+   "he": "שמיאן בר",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 37"
+  },
+  {
+   "key": "candidates|reservists-economic:38|display_name",
+   "he": "גיא פורמן",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 38"
+  },
+  {
+   "key": "candidates|reservists-economic:38|official_name",
+   "he": "פורמן גיא",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 38"
+  },
+  {
+   "key": "candidates|reservists-economic:39|display_name",
+   "he": "עזיז זדה אמיר",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 39"
+  },
+  {
+   "key": "candidates|rzp-zehut:1|display_name",
+   "he": "בצלאל סמוטריץ'",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 1, חבר/ת הכנסת מכהן/ת — בצלאל יואל סמוטריץ' הוא פוליטיקאי ישראלי המכהן כשר האוצר ה27 של ישראל,"
+  },
+  {
+   "key": "candidates|rzp-zehut:1|official_name",
+   "he": "סמוטריץ בצלאל יואל",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 1, חבר/ת הכנסת מכהן/ת — בצלאל יואל סמוטריץ' הוא פוליטיקאי ישראלי המכהן כשר האוצר ה27 של ישראל,"
+  },
+  {
+   "key": "candidates|rzp-zehut:2|display_name",
+   "he": "משה פייגלין",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 2 — משה זלמן פייגלין הוא פוליטיקאי ישראלי ימני קיצוני ליברטריאני, שכיהן כח"
+  },
+  {
+   "key": "candidates|rzp-zehut:2|official_name",
+   "he": "פייגלין משה זלמן",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 2 — משה זלמן פייגלין הוא פוליטיקאי ישראלי ימני קיצוני ליברטריאני, שכיהן כח"
+  },
+  {
+   "key": "candidates|rzp-zehut:3|display_name",
+   "he": "אורית סטרוק",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 3, חבר/ת הכנסת מכהן/ת — אורית מלכה סטרוק היא שרת ההתיישבות והמשימות הלאומיות וחברת הכנסת מטעם "
+  },
+  {
+   "key": "candidates|rzp-zehut:3|official_name",
+   "he": "סטרוק אורית מלכה",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 3, חבר/ת הכנסת מכהן/ת — אורית מלכה סטרוק היא שרת ההתיישבות והמשימות הלאומיות וחברת הכנסת מטעם "
+  },
+  {
+   "key": "candidates|rzp-zehut:4|display_name",
+   "he": "שמחה רוטמן",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 4, חבר/ת הכנסת מכהן/ת — שמחה דן רוטמן הוא חבר הכנסת מטעם מפלגת האיחוד הלאומי בסיעת הציונות הדת"
+  },
+  {
+   "key": "candidates|rzp-zehut:4|official_name",
+   "he": "רוטמן שמחה דן",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 4, חבר/ת הכנסת מכהן/ת — שמחה דן רוטמן הוא חבר הכנסת מטעם מפלגת האיחוד הלאומי בסיעת הציונות הדת"
+  },
+  {
+   "key": "candidates|rzp-zehut:5|display_name",
+   "he": "צביקה מור",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 5 — צבי מור הוא מאמן קוגניטיבי-התנהגותי ויו\"ר פורום תקווה. מועמד מטעם סיעת"
+  },
+  {
+   "key": "candidates|rzp-zehut:5|official_name",
+   "he": "מור צבי",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 5 — צבי מור הוא מאמן קוגניטיבי-התנהגותי ויו\"ר פורום תקווה. מועמד מטעם סיעת"
+  },
+  {
+   "key": "candidates|rzp-zehut:6|display_name",
+   "he": "איתמר איתם",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 6"
+  },
+  {
+   "key": "candidates|rzp-zehut:6|official_name",
+   "he": "איתם איתמר מרדכי",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 6"
+  },
+  {
+   "key": "candidates|rzp-zehut:7|display_name",
+   "he": "צבי סוכות",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 7, חבר/ת הכנסת מכהן/ת — צבי ידידיה סוכות הוא פוליטיקאי ישראלי המכהן כחבר הכנסת ה-25 ויו\"ר ועדת"
+  },
+  {
+   "key": "candidates|rzp-zehut:7|official_name",
+   "he": "סוכות צבי ידידיה",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 7, חבר/ת הכנסת מכהן/ת — צבי ידידיה סוכות הוא פוליטיקאי ישראלי המכהן כחבר הכנסת ה-25 ויו\"ר ועדת"
+  },
+  {
+   "key": "candidates|rzp-zehut:8|display_name",
+   "he": "יצחק זאגא",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 8"
+  },
+  {
+   "key": "candidates|rzp-zehut:8|official_name",
+   "he": "זאגא יצחק חי",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 8"
+  },
+  {
+   "key": "candidates|rzp-zehut:9|display_name",
+   "he": "רעות בן חיים",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 9"
+  },
+  {
+   "key": "candidates|rzp-zehut:9|official_name",
+   "he": "בן חיים רעות",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 9"
+  },
+  {
+   "key": "candidates|rzp-zehut:10|display_name",
+   "he": "עומר פציניאש ולדמן",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 10"
+  },
+  {
+   "key": "candidates|rzp-zehut:10|official_name",
+   "he": "פציניאש וולדמן עומר",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 10"
+  },
+  {
+   "key": "candidates|rzp-zehut:11|display_name",
+   "he": "ארקדי מוטר",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 11"
+  },
+  {
+   "key": "candidates|rzp-zehut:11|official_name",
+   "he": "מוטר ארקדי",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 11"
+  },
+  {
+   "key": "candidates|rzp-zehut:12|display_name",
+   "he": "אוהד טל",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 12, חבר/ת הכנסת מכהן/ת — אוהד טל הוא חבר הכנסת מטעם רשימת הציונות הדתית ויו\"ר הסיעה, ומכהן כיו\""
+  },
+  {
+   "key": "candidates|rzp-zehut:12|official_name",
+   "he": "טל אוהד",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 12, חבר/ת הכנסת מכהן/ת — אוהד טל הוא חבר הכנסת מטעם רשימת הציונות הדתית ויו\"ר הסיעה, ומכהן כיו\""
+  },
+  {
+   "key": "candidates|rzp-zehut:13|display_name",
+   "he": "רועי קירשברג",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 13"
+  },
+  {
+   "key": "candidates|rzp-zehut:13|official_name",
+   "he": "קירשברג רועי",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 13"
+  },
+  {
+   "key": "candidates|rzp-zehut:14|display_name",
+   "he": "עומר רחמים",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 14 — עומר רחמים הוא מנכ\"ל מועצת יש\"ע. כיהן כיועצו הבכיר של שר האוצר בצלאל ס"
+  },
+  {
+   "key": "candidates|rzp-zehut:14|official_name",
+   "he": "רחמים עומר",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 14 — עומר רחמים הוא מנכ\"ל מועצת יש\"ע. כיהן כיועצו הבכיר של שר האוצר בצלאל ס"
+  },
+  {
+   "key": "candidates|rzp-zehut:15|display_name",
+   "he": "סימון חסון",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 15"
+  },
+  {
+   "key": "candidates|rzp-zehut:15|official_name",
+   "he": "חסון סימון",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 15"
+  },
+  {
+   "key": "candidates|rzp-zehut:16|display_name",
+   "he": "שמואל ששון",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 16"
+  },
+  {
+   "key": "candidates|rzp-zehut:16|official_name",
+   "he": "ששון שמואל",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 16"
+  },
+  {
+   "key": "candidates|rzp-zehut:17|display_name",
+   "he": "שיראל נהיר",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 17"
+  },
+  {
+   "key": "candidates|rzp-zehut:17|official_name",
+   "he": "נהיר שיראל",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 17"
+  },
+  {
+   "key": "candidates|rzp-zehut:18|display_name",
+   "he": "צבי וישינגרד",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 18"
+  }
+ ]
+}

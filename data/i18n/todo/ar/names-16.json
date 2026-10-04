@@ -1,0 +1,759 @@
+{
+ "locale": "ar",
+ "series": "names",
+ "target_language": "Arabic",
+ "source_language": "Hebrew",
+ "instructions": "Each item is a Hebrew NAME (person, party or list). Write how that name is conventionally written in Arabic (Arabic). Examples: بنيامين نتنياهو، يائير لبيد، الليكود، يش عتيد. Use the established Arabic spelling (Arabic Wikipedia, Al-Jazeera, Arab-Israeli media) for known figures and parties; otherwise a standard transliteration. Arabic letters only, no diacritics (tashkeel) unless needed. \"ctx\" is context to identify the person or party (list, slot, MK status, start of bio): use it, do not translate it. Names are given either in natural order or surname-first (official form like \"כהן יוסי\"): always output the natural given-name-first order. Party and list names: use the established Arabic name of the party if there is one, otherwise translate the meaning (e.g. \"הציונות הדתית\" = Religious Zionism) rather than transliterate. Keep ballot-letter acronyms as they are written. Output: for every item return {\"key\": <same key>, \"value\": <your translation>}. Return ONLY a JSON array (or {\"items\":[...]}) with one entry per input item, same keys, no omissions, no extra commentary. Value must be non-empty and written in the target script; never leave Hebrew letters in it. Preserve numbers, placeholders and punctuation meaning. Save the result as data/i18n/done/<locale>/<same file name>.",
+ "items": [
+  {
+   "key": "candidates|yashar:19|official_name",
+   "he": "אוחנה טל",
+   "ctx": "רשימת ישר!, מקום 19 — טל אוחנה היא ראש מועצת ירוחם לשעבר. כלת פרס רפפורט לנשים פורצות דרך."
+  },
+  {
+   "key": "candidates|yashar:20|display_name",
+   "he": "אליסף פרץ",
+   "ctx": "רשימת ישר!, מקום 20"
+  },
+  {
+   "key": "candidates|yashar:20|official_name",
+   "he": "פרץ אליסף",
+   "ctx": "רשימת ישר!, מקום 20"
+  },
+  {
+   "key": "candidates|yashar:21|display_name",
+   "he": "יפה טבג'ה",
+   "ctx": "רשימת ישר!, מקום 21"
+  },
+  {
+   "key": "candidates|yashar:21|official_name",
+   "he": "טבג'ה יפה",
+   "ctx": "רשימת ישר!, מקום 21"
+  },
+  {
+   "key": "candidates|yashar:22|display_name",
+   "he": "ניר חג'בי",
+   "ctx": "רשימת ישר!, מקום 22"
+  },
+  {
+   "key": "candidates|yashar:22|official_name",
+   "he": "חג'בי ניר",
+   "ctx": "רשימת ישר!, מקום 22"
+  },
+  {
+   "key": "candidates|yashar:23|display_name",
+   "he": "רון ברקאי",
+   "ctx": "רשימת ישר!, מקום 23 — רון ברקאי הוא פרופסור אמריטוס בחוג להיסטוריה כללית שבאוניברסיטת תל אבי"
+  },
+  {
+   "key": "candidates|yashar:23|official_name",
+   "he": "ברקאי רון",
+   "ctx": "רשימת ישר!, מקום 23 — רון ברקאי הוא פרופסור אמריטוס בחוג להיסטוריה כללית שבאוניברסיטת תל אבי"
+  },
+  {
+   "key": "candidates|yashar:24|display_name",
+   "he": "שי אנדראה פישר",
+   "ctx": "רשימת ישר!, מקום 24"
+  },
+  {
+   "key": "candidates|yashar:24|official_name",
+   "he": "פישר שי אנדראה",
+   "ctx": "רשימת ישר!, מקום 24"
+  },
+  {
+   "key": "candidates|yashar:25|display_name",
+   "he": "ליאן פולק-דוד",
+   "ctx": "רשימת ישר!, מקום 25"
+  },
+  {
+   "key": "candidates|yashar:25|official_name",
+   "he": "פולק-דוד ליאן",
+   "ctx": "רשימת ישר!, מקום 25"
+  },
+  {
+   "key": "candidates|yashar:26|display_name",
+   "he": "רועי כהן",
+   "ctx": "רשימת ישר!, מקום 26 — רועי כהן הוא עורך דין ישראלי ונשיא להב – לשכת ארגוני העצמאים והעסקים ב"
+  },
+  {
+   "key": "candidates|yashar:26|official_name",
+   "he": "כהן רועי",
+   "ctx": "רשימת ישר!, מקום 26 — רועי כהן הוא עורך דין ישראלי ונשיא להב – לשכת ארגוני העצמאים והעסקים ב"
+  },
+  {
+   "key": "candidates|yashar:27|display_name",
+   "he": "זיו רוזן",
+   "ctx": "רשימת ישר!, מקום 27"
+  },
+  {
+   "key": "candidates|yashar:27|official_name",
+   "he": "רוזן זיו",
+   "ctx": "רשימת ישר!, מקום 27"
+  },
+  {
+   "key": "candidates|yashar:28|display_name",
+   "he": "ג'וסלין באש",
+   "ctx": "רשימת ישר!, מקום 28"
+  },
+  {
+   "key": "candidates|yashar:28|official_name",
+   "he": "באש ג'וסלין",
+   "ctx": "רשימת ישר!, מקום 28"
+  },
+  {
+   "key": "candidates|yashar:29|display_name",
+   "he": "אלון פוטרמן",
+   "ctx": "רשימת ישר!, מקום 29 — אלון צבי פוטרמן הוא יזם חברתי, מנכ\"ל הקרן לשיקום כפר עזה. היה מנכ\"ל קר"
+  },
+  {
+   "key": "candidates|yashar:29|official_name",
+   "he": "פוטרמן אלון צבי",
+   "ctx": "רשימת ישר!, מקום 29 — אלון צבי פוטרמן הוא יזם חברתי, מנכ\"ל הקרן לשיקום כפר עזה. היה מנכ\"ל קר"
+  },
+  {
+   "key": "candidates|yashar:30|display_name",
+   "he": "טלי מולנר",
+   "ctx": "רשימת ישר!, מקום 30"
+  },
+  {
+   "key": "candidates|yashar:30|official_name",
+   "he": "מולנר טלי",
+   "ctx": "רשימת ישר!, מקום 30"
+  },
+  {
+   "key": "candidates|yashar:31|display_name",
+   "he": "גיל אבריאל",
+   "ctx": "רשימת ישר!, מקום 31"
+  },
+  {
+   "key": "candidates|yashar:31|official_name",
+   "he": "אבריאל גיל",
+   "ctx": "רשימת ישר!, מקום 31"
+  },
+  {
+   "key": "candidates|yashar:32|display_name",
+   "he": "בן דוד עוזרי שירן",
+   "ctx": "רשימת ישר!, מקום 32"
+  },
+  {
+   "key": "candidates|yashar:33|display_name",
+   "he": "אלירן אליה",
+   "ctx": "רשימת ישר!, מקום 33"
+  },
+  {
+   "key": "candidates|yashar:33|official_name",
+   "he": "אליה אלירן",
+   "ctx": "רשימת ישר!, מקום 33"
+  },
+  {
+   "key": "candidates|yashar:34|display_name",
+   "he": "הלן גלבר",
+   "ctx": "רשימת ישר!, מקום 34"
+  },
+  {
+   "key": "candidates|yashar:34|official_name",
+   "he": "גלבר הלן",
+   "ctx": "רשימת ישר!, מקום 34"
+  },
+  {
+   "key": "candidates|yashar:35|display_name",
+   "he": "שלומי יחיאב",
+   "ctx": "רשימת ישר!, מקום 35"
+  },
+  {
+   "key": "candidates|yashar:35|official_name",
+   "he": "יחיאב שלומי",
+   "ctx": "רשימת ישר!, מקום 35"
+  },
+  {
+   "key": "candidates|yashar:36|display_name",
+   "he": "הילה מאיר",
+   "ctx": "רשימת ישר!, מקום 36"
+  },
+  {
+   "key": "candidates|yashar:36|official_name",
+   "he": "מאיר הילה",
+   "ctx": "רשימת ישר!, מקום 36"
+  },
+  {
+   "key": "candidates|yashar:37|display_name",
+   "he": "בן-עטיה יצקן רן",
+   "ctx": "רשימת ישר!, מקום 37"
+  },
+  {
+   "key": "candidates|yashar:38|display_name",
+   "he": "וקס אליענה מיי",
+   "ctx": "רשימת ישר!, מקום 38"
+  },
+  {
+   "key": "candidates|yashar:39|display_name",
+   "he": "גדעון זאגא",
+   "ctx": "רשימת ישר!, מקום 39"
+  },
+  {
+   "key": "candidates|yashar:39|official_name",
+   "he": "זאגא גדעון",
+   "ctx": "רשימת ישר!, מקום 39"
+  },
+  {
+   "key": "candidates|yashar:40|display_name",
+   "he": "דבידוביץ משה",
+   "ctx": "רשימת ישר!, מקום 40"
+  },
+  {
+   "key": "candidates|yashar:40|official_name",
+   "he": "משה דבידוביץ",
+   "ctx": "רשימת ישר!, מקום 40"
+  },
+  {
+   "key": "candidates|yashar:41|display_name",
+   "he": "אלכסנדר אברבוך",
+   "ctx": "רשימת ישר!, מקום 41"
+  },
+  {
+   "key": "candidates|yashar:41|official_name",
+   "he": "אברבוך אלכסנדר",
+   "ctx": "רשימת ישר!, מקום 41"
+  },
+  {
+   "key": "candidates|yashar:42|display_name",
+   "he": "שי ירון",
+   "ctx": "רשימת ישר!, מקום 42"
+  },
+  {
+   "key": "candidates|yashar:42|official_name",
+   "he": "ירון שי",
+   "ctx": "רשימת ישר!, מקום 42"
+  },
+  {
+   "key": "candidates|yashar:43|display_name",
+   "he": "רחלי רז",
+   "ctx": "רשימת ישר!, מקום 43"
+  },
+  {
+   "key": "candidates|yashar:43|official_name",
+   "he": "רז רחלי",
+   "ctx": "רשימת ישר!, מקום 43"
+  },
+  {
+   "key": "candidates|yashar:44|display_name",
+   "he": "דוד גוזלן",
+   "ctx": "רשימת ישר!, מקום 44"
+  },
+  {
+   "key": "candidates|yashar:44|official_name",
+   "he": "גוזלן דוד",
+   "ctx": "רשימת ישר!, מקום 44"
+  },
+  {
+   "key": "candidates|yashar:45|display_name",
+   "he": "נטע ישראלוביץ",
+   "ctx": "רשימת ישר!, מקום 45"
+  },
+  {
+   "key": "candidates|yashar:45|official_name",
+   "he": "ישראלוביץ נטע",
+   "ctx": "רשימת ישר!, מקום 45"
+  },
+  {
+   "key": "candidates|yashar:46|display_name",
+   "he": "אדם גושן",
+   "ctx": "רשימת ישר!, מקום 46"
+  },
+  {
+   "key": "candidates|yashar:46|official_name",
+   "he": "גושן אדם",
+   "ctx": "רשימת ישר!, מקום 46"
+  },
+  {
+   "key": "candidates|yashar:47|display_name",
+   "he": "אבי קוריאט",
+   "ctx": "רשימת ישר!, מקום 47"
+  },
+  {
+   "key": "candidates|yashar:47|official_name",
+   "he": "קוריאט אבי",
+   "ctx": "רשימת ישר!, מקום 47"
+  },
+  {
+   "key": "candidates|yashar:48|display_name",
+   "he": "ארז מלמד",
+   "ctx": "רשימת ישר!, מקום 48"
+  },
+  {
+   "key": "candidates|yashar:48|official_name",
+   "he": "מלמד ארז",
+   "ctx": "רשימת ישר!, מקום 48"
+  },
+  {
+   "key": "candidates|yashar:49|display_name",
+   "he": "אלמלם אבו מיכל",
+   "ctx": "רשימת ישר!, מקום 49"
+  },
+  {
+   "key": "candidates|yashar:50|display_name",
+   "he": "אליאור עמר",
+   "ctx": "רשימת ישר!, מקום 50"
+  },
+  {
+   "key": "candidates|yashar:50|official_name",
+   "he": "עמר אליאור",
+   "ctx": "רשימת ישר!, מקום 50"
+  },
+  {
+   "key": "candidates|yashar:51|display_name",
+   "he": "ליאור אלימלך",
+   "ctx": "רשימת ישר!, מקום 51"
+  },
+  {
+   "key": "candidates|yashar:51|official_name",
+   "he": "אלימלך ליאור",
+   "ctx": "רשימת ישר!, מקום 51"
+  },
+  {
+   "key": "candidates|yashar:52|display_name",
+   "he": "שי נממי",
+   "ctx": "רשימת ישר!, מקום 52"
+  },
+  {
+   "key": "candidates|yashar:52|official_name",
+   "he": "נממי שי",
+   "ctx": "רשימת ישר!, מקום 52"
+  },
+  {
+   "key": "candidates|yashar:53|display_name",
+   "he": "רותם-יהב נחום",
+   "ctx": "רשימת ישר!, מקום 53"
+  },
+  {
+   "key": "candidates|yashar:53|official_name",
+   "he": "נחום רותם-יהב",
+   "ctx": "רשימת ישר!, מקום 53"
+  },
+  {
+   "key": "candidates|yashar:54|display_name",
+   "he": "יחיא היב",
+   "ctx": "רשימת ישר!, מקום 54"
+  },
+  {
+   "key": "candidates|yashar:54|official_name",
+   "he": "היב יחיא",
+   "ctx": "רשימת ישר!, מקום 54"
+  },
+  {
+   "key": "candidates|yashar:55|display_name",
+   "he": "אלעד פליישר",
+   "ctx": "רשימת ישר!, מקום 55"
+  },
+  {
+   "key": "candidates|yashar:55|official_name",
+   "he": "פליישר אלעד",
+   "ctx": "רשימת ישר!, מקום 55"
+  },
+  {
+   "key": "candidates|yashar:56|display_name",
+   "he": "אזיה ג'ני ג'נט",
+   "ctx": "רשימת ישר!, מקום 56"
+  },
+  {
+   "key": "candidates|yashar:57|display_name",
+   "he": "הירשפלד יהונתן נמרוד",
+   "ctx": "רשימת ישר!, מקום 57"
+  },
+  {
+   "key": "candidates|yashar:58|display_name",
+   "he": "פזית בכר",
+   "ctx": "רשימת ישר!, מקום 58"
+  },
+  {
+   "key": "candidates|yashar:58|official_name",
+   "he": "בכר פזית",
+   "ctx": "רשימת ישר!, מקום 58"
+  },
+  {
+   "key": "candidates|yashar:59|display_name",
+   "he": "מיכל קמינסקי",
+   "ctx": "רשימת ישר!, מקום 59"
+  },
+  {
+   "key": "candidates|yashar:59|official_name",
+   "he": "קמינסקי מיכל",
+   "ctx": "רשימת ישר!, מקום 59"
+  },
+  {
+   "key": "candidates|yashar:60|display_name",
+   "he": "צמח אוראל רתם",
+   "ctx": "רשימת ישר!, מקום 60"
+  },
+  {
+   "key": "candidates|yashar:61|display_name",
+   "he": "לביא בן-שימול סול",
+   "ctx": "רשימת ישר!, מקום 61"
+  },
+  {
+   "key": "candidates|yashar:62|display_name",
+   "he": "בר יואל",
+   "ctx": "רשימת ישר!, מקום 62"
+  },
+  {
+   "key": "candidates|yashar:62|official_name",
+   "he": "יואל בר",
+   "ctx": "רשימת ישר!, מקום 62"
+  },
+  {
+   "key": "candidates|yashar:63|display_name",
+   "he": "וידריך דידיו תל אביב לי",
+   "ctx": "רשימת ישר!, מקום 63"
+  },
+  {
+   "key": "candidates|yashar:64|display_name",
+   "he": "בר דוד אהוד",
+   "ctx": "רשימת ישר!, מקום 64"
+  },
+  {
+   "key": "candidates|yashar:65|display_name",
+   "he": "פרי דניאל שרית",
+   "ctx": "רשימת ישר!, מקום 65"
+  },
+  {
+   "key": "candidates|yashar:66|display_name",
+   "he": "שרבי יונגר עדי",
+   "ctx": "רשימת ישר!, מקום 66"
+  },
+  {
+   "key": "candidates|yashar:67|display_name",
+   "he": "שלומי צדקיה",
+   "ctx": "רשימת ישר!, מקום 67"
+  },
+  {
+   "key": "candidates|yashar:67|official_name",
+   "he": "צדקיה שלומי",
+   "ctx": "רשימת ישר!, מקום 67"
+  },
+  {
+   "key": "candidates|yashar:68|display_name",
+   "he": "אריאל קרבר",
+   "ctx": "רשימת ישר!, מקום 68"
+  },
+  {
+   "key": "candidates|yashar:68|official_name",
+   "he": "קרבר אריאל",
+   "ctx": "רשימת ישר!, מקום 68"
+  },
+  {
+   "key": "candidates|yashar:69|display_name",
+   "he": "צלנר אסף צבי",
+   "ctx": "רשימת ישר!, מקום 69"
+  },
+  {
+   "key": "candidates|yashar:70|display_name",
+   "he": "אילה קימברג",
+   "ctx": "רשימת ישר!, מקום 70"
+  },
+  {
+   "key": "candidates|yashar:70|official_name",
+   "he": "קימברג אילה",
+   "ctx": "רשימת ישר!, מקום 70"
+  },
+  {
+   "key": "candidates|yashar:71|display_name",
+   "he": "עמיר זבולוני",
+   "ctx": "רשימת ישר!, מקום 71"
+  },
+  {
+   "key": "candidates|yashar:71|official_name",
+   "he": "זבולוני עמיר",
+   "ctx": "רשימת ישר!, מקום 71"
+  },
+  {
+   "key": "candidates|yashar:72|display_name",
+   "he": "יואלי לרנר מרב",
+   "ctx": "רשימת ישר!, מקום 72"
+  },
+  {
+   "key": "candidates|yashar:73|display_name",
+   "he": "דניאל עיאש",
+   "ctx": "רשימת ישר!, מקום 73"
+  },
+  {
+   "key": "candidates|yashar:73|official_name",
+   "he": "עיאש דניאל",
+   "ctx": "רשימת ישר!, מקום 73"
+  },
+  {
+   "key": "candidates|yashar:74|display_name",
+   "he": "גלבוע שי חיים",
+   "ctx": "רשימת ישר!, מקום 74"
+  },
+  {
+   "key": "candidates|yashar:75|display_name",
+   "he": "זריהן הלר כרמל",
+   "ctx": "רשימת ישר!, מקום 75"
+  },
+  {
+   "key": "candidates|yashar:76|display_name",
+   "he": "בשמת דוד",
+   "ctx": "רשימת ישר!, מקום 76"
+  },
+  {
+   "key": "candidates|yashar:76|official_name",
+   "he": "דוד בשמת",
+   "ctx": "רשימת ישר!, מקום 76"
+  },
+  {
+   "key": "candidates|yashar:77|display_name",
+   "he": "אילן ברנשטיין",
+   "ctx": "רשימת ישר!, מקום 77"
+  },
+  {
+   "key": "candidates|yashar:77|official_name",
+   "he": "ברנשטיין אילן",
+   "ctx": "רשימת ישר!, מקום 77"
+  },
+  {
+   "key": "candidates|yashar:78|display_name",
+   "he": "אלירן אלמוג",
+   "ctx": "רשימת ישר!, מקום 78"
+  },
+  {
+   "key": "candidates|yashar:78|official_name",
+   "he": "אלמוג אלירן",
+   "ctx": "רשימת ישר!, מקום 78"
+  },
+  {
+   "key": "candidates|yashar:79|display_name",
+   "he": "אברהם הלוי דוד",
+   "ctx": "רשימת ישר!, מקום 79"
+  },
+  {
+   "key": "candidates|yashar:80|display_name",
+   "he": "ענבל נעים",
+   "ctx": "רשימת ישר!, מקום 80"
+  },
+  {
+   "key": "candidates|yashar:80|official_name",
+   "he": "נעים ענבל",
+   "ctx": "רשימת ישר!, מקום 80"
+  },
+  {
+   "key": "candidates|yashar:81|display_name",
+   "he": "אורנה טייץ",
+   "ctx": "רשימת ישר!, מקום 81"
+  },
+  {
+   "key": "candidates|yashar:81|official_name",
+   "he": "טייץ אורנה",
+   "ctx": "רשימת ישר!, מקום 81"
+  },
+  {
+   "key": "candidates|yashar:82|display_name",
+   "he": "קפלן ניבה בינה",
+   "ctx": "רשימת ישר!, מקום 82"
+  },
+  {
+   "key": "candidates|yashar:83|display_name",
+   "he": "זוהר נוימרק",
+   "ctx": "רשימת ישר!, מקום 83"
+  },
+  {
+   "key": "candidates|yashar:83|official_name",
+   "he": "נוימרק זוהר",
+   "ctx": "רשימת ישר!, מקום 83"
+  },
+  {
+   "key": "candidates|yashar:84|display_name",
+   "he": "קלוגר הדר שרית",
+   "ctx": "רשימת ישר!, מקום 84"
+  },
+  {
+   "key": "candidates|yashar:85|display_name",
+   "he": "ליאור בנסטי",
+   "ctx": "רשימת ישר!, מקום 85"
+  },
+  {
+   "key": "candidates|yashar:85|official_name",
+   "he": "בנסטי ליאור",
+   "ctx": "רשימת ישר!, מקום 85"
+  },
+  {
+   "key": "candidates|yashar:86|display_name",
+   "he": "אבי ברויטמן",
+   "ctx": "רשימת ישר!, מקום 86"
+  },
+  {
+   "key": "candidates|yashar:86|official_name",
+   "he": "ברויטמן אבי",
+   "ctx": "רשימת ישר!, מקום 86"
+  },
+  {
+   "key": "candidates|yashar:87|display_name",
+   "he": "מיכל מזרחי",
+   "ctx": "רשימת ישר!, מקום 87"
+  },
+  {
+   "key": "candidates|yashar:87|official_name",
+   "he": "מזרחי מיכל",
+   "ctx": "רשימת ישר!, מקום 87"
+  },
+  {
+   "key": "candidates|yashar:88|display_name",
+   "he": "איל פושטניק",
+   "ctx": "רשימת ישר!, מקום 88"
+  },
+  {
+   "key": "candidates|yashar:88|official_name",
+   "he": "פושטניק איל",
+   "ctx": "רשימת ישר!, מקום 88"
+  },
+  {
+   "key": "candidates|yashar:89|display_name",
+   "he": "לי באשא",
+   "ctx": "רשימת ישר!, מקום 89"
+  },
+  {
+   "key": "candidates|yashar:89|official_name",
+   "he": "באשא לי",
+   "ctx": "רשימת ישר!, מקום 89"
+  },
+  {
+   "key": "candidates|yashar:90|display_name",
+   "he": "ירדן גריפין",
+   "ctx": "רשימת ישר!, מקום 90"
+  },
+  {
+   "key": "candidates|yashar:90|official_name",
+   "he": "גריפין ירדן",
+   "ctx": "רשימת ישר!, מקום 90"
+  },
+  {
+   "key": "candidates|yashar:91|display_name",
+   "he": "אורן איתן",
+   "ctx": "רשימת ישר!, מקום 91"
+  },
+  {
+   "key": "candidates|yashar:91|official_name",
+   "he": "איתן אורן",
+   "ctx": "רשימת ישר!, מקום 91"
+  },
+  {
+   "key": "candidates|yashar:92|display_name",
+   "he": "לוין עמרי",
+   "ctx": "רשימת ישר!, מקום 92"
+  },
+  {
+   "key": "candidates|yashar:92|official_name",
+   "he": "עמרי לוין",
+   "ctx": "רשימת ישר!, מקום 92"
+  },
+  {
+   "key": "candidates|yashar:93|display_name",
+   "he": "פרנקל ישראלי גלי",
+   "ctx": "רשימת ישר!, מקום 93"
+  },
+  {
+   "key": "candidates|yashar:94|display_name",
+   "he": "חיים כץ עינת",
+   "ctx": "רשימת ישר!, מקום 94"
+  },
+  {
+   "key": "candidates|yashar:95|display_name",
+   "he": "חביש מולא סילין",
+   "ctx": "רשימת ישר!, מקום 95"
+  },
+  {
+   "key": "candidates|yashar:96|display_name",
+   "he": "דז'יאן דוד הרבה",
+   "ctx": "רשימת ישר!, מקום 96"
+  },
+  {
+   "key": "candidates|yashar:97|display_name",
+   "he": "חסיה רן",
+   "ctx": "רשימת ישר!, מקום 97"
+  },
+  {
+   "key": "candidates|yashar:97|official_name",
+   "he": "רן חסיה",
+   "ctx": "רשימת ישר!, מקום 97"
+  },
+  {
+   "key": "candidates|yashar:98|display_name",
+   "he": "מזרחי אפרת חיה",
+   "ctx": "רשימת ישר!, מקום 98"
+  },
+  {
+   "key": "candidates|yashar:99|display_name",
+   "he": "גרנות יאיר אריה",
+   "ctx": "רשימת ישר!, מקום 99"
+  },
+  {
+   "key": "candidates|yashar:100|display_name",
+   "he": "אילן הררי",
+   "ctx": "רשימת ישר!, מקום 100"
+  },
+  {
+   "key": "candidates|yashar:100|official_name",
+   "he": "הררי אילן",
+   "ctx": "רשימת ישר!, מקום 100"
+  },
+  {
+   "key": "candidates|yashar:101|display_name",
+   "he": "עמיר זמורה",
+   "ctx": "רשימת ישר!, מקום 101"
+  },
+  {
+   "key": "candidates|yashar:101|official_name",
+   "he": "זמורה עמיר",
+   "ctx": "רשימת ישר!, מקום 101"
+  },
+  {
+   "key": "candidates|yashar:102|display_name",
+   "he": "אסתר עפרוני",
+   "ctx": "רשימת ישר!, מקום 102"
+  },
+  {
+   "key": "candidates|yashar:102|official_name",
+   "he": "עפרוני אסתר",
+   "ctx": "רשימת ישר!, מקום 102"
+  },
+  {
+   "key": "candidates|yashar:103|display_name",
+   "he": "מתי בורושק",
+   "ctx": "רשימת ישר!, מקום 103"
+  },
+  {
+   "key": "candidates|yashar:103|official_name",
+   "he": "בורושק מתי",
+   "ctx": "רשימת ישר!, מקום 103"
+  },
+  {
+   "key": "candidates|yashar:104|display_name",
+   "he": "טל יזהר",
+   "ctx": "רשימת ישר!, מקום 104"
+  },
+  {
+   "key": "candidates|yashar:104|official_name",
+   "he": "יזהר טל",
+   "ctx": "רשימת ישר!, מקום 104"
+  },
+  {
+   "key": "candidates|yashar:105|display_name",
+   "he": "עידן ז'אן",
+   "ctx": "רשימת ישר!, מקום 105"
+  },
+  {
+   "key": "candidates|yashar:105|official_name",
+   "he": "ז'אן עידן",
+   "ctx": "רשימת ישר!, מקום 105"
+  },
+  {
+   "key": "candidates|yashar:106|display_name",
+   "he": "חן שרון",
+   "ctx": "רשימת ישר!, מקום 106"
+  },
+  {
+   "key": "candidates|yashar:106|official_name",
+   "he": "שרון חן",
+   "ctx": "רשימת ישר!, מקום 106"
+  }
+ ]
+}

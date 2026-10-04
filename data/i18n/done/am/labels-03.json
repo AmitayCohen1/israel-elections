@@ -1,0 +1,602 @@
+[
+ {
+  "key": "people|noam:2|headline",
+  "he": "סגן ראש עיריית באר שבע, חבר מועצת העיר מ-2013",
+  "value": "የበርሸባ ምክትል ከንቲባ፣ ከ2013 ጀምሮ የከተማ ምክር ቤት አባል"
+ },
+ {
+  "key": "people|noam:2|facts.0.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|noam:3|headline",
+  "he": "ראש מועצת קריית ארבע לשעבר, קצין ביטחון בחברון",
+  "value": "የቀድሞ የቂርያት አርባ ምክር ቤት ኃላፊ፣ በኬብሮን የደኅንነት መኮንን"
+ },
+ {
+  "key": "people|noam:3|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "ወታደራዊና ሀገራዊ አገልግሎት"
+ },
+ {
+  "key": "people|noam:3|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|noam:3|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|noam:4|headline",
+  "he": "אשת חינוך, מנכ\"לית רשת בתי ספר לשעבר",
+  "value": "የትምህርት ሰው (ሴት)፣ የቀድሞ የትምህርት ቤቶች መረብ ዋና ዳይሬክተር"
+ },
+ {
+  "key": "people|noam:4|facts.0.label",
+  "he": "השכלה",
+  "value": "ትምህርት"
+ },
+ {
+  "key": "people|noam:4|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|noam:5|headline",
+  "he": "אשת חינוך וניהול, מנכ\"לית יישובים קהילתיים לשעבר",
+  "value": "የትምህርትና የአስተዳደር ሰው (ሴት)፣ የቀድሞ የማኅበረሰብ ሰፈራዎች ዋና ዳይሬክተር"
+ },
+ {
+  "key": "people|noam:5|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|noam:5|facts.1.label",
+  "he": "השכלה",
+  "value": "ትምህርት"
+ },
+ {
+  "key": "people|orot-hashahar:1|headline",
+  "he": "מנהל מוזיאון הרצל לשעבר, יו\"ר מפלגת אורות השחר",
+  "value": "የቀድሞ የሄርዝል ሙዚየም ዳይሬክተር፣ የንጋት ብርሃናት ፓርቲ ሊቀ መንበር"
+ },
+ {
+  "key": "people|orot-hashahar:1|facts.0.label",
+  "he": "השכלה",
+  "value": "ትምህርት"
+ },
+ {
+  "key": "people|orot-hashahar:1|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|orot-hashahar:2|headline",
+  "he": "מדען מדינה, מייסד ודובר מפלגת אורות השחר",
+  "value": "የመንግሥት ሳይንቲስት፣ የንጋት ብርሃናት ፓርቲ መስራችና ቃል አቀባይ"
+ },
+ {
+  "key": "people|orot-hashahar:2|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "ወታደራዊና ሀገራዊ አገልግሎት"
+ },
+ {
+  "key": "people|orot-hashahar:2|facts.1.label",
+  "he": "השכלה",
+  "value": "ትምህርት"
+ },
+ {
+  "key": "people|orot-hashahar:3|headline",
+  "he": "איש חינוך וחוקר, מייסד מכינת איתן",
+  "value": "የትምህርትና የምርምር ሰው፣ የኤይታን ቅድመ ወታደራዊ ትምህርት ቤት መስራች"
+ },
+ {
+  "key": "people|orot-hashahar:3|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "ወታደራዊና ሀገራዊ አገልግሎት"
+ },
+ {
+  "key": "people|orot-hashahar:3|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|orot-hashahar:3|facts.2.label",
+  "he": "השכלה",
+  "value": "ትምህርት"
+ },
+ {
+  "key": "people|orot-hashahar:4|headline",
+  "he": "מומחה להתיישבות וחקלאות",
+  "value": "በሰፈራና በግብርና ባለሙያ"
+ },
+ {
+  "key": "people|orot-hashahar:4|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|orot-hashahar:5|headline",
+  "he": "רב, עורך דין ופובליציסט",
+  "value": "ረቢ፣ ጠበቃና ጸሐፊ"
+ },
+ {
+  "key": "people|orot-hashahar:5|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|otzma-yehudit:1|headline",
+  "he": "עורך דין, שר לביטחון לאומי מ-2022",
+  "value": "ጠበቃ፣ ከ2022 ጀምሮ የብሔራዊ ደኅንነት ሚኒስትር"
+ },
+ {
+  "key": "people|otzma-yehudit:1|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|otzma-yehudit:1|facts.1.label",
+  "he": "השכלה",
+  "value": "ትምህርት"
+ },
+ {
+  "key": "people|otzma-yehudit:1|facts.2.label",
+  "he": "כנסת",
+  "value": "ክኔሴት"
+ },
+ {
+  "key": "people|otzma-yehudit:1|facts.3.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|otzma-yehudit:2|headline",
+  "he": "עורכת דין, חברת כנסת מ-2022",
+  "value": "ጠበቃ (ሴት)፣ ከ2022 ጀምሮ የክኔሴት አባል"
+ },
+ {
+  "key": "people|otzma-yehudit:2|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|otzma-yehudit:2|facts.1.label",
+  "he": "השכלה",
+  "value": "ትምህርት"
+ },
+ {
+  "key": "people|otzma-yehudit:2|facts.2.label",
+  "he": "כנסת",
+  "value": "ክኔሴት"
+ },
+ {
+  "key": "people|otzma-yehudit:3|headline",
+  "he": "שר לפיתוח הנגב והגליל, חבר כנסת מ-2022",
+  "value": "የነጌቭና የገሊላ ልማት ሚኒስትር፣ ከ2022 ጀምሮ የክኔሴት አባል"
+ },
+ {
+  "key": "people|otzma-yehudit:3|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "ወታደራዊና ሀገራዊ አገልግሎት"
+ },
+ {
+  "key": "people|otzma-yehudit:3|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|otzma-yehudit:3|facts.2.label",
+  "he": "כנסת",
+  "value": "ክኔሴት"
+ },
+ {
+  "key": "people|otzma-yehudit:3|facts.3.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|otzma-yehudit:4|headline",
+  "he": "מחנך, שר המורשת",
+  "value": "አስተማሪ፣ የቅርስ ሚኒስትር"
+ },
+ {
+  "key": "people|otzma-yehudit:4|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|otzma-yehudit:4|facts.1.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "ወታደራዊና ሀገራዊ አገልግሎት"
+ },
+ {
+  "key": "people|otzma-yehudit:4|facts.2.label",
+  "he": "כנסת",
+  "value": "ክኔሴት"
+ },
+ {
+  "key": "people|otzma-yehudit:4|facts.3.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|otzma-yehudit:5|headline",
+  "he": "חברת כנסת, יועצת לטיפול רגשי והדרכת הורים",
+  "value": "የክኔሴት አባል፣ የስሜት ሕክምና እና የወላጆች ሥልጠና አማካሪ"
+ },
+ {
+  "key": "people|otzma-yehudit:5|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|otzma-yehudit:5|facts.1.label",
+  "he": "השכלה",
+  "value": "ትምህርት"
+ },
+ {
+  "key": "people|otzma-yehudit:5|facts.2.label",
+  "he": "כנסת",
+  "value": "ክኔሴት"
+ },
+ {
+  "key": "people|pirates:1|headline",
+  "he": "ממקימי מפלגת הפיראטים, עמד בראש רשימתה ב-2013 וב-2021",
+  "value": "ከፓይሬትስ ፓርቲ መስራቾች አንዱ፣ በ2013 እና በ2021 የዝርዝሩ መሪ"
+ },
+ {
+  "key": "people|pirates:1|facts.0.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|pirates:1|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|pirates:2|headline",
+  "he": "ממנהיגי מפלגת הפיראטים, עמד בראש רשימתה בכמה מערכות בחירות",
+  "value": "ከፓይሬትስ ፓርቲ መሪዎች አንዱ፣ በበርካታ ምርጫዎች የዝርዝሩ መሪ"
+ },
+ {
+  "key": "people|pirates:2|facts.0.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|raam:1|headline",
+  "he": "רופא שיניים, יו\"ר רע\"מ מ-2018, חבר כנסת",
+  "value": "የጥርስ ሐኪም፣ ከ2018 ጀምሮ የራዓም ሊቀ መንበር፣ የክኔሴት አባል"
+ },
+ {
+  "key": "people|raam:1|facts.0.label",
+  "he": "השכלה",
+  "value": "ትምህርት"
+ },
+ {
+  "key": "people|raam:1|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|raam:1|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|raam:1|facts.3.label",
+  "he": "כנסת",
+  "value": "ክኔሴት"
+ },
+ {
+  "key": "people|raam:2|headline",
+  "he": "ניצב (דימוס) במשטרה, מקים להב 433, סגן שר לביטחון הפנים לשעבר",
+  "value": "የፖሊስ ኒጻቭ (ጡረታ)፣ የላቫ 433 መስራች፣ የቀድሞ የውስጥ ደኅንነት ምክትል ሚኒስትር"
+ },
+ {
+  "key": "people|raam:2|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "ወታደራዊና ሀገራዊ አገልግሎት"
+ },
+ {
+  "key": "people|raam:2|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|raam:2|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|raam:2|facts.3.label",
+  "he": "כנסת",
+  "value": "ክኔሴት"
+ },
+ {
+  "key": "people|raam:3|headline",
+  "he": "מחנך ומנהל רשת גנים ובתי ספר, חבר כנסת מטעם רע\"ם",
+  "value": "አስተማሪና የመዋዕለ ሕፃናትና ትምህርት ቤቶች መረብ አስተዳዳሪ፣ በራዓም የክኔሴት አባል"
+ },
+ {
+  "key": "people|raam:3|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|raam:3|facts.1.label",
+  "he": "השכלה",
+  "value": "ትምህርት"
+ },
+ {
+  "key": "people|raam:3|facts.2.label",
+  "he": "כנסת",
+  "value": "ክኔሴት"
+ },
+ {
+  "key": "people|raam:4|headline",
+  "he": "שופט כדורגל לשעבר, מנהל סיעת רע\"ם, חבר כנסת",
+  "value": "የቀድሞ እግር ኳስ ዳኛ፣ የራዓም ቡድን አስተዳዳሪ፣ የክኔሴት አባል"
+ },
+ {
+  "key": "people|raam:4|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|raam:4|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|raam:4|facts.2.label",
+  "he": "השכלה",
+  "value": "ትምህርት"
+ },
+ {
+  "key": "people|raam:4|facts.3.label",
+  "he": "כנסת",
+  "value": "ክኔሴት"
+ },
+ {
+  "key": "people|raam:5|headline",
+  "he": "עובדת סוציאלית, מנהלת מתנ\"סים, חברת כנסת מ-2020",
+  "value": "ማኅበራዊ ሠራተኛ፣ የማኅበረሰብ ማዕከላት አስተዳዳሪ፣ ከ2020 ጀምሮ የክኔሴት አባል"
+ },
+ {
+  "key": "people|raam:5|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|raam:5|facts.1.label",
+  "he": "השכלה",
+  "value": "ትምህርት"
+ },
+ {
+  "key": "people|raam:5|facts.2.label",
+  "he": "כנסת",
+  "value": "ክኔሴት"
+ },
+ {
+  "key": "people|reservists-economic:1|headline",
+  "he": "מג\"ד מילואים (סא\"ל), שר התקשורת לשעבר, יו\"ר המילואימניקים",
+  "value": "የተጠባባቂ ሻለቃ አዛዥ (ሌተና ኮሎኔል)፣ የቀድሞ የኮሙኒኬሽን ሚኒስትር፣ የተጠባባቂዎቹ ሊቀ መንበር"
+ },
+ {
+  "key": "people|reservists-economic:1|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "ወታደራዊና ሀገራዊ አገልግሎት"
+ },
+ {
+  "key": "people|reservists-economic:1|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|reservists-economic:1|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|reservists-economic:2|headline",
+  "he": "כלכלן ורואה חשבון, החשב הכללי באוצר 2003–2007, פרופסור",
+  "value": "ኢኮኖሚስትና የሂሳብ ባለሙያ፣ በገንዘብ ሚኒስቴር ዋና ገንዘብ ያዥ 2003–2007፣ ፕሮፌሰር"
+ },
+ {
+  "key": "people|reservists-economic:2|facts.0.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|reservists-economic:2|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|reservists-economic:2|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|reservists-economic:2|facts.3.label",
+  "he": "השכלה",
+  "value": "ትምህርት"
+ },
+ {
+  "key": "people|reservists-economic:3|headline",
+  "he": "דוקטור למדע המדינה, חברת הכנסת ה-18, יועצת מדינית לשמעון פרס",
+  "value": "በፖለቲካ ሳይንስ ዶክተር፣ የ18ኛው ክኔሴት አባል፣ የሽሞን ፔሬስ የፖለቲካ አማካሪ"
+ },
+ {
+  "key": "people|reservists-economic:3|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "ወታደራዊና ሀገራዊ አገልግሎት"
+ },
+ {
+  "key": "people|reservists-economic:3|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|reservists-economic:3|facts.2.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|reservists-economic:3|facts.3.label",
+  "he": "כנסת",
+  "value": "ክኔሴት"
+ },
+ {
+  "key": "people|reservists-economic:5|headline",
+  "he": "ממקימי מפלגת המילואימניקים, קצין מילואים",
+  "value": "ከተጠባባቂዎቹ ፓርቲ መስራቾች አንዱ፣ የተጠባባቂ መኮንን"
+ },
+ {
+  "key": "people|reservists-economic:5|facts.0.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|reservists-economic:5|facts.1.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "ወታደራዊና ሀገራዊ አገልግሎት"
+ },
+ {
+  "key": "people|rzp-zehut:1|headline",
+  "he": "מנהל תנועת רגבים לשעבר, שר האוצר, יו\"ר הציונות הדתית",
+  "value": "የቀድሞ የረጌቪም ንቅናቄ ዳይሬክተር፣ የገንዘብ ሚኒስትር፣ የሃይማኖታዊ ጽዮናዊነት ሊቀ መንበር"
+ },
+ {
+  "key": "people|rzp-zehut:1|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|rzp-zehut:1|facts.1.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "ወታደራዊና ሀገራዊ አገልግሎት"
+ },
+ {
+  "key": "people|rzp-zehut:1|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|rzp-zehut:1|facts.3.label",
+  "he": "השכלה",
+  "value": "ትምህርት"
+ },
+ {
+  "key": "people|rzp-zehut:2|headline",
+  "he": "ממקימי \"זו ארצנו\", יו\"ר זהות, חבר כנסת לשעבר מהליכוד",
+  "value": "ከ\"ይህች ምድራችን ናት\" መስራቾች አንዱ፣ የዜሁት ሊቀ መንበር፣ ከሊኩድ የቀድሞ የክኔሴት አባል"
+ },
+ {
+  "key": "people|rzp-zehut:2|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "ወታደራዊና ሀገራዊ አገልግሎት"
+ },
+ {
+  "key": "people|rzp-zehut:2|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|rzp-zehut:2|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|rzp-zehut:2|facts.3.label",
+  "he": "כנסת",
+  "value": "ክኔሴት"
+ },
+ {
+  "key": "people|rzp-zehut:3|headline",
+  "he": "ממקימי ארגון זכויות האדם ביש\"ע, שרת ההתיישבות, חברת כנסת",
+  "value": "በይሁዳና ሰማርያ ከሚገኘው የሰብአዊ መብቶች ድርጅት መስራቾች አንዱ፣ የሰፈራ ሚኒስትር፣ የክኔሴት አባል"
+ },
+ {
+  "key": "people|rzp-zehut:3|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|rzp-zehut:3|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|rzp-zehut:3|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|rzp-zehut:3|facts.3.label",
+  "he": "כנסת",
+  "value": "ክኔሴት"
+ },
+ {
+  "key": "people|rzp-zehut:4|headline",
+  "he": "עורך דין, ממייסדי התנועה למשילות ודמוקרטיה, חבר כנסת מ-2021",
+  "value": "ጠበቃ፣ ከአስተዳደርና ዴሞክራሲ ንቅናቄ መስራቾች አንዱ፣ ከ2021 ጀምሮ የክኔሴት አባል"
+ },
+ {
+  "key": "people|rzp-zehut:4|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|rzp-zehut:4|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|rzp-zehut:4|facts.2.label",
+  "he": "כנסת",
+  "value": "ክኔሴት"
+ },
+ {
+  "key": "people|rzp-zehut:4|facts.3.label",
+  "he": "השכלה",
+  "value": "ትምህርት"
+ },
+ {
+  "key": "people|rzp-zehut:5|headline",
+  "he": "מאמן קוגניטיבי-התנהגותי, יו\"ר פורום תקווה",
+  "value": "የግንዛቤ-ባህሪ አሠልጣኝ፣ የተስፋ መድረክ ሊቀ መንበር"
+ },
+ {
+  "key": "people|rzp-zehut:5|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|rzp-zehut:5|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|rzp-zehut:5|facts.2.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "ወታደራዊና ሀገራዊ አገልግሎት"
+ },
+ {
+  "key": "people|rzp-zehut:5|facts.3.label",
+  "he": "השכלה",
+  "value": "ትምህርት"
+ },
+ {
+  "key": "people|sharshar:1|facts.0.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ }
+]

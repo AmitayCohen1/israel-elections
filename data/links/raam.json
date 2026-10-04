@@ -1,0 +1,29 @@
+{
+  "slug": "raam",
+  "researched_at": "2026-10-03",
+  "links": [
+    {
+      "url": "https://www.facebook.com/MansourAbbas.me/",
+      "kind": "leader_facebook",
+      "title": "עמוד הפייסבוק של מנסור עבאס",
+      "owner": "מנסור עבאס",
+      "found_via": "web search result, opened (page name Mansour Abbas)",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.instagram.com/mansourabbas.me/",
+      "kind": "leader_instagram",
+      "title": "האינסטגרם של מנסור עבאס",
+      "owner": "מנסור עבאס",
+      "found_via": "web search result titled Mansour Abbas",
+      "status": "login-wall"
+    }
+  ],
+  "unverified": [
+    {
+      "url": "https://x.com/mnsorabbas",
+      "note": "Handle mentioned in search summary only, not opened"
+    }
+  ],
+  "notes": "No party website (almwahda.com unreachable). No party-level social accounts found; only leader accounts. gov.il 403."
+}

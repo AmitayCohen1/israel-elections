@@ -1,0 +1,192 @@
+{
+  "slug": "reservists-economic",
+  "researched_at": "2026-10-03",
+  "links": [
+    {
+      "url": "https://www.themiluimnikim.org.il/",
+      "kind": "website",
+      "title": "אתר המילואימניקים",
+      "owner": "list",
+      "found_via": "seed; opened",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.themiluimnikim.org.il/platform/",
+      "kind": "platform",
+      "title": "עקרונות / מצע",
+      "owner": "list",
+      "found_via": "site menu",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.themiluimnikim.org.il/מתווה-המילואימניקים/",
+      "kind": "positions_page",
+      "title": "מתווה המילואימניקים",
+      "owner": "list",
+      "found_via": "seed",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.themiluimnikim.org.il/about/",
+      "kind": "other",
+      "title": "אודות",
+      "owner": "list",
+      "found_via": "site menu",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.themiluimnikim.org.il/events/",
+      "kind": "other",
+      "title": "אירועים",
+      "owner": "list",
+      "found_via": "site menu",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.themiluimnikim.org.il/elections/",
+      "kind": "other",
+      "title": "הבחירות המקדימות",
+      "owner": "list",
+      "found_via": "site menu",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.themiluimnikim.org.il/join/",
+      "kind": "other",
+      "title": "התנדבות והצטרפות",
+      "owner": "list",
+      "found_via": "site menu",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.themiluimnikim.org.il/תרומות/",
+      "kind": "other",
+      "title": "תרומות",
+      "owner": "list",
+      "found_via": "site menu",
+      "status": "ok"
+    },
+    {
+      "url": "https://x.com/miluimnikim",
+      "kind": "x",
+      "title": "חשבון X של המילואימניקים",
+      "owner": "list",
+      "found_via": "linked from official site",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.facebook.com/the.miluimnikim/",
+      "kind": "facebook",
+      "title": "עמוד הפייסבוק של המילואימניקים",
+      "owner": "list",
+      "found_via": "linked from official site",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.instagram.com/ha.miluimnikim/",
+      "kind": "instagram",
+      "title": "אינסטגרם המילואימניקים",
+      "owner": "list",
+      "found_via": "linked from official site",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.youtube.com/@תנועתהמילואימניקים",
+      "kind": "youtube",
+      "title": "ערוץ היוטיוב של המילואימניקים",
+      "owner": "list",
+      "found_via": "linked from official site",
+      "status": "ok"
+    },
+    {
+      "url": "https://chat.whatsapp.com/GCRy5SkeIlK9TDc6cc5rVi",
+      "kind": "whatsapp",
+      "title": "קבוצת וואטסאפ",
+      "owner": "list",
+      "found_via": "linked from official site",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.hakalkalit.org",
+      "kind": "website",
+      "title": "אתר המפלגה הכלכלית",
+      "owner": "list",
+      "found_via": "seed note; opened",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.facebook.com/HakalkalitParty",
+      "kind": "facebook",
+      "title": "פייסבוק המפלגה הכלכלית",
+      "owner": "list",
+      "found_via": "hakalkalit.org footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.instagram.com/hakalkalit/",
+      "kind": "instagram",
+      "title": "אינסטגרם המפלגה הכלכלית",
+      "owner": "list",
+      "found_via": "hakalkalit.org footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://twitter.com/PZelekha",
+      "kind": "leader_x",
+      "title": "X של ירון זליכה",
+      "owner": "ירון זליכה",
+      "found_via": "hakalkalit.org footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCPLCDfWIPxzjhRNbXZpJByg",
+      "kind": "youtube",
+      "title": "יוטיוב המפלגה הכלכלית",
+      "owner": "list",
+      "found_via": "hakalkalit.org footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.tiktok.com/@zalichayaron",
+      "kind": "leader_tiktok",
+      "title": "טיקטוק של ירון זליכה",
+      "owner": "ירון זליכה",
+      "found_via": "hakalkalit.org footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://linkedin.com/company/economic-party-המפלגה-הכלכלית",
+      "kind": "linkedin",
+      "title": "לינקדאין המפלגה הכלכלית",
+      "owner": "list",
+      "found_via": "hakalkalit.org footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://t.me/econo_ch",
+      "kind": "telegram",
+      "title": "טלגרם המפלגה הכלכלית",
+      "owner": "list",
+      "found_via": "hakalkalit.org footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://whatsapp.com/channel/0029VaYt04fAYlUJUd6pms00",
+      "kind": "whatsapp",
+      "title": "ערוץ וואטסאפ המפלגה הכלכלית",
+      "owner": "list",
+      "found_via": "hakalkalit.org footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://join.hakalkalit.org/donate/",
+      "kind": "other",
+      "title": "תרומות למפלגה הכלכלית",
+      "owner": "list",
+      "found_via": "hakalkalit.org footer",
+      "status": "ok"
+    }
+  ],
+  "unverified": [],
+  "notes": "Merged list of two parties; both sites' socials listed. Hendel personal accounts not searched. gov.il 403."
+}

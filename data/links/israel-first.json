@@ -1,0 +1,64 @@
+{
+ "slug": "israel-first",
+ "researched_at": "2026-10-03",
+ "links": [
+  {
+   "url": "https://israelfirst.co.il/",
+   "kind": "website",
+   "title": "האתר הרשמי",
+   "owner": "list",
+   "found_via": "seed; fetched ok",
+   "status": "ok"
+  },
+  {
+   "url": "https://israelfirst.co.il/work-plan/",
+   "kind": "positions_page",
+   "title": "תוכנית עבודה",
+   "owner": "list",
+   "found_via": "seed; official site",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.facebook.com/profile.php?id=61590022352209",
+   "kind": "facebook",
+   "title": "עמוד הפייסבוק",
+   "owner": "list",
+   "found_via": "official site footer",
+   "status": "login-wall"
+  },
+  {
+   "url": "https://www.instagram.com/israelfirst26",
+   "kind": "instagram",
+   "title": "אינסטגרם",
+   "owner": "list",
+   "found_via": "official site footer",
+   "status": "login-wall"
+  },
+  {
+   "url": "https://x.com/israelfirst26",
+   "kind": "x",
+   "title": "חשבון X",
+   "owner": "list",
+   "found_via": "official site footer",
+   "status": "login-wall"
+  },
+  {
+   "url": "https://www.youtube.com/@israelfitst26",
+   "kind": "youtube",
+   "title": "ערוץ יוטיוב",
+   "owner": "list",
+   "found_via": "official site footer",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.tiktok.com/@israelfirst26",
+   "kind": "tiktok",
+   "title": "טיקטוק",
+   "owner": "list",
+   "found_via": "official site footer",
+   "status": "ok"
+  }
+ ],
+ "unverified": [],
+ "notes": "Extracted from official site hrefs. Merged with Aleh Yarok (Nir Yoftaro) per background. No leader personal accounts checked. YouTube handle spelled 'israelfitst26' as linked."
+}

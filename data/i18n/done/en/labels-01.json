@@ -1,0 +1,602 @@
+[
+ {
+  "key": "list_platforms|amcha-yisrael|self_description.source_title",
+  "he": "עמך ישראל – המפלגה בראשות עופר וינטר (דף הבית)",
+  "value": "Am Yisrael – the party led by Ofer Winter (home page)"
+ },
+ {
+  "key": "list_platforms|amcha-yisrael|platform_doc.title",
+  "he": "מסמך אבני היסוד של התנועה",
+  "value": "The movement's founding principles document"
+ },
+ {
+  "key": "list_platforms|amcha-yisrael|topic_titles.economy",
+  "he": "שבירת מונופולים, הסרת חסמי יבוא",
+  "value": "Breaking up monopolies, removing import barriers"
+ },
+ {
+  "key": "list_platforms|amcha-yisrael|topic_titles.housing",
+  "he": "התחדשות עירונית עם מיגון בקצוות הארץ",
+  "value": "Urban renewal with fortification in the country's periphery"
+ },
+ {
+  "key": "list_platforms|amcha-yisrael|topic_titles.security",
+  "he": "מהכלה להכרעה, \"הגירה מרצון\" מעזה",
+  "value": "From containment to decisive victory, \"voluntary emigration\" from Gaza"
+ },
+ {
+  "key": "list_platforms|amcha-yisrael|topic_titles.education",
+  "he": "ליבה, עצמאות למנהלי בתי ספר, ביזור",
+  "value": "Core curriculum, autonomy for school principals, decentralization"
+ },
+ {
+  "key": "list_platforms|amcha-yisrael|topic_titles.judiciary",
+  "he": "ערכאת ערעור על בג\"ץ, פיצול היועמ\"ש",
+  "value": "Appeals court above the High Court of Justice, splitting the Attorney General's role"
+ },
+ {
+  "key": "list_platforms|amcha-yisrael|topic_titles.governance",
+  "he": "ועדת חקירה עם סמכות אכיפה, ביזור",
+  "value": "Commission of inquiry with enforcement powers, decentralization"
+ },
+ {
+  "key": "list_platforms|amcha-yisrael|topic_titles.religion_state",
+  "he": "חוק יסוד: השירות ותגמול דיפרנציאלי",
+  "value": "Basic Law: Service, and differential compensation"
+ },
+ {
+  "key": "list_platforms|beyachad-natzliach|topic_titles.economy",
+  "he": "יוקר המחיה ו\"כלכלה הוגנת\" ליהודים וערבים",
+  "value": "Cost of living and a \"fair economy\" for Jews and Arabs"
+ },
+ {
+  "key": "list_platforms|beyachad-natzliach|topic_titles.security",
+  "he": "ביטול חוק שירות הביטחון, ביטחון בחברה הערבית ושלום",
+  "value": "Repealing the Security Service Law, security in Arab society, and peace"
+ },
+ {
+  "key": "list_platforms|democrats|self_description.source_title",
+  "he": "מה המצע - תוכניות העבודה של מפלגת הדמוקרטים",
+  "value": "What's the platform – the work plans of The Democrats party"
+ },
+ {
+  "key": "list_platforms|democrats|platform_doc.title",
+  "he": "מה המצע - תוכניות העבודה של מפלגת הדמוקרטים",
+  "value": "What's the platform – the work plans of The Democrats party"
+ },
+ {
+  "key": "list_platforms|democrats|topic_titles.economy",
+  "he": "סדרי עדיפויות, יוקר מחיה ושיקום הפריפריה",
+  "value": "Priorities, cost of living and rehabilitating the periphery"
+ },
+ {
+  "key": "list_platforms|democrats|topic_titles.housing",
+  "he": "התחדשות עירונית, שכירות ארוכת טווח ודיור ציבורי",
+  "value": "Urban renewal, long-term rentals and public housing"
+ },
+ {
+  "key": "list_platforms|democrats|topic_titles.security",
+  "he": "מדיניות של יוזמה והכרעה (כותרת בלבד)",
+  "value": "A policy of initiative and decisive action (heading only)"
+ },
+ {
+  "key": "list_platforms|democrats|topic_titles.education",
+  "he": "הרחבת מסגרות ציבוריות לגיל הרך",
+  "value": "Expanding public early-childhood frameworks"
+ },
+ {
+  "key": "list_platforms|democrats|topic_titles.judiciary",
+  "he": "ביצור הדמוקרטיה והגנה על שלטון החוק (כותרת בלבד)",
+  "value": "Strengthening democracy and protecting the rule of law (heading only)"
+ },
+ {
+  "key": "list_platforms|democrats|topic_titles.religion_state",
+  "he": "ישראל חופשית, מתנגדת לכפייה ולהדרה (כותרת בלבד)",
+  "value": "A free Israel, opposed to coercion and exclusion (heading only)"
+ },
+ {
+  "key": "list_platforms|democrats|topic_titles.welfare_health",
+  "he": "קיצור שבוע העבודה, חופשת לידה ושירותי בריאות",
+  "value": "Shorter work week, parental leave and health services"
+ },
+ {
+  "key": "list_platforms|gan-eden|topic_titles.economy",
+  "he": "תוכנית היובל הלאומי: שמיטת חובות ושכר בסיס",
+  "value": "The National Jubilee plan: debt forgiveness and a basic wage"
+ },
+ {
+  "key": "list_platforms|gan-eden|topic_titles.housing",
+  "he": "דיור בר-השגה ושחרור חסמי תכנון",
+  "value": "Affordable housing and removing planning barriers"
+ },
+ {
+  "key": "list_platforms|gan-eden|topic_titles.security",
+  "he": "הגנה על אזרחים ומשרד שלום ופיוס",
+  "value": "Protecting citizens and a Ministry of Peace and Reconciliation"
+ },
+ {
+  "key": "list_platforms|gan-eden|topic_titles.education",
+  "he": "חינוך לערכים ולימודי כלכלה ומשפט",
+  "value": "Education in values, and studies in economics and law"
+ },
+ {
+  "key": "list_platforms|gan-eden|topic_titles.judiciary",
+  "he": "קיצור הליכים ואחריות בעלי תפקיד",
+  "value": "Shorter proceedings and accountability for officeholders"
+ },
+ {
+  "key": "list_platforms|gan-eden|topic_titles.governance",
+  "he": "תקציב פתוח והצבעות ציבוריות מאובטחות",
+  "value": "Open budget and secure public voting"
+ },
+ {
+  "key": "list_platforms|gan-eden|topic_titles.welfare_health",
+  "he": "רפואה מונעת ובריאות נפש",
+  "value": "Preventive medicine and mental health"
+ },
+ {
+  "key": "list_platforms|haredi-public|self_description.source_title",
+  "he": "הפעם, לוקחים אחריות · הציבור החרדי (דף הבית)",
+  "value": "This time, taking responsibility · The Haredi Public (home page)"
+ },
+ {
+  "key": "list_platforms|haredi-public|platform_doc.title",
+  "he": "המצע – הפעם לוקחים אחריות. בכל תחום.",
+  "value": "The platform – This time, taking responsibility. In every field."
+ },
+ {
+  "key": "list_platforms|haredi-public|topic_titles.economy",
+  "he": "משק חופשי, מיסים נמוכים, הכשרות ורפורמת ואוצ׳רים",
+  "value": "Free market, low taxes, training programs and a voucher reform"
+ },
+ {
+  "key": "list_platforms|haredi-public|topic_titles.housing",
+  "he": "נגד שיכוני חרדים מנותקים; אזורי תעסוקה ברשויות חרדיות",
+  "value": "Against isolated Haredi housing estates; employment zones in Haredi local authorities"
+ },
+ {
+  "key": "list_platforms|haredi-public|topic_titles.security",
+  "he": "חיזוק המסלולים החרדיים בצה״ל",
+  "value": "Strengthening the Haredi tracks in the IDF"
+ },
+ {
+  "key": "list_platforms|haredi-public|topic_titles.education",
+  "he": "עצמאות החינוך לצד אנגלית ומתמטיקה",
+  "value": "Educational independence alongside English and mathematics"
+ },
+ {
+  "key": "list_platforms|haredi-public|topic_titles.religion_state",
+  "he": "הגנה על לומדי תורה; שירות לשאינם לומדים",
+  "value": "Protecting Torah students; service for those who do not study"
+ },
+ {
+  "key": "list_platforms|israel-first|topic_titles.economy",
+  "he": "צמצום משרדי ממשלה והפחתת מס חברות",
+  "value": "Reducing government ministries and cutting corporate tax"
+ },
+ {
+  "key": "list_platforms|israel-first|topic_titles.security",
+  "he": "פירוז חיזבאללה, ביטול הסכמי אוסלו, הסברה",
+  "value": "Demilitarizing Hezbollah, cancelling the Oslo Accords, public diplomacy"
+ },
+ {
+  "key": "list_platforms|israel-first|topic_titles.education",
+  "he": "שוברי חינוך להורים",
+  "value": "Education vouchers for parents"
+ },
+ {
+  "key": "list_platforms|israel-first|topic_titles.religion_state",
+  "he": "שירות לאומי-אזרחי למי שאינו משרת; שלילת הטבות מדינה",
+  "value": "Civilian-national service for those who do not serve; denying state benefits"
+ },
+ {
+  "key": "list_platforms|israel-first|topic_titles.welfare_health",
+  "he": "לגליזציה מלאה של קנאביס",
+  "value": "Full legalization of cannabis"
+ },
+ {
+  "key": "list_platforms|joint-list|self_description.source_title",
+  "he": "הרשימה המשותפת חוזרת: חד״ש, תע״ל ובל״ד יתמודדו יחד בבחירות (אתר המפלגה הקומוניסטית הישראלית)",
+  "value": "The Joint List returns: Hadash, Ta'al and Balad will run together in the elections (Communist Party of Israel website)"
+ },
+ {
+  "key": "list_platforms|joint-list|topic_titles.economy",
+  "he": "שכר מינימום לפחות 70% מהממוצע, מע\"מ 10%",
+  "value": "Minimum wage of at least 70% of the average, 10% VAT"
+ },
+ {
+  "key": "list_platforms|joint-list|topic_titles.housing",
+  "he": "דיור ציבורי; שכר דירה לא מעל 20% מההכנסה",
+  "value": "Public housing; rent not exceeding 20% of income"
+ },
+ {
+  "key": "list_platforms|joint-list|topic_titles.security",
+  "he": "רשות למאבק בפשיעה המאורגנת; קיצוץ בהוצאות הצבאיות",
+  "value": "An authority to combat organized crime; cutting military spending"
+ },
+ {
+  "key": "list_platforms|joint-list|topic_titles.education",
+  "he": "חינוך חינם מגיל 0 ועד הדוקטורט",
+  "value": "Free education from age 0 through the doctorate"
+ },
+ {
+  "key": "list_platforms|joint-list|topic_titles.judiciary",
+  "he": "עצמאות מערכת המשפט כתנאי למאבק בפשיעה",
+  "value": "An independent judiciary as a condition for fighting crime"
+ },
+ {
+  "key": "list_platforms|joint-list|topic_titles.governance",
+  "he": "שוויון אזרחי, שומרי סף, חיזוק הרשויות הערביות",
+  "value": "Civil equality, gatekeepers, strengthening Arab local authorities"
+ },
+ {
+  "key": "list_platforms|joint-list|topic_titles.welfare_health",
+  "he": "קצבה בסיסית של 25% מהשכר הממוצע",
+  "value": "A basic allowance of 25% of the average wage"
+ },
+ {
+  "key": "list_platforms|likud|self_description.source_title",
+  "he": "נתניהו באירוע הרמת כוסית של הליכוד: \"הצלנו את ישראל מהשמדה. אין ישר - זה בלוף\" - וואלה",
+  "value": "Netanyahu at the Likud toast event: \"We saved Israel from annihilation. Yashar is a bluff\" - Walla"
+ },
+ {
+  "key": "list_platforms|orot-hashahar|topic_titles.economy",
+  "he": "פתיחת השוק לתחרות, מס שטוח ואחיד, סגירת תאגידי המים",
+  "value": "Opening the market to competition, a flat uniform tax, closing the water corporations"
+ },
+ {
+  "key": "list_platforms|orot-hashahar|topic_titles.housing",
+  "he": "רפורמה ברמ\"י, הפסקת ספסרות בקרקע ו\"מלחמת חורמה\" ביוקר הדיור",
+  "value": "Reform of the Israel Land Authority, ending land speculation and an \"all-out war\" on housing costs"
+ },
+ {
+  "key": "list_platforms|orot-hashahar|topic_titles.security",
+  "he": "ביטול הדרגתי של אוסלו, הריסת כפרים, הגירה מעזה, עונש מוות לעוסקים בטרור, ריבונות על כל הארץ",
+  "value": "Gradual cancellation of Oslo, demolishing villages, emigration from Gaza, death penalty for those involved in terror, sovereignty over the whole land"
+ },
+ {
+  "key": "list_platforms|orot-hashahar|topic_titles.education",
+  "he": "חופש חינוכי עם תכני ליבה; שביתות לא יתקבלו בשנת הלימודים",
+  "value": "Educational freedom with core content; strikes will not be accepted during the school year"
+ },
+ {
+  "key": "list_platforms|orot-hashahar|topic_titles.judiciary",
+  "he": "עונש מוות לעוסקים בטרור; משפט מהיר מחוץ לבתי המשפט",
+  "value": "Death penalty for those involved in terror; swift trials outside the courts"
+ },
+ {
+  "key": "list_platforms|orot-hashahar|topic_titles.governance",
+  "he": "הגבלת כהונה ל-8 שנים, צמצום משרדי ממשלה, חיסול הבירוקרטיה תוך 4 שנים",
+  "value": "Term limit of 8 years, fewer government ministries, eliminating bureaucracy within 4 years"
+ },
+ {
+  "key": "list_platforms|orot-hashahar|topic_titles.religion_state",
+  "he": "שוויון בנטל, תחבורה בשבת לפי רשות מקומית, הגדרת יהודי כהלכה",
+  "value": "Equal sharing of the burden, public transport on Shabbat by local authority, defining who is a Jew according to Halakha"
+ },
+ {
+  "key": "list_platforms|orot-hashahar|topic_titles.welfare_health",
+  "he": "קצבאות לקשישים, שני הורים פעילים, סיוע לנפגעי המלחמה",
+  "value": "Allowances for the elderly, two active parents, aid for war victims"
+ },
+ {
+  "key": "list_platforms|pirates|topic_titles.security",
+  "he": "שלום בין כל יושבי הארץ",
+  "value": "Peace among all the inhabitants of the land"
+ },
+ {
+  "key": "list_platforms|pirates|topic_titles.education",
+  "he": "חינוך חינם במוסדות ממשלתיים",
+  "value": "Free education in government institutions"
+ },
+ {
+  "key": "list_platforms|pirates|topic_titles.governance",
+  "he": "ביטול אחוז החסימה, דמוקרטיה השתתפותית ושקיפות",
+  "value": "Abolishing the electoral threshold, participatory democracy and transparency"
+ },
+ {
+  "key": "list_platforms|pirates|topic_titles.welfare_health",
+  "he": "שירותים לכל מחזור החיים",
+  "value": "Services for every stage of life"
+ },
+ {
+  "key": "list_platforms|raam|self_description.source_title",
+  "he": "خلال مؤتمر صحفي في الناصرة.. منصور عباس يعلن انضمام سيغالوفيتش إلى القائمة العربية الموحدة (كل العرب)",
+  "value": "During a press conference in Nazareth, Mansour Abbas announces Sigalovich joining the United Arab List (Kul Al-Arab)"
+ },
+ {
+  "key": "list_platforms|reservists-economic|self_description.source_title",
+  "he": "עקרי המצע – המילואימניקים",
+  "value": "Platform highlights – The Reservists"
+ },
+ {
+  "key": "list_platforms|reservists-economic|platform_doc.title",
+  "he": "עקרי המצע – המילואימניקים (מצע מפלגת המילואימניקים, אחת משתי המפלגות ברשימה)",
+  "value": "Platform highlights – The Reservists (platform of The Reservists party, one of the two parties on the list)"
+ },
+ {
+  "key": "list_platforms|reservists-economic|topic_titles.economy",
+  "he": "הטבות מס לפריפריה, שלוש רפורמות בשנה",
+  "value": "Tax benefits for the periphery, three reforms a year"
+ },
+ {
+  "key": "list_platforms|reservists-economic|topic_titles.housing",
+  "he": "קרקעות וסבסוד שכר דירה למילואימניקים",
+  "value": "Land and rent subsidies for reservists"
+ },
+ {
+  "key": "list_platforms|reservists-economic|topic_titles.security",
+  "he": "יוזמה והתקפיות, שליטה בפרימטר ובפילדלפי",
+  "value": "Initiative and offensive action, control of the perimeter and the Philadelphi Corridor"
+ },
+ {
+  "key": "list_platforms|reservists-economic|topic_titles.education",
+  "he": "תקציבי חינוך רק למוסדות שותפים בשירות",
+  "value": "Education budgets only for institutions that take part in service"
+ },
+ {
+  "key": "list_platforms|reservists-economic|topic_titles.judiciary",
+  "he": "פיצול היועמ\"ש, תיקונים בהסכמות רחבות",
+  "value": "Splitting the Attorney General's role, amendments by broad consensus"
+ },
+ {
+  "key": "list_platforms|reservists-economic|topic_titles.governance",
+  "he": "ממשלה ציונית, ועדת חקירה, הגבלת כהונה",
+  "value": "A Zionist government, commission of inquiry, term limits"
+ },
+ {
+  "key": "list_platforms|reservists-economic|topic_titles.religion_state",
+  "he": "גיוס לכולם וסנקציות על מי שאינו משרת",
+  "value": "Conscription for all and sanctions on those who do not serve"
+ },
+ {
+  "key": "list_platforms|rzp-zehut|self_description.source_title",
+  "he": "מצע המפלגה - מפלגת הציונות הדתית",
+  "value": "Party platform – the Religious Zionist Party"
+ },
+ {
+  "key": "list_platforms|rzp-zehut|topic_titles.economy",
+  "he": "תמריצי מס ליזמים בנגב ובגליל",
+  "value": "Tax incentives for entrepreneurs in the Negev and the Galilee"
+ },
+ {
+  "key": "list_platforms|rzp-zehut|topic_titles.housing",
+  "he": "יישובים חדשים ועדיפות בדיור",
+  "value": "New communities and housing priority"
+ },
+ {
+  "key": "list_platforms|rzp-zehut|topic_titles.security",
+  "he": "פשיעה מאורגנת, מילואים וחוק יסוד המשרתים",
+  "value": "Organized crime, reserve duty and the Basic Law: Those Who Serve"
+ },
+ {
+  "key": "list_platforms|rzp-zehut|topic_titles.religion_state",
+  "he": "תוכנית לאומית לגיוס חרדים",
+  "value": "A national plan for Haredi conscription"
+ },
+ {
+  "key": "list_platforms|shas|self_description.source_title",
+  "he": "ללא הפתעות: ש\"ס פרסמה את רשימתה לבחירות לכנסת",
+  "value": "No surprises: Shas publishes its list for the Knesset elections"
+ },
+ {
+  "key": "list_platforms|together|self_description.source_title",
+  "he": "מפלגת ביחד בראשות נפתלי בנט | ביחד נתקן את ישראל | עמוד בית",
+  "value": "The Together party led by Naftali Bennett | Together we will fix Israel | Home page"
+ },
+ {
+  "key": "list_platforms|together|platform_doc.title",
+  "he": "תוכניות התיקון של ישראל – תכניות מפלגת ביחד בראשות נפתלי בנט",
+  "value": "Israel's repair plans – plans of the Together party led by Naftali Bennett"
+ },
+ {
+  "key": "list_platforms|together|topic_titles.economy",
+  "he": "מחירי המזון: מינוס 30% בשלוש שנים",
+  "value": "Food prices: minus 30% in three years"
+ },
+ {
+  "key": "list_platforms|together|topic_titles.housing",
+  "he": "יותר היצע, פחות בירוקרטיה",
+  "value": "More supply, less bureaucracy"
+ },
+ {
+  "key": "list_platforms|together|topic_titles.security",
+  "he": "מפסיביות ליוזמה והכרעה; הפשיעה — איום לאומי",
+  "value": "From passivity to initiative and decisive action; crime — a national threat"
+ },
+ {
+  "key": "list_platforms|together|topic_titles.education",
+  "he": "תקצוב ציבורי רק עם 100% ליבה",
+  "value": "Public funding only with a 100% core curriculum"
+ },
+ {
+  "key": "list_platforms|together|topic_titles.judiciary",
+  "he": "הסדרה — רק בהסכמה רחבה",
+  "value": "Regulation — only by broad consensus"
+ },
+ {
+  "key": "list_platforms|together|topic_titles.governance",
+  "he": "חוקה, הגבלת כהונה, ועדת חקירה",
+  "value": "A constitution, term limits, commission of inquiry"
+ },
+ {
+  "key": "list_platforms|together|topic_titles.religion_state",
+  "he": "שבת לפי הרשות המקומית, זוגיות אזרחית",
+  "value": "Shabbat by local authority, civil partnership"
+ },
+ {
+  "key": "list_platforms|together|topic_titles.welfare_health",
+  "he": "רפואה בקהילה, קרוב לבית",
+  "value": "Community medicine, close to home"
+ },
+ {
+  "key": "list_platforms|yashar|self_description.source_title",
+  "he": "עמוד הבית - ישר! עם איזנקוט (תיאור האתר)",
+  "value": "Home page - Yashar! with Eisenkot (site description)"
+ },
+ {
+  "key": "list_platforms|yashar|platform_doc.title",
+  "he": "תכניות – 10 הצעדים (אתר ישר! עם איזנקוט)",
+  "value": "Plans – the 10 Steps (website of Yashar! with Eisenkot)"
+ },
+ {
+  "key": "list_platforms|yashar|topic_titles.economy",
+  "he": "תמריצים לנושאי הנטל, פירוק ריכוזיות",
+  "value": "Incentives on burden-sharing issues, breaking up concentration"
+ },
+ {
+  "key": "list_platforms|yashar|topic_titles.security",
+  "he": "תפיסת ביטחון חדשה, קבינט נגד פשיעה",
+  "value": "A new security doctrine, a cabinet against crime"
+ },
+ {
+  "key": "list_platforms|yashar|topic_titles.education",
+  "he": "עדיפות לחינוך הממלכתי, לימודי ליבה לכל",
+  "value": "Priority for state education, core studies for all"
+ },
+ {
+  "key": "list_platforms|yashar|topic_titles.judiciary",
+  "he": "חוק יסוד החקיקה, מערכת משפט עצמאית",
+  "value": "Basic Law: Legislation, an independent judiciary"
+ },
+ {
+  "key": "list_platforms|yashar|topic_titles.governance",
+  "he": "ועדת חקירה, שתי קדנציות, מיליון עולים",
+  "value": "Commission of inquiry, two terms, a million immigrants"
+ },
+ {
+  "key": "list_platforms|yashar|topic_titles.religion_state",
+  "he": "שירות ממלכתי לכל, הסדרים בהידברות",
+  "value": "National service for all, arrangements through dialogue"
+ },
+ {
+  "key": "list_platforms|yashar|topic_titles.welfare_health",
+  "he": "שיקום נפגעי המלחמה, שירותים בפריפריה",
+  "value": "Rehabilitating war victims, services in the periphery"
+ },
+ {
+  "key": "list_platforms|yisrael-beiteinu|self_description.source_title",
+  "he": "מפלגת ישראל ביתנו – דף הבית",
+  "value": "Yisrael Beiteinu party – home page"
+ },
+ {
+  "key": "list_platforms|yisrael-beiteinu|platform_doc.title",
+  "he": "המצע שלנו - מפלגת ישראל ביתנו",
+  "value": "Our platform - Yisrael Beiteinu party"
+ },
+ {
+  "key": "list_platforms|yisrael-beiteinu|topic_titles.economy",
+  "he": "עסקת חבילה: פירוק מונופולים והפחתת רגולציה",
+  "value": "A package deal: breaking up monopolies and reducing regulation"
+ },
+ {
+  "key": "list_platforms|yisrael-beiteinu|topic_titles.housing",
+  "he": "הגדלת היצע ותחרות על המחיר לצרכן",
+  "value": "Increasing supply and competition on the price for the consumer"
+ },
+ {
+  "key": "list_platforms|yisrael-beiteinu|topic_titles.security",
+  "he": "גיוס חובה לכל אזרח; תקציב הביטחון ל-95 מיליארד",
+  "value": "Mandatory conscription for every citizen; defense budget of 95 billion"
+ },
+ {
+  "key": "list_platforms|yisrael-beiteinu|topic_titles.education",
+  "he": "חובת ליבה לכל תלמיד; תקצוב רק למי שמלמד אותה",
+  "value": "Mandatory core curriculum for every student; funding only for those who teach it"
+ },
+ {
+  "key": "list_platforms|yisrael-beiteinu|topic_titles.judiciary",
+  "he": "חוקה ובית משפט לחוקה; נגד ההתגברות",
+  "value": "A constitution and a constitutional court; against the override clause"
+ },
+ {
+  "key": "list_platforms|yisrael-beiteinu|topic_titles.governance",
+  "he": "ועדת חקירה, שתי קדנציות, תיקון חוק הלאום",
+  "value": "Commission of inquiry, two terms, amending the Nation-State Law"
+ },
+ {
+  "key": "list_platforms|yisrael-beiteinu|topic_titles.religion_state",
+  "he": "הפרדת דת ומדינה ונישואין אזרחיים",
+  "value": "Separation of religion and state, and civil marriage"
+ },
+ {
+  "key": "list_platforms|yisrael-beiteinu|topic_titles.welfare_health",
+  "he": "השלמת פנסיה לשכר מינימום, שני בתי חולים",
+  "value": "Topping up pensions to the minimum wage, two hospitals"
+ },
+ {
+  "key": "people|amcha-yisrael:1|headline",
+  "he": "תת-אלוף במילואים, מפקד עוצבת האש, מייסד \"עמך ישראל\"",
+  "value": "Brigadier general (res.), commander of the Fire Formation, founder of \"Am Yisrael\""
+ },
+ {
+  "key": "people|amcha-yisrael:1|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "Military and national service"
+ },
+ {
+  "key": "people|amcha-yisrael:1|facts.1.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "Military and national service"
+ },
+ {
+  "key": "people|amcha-yisrael:1|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|amcha-yisrael:2|headline",
+  "he": "פעיל הסברה, שדר לשעבר ב-i24NEWS, ממקימי עמותת \"ביחד\"",
+  "value": "Public diplomacy activist, former anchor at i24NEWS, co-founder of the \"Beyachad\" association"
+ },
+ {
+  "key": "people|amcha-yisrael:2|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "Military and national service"
+ },
+ {
+  "key": "people|amcha-yisrael:2|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "Professional background"
+ },
+ {
+  "key": "people|amcha-yisrael:2|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|amcha-yisrael:2|facts.3.label",
+  "he": "השכלה",
+  "value": "Education"
+ },
+ {
+  "key": "people|amcha-yisrael:3|headline",
+  "he": "עיתונאית ושדרנית חדשות, הגישה את \"זמן שישי\" בחדשות 13",
+  "value": "Journalist and news anchor, hosted \"Friday Time\" on Channel 13 News"
+ },
+ {
+  "key": "people|amcha-yisrael:3|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "Professional background"
+ },
+ {
+  "key": "people|amcha-yisrael:3|facts.1.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "Military and national service"
+ },
+ {
+  "key": "people|amcha-yisrael:3|facts.2.label",
+  "he": "השכלה",
+  "value": "Education"
+ },
+ {
+  "key": "people|amcha-yisrael:3|facts.3.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|amcha-yisrael:4|headline",
+  "he": "עורך דין, יו\"ר האופוזיציה בלשכת עורכי הדין (2026)",
+  "value": "Attorney, chair of the opposition faction in the Israel Bar Association (2026)"
+ }
+]

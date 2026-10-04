@@ -1,0 +1,52 @@
+import type { Dictionary } from "./he";
+
+export const ar: Dictionary = {
+  meta: {
+    title: "لمن تصوّت؟ · انتخابات 2026",
+    titleTemplate: "%s · لمن تصوّت؟",
+    description: "جميع الأحزاب وجميع المرشحين للكنيست الـ26 في مكان واحد: من في القائمة، في أي مرتبة، وماذا يقولون — مع المصادر.",
+  },
+  ui: {
+    brand: "لمن تصوّت؟",
+    homeAria: "لمن تصوّت؟ — الصفحة الرئيسية",
+    blurb: "موقع مستقل وغير حزبي. البيانات من لجنة الانتخابات المركزية والكنيست وويكيبيديا.",
+    viewsAria: "العروض",
+    moreAria: "المزيد",
+    searchShort: "بحث عن مرشح",
+    searchLong: "ابحث عن مرشح بالاسم",
+    searchAria: "البحث عن مرشح بالاسم",
+    searchBtn: "بحث",
+    nfTitle: "هذه الورقة ليست في صندوق الاقتراع",
+    nfBody: "لم نجد الصفحة التي تبحث عنها.",
+    nfCta: "جميع الأحزاب",
+    language: "اللغة",
+  },
+  nav: {
+    home: "نظرة عامة",
+    topics: "القضايا",
+    map: "خريطة المواقف",
+    people: "رؤساء الأحزاب",
+    lists: "الأحزاب",
+    vote: "كيف نصوّت",
+    about: "المصادر والمنهجية",
+    resources: "روابط رسمية",
+    contact: "اتصل بنا",
+  },
+  topics: {
+    security: "الأمن",
+    economy: "الاقتصاد",
+    religion_state: "الدين",
+    judiciary: "القضاء",
+    housing: "السكن",
+    education: "التعليم",
+    welfare_health: "الرفاه",
+    governance: "الحُكم",
+  },
+  sourceTypes: {
+    platform: "البرنامج الرسمي",
+    party_site: "موقع الحزب",
+    official_statement: "بيان رسمي",
+    interview: "مقابلة",
+    news_report: "تقرير إعلامي",
+  },
+};

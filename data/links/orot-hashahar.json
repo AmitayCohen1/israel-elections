@@ -1,0 +1,64 @@
+{
+ "slug": "orot-hashahar",
+ "researched_at": "2026-10-03",
+ "links": [
+  {
+   "url": "https://orothashachar.org.il/",
+   "kind": "website",
+   "title": "האתר הרשמי",
+   "owner": "list",
+   "found_via": "seed; fetched ok",
+   "status": "ok"
+  },
+  {
+   "url": "https://orothashachar.org.il/platform/",
+   "kind": "platform",
+   "title": "מצע",
+   "owner": "list",
+   "found_via": "official site nav",
+   "status": "ok"
+  },
+  {
+   "url": "https://orothashachar.org.il/about-us/",
+   "kind": "other",
+   "title": "אודות",
+   "owner": "list",
+   "found_via": "official site nav",
+   "status": "ok"
+  },
+  {
+   "url": "https://orothashachar.org.il/announcement/",
+   "kind": "press",
+   "title": "הודעות",
+   "owner": "list",
+   "found_via": "official site nav",
+   "status": "ok"
+  },
+  {
+   "url": "https://orothashachar.org.il/join-us/",
+   "kind": "other",
+   "title": "הצטרפות",
+   "owner": "list",
+   "found_via": "official site nav",
+   "status": "ok"
+  },
+  {
+   "url": "https://orothashachar.org.il/questions-and-answers/",
+   "kind": "positions_page",
+   "title": "שאלות ותשובות",
+   "owner": "list",
+   "found_via": "official site nav",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.youtube.com/@OrotHashachar",
+   "kind": "youtube",
+   "title": "ערוץ יוטיוב",
+   "owner": "list",
+   "found_via": "official site link (shorts)",
+   "status": "ok"
+  }
+ ],
+ "unverified": [],
+ "notes": "Official site shows only YouTube as social link; no Facebook/Instagram links found on pages checked (home, about, talk-to-us)."
+}

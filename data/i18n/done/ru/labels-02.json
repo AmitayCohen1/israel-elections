@@ -1,0 +1,602 @@
+[
+ {
+  "key": "people|amcha-yisrael:4|facts.0.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Общественные должности"
+ },
+ {
+  "key": "people|amcha-yisrael:5|headline",
+  "he": "עורכת דין, משנה לראש עיריית ירושלים לשעבר, שליחת משרד החוץ",
+  "value": "Адвокат, бывший заместитель мэра Иерусалима, представитель министерства иностранных дел"
+ },
+ {
+  "key": "people|amcha-yisrael:5|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "Профессиональный опыт"
+ },
+ {
+  "key": "people|amcha-yisrael:5|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Общественные должности"
+ },
+ {
+  "key": "people|amcha-yisrael:5|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Общественные должности"
+ },
+ {
+  "key": "people|amcha-yisrael:5|facts.3.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Общественные должности"
+ },
+ {
+  "key": "people|betach:1|headline",
+  "he": "איש תקשורת ועסקים, מייסד מפלגת בט\"ח",
+  "value": "Медиадеятель и бизнесмен, основатель партии «Бетах»"
+ },
+ {
+  "key": "people|betach:1|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "Профессиональный опыт"
+ },
+ {
+  "key": "people|betach:1|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "Профессиональный опыт"
+ },
+ {
+  "key": "people|betach:1|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Общественные должности"
+ },
+ {
+  "key": "people|beyachad-natzliach:1|headline",
+  "he": "איש עסקים, מייסד Evoke (888), יו\"ר מפלגת ביחד נצליח",
+  "value": "Бизнесмен, основатель Evoke (888), председатель партии «Вместе мы преуспеем»"
+ },
+ {
+  "key": "people|beyachad-natzliach:1|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "Профессиональный опыт"
+ },
+ {
+  "key": "people|beyachad-natzliach:1|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Общественные должности"
+ },
+ {
+  "key": "people|beyachad-natzliach:1|facts.2.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "Военная и национальная служба"
+ },
+ {
+  "key": "people|beyachad-natzliach:1|facts.3.label",
+  "he": "השכלה",
+  "value": "Образование"
+ },
+ {
+  "key": "people|blue-and-white:1|headline",
+  "he": "רמטכ\"ל לשעבר, שר הביטחון לשעבר, יו\"ר כחול לבן",
+  "value": "Бывший начальник Генштаба, бывший министр обороны, председатель «Кахоль Лаван»"
+ },
+ {
+  "key": "people|blue-and-white:1|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "Военная и национальная служба"
+ },
+ {
+  "key": "people|blue-and-white:1|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Общественные должности"
+ },
+ {
+  "key": "people|blue-and-white:1|facts.2.label",
+  "he": "כנסת",
+  "value": "Кнессет"
+ },
+ {
+  "key": "people|blue-and-white:2|headline",
+  "he": "עורכת דין ועיתונאית בעברה, שרת העלייה והקליטה לשעבר",
+  "value": "Адвокат, в прошлом журналистка, бывший министр алии и интеграции"
+ },
+ {
+  "key": "people|blue-and-white:2|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "Военная и национальная служба"
+ },
+ {
+  "key": "people|blue-and-white:2|facts.1.label",
+  "he": "השכלה",
+  "value": "Образование"
+ },
+ {
+  "key": "people|blue-and-white:2|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Общественные должности"
+ },
+ {
+  "key": "people|blue-and-white:2|facts.3.label",
+  "he": "כנסת",
+  "value": "Кнессет"
+ },
+ {
+  "key": "people|blue-and-white:3|headline",
+  "he": "אשת חינוך, ראש עיריית בית שמש 2018–2024",
+  "value": "Педагог, мэр Бейт-Шемеша в 2018–2024 годах"
+ },
+ {
+  "key": "people|blue-and-white:3|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "Профессиональный опыт"
+ },
+ {
+  "key": "people|blue-and-white:3|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Общественные должности"
+ },
+ {
+  "key": "people|blue-and-white:3|facts.2.label",
+  "he": "רקע מקצועי",
+  "value": "Профессиональный опыт"
+ },
+ {
+  "key": "people|blue-and-white:3|facts.3.label",
+  "he": "השכלה",
+  "value": "Образование"
+ },
+ {
+  "key": "people|blue-and-white:4|headline",
+  "he": "דובר ויועץ תקשורת בכיר ליאיר לפיד, לוחם מילואים",
+  "value": "Пресс-секретарь и старший медиаконсультант Яира Лапида, боец резерва"
+ },
+ {
+  "key": "people|blue-and-white:4|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "Профессиональный опыт"
+ },
+ {
+  "key": "people|blue-and-white:4|facts.1.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "Военная и национальная служба"
+ },
+ {
+  "key": "people|democrats:1|headline",
+  "he": "אלוף במילואים, יושב ראש מפלגת הדמוקרטים",
+  "value": "Генерал-майор запаса, председатель партии «Демократы»"
+ },
+ {
+  "key": "people|democrats:1|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "Военная и национальная служба"
+ },
+ {
+  "key": "people|democrats:1|facts.1.label",
+  "he": "השכלה",
+  "value": "Образование"
+ },
+ {
+  "key": "people|democrats:1|facts.2.label",
+  "he": "כנסת",
+  "value": "Кнессет"
+ },
+ {
+  "key": "people|democrats:1|facts.3.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Общественные должности"
+ },
+ {
+  "key": "people|democrats:2|headline",
+  "he": "חברת כנסת, חברת מועצת העיר חיפה לשעבר",
+  "value": "Член Кнессета, бывший член городского совета Хайфы"
+ },
+ {
+  "key": "people|democrats:2|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "Профессиональный опыт"
+ },
+ {
+  "key": "people|democrats:2|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Общественные должности"
+ },
+ {
+  "key": "people|democrats:2|facts.2.label",
+  "he": "כנסת",
+  "value": "Кнессет"
+ },
+ {
+  "key": "people|democrats:2|facts.3.label",
+  "he": "השכלה",
+  "value": "Образование"
+ },
+ {
+  "key": "people|democrats:3|headline",
+  "he": "רב רפורמי ועורך דין, חבר כנסת מ-2021",
+  "value": "Реформистский раввин и адвокат, член Кнессета с 2021 года"
+ },
+ {
+  "key": "people|democrats:3|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "Профессиональный опыт"
+ },
+ {
+  "key": "people|democrats:3|facts.1.label",
+  "he": "השכלה",
+  "value": "Образование"
+ },
+ {
+  "key": "people|democrats:3|facts.2.label",
+  "he": "כנסת",
+  "value": "Кнессет"
+ },
+ {
+  "key": "people|democrats:4|headline",
+  "he": "שחקנית ומגישה לשעבר, עורכת דין, חברת כנסת מ-2021",
+  "value": "Актриса и бывшая телеведущая, адвокат, член Кнессета с 2021 года"
+ },
+ {
+  "key": "people|democrats:4|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "Профессиональный опыт"
+ },
+ {
+  "key": "people|democrats:4|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "Профессиональный опыт"
+ },
+ {
+  "key": "people|democrats:4|facts.2.label",
+  "he": "כנסת",
+  "value": "Кнессет"
+ },
+ {
+  "key": "people|democrats:4|facts.3.label",
+  "he": "השכלה",
+  "value": "Образование"
+ },
+ {
+  "key": "people|democrats:5|headline",
+  "he": "מנכ\"ל לשעבר של תנועת 'דרכנו', מייסד 'לובי 99'",
+  "value": "Бывший генеральный директор движения «Наш путь», основатель «Лобби 99»"
+ },
+ {
+  "key": "people|democrats:5|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "Профессиональный опыт"
+ },
+ {
+  "key": "people|democrats:5|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "Профессиональный опыт"
+ },
+ {
+  "key": "people|democrats:5|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Общественные должности"
+ },
+ {
+  "key": "people|democrats:5|facts.3.label",
+  "he": "השכלה",
+  "value": "Образование"
+ },
+ {
+  "key": "people|gan-eden:1|headline",
+  "he": "יו\"ר תנועת גן עדן, מועמד התנועה לראשות הממשלה",
+  "value": "Председатель движения «Ган Эден», кандидат движения на пост премьер-министра"
+ },
+ {
+  "key": "people|gan-eden:1|facts.0.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Общественные должности"
+ },
+ {
+  "key": "people|haredi-public:1|headline",
+  "he": "סגן ראש עירייה, יו\"ר תנועת הציבור החרדי",
+  "value": "Заместитель мэра, председатель движения «Харедийская общественность»"
+ },
+ {
+  "key": "people|haredi-public:1|facts.0.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Общественные должности"
+ },
+ {
+  "key": "people|haredi-public:3|headline",
+  "he": "חוקרת ומרצה באוניברסיטת תל אביב, מורה לשעבר במוסדות חרדיים",
+  "value": "Исследовательница и преподавательница Тель-Авивского университета, бывшая учительница в харедийских учреждениях"
+ },
+ {
+  "key": "people|haredi-public:3|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "Профессиональный опыт"
+ },
+ {
+  "key": "people|haredi-public:3|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "Профессиональный опыт"
+ },
+ {
+  "key": "people|haredi-public:3|facts.2.label",
+  "he": "השכלה",
+  "value": "Образование"
+ },
+ {
+  "key": "people|israel-first:1|headline",
+  "he": "חברת כנסת, סגנית שר החוץ לשעבר",
+  "value": "Член Кнессета, бывший заместитель министра иностранных дел"
+ },
+ {
+  "key": "people|israel-first:1|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "Военная и национальная служба"
+ },
+ {
+  "key": "people|israel-first:1|facts.1.label",
+  "he": "כנסת",
+  "value": "Кнессет"
+ },
+ {
+  "key": "people|israel-first:1|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Общественные должности"
+ },
+ {
+  "key": "people|israel-first:2|headline",
+  "he": "איש עסקים ויועץ, סגן אלוף במילואים",
+  "value": "Бизнесмен и консультант, подполковник запаса"
+ },
+ {
+  "key": "people|israel-first:2|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "Профессиональный опыт"
+ },
+ {
+  "key": "people|israel-first:2|facts.1.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "Военная и национальная служба"
+ },
+ {
+  "key": "people|israel-first:4|headline",
+  "he": "ראש מועצת עין קנייא",
+  "value": "Глава совета Эйн-Кания"
+ },
+ {
+  "key": "people|israel-first:4|facts.0.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Общественные должности"
+ },
+ {
+  "key": "people|israel-first:4|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "Профессиональный опыт"
+ },
+ {
+  "key": "people|israel-first:4|facts.2.label",
+  "he": "השכלה",
+  "value": "Образование"
+ },
+ {
+  "key": "people|joint-list:1|headline",
+  "he": "משפטן, מרצה באוניברסיטת חיפה, יו\"ר חד\"ש, חבר כנסת לשעבר",
+  "value": "Юрист, преподаватель Хайфского университета, председатель ХАДАШ, бывший член Кнессета"
+ },
+ {
+  "key": "people|joint-list:1|facts.0.label",
+  "he": "השכלה",
+  "value": "Образование"
+ },
+ {
+  "key": "people|joint-list:1|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "Профессиональный опыт"
+ },
+ {
+  "key": "people|joint-list:1|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Общественные должности"
+ },
+ {
+  "key": "people|joint-list:1|facts.3.label",
+  "he": "כנסת",
+  "value": "Кнессет"
+ },
+ {
+  "key": "people|joint-list:2|headline",
+  "he": "רופא במקצועו, חבר כנסת מטעם תע\"ל מ-1999",
+  "value": "Врач по профессии, член Кнессета от Тааль с 1999 года"
+ },
+ {
+  "key": "people|joint-list:2|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "Профессиональный опыт"
+ },
+ {
+  "key": "people|joint-list:2|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Общественные должности"
+ },
+ {
+  "key": "people|joint-list:2|facts.2.label",
+  "he": "כנסת",
+  "value": "Кнессет"
+ },
+ {
+  "key": "people|joint-list:3|headline",
+  "he": "היסטוריון בהשכלתו, יו\"ר בל\"ד, חבר כנסת לשעבר",
+  "value": "Историк по образованию, председатель Балада, бывший член Кнессета"
+ },
+ {
+  "key": "people|joint-list:3|facts.0.label",
+  "he": "השכלה",
+  "value": "Образование"
+ },
+ {
+  "key": "people|joint-list:3|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Общественные должности"
+ },
+ {
+  "key": "people|joint-list:3|facts.2.label",
+  "he": "כנסת",
+  "value": "Кнессет"
+ },
+ {
+  "key": "people|likud:1|headline",
+  "he": "קפטן לשעבר בסיירת מטכ\"ל, ראש הממשלה מ-2022",
+  "value": "Бывший капитан «Сайерет Маткаль», премьер-министр с 2022 года"
+ },
+ {
+  "key": "people|likud:1|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "Военная и национальная служба"
+ },
+ {
+  "key": "people|likud:1|facts.1.label",
+  "he": "השכלה",
+  "value": "Образование"
+ },
+ {
+  "key": "people|likud:1|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Общественные должности"
+ },
+ {
+  "key": "people|likud:1|facts.3.label",
+  "he": "כנסת",
+  "value": "Кнессет"
+ },
+ {
+  "key": "people|likud:2|headline",
+  "he": "רואה חשבון, שר האנרגיה והתשתיות מ-2024",
+  "value": "Бухгалтер, министр энергетики и инфраструктуры с 2024 года"
+ },
+ {
+  "key": "people|likud:2|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "Профессиональный опыт"
+ },
+ {
+  "key": "people|likud:2|facts.1.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "Военная и национальная служба"
+ },
+ {
+  "key": "people|likud:2|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Общественные должности"
+ },
+ {
+  "key": "people|likud:2|facts.3.label",
+  "he": "כנסת",
+  "value": "Кнессет"
+ },
+ {
+  "key": "people|likud:3|headline",
+  "he": "עורך דין, יושב ראש הכנסת מ-2022",
+  "value": "Адвокат, председатель Кнессета с 2022 года"
+ },
+ {
+  "key": "people|likud:3|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "Профессиональный опыт"
+ },
+ {
+  "key": "people|likud:3|facts.1.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "Военная и национальная служба"
+ },
+ {
+  "key": "people|likud:3|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Общественные должности"
+ },
+ {
+  "key": "people|likud:3|facts.3.label",
+  "he": "כנסת",
+  "value": "Кнессет"
+ },
+ {
+  "key": "people|likud:4|headline",
+  "he": "עורך דין, שר המשפטים וסגן ראש הממשלה מ-2022",
+  "value": "Адвокат, министр юстиции и заместитель премьер-министра с 2022 года"
+ },
+ {
+  "key": "people|likud:4|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "Профессиональный опыт"
+ },
+ {
+  "key": "people|likud:4|facts.1.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "Военная и национальная служба"
+ },
+ {
+  "key": "people|likud:4|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Общественные должности"
+ },
+ {
+  "key": "people|likud:4|facts.3.label",
+  "he": "כנסת",
+  "value": "Кнессет"
+ },
+ {
+  "key": "people|likud:5|headline",
+  "he": "תת-אלופה במילואים, שרת התחבורה מ-2022",
+  "value": "Бригадный генерал запаса, министр транспорта с 2022 года"
+ },
+ {
+  "key": "people|likud:5|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "Военная и национальная служба"
+ },
+ {
+  "key": "people|likud:5|facts.1.label",
+  "he": "השכלה",
+  "value": "Образование"
+ },
+ {
+  "key": "people|likud:5|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Общественные должности"
+ },
+ {
+  "key": "people|likud:5|facts.3.label",
+  "he": "כנסת",
+  "value": "Кнессет"
+ },
+ {
+  "key": "people|me-and-you:1|headline",
+  "he": "ד\"ר, מייסד מפלגת אני ואתה ומנהיגה מ-2017",
+  "value": "Д-р, основатель партии «Я и ты» и её лидер с 2017 года"
+ },
+ {
+  "key": "people|me-and-you:1|facts.0.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Общественные должности"
+ },
+ {
+  "key": "people|me-and-you:1|facts.1.label",
+  "he": "השכלה",
+  "value": "Образование"
+ },
+ {
+  "key": "people|noam:1|headline",
+  "he": "מנכ\"ל משרדי ממשלה לשעבר, חבר כנסת מ-2021",
+  "value": "Бывший генеральный директор правительственных министерств, член Кнессета с 2021 года"
+ },
+ {
+  "key": "people|noam:1|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "Военная и национальная служба"
+ },
+ {
+  "key": "people|noam:1|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "Профессиональный опыт"
+ },
+ {
+  "key": "people|noam:1|facts.2.label",
+  "he": "כנסת",
+  "value": "Кнессет"
+ }
+]

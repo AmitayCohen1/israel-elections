@@ -1,0 +1,207 @@
+{
+  "slug": "democrats",
+  "platform_doc": {
+    "url": "https://yes.democrats.org.il/",
+    "title": "מה המצע - תוכניות העבודה של מפלגת הדמוקרטים",
+    "published": null
+  },
+  "self_description": {
+    "quote": "הבחירות הקרובות יכריעו את דמותה וערכיה של מדינת ישראל. כבר עכשיו, תכניות העבודה שלנו מוכנות כדי להילחם על ישראל שוויונית, ליברלית וטובה לכולם.",
+    "source_url": "https://yes.democrats.org.il/",
+    "source_title": "מה המצע - תוכניות העבודה של מפלגת הדמוקרטים"
+  },
+  "positions": [
+    {
+      "topic": "security",
+      "point": "הרשימה מציעה להוביל יוזמה מדינית אזורית ולקדם נורמליזציה עם סעודיה.",
+      "quote": "נוביל יוזמה מדינית אזורית ונקדם נורמליזציה עם סעודיה.",
+      "source_url": "https://yes.democrats.org.il/topics/security-diplomatic",
+      "source_title": "מדיני־ביטחוני — מה המצע (הדמוקרטים)",
+      "source_type": "platform",
+      "date": null
+    },
+    {
+      "topic": "security",
+      "point": "הרשימה מציעה לסיים את הלחימה בעזה, בלבנון ובסוריה ולמנוע מאיראן להגיע לנשק גרעיני.",
+      "quote": "נסגור את זירות הלחימה - עזה, לבנון וסוריה, ונמנע מאיראן להגיע לגרעין.",
+      "source_url": "https://yes.democrats.org.il/topics/security-diplomatic",
+      "source_title": "מדיני־ביטחוני — מה המצע (הדמוקרטים)",
+      "source_type": "platform",
+      "date": null
+    },
+    {
+      "topic": "security",
+      "point": "הרשימה מתנגדת לסיפוח בגדה המערבית ומציעה לפעול נגד טרור יהודי.",
+      "quote": "נעצור את הסיפוח, נילחם בטרור היהודי ונמנע פיצוץ בגדה.",
+      "source_url": "https://yes.democrats.org.il/topics/security-diplomatic",
+      "source_title": "מדיני־ביטחוני — מה המצע (הדמוקרטים)",
+      "source_type": "platform",
+      "date": null
+    },
+    {
+      "topic": "economy",
+      "point": "הרשימה מציעה לפרק ריכוזיות, לפעול נגד קרטלים במזון, בתרופות ובאנרגיה, להוזיל תחבורה ציבורית ולהרחיב את הפיקוח על מחירים.",
+      "quote": "נפרק את הריכוזיות, נילחם בקרטלי המזון, התרופות והאנרגיה. נוריד בחזרה את מחירי התחבורה הציבורית ונרחיב את המוצרים בפיקוח.",
+      "source_url": "https://democrats-media.s3.us-east-1.amazonaws.com/%D7%9B%D7%9C%D7%9B%D7%9C%D7%99+%D7%97%D7%91%D7%A8%D7%AA%D7%99+(1).pdf",
+      "source_title": "התוכנית החברתית-כלכלית (הדמוקרטים, PDF)",
+      "source_type": "platform",
+      "date": null
+    },
+    {
+      "topic": "economy",
+      "point": "הרשימה מציעה לבטל תקצוב מגזרי, להשקיע בהכשרות מקצועיות ולהעלות את שכר המינימום ואת מס ההכנסה השלילי.",
+      "quote": "נבטל את התקצוב המגזרי המעודד אי-עבודה ואי-גיוס, נשקיע בהכשרות מקצועיות שמותאמות לשוק של היום, נעלה את שכר המינימום ואת מס ההכנסה השלילי",
+      "source_url": "https://democrats-media.s3.us-east-1.amazonaws.com/%D7%9B%D7%9C%D7%9B%D7%9C%D7%99+%D7%97%D7%91%D7%A8%D7%AA%D7%99+(1).pdf",
+      "source_title": "התוכנית החברתית-כלכלית (הדמוקרטים, PDF)",
+      "source_type": "platform",
+      "date": null
+    },
+    {
+      "topic": "religion_state",
+      "point": "הרשימה מציעה לחוקק חוק נישואין אזרחיים ולאפשר בחירה בדרך הנישואין והגירושין.",
+      "quote": "נחוקק חוק נישואין אזרחיים ונאפשר חופש בחירה בנישואין וגירושין.",
+      "source_url": "https://yes.democrats.org.il/topics/religion-state",
+      "source_title": "דת ומדינה — מה המצע (הדמוקרטים)",
+      "source_type": "platform",
+      "date": null
+    },
+    {
+      "topic": "religion_state",
+      "point": "הרשימה מציעה לבטל את הבלעדיות של הרבנות בגיור ובכשרות.",
+      "quote": "נפרק את מונופול הרבנות בגיור ובכשרות, ונקדם שירותים שוויוניים.",
+      "source_url": "https://yes.democrats.org.il/topics/religion-state",
+      "source_title": "דת ומדינה — מה המצע (הדמוקרטים)",
+      "source_type": "platform",
+      "date": null
+    },
+    {
+      "topic": "religion_state",
+      "point": "הרשימה תומכת במיון ממלכתי של כלל האזרחים ושיבוצם לשירות צבאי או אזרחי, ובהפסקת הטבות למי שאינם משרתים.",
+      "quote": "כל אזרחי המדינה יעברו תהליך מיון ממלכתי וישובצו לשירות צבאי או אזרחי, כאשר צורכי צה\"ל יקבלו קדימות.",
+      "source_url": "https://yes.democrats.org.il/topics/sharing-the-burden",
+      "source_title": "גיוס וחלוקה בנטל — מה המצע (הדמוקרטים)",
+      "source_type": "platform",
+      "date": null
+    },
+    {
+      "topic": "judiciary",
+      "point": "הרשימה מציעה לבטל את החוקים שקידמה הממשלה הנוכחית בתחום מערכת המשפט ולייעל את מערכת המשפט.",
+      "quote": "נבטל את כל חוקי ההפיכה המשטרית ונייעל את מערכת המשפט.",
+      "source_url": "https://yes.democrats.org.il/topics/democracy-justice",
+      "source_title": "דמוקרטיה ומשפט — מה המצע (הדמוקרטים)",
+      "source_type": "platform",
+      "date": null
+    },
+    {
+      "topic": "judiciary",
+      "point": "הרשימה מציעה לעגן זכויות אזרחיות וחברתיות בחוקי יסוד בעלי מעמד עליון ולחוקק חוק יסוד: החקיקה.",
+      "quote": "נבצר את הזכויות האזרחיות והחברתיות בחוקי יסוד וניתן להם מעמד עליון.",
+      "source_url": "https://yes.democrats.org.il/topics/democracy-justice",
+      "source_title": "דמוקרטיה ומשפט — מה המצע (הדמוקרטים)",
+      "source_type": "platform",
+      "date": null
+    },
+    {
+      "topic": "housing",
+      "point": "הרשימה מציעה תכנון עירוני והתחדשות עירונית שיאפשרו בניית יותר דירות בקרבת תחבורה ותעסוקה.",
+      "quote": "נקדם באזורי ביקוש ובכלל הארץ תכנון עירוני חכם ותהליכי התחדשות עירונית המעודדים צפיפות, עירוב שימושים והליכתיות, שיאפשרו לבנות יותר דירות קרוב לתחבורה ולתעסוקה.",
+      "source_url": "https://democrats-media.s3.us-east-1.amazonaws.com/%D7%9B%D7%9C%D7%9B%D7%9C%D7%99+%D7%97%D7%91%D7%A8%D7%AA%D7%99+(1).pdf",
+      "source_title": "התוכנית החברתית-כלכלית (הדמוקרטים, PDF)",
+      "source_type": "platform",
+      "date": null
+    },
+    {
+      "topic": "housing",
+      "point": "הרשימה מציעה להרחיב שכירות ארוכת טווח ודיור ציבורי בר-השגה.",
+      "quote": "נרחיב משמעותית את האפשרויות לשכירות ארוכת טווח ולדיור ציבורי בר-השגה.",
+      "source_url": "https://democrats-media.s3.us-east-1.amazonaws.com/%D7%9B%D7%9C%D7%9B%D7%9C%D7%99+%D7%97%D7%91%D7%A8%D7%AA%D7%99+(1).pdf",
+      "source_title": "התוכנית החברתית-כלכלית (הדמוקרטים, PDF)",
+      "source_type": "platform",
+      "date": null
+    },
+    {
+      "topic": "education",
+      "point": "הרשימה מציעה לבטל פערי תקצוב לרעת החינוך הממלכתי ולהשוות את התקצוב בין התלמידים.",
+      "quote": "נבטל את האפלייה התקציבית נגד החינוך הממלכתי ונוביל לשוויון בין כל תלמידי ישראל.",
+      "source_url": "https://yes.democrats.org.il/topics/education",
+      "source_title": "חינוך — מה המצע (הדמוקרטים)",
+      "source_type": "platform",
+      "date": null
+    },
+    {
+      "topic": "education",
+      "point": "הרשימה מציעה להפסיק מימון רשתות חינוך מפלגתיות ולהציע חינוך ממלכתי-חרדי.",
+      "quote": "נפסיק את מימון הרשתות המפלגתיות – חינוך ממלכתי-חרדי איכותי לכל ילד חרדי.",
+      "source_url": "https://yes.democrats.org.il/topics/education",
+      "source_title": "חינוך — מה המצע (הדמוקרטים)",
+      "source_type": "platform",
+      "date": null
+    },
+    {
+      "topic": "education",
+      "point": "הרשימה מציעה לחזק את מעמד עובדי ההוראה והניהול ולשפר את תנאי ההעסקה שלהם.",
+      "quote": "נחזק את מעמד עובדי ועובדות ההוראה והניהול ונשפר את תנאי ההעסקה.",
+      "source_url": "https://yes.democrats.org.il/topics/education",
+      "source_title": "חינוך — מה המצע (הדמוקרטים)",
+      "source_type": "platform",
+      "date": null
+    },
+    {
+      "topic": "welfare_health",
+      "point": "הרשימה מציעה לחזק את מערכת הבריאות הציבורית ולהגדיל את ההשקעה בה.",
+      "quote": "נחזק את מערכת הבריאות הציבורית ונגדיל את ההשקעה בה.",
+      "source_url": "https://yes.democrats.org.il/topics/health",
+      "source_title": "בריאות — מה המצע (הדמוקרטים)",
+      "source_type": "platform",
+      "date": null
+    },
+    {
+      "topic": "welfare_health",
+      "point": "הרשימה מציעה תוכנית לאומית לבריאות הנפש.",
+      "quote": "נוביל תוכנית לאומית לבריאות הנפש.",
+      "source_url": "https://yes.democrats.org.il/topics/health",
+      "source_title": "בריאות — מה המצע (הדמוקרטים)",
+      "source_type": "platform",
+      "date": null
+    },
+    {
+      "topic": "welfare_health",
+      "point": "הרשימה מציעה לקצר את שבוע העבודה, להוסיף ימי חופשה ומחלה ולקדם חופשת לידה לאבות.",
+      "quote": "נקצר את שבוע העבודה ונוסיף ימי חופשה וימי מחלה לעובדים. נקדם חופשת לידה משמעותית גם לאבות.",
+      "source_url": "https://democrats-media.s3.us-east-1.amazonaws.com/%D7%9B%D7%9C%D7%9B%D7%9C%D7%99+%D7%97%D7%91%D7%A8%D7%AA%D7%99+(1).pdf",
+      "source_title": "התוכנית החברתית-כלכלית (הדמוקרטים, PDF)",
+      "source_type": "platform",
+      "date": null
+    },
+    {
+      "topic": "governance",
+      "point": "הרשימה מציעה לחוקק חוקי הגבלת כהונה ולהגביר את האכיפה נגד שחיתות.",
+      "quote": "ננהל מלחמת חורמה ואכיפה נחרצת נגד השחיתות, ונחוקק את חוקי הגבלת הכהונה.",
+      "source_url": "https://yes.democrats.org.il/topics/democracy-justice",
+      "source_title": "דמוקרטיה ומשפט — מה המצע (הדמוקרטים)",
+      "source_type": "platform",
+      "date": null
+    },
+    {
+      "topic": "governance",
+      "point": "הרשימה מציעה להבטיח את מחויבות בכירי שירות המדינה ועובדי הציבור לאינטרס הציבורי ולחוק.",
+      "quote": "נבטיח את נאמנות בכירי שירות המדינה ועובדי הציבור לאינטרס הציבורי ולחוק.",
+      "source_url": "https://yes.democrats.org.il/topics/democracy-justice",
+      "source_title": "דמוקרטיה ומשפט — מה המצע (הדמוקרטים)",
+      "source_type": "platform",
+      "date": null
+    },
+    {
+      "topic": "governance",
+      "point": "הרשימה מציעה להקים ועדת חקירה ממלכתית.",
+      "quote": "נקים ועדת חקירה ממלכתית ונשקם את מערכת הביטחון.",
+      "source_url": "https://yes.democrats.org.il/topics/security-diplomatic",
+      "source_title": "מדיני־ביטחוני — מה המצע (הדמוקרטים)",
+      "source_type": "platform",
+      "date": null
+    }
+  ],
+  "topics_without_position": [],
+  "researched_at": "2026-10-02",
+  "notes": "All positions come from the party's own policy site yes.democrats.org.il ('מה המצע - תוכניות העבודה'), which has a page per topic, each linking to a PDF. The site calls these work programs (תוכניות עבודה), not a single formal platform document. No publication date is shown. Database update timestamps are 2026-09-28 to 2026-09-30, so the per-position date is set to null. The topic pages render with JavaScript. Quotes were checked character by character against the page's published content and, for the economy and housing items, against the PDF itself. A zoha.org.il article (22 May 2026) reports that an earlier 21-page platform document was posted and then removed. It was not used here. Check: (1) the 'religion_state' draft item is from the 'גיוס וחלוקה בנטל' page and could instead go under security. (2) The judiciary point paraphrases the platform's term 'חוקי ההפיכה המשטרית' neutrally as laws the current government advanced on the justice system. (3) Statements in news reports (e.g., barring indicted politicians from government, JPost 2026) were not included. Only the primary platform was used."
+}

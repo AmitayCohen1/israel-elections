@@ -1,0 +1,759 @@
+{
+ "locale": "ar",
+ "series": "names",
+ "target_language": "Arabic",
+ "source_language": "Hebrew",
+ "instructions": "Each item is a Hebrew NAME (person, party or list). Write how that name is conventionally written in Arabic (Arabic). Examples: بنيامين نتنياهو، يائير لبيد، الليكود، يش عتيد. Use the established Arabic spelling (Arabic Wikipedia, Al-Jazeera, Arab-Israeli media) for known figures and parties; otherwise a standard transliteration. Arabic letters only, no diacritics (tashkeel) unless needed. \"ctx\" is context to identify the person or party (list, slot, MK status, start of bio): use it, do not translate it. Names are given either in natural order or surname-first (official form like \"כהן יוסי\"): always output the natural given-name-first order. Party and list names: use the established Arabic name of the party if there is one, otherwise translate the meaning (e.g. \"הציונות הדתית\" = Religious Zionism) rather than transliterate. Keep ballot-letter acronyms as they are written. Output: for every item return {\"key\": <same key>, \"value\": <your translation>}. Return ONLY a JSON array (or {\"items\":[...]}) with one entry per input item, same keys, no omissions, no extra commentary. Value must be non-empty and written in the target script; never leave Hebrew letters in it. Preserve numbers, placeholders and punctuation meaning. Save the result as data/i18n/done/<locale>/<same file name>.",
+ "items": [
+  {
+   "key": "candidates|joint-list:94|display_name",
+   "he": "סמיר חטיב",
+   "ctx": "רשימת הרשימה המשותפת, מקום 94"
+  },
+  {
+   "key": "candidates|joint-list:94|official_name",
+   "he": "חטיב סמיר",
+   "ctx": "רשימת הרשימה המשותפת, מקום 94"
+  },
+  {
+   "key": "candidates|joint-list:95|display_name",
+   "he": "חאג' מוחמד אחמד",
+   "ctx": "רשימת הרשימה המשותפת, מקום 95"
+  },
+  {
+   "key": "candidates|joint-list:96|display_name",
+   "he": "עיסאם שחאדה",
+   "ctx": "רשימת הרשימה המשותפת, מקום 96"
+  },
+  {
+   "key": "candidates|joint-list:96|official_name",
+   "he": "שחאדה עיסאם",
+   "ctx": "רשימת הרשימה המשותפת, מקום 96"
+  },
+  {
+   "key": "candidates|joint-list:97|display_name",
+   "he": "עיסא ניקולא",
+   "ctx": "רשימת הרשימה המשותפת, מקום 97"
+  },
+  {
+   "key": "candidates|joint-list:97|official_name",
+   "he": "ניקולא עיסא",
+   "ctx": "רשימת הרשימה המשותפת, מקום 97"
+  },
+  {
+   "key": "candidates|joint-list:98|display_name",
+   "he": "תאופיק כנאעני",
+   "ctx": "רשימת הרשימה המשותפת, מקום 98"
+  },
+  {
+   "key": "candidates|joint-list:98|official_name",
+   "he": "כנאעני תאופיק",
+   "ctx": "רשימת הרשימה המשותפת, מקום 98"
+  },
+  {
+   "key": "candidates|joint-list:99|display_name",
+   "he": "שביטה עבד אל מנאן",
+   "ctx": "רשימת הרשימה המשותפת, מקום 99"
+  },
+  {
+   "key": "candidates|joint-list:100|display_name",
+   "he": "מנסור דהאמשה",
+   "ctx": "רשימת הרשימה המשותפת, מקום 100"
+  },
+  {
+   "key": "candidates|joint-list:100|official_name",
+   "he": "דהאמשה מנסור",
+   "ctx": "רשימת הרשימה המשותפת, מקום 100"
+  },
+  {
+   "key": "candidates|joint-list:101|display_name",
+   "he": "זוהיר יוספיה",
+   "ctx": "רשימת הרשימה המשותפת, מקום 101"
+  },
+  {
+   "key": "candidates|joint-list:101|official_name",
+   "he": "יוספיה זוהיר",
+   "ctx": "רשימת הרשימה המשותפת, מקום 101"
+  },
+  {
+   "key": "candidates|joint-list:102|display_name",
+   "he": "ג'מעה אזברגה",
+   "ctx": "רשימת הרשימה המשותפת, מקום 102 — ג'מעה אזברגה הוא פוליטיקאי ערבי-ישראלי. חבר הכנסת העשרים מטעם מפלגת בל"
+  },
+  {
+   "key": "candidates|joint-list:102|official_name",
+   "he": "אזברגה ג'מעה",
+   "ctx": "רשימת הרשימה המשותפת, מקום 102 — ג'מעה אזברגה הוא פוליטיקאי ערבי-ישראלי. חבר הכנסת העשרים מטעם מפלגת בל"
+  },
+  {
+   "key": "candidates|joint-list:103|display_name",
+   "he": "אבו מערוף עבדאללה",
+   "ctx": "רשימת הרשימה המשותפת, מקום 103 — עבדאללה אבו מערוף הוא פוליטיקאי דרוזי-ישראלי, שכיהן כחבר הכנסת בכנסת ה"
+  },
+  {
+   "key": "candidates|joint-list:104|display_name",
+   "he": "סמירה חורי",
+   "ctx": "רשימת הרשימה המשותפת, מקום 104"
+  },
+  {
+   "key": "candidates|joint-list:104|official_name",
+   "he": "חורי סמירה",
+   "ctx": "רשימת הרשימה המשותפת, מקום 104"
+  },
+  {
+   "key": "candidates|joint-list:105|display_name",
+   "he": "חנין דב בוריס",
+   "ctx": "רשימת הרשימה המשותפת, מקום 105 — דב בוריס חנין הוא פוליטיקאי ישראלי וחבר הכנסת לשעבר מטעם רשימת חד\"ש ול"
+  },
+  {
+   "key": "candidates|joint-list:106|display_name",
+   "he": "אנטואן שלחת",
+   "ctx": "רשימת הרשימה המשותפת, מקום 106"
+  },
+  {
+   "key": "candidates|joint-list:106|official_name",
+   "he": "שלחת אנטואן",
+   "ctx": "רשימת הרשימה המשותפת, מקום 106"
+  },
+  {
+   "key": "candidates|joint-list:107|display_name",
+   "he": "עבד אלחלים מואנס",
+   "ctx": "רשימת הרשימה המשותפת, מקום 107"
+  },
+  {
+   "key": "candidates|joint-list:108|display_name",
+   "he": "עפו אגבריה",
+   "ctx": "רשימת הרשימה המשותפת, מקום 108"
+  },
+  {
+   "key": "candidates|joint-list:108|official_name",
+   "he": "אגבריה עפו",
+   "ctx": "רשימת הרשימה המשותפת, מקום 108"
+  },
+  {
+   "key": "candidates|joint-list:109|display_name",
+   "he": "אמטאנס שחאדה",
+   "ctx": "רשימת הרשימה המשותפת, מקום 109"
+  },
+  {
+   "key": "candidates|joint-list:109|official_name",
+   "he": "שחאדה אמטאנס",
+   "ctx": "רשימת הרשימה המשותפת, מקום 109"
+  },
+  {
+   "key": "candidates|joint-list:110|display_name",
+   "he": "אימן עודה",
+   "ctx": "רשימת הרשימה המשותפת, מקום 110"
+  },
+  {
+   "key": "candidates|joint-list:110|official_name",
+   "he": "עודה אימן",
+   "ctx": "רשימת הרשימה המשותפת, מקום 110"
+  },
+  {
+   "key": "candidates|joint-list:111|display_name",
+   "he": "תומא סלימאן עאידה",
+   "ctx": "רשימת הרשימה המשותפת, מקום 111, חבר/ת הכנסת מכהן/ת — עאידה תומא סלימאן היא פוליטיקאית ערבייה-ישראלית ופעילה פמיניסטית במגזר"
+  },
+  {
+   "key": "candidates|joint-list:112|display_name",
+   "he": "היבא יזבק",
+   "ctx": "רשימת הרשימה המשותפת, מקום 112"
+  },
+  {
+   "key": "candidates|joint-list:112|official_name",
+   "he": "יזבק היבא",
+   "ctx": "רשימת הרשימה המשותפת, מקום 112"
+  },
+  {
+   "key": "candidates|joint-list:113|display_name",
+   "he": "תמר גוג'נסקי",
+   "ctx": "רשימת הרשימה המשותפת, מקום 113"
+  },
+  {
+   "key": "candidates|joint-list:113|official_name",
+   "he": "גוג'נסקי תמר",
+   "ctx": "רשימת הרשימה המשותפת, מקום 113"
+  },
+  {
+   "key": "candidates|joint-list:114|display_name",
+   "he": "עאדל עאמר",
+   "ctx": "רשימת הרשימה המשותפת, מקום 114"
+  },
+  {
+   "key": "candidates|joint-list:114|official_name",
+   "he": "עאמר עאדל",
+   "ctx": "רשימת הרשימה המשותפת, מקום 114"
+  },
+  {
+   "key": "candidates|joint-list:115|display_name",
+   "he": "חנא סויד",
+   "ctx": "רשימת הרשימה המשותפת, מקום 115"
+  },
+  {
+   "key": "candidates|joint-list:115|official_name",
+   "he": "סויד חנא",
+   "ctx": "רשימת הרשימה המשותפת, מקום 115"
+  },
+  {
+   "key": "candidates|joint-list:116|display_name",
+   "he": "ראיד גטאס",
+   "ctx": "רשימת הרשימה המשותפת, מקום 116"
+  },
+  {
+   "key": "candidates|joint-list:116|official_name",
+   "he": "גטאס ראיד",
+   "ctx": "רשימת הרשימה המשותפת, מקום 116"
+  },
+  {
+   "key": "candidates|joint-list:117|display_name",
+   "he": "אוסאמה סעדיה",
+   "ctx": "רשימת הרשימה המשותפת, מקום 117"
+  },
+  {
+   "key": "candidates|joint-list:117|official_name",
+   "he": "סעדיה אוסאמה",
+   "ctx": "רשימת הרשימה המשותפת, מקום 117"
+  },
+  {
+   "key": "candidates|joint-list:118|display_name",
+   "he": "שוקי חטיב",
+   "ctx": "רשימת הרשימה המשותפת, מקום 118"
+  },
+  {
+   "key": "candidates|joint-list:118|official_name",
+   "he": "חטיב שוקי",
+   "ctx": "רשימת הרשימה המשותפת, מקום 118"
+  },
+  {
+   "key": "candidates|joint-list:119|display_name",
+   "he": "ראמז גראיסי",
+   "ctx": "רשימת הרשימה המשותפת, מקום 119"
+  },
+  {
+   "key": "candidates|joint-list:119|official_name",
+   "he": "גראיסי ראמז",
+   "ctx": "רשימת הרשימה המשותפת, מקום 119"
+  },
+  {
+   "key": "candidates|joint-list:120|display_name",
+   "he": "מוחמד ברכה",
+   "ctx": "רשימת הרשימה המשותפת, מקום 120 — מוחמד ברכה הוא פוליטיקאי ערבי-ישראלי. כיהן כחבר הכנסת מטעם סיעת חד\"ש ב"
+  },
+  {
+   "key": "candidates|joint-list:120|official_name",
+   "he": "ברכה מוחמד",
+   "ctx": "רשימת הרשימה המשותפת, מקום 120 — מוחמד ברכה הוא פוליטיקאי ערבי-ישראלי. כיהן כחבר הכנסת מטעם סיעת חד\"ש ב"
+  },
+  {
+   "key": "candidates|likud:1|display_name",
+   "he": "בנימין נתניהו",
+   "ctx": "רשימת הליכוד, מקום 1, חבר/ת הכנסת מכהן/ת — בנימין נתניהו הוא פוליטיקאי ישראלי המכהן כראש ממשלת ישראל וכיושב ראש מ"
+  },
+  {
+   "key": "candidates|likud:1|official_name",
+   "he": "נתניהו בנימין",
+   "ctx": "רשימת הליכוד, מקום 1, חבר/ת הכנסת מכהן/ת — בנימין נתניהו הוא פוליטיקאי ישראלי המכהן כראש ממשלת ישראל וכיושב ראש מ"
+  },
+  {
+   "key": "candidates|likud:2|display_name",
+   "he": "אלי כהן",
+   "ctx": "רשימת הליכוד, מקום 2 — אלי כהן הוא פוליטיקאי ישראלי המשמש שר האנרגיה והתשתיות מטעם מפלגת \"הלי"
+  },
+  {
+   "key": "candidates|likud:2|official_name",
+   "he": "כהן אליהו",
+   "ctx": "רשימת הליכוד, מקום 2 — אלי כהן הוא פוליטיקאי ישראלי המשמש שר האנרגיה והתשתיות מטעם מפלגת \"הלי"
+  },
+  {
+   "key": "candidates|likud:3|display_name",
+   "he": "אמיר אוחנה",
+   "ctx": "רשימת הליכוד, מקום 3, חבר/ת הכנסת מכהן/ת — אמיר אוחנה הוא יושב ראש הכנסת בכנסת העשרים וחמש, מטעם מפלגת הליכוד. קו"
+  },
+  {
+   "key": "candidates|likud:3|official_name",
+   "he": "אוחנה אמיר",
+   "ctx": "רשימת הליכוד, מקום 3, חבר/ת הכנסת מכהן/ת — אמיר אוחנה הוא יושב ראש הכנסת בכנסת העשרים וחמש, מטעם מפלגת הליכוד. קו"
+  },
+  {
+   "key": "candidates|likud:4|display_name",
+   "he": "יריב לוין",
+   "ctx": "רשימת הליכוד, מקום 4, חבר/ת הכנסת מכהן/ת — יריב גדעון לוין הוא פוליטיקאי ישראלי המכהן כסגן ראש ממשלת ישראל וכשר ה"
+  },
+  {
+   "key": "candidates|likud:4|official_name",
+   "he": "לוין יריב גדעון",
+   "ctx": "רשימת הליכוד, מקום 4, חבר/ת הכנסת מכהן/ת — יריב גדעון לוין הוא פוליטיקאי ישראלי המכהן כסגן ראש ממשלת ישראל וכשר ה"
+  },
+  {
+   "key": "candidates|likud:5|display_name",
+   "he": "מירי רגב",
+   "ctx": "רשימת הליכוד, מקום 5 — מרים רגב היא אשת צבא ופוליטיקאית ישראלית המכהנת כשרת התחבורה והבטיחות "
+  },
+  {
+   "key": "candidates|likud:5|official_name",
+   "he": "רגב מרים",
+   "ctx": "רשימת הליכוד, מקום 5 — מרים רגב היא אשת צבא ופוליטיקאית ישראלית המכהנת כשרת התחבורה והבטיחות "
+  },
+  {
+   "key": "candidates|likud:6|display_name",
+   "he": "ישראל כ\"ץ",
+   "ctx": "רשימת הליכוד, מקום 6, חבר/ת הכנסת מכהן/ת — ישראל כ\"ץ הוא פוליטיקאי ישראלי המכהן כשר הביטחון מטעם מפלגת הליכוד. כי"
+  },
+  {
+   "key": "candidates|likud:6|official_name",
+   "he": "כץ ישראל",
+   "ctx": "רשימת הליכוד, מקום 6, חבר/ת הכנסת מכהן/ת — ישראל כ\"ץ הוא פוליטיקאי ישראלי המכהן כשר הביטחון מטעם מפלגת הליכוד. כי"
+  },
+  {
+   "key": "candidates|likud:7|display_name",
+   "he": "גדעון סער",
+   "ctx": "רשימת הליכוד, מקום 7, חבר/ת הכנסת מכהן/ת — גדעון משה סער הוא פוליטיקאי ישראלי, המכהן כשר החוץ, חבר הקבינט המדיני-"
+  },
+  {
+   "key": "candidates|likud:7|official_name",
+   "he": "סער גדעון משה",
+   "ctx": "רשימת הליכוד, מקום 7, חבר/ת הכנסת מכהן/ת — גדעון משה סער הוא פוליטיקאי ישראלי, המכהן כשר החוץ, חבר הקבינט המדיני-"
+  },
+  {
+   "key": "candidates|likud:8|display_name",
+   "he": "אופיר כץ",
+   "ctx": "רשימת הליכוד, מקום 8, חבר/ת הכנסת מכהן/ת — אופיר כץ הוא חבר הכנסת מטעם מפלגת הליכוד, יושב ראש הקואליציה, יושב ראש"
+  },
+  {
+   "key": "candidates|likud:8|official_name",
+   "he": "כץ אופיר",
+   "ctx": "רשימת הליכוד, מקום 8, חבר/ת הכנסת מכהן/ת — אופיר כץ הוא חבר הכנסת מטעם מפלגת הליכוד, יושב ראש הקואליציה, יושב ראש"
+  },
+  {
+   "key": "candidates|likud:9|display_name",
+   "he": "טליק גואילי",
+   "ctx": "רשימת הליכוד, מקום 9"
+  },
+  {
+   "key": "candidates|likud:9|official_name",
+   "he": "גואילי טלי",
+   "ctx": "רשימת הליכוד, מקום 9"
+  },
+  {
+   "key": "candidates|likud:10|display_name",
+   "he": "יואב קיש",
+   "ctx": "רשימת הליכוד, מקום 10, חבר/ת הכנסת מכהן/ת — יואב קיש הוא שר החינוך מטעם מפלגת הליכוד. כיהן בעבר כשר לשיתוף פעולה א"
+  },
+  {
+   "key": "candidates|likud:10|official_name",
+   "he": "קיש יואב",
+   "ctx": "רשימת הליכוד, מקום 10, חבר/ת הכנסת מכהן/ת — יואב קיש הוא שר החינוך מטעם מפלגת הליכוד. כיהן בעבר כשר לשיתוף פעולה א"
+  },
+  {
+   "key": "candidates|likud:11|display_name",
+   "he": "יעקב ברדוגו",
+   "ctx": "רשימת הליכוד, מקום 11 — יעקב ברדוגו הוא פרשן פוליטי ומנחה אקטואליה בערוץ עכשיו 14 וברדיו גלי י"
+  },
+  {
+   "key": "candidates|likud:11|official_name",
+   "he": "ברדוגו יעקב",
+   "ctx": "רשימת הליכוד, מקום 11 — יעקב ברדוגו הוא פרשן פוליטי ומנחה אקטואליה בערוץ עכשיו 14 וברדיו גלי י"
+  },
+  {
+   "key": "candidates|likud:12|display_name",
+   "he": "מיקי זוהר",
+   "ctx": "רשימת הליכוד, מקום 12, חבר/ת הכנסת מכהן/ת — מכלוף \"מיקי\" זוהר הוא שר התרבות והספורט מטעם הליכוד ויו\"ר עמית של הליכ"
+  },
+  {
+   "key": "candidates|likud:12|official_name",
+   "he": "זוהר מכלוף",
+   "ctx": "רשימת הליכוד, מקום 12, חבר/ת הכנסת מכהן/ת — מכלוף \"מיקי\" זוהר הוא שר התרבות והספורט מטעם הליכוד ויו\"ר עמית של הליכ"
+  },
+  {
+   "key": "candidates|likud:13|display_name",
+   "he": "אלמוג כהן",
+   "ctx": "רשימת הליכוד, מקום 13, חבר/ת הכנסת מכהן/ת — אלמוג כהן הוא פוליטיקאי ישראלי, המכהן כסגן שר במשרד ראש הממשלה ובעבר ח"
+  },
+  {
+   "key": "candidates|likud:13|official_name",
+   "he": "כהן אלמוג",
+   "ctx": "רשימת הליכוד, מקום 13, חבר/ת הכנסת מכהן/ת — אלמוג כהן הוא פוליטיקאי ישראלי, המכהן כסגן שר במשרד ראש הממשלה ובעבר ח"
+  },
+  {
+   "key": "candidates|likud:14|display_name",
+   "he": "עמיחי שיקלי",
+   "ctx": "רשימת הליכוד, מקום 14, חבר/ת הכנסת מכהן/ת — עמיחי שיקלי הוא שר התפוצות והמאבק באנטישמיות מטעם מפלגת הליכוד. קודם ל"
+  },
+  {
+   "key": "candidates|likud:14|official_name",
+   "he": "שיקלי עמיחי",
+   "ctx": "רשימת הליכוד, מקום 14, חבר/ת הכנסת מכהן/ת — עמיחי שיקלי הוא שר התפוצות והמאבק באנטישמיות מטעם מפלגת הליכוד. קודם ל"
+  },
+  {
+   "key": "candidates|likud:15|display_name",
+   "he": "אלישע מדן",
+   "ctx": "רשימת הליכוד, מקום 15"
+  },
+  {
+   "key": "candidates|likud:15|official_name",
+   "he": "מדן אלישע",
+   "ctx": "רשימת הליכוד, מקום 15"
+  },
+  {
+   "key": "candidates|likud:16|display_name",
+   "he": "דוד פטר",
+   "ctx": "רשימת הליכוד, מקום 16 — דוד פטר הוא עורך דין ישראלי, פרשן משפטי וכותב, העוסק במשפט מנהלי וחוקת"
+  },
+  {
+   "key": "candidates|likud:16|official_name",
+   "he": "פטר דוד",
+   "ctx": "רשימת הליכוד, מקום 16 — דוד פטר הוא עורך דין ישראלי, פרשן משפטי וכותב, העוסק במשפט מנהלי וחוקת"
+  },
+  {
+   "key": "candidates|likud:17|display_name",
+   "he": "משה סעדה",
+   "ctx": "רשימת הליכוד, מקום 17, חבר/ת הכנסת מכהן/ת — משה סעדה הוא עורך דין ישראלי וחבר הכנסת מטעם מפלגת הליכוד. שימש שבע שנ"
+  },
+  {
+   "key": "candidates|likud:17|official_name",
+   "he": "סעדה משה",
+   "ctx": "רשימת הליכוד, מקום 17, חבר/ת הכנסת מכהן/ת — משה סעדה הוא עורך דין ישראלי וחבר הכנסת מטעם מפלגת הליכוד. שימש שבע שנ"
+  },
+  {
+   "key": "candidates|likud:18|display_name",
+   "he": "חיים כץ",
+   "ctx": "רשימת הליכוד, מקום 18, חבר/ת הכנסת מכהן/ת — חיים כץ הוא פוליטיקאי ישראלי המכהן כשר התיירות, כשר הבינוי והשיכון, כש"
+  },
+  {
+   "key": "candidates|likud:18|official_name",
+   "he": "כץ חיים",
+   "ctx": "רשימת הליכוד, מקום 18, חבר/ת הכנסת מכהן/ת — חיים כץ הוא פוליטיקאי ישראלי המכהן כשר התיירות, כשר הבינוי והשיכון, כש"
+  },
+  {
+   "key": "candidates|likud:19|display_name",
+   "he": "דודי אמסלם",
+   "ctx": "רשימת הליכוד, מקום 19, חבר/ת הכנסת מכהן/ת — דוד אמסלם הוא השר לשיתוף פעולה אזורי, שר במשרד המשפטים והשר המקשר בין "
+  },
+  {
+   "key": "candidates|likud:19|official_name",
+   "he": "אמסלם דוד",
+   "ctx": "רשימת הליכוד, מקום 19, חבר/ת הכנסת מכהן/ת — דוד אמסלם הוא השר לשיתוף פעולה אזורי, שר במשרד המשפטים והשר המקשר בין "
+  },
+  {
+   "key": "candidates|likud:20|display_name",
+   "he": "אתי עטייה",
+   "ctx": "רשימת הליכוד, מקום 20 — אתי חוה עטיה היא פוליטיקאית, חברת כנסת מטעם מפלגת הליכוד, ויו\"ר הוועדה"
+  },
+  {
+   "key": "candidates|likud:20|official_name",
+   "he": "עטייה חוה-אתי",
+   "ctx": "רשימת הליכוד, מקום 20 — אתי חוה עטיה היא פוליטיקאית, חברת כנסת מטעם מפלגת הליכוד, ויו\"ר הוועדה"
+  },
+  {
+   "key": "candidates|likud:21|display_name",
+   "he": "בועז ביסמוט",
+   "ctx": "רשימת הליכוד, מקום 21 — בועז ביסמוט הוא חבר הכנסת מטעם מפלגת הליכוד, המכהן מטעמה כיו\"ר ועדת הח"
+  },
+  {
+   "key": "candidates|likud:21|official_name",
+   "he": "ביסמוט בעז",
+   "ctx": "רשימת הליכוד, מקום 21 — בועז ביסמוט הוא חבר הכנסת מטעם מפלגת הליכוד, המכהן מטעמה כיו\"ר ועדת הח"
+  },
+  {
+   "key": "candidates|likud:22|display_name",
+   "he": "דוד ביטן",
+   "ctx": "רשימת הליכוד, מקום 22, חבר/ת הכנסת מכהן/ת — דוד חי ביטן הוא חבר כנסת ויו\"ר ועדת הכלכלה מטעם הליכוד. בשנים 2016–201"
+  },
+  {
+   "key": "candidates|likud:22|official_name",
+   "he": "ביטן דוד",
+   "ctx": "רשימת הליכוד, מקום 22, חבר/ת הכנסת מכהן/ת — דוד חי ביטן הוא חבר כנסת ויו\"ר ועדת הכלכלה מטעם הליכוד. בשנים 2016–201"
+  },
+  {
+   "key": "candidates|likud:23|display_name",
+   "he": "שלמה קרעי",
+   "ctx": "רשימת הליכוד, מקום 23, חבר/ת הכנסת מכהן/ת — שלמה קרעי הוא פוליטיקאי ישראלי המכהן כשר התקשורת וחבר הכנסת מטעם הליכו"
+  },
+  {
+   "key": "candidates|likud:23|official_name",
+   "he": "קרעי שלמה",
+   "ctx": "רשימת הליכוד, מקום 23, חבר/ת הכנסת מכהן/ת — שלמה קרעי הוא פוליטיקאי ישראלי המכהן כשר התקשורת וחבר הכנסת מטעם הליכו"
+  },
+  {
+   "key": "candidates|likud:24|display_name",
+   "he": "ניר ברקת",
+   "ctx": "רשימת הליכוד, מקום 24, חבר/ת הכנסת מכהן/ת — ניר ברקת הוא שר הכלכלה והתעשייה וחבר הכנסת מטעם מפלגת \"הליכוד\". כיהן כ"
+  },
+  {
+   "key": "candidates|likud:24|official_name",
+   "he": "ברקת ניר",
+   "ctx": "רשימת הליכוד, מקום 24, חבר/ת הכנסת מכהן/ת — ניר ברקת הוא שר הכלכלה והתעשייה וחבר הכנסת מטעם מפלגת \"הליכוד\". כיהן כ"
+  },
+  {
+   "key": "candidates|likud:25|display_name",
+   "he": "גילה גמליאל",
+   "ctx": "רשימת הליכוד, מקום 25 — גילה גמליאל דמרי היא שרת החדשנות, המדע והטכנולוגיה וחברת הכנסת מטעם הל"
+  },
+  {
+   "key": "candidates|likud:25|official_name",
+   "he": "גמליאל דמרי גילה",
+   "ctx": "רשימת הליכוד, מקום 25 — גילה גמליאל דמרי היא שרת החדשנות, המדע והטכנולוגיה וחברת הכנסת מטעם הל"
+  },
+  {
+   "key": "candidates|likud:26|display_name",
+   "he": "אלי גולדשמידט",
+   "ctx": "רשימת הליכוד, מקום 26 — אלי גולדשמידט הוא חבר הכנסת לשעבר מטעם מפלגת העבודה."
+  },
+  {
+   "key": "candidates|likud:26|official_name",
+   "he": "גולדשמידט אלי",
+   "ctx": "רשימת הליכוד, מקום 26 — אלי גולדשמידט הוא חבר הכנסת לשעבר מטעם מפלגת העבודה."
+  },
+  {
+   "key": "candidates|likud:27|display_name",
+   "he": "ארז תדמור",
+   "ctx": "רשימת הליכוד, מקום 27 — ארז תדמור הוא בעל טור, פובליציסט ושדרן רדיו בעל רצועת שידור יומית ברדי"
+  },
+  {
+   "key": "candidates|likud:27|official_name",
+   "he": "תדמור ארז",
+   "ctx": "רשימת הליכוד, מקום 27 — ארז תדמור הוא בעל טור, פובליציסט ושדרן רדיו בעל רצועת שידור יומית ברדי"
+  },
+  {
+   "key": "candidates|likud:28|display_name",
+   "he": "שלמה יוסף לרנר",
+   "ctx": "רשימת הליכוד, מקום 28"
+  },
+  {
+   "key": "candidates|likud:28|official_name",
+   "he": "לרנר שלמה יוסף",
+   "ctx": "רשימת הליכוד, מקום 28"
+  },
+  {
+   "key": "candidates|likud:29|display_name",
+   "he": "יצחק בונצל",
+   "ctx": "רשימת הליכוד, מקום 29"
+  },
+  {
+   "key": "candidates|likud:29|official_name",
+   "he": "בונצל יצחק",
+   "ctx": "רשימת הליכוד, מקום 29"
+  },
+  {
+   "key": "candidates|likud:30|display_name",
+   "he": "משה בנימין פרץ",
+   "ctx": "רשימת הליכוד, מקום 30"
+  },
+  {
+   "key": "candidates|likud:30|official_name",
+   "he": "פרץ משה בנימין",
+   "ctx": "רשימת הליכוד, מקום 30"
+  },
+  {
+   "key": "candidates|likud:31|display_name",
+   "he": "שוקי אוחנה",
+   "ctx": "רשימת הליכוד, מקום 31 — שוקי אוחנה הוא פוליטיקאי ישראלי שכיהן כראש עיריית צפת."
+  },
+  {
+   "key": "candidates|likud:31|official_name",
+   "he": "אוחנה שוקי יהושע",
+   "ctx": "רשימת הליכוד, מקום 31 — שוקי אוחנה הוא פוליטיקאי ישראלי שכיהן כראש עיריית צפת."
+  },
+  {
+   "key": "candidates|likud:32|display_name",
+   "he": "זאב אלקין",
+   "ctx": "רשימת הליכוד, מקום 32, חבר/ת הכנסת מכהן/ת — זאב אלקין הוא פוליטיקאי ישראלי מסיעת תקווה חדשה ומכהן מטעמה כשר במשרד "
+  },
+  {
+   "key": "candidates|likud:32|official_name",
+   "he": "אלקין זאב",
+   "ctx": "רשימת הליכוד, מקום 32, חבר/ת הכנסת מכהן/ת — זאב אלקין הוא פוליטיקאי ישראלי מסיעת תקווה חדשה ומכהן מטעמה כשר במשרד "
+  },
+  {
+   "key": "candidates|likud:33|display_name",
+   "he": "עמית הלוי",
+   "ctx": "רשימת הליכוד, מקום 33, חבר/ת הכנסת מכהן/ת — עמית הלוי הוא פוליטיקאי ישראלי וחבר הכנסת מטעם מפלגת הליכוד, היה חבר ו"
+  },
+  {
+   "key": "candidates|likud:33|official_name",
+   "he": "הלוי עמית",
+   "ctx": "רשימת הליכוד, מקום 33, חבר/ת הכנסת מכהן/ת — עמית הלוי הוא פוליטיקאי ישראלי וחבר הכנסת מטעם מפלגת הליכוד, היה חבר ו"
+  },
+  {
+   "key": "candidates|likud:34|display_name",
+   "he": "קרן אטיאס בובליל",
+   "ctx": "רשימת הליכוד, מקום 34"
+  },
+  {
+   "key": "candidates|likud:34|official_name",
+   "he": "אטיאס בובליל קרן",
+   "ctx": "רשימת הליכוד, מקום 34"
+  },
+  {
+   "key": "candidates|likud:35|display_name",
+   "he": "אביחי בוארון",
+   "ctx": "רשימת הליכוד, מקום 35, חבר/ת הכנסת מכהן/ת — אביחי אברהם בוארון הוא חבר הכנסת מטעם הליכוד; עורך דין במקצועו. ממייסד"
+  },
+  {
+   "key": "candidates|likud:35|official_name",
+   "he": "בוארון אביחי אברהם",
+   "ctx": "רשימת הליכוד, מקום 35, חבר/ת הכנסת מכהן/ת — אביחי אברהם בוארון הוא חבר הכנסת מטעם הליכוד; עורך דין במקצועו. ממייסד"
+  },
+  {
+   "key": "candidates|likud:36|display_name",
+   "he": "אפרים נוה",
+   "ctx": "רשימת הליכוד, מקום 36"
+  },
+  {
+   "key": "candidates|likud:36|official_name",
+   "he": "נוה אפרים",
+   "ctx": "רשימת הליכוד, מקום 36"
+  },
+  {
+   "key": "candidates|likud:37|display_name",
+   "he": "שרון סעדה",
+   "ctx": "רשימת הליכוד, מקום 37"
+  },
+  {
+   "key": "candidates|likud:37|official_name",
+   "he": "סעדה שרון",
+   "ctx": "רשימת הליכוד, מקום 37"
+  },
+  {
+   "key": "candidates|likud:38|display_name",
+   "he": "מלביצקי חנוך דב",
+   "ctx": "רשימת הליכוד, מקום 38, חבר/ת הכנסת מכהן/ת"
+  },
+  {
+   "key": "candidates|likud:39|display_name",
+   "he": "נתנאל אוחיון",
+   "ctx": "רשימת הליכוד, מקום 39"
+  },
+  {
+   "key": "candidates|likud:39|official_name",
+   "he": "אוחיון נתנאל",
+   "ctx": "רשימת הליכוד, מקום 39"
+  },
+  {
+   "key": "candidates|likud:40|display_name",
+   "he": "בדרה גולן פלורה מאי",
+   "ctx": "רשימת הליכוד, מקום 40"
+  },
+  {
+   "key": "candidates|likud:41|display_name",
+   "he": "מולא מולא",
+   "ctx": "רשימת הליכוד, מקום 41"
+  },
+  {
+   "key": "candidates|likud:42|display_name",
+   "he": "צביאל רובין",
+   "ctx": "רשימת הליכוד, מקום 42"
+  },
+  {
+   "key": "candidates|likud:42|official_name",
+   "he": "רובין צביאל",
+   "ctx": "רשימת הליכוד, מקום 42"
+  },
+  {
+   "key": "candidates|likud:43|display_name",
+   "he": "גברה וורקו",
+   "ctx": "רשימת הליכוד, מקום 43"
+  },
+  {
+   "key": "candidates|likud:43|official_name",
+   "he": "וורקו גברה",
+   "ctx": "רשימת הליכוד, מקום 43"
+  },
+  {
+   "key": "candidates|likud:44|display_name",
+   "he": "קטרין שטרית",
+   "ctx": "רשימת הליכוד, מקום 44"
+  },
+  {
+   "key": "candidates|likud:44|official_name",
+   "he": "שטרית קטרין",
+   "ctx": "רשימת הליכוד, מקום 44"
+  },
+  {
+   "key": "candidates|likud:45|display_name",
+   "he": "אלכסנדר פרידמן",
+   "ctx": "רשימת הליכוד, מקום 45"
+  },
+  {
+   "key": "candidates|likud:45|official_name",
+   "he": "פרידמן אלכסנדר",
+   "ctx": "רשימת הליכוד, מקום 45"
+  },
+  {
+   "key": "candidates|likud:46|display_name",
+   "he": "עידית סילמן",
+   "ctx": "רשימת הליכוד, מקום 46, חבר/ת הכנסת מכהן/ת"
+  },
+  {
+   "key": "candidates|likud:46|official_name",
+   "he": "סילמן עידית",
+   "ctx": "רשימת הליכוד, מקום 46, חבר/ת הכנסת מכהן/ת"
+  },
+  {
+   "key": "candidates|likud:47|display_name",
+   "he": "אריאל קלנר",
+   "ctx": "רשימת הליכוד, מקום 47, חבר/ת הכנסת מכהן/ת — אריאל קלנר הוא פוליטיקאי ישראלי וחבר הכנסת מטעם הליכוד ויו\"ר הוועדה המ"
+  },
+  {
+   "key": "candidates|likud:47|official_name",
+   "he": "קלנר אריאל",
+   "ctx": "רשימת הליכוד, מקום 47, חבר/ת הכנסת מכהן/ת — אריאל קלנר הוא פוליטיקאי ישראלי וחבר הכנסת מטעם הליכוד ויו\"ר הוועדה המ"
+  },
+  {
+   "key": "candidates|likud:48|display_name",
+   "he": "דיכטר אברהם משה",
+   "ctx": "רשימת הליכוד, מקום 48"
+  },
+  {
+   "key": "candidates|likud:49|display_name",
+   "he": "גואטה ששון ששי",
+   "ctx": "רשימת הליכוד, מקום 49, חבר/ת הכנסת מכהן/ת"
+  },
+  {
+   "key": "candidates|likud:50|display_name",
+   "he": "דנינו שלום",
+   "ctx": "רשימת הליכוד, מקום 50"
+  },
+  {
+   "key": "candidates|likud:50|official_name",
+   "he": "שלום דנינו",
+   "ctx": "רשימת הליכוד, מקום 50"
+  },
+  {
+   "key": "candidates|likud:51|display_name",
+   "he": "שבתאי קטש",
+   "ctx": "רשימת הליכוד, מקום 51, חבר/ת הכנסת מכהן/ת — שבתאי קטש, הוא פוליטיקאי חרדי, יזם נדל\"ן ועורך דין המכהן כחבר הכנסת הע"
+  },
+  {
+   "key": "candidates|likud:51|official_name",
+   "he": "קטש שבתאי",
+   "ctx": "רשימת הליכוד, מקום 51, חבר/ת הכנסת מכהן/ת — שבתאי קטש, הוא פוליטיקאי חרדי, יזם נדל\"ן ועורך דין המכהן כחבר הכנסת הע"
+  },
+  {
+   "key": "candidates|likud:52|display_name",
+   "he": "הכהן רבין חיימוב אלישיב שר שלום",
+   "ctx": "רשימת הליכוד, מקום 52"
+  },
+  {
+   "key": "candidates|likud:53|display_name",
+   "he": "יוסף פיטוסי",
+   "ctx": "רשימת הליכוד, מקום 53"
+  },
+  {
+   "key": "candidates|likud:53|official_name",
+   "he": "פיטוסי יוסף",
+   "ctx": "רשימת הליכוד, מקום 53"
+  },
+  {
+   "key": "candidates|likud:54|display_name",
+   "he": "פארס עבד",
+   "ctx": "רשימת הליכוד, מקום 54"
+  },
+  {
+   "key": "candidates|likud:54|official_name",
+   "he": "עבד פארס",
+   "ctx": "רשימת הליכוד, מקום 54"
+  }
+ ]
+}

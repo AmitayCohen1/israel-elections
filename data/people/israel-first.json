@@ -1,0 +1,89 @@
+{
+  "slug": "israel-first",
+  "researched_at": "2026-10-04",
+  "people": [
+    {
+      "position": 1,
+      "name": "שרן השכל",
+      "headline": "חברת כנסת, סגנית שר החוץ לשעבר",
+      "facts": [
+        {
+          "label": "שירות צבאי ולאומי",
+          "value": "שירות לוחם ומפקדת במשמר הגבול מ-2002",
+          "source_url": "https://he.wikipedia.org/wiki/שרן_השכל"
+        },
+        {
+          "label": "כנסת",
+          "value": "חברת כנסת בכנסות ה-20 עד ה-25, בהפסקה 2020-2021; סגנית יו\"ר הכנסת 2020-2023",
+          "source_url": "https://he.wikipedia.org/wiki/שרן_השכל"
+        },
+        {
+          "label": "תפקידים ציבוריים",
+          "value": "סגנית שר החוץ 2024-2026",
+          "source_url": "https://he.wikipedia.org/wiki/שרן_השכל"
+        }
+      ],
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "position": 2,
+      "name": "רועי דנינו",
+      "headline": "איש עסקים ויועץ, סגן אלוף במילואים",
+      "facts": [
+        {
+          "label": "רקע מקצועי",
+          "value": "בעל עסק ויועץ לחברות ביטחוניות ועירוניות",
+          "source_url": "https://www.maariv.co.il/news/politics/article-1351339"
+        },
+        {
+          "label": "שירות צבאי ולאומי",
+          "value": "יותר מ-600 ימי מילואים במלחמת חרבות ברזל",
+          "source_url": "https://www.maariv.co.il/news/politics/article-1351339"
+        }
+      ],
+      "confidence": "medium",
+      "notes": "מקור יחיד: מעריב."
+    },
+    {
+      "position": 3,
+      "name": "ניר יופטרו",
+      "headline": null,
+      "facts": [],
+      "confidence": "low",
+      "notes": "לא נמצאו עובדות קריירה מעבר להיותו יו\"ר מפלגת העלה הירוק; לא הוצג כאן כי לא אומת מדף."
+    },
+    {
+      "position": 4,
+      "name": "ואיל מוגרבי",
+      "headline": "ראש מועצת עין קנייא",
+      "facts": [
+        {
+          "label": "תפקידים ציבוריים",
+          "value": "ראש מועצת עין קנייא מ-2018",
+          "source_url": "https://he.wikipedia.org/wiki/ואיל_מוגרבי"
+        },
+        {
+          "label": "רקע מקצועי",
+          "value": "מורה לחינוך גופני ומאמן ספורט 1998-2018",
+          "source_url": "https://he.wikipedia.org/wiki/ואיל_מוגרבי"
+        },
+        {
+          "label": "השכלה",
+          "value": "תואר שני במדעי המדינה, אוניברסיטת בר אילן",
+          "source_url": "https://he.wikipedia.org/wiki/ואיל_מוגרבי"
+        }
+      ],
+      "confidence": "medium",
+      "notes": "ויקיפדיה לא אומתה מול מקור שני שהוא ברשימה, אך השם והמקצוע תואמים."
+    },
+    {
+      "position": 5,
+      "name": "עמית פדר",
+      "headline": null,
+      "facts": [],
+      "confidence": "low",
+      "notes": "לא נמצא מידע אמין."
+    }
+  ]
+}

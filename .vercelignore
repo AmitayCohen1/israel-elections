@@ -1,0 +1,5 @@
+.env*
+data/snapshots
+data/reviews
+data/research
+scripts/raw

@@ -1,0 +1,1009 @@
+@import "tailwindcss";
+
+/*
+  Follows america.gov: white page, navy ink, 96px light serif titles, 40px medium sans section
+  titles, 18px body at 65% ink, large quiet tiles. Two type voices only. Nothing tilts or pulses.
+*/
+:root {
+  --paper: #ffffff;
+  --tile: #f5f5f4;
+  --mist: #f2f2f0;
+  --mist-deep: #ecece9;
+  --card: #ffffff;
+  --ink: #000c1f;
+  --ink-2: rgb(0 12 31 / 0.65);
+  --muted: rgb(0 12 31 / 0.5);
+  --line: #e9e8e4;
+  --line-strong: #d6d4cc;
+  --accent: #002664;
+  --night: #070c20;
+  --cream: #fdfbee;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-tile: var(--tile);
+  --color-mist: var(--mist);
+  --color-mist-deep: var(--mist-deep);
+  --color-card: var(--card);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-line-strong: var(--line-strong);
+  --color-accent: var(--accent);
+  --color-night: var(--night);
+  --color-cream: var(--cream);
+  --font-sans: -apple-system, BlinkMacSystemFont, "SF Hebrew", var(--font-heebo), var(--font-arabic), var(--font-ethiopic), system-ui, sans-serif;
+  --font-ballot: var(--font-frank), serif;
+}
+
+html {
+  background: var(--paper);
+  color: var(--ink);
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background: var(--paper);
+  font-size: 18px;
+  line-height: 1.45;
+}
+
+::selection {
+  background: #d6e2fb;
+}
+
+:focus-visible {
+  outline: 2.5px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 8px;
+}
+
+/* Page titles: light serif, tight */
+.serif {
+  font-family: var(--font-frank), serif;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  line-height: 1;
+}
+
+/* Section titles: medium sans, tight */
+.title {
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+}
+
+/* Hero panel: neutral, like overcast daylight */
+.sky {
+  background:
+    radial-gradient(55% 45% at 28% 18%, #ffffff 0%, transparent 70%),
+    radial-gradient(60% 50% at 78% 8%, #f7f7f8 0%, transparent 70%),
+    linear-gradient(180deg, #ececeb 0%, #f3f3f1 55%, #efefed 100%);
+}
+
+/* Squircle tiles */
+.squircle {
+  border-radius: 19.2%;
+}
+
+/* Paper feel on ballot slips */
+.slip {
+  background: radial-gradient(120% 80% at 50% 0%, #fff 0%, #fbfaf6 70%), var(--card);
+}
+
+/* Words that sharpen as you scroll. --p is set by Statement; item i is lit once p > i. */
+.word {
+  opacity: clamp(0.1, calc(var(--p) - var(--i)), 1);
+  filter: blur(calc(clamp(0, calc(var(--i) + 1 - var(--p)), 1) * 7px));
+  transition:
+    opacity 0.2s linear,
+    filter 0.2s linear;
+}
+
+/* Small round objects set inside a big sentence */
+.chip-inline {
+  display: inline-flex;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  height: 0.9em;
+  min-width: 0.9em;
+  margin-inline: 0.08em;
+  border-radius: 999px;
+  transform: translateY(-0.06em);
+}
+
+.scrollbar-none {
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+summary {
+  list-style: none;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Wall marquee: two copies of each row, shifted by half */
+@keyframes drift {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.drift {
+  animation: drift var(--drift-duration, 80s) linear infinite;
+}
+.drift-reverse {
+  animation-direction: reverse;
+}
+.wall:hover .drift {
+  animation-play-state: paused;
+}
+@media (prefers-reduced-motion: reduce) {
+  .drift {
+    animation: none;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  @keyframes sway {
+    from {
+      transform: translateX(-2.5%);
+    }
+    to {
+      transform: translateX(2.5%);
+    }
+  }
+  .sway {
+    animation: sway 22s ease-in-out infinite alternate;
+  }
+  .sway-reverse {
+    animation-direction: alternate-reverse;
+  }
+
+  @supports (animation-timeline: view()) {
+    .reveal {
+      animation: reveal linear both;
+      animation-timeline: view();
+      animation-range: entry 0% cover 22%;
+    }
+    @keyframes reveal {
+      from {
+        opacity: 0;
+        transform: translateY(32px) scale(0.97);
+      }
+      to {
+        opacity: 1;
+        transform: none;
+      }
+    }
+  }
+}
+
+/* Hero wall: columns of cards drifting vertically; two copies per column, shifted by half */
+@keyframes rise {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-50%);
+  }
+}
+.rise {
+  animation: rise var(--rise-duration, 120s) linear infinite;
+}
+.rise-reverse {
+  animation-direction: reverse;
+}
+.hero-wall:hover .rise {
+  animation-play-state: paused;
+}
+@media (prefers-reduced-motion: reduce) {
+  .rise {
+    animation: none;
+  }
+}
+
+/* Hero countdown: digits drop through a clipped window, the seconds tile draws a hairline each tick */
+@keyframes cd-in {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+@keyframes cd-out {
+  from {
+    transform: none;
+    opacity: 1;
+  }
+  to {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}
+@keyframes cd-tick {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+.cd-in {
+  animation: cd-in 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.cd-out {
+  animation: cd-out 0.6s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.cd-tick {
+  animation: cd-tick 1s linear both;
+}
+@keyframes flap-fall {
+  to {
+    transform: rotateX(-90deg);
+  }
+}
+@keyframes flap-land {
+  from {
+    transform: rotateX(90deg);
+  }
+  to {
+    transform: rotateX(0);
+  }
+}
+@keyframes flap-hold {
+  to {
+    visibility: hidden;
+  }
+}
+@keyframes flap-done {
+  to {
+    opacity: 0;
+  }
+}
+@keyframes dot-in {
+  from {
+    opacity: 0;
+    transform: scale(0.2);
+  }
+}
+@keyframes cd-today {
+  50% {
+    transform: scale(1.7);
+    opacity: 0.55;
+  }
+}
+@keyframes mark-draw {
+  from {
+    background-size: 0 100%;
+  }
+}
+.flap-fall {
+  animation: flap-fall 0.25s ease-in both;
+  z-index: 3;
+}
+.flap-land {
+  animation: flap-land 0.25s ease-out 0.25s both;
+  transform: rotateX(90deg);
+  z-index: 3;
+}
+.flap-hold {
+  animation: flap-hold 0s linear 0.5s both;
+  z-index: 2;
+}
+.dot-in {
+  animation: dot-in 0.5s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.cd-today {
+  animation: cd-today 2s ease-in-out infinite;
+}
+.mark {
+  background: linear-gradient(transparent 62%, rgb(0 38 100 / 0.16) 62% 90%, transparent 90%) no-repeat right bottom / 100% 100%;
+  animation: mark-draw 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+@keyframes cd-colon {
+  50% {
+    opacity: 0.3;
+  }
+}
+.cd-colon {
+  animation: cd-colon 1s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .cd-in,
+  .cd-tick,
+  .cd-colon,
+  .cd-today,
+  .dot-in,
+  .mark {
+    animation: none;
+  }
+  .flap-fall,
+  .flap-land,
+  .flap-hold {
+    display: none;
+  }
+  .cd-out {
+    display: none;
+  }
+}
+
+/* Dev preview: orbit rings */
+@keyframes orbit {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.orbit {
+  animation: orbit var(--orbit-duration, 120s) linear infinite;
+}
+.orbit-counter {
+  animation: orbit var(--orbit-duration, 120s) linear infinite reverse;
+}
+@media (prefers-reduced-motion: reduce) {
+  .orbit,
+  .orbit-counter {
+    animation: none;
+  }
+}
+
+/* Home stage: people orbit the fan, which deals out once; hovering the stage holds the orbit still */
+@keyframes fan-in {
+  from {
+    transform: rotate(0deg) translateY(8%);
+    opacity: 0;
+  }
+  to {
+    transform: rotate(var(--r));
+    opacity: 1;
+  }
+}
+.fan-card {
+  animation: fan-in 0.9s cubic-bezier(0.2, 0.8, 0.2, 1) backwards;
+  animation-delay: calc(var(--i) * 90ms + 150ms);
+}
+.stage:hover .orbit,
+.stage:hover .orbit-counter {
+  animation-play-state: paused;
+}
+@media (prefers-reduced-motion: reduce) {
+  .fan-card {
+    animation: none;
+  }
+}
+
+/* Dev preview: words arriving one by one */
+@keyframes word-in {
+  from {
+    opacity: 0;
+    filter: blur(8px);
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    filter: none;
+    transform: none;
+  }
+}
+.word-in {
+  display: inline-block;
+  animation: word-in 0.5s ease-out both;
+}
+
+/* Dev preview: tiles that turn over to show a topic, and faces that bob */
+@keyframes flip {
+  0%,
+  72% {
+    transform: rotateY(0deg);
+  }
+  80%,
+  94% {
+    transform: rotateY(180deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+.flip {
+  animation: flip 12.5s ease-in-out infinite;
+}
+@keyframes bob {
+  50% {
+    transform: translateY(-7px);
+  }
+}
+.bob {
+  animation: bob var(--bob-duration, 6s) ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .flip,
+  .bob {
+    animation: none;
+  }
+}
+
+/* Hero: the slip turning to show the next list */
+@keyframes slip-turn {
+  from {
+    transform: rotateY(88deg) scale(0.92);
+  }
+  to {
+    transform: none;
+  }
+}
+.slip-turn {
+  animation: slip-turn 0.55s cubic-bezier(0.2, 0.9, 0.3, 1.15) both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .slip-turn,
+  .word-in {
+    animation: none;
+  }
+}
+
+/* Party cards: a card arriving in its place when the deck moves on to another list */
+@keyframes card-in {
+  from {
+    opacity: 0;
+    filter: blur(6px);
+    transform: translateY(10px) scale(0.985);
+  }
+  to {
+    opacity: 1;
+    filter: none;
+    transform: none;
+  }
+}
+.card-in {
+  animation: card-in 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .card-in {
+    animation: none;
+  }
+}
+
+/* Hero wheel: every list on one very large circle, turning slowly; it holds still under the pointer */
+@keyframes wheel {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.wheel {
+  animation: wheel 560s linear infinite;
+}
+.wheel-stage:hover .wheel {
+  animation-play-state: paused;
+}
+@media (prefers-reduced-motion: reduce) {
+  .wheel {
+    animation: none;
+  }
+}
+
+/* Accordions open like shadcn's: the panel's height eases instead of jumping.
+   interpolate-size lets block-size animate to auto (Chrome 129+); elsewhere it simply snaps. */
+:root {
+  interpolate-size: allow-keywords;
+}
+details::details-content {
+  block-size: 0;
+  overflow-y: clip;
+  transition:
+    content-visibility 0.3s allow-discrete,
+    block-size 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+details[open]::details-content {
+  block-size: auto;
+}
+
+/* Small floating menus (the topic dropdown) pop in from the control */
+@keyframes menu-pop {
+  from {
+    opacity: 0;
+    transform: translateY(-0.4rem) scale(0.98);
+  }
+}
+@keyframes sheet-up {
+  from {
+    transform: translateY(100%);
+  }
+}
+@media (max-width: 767px) {
+  .menu-pop {
+    transform-origin: bottom;
+    animation: sheet-up 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+}
+.menu-pop {
+  transform-origin: top;
+  animation: menu-pop 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+}
+@media (prefers-reduced-motion: reduce) {
+  details::details-content {
+    transition: none;
+  }
+  .menu-pop {
+    animation: none;
+  }
+}
+
+/* Card stack ("what they say"): without scroll-driven animation, or with reduced motion, the cards are a plain list. */
+.sc-deck {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  width: min(26rem, 100%);
+  margin-inline: auto;
+}
+.sc-card {
+  display: flex;
+  flex-direction: column;
+  min-height: 24rem;
+  padding: 1.75rem;
+  overflow: hidden;
+  border-radius: 2.5rem;
+  box-shadow: 0 30px 50px -36px rgb(0 12 31 / 0.35);
+}
+
+@media (min-width: 1024px) and (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: view()) {
+    /* The section is tall; its stage pins while the deck is dealt, one flip per slice of that scroll. */
+    .sc-section {
+      view-timeline: --stack block;
+      height: calc(100vh + (var(--n) - 1) * 45vh);
+    }
+    .sc-stage {
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      perspective: 1600px;
+    }
+    .sc-deck {
+      position: relative;
+      display: block;
+      height: min(35rem, 78vh);
+    }
+    .sc-enter {
+      position: absolute;
+      inset: 0;
+      transform: rotate(var(--tilt));
+    }
+    .sc-enter:not(.sc-first) {
+      animation: sc-enter linear both;
+      animation-timeline: --stack;
+      animation-range: contain calc(var(--a) * 1%) contain calc(var(--b) * 1%);
+    }
+    .sc-card {
+      height: 100%;
+    }
+    .sc-card:not(.sc-last) {
+      animation: sc-recede linear both;
+      animation-timeline: --stack;
+      animation-range: contain calc(var(--a) * 1%) contain calc(var(--b) * 1%);
+    }
+  }
+}
+@keyframes sc-enter {
+  from {
+    transform: translateY(80vh) rotateX(32deg) rotate(calc(var(--tilt) * -3));
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0) rotateX(0deg) rotate(var(--tilt));
+    opacity: 1;
+  }
+}
+@keyframes sc-recede {
+  to {
+    transform: scale(0.92) translateY(-2.75rem);
+    filter: brightness(0.97);
+  }
+}
+
+/* Timeline rail, seat dots and election-day marker draw in as they scroll into view.
+   Without scroll-driven animation they simply show their final state. */
+.tl-fill {
+  transform: scaleY(var(--fill, 0));
+  transition: transform 0.9s cubic-bezier(0.4, 0, 0.2, 1);
+}
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .tl-reveal {
+      animation: tl-reveal linear both;
+      animation-timeline: view();
+      animation-range: entry 0% cover 28%;
+    }
+    .tl-fill {
+      transition: none;
+      animation: tl-fill linear both;
+      animation-timeline: view();
+      animation-range: entry 20% cover 55%;
+    }
+    .seats-grid {
+      view-timeline: --seats block;
+    }
+    .seat {
+      animation: seat-in linear both;
+      animation-timeline: --seats;
+      animation-range: entry calc(var(--i) * 0.35%) entry calc(50% + var(--i) * 0.4%);
+    }
+    .cal-pop {
+      animation: seat-in linear both;
+      animation-timeline: view();
+      animation-range: entry 30% cover 40%;
+    }
+  }
+}
+@keyframes tl-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(1.5rem);
+  }
+}
+@keyframes tl-fill {
+  from {
+    transform: scaleY(0);
+  }
+}
+@keyframes seat-in {
+  from {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+}
+
+/* Content that swaps in place (the reading card on the landing page): a quick crossfade, nothing that moves or blurs. */
+@keyframes swap-in {
+  from {
+    opacity: 0;
+  }
+}
+.swap-in {
+  animation: swap-in 0.16s ease-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .swap-in {
+    animation: none;
+  }
+}
+
+/* Hero throw: a card is tossed up from below, overshoots, and lands with a little tilt; later it is tossed away upward. */
+@media (prefers-reduced-motion: no-preference) {
+  @keyframes throw-in {
+    0% {
+      opacity: 0;
+      transform: translate(var(--fx, 0), 26rem) rotate(calc(var(--r, 0deg) * -9)) scale(0.55);
+    }
+    55% {
+      opacity: 1;
+      transform: translate(0, -2rem) rotate(calc(var(--r, 0deg) * -0.8)) scale(1.04);
+    }
+    78% {
+      transform: translate(0, 0.4rem) rotate(calc(var(--r, 0deg) * 1.2)) scale(0.995);
+    }
+    100% {
+      opacity: 1;
+      transform: translate(0, 0) rotate(var(--r, 0deg)) scale(1);
+    }
+  }
+  @keyframes throw-out {
+    from {
+      opacity: 1;
+      transform: translate(0, 0) rotate(var(--r, 0deg)) scale(1);
+    }
+    to {
+      opacity: 0;
+      transform: translate(var(--ox, 0), -30rem) rotate(calc(var(--r, 0deg) * 7)) scale(0.4);
+    }
+  }
+  .toss {
+    animation: throw-in 0.5s cubic-bezier(0.2, 0.8, 0.2, 1) var(--d, 0ms) both;
+  }
+  .leaving .toss {
+    animation: throw-out 0.4s cubic-bezier(0.5, 0, 0.9, 0.4) calc(var(--i, 0) * 40ms) both;
+  }
+  @keyframes bubble-in {
+    from {
+      opacity: 0;
+      transform: translateY(14px) scale(0.92);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  .bubble {
+    animation: bubble-in 0.28s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  }
+  @keyframes typing {
+    0%,
+    80%,
+    100% {
+      opacity: 0.25;
+      transform: translateY(0);
+    }
+    40% {
+      opacity: 1;
+      transform: translateY(-3px);
+    }
+  }
+  .typing i {
+    animation: typing 0.6s infinite;
+  }
+  .typing i:nth-child(2) {
+    animation-delay: 0.15s;
+  }
+  .typing i:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .leaving .bubble {
+    animation: throw-out 0.4s cubic-bezier(0.5, 0, 0.9, 0.4) calc(var(--i, 0) * 40ms) both;
+  }
+}
+
+/* Hourglass icon: turns over every few seconds, the thread of sand running between turns */
+@keyframes hourglass-turn {
+  0%,
+  82% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+@keyframes hourglass-sand {
+  0%,
+  10% {
+    opacity: 0;
+  }
+  25%,
+  80% {
+    opacity: 1;
+  }
+  95%,
+  100% {
+    opacity: 0;
+  }
+}
+.hourglass {
+  animation: hourglass-turn 6s cubic-bezier(0.65, 0, 0.35, 1) infinite;
+}
+.hourglass-sand {
+  animation: hourglass-sand 6s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .hourglass,
+  .hourglass-sand {
+    animation: none;
+  }
+}
+
+/* Hero motion set: flip-board rows, clothesline swing, card flips, rolling word */
+@media (prefers-reduced-motion: no-preference) {
+  @keyframes flip-in {
+    from {
+      opacity: 0;
+      transform: rotateX(-90deg);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  @keyframes flip-out {
+    to {
+      opacity: 0;
+      transform: rotateX(90deg);
+    }
+  }
+  .flip {
+    transform-origin: 50% 0;
+    animation: flip-in 0.3s cubic-bezier(0.2, 0.8, 0.3, 1) var(--d, 0ms) both;
+  }
+  .leaving .flip {
+    animation: flip-out 0.2s ease-in calc(var(--i, 0) * 40ms) both;
+  }
+  @keyframes swing-in {
+    0% {
+      opacity: 0;
+      transform: translateY(-110%) rotate(0deg);
+    }
+    28% {
+      opacity: 1;
+      transform: translateY(0) rotate(15deg);
+    }
+    50% {
+      transform: rotate(-9deg);
+    }
+    72% {
+      transform: rotate(4deg);
+    }
+    100% {
+      opacity: 1;
+      transform: rotate(var(--r, 0deg));
+    }
+  }
+  @keyframes swing-out {
+    to {
+      opacity: 0;
+      transform: translateY(-120%) rotate(calc(var(--r, 0deg) * -4));
+    }
+  }
+  .swing {
+    transform-origin: 50% 0;
+    animation: swing-in 0.75s ease-out var(--d, 0ms) both;
+  }
+  .leaving .swing {
+    animation: swing-out 0.28s ease-in calc(var(--i, 0) * 35ms) both;
+  }
+  @keyframes flipcard {
+    from {
+      transform: rotateY(180deg);
+    }
+    to {
+      transform: rotateY(0deg);
+    }
+  }
+  @keyframes flipback {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(180deg);
+    }
+  }
+  .flipcard {
+    transform-style: preserve-3d;
+    animation: flipcard 0.5s cubic-bezier(0.3, 1.3, 0.5, 1) var(--d, 0ms) both;
+  }
+  .leaving .flipcard {
+    animation: flipback 0.26s ease-in calc(var(--i, 0) * 35ms) both;
+  }
+  @keyframes roll-in {
+    from {
+      transform: translateY(105%);
+    }
+    to {
+      transform: none;
+    }
+  }
+  .roll-in {
+    animation: roll-in 0.35s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  }
+}
+
+/* Hero clock: the seconds just settle in, no travel */
+@keyframes soft-tick {
+  from {
+    opacity: 0.35;
+  }
+}
+.soft-tick {
+  animation: soft-tick 0.6s ease-out both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .soft-tick {
+    animation: none;
+  }
+}
+
+/* A chat message arriving: it grows into place so the ones above slide up to make room */
+@keyframes chat-grow {
+  from {
+    grid-template-rows: 0fr;
+    opacity: 0;
+  }
+  to {
+    grid-template-rows: 1fr;
+    opacity: 1;
+  }
+}
+.chat-grow {
+  animation: chat-grow 0.5s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .chat-grow {
+    animation: none;
+  }
+}
+
+/* A wall of faces drifting sideways, row by row; hovering the wall holds it */
+@keyframes marquee {
+  to {
+    transform: translateX(-50%);
+  }
+}
+.marquee {
+  animation: marquee 90s linear infinite;
+}
+.marquee-reverse {
+  animation-direction: reverse;
+}
+.marquee-wall:hover .marquee {
+  animation-play-state: paused;
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee {
+    animation: none;
+  }
+}
+
+/* A column of rows drifting upwards, endlessly; hovering the wrapper holds it */
+@keyframes marquee-y {
+  to {
+    transform: translateY(-50%);
+  }
+}
+.marquee-y {
+  animation: marquee-y 70s linear infinite;
+}
+.marquee-wall:hover .marquee-y {
+  animation-play-state: paused;
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee-y {
+    animation: none;
+  }
+}
+
+/* A departures board: a row flips down into place from its top edge, each a beat after the one before (--d) */
+@keyframes board-in {
+  from {
+    transform: rotateX(-90deg);
+    opacity: 0;
+  }
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+.board-in {
+  transform-origin: top;
+  backface-visibility: hidden;
+  animation: board-in 0.55s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  animation-delay: var(--d, 0ms);
+}
+@media (prefers-reduced-motion: reduce) {
+  .board-in {
+    animation: none;
+  }
+}
+
+/* A small card tossed onto the pile: it drops in from above, turning, and lands at its own lean (--rot) */
+@keyframes toss-in {
+  from {
+    transform: translateY(-120%) rotate(calc(var(--rot) - 25deg)) scale(0.85);
+    opacity: 0;
+  }
+  70% {
+    transform: translateY(4%) rotate(calc(var(--rot) + 3deg));
+    opacity: 1;
+  }
+  to {
+    transform: rotate(var(--rot));
+    opacity: 1;
+  }
+}
+.toss-in {
+  animation: toss-in 0.6s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+@media (prefers-reduced-motion: reduce) {
+  .toss-in {
+    animation: none;
+  }
+}

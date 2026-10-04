@@ -1,0 +1,602 @@
+[
+ {
+  "key": "knesset|משרד התיירות|text",
+  "he": "משרד התיירות",
+  "value": "Ministry of Tourism"
+ },
+ {
+  "key": "knesset|משרד הקשר בין הממשלה לכנסת|text",
+  "he": "משרד הקשר בין הממשלה לכנסת",
+  "value": "Ministry of Government-Knesset Liaison"
+ },
+ {
+  "key": "knesset|יושב–ראש הכנסת|text",
+  "he": "יושב–ראש הכנסת",
+  "value": "Speaker of the Knesset"
+ },
+ {
+  "key": "knesset|משרד המודיעין|text",
+  "he": "משרד המודיעין",
+  "value": "Ministry of Intelligence"
+ },
+ {
+  "key": "knesset|משרד העבודה|text",
+  "he": "משרד העבודה",
+  "value": "Ministry of Labor"
+ },
+ {
+  "key": "knesset|המשרד לשירותי דת|text",
+  "he": "המשרד לשירותי דת",
+  "value": "Ministry of Religious Services"
+ },
+ {
+  "key": "knesset|משרד ירושלים ומסורת ישראל|text",
+  "he": "משרד ירושלים ומסורת ישראל",
+  "value": "Ministry of Jerusalem and Jewish Tradition"
+ },
+ {
+  "key": "knesset|ועדת הכספים|text",
+  "he": "ועדת הכספים",
+  "value": "Finance Committee"
+ },
+ {
+  "key": "knesset|משרד התחבורה, התשתיות הלאומיות והבטיחות בדרכים|text",
+  "he": "משרד התחבורה, התשתיות הלאומיות והבטיחות בדרכים",
+  "value": "Ministry of Transportation, National Infrastructure and Road Safety"
+ },
+ {
+  "key": "knesset|משרד התחבורה והבטיחות בדרכים|text",
+  "he": "משרד התחבורה והבטיחות בדרכים",
+  "value": "Ministry of Transportation and Road Safety"
+ },
+ {
+  "key": "knesset|משרד האנרגיה והתשתיות|text",
+  "he": "משרד האנרגיה והתשתיות",
+  "value": "Ministry of Energy and Infrastructure"
+ },
+ {
+  "key": "knesset|ועדת המשנה לתיקונים בחוקי הבחירות|text",
+  "he": "ועדת המשנה לתיקונים בחוקי הבחירות",
+  "value": "Subcommittee on Amendments to the Election Laws"
+ },
+ {
+  "key": "knesset|הוועדה לקידום מעמד האישה|text",
+  "he": "הוועדה לקידום מעמד האישה",
+  "value": "Committee for the Advancement of the Status of Women"
+ },
+ {
+  "key": "knesset|ועדת המשנה למדיניות חוץ (זמנית)|text",
+  "he": "ועדת המשנה למדיניות חוץ (זמנית)",
+  "value": "Subcommittee on Foreign Policy (temporary)"
+ },
+ {
+  "key": "knesset|ועדת המשנה למדיניות חוץ והסברה (זמנית)|text",
+  "he": "ועדת המשנה למדיניות חוץ והסברה (זמנית)",
+  "value": "Subcommittee on Foreign Policy and Public Diplomacy (temporary)"
+ },
+ {
+  "key": "knesset|ועדת המשנה לעניינים אזרחיים וביטחוניים ביו\"ש|text",
+  "he": "ועדת המשנה לעניינים אזרחיים וביטחוניים ביו\"ש",
+  "value": "Subcommittee on Civilian and Security Affairs in Judea and Samaria"
+ },
+ {
+  "key": "knesset|ועדת המשנה לנושא צמצום הפערים בתקצוב שירותי הרפואה בין הפריפריה למרכז|text",
+  "he": "ועדת המשנה לנושא צמצום הפערים בתקצוב שירותי הרפואה בין הפריפריה למרכז",
+  "value": "Subcommittee on Narrowing the Gaps in Funding of Medical Services Between the Periphery and the Center"
+ },
+ {
+  "key": "knesset|הוועדה המיוחדת לדיון בהצעת חוק לתיקון פקודת המשטרה (סמכויות), התשפ\"ג-2022 (פ/80/25)|text",
+  "he": "הוועדה המיוחדת לדיון בהצעת חוק לתיקון פקודת המשטרה (סמכויות), התשפ\"ג-2022 (פ/80/25)",
+  "value": "Special Committee to Discuss the bill to amend the Police Ordinance (Powers), 5783-2022 (P/80/25)"
+ },
+ {
+  "key": "knesset|הוועדה המסדרת|text",
+  "he": "הוועדה המסדרת",
+  "value": "Arrangements Committee"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת של ועדת הכנסת וועדת הפנים והגנת הסביבה לדיון בהצעות חוק בנושא לביטול אזרחותו או תושבותו של פעיל טרור שמקבל תגמול עבור ביצוע מעשה הטרור |text",
+  "he": "הוועדה המשותפת של ועדת הכנסת וועדת הפנים והגנת הסביבה לדיון בהצעות חוק בנושא לביטול אזרחותו או תושבותו של פעיל טרור שמקבל תגמול עבור ביצוע מעשה הטרור ",
+  "value": "Joint committee of the House Committee and the Interior and Environmental Protection Committee to discuss bills on revoking the citizenship or residency of a terror operative who receives payment for carrying out an act of terror"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת של ועדת הכנסת וועדת הכספים לתקציב הכנסת לפי חוק יסודות התקציב, התשמ\"ה-1985|text",
+  "he": "הוועדה המשותפת של ועדת הכנסת וועדת הכספים לתקציב הכנסת לפי חוק יסודות התקציב, התשמ\"ה-1985",
+  "value": "Joint committee of the House Committee and the Finance Committee on the Knesset budget under the Budget Foundations Law, 5745-1985"
+ },
+ {
+  "key": "knesset|הוועדה המיוחדת לתיקונים לחוק יסוד: הממשלה|text",
+  "he": "הוועדה המיוחדת לתיקונים לחוק יסוד: הממשלה",
+  "value": "Special Committee on Amendments to the Basic Law: The Government"
+ },
+ {
+  "key": "knesset|ועדת המשנה לעניין אבטחת חברי הכנסת וסמכויות קצין הכנסת |text",
+  "he": "ועדת המשנה לעניין אבטחת חברי הכנסת וסמכויות קצין הכנסת ",
+  "value": "Subcommittee on the Security of Members of Knesset and the Powers of the Knesset Officer"
+ },
+ {
+  "key": "knesset|ועדת המשנה לנושא החלל|text",
+  "he": "ועדת המשנה לנושא החלל",
+  "value": "Subcommittee on Space"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת לוועדת הכנסת ולוועדת החוקה, חוק ומשפט לדיון בהצעת חוק מימון מפלגות (תיקון - הגדרת גוף פעיל בבחירות)|text",
+  "he": "הוועדה המשותפת לוועדת הכנסת ולוועדת החוקה, חוק ומשפט לדיון בהצעת חוק מימון מפלגות (תיקון - הגדרת גוף פעיל בבחירות)",
+  "value": "Joint committee of the House Committee and the Constitution, Law and Justice Committee to discuss the Party Financing bill (Amendment - Definition of a Body Active in Elections)"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת לוועדת הכנסת ולוועדת המדע והטכנולוגיה לדיון בהלס\"י בנושא אבטחת מאגרי מידע ממשלתיים ואופן השימוש בהם|text",
+  "he": "הוועדה המשותפת לוועדת הכנסת ולוועדת המדע והטכנולוגיה לדיון בהלס\"י בנושא אבטחת מאגרי מידע ממשלתיים ואופן השימוש בהם",
+  "value": "Joint committee of the House Committee and the Science and Technology Committee to discuss the Central Bureau of Statistics report on securing government databases and how they are used"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת לוועדת הכלכלה ולוועדת הכנסת לדיון בהצעת חוק התקשורת (בזק ושידורים תיקון - אסדרת ערוצים ייעודיים)|text",
+  "he": "הוועדה המשותפת לוועדת הכלכלה ולוועדת הכנסת לדיון בהצעת חוק התקשורת (בזק ושידורים תיקון - אסדרת ערוצים ייעודיים)",
+  "value": "Joint committee of the Economy Committee and the House Committee to discuss the Communications bill (Telecommunications and Broadcasting, Amendment - Regulation of Dedicated Channels)"
+ },
+ {
+  "key": "knesset|ועדת הפנים והגנת הסביבה|text",
+  "he": "ועדת הפנים והגנת הסביבה",
+  "value": "Interior and Environmental Protection Committee"
+ },
+ {
+  "key": "knesset|ועדת המשנה לנושא ביטחון פנים|text",
+  "he": "ועדת המשנה לנושא ביטחון פנים",
+  "value": "Subcommittee on Internal Security"
+ },
+ {
+  "key": "knesset|ועדת המשנה למגזר הבדואי בדרום|text",
+  "he": "ועדת המשנה למגזר הבדואי בדרום",
+  "value": "Subcommittee on the Bedouin Sector in the South"
+ },
+ {
+  "key": "knesset|ועדת המשנה לספורט|text",
+  "he": "ועדת המשנה לספורט",
+  "value": "Subcommittee on Sports"
+ },
+ {
+  "key": "knesset|הוועדה המיוחדת לצדק חלוקתי ולשוויון חברתי|text",
+  "he": "הוועדה המיוחדת לצדק חלוקתי ולשוויון חברתי",
+  "value": "Special Committee on Distributive Justice and Social Equality"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת לוועדת הכספים ולוועדת הכנסת לתקציב הכנסת|text",
+  "he": "הוועדה המשותפת לוועדת הכספים ולוועדת הכנסת לתקציב הכנסת",
+  "value": "Joint committee of the Finance Committee and the House Committee on the Knesset budget"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת לוועדת הכנסת ולוועדת הכלכלה לדיון בהצעת חוק השידור הציבורי הישראלי (תיקון מס' 8) (תיקון)|text",
+  "he": "הוועדה המשותפת לוועדת הכנסת ולוועדת הכלכלה לדיון בהצעת חוק השידור הציבורי הישראלי (תיקון מס' 8) (תיקון)",
+  "value": "Joint committee of the House Committee and the Economy Committee to discuss the Israeli Public Broadcasting bill (Amendment No. 8) (Amendment)"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת לוועדת הכנסת ולוועדת הפנים והגנת הסביבה לדיון בהצעת חוק הרשויות המקומיות (בחירות) (תיקון - תשלום לחברי ועדות קלפי)|text",
+  "he": "הוועדה המשותפת לוועדת הכנסת ולוועדת הפנים והגנת הסביבה לדיון בהצעת חוק הרשויות המקומיות (בחירות) (תיקון - תשלום לחברי ועדות קלפי)",
+  "value": "Joint committee of the House Committee and the Interior and Environmental Protection Committee to discuss the Local Authorities (Elections) bill (Amendment - Payment to Polling Committee Members)"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת לוועדת הכנסת ולוועדת העבודה, הרווחה והבריאות לדיון בהצעת חוק שעות עבודה ומנוחה (תיקון - סמכות יושב-ראש הכנסת לעניין עובדי הכנסת)|text",
+  "he": "הוועדה המשותפת לוועדת הכנסת ולוועדת העבודה, הרווחה והבריאות לדיון בהצעת חוק שעות עבודה ומנוחה (תיקון - סמכות יושב-ראש הכנסת לעניין עובדי הכנסת)",
+  "value": "Joint committee of the House Committee and the Labor, Welfare and Health Committee to discuss the Hours of Work and Rest bill (Amendment - Authority of the Speaker of the Knesset Regarding Knesset Employees)"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת לוועדת הכנסת ולוועדת החוקה, חוק ומשפט לדיון בהצעת חוק שחרור על תנאי ממאסר (תיקון-ביטול קיצור מאסר לאסירים ביטחוניים), התשע\"ט-2018|text",
+  "he": "הוועדה המשותפת לוועדת הכנסת ולוועדת החוקה, חוק ומשפט לדיון בהצעת חוק שחרור על תנאי ממאסר (תיקון-ביטול קיצור מאסר לאסירים ביטחוניים), התשע\"ט-2018",
+  "value": "Joint committee of the House Committee and the Constitution, Law and Justice Committee to discuss the Conditional Release from Imprisonment bill (Amendment - Cancelling Sentence Reduction for Security Prisoners), 5779-2018"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת לוועדת הכנסת ולוועדת המדע והטכנולוגיה לדיון בהצעת חוק התקשורת (בזק ושידורים) (תיקון-חובת סינון אתרים פוגעניים), התשע\"ו-2016|text",
+  "he": "הוועדה המשותפת לוועדת הכנסת ולוועדת המדע והטכנולוגיה לדיון בהצעת חוק התקשורת (בזק ושידורים) (תיקון-חובת סינון אתרים פוגעניים), התשע\"ו-2016",
+  "value": "Joint committee of the House Committee and the Science and Technology Committee to discuss the Communications (Telecommunications and Broadcasting) bill (Amendment - Duty to Filter Harmful Websites), 5776-2016"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת לוועדת החינוך, התרבות והספורט וועדת הכספים לדיון בהצעת חוק להסדר ההימורים בספורט ( תיקון מס' 14 והוראת שעה)|text",
+  "he": "הוועדה המשותפת לוועדת החינוך, התרבות והספורט וועדת הכספים לדיון בהצעת חוק להסדר ההימורים בספורט ( תיקון מס' 14 והוראת שעה)",
+  "value": "Joint committee of the Education, Culture and Sports Committee and the Finance Committee to discuss the Sports Betting Regulation bill (Amendment No. 14 and temporary provision)"
+ },
+ {
+  "key": "knesset|ועדה משותפת לוועדת הכנסת ולוועדת החוקה, חוק ומשפט לדיון בהצעות חוק לשכת עורכי הדין|text",
+  "he": "ועדה משותפת לוועדת הכנסת ולוועדת החוקה, חוק ומשפט לדיון בהצעות חוק לשכת עורכי הדין",
+  "value": "Joint committee of the House Committee and the Constitution, Law and Justice Committee to discuss the Israel Bar Association bills"
+ },
+ {
+  "key": "knesset|הוועדה המיוחדת לדיון בהצעת חוק-יסוד: הממשלה (תיקון מס' 8) (ביטול המגבלה על מספרם המרבי של השרים וסגני השרים|text",
+  "he": "הוועדה המיוחדת לדיון בהצעת חוק-יסוד: הממשלה (תיקון מס' 8) (ביטול המגבלה על מספרם המרבי של השרים וסגני השרים",
+  "value": "Special Committee to Discuss the Basic Law bill: The Government (Amendment No. 8) (Cancelling the Limit on the Maximum Number of Ministers and Deputy Ministers)"
+ },
+ {
+  "key": "knesset|הוועדה המיוחדת לדיון בהצעת חוק התפזרות הכנסת העשרים ואחת|text",
+  "he": "הוועדה המיוחדת לדיון בהצעת חוק התפזרות הכנסת העשרים ואחת",
+  "value": "Special Committee to Discuss the Dissolution of the Twenty-First Knesset bill"
+ },
+ {
+  "key": "knesset|הוועדה המסדרת |text",
+  "he": "הוועדה המסדרת ",
+  "value": "Arrangements Committee"
+ },
+ {
+  "key": "knesset|משרד התרבות והספורט|text",
+  "he": "משרד התרבות והספורט",
+  "value": "Ministry of Culture and Sport"
+ },
+ {
+  "key": "knesset|משרד התפוצות והמאבק באנטישמיות|text",
+  "he": "משרד התפוצות והמאבק באנטישמיות",
+  "value": "Ministry of Diaspora Affairs and Combating Antisemitism"
+ },
+ {
+  "key": "knesset|המשרד לשוויון חברתי וקידום מעמד האישה|text",
+  "he": "המשרד לשוויון חברתי וקידום מעמד האישה",
+  "value": "Ministry for Social Equality and the Advancement of the Status of Women"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת של ועדת החוקה, חוק ומשפט, ועדת הפנים והגנת הסביבה וועדת המדע והטכנולוגיה לפי חוק הכללת אמצעי זיהוי ביומטריים ונתוני זיהוי ביומטריים במסמכי זיהוי ובמאגר מידע, התש\"ע-2009|text",
+  "he": "הוועדה המשותפת של ועדת החוקה, חוק ומשפט, ועדת הפנים והגנת הסביבה וועדת המדע והטכנולוגיה לפי חוק הכללת אמצעי זיהוי ביומטריים ונתוני זיהוי ביומטריים במסמכי זיהוי ובמאגר מידע, התש\"ע-2009",
+  "value": "Joint committee of the Constitution, Law and Justice Committee, the Interior and Environmental Protection Committee and the Science and Technology Committee under the law on including biometric identification means and biometric identification data in identification documents and in a database, 5770-2009"
+ },
+ {
+  "key": "knesset|ועדת העבודה, הרווחה והבריאות|text",
+  "he": "ועדת העבודה, הרווחה והבריאות",
+  "value": "Labor, Welfare and Health Committee"
+ },
+ {
+  "key": "knesset|ועדת המשנה לעניין הבעיה בתשלומי פנסיה בגופים שונים|text",
+  "he": "ועדת המשנה לעניין הבעיה בתשלומי פנסיה בגופים שונים",
+  "value": "Subcommittee on the Problem of Pension Payments in Various Bodies"
+ },
+ {
+  "key": "knesset|ועדת המשנה לעניין תיקון התקנון האחיד |text",
+  "he": "ועדת המשנה לעניין תיקון התקנון האחיד ",
+  "value": "Subcommittee on Amending the Uniform Regulations"
+ },
+ {
+  "key": "knesset|ועדת המשנה לפנסיה|text",
+  "he": "ועדת המשנה לפנסיה",
+  "value": "Subcommittee on Pensions"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת לוועדת העבודה ולוועדה למעמד האישה לדיון בהצעות חוק הביטוח הלאומי (חישוב דמי לידה למבוטחת עצמאית)|text",
+  "he": "הוועדה המשותפת לוועדת העבודה ולוועדה למעמד האישה לדיון בהצעות חוק הביטוח הלאומי (חישוב דמי לידה למבוטחת עצמאית)",
+  "value": "Joint committee of the Labor Committee and the Committee on the Status of Women to discuss the National Insurance bills (Calculating Maternity Allowance for a Self-Employed Insured Woman)"
+ },
+ {
+  "key": "knesset|ועדה משותפת לוועדת העבודה וועדת החוץ והביטחון לפי חוק שירות לאומי-אזרחי, התשע\"ד-2014|text",
+  "he": "ועדה משותפת לוועדת העבודה וועדת החוץ והביטחון לפי חוק שירות לאומי-אזרחי, התשע\"ד-2014",
+  "value": "Joint committee of the Labor Committee and the Foreign Affairs and Defense Committee under the National-Civilian Service Law, 5774-2014"
+ },
+ {
+  "key": "knesset|ועדה משותפת לוועדת העבודה, הרווחה והבריאות וועדת העלייה, הקליטה והתפוצות לדיון בהצעת חוק קליטת חיילים משוחררים|text",
+  "he": "ועדה משותפת לוועדת העבודה, הרווחה והבריאות וועדת העלייה, הקליטה והתפוצות לדיון בהצעת חוק קליטת חיילים משוחררים",
+  "value": "Joint committee of the Labor, Welfare and Health Committee and the Aliyah, Absorption and Diaspora Affairs Committee to discuss the Absorption of Discharged Soldiers bill"
+ },
+ {
+  "key": "knesset|המשרד לביטחון לאומי|text",
+  "he": "המשרד לביטחון לאומי",
+  "value": "Ministry of National Security"
+ },
+ {
+  "key": "knesset|משרד המורשת|text",
+  "he": "משרד המורשת",
+  "value": "Ministry of Heritage"
+ },
+ {
+  "key": "knesset|משרד הנגב, הגליל והחוסן הלאומי|text",
+  "he": "משרד הנגב, הגליל והחוסן הלאומי",
+  "value": "Ministry of the Negev, Galilee and National Resilience"
+ },
+ {
+  "key": "knesset|משרד הרווחה והביטחון החברתי|text",
+  "he": "משרד הרווחה והביטחון החברתי",
+  "value": "Ministry of Welfare and Social Security"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת לוועדת הפנים והגנת הסביבה ולוועדת הכלכלה לדיון בהצעת חוק המים (תיקון מס' 27)|text",
+  "he": "הוועדה המשותפת לוועדת הפנים והגנת הסביבה ולוועדת הכלכלה לדיון בהצעת חוק המים (תיקון מס' 27)",
+  "value": "Joint committee of the Interior and Environmental Protection Committee and the Economy Committee to discuss the Water bill (Amendment No. 27)"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת לוועדת הכנסת ולוועדת הכלכלה לדיון בפרק י\"א (רשויות תחבורה מטרופוליניות), מתוך הצעת חוק התוכנית הכלכלית (תיקוני חקיקה ליישום המדיניות הכלכלית לשנת התקציב 2019)|text",
+  "he": "הוועדה המשותפת לוועדת הכנסת ולוועדת הכלכלה לדיון בפרק י\"א (רשויות תחבורה מטרופוליניות), מתוך הצעת חוק התוכנית הכלכלית (תיקוני חקיקה ליישום המדיניות הכלכלית לשנת התקציב 2019)",
+  "value": "Joint committee of the House Committee and the Economy Committee to discuss Chapter 11 (Metropolitan Transportation Authorities) of the Economic Plan bill (Legislative Amendments to Implement the Economic Policy for the 2019 Budget Year)"
+ },
+ {
+  "key": "knesset|הוועדה המיוחדת להסדרת מעמדם של תלמידי ישיבות, ושילובם של בוגרי ישיבות בשירות צבאי, בשירות לאומי-אזרחי ובתעסוקה|text",
+  "he": "הוועדה המיוחדת להסדרת מעמדם של תלמידי ישיבות, ושילובם של בוגרי ישיבות בשירות צבאי, בשירות לאומי-אזרחי ובתעסוקה",
+  "value": "Special Committee on Regulating the Status of Yeshiva Students and Integrating Yeshiva Graduates into Military Service, National-Civilian Service and Employment"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת לוועדת הכנסת וועדת החוקה, חוק ומשפט לדיון בהצעת חוק יסוד: הממשלה (תיקון-הטלת התפקיד להרכבת הממשלה על ראש מפלגה)|text",
+  "he": "הוועדה המשותפת לוועדת הכנסת וועדת החוקה, חוק ומשפט לדיון בהצעת חוק יסוד: הממשלה (תיקון-הטלת התפקיד להרכבת הממשלה על ראש מפלגה)",
+  "value": "Joint committee of the House Committee and the Constitution, Law and Justice Committee to discuss the Basic Law bill: The Government (Amendment - Assigning the Task of Forming the Government to a Party Leader)"
+ },
+ {
+  "key": "knesset|משרד הדיגיטל הלאומי|text",
+  "he": "משרד הדיגיטל הלאומי",
+  "value": "Ministry of National Digital Affairs"
+ },
+ {
+  "key": "knesset|ועדת המשנה לענייני עורף|text",
+  "he": "ועדת המשנה לענייני עורף",
+  "value": "Subcommittee on Home Front Affairs"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת לוועדת הכלכלה ולוועדת הפנים והגנת הסביבה לדיון בהצעת חוק תאגידי מים וביוב|text",
+  "he": "הוועדה המשותפת לוועדת הכלכלה ולוועדת הפנים והגנת הסביבה לדיון בהצעת חוק תאגידי מים וביוב",
+  "value": "Joint committee of the Economy Committee and the Interior and Environmental Protection Committee to discuss the Water and Sewage Corporations bill"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת לוועדת הכלכלה ולוועדת הכנסת לדיון בהצעת חוק השידור הציבורי הישראלי (תיקון מס' 7)|text",
+  "he": "הוועדה המשותפת לוועדת הכלכלה ולוועדת הכנסת לדיון בהצעת חוק השידור הציבורי הישראלי (תיקון מס' 7)",
+  "value": "Joint committee of the Economy Committee and the House Committee to discuss the Israeli Public Broadcasting bill (Amendment No. 7)"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת לוועדת הכלכלה ולוועדת הכנסת לדיון בהצעת חוק השידור הציבורי הישראלי (תיקון מספר 8) |text",
+  "he": "הוועדה המשותפת לוועדת הכלכלה ולוועדת הכנסת לדיון בהצעת חוק השידור הציבורי הישראלי (תיקון מספר 8) ",
+  "value": "Joint committee of the Economy Committee and the House Committee to discuss the Israeli Public Broadcasting bill (Amendment No. 8)"
+ },
+ {
+  "key": "knesset|הוועדה המיוחדת לדיון בהצעת חוק הבחירות לכנסת העשרים ושתיים (הוראות מיוחדות לעניין ועדת הבחירות)|text",
+  "he": "הוועדה המיוחדת לדיון בהצעת חוק הבחירות לכנסת העשרים ושתיים (הוראות מיוחדות לעניין ועדת הבחירות)",
+  "value": "Special Committee to Discuss the Elections to the Twenty-Second Knesset bill (Special Provisions Regarding the Elections Committee)"
+ },
+ {
+  "key": "knesset|ועדת הכלכלה|text",
+  "he": "ועדת הכלכלה",
+  "value": "Economy Committee"
+ },
+ {
+  "key": "knesset|ועדת המשנה לענייני הנגב|text",
+  "he": "ועדת המשנה לענייני הנגב",
+  "value": "Subcommittee on Negev Affairs"
+ },
+ {
+  "key": "knesset|ועדת המשנה לקליטת ילדים, נוער וצעירים עולים במערכת החינוך |text",
+  "he": "ועדת המשנה לקליטת ילדים, נוער וצעירים עולים במערכת החינוך ",
+  "value": "Subcommittee on the Absorption of Immigrant Children, Youth and Young Adults in the Education System"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת לוועדת החוץ והביטחון ולוועדת החוקה, חוק ומשפט לעניין פטור מטעמי הכרה דתית|text",
+  "he": "הוועדה המשותפת לוועדת החוץ והביטחון ולוועדת החוקה, חוק ומשפט לעניין פטור מטעמי הכרה דתית",
+  "value": "Joint committee of the Foreign Affairs and Defense Committee and the Constitution, Law and Justice Committee on exemption on grounds of religious recognition"
+ },
+ {
+  "key": "knesset|ועדת המשנה לנושא חלל|text",
+  "he": "ועדת המשנה לנושא חלל",
+  "value": "Subcommittee on Space"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת לוועדת הכלכלה ולוועדת החינוך לעניין חוק הרשות השנייה לטלוויזיה ורדיו|text",
+  "he": "הוועדה המשותפת לוועדת הכלכלה ולוועדת החינוך לעניין חוק הרשות השנייה לטלוויזיה ורדיו",
+  "value": "Joint committee of the Economy Committee and the Education Committee on the Second Authority for Television and Radio Law"
+ },
+ {
+  "key": "knesset|הוועדה המיוחדת לדיון בהצעת חוק-יסוד: הממשלה (תיקון מס' 3 והוראת שעה לכנסת ה-20)|text",
+  "he": "הוועדה המיוחדת לדיון בהצעת חוק-יסוד: הממשלה (תיקון מס' 3 והוראת שעה לכנסת ה-20)",
+  "value": "Special Committee to Discuss the Basic Law bill: The Government (Amendment No. 3 and temporary provision for the 20th Knesset)"
+ },
+ {
+  "key": "knesset|משרד ירושלים ומורשת|text",
+  "he": "משרד ירושלים ומורשת",
+  "value": "Ministry of Jerusalem and Heritage"
+ },
+ {
+  "key": "knesset|משרד ההשכלה הגבוהה והמשלימה|text",
+  "he": "משרד ההשכלה הגבוהה והמשלימה",
+  "value": "Ministry of Higher and Supplementary Education"
+ },
+ {
+  "key": "knesset|משרד האנרגיה|text",
+  "he": "משרד האנרגיה",
+  "value": "Ministry of Energy"
+ },
+ {
+  "key": "knesset|ועדת משנה לסיוע בדיור ודיור ציבורי לעולים |text",
+  "he": "ועדת משנה לסיוע בדיור ודיור ציבורי לעולים ",
+  "value": "Subcommittee on Housing Assistance and Public Housing for Immigrants"
+ },
+ {
+  "key": "knesset|ועדת המשנה לפיקוח על משק המים|text",
+  "he": "ועדת המשנה לפיקוח על משק המים",
+  "value": "Subcommittee on Oversight of the Water Sector"
+ },
+ {
+  "key": "knesset|הוועדה המיוחדת ליישובים בגבול המזרחי|text",
+  "he": "הוועדה המיוחדת ליישובים בגבול המזרחי",
+  "value": "Special Committee on Communities on the Eastern Border"
+ },
+ {
+  "key": "knesset|ועדת משנה להשכלה גבוהה|text",
+  "he": "ועדת משנה להשכלה גבוהה",
+  "value": "Subcommittee on Higher Education"
+ },
+ {
+  "key": "knesset|ועדת המשנה לתוכניות הלימודים במזרח ירושלים והפיקוח עליהן|text",
+  "he": "ועדת המשנה לתוכניות הלימודים במזרח ירושלים והפיקוח עליהן",
+  "value": "Subcommittee on Curricula in East Jerusalem and Their Oversight"
+ },
+ {
+  "key": "knesset|ועדת המשנה לתפיסת הביטחון ובניין הכח|text",
+  "he": "ועדת המשנה לתפיסת הביטחון ובניין הכח",
+  "value": "Subcommittee on the Security Concept and Force Build-up"
+ },
+ {
+  "key": "knesset|ועדת הבריאות|text",
+  "he": "ועדת הבריאות",
+  "value": "Health Committee"
+ },
+ {
+  "key": "knesset|ועדה משותפת של ועדת הבריאות והוועדה המיוחדת לענייני התמכרויות, סמים ואתגרי הצעירים בישראל לדיון בהצעות חוק ביטוח בריאות ממלכתי (פ/2041/24), (פ/2155/24), (פ/1828/24)|text",
+  "he": "ועדה משותפת של ועדת הבריאות והוועדה המיוחדת לענייני התמכרויות, סמים ואתגרי הצעירים בישראל לדיון בהצעות חוק ביטוח בריאות ממלכתי (פ/2041/24), (פ/2155/24), (פ/1828/24)",
+  "value": "Joint committee of the Health Committee and the Special Committee on Addictions, Drugs and the Challenges of Youth in Israel to discuss National Health Insurance bills (P/2041/24), (P/2155/24), (P/1828/24)"
+ },
+ {
+  "key": "knesset|ועדת המשנה לצמצום רגולציה|text",
+  "he": "ועדת המשנה לצמצום רגולציה",
+  "value": "Subcommittee on Reducing Regulation"
+ },
+ {
+  "key": "knesset|הוועדה המיוחדת למאבק בשימוש בסמים ובאלכוהול|text",
+  "he": "הוועדה המיוחדת למאבק בשימוש בסמים ובאלכוהול",
+  "value": "Special Committee on Combating the Use of Drugs and Alcohol"
+ },
+ {
+  "key": "knesset|הוועדה המיוחדת לפניות הציבור|text",
+  "he": "הוועדה המיוחדת לפניות הציבור",
+  "value": "Special Committee on Public Petitions"
+ },
+ {
+  "key": "knesset|ועדת העלייה והקליטה|text",
+  "he": "ועדת העלייה והקליטה",
+  "value": "Aliyah and Absorption Committee"
+ },
+ {
+  "key": "knesset|חרות - התנועה הלאומית|text",
+  "he": "חרות - התנועה הלאומית",
+  "value": "Herut - The National Movement"
+ },
+ {
+  "key": "knesset|משרד התשתיות הלאומיות|text",
+  "he": "משרד התשתיות הלאומיות",
+  "value": "Ministry of National Infrastructure"
+ },
+ {
+  "key": "knesset|ועדת המשנה לביטוח|text",
+  "he": "ועדת המשנה לביטוח",
+  "value": "Subcommittee on Insurance"
+ },
+ {
+  "key": "knesset|הוועדה המיוחדת למיגור הפשיעה והאלימות בחברה הערבית - זמנית|text",
+  "he": "הוועדה המיוחדת למיגור הפשיעה והאלימות בחברה הערבית - זמנית",
+  "value": "Special Committee on Eradicating Crime and Violence in Arab Society (temporary)"
+ },
+ {
+  "key": "knesset|הוועדה המיוחדת למיגור הפשיעה בחברה הערבית|text",
+  "he": "הוועדה המיוחדת למיגור הפשיעה בחברה הערבית",
+  "value": "Special Committee on Eradicating Crime in Arab Society"
+ },
+ {
+  "key": "knesset|ועדת משנה לקידום ופיתוח התחבורה הציבורית בחברה הערבית|text",
+  "he": "ועדת משנה לקידום ופיתוח התחבורה הציבורית בחברה הערבית",
+  "value": "Subcommittee on Promoting and Developing Public Transportation in Arab Society"
+ },
+ {
+  "key": "knesset|ועדת המשנה לשיבוץ מורים ערבים בבתי הספר|text",
+  "he": "ועדת המשנה לשיבוץ מורים ערבים בבתי הספר",
+  "value": "Subcommittee on the Placement of Arab Teachers in Schools"
+ },
+ {
+  "key": "knesset|ועדת המדע והטכנולוגיה|text",
+  "he": "ועדת המדע והטכנולוגיה",
+  "value": "Science and Technology Committee"
+ },
+ {
+  "key": "knesset|העצמאות|text",
+  "he": "העצמאות",
+  "value": "Independence"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת לוועדת החוקה, חוק ומשפט ולוועדת הפנים והגנת הסביבה לדיון בהצעת חוק יישובים ושכונות בהליכי הסדרה, התשע\"ח-2018|text",
+  "he": "הוועדה המשותפת לוועדת החוקה, חוק ומשפט ולוועדת הפנים והגנת הסביבה לדיון בהצעת חוק יישובים ושכונות בהליכי הסדרה, התשע\"ח-2018",
+  "value": "Joint committee of the Constitution, Law and Justice Committee and the Interior and Environmental Protection Committee to discuss the Communities and Neighborhoods in the Process of Regulation bill, 5778-2018"
+ },
+ {
+  "key": "knesset|הציונות הדתית בראשות בצלאל סמוטריץ'|text",
+  "he": "הציונות הדתית בראשות בצלאל סמוטריץ'",
+  "value": "Religious Zionism led by Bezalel Smotrich"
+ },
+ {
+  "key": "knesset|משרד ההתיישבות והמשימות הלאומיות|text",
+  "he": "משרד ההתיישבות והמשימות הלאומיות",
+  "value": "Ministry of Settlements and National Missions"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת של ועדת החוקה, חוק ומשפט וועדת החוץ והביטחון, לפי חוק האזנות סתר, התשל\"ט-1979|text",
+  "he": "הוועדה המשותפת של ועדת החוקה, חוק ומשפט וועדת החוץ והביטחון, לפי חוק האזנות סתר, התשל\"ט-1979",
+  "value": "Joint committee of the Constitution, Law and Justice Committee and the Foreign Affairs and Defense Committee under the Wiretapping Law, 5739-1979"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת של ועדת החוקה, חוק ומשפט והוועדה לקידום מעמד האישה לדיון בהצעת חוק לביטול ההתיישנות בעבירות מין (תיקוני חקיקה), התשפ\"ג 2023 (פ/2559/25)|text",
+  "he": "הוועדה המשותפת של ועדת החוקה, חוק ומשפט והוועדה לקידום מעמד האישה לדיון בהצעת חוק לביטול ההתיישנות בעבירות מין (תיקוני חקיקה), התשפ\"ג 2023 (פ/2559/25)",
+  "value": "Joint committee of the Constitution, Law and Justice Committee and the Committee for the Advancement of the Status of Women to discuss the bill to abolish the statute of limitations for sex offenses (Legislative Amendments), 5783 2023 (P/2559/25)"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת של ועדת החוקה, חוק ומשפט והוועדה לביטחון לאומי לדיון בהצעת חוק לתיקון פקודת המשטרה (המחלקה לחקירת שוטרים), |text",
+  "he": "הוועדה המשותפת של ועדת החוקה, חוק ומשפט והוועדה לביטחון לאומי לדיון בהצעת חוק לתיקון פקודת המשטרה (המחלקה לחקירת שוטרים), ",
+  "value": "Joint committee of the Constitution, Law and Justice Committee and the National Security Committee to discuss the bill to amend the Police Ordinance (Police Investigations Department),"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת של ועדת החוקה, חוק ומשפט והוועדה לביטחון לאומי לדיון בהצעת חוק העונשין (תיקון - הגדרת איום), התשפ\"ג-2023 (פ/2156/25)|text",
+  "he": "הוועדה המשותפת של ועדת החוקה, חוק ומשפט והוועדה לביטחון לאומי לדיון בהצעת חוק העונשין (תיקון - הגדרת איום), התשפ\"ג-2023 (פ/2156/25)",
+  "value": "Joint committee of the Constitution, Law and Justice Committee and the National Security Committee to discuss the Penal Law bill (Amendment - Definition of a Threat), 5783-2023 (P/2156/25)"
+ },
+ {
+  "key": "knesset|ועדת המשנה לעניין הפעלת רוגלות על-ידי משטרת ישראל לביצוע האזנת סתר|text",
+  "he": "ועדת המשנה לעניין הפעלת רוגלות על-ידי משטרת ישראל לביצוע האזנת סתר",
+  "value": "Subcommittee on the Use of Spyware by the Israel Police for Wiretapping"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת של ועדת החוקה, חוק ומשפט ושל הוועדה לקידום מעמד האישה ולשוויון מגדרי לדיון בהצעת חוק לקידום הנשים בישראל, התשפ\"ג-2023 (פ/3670/25)|text",
+  "he": "הוועדה המשותפת של ועדת החוקה, חוק ומשפט ושל הוועדה לקידום מעמד האישה ולשוויון מגדרי לדיון בהצעת חוק לקידום הנשים בישראל, התשפ\"ג-2023 (פ/3670/25)",
+  "value": "Joint committee of the Constitution, Law and Justice Committee and the Committee for the Advancement of the Status of Women and Gender Equality to discuss the bill for the advancement of women in Israel, 5783-2023 (P/3670/25)"
+ },
+ {
+  "key": "knesset|ועדת המשנה לבחינת פעולות הממשלה לשם יצירת מסגרת משפטית מתאימה להחזקתם ולהעמדתם לדין של מחבלי החמאס שהשתתפו בהתקפה על ישראל בשבעה באוקטובר 2023|text",
+  "he": "ועדת המשנה לבחינת פעולות הממשלה לשם יצירת מסגרת משפטית מתאימה להחזקתם ולהעמדתם לדין של מחבלי החמאס שהשתתפו בהתקפה על ישראל בשבעה באוקטובר 2023",
+  "value": "Subcommittee to Examine the Government's Actions to Create an Appropriate Legal Framework for Holding and Prosecuting the Hamas Terrorists Who Took Part in the Attack on Israel on October 7, 2023"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת לוועדת החוקה, חוק ומשפט ולוועדת החוץ והביטחון לפי חוק המידע הפלילי ותקנת שבים, התשע\"ט-2019|text",
+  "he": "הוועדה המשותפת לוועדת החוקה, חוק ומשפט ולוועדת החוץ והביטחון לפי חוק המידע הפלילי ותקנת שבים, התשע\"ט-2019",
+  "value": "Joint committee of the Constitution, Law and Justice Committee and the Foreign Affairs and Defense Committee under the Criminal Registry and Rehabilitation of Offenders Law, 5779-2019"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת של ועדת החוקה, חוק ומשפט ושל ועדת הכלכלה לדיון בהצעת חוק תובענות ייצוגיות (תיקון מס' 16) התשפ\"ד-2024 (מ/1785) |text",
+  "he": "הוועדה המשותפת של ועדת החוקה, חוק ומשפט ושל ועדת הכלכלה לדיון בהצעת חוק תובענות ייצוגיות (תיקון מס' 16) התשפ\"ד-2024 (מ/1785) ",
+  "value": "Joint committee of the Constitution, Law and Justice Committee and the Economy Committee to discuss the Class Actions bill (Amendment No. 16), 5784-2024 (M/1785)"
+ },
+ {
+  "key": "knesset|ועדת המשנה לענייני איו\"ש|text",
+  "he": "ועדת המשנה לענייני איו\"ש",
+  "value": "Subcommittee on Judea and Samaria Affairs"
+ },
+ {
+  "key": "knesset|ועדה משותפת של ועדת החינוך, התרבות והספורט וועדת הפנים והגנת הסביבה לפי חוק בית הספר החקלאי מקווה ישראל, תשל\"ו-1976|text",
+  "he": "ועדה משותפת של ועדת החינוך, התרבות והספורט וועדת הפנים והגנת הסביבה לפי חוק בית הספר החקלאי מקווה ישראל, תשל\"ו-1976",
+  "value": "Joint committee of the Education, Culture and Sports Committee and the Interior and Environmental Protection Committee under the Mikveh Israel Agricultural School Law, 5736-1976"
+ },
+ {
+  "key": "knesset|הוועדה למיזמים ציבוריים|text",
+  "he": "הוועדה למיזמים ציבוריים",
+  "value": "Committee on Public Projects"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת לוועדת החוץ והביטחון ולוועדת החוקה, חוק ומשפט לבחינת הצורך להכריז על מצב חירום|text",
+  "he": "הוועדה המשותפת לוועדת החוץ והביטחון ולוועדת החוקה, חוק ומשפט לבחינת הצורך להכריז על מצב חירום",
+  "value": "Joint committee of the Foreign Affairs and Defense Committee and the Constitution, Law and Justice Committee to examine the need to declare a state of emergency"
+ },
+ {
+  "key": "knesset|המשרד לפיתוח הפריפריה, הנגב והגליל|text",
+  "he": "המשרד לפיתוח הפריפריה, הנגב והגליל",
+  "value": "Ministry for the Development of the Periphery, the Negev and the Galilee"
+ },
+ {
+  "key": "knesset|משנה לראש הממשלה|text",
+  "he": "משנה לראש הממשלה",
+  "value": "Deputy Prime Minister"
+ },
+ {
+  "key": "knesset|ועדת המשנה להגנת העורף|text",
+  "he": "ועדת המשנה להגנת העורף",
+  "value": "Subcommittee on Home Front Defense"
+ },
+ {
+  "key": "knesset|הוועדה המיוחדת לצמצום פערים חברתיים בפריפריה|text",
+  "he": "הוועדה המיוחדת לצמצום פערים חברתיים בפריפריה",
+  "value": "Special Committee on Narrowing Social Gaps in the Periphery"
+ },
+ {
+  "key": "knesset|משרד החקלאות וביטחון המזון|text",
+  "he": "משרד החקלאות וביטחון המזון",
+  "value": "Ministry of Agriculture and Food Security"
+ }
+]

@@ -1,0 +1,146 @@
+{
+ "slug": "together",
+ "researched_at": "2026-10-04",
+ "people": [
+  {
+   "position": 1,
+   "name": "נפתלי בנט",
+   "headline": "יזם הייטק, ראש הממשלה לשעבר",
+   "facts": [
+    {
+     "label": "רקע מקצועי",
+     "value": "ממייסדי חברת סייוטה, שנמכרה ב-2005; מנכ\"ל סולוטו",
+     "source_url": "https://he.wikipedia.org/wiki/נפתלי_בנט"
+    },
+    {
+     "label": "שירות צבאי ולאומי",
+     "value": "שירות בסיירת מטכ\"ל ובמגלן, סרן במילואים",
+     "source_url": "https://he.wikipedia.org/wiki/נפתלי_בנט"
+    },
+    {
+     "label": "תפקידים ציבוריים",
+     "value": "שר הכלכלה 2013–2015, שר החינוך 2015–2019, שר הביטחון 2019–2020",
+     "source_url": "https://he.wikipedia.org/wiki/נפתלי_בנט"
+    },
+    {
+     "label": "תפקידים ציבוריים",
+     "value": "ראש הממשלה 2021–2022",
+     "source_url": "https://he.wikipedia.org/wiki/נפתלי_בנט"
+    }
+   ],
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "position": 2,
+   "name": "יאיר לפיד",
+   "headline": "עיתונאי ומנחה טלוויזיה, ראש הממשלה לשעבר",
+   "facts": [
+    {
+     "label": "רקע מקצועי",
+     "value": "עיתונאי, כותב טור שבועי 1989–2012, מנחה ומגיש תוכניות טלוויזיה ומהדורת חדשות",
+     "source_url": "https://he.wikipedia.org/wiki/יאיר_לפיד"
+    },
+    {
+     "label": "שירות צבאי ולאומי",
+     "value": "שירות בצה\"ל 1982–1985, כתב במחנה",
+     "source_url": "https://he.wikipedia.org/wiki/יאיר_לפיד"
+    },
+    {
+     "label": "תפקידים ציבוריים",
+     "value": "הקים את יש עתיד ב-2012; שר האוצר 2013–2014, שר החוץ 2021–2022",
+     "source_url": "https://he.wikipedia.org/wiki/יאיר_לפיד"
+    },
+    {
+     "label": "תפקידים ציבוריים",
+     "value": "ראש הממשלה יולי–דצמבר 2022, ראש האופוזיציה מ-2023",
+     "source_url": "https://he.wikipedia.org/wiki/יאיר_לפיד"
+    }
+   ],
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "position": 3,
+   "name": "קרן טרנר",
+   "headline": "מנהלת כללית לשעבר של משרד התחבורה ושל משרד האוצר",
+   "facts": [
+    {
+     "label": "רקע מקצועי",
+     "value": "אגף התקציבים באוצר 2004–2011; שותפה בקרן הון סיכון 2021–2025",
+     "source_url": "https://he.wikipedia.org/wiki/קרן_טרנר"
+    },
+    {
+     "label": "תפקידים ציבוריים",
+     "value": "מנכ\"לית משרד התחבורה 2016–2020, מנכ\"לית משרד האוצר ב-2020",
+     "source_url": "https://he.wikipedia.org/wiki/קרן_טרנר"
+    },
+    {
+     "label": "השכלה",
+     "value": "תואר ראשון ושני בכלכלה ובמנהל עסקים, האוניברסיטה העברית",
+     "source_url": "https://he.wikipedia.org/wiki/קרן_טרנר"
+    },
+    {
+     "label": "שירות צבאי ולאומי",
+     "value": "שירות בצה\"ל, שוחררה בדרגת סגן",
+     "source_url": "https://he.wikipedia.org/wiki/קרן_טרנר"
+    }
+   ],
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "position": 4,
+   "name": "מירב בן ארי",
+   "headline": "חברת כנסת, מייסדת מרכזי נוער",
+   "facts": [
+    {
+     "label": "רקע מקצועי",
+     "value": "הקימה מרכזי נוער 'דרך אתגר'; מרצה",
+     "source_url": "https://he.wikipedia.org/wiki/מירב_בן_ארי"
+    },
+    {
+     "label": "תפקידים ציבוריים",
+     "value": "חברת מועצת העיר תל אביב-יפו 2013–2015",
+     "source_url": "https://he.wikipedia.org/wiki/מירב_בן_ארי"
+    },
+    {
+     "label": "כנסת",
+     "value": "חברת כנסת 2015–2019 (כולנו) ומ-2021 (יש עתיד)",
+     "source_url": "https://he.wikipedia.org/wiki/מירב_בן_ארי"
+    },
+    {
+     "label": "השכלה",
+     "value": "תואר ראשון במשפטים ובמנהל ציבורי ותואר שני במנהל עסקים, הבינתחומי הרצליה",
+     "source_url": "https://he.wikipedia.org/wiki/מירב_בן_ארי"
+    }
+   ],
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "position": 5,
+   "name": "לירן אבישר בן-חורין",
+   "headline": "מנכ\"ל לשעבר של משרד התקשורת, עורך דין",
+   "facts": [
+    {
+     "label": "רקע מקצועי",
+     "value": "יועץ משפטי ליועץ המשפטי לממשלה, מנהל פרויקט מסע 2013–2019",
+     "source_url": "https://he.wikipedia.org/wiki/לירן_אבישר_בן-חורין"
+    },
+    {
+     "label": "תפקידים ציבוריים",
+     "value": "מנכ\"ל משרד התקשורת 2020–2023",
+     "source_url": "https://he.wikipedia.org/wiki/לירן_אבישר_בן-חורין"
+    },
+    {
+     "label": "השכלה",
+     "value": "תואר ראשון בניהול ובמשפטים, אוניברסיטת תל אביב; תואר שני במשפטים, NYU",
+     "source_url": "https://he.wikipedia.org/wiki/לירן_אבישר_בן-חורין"
+    }
+   ],
+   "confidence": "high",
+   "notes": ""
+  }
+ ]
+}

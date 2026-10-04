@@ -1,0 +1,120 @@
+{
+ "slug": "utj",
+ "researched_at": "2026-10-04",
+ "people": [
+  {
+   "position": 1,
+   "name": "יעקב אשר",
+   "headline": "ראש עיריית בני ברק לשעבר, חבר כנסת",
+   "facts": [
+    {
+     "label": "תפקידים ציבוריים",
+     "value": "ראש עיריית בני ברק 2008–2013",
+     "source_url": "https://he.wikipedia.org/wiki/יעקב_אשר"
+    },
+    {
+     "label": "רקע מקצועי",
+     "value": "עבודה בעיריית בני ברק מ-1990, מנהל לשכת ראש העיר",
+     "source_url": "https://he.wikipedia.org/wiki/יעקב_אשר"
+    },
+    {
+     "label": "כנסת",
+     "value": "חבר כנסת 2013–2015 ומ-2016; יושב ראש ועדת החוקה 2020–2021, ועדת הפנים 2023–2025",
+     "source_url": "https://he.wikipedia.org/wiki/יעקב_אשר"
+    }
+   ],
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "position": 2,
+   "name": "יצחק גולדקנופף",
+   "headline": "מנהל מוסדות חינוך, שר הבינוי והשיכון לשעבר",
+   "facts": [
+    {
+     "label": "רקע מקצועי",
+     "value": "מנהל חינוכי במוסדות תורניים בירושלים מ-1974",
+     "source_url": "https://he.wikipedia.org/wiki/יצחק_גולדקנופף"
+    },
+    {
+     "label": "תפקידים ציבוריים",
+     "value": "חבר מועצת העיר ירושלים 2003",
+     "source_url": "https://he.wikipedia.org/wiki/יצחק_גולדקנופף"
+    },
+    {
+     "label": "תפקידים ציבוריים",
+     "value": "שר הבינוי והשיכון דצמבר 2022 עד 2025",
+     "source_url": "https://he.wikipedia.org/wiki/יצחק_גולדקנופף"
+    },
+    {
+     "label": "כנסת",
+     "value": "חבר כנסת מנובמבר 2022, בהפסקה",
+     "source_url": "https://he.wikipedia.org/wiki/יצחק_גולדקנופף"
+    }
+   ],
+   "confidence": "medium",
+   "notes": "פרטי תקופות הכנסת נקראו בערך ואינם חד-משמעיים."
+  },
+  {
+   "position": 3,
+   "name": "יצחק פינדרוס",
+   "headline": "ראש עיריית ביתר עילית לשעבר, חבר כנסת",
+   "facts": [
+    {
+     "label": "תפקידים ציבוריים",
+     "value": "ראש עיריית ביתר עילית 2001–2007; סגן ראש עיריית ירושלים 2008–2013",
+     "source_url": "https://he.wikipedia.org/wiki/יצחק_פינדרוס"
+    },
+    {
+     "label": "רקע מקצועי",
+     "value": "מנכ\"ל המכון החרדי למחקרי מדיניות 2018–2019",
+     "source_url": "https://he.wikipedia.org/wiki/יצחק_פינדרוס"
+    },
+    {
+     "label": "כנסת",
+     "value": "חבר כנסת בכנסות 21, 24 ו-25",
+     "source_url": "https://he.wikipedia.org/wiki/יצחק_פינדרוס"
+    }
+   ],
+   "confidence": "medium",
+   "notes": "תקופות הכנסת פורטו בערך באופן חלקי."
+  },
+  {
+   "position": 4,
+   "name": "מאיר פרוש",
+   "headline": "חבר כנסת, שר ירושלים ומורשת לשעבר",
+   "facts": [
+    {
+     "label": "רקע מקצועי",
+     "value": "מנהל משרדי אגודת ישראל בירושלים, ממייסדי העיתון 'המבשר'",
+     "source_url": "https://he.wikipedia.org/wiki/מאיר_פרוש"
+    },
+    {
+     "label": "תפקידים ציבוריים",
+     "value": "חבר מועצת העיר ירושלים מ-1983, סגן ראש העירייה 1989–2007",
+     "source_url": "https://he.wikipedia.org/wiki/מאיר_פרוש"
+    },
+    {
+     "label": "תפקידים ציבוריים",
+     "value": "סגן שר הבינוי והשיכון, סגן שר החינוך, שר ירושלים ומורשת 2023–2025",
+     "source_url": "https://he.wikipedia.org/wiki/מאיר_פרוש"
+    },
+    {
+     "label": "כנסת",
+     "value": "חבר כנסת מ-1996 בהפסקות",
+     "source_url": "https://he.wikipedia.org/wiki/מאיר_פרוש"
+    }
+   ],
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "position": 5,
+   "name": "משה רוזנטל",
+   "headline": null,
+   "facts": [],
+   "confidence": "low",
+   "notes": "הערך בוויקיפדיה 'משה רוזנטל' עוסק בבמאי קולנוע, לא בפוליטיקאי; חיפושי רשת לא העלו מידע מהימן על המועמד ברשימה. לא נכתב דבר."
+  }
+ ]
+}

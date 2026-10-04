@@ -1,0 +1,752 @@
+[
+ {
+  "key": "candidates|shas:59|official_name",
+  "he": "אוקנין יוסף",
+  "value": "ዮሴፍ ኦክኒን"
+ },
+ {
+  "key": "candidates|shas:60|display_name",
+  "he": "מנחם דוד",
+  "value": "ሜናሄም ዳዊት"
+ },
+ {
+  "key": "candidates|shas:60|official_name",
+  "he": "דוד מנחם",
+  "value": "ሜናሄም ዳዊት"
+ },
+ {
+  "key": "candidates|shas:61|display_name",
+  "he": "פרץ שלמה נתנאל",
+  "value": "ሽሎሞ ናትናኤል ፔሬዝ"
+ },
+ {
+  "key": "candidates|shas:62|display_name",
+  "he": "זיגדון חנן גבי",
+  "value": "ሃናን ጋቪ ዚግዶን"
+ },
+ {
+  "key": "candidates|shas:63|display_name",
+  "he": "אליהו קרעי",
+  "value": "ኤሊያሁ ካራኢ"
+ },
+ {
+  "key": "candidates|shas:63|official_name",
+  "he": "קרעי אליהו",
+  "value": "ኤሊያሁ ካራኢ"
+ },
+ {
+  "key": "candidates|shas:64|display_name",
+  "he": "אורי אוזן",
+  "value": "ኡሪ ኦዘን"
+ },
+ {
+  "key": "candidates|shas:64|official_name",
+  "he": "אוזן אורי",
+  "value": "ኡሪ ኦዘን"
+ },
+ {
+  "key": "candidates|shas:65|display_name",
+  "he": "רבוך יעקב ישראל",
+  "value": "ያዕቆብ እስራኤል ራቦክ"
+ },
+ {
+  "key": "candidates|shas:66|display_name",
+  "he": "יצחק חדד",
+  "value": "ይስሃቅ ሃዳድ"
+ },
+ {
+  "key": "candidates|shas:66|official_name",
+  "he": "חדד יצחק",
+  "value": "ይስሃቅ ሃዳድ"
+ },
+ {
+  "key": "candidates|shas:67|display_name",
+  "he": "אברהם שרביט",
+  "value": "አብርሃም ሻርቪት"
+ },
+ {
+  "key": "candidates|shas:67|official_name",
+  "he": "שרביט אברהם",
+  "value": "አብርሃም ሻርቪት"
+ },
+ {
+  "key": "candidates|shas:68|display_name",
+  "he": "שלמה חדד",
+  "value": "ሽሎሞ ሃዳድ"
+ },
+ {
+  "key": "candidates|shas:68|official_name",
+  "he": "חדד שלמה",
+  "value": "ሽሎሞ ሃዳድ"
+ },
+ {
+  "key": "candidates|shas:69|display_name",
+  "he": "פנחסי מרדכי חי",
+  "value": "ሞርደኻይ ሃይ ፒንሃሲ"
+ },
+ {
+  "key": "candidates|shas:70|display_name",
+  "he": "יוסף תורגמן",
+  "value": "ዮሴፍ ቱርጅማን"
+ },
+ {
+  "key": "candidates|shas:70|official_name",
+  "he": "תורגמן יוסף",
+  "value": "ዮሴፍ ቱርጅማን"
+ },
+ {
+  "key": "candidates|shas:71|display_name",
+  "he": "משה יפת",
+  "value": "ሞሼ የፌት"
+ },
+ {
+  "key": "candidates|shas:71|official_name",
+  "he": "יפת משה",
+  "value": "ሞሼ የፌት"
+ },
+ {
+  "key": "candidates|shas:72|display_name",
+  "he": "יוסף-חיים בראנס",
+  "value": "ዮሴፍ-ሃይም ብራንስ"
+ },
+ {
+  "key": "candidates|shas:72|official_name",
+  "he": "בראנס יוסף-חיים",
+  "value": "ዮሴፍ-ሃይም ብራንስ"
+ },
+ {
+  "key": "candidates|shas:73|display_name",
+  "he": "קייקוב רוברט ראובן",
+  "value": "ሮበርት ሩቨን ካይኮቭ"
+ },
+ {
+  "key": "candidates|shas:74|display_name",
+  "he": "ינון מצליח",
+  "value": "ያኖን ማትስሊያህ"
+ },
+ {
+  "key": "candidates|shas:74|official_name",
+  "he": "מצליח ינון",
+  "value": "ያኖን ማትስሊያህ"
+ },
+ {
+  "key": "candidates|shas:75|display_name",
+  "he": "רענן כפרי",
+  "value": "ራአናን ካፍሪ"
+ },
+ {
+  "key": "candidates|shas:75|official_name",
+  "he": "כפרי רענן",
+  "value": "ራአናን ካፍሪ"
+ },
+ {
+  "key": "candidates|shas:76|display_name",
+  "he": "טקטוק דורון שושן",
+  "value": "ዶሮን ሹሻን ታክቶክ"
+ },
+ {
+  "key": "candidates|shas:77|display_name",
+  "he": "נימני אפריים אפי",
+  "value": "ኤፍሬም ኤፊ ኒማኒ"
+ },
+ {
+  "key": "candidates|shas:78|display_name",
+  "he": "אלעד מנחם",
+  "value": "ኤላድ ሜናሄም"
+ },
+ {
+  "key": "candidates|shas:78|official_name",
+  "he": "מנחם אלעד",
+  "value": "ኤላድ ሜናሄም"
+ },
+ {
+  "key": "candidates|shas:79|display_name",
+  "he": "פילו ראובן יוסף",
+  "value": "ሩቨን ዮሴፍ ፊሎ"
+ },
+ {
+  "key": "candidates|shas:80|display_name",
+  "he": "ברנס מאיר דוד",
+  "value": "ሜይር ዳዊት በርንስ"
+ },
+ {
+  "key": "candidates|shas:81|display_name",
+  "he": "יהודה חיים",
+  "value": "ይሁዳ ሃይም"
+ },
+ {
+  "key": "candidates|shas:81|official_name",
+  "he": "חיים יהודה",
+  "value": "ይሁዳ ሃይም"
+ },
+ {
+  "key": "candidates|shas:82|display_name",
+  "he": "שלום ממליה",
+  "value": "ሻሎም ማምሊያ"
+ },
+ {
+  "key": "candidates|shas:82|official_name",
+  "he": "ממליה שלום",
+  "value": "ሻሎም ማምሊያ"
+ },
+ {
+  "key": "candidates|shas:83|display_name",
+  "he": "באחג' אליהו דוד",
+  "value": "ኤሊያሁ ዳዊት ባኸጅ"
+ },
+ {
+  "key": "candidates|shas:84|display_name",
+  "he": "מלאכי בוטבול",
+  "value": "ማልአኪ ቡትቡል"
+ },
+ {
+  "key": "candidates|shas:84|official_name",
+  "he": "בוטבול מלאכי",
+  "value": "ማልአኪ ቡትቡል"
+ },
+ {
+  "key": "candidates|shas:85|display_name",
+  "he": "אברהם אביטל",
+  "value": "አብርሃም አቪታል"
+ },
+ {
+  "key": "candidates|shas:85|official_name",
+  "he": "אביטל אברהם",
+  "value": "አብርሃም አቪታል"
+ },
+ {
+  "key": "candidates|shas:86|display_name",
+  "he": "ישראל נדר",
+  "value": "እስራኤል ናደር"
+ },
+ {
+  "key": "candidates|shas:86|official_name",
+  "he": "נדר ישראל",
+  "value": "እስራኤል ናደር"
+ },
+ {
+  "key": "candidates|shas:87|display_name",
+  "he": "יונתן מנחם",
+  "value": "ዮናታን ሜናሄም"
+ },
+ {
+  "key": "candidates|shas:87|official_name",
+  "he": "מנחם יונתן",
+  "value": "ዮናታን ሜናሄም"
+ },
+ {
+  "key": "candidates|shas:88|display_name",
+  "he": "בלעיש אליהו מאיר",
+  "value": "ኤሊያሁ ሜይር ባላኢሽ"
+ },
+ {
+  "key": "candidates|shas:89|display_name",
+  "he": "אבטליון בצלאלי",
+  "value": "አብጣሊዮን ቤጻሌሊ"
+ },
+ {
+  "key": "candidates|shas:89|official_name",
+  "he": "בצלאלי אבטליון",
+  "value": "አብጣሊዮን ቤጻሌሊ"
+ },
+ {
+  "key": "candidates|shas:90|display_name",
+  "he": "שי קזיוף",
+  "value": "ሻይ ካዚዮፍ"
+ },
+ {
+  "key": "candidates|shas:90|official_name",
+  "he": "קזיוף שי",
+  "value": "ሻይ ካዚዮፍ"
+ },
+ {
+  "key": "candidates|shas:91|display_name",
+  "he": "עדי טרוזמן",
+  "value": "አዲ ትሮዝማን"
+ },
+ {
+  "key": "candidates|shas:91|official_name",
+  "he": "טרוזמן עדי",
+  "value": "አዲ ትሮዝማን"
+ },
+ {
+  "key": "candidates|shas:92|display_name",
+  "he": "יהודה דנינו",
+  "value": "ይሁዳ ዳኒኖ"
+ },
+ {
+  "key": "candidates|shas:92|official_name",
+  "he": "דנינו יהודה",
+  "value": "ይሁዳ ዳኒኖ"
+ },
+ {
+  "key": "candidates|shas:93|display_name",
+  "he": "אטיאס אברהם ישראל",
+  "value": "አብርሃም እስራኤል አቲያስ"
+ },
+ {
+  "key": "candidates|shas:94|display_name",
+  "he": "אבי דרעי",
+  "value": "አቪ ደሪ"
+ },
+ {
+  "key": "candidates|shas:94|official_name",
+  "he": "דרעי אבי",
+  "value": "አቪ ደሪ"
+ },
+ {
+  "key": "candidates|shas:95|display_name",
+  "he": "ראובן זגדון",
+  "value": "ሩቨን ዛግዶን"
+ },
+ {
+  "key": "candidates|shas:95|official_name",
+  "he": "זגדון ראובן",
+  "value": "ሩቨን ዛግዶን"
+ },
+ {
+  "key": "candidates|shas:96|display_name",
+  "he": "ישראל מלייב",
+  "value": "እስራኤል ማሊዬቭ"
+ },
+ {
+  "key": "candidates|shas:96|official_name",
+  "he": "מלייב ישראל",
+  "value": "እስራኤል ማሊዬቭ"
+ },
+ {
+  "key": "candidates|shas:97|display_name",
+  "he": "קקון מאיר ישראל",
+  "value": "ሜይር እስራኤል ካኮን"
+ },
+ {
+  "key": "candidates|shas:98|display_name",
+  "he": "אבוחצירא דן בנימין",
+  "value": "ዳን ቢንያሚን አቡሃጺራ"
+ },
+ {
+  "key": "candidates|shas:99|display_name",
+  "he": "יעקב דנינו",
+  "value": "ያዕቆብ ዳኒኖ"
+ },
+ {
+  "key": "candidates|shas:99|official_name",
+  "he": "דנינו יעקב",
+  "value": "ያዕቆብ ዳኒኖ"
+ },
+ {
+  "key": "candidates|shas:100|display_name",
+  "he": "שי חקשורי",
+  "value": "ሻይ ሃክሹሪ"
+ },
+ {
+  "key": "candidates|shas:100|official_name",
+  "he": "חקשורי שי",
+  "value": "ሻይ ሃክሹሪ"
+ },
+ {
+  "key": "candidates|shas:101|display_name",
+  "he": "אשר סויסה",
+  "value": "አሸር ሱሳ"
+ },
+ {
+  "key": "candidates|shas:101|official_name",
+  "he": "סויסה אשר",
+  "value": "አሸር ሱሳ"
+ },
+ {
+  "key": "candidates|shas:102|display_name",
+  "he": "עמי כלפון",
+  "value": "አሚ ካልፎን"
+ },
+ {
+  "key": "candidates|shas:102|official_name",
+  "he": "כלפון עמי",
+  "value": "አሚ ካልፎን"
+ },
+ {
+  "key": "candidates|shas:103|display_name",
+  "he": "רועי כהן",
+  "value": "ሮዒ ኮሄን"
+ },
+ {
+  "key": "candidates|shas:103|official_name",
+  "he": "כהן רועי",
+  "value": "ሮዒ ኮሄን"
+ },
+ {
+  "key": "candidates|shas:104|display_name",
+  "he": "אברהם חדד",
+  "value": "አብርሃም ሃዳድ"
+ },
+ {
+  "key": "candidates|shas:104|official_name",
+  "he": "חדד אברהם",
+  "value": "አብርሃም ሃዳድ"
+ },
+ {
+  "key": "candidates|shas:105|display_name",
+  "he": "אבולוף הכהן יניב",
+  "value": "ያኒቭ አቡሎፍ ሃኮሄን"
+ },
+ {
+  "key": "candidates|shas:106|display_name",
+  "he": "אסף נגר",
+  "value": "አሳፍ ናጋር"
+ },
+ {
+  "key": "candidates|shas:106|official_name",
+  "he": "נגר אסף",
+  "value": "አሳፍ ናጋር"
+ },
+ {
+  "key": "candidates|shas:107|display_name",
+  "he": "שמעון אביטן",
+  "value": "ሺሞን አቪታን"
+ },
+ {
+  "key": "candidates|shas:107|official_name",
+  "he": "אביטן שמעון",
+  "value": "ሺሞን አቪታን"
+ },
+ {
+  "key": "candidates|shas:108|display_name",
+  "he": "דוד בנסל",
+  "value": "ዳዊት ቤንሳል"
+ },
+ {
+  "key": "candidates|shas:108|official_name",
+  "he": "בנסל דוד",
+  "value": "ዳዊት ቤንሳል"
+ },
+ {
+  "key": "candidates|shas:109|display_name",
+  "he": "עמיאל קסטוריאנו",
+  "value": "አሚኤል ካስቶሪያኖ"
+ },
+ {
+  "key": "candidates|shas:109|official_name",
+  "he": "קסטוריאנו עמיאל",
+  "value": "አሚኤል ካስቶሪያኖ"
+ },
+ {
+  "key": "candidates|shas:110|display_name",
+  "he": "מיכאל דוידוב",
+  "value": "ሚካኤል ዳቪዶቭ"
+ },
+ {
+  "key": "candidates|shas:110|official_name",
+  "he": "דוידוב מיכאל",
+  "value": "ሚካኤል ዳቪዶቭ"
+ },
+ {
+  "key": "candidates|shas:111|display_name",
+  "he": "אברהם נגר",
+  "value": "አብርሃም ናጋር"
+ },
+ {
+  "key": "candidates|shas:111|official_name",
+  "he": "נגר אברהם",
+  "value": "አብርሃም ናጋር"
+ },
+ {
+  "key": "candidates|shas:112|display_name",
+  "he": "דוד אברקי",
+  "value": "ዳዊት አቫርኪ"
+ },
+ {
+  "key": "candidates|shas:112|official_name",
+  "he": "אברקי דוד",
+  "value": "ዳዊት አቫርኪ"
+ },
+ {
+  "key": "candidates|shas:113|display_name",
+  "he": "מיכאל יניב",
+  "value": "ሚካኤል ያኒቭ"
+ },
+ {
+  "key": "candidates|shas:113|official_name",
+  "he": "יניב מיכאל",
+  "value": "ሚካኤል ያኒቭ"
+ },
+ {
+  "key": "candidates|shas:114|display_name",
+  "he": "כהן אהרן מרדכי",
+  "value": "አሮን ሞርደኻይ ኮሄን"
+ },
+ {
+  "key": "candidates|shas:115|display_name",
+  "he": "עדן בן-שטרית",
+  "value": "ኤደን ቤን-ሽትሪት"
+ },
+ {
+  "key": "candidates|shas:115|official_name",
+  "he": "בן-שטרית עדן",
+  "value": "ኤደን ቤን-ሽትሪት"
+ },
+ {
+  "key": "candidates|shas:116|display_name",
+  "he": "שלמה פרץ",
+  "value": "ሽሎሞ ፔሬዝ"
+ },
+ {
+  "key": "candidates|shas:116|official_name",
+  "he": "פרץ שלמה",
+  "value": "ሽሎሞ ፔሬዝ"
+ },
+ {
+  "key": "candidates|shas:117|display_name",
+  "he": "איציק חוגי",
+  "value": "ኢጽሃቅ ሆጊ"
+ },
+ {
+  "key": "candidates|shas:117|official_name",
+  "he": "חוגי איציק",
+  "value": "ኢጽሃቅ ሆጊ"
+ },
+ {
+  "key": "candidates|shas:118|display_name",
+  "he": "חגי אביטל",
+  "value": "ሃጊ አቪታል"
+ },
+ {
+  "key": "candidates|shas:118|official_name",
+  "he": "אביטל חגי",
+  "value": "ሃጊ አቪታል"
+ },
+ {
+  "key": "candidates|shas:119|display_name",
+  "he": "שמואל חזן",
+  "value": "ሳሙኤል ሃዛን"
+ },
+ {
+  "key": "candidates|shas:119|official_name",
+  "he": "חזן שמואל",
+  "value": "ሳሙኤል ሃዛን"
+ },
+ {
+  "key": "candidates|shas:120|display_name",
+  "he": "יעקב מרגי",
+  "value": "ያዕቆብ ማርጊ"
+ },
+ {
+  "key": "candidates|shas:120|official_name",
+  "he": "מרגי יעקב",
+  "value": "ያዕቆብ ማርጊ"
+ },
+ {
+  "key": "candidates|shma:1|display_name",
+  "he": "גולדמן נפתלי בורוך",
+  "value": "ናፍታሊ ባሩክ ጎልድማን"
+ },
+ {
+  "key": "candidates|tkuma:1|display_name",
+  "he": "אלקנא פדרמן",
+  "value": "ኤልካና ፌደርማን"
+ },
+ {
+  "key": "candidates|tkuma:1|official_name",
+  "he": "פדרמן אלקנא",
+  "value": "ኤልካና ፌደርማን"
+ },
+ {
+  "key": "candidates|tkuma:2|display_name",
+  "he": "לוטם נגר",
+  "value": "ሎቴም ናጋር"
+ },
+ {
+  "key": "candidates|tkuma:2|official_name",
+  "he": "נגר לוטם",
+  "value": "ሎቴም ናጋር"
+ },
+ {
+  "key": "candidates|tkuma:3|display_name",
+  "he": "שירה כהן",
+  "value": "ሺራ ኮሄን"
+ },
+ {
+  "key": "candidates|tkuma:3|official_name",
+  "he": "כהן שירה",
+  "value": "ሺራ ኮሄን"
+ },
+ {
+  "key": "candidates|tkuma:4|display_name",
+  "he": "מרים אברהם",
+  "value": "ሚርያም አብርሃም"
+ },
+ {
+  "key": "candidates|tkuma:4|official_name",
+  "he": "אברהם מרים",
+  "value": "ሚርያም አብርሃም"
+ },
+ {
+  "key": "candidates|tkuma:5|display_name",
+  "he": "פרץ חיימוביץ' ליאנה מירלה",
+  "value": "ሊያና ሚርላ ፔሬዝ ሃይሞቪች"
+ },
+ {
+  "key": "candidates|tkuma:6|display_name",
+  "he": "נחמן לוי",
+  "value": "ናሕማን ሌቪ"
+ },
+ {
+  "key": "candidates|tkuma:6|official_name",
+  "he": "לוי נחמן",
+  "value": "ናሕማን ሌቪ"
+ },
+ {
+  "key": "candidates|tkuma:7|display_name",
+  "he": "דוד יאבא",
+  "value": "ዳዊት ያባ"
+ },
+ {
+  "key": "candidates|tkuma:7|official_name",
+  "he": "יאבא דוד",
+  "value": "ዳዊት ያባ"
+ },
+ {
+  "key": "candidates|tkuma:8|display_name",
+  "he": "נעמה נהרי",
+  "value": "ናአማ ናሃሪ"
+ },
+ {
+  "key": "candidates|tkuma:8|official_name",
+  "he": "נהרי נעמה",
+  "value": "ናአማ ናሃሪ"
+ },
+ {
+  "key": "candidates|tkuma:9|display_name",
+  "he": "נמרוד ארנין",
+  "value": "ኒምሮድ አርኒን"
+ },
+ {
+  "key": "candidates|tkuma:9|official_name",
+  "he": "ארנין נמרוד",
+  "value": "ኒምሮድ አርኒን"
+ },
+ {
+  "key": "candidates|tkuma:10|display_name",
+  "he": "איתן צדוק",
+  "value": "ኢታን ጽዶክ"
+ },
+ {
+  "key": "candidates|tkuma:10|official_name",
+  "he": "צדוק איתן",
+  "value": "ኢታን ጽዶክ"
+ },
+ {
+  "key": "candidates|tkuma:11|display_name",
+  "he": "ינאי אליהו",
+  "value": "ያናይ ኤሊያሁ"
+ },
+ {
+  "key": "candidates|tkuma:11|official_name",
+  "he": "אליהו ינאי",
+  "value": "ያናይ ኤሊያሁ"
+ },
+ {
+  "key": "candidates|tkuma:12|display_name",
+  "he": "שמואל רמתי",
+  "value": "ሳሙኤል ራማቲ"
+ },
+ {
+  "key": "candidates|tkuma:12|official_name",
+  "he": "רמתי שמואל",
+  "value": "ሳሙኤል ራማቲ"
+ },
+ {
+  "key": "candidates|tkuma:13|display_name",
+  "he": "סויסה דור דניאל חיים",
+  "value": "ዶር ዳንኤል ሃይም ሱሳ"
+ },
+ {
+  "key": "candidates|together:1|display_name",
+  "he": "נפתלי בנט",
+  "value": "ናፍታሊ ቤኔት"
+ },
+ {
+  "key": "candidates|together:1|official_name",
+  "he": "בנט נפתלי",
+  "value": "ናፍታሊ ቤኔት"
+ },
+ {
+  "key": "candidates|together:2|display_name",
+  "he": "יאיר לפיד",
+  "value": "ያኢር ላፒድ"
+ },
+ {
+  "key": "candidates|together:2|official_name",
+  "he": "לפיד יאיר",
+  "value": "ያኢር ላፒድ"
+ },
+ {
+  "key": "candidates|together:3|display_name",
+  "he": "קרן טרנר",
+  "value": "ኬረን ተርነር"
+ },
+ {
+  "key": "candidates|together:3|official_name",
+  "he": "טרנר אייל קרן",
+  "value": "ኬረን ተርነር ኤያል"
+ },
+ {
+  "key": "candidates|together:4|display_name",
+  "he": "מירב בן ארי",
+  "value": "ሜራቭ ቤን አሪ"
+ },
+ {
+  "key": "candidates|together:4|official_name",
+  "he": "בן ארי מירב",
+  "value": "ሜራቭ ቤን አሪ"
+ },
+ {
+  "key": "candidates|together:5|display_name",
+  "he": "לירן אבישר בן-חורין",
+  "value": "ሊራን አቪሻር ቤን-ሆሪን"
+ },
+ {
+  "key": "candidates|together:5|official_name",
+  "he": "אבישר בן חורין לירן",
+  "value": "ሊራን አቪሻር ቤን-ሆሪን"
+ },
+ {
+  "key": "candidates|together:6|display_name",
+  "he": "נעם תיבון",
+  "value": "ኖአም ቲቦን"
+ },
+ {
+  "key": "candidates|together:6|official_name",
+  "he": "תיבון נעם משה",
+  "value": "ኖአም ሞሼ ቲቦን"
+ },
+ {
+  "key": "candidates|together:7|display_name",
+  "he": "מיכל הירש נגרי",
+  "value": "ሚካል ሂርሽ ናግሪ"
+ },
+ {
+  "key": "candidates|together:7|official_name",
+  "he": "הירש נגרי מיכל טליה",
+  "value": "ሚካል ታሊያ ሂርሽ ናግሪ"
+ },
+ {
+  "key": "candidates|together:8|display_name",
+  "he": "איתן גינזבורג",
+  "value": "ኢታን ጊንዝቡርግ"
+ },
+ {
+  "key": "candidates|together:8|official_name",
+  "he": "גינזבורג איתן",
+  "value": "ኢታን ጊንዝቡርግ"
+ },
+ {
+  "key": "candidates|together:9|display_name",
+  "he": "מירב כהן",
+  "value": "ሜራቭ ኮሄን"
+ },
+ {
+  "key": "candidates|together:9|official_name",
+  "he": "כהן מירב",
+  "value": "ሜራቭ ኮሄን"
+ }
+]

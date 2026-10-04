@@ -1,0 +1,752 @@
+[
+ {
+  "key": "candidates|democrats:3|official_name",
+  "he": "קריב גלעד",
+  "value": "ጊልዓድ ካሪቭ"
+ },
+ {
+  "key": "candidates|democrats:4|display_name",
+  "he": "אפרת רייטן",
+  "value": "ኤፍራት ራይተን"
+ },
+ {
+  "key": "candidates|democrats:4|official_name",
+  "he": "רייטן מרום אפרת",
+  "value": "ኤፍራት ራይተን-ሜሮም"
+ },
+ {
+  "key": "candidates|democrats:5|display_name",
+  "he": "יאיא פינק",
+  "value": "ያኢር ፒንክ"
+ },
+ {
+  "key": "candidates|democrats:5|official_name",
+  "he": "פינק יאיר",
+  "value": "ያኢር ፒንክ"
+ },
+ {
+  "key": "candidates|democrats:6|display_name",
+  "he": "גבי לסקי",
+  "value": "ጋቢ ላስኪ"
+ },
+ {
+  "key": "candidates|democrats:6|official_name",
+  "he": "לסקי שוץ גבריאלה",
+  "value": "ገብሪኤላ ላስኪ-ሹትዝ"
+ },
+ {
+  "key": "candidates|democrats:7|display_name",
+  "he": "עמרי רונן",
+  "value": "ዖምሪ ሮነን"
+ },
+ {
+  "key": "candidates|democrats:7|official_name",
+  "he": "רונן עמרי",
+  "value": "ዖምሪ ሮነን"
+ },
+ {
+  "key": "candidates|democrats:8|display_name",
+  "he": "מיכל רוזין",
+  "value": "ሚካል ሮዚን"
+ },
+ {
+  "key": "candidates|democrats:8|official_name",
+  "he": "רוזין מיכל",
+  "value": "ሚካል ሮዚን"
+ },
+ {
+  "key": "candidates|democrats:9|display_name",
+  "he": "משה רדמן",
+  "value": "ሞሼ ሬድማን"
+ },
+ {
+  "key": "candidates|democrats:9|official_name",
+  "he": "רדמן משה",
+  "value": "ሞሼ ሬድማን"
+ },
+ {
+  "key": "candidates|democrats:10|display_name",
+  "he": "סומיה בשיר",
+  "value": "ሱምያ በሺር"
+ },
+ {
+  "key": "candidates|democrats:10|official_name",
+  "he": "בשיר סומייה",
+  "value": "ሱምያ በሺር"
+ },
+ {
+  "key": "candidates|democrats:11|display_name",
+  "he": "נמרוד שפר",
+  "value": "ኒምሮድ ሼፈር"
+ },
+ {
+  "key": "candidates|democrats:11|official_name",
+  "he": "שפר נמרוד",
+  "value": "ኒምሮድ ሼፈር"
+ },
+ {
+  "key": "candidates|democrats:12|display_name",
+  "he": "מורן זר קצנשטיין",
+  "value": "ሞራን ዛር ካትዘንሽታይን"
+ },
+ {
+  "key": "candidates|democrats:12|official_name",
+  "he": "זר קצנשטיין מורן",
+  "value": "ሞራን ዛር ካትዘንሽታይን"
+ },
+ {
+  "key": "candidates|democrats:13|display_name",
+  "he": "אבי דבוש",
+  "value": "አቪ ዳቡሽ"
+ },
+ {
+  "key": "candidates|democrats:13|official_name",
+  "he": "דאבוש אבי",
+  "value": "አቪ ዳቡሽ"
+ },
+ {
+  "key": "candidates|democrats:14|display_name",
+  "he": "אמילי מואטי",
+  "value": "ኤሚሊ ሞአቲ"
+ },
+ {
+  "key": "candidates|democrats:14|official_name",
+  "he": "מואטי אמילי חיה",
+  "value": "ኤሚሊ ሐያ ሞአቲ"
+ },
+ {
+  "key": "candidates|democrats:15|display_name",
+  "he": "תומר אביטל",
+  "value": "ቶመር አቪታል"
+ },
+ {
+  "key": "candidates|democrats:15|official_name",
+  "he": "אביטל תומר",
+  "value": "ቶመር አቪታል"
+ },
+ {
+  "key": "candidates|democrats:16|display_name",
+  "he": "רוזוליו נאווה חיה",
+  "value": "ናዋ ሐያ ሮዞሊዮ"
+ },
+ {
+  "key": "candidates|democrats:17|display_name",
+  "he": "רם שפע",
+  "value": "ራም ሻፋ"
+ },
+ {
+  "key": "candidates|democrats:17|official_name",
+  "he": "שפע רם",
+  "value": "ራም ሻፋ"
+ },
+ {
+  "key": "candidates|democrats:18|display_name",
+  "he": "עלי סלאלחה",
+  "value": "ዓሊ ሳላልሃ"
+ },
+ {
+  "key": "candidates|democrats:18|official_name",
+  "he": "סלאלחה עלי",
+  "value": "ዓሊ ሳላልሃ"
+ },
+ {
+  "key": "candidates|democrats:19|display_name",
+  "he": "רתם סיון",
+  "value": "ሮተም ሲቫን"
+ },
+ {
+  "key": "candidates|democrats:19|official_name",
+  "he": "סיון הופמן רתם",
+  "value": "ሮተም ሲቫን ሆፍማን"
+ },
+ {
+  "key": "candidates|democrats:20|display_name",
+  "he": "ערן עציון",
+  "value": "ዔራን ኤጽዮን"
+ },
+ {
+  "key": "candidates|democrats:20|official_name",
+  "he": "עציון ערן",
+  "value": "ዔራን ኤጽዮን"
+ },
+ {
+  "key": "candidates|democrats:21|display_name",
+  "he": "מורן מישל",
+  "value": "ሞራን ሚሼል"
+ },
+ {
+  "key": "candidates|democrats:21|official_name",
+  "he": "מישל מורן",
+  "value": "ሞራን ሚሼል"
+ },
+ {
+  "key": "candidates|democrats:22|display_name",
+  "he": "מוסי רז",
+  "value": "ሙሲ ራዝ"
+ },
+ {
+  "key": "candidates|democrats:22|official_name",
+  "he": "רז מוסי",
+  "value": "ሙሲ ራዝ"
+ },
+ {
+  "key": "candidates|democrats:23|display_name",
+  "he": "גאלב סלאמנה",
+  "value": "ጋሊብ ሰላማ"
+ },
+ {
+  "key": "candidates|democrats:23|official_name",
+  "he": "סלאמנה גאלב",
+  "value": "ጋሊብ ሰላማ"
+ },
+ {
+  "key": "candidates|democrats:24|display_name",
+  "he": "פיאסצקי מורג קטי",
+  "value": "ኬቲ ሞርግ ፒያሴትስኪ"
+ },
+ {
+  "key": "candidates|democrats:25|display_name",
+  "he": "אמיר ח'ניפס",
+  "value": "አሚር ኽኒፍስ"
+ },
+ {
+  "key": "candidates|democrats:25|official_name",
+  "he": "ח'ניפס אמיר",
+  "value": "አሚር ኽኒፍስ"
+ },
+ {
+  "key": "candidates|democrats:26|display_name",
+  "he": "ברוך רון מהרטה",
+  "value": "ሮን ማሃርታ ባሩክ"
+ },
+ {
+  "key": "candidates|democrats:27|display_name",
+  "he": "עאיד בדיר",
+  "value": "ዓይድ በዲር"
+ },
+ {
+  "key": "candidates|democrats:27|official_name",
+  "he": "בדיר עאיד",
+  "value": "ዓይድ በዲር"
+ },
+ {
+  "key": "candidates|democrats:28|display_name",
+  "he": "חן אריאלי",
+  "value": "ኼን አሪኤሊ"
+ },
+ {
+  "key": "candidates|democrats:28|official_name",
+  "he": "אריאלי חן",
+  "value": "ኼን አሪኤሊ"
+ },
+ {
+  "key": "candidates|democrats:29|display_name",
+  "he": "גיל ביילין",
+  "value": "ጊል በይሊን"
+ },
+ {
+  "key": "candidates|democrats:29|official_name",
+  "he": "ביילין גיל",
+  "value": "ጊል በይሊን"
+ },
+ {
+  "key": "candidates|democrats:30|display_name",
+  "he": "כהן פארן יעל",
+  "value": "ያኤል ኮኸን ፓራን"
+ },
+ {
+  "key": "candidates|democrats:31|display_name",
+  "he": "ניסן ערן שלמה",
+  "value": "ሽሎሞ ዔራን ኒሳን"
+ },
+ {
+  "key": "candidates|democrats:32|display_name",
+  "he": "הדס רגולסקי",
+  "value": "ሃዳስ ሬጉሌስኪ"
+ },
+ {
+  "key": "candidates|democrats:32|official_name",
+  "he": "רגולסקי הדס",
+  "value": "ሃዳስ ሬጉሌስኪ"
+ },
+ {
+  "key": "candidates|democrats:33|display_name",
+  "he": "אביתר באר",
+  "value": "አቪታር በር"
+ },
+ {
+  "key": "candidates|democrats:33|official_name",
+  "he": "באר אביתר",
+  "value": "አቪታር በር"
+ },
+ {
+  "key": "candidates|democrats:34|display_name",
+  "he": "וורטמן שהם ענבל",
+  "value": "ዓንባል ሻሃም ዎርትማን"
+ },
+ {
+  "key": "candidates|democrats:35|display_name",
+  "he": "מיניץ' בנימין דניאל",
+  "value": "ቢንያሚን ዳኒኤል ሚኒትስ"
+ },
+ {
+  "key": "candidates|democrats:36|display_name",
+  "he": "הופמן אגיב לי",
+  "value": "ሊ አጊቭ ሆፍማን"
+ },
+ {
+  "key": "candidates|democrats:37|display_name",
+  "he": "ירון ניב",
+  "value": "ይሮን ኒቭ"
+ },
+ {
+  "key": "candidates|democrats:37|official_name",
+  "he": "ניב ירון",
+  "value": "ይሮን ኒቭ"
+ },
+ {
+  "key": "candidates|democrats:38|display_name",
+  "he": "אליס גולדמן",
+  "value": "አሊስ ጎልድማን"
+ },
+ {
+  "key": "candidates|democrats:38|official_name",
+  "he": "גולדמן אליס",
+  "value": "አሊስ ጎልድማን"
+ },
+ {
+  "key": "candidates|democrats:39|display_name",
+  "he": "יואב אגמי",
+  "value": "ዮአቭ አጋሚ"
+ },
+ {
+  "key": "candidates|democrats:39|official_name",
+  "he": "אגמי יואב",
+  "value": "ዮአቭ አጋሚ"
+ },
+ {
+  "key": "candidates|democrats:40|display_name",
+  "he": "אבישי ליכטנשטיין",
+  "value": "አቪሻይ ሊክተንሽታይን"
+ },
+ {
+  "key": "candidates|democrats:40|official_name",
+  "he": "ליכטנשטיין אבישי",
+  "value": "አቪሻይ ሊክተንሽታይን"
+ },
+ {
+  "key": "candidates|democrats:41|display_name",
+  "he": "דה לם אולביה עמנואל",
+  "value": "ኢማኑኤል ኦልቪያ ደ ላም"
+ },
+ {
+  "key": "candidates|democrats:42|display_name",
+  "he": "בן שאול ישראל צבי",
+  "value": "ይስራኤል ጽቪ ቤን ሻኡል"
+ },
+ {
+  "key": "candidates|democrats:43|display_name",
+  "he": "עומר לובטון-גרנות",
+  "value": "ዖመር ሎቦቶን-ግራኖት"
+ },
+ {
+  "key": "candidates|democrats:43|official_name",
+  "he": "לובטון-גרנות עומר",
+  "value": "ዖመር ሎቦቶን-ግራኖት"
+ },
+ {
+  "key": "candidates|democrats:44|display_name",
+  "he": "ייגר זלינגר הדס",
+  "value": "ሃዳስ ያገር ዘሊንገር"
+ },
+ {
+  "key": "candidates|democrats:45|display_name",
+  "he": "הגר ראובני",
+  "value": "ሃጋር ሬዑቪኒ"
+ },
+ {
+  "key": "candidates|democrats:45|official_name",
+  "he": "ראובני הגר",
+  "value": "ሃጋር ሬዑቪኒ"
+ },
+ {
+  "key": "candidates|democrats:46|display_name",
+  "he": "גיל און יהודית",
+  "value": "የሁዲት ጊል ኦን"
+ },
+ {
+  "key": "candidates|democrats:47|display_name",
+  "he": "נבו אביטבול טל",
+  "value": "ጣል ናቮ አቪታቦል"
+ },
+ {
+  "key": "candidates|democrats:48|display_name",
+  "he": "סימון אלפסי",
+  "value": "ሲሞን አልፋሲ"
+ },
+ {
+  "key": "candidates|democrats:48|official_name",
+  "he": "אלפסי סימון",
+  "value": "ሲሞን አልፋሲ"
+ },
+ {
+  "key": "candidates|democrats:49|display_name",
+  "he": "תומר רזניק",
+  "value": "ቶመር ረዝኒክ"
+ },
+ {
+  "key": "candidates|democrats:49|official_name",
+  "he": "רזניק תומר",
+  "value": "ቶመር ረዝኒክ"
+ },
+ {
+  "key": "candidates|democrats:50|display_name",
+  "he": "דגן לוין",
+  "value": "ዳጋን ሌቪን"
+ },
+ {
+  "key": "candidates|democrats:50|official_name",
+  "he": "לוין דגן",
+  "value": "ዳጋን ሌቪን"
+ },
+ {
+  "key": "candidates|democrats:51|display_name",
+  "he": "חוסקוביץ סילביו גבריאל",
+  "value": "ሲልቪዮ ገብርኤል ሆስኮቪትስ"
+ },
+ {
+  "key": "candidates|democrats:52|display_name",
+  "he": "מורג דרור איש שלום",
+  "value": "ሞርግ ድሮር ኢሽ ሻሎም"
+ },
+ {
+  "key": "candidates|democrats:53|display_name",
+  "he": "חיה כהן",
+  "value": "ሐያ ኮኸን"
+ },
+ {
+  "key": "candidates|democrats:53|official_name",
+  "he": "כהן חיה",
+  "value": "ሐያ ኮኸን"
+ },
+ {
+  "key": "candidates|democrats:54|display_name",
+  "he": "ביטי (שלוח) אורלי",
+  "value": "ኦርሊ ቢቲ (ሸሉሕ)"
+ },
+ {
+  "key": "candidates|democrats:55|display_name",
+  "he": "נורי שקד מאיה",
+  "value": "ማያ ኑሪ ሻኬድ"
+ },
+ {
+  "key": "candidates|democrats:56|display_name",
+  "he": "בן יהודה ערן",
+  "value": "ዔራን ቤን የሁዳ"
+ },
+ {
+  "key": "candidates|democrats:57|display_name",
+  "he": "רועי ברזילי",
+  "value": "ሮዒ ባርዚላይ"
+ },
+ {
+  "key": "candidates|democrats:57|official_name",
+  "he": "ברזילי רועי",
+  "value": "ሮዒ ባርዚላይ"
+ },
+ {
+  "key": "candidates|democrats:58|display_name",
+  "he": "אברהם פרדס",
+  "value": "አብርሃም ፓርዴስ"
+ },
+ {
+  "key": "candidates|democrats:58|official_name",
+  "he": "פרדס אברהם",
+  "value": "አብርሃም ፓርዴስ"
+ },
+ {
+  "key": "candidates|democrats:59|display_name",
+  "he": "זועבי עבד אלכרים",
+  "value": "ዐብድ አል-ከሪም ዛዕቢ"
+ },
+ {
+  "key": "candidates|democrats:60|display_name",
+  "he": "נגה בוטנסקי",
+  "value": "ኖጋ ቡተንስኪ"
+ },
+ {
+  "key": "candidates|democrats:60|official_name",
+  "he": "בוטנסקי נגה",
+  "value": "ኖጋ ቡተንስኪ"
+ },
+ {
+  "key": "candidates|democrats:61|display_name",
+  "he": "שאנה אורליק",
+  "value": "ሻና ኦርሊክ"
+ },
+ {
+  "key": "candidates|democrats:61|official_name",
+  "he": "אורליק שאנה",
+  "value": "ሻና ኦርሊክ"
+ },
+ {
+  "key": "candidates|democrats:62|display_name",
+  "he": "בונה רות מלכה",
+  "value": "ሩት ማልካ ቦና"
+ },
+ {
+  "key": "candidates|democrats:63|display_name",
+  "he": "יובל שוורץ",
+  "value": "ዩቫል ሽዋርትዝ"
+ },
+ {
+  "key": "candidates|democrats:63|official_name",
+  "he": "שוורץ יובל",
+  "value": "ዩቫል ሽዋርትዝ"
+ },
+ {
+  "key": "candidates|democrats:64|display_name",
+  "he": "אבו ריאש פרחאן",
+  "value": "ፈርሓን አቡ ሪያሽ"
+ },
+ {
+  "key": "candidates|democrats:65|display_name",
+  "he": "בן דוד גל",
+  "value": "ጋል ቤን ዳዊት"
+ },
+ {
+  "key": "candidates|democrats:66|display_name",
+  "he": "הדס זאנגי",
+  "value": "ሃዳስ ዛንጊ"
+ },
+ {
+  "key": "candidates|democrats:66|official_name",
+  "he": "זאנגי הדס",
+  "value": "ሃዳስ ዛንጊ"
+ },
+ {
+  "key": "candidates|democrats:67|display_name",
+  "he": "מירב ברקאי",
+  "value": "ሜራቭ በርካይ"
+ },
+ {
+  "key": "candidates|democrats:67|official_name",
+  "he": "ברקאי מירב",
+  "value": "ሜራቭ በርካይ"
+ },
+ {
+  "key": "candidates|democrats:68|display_name",
+  "he": "זקהיים גראוס אסתי",
+  "value": "አስቲ ዛኬሃይም ግራውስ"
+ },
+ {
+  "key": "candidates|democrats:69|display_name",
+  "he": "יוסף אפרתי",
+  "value": "ዮሴፍ ኤፍራቲ"
+ },
+ {
+  "key": "candidates|democrats:69|official_name",
+  "he": "אפרתי יוסף",
+  "value": "ዮሴፍ ኤፍራቲ"
+ },
+ {
+  "key": "candidates|democrats:70|display_name",
+  "he": "ניקולא מסעד",
+  "value": "ኒኮላ መሰዕድ"
+ },
+ {
+  "key": "candidates|democrats:70|official_name",
+  "he": "מסעד ניקולא",
+  "value": "ኒኮላ መሰዕድ"
+ },
+ {
+  "key": "candidates|democrats:71|display_name",
+  "he": "לימור לוינשטין",
+  "value": "ሊሞር ሌዊንሽታይን"
+ },
+ {
+  "key": "candidates|democrats:71|official_name",
+  "he": "לוינשטין לימור",
+  "value": "ሊሞር ሌዊንሽታይን"
+ },
+ {
+  "key": "candidates|democrats:72|display_name",
+  "he": "טל פאנץ",
+  "value": "ጣል ፓንትዝ"
+ },
+ {
+  "key": "candidates|democrats:72|official_name",
+  "he": "פאנץ טל",
+  "value": "ጣል ፓንትዝ"
+ },
+ {
+  "key": "candidates|democrats:73|display_name",
+  "he": "אורית מרנדה",
+  "value": "ኦሪት ሚራንዳ"
+ },
+ {
+  "key": "candidates|democrats:73|official_name",
+  "he": "מרנדה אורית",
+  "value": "ኦሪት ሚራንዳ"
+ },
+ {
+  "key": "candidates|democrats:74|display_name",
+  "he": "מגי סלע-וגר",
+  "value": "ማጊ ሳላ-ቮገር"
+ },
+ {
+  "key": "candidates|democrats:74|official_name",
+  "he": "סלע-וגר מגי",
+  "value": "ማጊ ሳላ-ቮገር"
+ },
+ {
+  "key": "candidates|democrats:75|display_name",
+  "he": "גדות זרצנסקי ירון",
+  "value": "ይሮን ጋዶት ዘርጸንስኪ"
+ },
+ {
+  "key": "candidates|democrats:76|display_name",
+  "he": "דפנה כהן",
+  "value": "ዳፍና ኮኸን"
+ },
+ {
+  "key": "candidates|democrats:76|official_name",
+  "he": "כהן דפנה",
+  "value": "ዳፍና ኮኸን"
+ },
+ {
+  "key": "candidates|democrats:77|display_name",
+  "he": "בית הלחמי חנה",
+  "value": "ሐና ቤት ሃላህሚ"
+ },
+ {
+  "key": "candidates|democrats:78|display_name",
+  "he": "כהן תניה סוניה",
+  "value": "ሶንያ ታኒያ ኮኸን"
+ },
+ {
+  "key": "candidates|democrats:79|display_name",
+  "he": "פז צמח",
+  "value": "ፓዝ ጽማሕ"
+ },
+ {
+  "key": "candidates|democrats:79|official_name",
+  "he": "צמח פז",
+  "value": "ፓዝ ጽማሕ"
+ },
+ {
+  "key": "candidates|democrats:80|display_name",
+  "he": "דניאל אזולאי",
+  "value": "ዳኒኤል አዙላይ"
+ },
+ {
+  "key": "candidates|democrats:80|official_name",
+  "he": "אזולאי דניאל",
+  "value": "ዳኒኤል አዙላይ"
+ },
+ {
+  "key": "candidates|democrats:81|display_name",
+  "he": "שרון שלום",
+  "value": "ሻሮን ሻሎም"
+ },
+ {
+  "key": "candidates|democrats:81|official_name",
+  "he": "שלום שרון",
+  "value": "ሻሮን ሻሎም"
+ },
+ {
+  "key": "candidates|democrats:82|display_name",
+  "he": "עידו מיכאלי",
+  "value": "ኢዶ ሚካኤሊ"
+ },
+ {
+  "key": "candidates|democrats:82|official_name",
+  "he": "מיכאלי עידו",
+  "value": "ኢዶ ሚካኤሊ"
+ },
+ {
+  "key": "candidates|democrats:83|display_name",
+  "he": "דקלה כהן",
+  "value": "ዳክላ ኮኸን"
+ },
+ {
+  "key": "candidates|democrats:83|official_name",
+  "he": "כהן דקלה",
+  "value": "ዳክላ ኮኸን"
+ },
+ {
+  "key": "candidates|democrats:84|display_name",
+  "he": "רועי סגמן",
+  "value": "ሮዒ ሰግማን"
+ },
+ {
+  "key": "candidates|democrats:84|official_name",
+  "he": "סגמן רועי",
+  "value": "ሮዒ ሰግማን"
+ },
+ {
+  "key": "candidates|democrats:85|display_name",
+  "he": "אבשלום פלד",
+  "value": "አብሳሎም ፔሌድ"
+ },
+ {
+  "key": "candidates|democrats:85|official_name",
+  "he": "פלד אבשלום",
+  "value": "አብሳሎም ፔሌድ"
+ },
+ {
+  "key": "candidates|democrats:86|display_name",
+  "he": "איזקוב נינה רחל",
+  "value": "ኒና ራሔል ኢዛኮቭ"
+ },
+ {
+  "key": "candidates|democrats:87|display_name",
+  "he": "צביקה ניר",
+  "value": "ጽቪካ ኒር"
+ },
+ {
+  "key": "candidates|democrats:87|official_name",
+  "he": "ניר צביקה",
+  "value": "ጽቪካ ኒር"
+ },
+ {
+  "key": "candidates|democrats:88|display_name",
+  "he": "ינאי רובינשטיין",
+  "value": "የናይ ሩቢንሽታይን"
+ },
+ {
+  "key": "candidates|democrats:88|official_name",
+  "he": "רובינשטיין ינאי",
+  "value": "የናይ ሩቢንሽታይን"
+ },
+ {
+  "key": "candidates|democrats:89|display_name",
+  "he": "דבורי אברהם מנצ'ר",
+  "value": "አብርሃም ዴቮሪ ማንጨር"
+ },
+ {
+  "key": "candidates|democrats:90|display_name",
+  "he": "יורם קנדל",
+  "value": "ዮራም ካንዴል"
+ },
+ {
+  "key": "candidates|democrats:90|official_name",
+  "he": "קנדל יורם",
+  "value": "ዮራም ካንዴል"
+ },
+ {
+  "key": "candidates|democrats:91|display_name",
+  "he": "מאשה שיינדורף",
+  "value": "ማሻ ሻይንዶርፍ"
+ },
+ {
+  "key": "candidates|democrats:91|official_name",
+  "he": "שיינדורף מאשה",
+  "value": "ማሻ ሻይንዶርፍ"
+ },
+ {
+  "key": "candidates|democrats:92|display_name",
+  "he": "לורה ורטון",
+  "value": "ላውራ ዎርተን"
+ }
+]

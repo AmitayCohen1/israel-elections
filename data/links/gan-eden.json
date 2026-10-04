@@ -1,0 +1,56 @@
+{
+  "slug": "gan-eden",
+  "researched_at": "2026-10-03",
+  "links": [
+    {
+      "url": "https://www.ganeden.org.il/",
+      "kind": "website",
+      "title": "האתר הרשמי",
+      "owner": "list",
+      "found_via": "seed website, opened",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.ganeden.org.il/platform",
+      "kind": "platform",
+      "title": "המצע",
+      "owner": "list",
+      "found_via": "seed from sources.json",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.ganeden.org.il/the-way",
+      "kind": "positions_page",
+      "title": "הדרך",
+      "owner": "list",
+      "found_via": "seed from sources.json",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.facebook.com/ganeden.org.il",
+      "kind": "facebook",
+      "title": "עמוד הפייסבוק",
+      "owner": "list",
+      "found_via": "linked from official site footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.instagram.com/GanEdenOrgil",
+      "kind": "instagram",
+      "title": "עמוד האינסטגרם",
+      "owner": "list",
+      "found_via": "linked from official site footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.youtube.com/@GanEdenorgil",
+      "kind": "youtube",
+      "title": "ערוץ היוטיוב",
+      "owner": "list",
+      "found_via": "linked from official site footer",
+      "status": "ok"
+    }
+  ],
+  "unverified": [],
+  "notes": "gov.il list page returned 403 to curl; not read. Site footer also has generic linkedin/tiktok/x icons pointing to bare domains (no account) - omitted. Facebook and Instagram pages opened and titled 'מפלגת גן עדן'."
+}

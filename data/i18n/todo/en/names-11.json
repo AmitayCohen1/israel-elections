@@ -1,0 +1,759 @@
+{
+ "locale": "en",
+ "series": "names",
+ "target_language": "English",
+ "source_language": "Hebrew",
+ "instructions": "Each item is a Hebrew NAME (person, party or list). Write how that name is conventionally written in English (Latin). Examples: Binyamin Netanyahu, Yair Lapid, Likud, Yesh Atid. Use the spelling established in English-language media (Times of Israel, Haaretz English, Wikipedia); otherwise a plain Hebrew-to-Latin transliteration (no diacritics). Do not put the Hebrew in the output. \"ctx\" is context to identify the person or party (list, slot, MK status, start of bio): use it, do not translate it. Names are given either in natural order or surname-first (official form like \"כהן יוסי\"): always output the natural given-name-first order. Party and list names: use the established English name of the party if there is one, otherwise translate the meaning (e.g. \"הציונות הדתית\" = Religious Zionism) rather than transliterate. Keep ballot-letter acronyms as they are written. Output: for every item return {\"key\": <same key>, \"value\": <your translation>}. Return ONLY a JSON array (or {\"items\":[...]}) with one entry per input item, same keys, no omissions, no extra commentary. Value must be non-empty and written in the target script; never leave Hebrew letters in it. Preserve numbers, placeholders and punctuation meaning. Save the result as data/i18n/done/<locale>/<same file name>.",
+ "items": [
+  {
+   "key": "candidates|rzp-zehut:18|official_name",
+   "he": "וישינגרד צבי",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 18"
+  },
+  {
+   "key": "candidates|rzp-zehut:19|display_name",
+   "he": "איריס ברנשטיין",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 19"
+  },
+  {
+   "key": "candidates|rzp-zehut:19|official_name",
+   "he": "ברנשטיין איריס",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 19"
+  },
+  {
+   "key": "candidates|rzp-zehut:20|display_name",
+   "he": "איתן תם",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 20"
+  },
+  {
+   "key": "candidates|rzp-zehut:20|official_name",
+   "he": "תם איתן",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 20"
+  },
+  {
+   "key": "candidates|rzp-zehut:21|display_name",
+   "he": "יהודה שוורצמן",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 21"
+  },
+  {
+   "key": "candidates|rzp-zehut:21|official_name",
+   "he": "שוורצמן יהודה",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 21"
+  },
+  {
+   "key": "candidates|rzp-zehut:22|display_name",
+   "he": "משה פלד",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 22"
+  },
+  {
+   "key": "candidates|rzp-zehut:22|official_name",
+   "he": "פלד משה",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 22"
+  },
+  {
+   "key": "candidates|rzp-zehut:23|display_name",
+   "he": "אלעד איזבוצקי",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 23"
+  },
+  {
+   "key": "candidates|rzp-zehut:23|official_name",
+   "he": "איזבוצקי אלעד",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 23"
+  },
+  {
+   "key": "candidates|rzp-zehut:24|display_name",
+   "he": "יוסף בכר",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 24"
+  },
+  {
+   "key": "candidates|rzp-zehut:24|official_name",
+   "he": "בכר יוסף",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 24"
+  },
+  {
+   "key": "candidates|rzp-zehut:25|display_name",
+   "he": "חגי גרינצייג",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 25"
+  },
+  {
+   "key": "candidates|rzp-zehut:25|official_name",
+   "he": "גרינצייג חגי",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 25"
+  },
+  {
+   "key": "candidates|rzp-zehut:26|display_name",
+   "he": "זאוברמן נתן משה",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 26"
+  },
+  {
+   "key": "candidates|rzp-zehut:27|display_name",
+   "he": "סטניסלב טובלסקי",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 27"
+  },
+  {
+   "key": "candidates|rzp-zehut:27|official_name",
+   "he": "טובלסקי סטניסלב",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 27"
+  },
+  {
+   "key": "candidates|rzp-zehut:28|display_name",
+   "he": "דיסקין אברהם חיים אלבר",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 28"
+  },
+  {
+   "key": "candidates|rzp-zehut:29|display_name",
+   "he": "לייבלר שולמית אסתר",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 29"
+  },
+  {
+   "key": "candidates|rzp-zehut:30|display_name",
+   "he": "וולדיגר מיכל מרים",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 30, חבר/ת הכנסת מכהן/ת"
+  },
+  {
+   "key": "candidates|rzp-zehut:31|display_name",
+   "he": "לייבלר אברהם שמואל",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 31"
+  },
+  {
+   "key": "candidates|rzp-zehut:32|display_name",
+   "he": "שושן יוסף חיים",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 32"
+  },
+  {
+   "key": "candidates|rzp-zehut:33|display_name",
+   "he": "אלישע מענדלסון",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 33"
+  },
+  {
+   "key": "candidates|rzp-zehut:33|official_name",
+   "he": "מענדלסון אלישע",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 33"
+  },
+  {
+   "key": "candidates|rzp-zehut:34|display_name",
+   "he": "פליקס נויבר",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 34"
+  },
+  {
+   "key": "candidates|rzp-zehut:34|official_name",
+   "he": "נויבר פליקס",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 34"
+  },
+  {
+   "key": "candidates|sharshar:1|display_name",
+   "he": "איתן שוילי",
+   "ctx": "רשימת שרשר לאהבה ולאחדות העם, מקום 1"
+  },
+  {
+   "key": "candidates|sharshar:1|official_name",
+   "he": "שוילי איתן",
+   "ctx": "רשימת שרשר לאהבה ולאחדות העם, מקום 1"
+  },
+  {
+   "key": "candidates|sharshar:2|display_name",
+   "he": "תמר שוילי",
+   "ctx": "רשימת שרשר לאהבה ולאחדות העם, מקום 2"
+  },
+  {
+   "key": "candidates|sharshar:2|official_name",
+   "he": "שוילי תמר",
+   "ctx": "רשימת שרשר לאהבה ולאחדות העם, מקום 2"
+  },
+  {
+   "key": "candidates|sharshar:3|display_name",
+   "he": "אילן אלמקייס",
+   "ctx": "רשימת שרשר לאהבה ולאחדות העם, מקום 3"
+  },
+  {
+   "key": "candidates|sharshar:3|official_name",
+   "he": "אלמקייס אילן",
+   "ctx": "רשימת שרשר לאהבה ולאחדות העם, מקום 3"
+  },
+  {
+   "key": "candidates|sharshar:4|display_name",
+   "he": "אסחר שירזי רעיה",
+   "ctx": "רשימת שרשר לאהבה ולאחדות העם, מקום 4"
+  },
+  {
+   "key": "candidates|sharshar:5|display_name",
+   "he": "היתם אשתי",
+   "ctx": "רשימת שרשר לאהבה ולאחדות העם, מקום 5"
+  },
+  {
+   "key": "candidates|sharshar:5|official_name",
+   "he": "אשתי היתם",
+   "ctx": "רשימת שרשר לאהבה ולאחדות העם, מקום 5"
+  },
+  {
+   "key": "candidates|sharshar:6|display_name",
+   "he": "מזרחי אייל דוד",
+   "ctx": "רשימת שרשר לאהבה ולאחדות העם, מקום 6"
+  },
+  {
+   "key": "candidates|sharshar:7|display_name",
+   "he": "מאיר מזלתרים",
+   "ctx": "רשימת שרשר לאהבה ולאחדות העם, מקום 7"
+  },
+  {
+   "key": "candidates|sharshar:7|official_name",
+   "he": "מזלתרים מאיר",
+   "ctx": "רשימת שרשר לאהבה ולאחדות העם, מקום 7"
+  },
+  {
+   "key": "candidates|sharshar:8|display_name",
+   "he": "שמעון ברוכים",
+   "ctx": "רשימת שרשר לאהבה ולאחדות העם, מקום 8"
+  },
+  {
+   "key": "candidates|sharshar:8|official_name",
+   "he": "ברוכים שמעון",
+   "ctx": "רשימת שרשר לאהבה ולאחדות העם, מקום 8"
+  },
+  {
+   "key": "candidates|sharshar:9|display_name",
+   "he": "ישראל אמרן",
+   "ctx": "רשימת שרשר לאהבה ולאחדות העם, מקום 9"
+  },
+  {
+   "key": "candidates|sharshar:9|official_name",
+   "he": "אמרן ישראל",
+   "ctx": "רשימת שרשר לאהבה ולאחדות העם, מקום 9"
+  },
+  {
+   "key": "candidates|sharshar:10|display_name",
+   "he": "רוזנברג ארז מאיר",
+   "ctx": "רשימת שרשר לאהבה ולאחדות העם, מקום 10"
+  },
+  {
+   "key": "candidates|sharshar:11|display_name",
+   "he": "יוגב חן",
+   "ctx": "רשימת שרשר לאהבה ולאחדות העם, מקום 11"
+  },
+  {
+   "key": "candidates|sharshar:11|official_name",
+   "he": "חן יוגב",
+   "ctx": "רשימת שרשר לאהבה ולאחדות העם, מקום 11"
+  },
+  {
+   "key": "candidates|sharshar:12|display_name",
+   "he": "מהללאל הירש",
+   "ctx": "רשימת שרשר לאהבה ולאחדות העם, מקום 12"
+  },
+  {
+   "key": "candidates|sharshar:12|official_name",
+   "he": "הירש מהללאל",
+   "ctx": "רשימת שרשר לאהבה ולאחדות העם, מקום 12"
+  },
+  {
+   "key": "candidates|shas:1|display_name",
+   "he": "אריה דרעי",
+   "ctx": "רשימת ש\"ס, מקום 1, חבר/ת הכנסת מכהן/ת — אריה מכלוף דרעי הוא פוליטיקאי ישראלי, ממייסדי מפלגת ש\"ס וחבר הכנסת מטע"
+  },
+  {
+   "key": "candidates|shas:1|official_name",
+   "he": "דרעי אריה מכלוף",
+   "ctx": "רשימת ש\"ס, מקום 1, חבר/ת הכנסת מכהן/ת — אריה מכלוף דרעי הוא פוליטיקאי ישראלי, ממייסדי מפלגת ש\"ס וחבר הכנסת מטע"
+  },
+  {
+   "key": "candidates|shas:2|display_name",
+   "he": "ינון אזולאי",
+   "ctx": "רשימת ש\"ס, מקום 2, חבר/ת הכנסת מכהן/ת — ינון אזולאי הוא חבר הכנסת מטעם מפלגת ש\"ס ויו\"ר סיעת ש\"ס."
+  },
+  {
+   "key": "candidates|shas:2|official_name",
+   "he": "אזולאי ינון",
+   "ctx": "רשימת ש\"ס, מקום 2, חבר/ת הכנסת מכהן/ת — ינון אזולאי הוא חבר הכנסת מטעם מפלגת ש\"ס ויו\"ר סיעת ש\"ס."
+  },
+  {
+   "key": "candidates|shas:3|display_name",
+   "he": "מיכאל מלכיאלי",
+   "ctx": "רשימת ש\"ס, מקום 3, חבר/ת הכנסת מכהן/ת — מיכאל משה מלכיאלי הוא חבר הכנסת מטעם מפלגת ש\"ס. כיהן כשר לשירותי דת וכ"
+  },
+  {
+   "key": "candidates|shas:3|official_name",
+   "he": "מלכיאלי מיכאל משה",
+   "ctx": "רשימת ש\"ס, מקום 3, חבר/ת הכנסת מכהן/ת — מיכאל משה מלכיאלי הוא חבר הכנסת מטעם מפלגת ש\"ס. כיהן כשר לשירותי דת וכ"
+  },
+  {
+   "key": "candidates|shas:4|display_name",
+   "he": "יואב בן-צור",
+   "ctx": "רשימת ש\"ס, מקום 4, חבר/ת הכנסת מכהן/ת — יואב בן צור הוא חבר הכנסת מטעם מפלגת ש\"ס. היה יושב ראש סיעת ש\"ס בכנסת,"
+  },
+  {
+   "key": "candidates|shas:4|official_name",
+   "he": "בן צור יואב",
+   "ctx": "רשימת ש\"ס, מקום 4, חבר/ת הכנסת מכהן/ת — יואב בן צור הוא חבר הכנסת מטעם מפלגת ש\"ס. היה יושב ראש סיעת ש\"ס בכנסת,"
+  },
+  {
+   "key": "candidates|shas:5|display_name",
+   "he": "חיים ביטון",
+   "ctx": "רשימת ש\"ס, מקום 5, חבר/ת הכנסת מכהן/ת — חיים ביטון הוא חבר הכנסת מטעם מפלגת ש\"ס ומשמש גם מנכ\"ל המפלגה. בתפקידי"
+  },
+  {
+   "key": "candidates|shas:5|official_name",
+   "he": "ביטון חיים",
+   "ctx": "רשימת ש\"ס, מקום 5, חבר/ת הכנסת מכהן/ת — חיים ביטון הוא חבר הכנסת מטעם מפלגת ש\"ס ומשמש גם מנכ\"ל המפלגה. בתפקידי"
+  },
+  {
+   "key": "candidates|shas:6|display_name",
+   "he": "דרור עמוס",
+   "ctx": "רשימת ש\"ס, מקום 6"
+  },
+  {
+   "key": "candidates|shas:6|official_name",
+   "he": "עמוס דרור דוד",
+   "ctx": "רשימת ש\"ס, מקום 6"
+  },
+  {
+   "key": "candidates|shas:7|display_name",
+   "he": "משה אבוטבול",
+   "ctx": "רשימת ש\"ס, מקום 7, חבר/ת הכנסת מכהן/ת — משה אבוטבול הוא חבר הכנסת מטעם מפלגת ש\"ס. כיהן כראש עיריית בית שמש וכס"
+  },
+  {
+   "key": "candidates|shas:7|official_name",
+   "he": "אבוטבול משה",
+   "ctx": "רשימת ש\"ס, מקום 7, חבר/ת הכנסת מכהן/ת — משה אבוטבול הוא חבר הכנסת מטעם מפלגת ש\"ס. כיהן כראש עיריית בית שמש וכס"
+  },
+  {
+   "key": "candidates|shas:8|display_name",
+   "he": "אוריאל בוסו",
+   "ctx": "רשימת ש\"ס, מקום 8, חבר/ת הכנסת מכהן/ת — אוריאל מנחם בוסו הוא פוליטיקאי חרדי, וחבר הכנסת מטעם מפלגת ש\"ס. כיהן כ"
+  },
+  {
+   "key": "candidates|shas:8|official_name",
+   "he": "בוסו אוריאל מנחם",
+   "ctx": "רשימת ש\"ס, מקום 8, חבר/ת הכנסת מכהן/ת — אוריאל מנחם בוסו הוא פוליטיקאי חרדי, וחבר הכנסת מטעם מפלגת ש\"ס. כיהן כ"
+  },
+  {
+   "key": "candidates|shas:9|display_name",
+   "he": "יוסי טייב",
+   "ctx": "רשימת ש\"ס, מקום 9, חבר/ת הכנסת מכהן/ת — יוסף טייב הוא חבר הכנסת מטעם מפלגת ש\"ס ולשעבר יו\"ר ועדת החינוך, התרבות"
+  },
+  {
+   "key": "candidates|shas:9|official_name",
+   "he": "טייב יוסף",
+   "ctx": "רשימת ש\"ס, מקום 9, חבר/ת הכנסת מכהן/ת — יוסף טייב הוא חבר הכנסת מטעם מפלגת ש\"ס ולשעבר יו\"ר ועדת החינוך, התרבות"
+  },
+  {
+   "key": "candidates|shas:10|display_name",
+   "he": "יונתן מישרקי",
+   "ctx": "רשימת ש\"ס, מקום 10, חבר/ת הכנסת מכהן/ת — יונתן מישרקי הוא חבר הכנסת מטעם מפלגת ש\"ס, המכהן כיו\"ר ועדת הבריאות של"
+  },
+  {
+   "key": "candidates|shas:10|official_name",
+   "he": "מישרקי יונתן",
+   "ctx": "רשימת ש\"ס, מקום 10, חבר/ת הכנסת מכהן/ת — יונתן מישרקי הוא חבר הכנסת מטעם מפלגת ש\"ס, המכהן כיו\"ר ועדת הבריאות של"
+  },
+  {
+   "key": "candidates|shas:11|display_name",
+   "he": "יוסי אילנתנוב",
+   "ctx": "רשימת ש\"ס, מקום 11"
+  },
+  {
+   "key": "candidates|shas:11|official_name",
+   "he": "אילנתנוב יוסי",
+   "ctx": "רשימת ש\"ס, מקום 11"
+  },
+  {
+   "key": "candidates|shas:12|display_name",
+   "he": "ארז מלול",
+   "ctx": "רשימת ש\"ס, מקום 12, חבר/ת הכנסת מכהן/ת — ארז מלול הוא פוליטיקאי ועורך דין ישראלי-חרדי, המכהן כחבר הכנסת מטעם מפ"
+  },
+  {
+   "key": "candidates|shas:12|official_name",
+   "he": "מלול ארז",
+   "ctx": "רשימת ש\"ס, מקום 12, חבר/ת הכנסת מכהן/ת — ארז מלול הוא פוליטיקאי ועורך דין ישראלי-חרדי, המכהן כחבר הכנסת מטעם מפ"
+  },
+  {
+   "key": "candidates|shas:13|display_name",
+   "he": "סימיון מושיאשוילי",
+   "ctx": "רשימת ש\"ס, מקום 13 — סימיון מושיאשוילי הוא עורך דין וחבר כנסת לשעבר מטעם מפלגת ש\"ס."
+  },
+  {
+   "key": "candidates|shas:13|official_name",
+   "he": "מושיאשוילי סימיון",
+   "ctx": "רשימת ש\"ס, מקום 13 — סימיון מושיאשוילי הוא עורך דין וחבר כנסת לשעבר מטעם מפלגת ש\"ס."
+  },
+  {
+   "key": "candidates|shas:14|display_name",
+   "he": "אוריאל כהן",
+   "ctx": "רשימת ש\"ס, מקום 14"
+  },
+  {
+   "key": "candidates|shas:14|official_name",
+   "he": "כהן אוריאל",
+   "ctx": "רשימת ש\"ס, מקום 14"
+  },
+  {
+   "key": "candidates|shas:15|display_name",
+   "he": "צדקה יעקב ישראל",
+   "ctx": "רשימת ש\"ס, מקום 15"
+  },
+  {
+   "key": "candidates|shas:16|display_name",
+   "he": "רפאל נמני",
+   "ctx": "רשימת ש\"ס, מקום 16"
+  },
+  {
+   "key": "candidates|shas:16|official_name",
+   "he": "נמני רפאל",
+   "ctx": "רשימת ש\"ס, מקום 16"
+  },
+  {
+   "key": "candidates|shas:17|display_name",
+   "he": "בן נאים משה",
+   "ctx": "רשימת ש\"ס, מקום 17"
+  },
+  {
+   "key": "candidates|shas:18|display_name",
+   "he": "רפאל ערן אביחי משיח",
+   "ctx": "רשימת ש\"ס, מקום 18"
+  },
+  {
+   "key": "candidates|shas:19|display_name",
+   "he": "אשר בנימין אריאל",
+   "ctx": "רשימת ש\"ס, מקום 19"
+  },
+  {
+   "key": "candidates|shas:20|display_name",
+   "he": "מור יוסף נתנאל",
+   "ctx": "רשימת ש\"ס, מקום 20"
+  },
+  {
+   "key": "candidates|shas:21|display_name",
+   "he": "יהודה בוטבול",
+   "ctx": "רשימת ש\"ס, מקום 21"
+  },
+  {
+   "key": "candidates|shas:21|official_name",
+   "he": "בוטבול יהודה",
+   "ctx": "רשימת ש\"ס, מקום 21"
+  },
+  {
+   "key": "candidates|shas:22|display_name",
+   "he": "קקון יוסי יוסף חיים",
+   "ctx": "רשימת ש\"ס, מקום 22"
+  },
+  {
+   "key": "candidates|shas:23|display_name",
+   "he": "אלחנן זבולון",
+   "ctx": "רשימת ש\"ס, מקום 23"
+  },
+  {
+   "key": "candidates|shas:23|official_name",
+   "he": "זבולון אלחנן",
+   "ctx": "רשימת ש\"ס, מקום 23"
+  },
+  {
+   "key": "candidates|shas:24|display_name",
+   "he": "יצחק אלמלח",
+   "ctx": "רשימת ש\"ס, מקום 24"
+  },
+  {
+   "key": "candidates|shas:24|official_name",
+   "he": "אלמלח יצחק",
+   "ctx": "רשימת ש\"ס, מקום 24"
+  },
+  {
+   "key": "candidates|shas:25|display_name",
+   "he": "נתנאל אלפלס",
+   "ctx": "רשימת ש\"ס, מקום 25"
+  },
+  {
+   "key": "candidates|shas:25|official_name",
+   "he": "אלפלס נתנאל",
+   "ctx": "רשימת ש\"ס, מקום 25"
+  },
+  {
+   "key": "candidates|shas:26|display_name",
+   "he": "אמסלם אברהם אבי",
+   "ctx": "רשימת ש\"ס, מקום 26"
+  },
+  {
+   "key": "candidates|shas:27|display_name",
+   "he": "רפאל כהן",
+   "ctx": "רשימת ש\"ס, מקום 27"
+  },
+  {
+   "key": "candidates|shas:27|official_name",
+   "he": "כהן רפאל",
+   "ctx": "רשימת ש\"ס, מקום 27"
+  },
+  {
+   "key": "candidates|shas:28|display_name",
+   "he": "אורן גבאי",
+   "ctx": "רשימת ש\"ס, מקום 28"
+  },
+  {
+   "key": "candidates|shas:28|official_name",
+   "he": "גבאי אורן",
+   "ctx": "רשימת ש\"ס, מקום 28"
+  },
+  {
+   "key": "candidates|shas:29|display_name",
+   "he": "שלמה אלחרר",
+   "ctx": "רשימת ש\"ס, מקום 29"
+  },
+  {
+   "key": "candidates|shas:29|official_name",
+   "he": "אלחרר שלמה",
+   "ctx": "רשימת ש\"ס, מקום 29"
+  },
+  {
+   "key": "candidates|shas:30|display_name",
+   "he": "חיים סברלי",
+   "ctx": "רשימת ש\"ס, מקום 30"
+  },
+  {
+   "key": "candidates|shas:30|official_name",
+   "he": "סברלי חיים",
+   "ctx": "רשימת ש\"ס, מקום 30"
+  },
+  {
+   "key": "candidates|shas:31|display_name",
+   "he": "שלמה עזרן",
+   "ctx": "רשימת ש\"ס, מקום 31"
+  },
+  {
+   "key": "candidates|shas:31|official_name",
+   "he": "עזרן שלמה",
+   "ctx": "רשימת ש\"ס, מקום 31"
+  },
+  {
+   "key": "candidates|shas:32|display_name",
+   "he": "בני סיתאלכיל",
+   "ctx": "רשימת ש\"ס, מקום 32"
+  },
+  {
+   "key": "candidates|shas:32|official_name",
+   "he": "סיתאלכיל בני",
+   "ctx": "רשימת ש\"ס, מקום 32"
+  },
+  {
+   "key": "candidates|shas:33|display_name",
+   "he": "רפאל ברנז",
+   "ctx": "רשימת ש\"ס, מקום 33"
+  },
+  {
+   "key": "candidates|shas:33|official_name",
+   "he": "ברנז רפאל",
+   "ctx": "רשימת ש\"ס, מקום 33"
+  },
+  {
+   "key": "candidates|shas:34|display_name",
+   "he": "מרציאנו יעקב דוד",
+   "ctx": "רשימת ש\"ס, מקום 34"
+  },
+  {
+   "key": "candidates|shas:35|display_name",
+   "he": "עמי ביטון",
+   "ctx": "רשימת ש\"ס, מקום 35"
+  },
+  {
+   "key": "candidates|shas:35|official_name",
+   "he": "ביטון עמי",
+   "ctx": "רשימת ש\"ס, מקום 35"
+  },
+  {
+   "key": "candidates|shas:36|display_name",
+   "he": "אשש מאור מאיר",
+   "ctx": "רשימת ש\"ס, מקום 36"
+  },
+  {
+   "key": "candidates|shas:37|display_name",
+   "he": "גדסי אלדד פנחס",
+   "ctx": "רשימת ש\"ס, מקום 37"
+  },
+  {
+   "key": "candidates|shas:38|display_name",
+   "he": "יחיאל וקנין",
+   "ctx": "רשימת ש\"ס, מקום 38"
+  },
+  {
+   "key": "candidates|shas:38|official_name",
+   "he": "וקנין יחיאל",
+   "ctx": "רשימת ש\"ס, מקום 38"
+  },
+  {
+   "key": "candidates|shas:39|display_name",
+   "he": "יגאל פרץ",
+   "ctx": "רשימת ש\"ס, מקום 39"
+  },
+  {
+   "key": "candidates|shas:39|official_name",
+   "he": "פרץ יגאל",
+   "ctx": "רשימת ש\"ס, מקום 39"
+  },
+  {
+   "key": "candidates|shas:40|display_name",
+   "he": "יניב חנו",
+   "ctx": "רשימת ש\"ס, מקום 40"
+  },
+  {
+   "key": "candidates|shas:40|official_name",
+   "he": "חנו יניב",
+   "ctx": "רשימת ש\"ס, מקום 40"
+  },
+  {
+   "key": "candidates|shas:41|display_name",
+   "he": "שלמה מלכה",
+   "ctx": "רשימת ש\"ס, מקום 41"
+  },
+  {
+   "key": "candidates|shas:41|official_name",
+   "he": "מלכה שלמה",
+   "ctx": "רשימת ש\"ס, מקום 41"
+  },
+  {
+   "key": "candidates|shas:42|display_name",
+   "he": "יעקב אדמוני",
+   "ctx": "רשימת ש\"ס, מקום 42"
+  },
+  {
+   "key": "candidates|shas:42|official_name",
+   "he": "אדמוני יעקב",
+   "ctx": "רשימת ש\"ס, מקום 42"
+  },
+  {
+   "key": "candidates|shas:43|display_name",
+   "he": "מרדכי ויזגן",
+   "ctx": "רשימת ש\"ס, מקום 43"
+  },
+  {
+   "key": "candidates|shas:43|official_name",
+   "he": "ויזגן מרדכי",
+   "ctx": "רשימת ש\"ס, מקום 43"
+  },
+  {
+   "key": "candidates|shas:44|display_name",
+   "he": "יצחק טנגי",
+   "ctx": "רשימת ש\"ס, מקום 44"
+  },
+  {
+   "key": "candidates|shas:44|official_name",
+   "he": "טנגי יצחק",
+   "ctx": "רשימת ש\"ס, מקום 44"
+  },
+  {
+   "key": "candidates|shas:45|display_name",
+   "he": "סויונוב שלמה זלמן",
+   "ctx": "רשימת ש\"ס, מקום 45"
+  },
+  {
+   "key": "candidates|shas:46|display_name",
+   "he": "אשרם יגאל כלפו",
+   "ctx": "רשימת ש\"ס, מקום 46"
+  },
+  {
+   "key": "candidates|shas:47|display_name",
+   "he": "בצלאל דוד",
+   "ctx": "רשימת ש\"ס, מקום 47"
+  },
+  {
+   "key": "candidates|shas:47|official_name",
+   "he": "דוד בצלאל",
+   "ctx": "רשימת ש\"ס, מקום 47"
+  },
+  {
+   "key": "candidates|shas:48|display_name",
+   "he": "שושן אליהו דוד",
+   "ctx": "רשימת ש\"ס, מקום 48"
+  },
+  {
+   "key": "candidates|shas:49|display_name",
+   "he": "נפתלי כהן",
+   "ctx": "רשימת ש\"ס, מקום 49"
+  },
+  {
+   "key": "candidates|shas:49|official_name",
+   "he": "כהן נפתלי",
+   "ctx": "רשימת ש\"ס, מקום 49"
+  },
+  {
+   "key": "candidates|shas:50|display_name",
+   "he": "יחיאל צרויה",
+   "ctx": "רשימת ש\"ס, מקום 50"
+  },
+  {
+   "key": "candidates|shas:50|official_name",
+   "he": "צרויה יחיאל",
+   "ctx": "רשימת ש\"ס, מקום 50"
+  },
+  {
+   "key": "candidates|shas:51|display_name",
+   "he": "חיים אמרון",
+   "ctx": "רשימת ש\"ס, מקום 51"
+  },
+  {
+   "key": "candidates|shas:51|official_name",
+   "he": "אמרון חיים",
+   "ctx": "רשימת ש\"ס, מקום 51"
+  },
+  {
+   "key": "candidates|shas:52|display_name",
+   "he": "שמואל מרציאנו",
+   "ctx": "רשימת ש\"ס, מקום 52"
+  },
+  {
+   "key": "candidates|shas:52|official_name",
+   "he": "מרציאנו שמואל",
+   "ctx": "רשימת ש\"ס, מקום 52"
+  },
+  {
+   "key": "candidates|shas:53|display_name",
+   "he": "צבי אסולין",
+   "ctx": "רשימת ש\"ס, מקום 53"
+  },
+  {
+   "key": "candidates|shas:53|official_name",
+   "he": "אסולין צבי",
+   "ctx": "רשימת ש\"ס, מקום 53"
+  },
+  {
+   "key": "candidates|shas:54|display_name",
+   "he": "גולן אריאל יקותיאל",
+   "ctx": "רשימת ש\"ס, מקום 54"
+  },
+  {
+   "key": "candidates|shas:55|display_name",
+   "he": "מועלם יוסף חיים",
+   "ctx": "רשימת ש\"ס, מקום 55"
+  },
+  {
+   "key": "candidates|shas:56|display_name",
+   "he": "טל מתתיהו",
+   "ctx": "רשימת ש\"ס, מקום 56"
+  },
+  {
+   "key": "candidates|shas:56|official_name",
+   "he": "מתתיהו טל",
+   "ctx": "רשימת ש\"ס, מקום 56"
+  },
+  {
+   "key": "candidates|shas:57|display_name",
+   "he": "כפיר עובדיה",
+   "ctx": "רשימת ש\"ס, מקום 57"
+  },
+  {
+   "key": "candidates|shas:57|official_name",
+   "he": "עובדיה כפיר",
+   "ctx": "רשימת ש\"ס, מקום 57"
+  },
+  {
+   "key": "candidates|shas:58|display_name",
+   "he": "אלי אנקונינה",
+   "ctx": "רשימת ש\"ס, מקום 58"
+  },
+  {
+   "key": "candidates|shas:58|official_name",
+   "he": "אנקונינה אלי",
+   "ctx": "רשימת ש\"ס, מקום 58"
+  },
+  {
+   "key": "candidates|shas:59|display_name",
+   "he": "יוסף אוקנין",
+   "ctx": "רשימת ש\"ס, מקום 59"
+  }
+ ]
+}

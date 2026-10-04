@@ -1,0 +1,80 @@
+{
+  "slug": "rzp-zehut",
+  "researched_at": "2026-10-03",
+  "links": [
+    {
+      "url": "https://zionutdatit.org.il/",
+      "kind": "website",
+      "title": "האתר הרשמי",
+      "owner": "list",
+      "found_via": "seed; opened",
+      "status": "ok"
+    },
+    {
+      "url": "https://zionutdatit.org.il/מצע-המפלגה/",
+      "kind": "platform",
+      "title": "מצע המפלגה",
+      "owner": "list",
+      "found_via": "seed in sources.json",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.facebook.com/ichoodLeumi.shetach",
+      "kind": "facebook",
+      "title": "עמוד הפייסבוק",
+      "owner": "list",
+      "found_via": "linked from official site footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.instagram.com/zionut_datit/",
+      "kind": "instagram",
+      "title": "אינסטגרם",
+      "owner": "list",
+      "found_via": "linked from official site footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.youtube.com/channel/UC1QHfeNY0Z2pLsHZBg4SH_w/videos",
+      "kind": "youtube",
+      "title": "ערוץ היוטיוב",
+      "owner": "list",
+      "found_via": "linked from official site footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://twitter.com/bezalelsm",
+      "kind": "leader_x",
+      "title": "חשבון X של בצלאל סמוטריץ'",
+      "owner": "בצלאל סמוטריץ'",
+      "found_via": "linked from official site footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://yes.zionutdatit.digital/",
+      "kind": "positions_page",
+      "title": "הישגים",
+      "owner": "list",
+      "found_via": "linked from official site",
+      "status": "ok"
+    },
+    {
+      "url": "https://zionutdatit.org.il/judaization/",
+      "kind": "positions_page",
+      "title": "תוכנית הנגב והגליל (יהודיזציה)",
+      "owner": "list",
+      "found_via": "linked from official site",
+      "status": "ok"
+    },
+    {
+      "url": "https://miluim.zionutdatit.digital/",
+      "kind": "positions_page",
+      "title": "תוכנית המילואים",
+      "owner": "list",
+      "found_via": "linked from official site",
+      "status": "ok"
+    }
+  ],
+  "unverified": [],
+  "notes": "Only Religious Zionism's site found; no separate Zehut (Feigin) accounts searched. gov.il 403."
+}

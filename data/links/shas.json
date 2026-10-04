@@ -1,0 +1,37 @@
+{
+  "slug": "shas",
+  "researched_at": "2026-10-03",
+  "links": [
+    {
+      "url": "https://shas.org.il/",
+      "kind": "website",
+      "title": "האתר הרשמי",
+      "owner": "list",
+      "found_via": "seed in sources.json; fetch failed (ECONNREFUSED, geo-block from abroad)",
+      "status": "unreachable"
+    },
+    {
+      "url": "https://www.knesset.tv/media/34727/%D7%9E%D7%A6%D7%A2-%D7%A9%D7%A1.pdf",
+      "kind": "platform",
+      "title": "מצע ש\"ס (PDF)",
+      "owner": "list",
+      "found_via": "provided by the site owner; opens (200, PDF)",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.knesset.tv/%D7%9E%D7%A4%D7%9C%D7%92%D7%95%D7%AA/36606/",
+      "kind": "other",
+      "title": "עמוד ש\"ס באתר כנסת TV",
+      "owner": "third-party",
+      "found_via": "provided by the site owner; opens (200)",
+      "status": "ok"
+    }
+  ],
+  "unverified": [
+    {
+      "url": "https://www.facebook.com/Shasparty",
+      "note": "Opened, page name is 'ש\"ס', but could not confirm official ownership (URL guessed, not linked from an official page)"
+    }
+  ],
+  "notes": "shas.org.il refused connections from this environment (geo-block), so footer social links could not be extracted; gov.il list page returns 403. Web search found no official social accounts. Needs re-run from Israel. Added two links supplied by the site owner (platform PDF and the party page on knesset.tv); the knesset.tv page is a third-party index, not a party-run site."
+}

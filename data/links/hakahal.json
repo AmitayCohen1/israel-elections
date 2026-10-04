@@ -1,0 +1,40 @@
+{
+  "slug": "hakahal",
+  "researched_at": "2026-10-03",
+  "links": [
+    {
+      "url": "https://hakahal.co.il/",
+      "kind": "website",
+      "title": "האתר הרשמי",
+      "owner": "list",
+      "found_via": "seed in sources.json; opened in browser, title 'מפלגת הקהל', matches party",
+      "status": "ok"
+    },
+    {
+      "url": "https://hakahal.co.il/WA",
+      "kind": "whatsapp",
+      "title": "קבוצת עדכונים בוואטסאפ (קישור הפניה באתר)",
+      "owner": "list",
+      "found_via": "linked from official site as 'לקבוצת העדכונים'; redirect target not resolved",
+      "status": "ok"
+    },
+    {
+      "url": "https://hakahal.co.il/uploads/e242ed66-777b-4577-bead-0649c844396f.pdf",
+      "kind": "press",
+      "title": "פרוטוקול ישיבת מועצת הקהל מספר 4",
+      "owner": "list",
+      "found_via": "linked from official site",
+      "status": "ok"
+    },
+    {
+      "url": "https://hakahal.co.il/uploads/735c5e1b-0a94-4b9c-90f6-735735b07614.pdf",
+      "kind": "press",
+      "title": "פרוטוקול ישיבת מועצת הקהל מספר 3",
+      "owner": "list",
+      "found_via": "linked from official site",
+      "status": "ok"
+    }
+  ],
+  "unverified": [],
+  "notes": "Site is JS-rendered; links extracted from DOM in browser. Footer has only email Info@hakahal.co.il, phone 03-313-1792, WhatsApp updates link; no other social links. Search found no social accounts."
+}

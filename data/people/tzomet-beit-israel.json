@@ -1,0 +1,73 @@
+{
+  "slug": "tzomet-beit-israel",
+  "researched_at": "2026-10-04",
+  "people": [
+    {
+      "position": 1,
+      "name": "דסטה יברקן",
+      "headline": "סגן שר לשעבר, חבר כנסת לשעבר, יו\"ר מפלגת בית ישראל",
+      "facts": [
+        {
+          "label": "שירות צבאי ולאומי",
+          "value": "שירות בגבעתי (סיירת), קצין בדרגת סרן",
+          "source_url": "https://he.wikipedia.org/wiki/גדי_יברקן"
+        },
+        {
+          "label": "כנסת",
+          "value": "חבר הכנסת ה-21 עד ה-24 (2019-2022)",
+          "source_url": "https://he.wikipedia.org/wiki/גדי_יברקן"
+        },
+        {
+          "label": "תפקידים ציבוריים",
+          "value": "סגן השר לביטחון הפנים 2020-2022",
+          "source_url": "https://he.wikipedia.org/wiki/גדי_יברקן"
+        },
+        {
+          "label": "השכלה",
+          "value": "לימודי משפטים במכללה למנהל",
+          "source_url": "https://he.wikipedia.org/wiki/גדי_יברקן"
+        }
+      ],
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "position": 2,
+      "name": "משה גרין",
+      "headline": "יו\"ר מפלגת צומת",
+      "facts": [
+        {
+          "label": "תפקידים ציבוריים",
+          "value": "יו\"ר מפלגת צומת (נוסדה ב-1983), בחבירה עם בית ישראל ב-2026",
+          "source_url": "https://www.maariv.co.il/news/politics/article-1357898"
+        }
+      ],
+      "confidence": "low",
+      "notes": "מעט מאוד פרטים נמצאו."
+    },
+    {
+      "position": 3,
+      "name": "יניב אשטמקר",
+      "headline": null,
+      "facts": [],
+      "confidence": "low",
+      "notes": "לא נמצא מידע אמין."
+    },
+    {
+      "position": 4,
+      "name": "(ללא שם ברשימה)",
+      "headline": null,
+      "facts": [],
+      "confidence": "low",
+      "notes": "אין שם בנתוני הרשימה."
+    },
+    {
+      "position": 5,
+      "name": "(ללא שם ברשימה)",
+      "headline": null,
+      "facts": [],
+      "confidence": "low",
+      "notes": "אין שם בנתוני הרשימה."
+    }
+  ]
+}

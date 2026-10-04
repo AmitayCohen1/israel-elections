@@ -1,0 +1,752 @@
+[
+ {
+  "key": "candidates|democrats:92|official_name",
+  "he": "ורטון לורה",
+  "value": "Лора Уортон"
+ },
+ {
+  "key": "candidates|democrats:93|display_name",
+  "he": "פרץ חנה שיינדל",
+  "value": "Хана Шейндл Перец"
+ },
+ {
+  "key": "candidates|democrats:94|display_name",
+  "he": "אירית פילמוס",
+  "value": "Ирит Филмус"
+ },
+ {
+  "key": "candidates|democrats:94|official_name",
+  "he": "פילמוס אירית",
+  "value": "Ирит Филмус"
+ },
+ {
+  "key": "candidates|democrats:95|display_name",
+  "he": "רוז אליגון תלמה",
+  "value": "Тельма Роз Элигон"
+ },
+ {
+  "key": "candidates|democrats:96|display_name",
+  "he": "שמואל דור",
+  "value": "Шмуэль Дор"
+ },
+ {
+  "key": "candidates|democrats:96|official_name",
+  "he": "דור שמואל",
+  "value": "Шмуэль Дор"
+ },
+ {
+  "key": "candidates|democrats:97|display_name",
+  "he": "רדאי פרנסס רות",
+  "value": "Фрэнсис Рут Радаи"
+ },
+ {
+  "key": "candidates|democrats:98|display_name",
+  "he": "דוד צוקר",
+  "value": "Давид Цукер"
+ },
+ {
+  "key": "candidates|democrats:98|official_name",
+  "he": "צוקר דוד",
+  "value": "Давид Цукер"
+ },
+ {
+  "key": "candidates|democrats:99|display_name",
+  "he": "יוסף מורציאנו",
+  "value": "Йосеф Мурсиано"
+ },
+ {
+  "key": "candidates|democrats:99|official_name",
+  "he": "מורציאנו יוסף",
+  "value": "Йосеф Мурсиано"
+ },
+ {
+  "key": "candidates|democrats:100|display_name",
+  "he": "בנימין צוייג",
+  "value": "Биньямин Цвайг"
+ },
+ {
+  "key": "candidates|democrats:100|official_name",
+  "he": "צוייג בנימין",
+  "value": "Биньямин Цвайг"
+ },
+ {
+  "key": "candidates|democrats:101|display_name",
+  "he": "יוכבד ליפשיץ",
+  "value": "Йохевед Липшиц"
+ },
+ {
+  "key": "candidates|democrats:101|official_name",
+  "he": "ליפשיץ יוכבד",
+  "value": "Йохевед Липшиц"
+ },
+ {
+  "key": "candidates|democrats:102|display_name",
+  "he": "מיכל בירן",
+  "value": "Михаль Бирон"
+ },
+ {
+  "key": "candidates|democrats:102|official_name",
+  "he": "בירן מיכל",
+  "value": "Михаль Бирон"
+ },
+ {
+  "key": "candidates|democrats:103|display_name",
+  "he": "חוסניה גבארה",
+  "value": "Хусния Джабара"
+ },
+ {
+  "key": "candidates|democrats:103|official_name",
+  "he": "גבארה חוסניה",
+  "value": "Хусния Джабара"
+ },
+ {
+  "key": "candidates|democrats:104|display_name",
+  "he": "ענת מאור",
+  "value": "Анат Маор"
+ },
+ {
+  "key": "candidates|democrats:104|official_name",
+  "he": "מאור ענת",
+  "value": "Анат Маор"
+ },
+ {
+  "key": "candidates|democrats:105|display_name",
+  "he": "מאשה לובלסקי",
+  "value": "Маша Лубельски"
+ },
+ {
+  "key": "candidates|democrats:105|official_name",
+  "he": "לובלסקי מאשה",
+  "value": "Маша Лубельски"
+ },
+ {
+  "key": "candidates|democrats:106|display_name",
+  "he": "אמירה סרטני",
+  "value": "Амира Сартани"
+ },
+ {
+  "key": "candidates|democrats:106|official_name",
+  "he": "סרטני אמירה",
+  "value": "Амира Сартани"
+ },
+ {
+  "key": "candidates|democrats:107|display_name",
+  "he": "פורז פוזמנטיר אברהם",
+  "value": "Авраам Пораз Позмантир"
+ },
+ {
+  "key": "candidates|democrats:108|display_name",
+  "he": "יוסף ביילין",
+  "value": "Йосеф Бейлин"
+ },
+ {
+  "key": "candidates|democrats:108|official_name",
+  "he": "ביילין יוסף",
+  "value": "Йосеф Бейлин"
+ },
+ {
+  "key": "candidates|democrats:109|display_name",
+  "he": "תמר זנדברג",
+  "value": "Тамар Зандберг"
+ },
+ {
+  "key": "candidates|democrats:109|official_name",
+  "he": "זנדברג תמר",
+  "value": "Тамар Зандберг"
+ },
+ {
+  "key": "candidates|democrats:110|display_name",
+  "he": "עמרם מצנע",
+  "value": "Амрам Мицна"
+ },
+ {
+  "key": "candidates|democrats:110|official_name",
+  "he": "מצנע עמרם",
+  "value": "Амрам Мицна"
+ },
+ {
+  "key": "candidates|democrats:111|display_name",
+  "he": "מיכה גולדמן",
+  "value": "Миха Гольдман"
+ },
+ {
+  "key": "candidates|democrats:111|official_name",
+  "he": "גולדמן מיכה",
+  "value": "Миха Гольдман"
+ },
+ {
+  "key": "candidates|democrats:112|display_name",
+  "he": "רן כהן",
+  "value": "Ран Коэн"
+ },
+ {
+  "key": "candidates|democrats:112|official_name",
+  "he": "כהן רן",
+  "value": "Ран Коэн"
+ },
+ {
+  "key": "candidates|democrats:113|display_name",
+  "he": "רענן כהן",
+  "value": "Раанан Коэн"
+ },
+ {
+  "key": "candidates|democrats:113|official_name",
+  "he": "כהן רענן",
+  "value": "Раанан Коэн"
+ },
+ {
+  "key": "candidates|democrats:114|display_name",
+  "he": "אבשלום וילן",
+  "value": "Авшалом Вилан"
+ },
+ {
+  "key": "candidates|democrats:114|official_name",
+  "he": "וילן אבשלום",
+  "value": "Авшалом Вилан"
+ },
+ {
+  "key": "candidates|democrats:115|display_name",
+  "he": "שמעון שיטרית",
+  "value": "Шимон Шитрит"
+ },
+ {
+  "key": "candidates|democrats:115|official_name",
+  "he": "שיטרית שמעון",
+  "value": "Шимон Шитрит"
+ },
+ {
+  "key": "candidates|democrats:116|display_name",
+  "he": "זהבה גלאון",
+  "value": "Зехава Гальон"
+ },
+ {
+  "key": "candidates|democrats:116|official_name",
+  "he": "גלאון זהבה",
+  "value": "Зехава Гальон"
+ },
+ {
+  "key": "candidates|democrats:117|display_name",
+  "he": "קולט אביטל",
+  "value": "Колет Авиталь"
+ },
+ {
+  "key": "candidates|democrats:117|official_name",
+  "he": "אביטל קולט",
+  "value": "Колет Авиталь"
+ },
+ {
+  "key": "candidates|democrats:118|display_name",
+  "he": "חיים אורון",
+  "value": "Хаим Орон"
+ },
+ {
+  "key": "candidates|democrats:118|official_name",
+  "he": "אורון חיים",
+  "value": "Хаим Орон"
+ },
+ {
+  "key": "candidates|democrats:119|display_name",
+  "he": "אפרים סנה",
+  "value": "Эфраим Сне"
+ },
+ {
+  "key": "candidates|democrats:119|official_name",
+  "he": "סנה אפרים",
+  "value": "Эфраим Сне"
+ },
+ {
+  "key": "candidates|democrats:120|display_name",
+  "he": "בר עם עוזי",
+  "value": "Узи Бар-Ам"
+ },
+ {
+  "key": "candidates|gan-eden:1|display_name",
+  "he": "בן דוד ישוע ישראל",
+  "value": "Иешуа Исраэль бен Давид"
+ },
+ {
+  "key": "candidates|gan-eden:2|display_name",
+  "he": "בן יששכר יעקב",
+  "value": "Яаков Бен-Иссахар"
+ },
+ {
+  "key": "candidates|gan-eden:3|display_name",
+  "he": "כהן יעקב ליאור",
+  "value": "Яаков Лиор Коэн"
+ },
+ {
+  "key": "candidates|gan-eden:4|display_name",
+  "he": "דה רוטשילד טליה",
+  "value": "Талия де Ротшильд"
+ },
+ {
+  "key": "candidates|gan-eden:5|display_name",
+  "he": "דוד פודברי",
+  "value": "Давид Падбери"
+ },
+ {
+  "key": "candidates|gan-eden:5|official_name",
+  "he": "פודברי דוד",
+  "value": "Давид Падбери"
+ },
+ {
+  "key": "candidates|gan-eden:6|display_name",
+  "he": "בדש רז כמוס",
+  "value": "Раз Камус Бадаш"
+ },
+ {
+  "key": "candidates|gan-eden:7|display_name",
+  "he": "מור-חיים אברהם",
+  "value": "Авраам Мор-Хаим"
+ },
+ {
+  "key": "candidates|gan-eden:7|official_name",
+  "he": "אברהם מור-חיים",
+  "value": "Авраам Мор-Хаим"
+ },
+ {
+  "key": "candidates|hakahal:1|display_name",
+  "he": "שלמה אלבוים",
+  "value": "Шломо Альбойм"
+ },
+ {
+  "key": "candidates|hakahal:1|official_name",
+  "he": "אלבוים שלמה",
+  "value": "Шломо Альбойм"
+ },
+ {
+  "key": "candidates|hakahal:2|display_name",
+  "he": "אדלר ברוך מנדל",
+  "value": "Барух Мендель Адлер"
+ },
+ {
+  "key": "candidates|hakahal:3|display_name",
+  "he": "דוד גבאי",
+  "value": "Давид Габай"
+ },
+ {
+  "key": "candidates|hakahal:3|official_name",
+  "he": "גבאי דוד",
+  "value": "Давид Габай"
+ },
+ {
+  "key": "candidates|hakahal:4|display_name",
+  "he": "קובן ידידיה צבי אמית",
+  "value": "Едидья Цви Амит Кобен"
+ },
+ {
+  "key": "candidates|hakahal:5|display_name",
+  "he": "פרידמן משה זאב",
+  "value": "Моше Зеэв Фридман"
+ },
+ {
+  "key": "candidates|hakahal:6|display_name",
+  "he": "בר לב אליסף",
+  "value": "Элисаф Бар-Лев"
+ },
+ {
+  "key": "candidates|hakahal:7|display_name",
+  "he": "צמח אלחנן יוסף",
+  "value": "Эльханан Йосеф Цемах"
+ },
+ {
+  "key": "candidates|hakahal:8|display_name",
+  "he": "יצחק הוד",
+  "value": "Ицхак Ход"
+ },
+ {
+  "key": "candidates|hakahal:8|official_name",
+  "he": "הוד יצחק",
+  "value": "Ицхак Ход"
+ },
+ {
+  "key": "candidates|haredi-public:1|display_name",
+  "he": "מוטי ליטנר",
+  "value": "Моти Литнер"
+ },
+ {
+  "key": "candidates|haredi-public:1|official_name",
+  "he": "ליטנר פנחס מרדכי",
+  "value": "Пинхас Мордехай Литнер"
+ },
+ {
+  "key": "candidates|haredi-public:2|display_name",
+  "he": "אשר פרדי",
+  "value": "Ашер Фарди"
+ },
+ {
+  "key": "candidates|haredi-public:2|official_name",
+  "he": "פרדי אשר",
+  "value": "Ашер Фарди"
+ },
+ {
+  "key": "candidates|haredi-public:3|display_name",
+  "he": "מרים נחמה יפה",
+  "value": "Мирьям Нехама Яффе"
+ },
+ {
+  "key": "candidates|haredi-public:3|official_name",
+  "he": "יפה מרים נחמה",
+  "value": "Мирьям Нехама Яффе"
+ },
+ {
+  "key": "candidates|haredi-public:4|display_name",
+  "he": "זיוה רנית גלאנץ",
+  "value": "Зива Ранит Гланц"
+ },
+ {
+  "key": "candidates|haredi-public:4|official_name",
+  "he": "גלאנץ זיוה רנית",
+  "value": "Зива Ранит Гланц"
+ },
+ {
+  "key": "candidates|haredi-public:5|display_name",
+  "he": "מרדכי רובינשטיין",
+  "value": "Мордехай Рубинштейн"
+ },
+ {
+  "key": "candidates|haredi-public:5|official_name",
+  "he": "רובינשטיין מרדכי",
+  "value": "Мордехай Рубинштейн"
+ },
+ {
+  "key": "candidates|haredi-public:6|display_name",
+  "he": "יצחק אדלרשטיין",
+  "value": "Ицхак Адельштейн"
+ },
+ {
+  "key": "candidates|haredi-public:6|official_name",
+  "he": "אדלרשטיין יצחק",
+  "value": "Ицхак Адельштейн"
+ },
+ {
+  "key": "candidates|haredi-public:7|display_name",
+  "he": "אהרן אונגאר",
+  "value": "Аарон Унгар"
+ },
+ {
+  "key": "candidates|haredi-public:7|official_name",
+  "he": "אונגאר אהרן",
+  "value": "Аарон Унгар"
+ },
+ {
+  "key": "candidates|haredi-public:8|display_name",
+  "he": "יהודה אופנהיימר",
+  "value": "Иегуда Оппенгеймер"
+ },
+ {
+  "key": "candidates|haredi-public:8|official_name",
+  "he": "אופנהיימר יהודה",
+  "value": "Иегуда Оппенгеймер"
+ },
+ {
+  "key": "candidates|haredi-public:9|display_name",
+  "he": "גוטליב חיים יהודה לייב",
+  "value": "Хаим Иегуда Лейб Готлиб"
+ },
+ {
+  "key": "candidates|haredi-public:10|display_name",
+  "he": "קאופמן יונה שלמה",
+  "value": "Иона Шломо Кауфман"
+ },
+ {
+  "key": "candidates|haredi-public:11|display_name",
+  "he": "אליהו גולדברג",
+  "value": "Элияху Гольдберг"
+ },
+ {
+  "key": "candidates|haredi-public:11|official_name",
+  "he": "גולדברג אליהו",
+  "value": "Элияху Гольдберг"
+ },
+ {
+  "key": "candidates|haredi-public:12|display_name",
+  "he": "ראובן אוחנה",
+  "value": "Реувен Охана"
+ },
+ {
+  "key": "candidates|haredi-public:12|official_name",
+  "he": "אוחנה ראובן",
+  "value": "Реувен Охана"
+ },
+ {
+  "key": "candidates|hatikun:1|display_name",
+  "he": "משה סלמוביץ",
+  "value": "Моше Сламович"
+ },
+ {
+  "key": "candidates|hatikun:1|official_name",
+  "he": "סלמוביץ משה",
+  "value": "Моше Сламович"
+ },
+ {
+  "key": "candidates|hatikun:2|display_name",
+  "he": "יארה קבלאן",
+  "value": "Яра Кабалан"
+ },
+ {
+  "key": "candidates|hatikun:2|official_name",
+  "he": "קבלאן יארה",
+  "value": "Яра Кабалан"
+ },
+ {
+  "key": "candidates|hatikun:3|display_name",
+  "he": "יהל שרמן",
+  "value": "Яхель Шерман"
+ },
+ {
+  "key": "candidates|hatikun:3|official_name",
+  "he": "שרמן יהל",
+  "value": "Яхель Шерман"
+ },
+ {
+  "key": "candidates|hatikun:4|display_name",
+  "he": "שרון סיני-סימוני",
+  "value": "Шарон Синай-Симони"
+ },
+ {
+  "key": "candidates|hatikun:4|official_name",
+  "he": "סיני-סימוני שרון",
+  "value": "Шарон Синай-Симони"
+ },
+ {
+  "key": "candidates|hatikun:5|display_name",
+  "he": "רומן סורוצקי",
+  "value": "Роман Сурецкий"
+ },
+ {
+  "key": "candidates|hatikun:5|official_name",
+  "he": "סורוצקי רומן",
+  "value": "Роман Сурецкий"
+ },
+ {
+  "key": "candidates|hatikun:6|display_name",
+  "he": "סבג יהונתן בוריס",
+  "value": "Йонатан Борис Сабаг"
+ },
+ {
+  "key": "candidates|hatikun:7|display_name",
+  "he": "אכרם עראף",
+  "value": "Акрам Араф"
+ },
+ {
+  "key": "candidates|hatikun:7|official_name",
+  "he": "עראף אכרם",
+  "value": "Акрам Араф"
+ },
+ {
+  "key": "candidates|hatikun:8|display_name",
+  "he": "חן אלון",
+  "value": "Хен Алон"
+ },
+ {
+  "key": "candidates|hatikun:8|official_name",
+  "he": "אלון חן",
+  "value": "Хен Алон"
+ },
+ {
+  "key": "candidates|hatikun:9|display_name",
+  "he": "בן עזרא ליאת",
+  "value": "Лиат Бен-Эзра"
+ },
+ {
+  "key": "candidates|hatikun:10|display_name",
+  "he": "אשר להב",
+  "value": "Ашер Лахав"
+ },
+ {
+  "key": "candidates|hatikun:10|official_name",
+  "he": "להב אשר",
+  "value": "Ашер Лахав"
+ },
+ {
+  "key": "candidates|hatikun:11|display_name",
+  "he": "רעות אברמסון",
+  "value": "Рут Абрамсон"
+ },
+ {
+  "key": "candidates|hatikun:11|official_name",
+  "he": "אברמסון רעות",
+  "value": "Рут Абрамсон"
+ },
+ {
+  "key": "candidates|hatikun:12|display_name",
+  "he": "ירמיאס לסקר רוני",
+  "value": "Рони Ирмияс-Ласкер"
+ },
+ {
+  "key": "candidates|hatikun:13|display_name",
+  "he": "עדן סלמוביץ",
+  "value": "Эден Сламович"
+ },
+ {
+  "key": "candidates|hatikun:13|official_name",
+  "he": "סלמוביץ עדן",
+  "value": "Эден Сламович"
+ },
+ {
+  "key": "candidates|israel-first:1|display_name",
+  "he": "השכל שרן מרים",
+  "value": "Шарен Мирьям Хаскель"
+ },
+ {
+  "key": "candidates|israel-first:2|display_name",
+  "he": "דנינו רועי חיים",
+  "value": "Рои Хаим Данино"
+ },
+ {
+  "key": "candidates|israel-first:3|display_name",
+  "he": "ניר יופטרו",
+  "value": "Нир Юфтро"
+ },
+ {
+  "key": "candidates|israel-first:3|official_name",
+  "he": "יופטרו ניר",
+  "value": "Нир Юфтро"
+ },
+ {
+  "key": "candidates|israel-first:4|display_name",
+  "he": "ואיל מוגרבי",
+  "value": "Ваиль Могреби"
+ },
+ {
+  "key": "candidates|israel-first:4|official_name",
+  "he": "מוגרבי ואיל",
+  "value": "Ваиль Могреби"
+ },
+ {
+  "key": "candidates|israel-first:5|display_name",
+  "he": "פדר עמית עדי",
+  "value": "Ади Амит Федер"
+ },
+ {
+  "key": "candidates|israel-first:6|display_name",
+  "he": "ברוק תומר יצחק",
+  "value": "Томер Ицхак Брук"
+ },
+ {
+  "key": "candidates|israel-first:7|display_name",
+  "he": "רוזענבערג הארי ג'ק",
+  "value": "Гарри Джек Розенберг"
+ },
+ {
+  "key": "candidates|israel-first:8|display_name",
+  "he": "פנחס בינו",
+  "value": "Пинхас Бино"
+ },
+ {
+  "key": "candidates|israel-first:8|official_name",
+  "he": "בינו פנחס",
+  "value": "Пинхас Бино"
+ },
+ {
+  "key": "candidates|israel-first:9|display_name",
+  "he": "כפיר לוי",
+  "value": "Кфир Леви"
+ },
+ {
+  "key": "candidates|israel-first:9|official_name",
+  "he": "לוי כפיר",
+  "value": "Кфир Леви"
+ },
+ {
+  "key": "candidates|israel-first:10|display_name",
+  "he": "אלון מנגסטו",
+  "value": "Алон Менгисту"
+ },
+ {
+  "key": "candidates|israel-first:10|official_name",
+  "he": "מנגסטו אלון",
+  "value": "Алон Менгисту"
+ },
+ {
+  "key": "candidates|israel-first:11|display_name",
+  "he": "פרקס דניאל אלחנדרו",
+  "value": "Даниэль Алехандро Фаркаш"
+ },
+ {
+  "key": "candidates|israel-first:12|display_name",
+  "he": "אדיר פהלבני",
+  "value": "Адир Пахлавани"
+ },
+ {
+  "key": "candidates|israel-first:12|official_name",
+  "he": "פהלבני אדיר",
+  "value": "Адир Пахлавани"
+ },
+ {
+  "key": "candidates|joint-list:1|display_name",
+  "he": "יוסף ג'בארין",
+  "value": "Юсеф Джабарин"
+ },
+ {
+  "key": "candidates|joint-list:1|official_name",
+  "he": "גבארין יוסף",
+  "value": "Юсеф Джабарин"
+ },
+ {
+  "key": "candidates|joint-list:2|display_name",
+  "he": "אחמד טיבי",
+  "value": "Ахмад Тиби"
+ },
+ {
+  "key": "candidates|joint-list:2|official_name",
+  "he": "טיבי אחמד",
+  "value": "Ахмад Тиби"
+ },
+ {
+  "key": "candidates|joint-list:3|display_name",
+  "he": "סאמי אבו שחאדה",
+  "value": "Сами Абу Шехаде"
+ },
+ {
+  "key": "candidates|joint-list:3|official_name",
+  "he": "אבו שחאדה סאמי",
+  "value": "Сами Абу Шехаде"
+ },
+ {
+  "key": "candidates|joint-list:4|display_name",
+  "he": "פאתן ג'טאס",
+  "value": "Фатен Джаттас"
+ },
+ {
+  "key": "candidates|joint-list:4|official_name",
+  "he": "ג'טאס פאתן",
+  "value": "Фатен Джаттас"
+ },
+ {
+  "key": "candidates|joint-list:5|display_name",
+  "he": "בכר עואודה",
+  "value": "Бакр Авауда"
+ },
+ {
+  "key": "candidates|joint-list:5|official_name",
+  "he": "עואודה בכר",
+  "value": "Бакр Авауда"
+ },
+ {
+  "key": "candidates|joint-list:6|display_name",
+  "he": "עופר כסיף",
+  "value": "Офер Касиф"
+ },
+ {
+  "key": "candidates|joint-list:6|official_name",
+  "he": "כסיף עופר",
+  "value": "Офер Касиф"
+ },
+ {
+  "key": "candidates|joint-list:7|display_name",
+  "he": "יוסף עטאונה",
+  "value": "Юсеф Атауна"
+ },
+ {
+  "key": "candidates|joint-list:7|official_name",
+  "he": "אלעטאוונה יוסף",
+  "value": "Юсеф Атауна"
+ },
+ {
+  "key": "candidates|joint-list:8|display_name",
+  "he": "מהא כרכבי-סבאח",
+  "value": "Маха Каркаби-Сабах"
+ }
+]

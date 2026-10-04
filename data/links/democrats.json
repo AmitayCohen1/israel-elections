@@ -1,0 +1,112 @@
+{
+  "slug": "democrats",
+  "researched_at": "2026-10-03",
+  "links": [
+    {
+      "url": "https://democrats.org.il/",
+      "kind": "website",
+      "title": "האתר הרשמי",
+      "owner": "list",
+      "found_via": "seed + fetched",
+      "status": "ok"
+    },
+    {
+      "url": "https://yes.democrats.org.il/",
+      "kind": "platform",
+      "title": "המצע",
+      "owner": "list",
+      "found_via": "seed",
+      "status": "ok"
+    },
+    {
+      "url": "https://democrats.org.il/media/",
+      "kind": "press",
+      "title": "תקשורת",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://democrats.org.il/donations/",
+      "kind": "other",
+      "title": "תרומות",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://victory26.democrats.org.il/",
+      "kind": "other",
+      "title": "התנדבות",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://members.hademocratim.org.il/NewMember",
+      "kind": "other",
+      "title": "הצטרפות לחברות",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.facebook.com/HademocratimIL",
+      "kind": "facebook",
+      "title": "עמוד הפייסבוק",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "login-wall"
+    },
+    {
+      "url": "https://www.instagram.com/hademocratimil",
+      "kind": "instagram",
+      "title": "אינסטגרם",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "login-wall"
+    },
+    {
+      "url": "https://x.com/democratsil",
+      "kind": "x",
+      "title": "חשבון X",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "login-wall"
+    },
+    {
+      "url": "https://www.tiktok.com/@hademocratim",
+      "kind": "tiktok",
+      "title": "טיקטוק",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "login-wall"
+    },
+    {
+      "url": "https://wa.me/972526513603",
+      "kind": "whatsapp",
+      "title": "וואטסאפ",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://x.com/YoungDemocratim",
+      "kind": "other",
+      "title": "X הדמוקרטים הצעירים",
+      "owner": "list",
+      "found_via": "linked from official site posts",
+      "status": "login-wall"
+    },
+    {
+      "url": "https://x.com/YairGolan1",
+      "kind": "leader_x",
+      "title": "X יאיר גולן",
+      "owner": "יאיר גולן",
+      "found_via": "embedded post links on official site",
+      "status": "login-wall"
+    }
+  ],
+  "unverified": [],
+  "notes": "נשלפו מהאתר הרשמי. לא אומתו חשבוני יוטיוב/טלגרם. חשבון הפייסבוק קושר בשני אופנים (HademocratimIL וקישור share)."
+}

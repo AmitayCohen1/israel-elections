@@ -1,0 +1,602 @@
+[
+ {
+  "key": "people|sharshar:2|headline",
+  "he": "סוכנת נסיעות",
+  "value": "وكيلة سفر"
+ },
+ {
+  "key": "people|sharshar:2|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|shas:1|headline",
+  "he": "ממייסדי ש\"ס, יו\"ר התנועה מ-2013, שר הפנים לשעבר",
+  "value": "من مؤسسي شاس، رئيس الحركة منذ 2013، وزير الداخلية سابقًا"
+ },
+ {
+  "key": "people|shas:1|facts.0.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|shas:1|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|shas:1|facts.2.label",
+  "he": "כנסת",
+  "value": "الكنيست"
+ },
+ {
+  "key": "people|shas:2|headline",
+  "he": "חבר כנסת מטעם ש\"ס מ-2018, יו\"ר סיעת ש\"ס",
+  "value": "عضو كنيست عن شاس منذ 2018، رئيس كتلة شاس"
+ },
+ {
+  "key": "people|shas:2|facts.0.label",
+  "he": "כנסת",
+  "value": "الكنيست"
+ },
+ {
+  "key": "people|shas:2|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|shas:2|facts.2.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "الخدمة العسكرية والوطنية"
+ },
+ {
+  "key": "people|shas:3|headline",
+  "he": "מרצה בישיבה, חבר מועצת עיריית ירושלים, שר לשירותי דת לשעבר",
+  "value": "محاضر في معهد ديني (يشيفا)، عضو مجلس بلدية القدس، وزير الخدمات الدينية سابقًا"
+ },
+ {
+  "key": "people|shas:3|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|shas:3|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|shas:3|facts.2.label",
+  "he": "כנסת",
+  "value": "الكنيست"
+ },
+ {
+  "key": "people|shas:3|facts.3.label",
+  "he": "השכלה",
+  "value": "التعليم"
+ },
+ {
+  "key": "people|shas:4|headline",
+  "he": "מנכ\"ל חברת המשקם ורשת מעיין החינוך התורני, שר העבודה לשעבר",
+  "value": "المدير العام لشركة «همشكّم» وشبكة «معيان» للتعليم التوراتي، وزير العمل سابقًا"
+ },
+ {
+  "key": "people|shas:4|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|shas:4|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|shas:4|facts.2.label",
+  "he": "כנסת",
+  "value": "الكنيست"
+ },
+ {
+  "key": "people|shas:4|facts.3.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "الخدمة العسكرية والوطنية"
+ },
+ {
+  "key": "people|shas:5|headline",
+  "he": "מנכ\"ל ש\"ס, מנכ\"ל רשת בני יוסף, שר החינוך לשעבר",
+  "value": "المدير العام لشاس، المدير العام لشبكة «بني يوسف»، وزير التربية والتعليم سابقًا"
+ },
+ {
+  "key": "people|shas:5|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|shas:5|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|shas:5|facts.2.label",
+  "he": "כנסת",
+  "value": "الكنيست"
+ },
+ {
+  "key": "people|together:1|headline",
+  "he": "יזם הייטק, ראש הממשלה לשעבר",
+  "value": "رائد أعمال في الهايتك، رئيس الحكومة سابقًا"
+ },
+ {
+  "key": "people|together:1|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|together:1|facts.1.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "الخدمة العسكرية والوطنية"
+ },
+ {
+  "key": "people|together:1|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|together:1|facts.3.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|together:2|headline",
+  "he": "עיתונאי ומנחה טלוויזיה, ראש הממשלה לשעבר",
+  "value": "صحفي ومقدم برامج تلفزيونية، رئيس الحكومة سابقًا"
+ },
+ {
+  "key": "people|together:2|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|together:2|facts.1.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "الخدمة العسكرية والوطنية"
+ },
+ {
+  "key": "people|together:2|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|together:2|facts.3.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|together:3|headline",
+  "he": "מנהלת כללית לשעבר של משרד התחבורה ושל משרד האוצר",
+  "value": "المديرة العامة السابقة لوزارة المواصلات ولوزارة المالية"
+ },
+ {
+  "key": "people|together:3|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|together:3|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|together:3|facts.2.label",
+  "he": "השכלה",
+  "value": "التعليم"
+ },
+ {
+  "key": "people|together:3|facts.3.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "الخدمة العسكرية والوطنية"
+ },
+ {
+  "key": "people|together:4|headline",
+  "he": "חברת כנסת, מייסדת מרכזי נוער",
+  "value": "عضو كنيست، مؤسسة مراكز شبابية"
+ },
+ {
+  "key": "people|together:4|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|together:4|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|together:4|facts.2.label",
+  "he": "כנסת",
+  "value": "الكنيست"
+ },
+ {
+  "key": "people|together:4|facts.3.label",
+  "he": "השכלה",
+  "value": "التعليم"
+ },
+ {
+  "key": "people|together:5|headline",
+  "he": "מנכ\"ל לשעבר של משרד התקשורת, עורך דין",
+  "value": "المدير العام السابق لوزارة الاتصالات، محامٍ"
+ },
+ {
+  "key": "people|together:5|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|together:5|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|together:5|facts.2.label",
+  "he": "השכלה",
+  "value": "التعليم"
+ },
+ {
+  "key": "people|tzomet-beit-israel:1|headline",
+  "he": "סגן שר לשעבר, חבר כנסת לשעבר, יו\"ר מפלגת בית ישראל",
+  "value": "نائب وزير سابق، عضو كنيست سابق، رئيس حزب بيت إسرائيل"
+ },
+ {
+  "key": "people|tzomet-beit-israel:1|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "الخدمة العسكرية والوطنية"
+ },
+ {
+  "key": "people|tzomet-beit-israel:1|facts.1.label",
+  "he": "כנסת",
+  "value": "الكنيست"
+ },
+ {
+  "key": "people|tzomet-beit-israel:1|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|tzomet-beit-israel:1|facts.3.label",
+  "he": "השכלה",
+  "value": "التعليم"
+ },
+ {
+  "key": "people|tzomet-beit-israel:2|headline",
+  "he": "יו\"ר מפלגת צומת",
+  "value": "رئيس حزب تسوميت"
+ },
+ {
+  "key": "people|tzomet-beit-israel:2|facts.0.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|utj:1|headline",
+  "he": "ראש עיריית בני ברק לשעבר, חבר כנסת",
+  "value": "رئيس بلدية بني براك سابقًا، عضو كنيست"
+ },
+ {
+  "key": "people|utj:1|facts.0.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|utj:1|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|utj:1|facts.2.label",
+  "he": "כנסת",
+  "value": "الكنيست"
+ },
+ {
+  "key": "people|utj:2|headline",
+  "he": "מנהל מוסדות חינוך, שר הבינוי והשיכון לשעבר",
+  "value": "مدير مؤسسات تعليمية، وزير البناء والإسكان سابقًا"
+ },
+ {
+  "key": "people|utj:2|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|utj:2|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|utj:2|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|utj:2|facts.3.label",
+  "he": "כנסת",
+  "value": "الكنيست"
+ },
+ {
+  "key": "people|utj:3|headline",
+  "he": "ראש עיריית ביתר עילית לשעבר, חבר כנסת",
+  "value": "رئيس بلدية بيتار عيليت سابقًا، عضو كنيست"
+ },
+ {
+  "key": "people|utj:3|facts.0.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|utj:3|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|utj:3|facts.2.label",
+  "he": "כנסת",
+  "value": "الكنيست"
+ },
+ {
+  "key": "people|utj:4|headline",
+  "he": "חבר כנסת, שר ירושלים ומורשת לשעבר",
+  "value": "عضو كنيست، وزير شؤون القدس والتراث سابقًا"
+ },
+ {
+  "key": "people|utj:4|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|utj:4|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|utj:4|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|utj:4|facts.3.label",
+  "he": "כנסת",
+  "value": "الكنيست"
+ },
+ {
+  "key": "people|yashar:1|headline",
+  "he": "רב-אלוף במילואים, הרמטכ\"ל לשעבר",
+  "value": "فريق احتياط، رئيس هيئة الأركان العامة سابقًا"
+ },
+ {
+  "key": "people|yashar:1|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "الخدمة العسكرية والوطنية"
+ },
+ {
+  "key": "people|yashar:1|facts.1.label",
+  "he": "השכלה",
+  "value": "التعليم"
+ },
+ {
+  "key": "people|yashar:1|facts.2.label",
+  "he": "כנסת",
+  "value": "الكنيست"
+ },
+ {
+  "key": "people|yashar:1|facts.3.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|yashar:2|headline",
+  "he": "ראש השב\"כ לשעבר",
+  "value": "رئيس الشاباك سابقًا"
+ },
+ {
+  "key": "people|yashar:2|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "الخدمة العسكرية والوطنية"
+ },
+ {
+  "key": "people|yashar:2|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|yashar:2|facts.2.label",
+  "he": "השכלה",
+  "value": "التعليم"
+ },
+ {
+  "key": "people|yashar:2|facts.3.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|yashar:3|headline",
+  "he": "עורכת דין, שרת התיירות לשעבר",
+  "value": "محامية، وزيرة السياحة سابقًا"
+ },
+ {
+  "key": "people|yashar:3|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|yashar:3|facts.1.label",
+  "he": "השכלה",
+  "value": "التعليم"
+ },
+ {
+  "key": "people|yashar:3|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|yashar:3|facts.3.label",
+  "he": "כנסת",
+  "value": "الكنيست"
+ },
+ {
+  "key": "people|yashar:4|headline",
+  "he": "מייסדת תנועת נוער לילדים עם צרכים מיוחדים, יזמת חברתית",
+  "value": "مؤسسة حركة شبابية للأطفال ذوي الاحتياجات الخاصة، رائدة أعمال اجتماعية"
+ },
+ {
+  "key": "people|yashar:4|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|yashar:4|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|yashar:4|facts.2.label",
+  "he": "השכלה",
+  "value": "التعليم"
+ },
+ {
+  "key": "people|yashar:4|facts.3.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|yashar:5|headline",
+  "he": "אלוף-משנה במילואים, טייס קרב, שר לשעבר",
+  "value": "عقيد احتياط، طيار مقاتل، وزير سابق"
+ },
+ {
+  "key": "people|yashar:5|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "الخدمة العسكرية والوطنية"
+ },
+ {
+  "key": "people|yashar:5|facts.1.label",
+  "he": "השכלה",
+  "value": "التعليم"
+ },
+ {
+  "key": "people|yashar:5|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|yashar:5|facts.3.label",
+  "he": "כנסת",
+  "value": "الكنيست"
+ },
+ {
+  "key": "people|yisrael-beiteinu:1|headline",
+  "he": "מייסד ויו\"ר ישראל ביתנו, שר הביטחון לשעבר",
+  "value": "مؤسس ورئيس إسرائيل بيتنا، وزير الأمن سابقًا"
+ },
+ {
+  "key": "people|yisrael-beiteinu:1|facts.0.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|yisrael-beiteinu:1|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|yisrael-beiteinu:1|facts.2.label",
+  "he": "כנסת",
+  "value": "الكنيست"
+ },
+ {
+  "key": "people|yisrael-beiteinu:1|facts.3.label",
+  "he": "השכלה",
+  "value": "التعليم"
+ },
+ {
+  "key": "people|yisrael-beiteinu:2|headline",
+  "he": "ראש עיריית בית שאן לשעבר, מחנך",
+  "value": "رئيس بلدية بيسان سابقًا، تربوي"
+ },
+ {
+  "key": "people|yisrael-beiteinu:2|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|yisrael-beiteinu:2|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|yisrael-beiteinu:2|facts.2.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "الخدمة العسكرية والوطنية"
+ },
+ {
+  "key": "people|yisrael-beiteinu:3|headline",
+  "he": "תת-אלופה במילואים, ראשת אגף עורף במועצה לביטחון לאומי",
+  "value": "عميد احتياط، رئيسة قسم الجبهة الداخلية في مجلس الأمن القومي"
+ },
+ {
+  "key": "people|yisrael-beiteinu:3|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "الخدمة العسكرية والوطنية"
+ },
+ {
+  "key": "people|yisrael-beiteinu:3|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|yisrael-beiteinu:3|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|yisrael-beiteinu:3|facts.3.label",
+  "he": "השכלה",
+  "value": "التعليم"
+ },
+ {
+  "key": "people|yisrael-beiteinu:4|headline",
+  "he": "חבר כנסת, שר החקלאות לשעבר",
+  "value": "عضو كنيست، وزير الزراعة سابقًا"
+ },
+ {
+  "key": "people|yisrael-beiteinu:4|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|yisrael-beiteinu:4|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|yisrael-beiteinu:4|facts.2.label",
+  "he": "כנסת",
+  "value": "الكنيست"
+ },
+ {
+  "key": "people|yisrael-beiteinu:4|facts.3.label",
+  "he": "השכלה",
+  "value": "التعليم"
+ },
+ {
+  "key": "people|yisrael-beiteinu:5|headline",
+  "he": "עורכת דין, חברת כנסת",
+  "value": "محامية، عضو كنيست"
+ },
+ {
+  "key": "people|yisrael-beiteinu:5|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|yisrael-beiteinu:5|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ }
+]

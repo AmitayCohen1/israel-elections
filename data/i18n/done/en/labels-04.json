@@ -1,0 +1,602 @@
+[
+ {
+  "key": "people|sharshar:2|headline",
+  "he": "סוכנת נסיעות",
+  "value": "Travel agent"
+ },
+ {
+  "key": "people|sharshar:2|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "Professional background"
+ },
+ {
+  "key": "people|shas:1|headline",
+  "he": "ממייסדי ש\"ס, יו\"ר התנועה מ-2013, שר הפנים לשעבר",
+  "value": "Co-founder of Shas, movement chair since 2013, former Minister of the Interior"
+ },
+ {
+  "key": "people|shas:1|facts.0.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|shas:1|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|shas:1|facts.2.label",
+  "he": "כנסת",
+  "value": "Knesset"
+ },
+ {
+  "key": "people|shas:2|headline",
+  "he": "חבר כנסת מטעם ש\"ס מ-2018, יו\"ר סיעת ש\"ס",
+  "value": "Member of Knesset for Shas since 2018, chair of the Shas faction"
+ },
+ {
+  "key": "people|shas:2|facts.0.label",
+  "he": "כנסת",
+  "value": "Knesset"
+ },
+ {
+  "key": "people|shas:2|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "Professional background"
+ },
+ {
+  "key": "people|shas:2|facts.2.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "Military and national service"
+ },
+ {
+  "key": "people|shas:3|headline",
+  "he": "מרצה בישיבה, חבר מועצת עיריית ירושלים, שר לשירותי דת לשעבר",
+  "value": "Yeshiva lecturer, Jerusalem city council member, former Minister of Religious Services"
+ },
+ {
+  "key": "people|shas:3|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "Professional background"
+ },
+ {
+  "key": "people|shas:3|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|shas:3|facts.2.label",
+  "he": "כנסת",
+  "value": "Knesset"
+ },
+ {
+  "key": "people|shas:3|facts.3.label",
+  "he": "השכלה",
+  "value": "Education"
+ },
+ {
+  "key": "people|shas:4|headline",
+  "he": "מנכ\"ל חברת המשקם ורשת מעיין החינוך התורני, שר העבודה לשעבר",
+  "value": "Director general of the Hamashkem company and the Maayan Hachinuch Hatorani network, former Minister of Labor"
+ },
+ {
+  "key": "people|shas:4|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "Professional background"
+ },
+ {
+  "key": "people|shas:4|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|shas:4|facts.2.label",
+  "he": "כנסת",
+  "value": "Knesset"
+ },
+ {
+  "key": "people|shas:4|facts.3.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "Military and national service"
+ },
+ {
+  "key": "people|shas:5|headline",
+  "he": "מנכ\"ל ש\"ס, מנכ\"ל רשת בני יוסף, שר החינוך לשעבר",
+  "value": "Director general of Shas, director general of the Bnei Yosef network, former Minister of Education"
+ },
+ {
+  "key": "people|shas:5|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "Professional background"
+ },
+ {
+  "key": "people|shas:5|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|shas:5|facts.2.label",
+  "he": "כנסת",
+  "value": "Knesset"
+ },
+ {
+  "key": "people|together:1|headline",
+  "he": "יזם הייטק, ראש הממשלה לשעבר",
+  "value": "High-tech entrepreneur, former prime minister"
+ },
+ {
+  "key": "people|together:1|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "Professional background"
+ },
+ {
+  "key": "people|together:1|facts.1.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "Military and national service"
+ },
+ {
+  "key": "people|together:1|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|together:1|facts.3.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|together:2|headline",
+  "he": "עיתונאי ומנחה טלוויזיה, ראש הממשלה לשעבר",
+  "value": "Journalist and TV presenter, former prime minister"
+ },
+ {
+  "key": "people|together:2|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "Professional background"
+ },
+ {
+  "key": "people|together:2|facts.1.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "Military and national service"
+ },
+ {
+  "key": "people|together:2|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|together:2|facts.3.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|together:3|headline",
+  "he": "מנהלת כללית לשעבר של משרד התחבורה ושל משרד האוצר",
+  "value": "Former director general of the Ministry of Transportation and of the Ministry of Finance"
+ },
+ {
+  "key": "people|together:3|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "Professional background"
+ },
+ {
+  "key": "people|together:3|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|together:3|facts.2.label",
+  "he": "השכלה",
+  "value": "Education"
+ },
+ {
+  "key": "people|together:3|facts.3.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "Military and national service"
+ },
+ {
+  "key": "people|together:4|headline",
+  "he": "חברת כנסת, מייסדת מרכזי נוער",
+  "value": "Member of Knesset, founder of youth centers"
+ },
+ {
+  "key": "people|together:4|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "Professional background"
+ },
+ {
+  "key": "people|together:4|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|together:4|facts.2.label",
+  "he": "כנסת",
+  "value": "Knesset"
+ },
+ {
+  "key": "people|together:4|facts.3.label",
+  "he": "השכלה",
+  "value": "Education"
+ },
+ {
+  "key": "people|together:5|headline",
+  "he": "מנכ\"ל לשעבר של משרד התקשורת, עורך דין",
+  "value": "Former director general of the Ministry of Communications, attorney"
+ },
+ {
+  "key": "people|together:5|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "Professional background"
+ },
+ {
+  "key": "people|together:5|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|together:5|facts.2.label",
+  "he": "השכלה",
+  "value": "Education"
+ },
+ {
+  "key": "people|tzomet-beit-israel:1|headline",
+  "he": "סגן שר לשעבר, חבר כנסת לשעבר, יו\"ר מפלגת בית ישראל",
+  "value": "Former deputy minister, former Member of Knesset, chair of the Beit Yisrael party"
+ },
+ {
+  "key": "people|tzomet-beit-israel:1|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "Military and national service"
+ },
+ {
+  "key": "people|tzomet-beit-israel:1|facts.1.label",
+  "he": "כנסת",
+  "value": "Knesset"
+ },
+ {
+  "key": "people|tzomet-beit-israel:1|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|tzomet-beit-israel:1|facts.3.label",
+  "he": "השכלה",
+  "value": "Education"
+ },
+ {
+  "key": "people|tzomet-beit-israel:2|headline",
+  "he": "יו\"ר מפלגת צומת",
+  "value": "Chair of the Tzomet party"
+ },
+ {
+  "key": "people|tzomet-beit-israel:2|facts.0.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|utj:1|headline",
+  "he": "ראש עיריית בני ברק לשעבר, חבר כנסת",
+  "value": "Former mayor of Bnei Brak, Member of Knesset"
+ },
+ {
+  "key": "people|utj:1|facts.0.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|utj:1|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "Professional background"
+ },
+ {
+  "key": "people|utj:1|facts.2.label",
+  "he": "כנסת",
+  "value": "Knesset"
+ },
+ {
+  "key": "people|utj:2|headline",
+  "he": "מנהל מוסדות חינוך, שר הבינוי והשיכון לשעבר",
+  "value": "Director of educational institutions, former Minister of Construction and Housing"
+ },
+ {
+  "key": "people|utj:2|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "Professional background"
+ },
+ {
+  "key": "people|utj:2|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|utj:2|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|utj:2|facts.3.label",
+  "he": "כנסת",
+  "value": "Knesset"
+ },
+ {
+  "key": "people|utj:3|headline",
+  "he": "ראש עיריית ביתר עילית לשעבר, חבר כנסת",
+  "value": "Former mayor of Beitar Illit, Member of Knesset"
+ },
+ {
+  "key": "people|utj:3|facts.0.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|utj:3|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "Professional background"
+ },
+ {
+  "key": "people|utj:3|facts.2.label",
+  "he": "כנסת",
+  "value": "Knesset"
+ },
+ {
+  "key": "people|utj:4|headline",
+  "he": "חבר כנסת, שר ירושלים ומורשת לשעבר",
+  "value": "Member of Knesset, former Minister of Jerusalem and Heritage"
+ },
+ {
+  "key": "people|utj:4|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "Professional background"
+ },
+ {
+  "key": "people|utj:4|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|utj:4|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|utj:4|facts.3.label",
+  "he": "כנסת",
+  "value": "Knesset"
+ },
+ {
+  "key": "people|yashar:1|headline",
+  "he": "רב-אלוף במילואים, הרמטכ\"ל לשעבר",
+  "value": "Lieutenant general (res.), former IDF Chief of Staff"
+ },
+ {
+  "key": "people|yashar:1|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "Military and national service"
+ },
+ {
+  "key": "people|yashar:1|facts.1.label",
+  "he": "השכלה",
+  "value": "Education"
+ },
+ {
+  "key": "people|yashar:1|facts.2.label",
+  "he": "כנסת",
+  "value": "Knesset"
+ },
+ {
+  "key": "people|yashar:1|facts.3.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|yashar:2|headline",
+  "he": "ראש השב\"כ לשעבר",
+  "value": "Former head of the Shin Bet"
+ },
+ {
+  "key": "people|yashar:2|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "Military and national service"
+ },
+ {
+  "key": "people|yashar:2|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "Professional background"
+ },
+ {
+  "key": "people|yashar:2|facts.2.label",
+  "he": "השכלה",
+  "value": "Education"
+ },
+ {
+  "key": "people|yashar:2|facts.3.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|yashar:3|headline",
+  "he": "עורכת דין, שרת התיירות לשעבר",
+  "value": "Attorney, former Minister of Tourism"
+ },
+ {
+  "key": "people|yashar:3|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "Professional background"
+ },
+ {
+  "key": "people|yashar:3|facts.1.label",
+  "he": "השכלה",
+  "value": "Education"
+ },
+ {
+  "key": "people|yashar:3|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|yashar:3|facts.3.label",
+  "he": "כנסת",
+  "value": "Knesset"
+ },
+ {
+  "key": "people|yashar:4|headline",
+  "he": "מייסדת תנועת נוער לילדים עם צרכים מיוחדים, יזמת חברתית",
+  "value": "Founder of a youth movement for children with special needs, social entrepreneur"
+ },
+ {
+  "key": "people|yashar:4|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "Professional background"
+ },
+ {
+  "key": "people|yashar:4|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "Professional background"
+ },
+ {
+  "key": "people|yashar:4|facts.2.label",
+  "he": "השכלה",
+  "value": "Education"
+ },
+ {
+  "key": "people|yashar:4|facts.3.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|yashar:5|headline",
+  "he": "אלוף-משנה במילואים, טייס קרב, שר לשעבר",
+  "value": "Colonel (res.), fighter pilot, former minister"
+ },
+ {
+  "key": "people|yashar:5|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "Military and national service"
+ },
+ {
+  "key": "people|yashar:5|facts.1.label",
+  "he": "השכלה",
+  "value": "Education"
+ },
+ {
+  "key": "people|yashar:5|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|yashar:5|facts.3.label",
+  "he": "כנסת",
+  "value": "Knesset"
+ },
+ {
+  "key": "people|yisrael-beiteinu:1|headline",
+  "he": "מייסד ויו\"ר ישראל ביתנו, שר הביטחון לשעבר",
+  "value": "Founder and chair of Yisrael Beiteinu, former Minister of Defense"
+ },
+ {
+  "key": "people|yisrael-beiteinu:1|facts.0.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|yisrael-beiteinu:1|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|yisrael-beiteinu:1|facts.2.label",
+  "he": "כנסת",
+  "value": "Knesset"
+ },
+ {
+  "key": "people|yisrael-beiteinu:1|facts.3.label",
+  "he": "השכלה",
+  "value": "Education"
+ },
+ {
+  "key": "people|yisrael-beiteinu:2|headline",
+  "he": "ראש עיריית בית שאן לשעבר, מחנך",
+  "value": "Former mayor of Beit She'an, educator"
+ },
+ {
+  "key": "people|yisrael-beiteinu:2|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "Professional background"
+ },
+ {
+  "key": "people|yisrael-beiteinu:2|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|yisrael-beiteinu:2|facts.2.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "Military and national service"
+ },
+ {
+  "key": "people|yisrael-beiteinu:3|headline",
+  "he": "תת-אלופה במילואים, ראשת אגף עורף במועצה לביטחון לאומי",
+  "value": "Brigadier general (res.), head of the Home Front Division at the National Security Council"
+ },
+ {
+  "key": "people|yisrael-beiteinu:3|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "Military and national service"
+ },
+ {
+  "key": "people|yisrael-beiteinu:3|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|yisrael-beiteinu:3|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|yisrael-beiteinu:3|facts.3.label",
+  "he": "השכלה",
+  "value": "Education"
+ },
+ {
+  "key": "people|yisrael-beiteinu:4|headline",
+  "he": "חבר כנסת, שר החקלאות לשעבר",
+  "value": "Member of Knesset, former Minister of Agriculture"
+ },
+ {
+  "key": "people|yisrael-beiteinu:4|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "Professional background"
+ },
+ {
+  "key": "people|yisrael-beiteinu:4|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ },
+ {
+  "key": "people|yisrael-beiteinu:4|facts.2.label",
+  "he": "כנסת",
+  "value": "Knesset"
+ },
+ {
+  "key": "people|yisrael-beiteinu:4|facts.3.label",
+  "he": "השכלה",
+  "value": "Education"
+ },
+ {
+  "key": "people|yisrael-beiteinu:5|headline",
+  "he": "עורכת דין, חברת כנסת",
+  "value": "Attorney, Member of Knesset"
+ },
+ {
+  "key": "people|yisrael-beiteinu:5|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "Professional background"
+ },
+ {
+  "key": "people|yisrael-beiteinu:5|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "Public roles"
+ }
+]

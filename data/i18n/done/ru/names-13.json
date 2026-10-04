@@ -1,0 +1,752 @@
+[
+ {
+  "key": "candidates|together:10|display_name",
+  "he": "יונתן שלו",
+  "value": "Йонатан Шалев"
+ },
+ {
+  "key": "candidates|together:10|official_name",
+  "he": "שלו יונתן",
+  "value": "Йонатан Шалев"
+ },
+ {
+  "key": "candidates|together:11|display_name",
+  "he": "ברוריה נעים ארמן",
+  "value": "Брурия Наим Арман"
+ },
+ {
+  "key": "candidates|together:11|official_name",
+  "he": "נעים ארמן ברוריה",
+  "value": "Брурия Наим Арман"
+ },
+ {
+  "key": "candidates|together:12|display_name",
+  "he": "רם בן ברק",
+  "value": "Рам Бен-Барак"
+ },
+ {
+  "key": "candidates|together:12|official_name",
+  "he": "בן ברק רם",
+  "value": "Рам Бен-Барак"
+ },
+ {
+  "key": "candidates|together:13|display_name",
+  "he": "אמיר סטרוגו",
+  "value": "Амир Строго"
+ },
+ {
+  "key": "candidates|together:13|official_name",
+  "he": "סטרוגו אמיר",
+  "value": "Амир Строго"
+ },
+ {
+  "key": "candidates|together:14|display_name",
+  "he": "נאור שירי",
+  "value": "Наор Шири"
+ },
+ {
+  "key": "candidates|together:14|official_name",
+  "he": "שירי נאור",
+  "value": "Наор Шири"
+ },
+ {
+  "key": "candidates|together:15|display_name",
+  "he": "ניסן זאבי",
+  "value": "Нисан Зеэви"
+ },
+ {
+  "key": "candidates|together:15|official_name",
+  "he": "זאבי ניסן",
+  "value": "Нисан Зеэви"
+ },
+ {
+  "key": "candidates|together:16|display_name",
+  "he": "ולדימיר בליאק",
+  "value": "Владимир Бляк"
+ },
+ {
+  "key": "candidates|together:16|official_name",
+  "he": "בליאק ולדימיר",
+  "value": "Владимир Бляк"
+ },
+ {
+  "key": "candidates|together:17|display_name",
+  "he": "אורלי אלידן-הראל",
+  "value": "Орли Элидан-Харель"
+ },
+ {
+  "key": "candidates|together:17|official_name",
+  "he": "אלידן-הראל אורלי",
+  "value": "Орли Элидан-Харель"
+ },
+ {
+  "key": "candidates|together:18|display_name",
+  "he": "יוראי להב-הרצנו",
+  "value": "Юрай Лахав-Герцано"
+ },
+ {
+  "key": "candidates|together:18|official_name",
+  "he": "להב הרצנו יוראי",
+  "value": "Юрай Лахав-Герцано"
+ },
+ {
+  "key": "candidates|together:19|display_name",
+  "he": "שחר ורון",
+  "value": "Шахар Варон"
+ },
+ {
+  "key": "candidates|together:19|official_name",
+  "he": "ורון שחר",
+  "value": "Шахар Варон"
+ },
+ {
+  "key": "candidates|together:20|display_name",
+  "he": "יסמין פרידמן",
+  "value": "Ясмин Фридман"
+ },
+ {
+  "key": "candidates|together:20|official_name",
+  "he": "פרידמן יסמין",
+  "value": "Ясмин Фридман"
+ },
+ {
+  "key": "candidates|together:21|display_name",
+  "he": "אסתי איילון קובו",
+  "value": "Эсти Аялон Кобо"
+ },
+ {
+  "key": "candidates|together:21|official_name",
+  "he": "איילון קובו אסתי",
+  "value": "Эсти Аялон Кобо"
+ },
+ {
+  "key": "candidates|together:22|display_name",
+  "he": "נטע אטיאס מויאל",
+  "value": "Нета Атиас Моял"
+ },
+ {
+  "key": "candidates|together:22|official_name",
+  "he": "אטיאס מויאל נטע",
+  "value": "Нета Атиас Моял"
+ },
+ {
+  "key": "candidates|together:23|display_name",
+  "he": "ג'רמי סלטן",
+  "value": "Джереми Салтен"
+ },
+ {
+  "key": "candidates|together:23|official_name",
+  "he": "סלטן ג'רמי",
+  "value": "Джереми Салтен"
+ },
+ {
+  "key": "candidates|together:24|display_name",
+  "he": "משה טור-פז",
+  "value": "Моше Тур-Пац"
+ },
+ {
+  "key": "candidates|together:24|official_name",
+  "he": "טור-פז משה יהודה",
+  "value": "Моше Йехуда Тур-Пац"
+ },
+ {
+  "key": "candidates|together:25|display_name",
+  "he": "פלוטניצקי צבי גריגורי",
+  "value": "Цви Григорий Плотницкий"
+ },
+ {
+  "key": "candidates|together:26|display_name",
+  "he": "אולסיה קנטור",
+  "value": "Олеся Кантор"
+ },
+ {
+  "key": "candidates|together:26|official_name",
+  "he": "קנטור אולסיה",
+  "value": "Олеся Кантор"
+ },
+ {
+  "key": "candidates|together:27|display_name",
+  "he": "סימון דוידסון",
+  "value": "Симон Дэвидсон"
+ },
+ {
+  "key": "candidates|together:27|official_name",
+  "he": "דוידסון סימון",
+  "value": "Симон Дэвидсон"
+ },
+ {
+  "key": "candidates|together:28|display_name",
+  "he": "מתי גיל",
+  "value": "Мати Гиль"
+ },
+ {
+  "key": "candidates|together:28|official_name",
+  "he": "גיל מתי",
+  "value": "Мати Гиль"
+ },
+ {
+  "key": "candidates|together:29|display_name",
+  "he": "טל מירון שלי",
+  "value": "Шели Таль Мирон"
+ },
+ {
+  "key": "candidates|together:30|display_name",
+  "he": "תומר וינר",
+  "value": "Томер Винер"
+ },
+ {
+  "key": "candidates|together:30|official_name",
+  "he": "וינר תומר",
+  "value": "Томер Винер"
+ },
+ {
+  "key": "candidates|together:31|display_name",
+  "he": "איריש מלכאי רוני",
+  "value": "Рони Ириш Малкай"
+ },
+ {
+  "key": "candidates|together:32|display_name",
+  "he": "מזאל שחר תמר",
+  "value": "Тамар Шахар Мазал"
+ },
+ {
+  "key": "candidates|together:33|display_name",
+  "he": "צרפתי הרכבי מטי",
+  "value": "Мати Царфати Харкави"
+ },
+ {
+  "key": "candidates|together:34|display_name",
+  "he": "לין שטרן יעל",
+  "value": "Яэль Лин Штерн"
+ },
+ {
+  "key": "candidates|together:35|display_name",
+  "he": "עמית ברדה",
+  "value": "Амит Барда"
+ },
+ {
+  "key": "candidates|together:35|official_name",
+  "he": "ברדה עמית",
+  "value": "Амит Барда"
+ },
+ {
+  "key": "candidates|together:36|display_name",
+  "he": "עזוז עדי עליזה",
+  "value": "Ади Ализа Азуз"
+ },
+ {
+  "key": "candidates|together:37|display_name",
+  "he": "ארקוס ליאת חדוה",
+  "value": "Лиат Хедва Аркос"
+ },
+ {
+  "key": "candidates|together:38|display_name",
+  "he": "עוז חיים",
+  "value": "Оз Хаим"
+ },
+ {
+  "key": "candidates|together:38|official_name",
+  "he": "חיים עוז",
+  "value": "Оз Хаим"
+ },
+ {
+  "key": "candidates|together:39|display_name",
+  "he": "עידו קרן",
+  "value": "Идо Керен"
+ },
+ {
+  "key": "candidates|together:39|official_name",
+  "he": "קרן עידו",
+  "value": "Идо Керен"
+ },
+ {
+  "key": "candidates|together:40|display_name",
+  "he": "אסף ויס",
+  "value": "Асаф Вайс"
+ },
+ {
+  "key": "candidates|together:40|official_name",
+  "he": "ויס אסף",
+  "value": "Асаф Вайс"
+ },
+ {
+  "key": "candidates|together:41|display_name",
+  "he": "מלאכי יחזקאל משה",
+  "value": "Йехезкель Моше Малахи"
+ },
+ {
+  "key": "candidates|together:42|display_name",
+  "he": "חנה גול",
+  "value": "Хана Голь"
+ },
+ {
+  "key": "candidates|together:42|official_name",
+  "he": "גול חנה",
+  "value": "Хана Голь"
+ },
+ {
+  "key": "candidates|together:43|display_name",
+  "he": "מרב צימרמן",
+  "value": "Мерав Циммерман"
+ },
+ {
+  "key": "candidates|together:43|official_name",
+  "he": "צימרמן מרב",
+  "value": "Мерав Циммерман"
+ },
+ {
+  "key": "candidates|together:44|display_name",
+  "he": "אבו אל היג'א מוחמד",
+  "value": "Мухаммад Абу аль-Хиджа"
+ },
+ {
+  "key": "candidates|together:45|display_name",
+  "he": "ז'אנה כהן",
+  "value": "Жанна Коэн"
+ },
+ {
+  "key": "candidates|together:45|official_name",
+  "he": "כהן ז'אנה",
+  "value": "Жанна Коэн"
+ },
+ {
+  "key": "candidates|together:46|display_name",
+  "he": "לוי הילה אינס",
+  "value": "Хила Инес Леви"
+ },
+ {
+  "key": "candidates|together:47|display_name",
+  "he": "דבורה אדלר",
+  "value": "Двора Адлер"
+ },
+ {
+  "key": "candidates|together:47|official_name",
+  "he": "אדלר דבורה",
+  "value": "Двора Адлер"
+ },
+ {
+  "key": "candidates|together:48|display_name",
+  "he": "עוז רוזגוביץ אלעד",
+  "value": "Элад Оз Розговиц"
+ },
+ {
+  "key": "candidates|together:49|display_name",
+  "he": "יוסף סבג",
+  "value": "Йосеф Сабаг"
+ },
+ {
+  "key": "candidates|together:49|official_name",
+  "he": "סבג יוסף",
+  "value": "Йосеф Сабаг"
+ },
+ {
+  "key": "candidates|together:50|display_name",
+  "he": "סלבני כבביה מיכל",
+  "value": "Михаль Салвани Кабабья"
+ },
+ {
+  "key": "candidates|together:51|display_name",
+  "he": "אבנר ברק",
+  "value": "Авнер Барак"
+ },
+ {
+  "key": "candidates|together:51|official_name",
+  "he": "ברק אבנר",
+  "value": "Авнер Барак"
+ },
+ {
+  "key": "candidates|together:52|display_name",
+  "he": "הדר שוייצר",
+  "value": "Хадар Швайцер"
+ },
+ {
+  "key": "candidates|together:52|official_name",
+  "he": "שוייצר הדר",
+  "value": "Хадар Швайцер"
+ },
+ {
+  "key": "candidates|together:53|display_name",
+  "he": "עופר ערד",
+  "value": "Офер Арад"
+ },
+ {
+  "key": "candidates|together:53|official_name",
+  "he": "ערד עופר",
+  "value": "Офер Арад"
+ },
+ {
+  "key": "candidates|together:54|display_name",
+  "he": "יהודה חיימוביץ",
+  "value": "Йехуда Хаймович"
+ },
+ {
+  "key": "candidates|together:54|official_name",
+  "he": "חיימוביץ יהודה",
+  "value": "Йехуда Хаймович"
+ },
+ {
+  "key": "candidates|together:55|display_name",
+  "he": "קליין בר נוי אמונה חן",
+  "value": "Хен Эмуна Кляйн Бар-Ной"
+ },
+ {
+  "key": "candidates|together:56|display_name",
+  "he": "גסאן כראם",
+  "value": "Гассан Карам"
+ },
+ {
+  "key": "candidates|together:56|official_name",
+  "he": "כראם גסאן",
+  "value": "Гассан Карам"
+ },
+ {
+  "key": "candidates|together:57|display_name",
+  "he": "אליס אחרק",
+  "value": "Алис Ахрак"
+ },
+ {
+  "key": "candidates|together:57|official_name",
+  "he": "אחרק אליס",
+  "value": "Алис Ахрак"
+ },
+ {
+  "key": "candidates|together:58|display_name",
+  "he": "שי-לי שאשא",
+  "value": "Шай-Ли Шаша"
+ },
+ {
+  "key": "candidates|together:58|official_name",
+  "he": "שאשא שי-לי",
+  "value": "Шай-Ли Шаша"
+ },
+ {
+  "key": "candidates|together:59|display_name",
+  "he": "רז חוה שרון",
+  "value": "Хава Шарон Раз"
+ },
+ {
+  "key": "candidates|together:60|display_name",
+  "he": "אלידור שילה",
+  "value": "Элидор Шило"
+ },
+ {
+  "key": "candidates|together:60|official_name",
+  "he": "שילה אלידור",
+  "value": "Элидор Шило"
+ },
+ {
+  "key": "candidates|together:61|display_name",
+  "he": "מרגוליס מישאל אסנת",
+  "value": "Асната Мишаэль Маргулис"
+ },
+ {
+  "key": "candidates|together:62|display_name",
+  "he": "זיו ורהפטיג",
+  "value": "Зив Верхафтиг"
+ },
+ {
+  "key": "candidates|together:62|official_name",
+  "he": "ורהפטיג זיו",
+  "value": "Зив Верхафтиг"
+ },
+ {
+  "key": "candidates|together:63|display_name",
+  "he": "רועי מרגלית",
+  "value": "Рои Маргалит"
+ },
+ {
+  "key": "candidates|together:63|official_name",
+  "he": "מרגלית רועי",
+  "value": "Рои Маргалит"
+ },
+ {
+  "key": "candidates|together:64|display_name",
+  "he": "שחר פאר-לי פנינה",
+  "value": "Пнина Шахар Пэр-Ли"
+ },
+ {
+  "key": "candidates|together:65|display_name",
+  "he": "אליעזר לוין",
+  "value": "Элиэзер Левин"
+ },
+ {
+  "key": "candidates|together:65|official_name",
+  "he": "לוין אליעזר",
+  "value": "Элиэзер Левин"
+ },
+ {
+  "key": "candidates|together:66|display_name",
+  "he": "זנקו אברהם אורי",
+  "value": "Ури Авраам Занко"
+ },
+ {
+  "key": "candidates|together:67|display_name",
+  "he": "משה גוטרמן נטלי",
+  "value": "Натали Моше Гутерман"
+ },
+ {
+  "key": "candidates|together:68|display_name",
+  "he": "דמוז גובזה",
+  "value": "Дамуз Губза"
+ },
+ {
+  "key": "candidates|together:68|official_name",
+  "he": "גובזה דמוז",
+  "value": "Дамуз Губза"
+ },
+ {
+  "key": "candidates|together:69|display_name",
+  "he": "מאור עפר פליקס",
+  "value": "Феликс Офер Маор"
+ },
+ {
+  "key": "candidates|together:70|display_name",
+  "he": "רואי דוד",
+  "value": "Рои Давид"
+ },
+ {
+  "key": "candidates|together:70|official_name",
+  "he": "דוד רואי",
+  "value": "Рои Давид"
+ },
+ {
+  "key": "candidates|together:71|display_name",
+  "he": "ארז דרורי",
+  "value": "Эрез Дрори"
+ },
+ {
+  "key": "candidates|together:71|official_name",
+  "he": "דרורי ארז",
+  "value": "Эрез Дрори"
+ },
+ {
+  "key": "candidates|together:72|display_name",
+  "he": "יוני ארקין",
+  "value": "Йони Аркин"
+ },
+ {
+  "key": "candidates|together:72|official_name",
+  "he": "ארקין יוני",
+  "value": "Йони Аркин"
+ },
+ {
+  "key": "candidates|together:73|display_name",
+  "he": "אורן קציר",
+  "value": "Орен Кацир"
+ },
+ {
+  "key": "candidates|together:73|official_name",
+  "he": "קציר אורן",
+  "value": "Орен Кацир"
+ },
+ {
+  "key": "candidates|together:74|display_name",
+  "he": "צוקרמן חטואל לידיה",
+  "value": "Лидия Хатуэль Цукерман"
+ },
+ {
+  "key": "candidates|together:75|display_name",
+  "he": "נמרוד ברוך",
+  "value": "Нимрод Барух"
+ },
+ {
+  "key": "candidates|together:75|official_name",
+  "he": "ברוך נמרוד",
+  "value": "Нимрод Барух"
+ },
+ {
+  "key": "candidates|together:76|display_name",
+  "he": "רונית יובל",
+  "value": "Ронит Юваль"
+ },
+ {
+  "key": "candidates|together:76|official_name",
+  "he": "יובל רונית",
+  "value": "Ронит Юваль"
+ },
+ {
+  "key": "candidates|together:77|display_name",
+  "he": "אלקובי בת שבע",
+  "value": "Бат-Шева Алкоби"
+ },
+ {
+  "key": "candidates|together:78|display_name",
+  "he": "גלית קוניק-הופמן",
+  "value": "Галит Коник-Хофман"
+ },
+ {
+  "key": "candidates|together:78|official_name",
+  "he": "קוניק-הופמן גלית",
+  "value": "Галит Коник-Хофман"
+ },
+ {
+  "key": "candidates|together:79|display_name",
+  "he": "אוריה גרושקא",
+  "value": "Урия Грушка"
+ },
+ {
+  "key": "candidates|together:79|official_name",
+  "he": "גרושקא אוריה",
+  "value": "Урия Грушка"
+ },
+ {
+  "key": "candidates|together:80|display_name",
+  "he": "אסף אברמוביץ",
+  "value": "Асаф Абрамович"
+ },
+ {
+  "key": "candidates|together:80|official_name",
+  "he": "אברמוביץ אסף",
+  "value": "Асаф Абрамович"
+ },
+ {
+  "key": "candidates|together:81|display_name",
+  "he": "עינת כרמל",
+  "value": "Эйнат Кармель"
+ },
+ {
+  "key": "candidates|together:81|official_name",
+  "he": "כרמל עינת",
+  "value": "Эйнат Кармель"
+ },
+ {
+  "key": "candidates|together:82|display_name",
+  "he": "סבג אפק משה",
+  "value": "Моше Афек Сабаг"
+ },
+ {
+  "key": "candidates|together:83|display_name",
+  "he": "נוברוזוב פרצוב בטוליה טלי",
+  "value": "Тали Бетулия Новрозов-Перцов"
+ },
+ {
+  "key": "candidates|together:84|display_name",
+  "he": "טל הויגר",
+  "value": "Таль Хойгер"
+ },
+ {
+  "key": "candidates|together:84|official_name",
+  "he": "הויגר טל",
+  "value": "Таль Хойгер"
+ },
+ {
+  "key": "candidates|together:85|display_name",
+  "he": "פולאק איתי דוד",
+  "value": "Итай Давид Полак"
+ },
+ {
+  "key": "candidates|together:86|display_name",
+  "he": "ילי קלריך",
+  "value": "Или Кларих"
+ },
+ {
+  "key": "candidates|together:86|official_name",
+  "he": "קלריך ילי",
+  "value": "Или Кларих"
+ },
+ {
+  "key": "candidates|together:87|display_name",
+  "he": "נמרוד אקרמן",
+  "value": "Нимрод Акерман"
+ },
+ {
+  "key": "candidates|together:87|official_name",
+  "he": "אקרמן נמרוד",
+  "value": "Нимрод Акерман"
+ },
+ {
+  "key": "candidates|together:88|display_name",
+  "he": "שגית עבו",
+  "value": "Шагит Абу"
+ },
+ {
+  "key": "candidates|together:88|official_name",
+  "he": "עבו שגית",
+  "value": "Шагит Абу"
+ },
+ {
+  "key": "candidates|together:89|display_name",
+  "he": "עדי מן",
+  "value": "Ади Ман"
+ },
+ {
+  "key": "candidates|together:89|official_name",
+  "he": "מן עדי",
+  "value": "Ади Ман"
+ },
+ {
+  "key": "candidates|together:90|display_name",
+  "he": "טלי אגרונוב",
+  "value": "Тали Агронов"
+ },
+ {
+  "key": "candidates|together:90|official_name",
+  "he": "אגרונוב טלי",
+  "value": "Тали Агронов"
+ },
+ {
+  "key": "candidates|together:91|display_name",
+  "he": "אברהמי מאירי סתיו",
+  "value": "Став Меири Авраами"
+ },
+ {
+  "key": "candidates|together:92|display_name",
+  "he": "עידו ווגלטר",
+  "value": "Идо Вогельтер"
+ },
+ {
+  "key": "candidates|together:92|official_name",
+  "he": "ווגלטר עידו",
+  "value": "Идо Вогельтер"
+ },
+ {
+  "key": "candidates|together:93|display_name",
+  "he": "גלעד בר",
+  "value": "Гилад Бар"
+ },
+ {
+  "key": "candidates|together:93|official_name",
+  "he": "בר גלעד",
+  "value": "Гилад Бар"
+ },
+ {
+  "key": "candidates|together:94|display_name",
+  "he": "סימון הרצוג צביה",
+  "value": "Цвия Симон Герцог"
+ },
+ {
+  "key": "candidates|together:95|display_name",
+  "he": "אריק סטון",
+  "value": "Арик Стоун"
+ },
+ {
+  "key": "candidates|together:95|official_name",
+  "he": "סטון אריק",
+  "value": "Арик Стоун"
+ },
+ {
+  "key": "candidates|together:96|display_name",
+  "he": "דנה קרין אליז",
+  "value": "Дана Карин Элиз"
+ },
+ {
+  "key": "candidates|together:97|display_name",
+  "he": "אייל פייבל",
+  "value": "Эяль Файбель"
+ },
+ {
+  "key": "candidates|together:97|official_name",
+  "he": "פייבל אייל",
+  "value": "Эяль Файбель"
+ },
+ {
+  "key": "candidates|together:98|display_name",
+  "he": "יעקובובסקי איב חיים",
+  "value": "Хаим Ив Якововски"
+ },
+ {
+  "key": "candidates|together:99|display_name",
+  "he": "בן ישי יעקב",
+  "value": "Яаков Бен-Ишай"
+ }
+]

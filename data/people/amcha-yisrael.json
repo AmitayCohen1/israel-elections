@@ -1,0 +1,131 @@
+{
+  "slug": "amcha-yisrael",
+  "researched_at": "2026-10-04",
+  "people": [
+    {
+      "position": 1,
+      "name": "עופר וינטר",
+      "headline": "תת-אלוף במילואים, מפקד עוצבת האש, מייסד \"עמך ישראל\"",
+      "facts": [
+        {
+          "label": "שירות צבאי ולאומי",
+          "value": "מפקד עוצבת האש, מפקד חטיבת גבעתי, מפקד חטיבת שועלי מרום",
+          "source_url": "https://he.wikipedia.org/wiki/%D7%A2%D7%95%D7%A4%D7%A8_%D7%95%D7%99%D7%A0%D7%98%D7%A8"
+        },
+        {
+          "label": "שירות צבאי ולאומי",
+          "value": "המזכיר הצבאי של שר הביטחון, ראש מטה פיקוד המרכז",
+          "source_url": "https://he.wikipedia.org/wiki/%D7%A2%D7%95%D7%A4%D7%A8_%D7%95%D7%99%D7%A0%D7%98%D7%A8"
+        },
+        {
+          "label": "תפקידים ציבוריים",
+          "value": "מייסד וראש מפלגת \"עמך ישראל\"",
+          "source_url": "https://he.wikipedia.org/wiki/%D7%A2%D7%95%D7%A4%D7%A8_%D7%95%D7%99%D7%A0%D7%98%D7%A8"
+        }
+      ],
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "position": 2,
+      "name": "יוסף חדאד",
+      "headline": "פעיל הסברה, שדר לשעבר ב-i24NEWS, ממקימי עמותת \"ביחד\"",
+      "facts": [
+        {
+          "label": "שירות צבאי ולאומי",
+          "value": "שירת בגולני מ-2003, לחם במלחמת לבנון השנייה",
+          "source_url": "https://he.wikipedia.org/wiki/%D7%99%D7%95%D7%A1%D7%A3_%D7%97%D7%93%D7%90%D7%93"
+        },
+        {
+          "label": "רקע מקצועי",
+          "value": "שדר ב-i24NEWS 2021–2024",
+          "source_url": "https://he.wikipedia.org/wiki/%D7%99%D7%95%D7%A1%D7%A3_%D7%97%D7%93%D7%90%D7%93"
+        },
+        {
+          "label": "תפקידים ציבוריים",
+          "value": "ממקימי עמותת \"ביחד – ערבים זה לזה\" ומנכ\"לה עד אוגוסט 2026",
+          "source_url": "https://he.wikipedia.org/wiki/%D7%99%D7%95%D7%A1%D7%A3_%D7%97%D7%93%D7%90%D7%93"
+        },
+        {
+          "label": "השכלה",
+          "value": "בוגר תוכנית LEAD20 ב-MIT",
+          "source_url": "https://he.wikipedia.org/wiki/%D7%99%D7%95%D7%A1%D7%A3_%D7%97%D7%93%D7%90%D7%93"
+        }
+      ],
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "position": 3,
+      "name": "נטעלי שם טוב",
+      "headline": "עיתונאית ושדרנית חדשות, הגישה את \"זמן שישי\" בחדשות 13",
+      "facts": [
+        {
+          "label": "רקע מקצועי",
+          "value": "מגישת חדשות בחברת החדשות מ-2013; בחדשות 13 מ-2023",
+          "source_url": "https://he.wikipedia.org/wiki/%D7%A0%D7%98%D7%A2%D7%9C%D7%99_%D7%A9%D7%9D_%D7%98%D7%95%D7%91"
+        },
+        {
+          "label": "שירות צבאי ולאומי",
+          "value": "שירתה ביחידת דובר צה\"ל, שוחררה בדרגת סרן",
+          "source_url": "https://he.wikipedia.org/wiki/%D7%A0%D7%98%D7%A2%D7%9C%D7%99_%D7%A9%D7%9D_%D7%98%D7%95%D7%91"
+        },
+        {
+          "label": "השכלה",
+          "value": "תואר שני בתקשורת פוליטית, אוניברסיטת תל אביב",
+          "source_url": "https://he.wikipedia.org/wiki/%D7%A0%D7%98%D7%A2%D7%9C%D7%99_%D7%A9%D7%9D_%D7%98%D7%95%D7%91"
+        },
+        {
+          "label": "תפקידים ציבוריים",
+          "value": "הנחתה את טקס הדלקת המשואות ה-77 (2025)",
+          "source_url": "https://he.wikipedia.org/wiki/%D7%A0%D7%98%D7%A2%D7%9C%D7%99_%D7%A9%D7%9D_%D7%98%D7%95%D7%91"
+        }
+      ],
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "position": 4,
+      "name": "ערן בן ארי",
+      "headline": "עורך דין, יו\"ר האופוזיציה בלשכת עורכי הדין (2026)",
+      "facts": [
+        {
+          "label": "תפקידים ציבוריים",
+          "value": "מתואר בכתבה כיו\"ר האופוזיציה בלשכת עורכי הדין (2026)",
+          "source_url": "https://www.ice.co.il/local-news/news/article/1127155"
+        }
+      ],
+      "confidence": "low",
+      "notes": "מקור יחיד, פרט אחד."
+    },
+    {
+      "position": 5,
+      "name": "פלר חסן-נחום",
+      "headline": "עורכת דין, משנה לראש עיריית ירושלים לשעבר, שליחת משרד החוץ",
+      "facts": [
+        {
+          "label": "רקע מקצועי",
+          "value": "פרקליטה מוסמכת בלונדון מ-1997; עלתה לישראל ב-2001",
+          "source_url": "https://he.wikipedia.org/wiki/%D7%A4%D7%9C%D7%A8_%D7%97%D7%A1%D7%9F-%D7%A0%D7%97%D7%95%D7%9D"
+        },
+        {
+          "label": "תפקידים ציבוריים",
+          "value": "חברת מועצת ירושלים ומשנה לראש העירייה עד מרץ 2023",
+          "source_url": "https://he.wikipedia.org/wiki/%D7%A4%D7%9C%D7%A8_%D7%97%D7%A1%D7%9F-%D7%A0%D7%97%D7%95%D7%9D"
+        },
+        {
+          "label": "תפקידים ציבוריים",
+          "value": "2023: שליחה מיוחדת של משרד החוץ לענייני חדשנות",
+          "source_url": "https://he.wikipedia.org/wiki/%D7%A4%D7%9C%D7%A8_%D7%97%D7%A1%D7%9F-%D7%A0%D7%97%D7%95%D7%9D"
+        },
+        {
+          "label": "תפקידים ציבוריים",
+          "value": "2020: ממקימות הפורום העסקי איחוד האמירויות–ישראל",
+          "source_url": "https://he.wikipedia.org/wiki/%D7%A4%D7%9C%D7%A8_%D7%97%D7%A1%D7%9F-%D7%A0%D7%97%D7%95%D7%9D"
+        }
+      ],
+      "confidence": "high",
+      "notes": ""
+    }
+  ]
+}

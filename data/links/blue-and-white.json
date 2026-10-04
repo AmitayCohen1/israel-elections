@@ -1,0 +1,48 @@
+{
+  "slug": "blue-and-white",
+  "researched_at": "2026-10-03",
+  "links": [
+    {
+      "url": "https://kachollavan.org.il/",
+      "kind": "website",
+      "title": "האתר הרשמי",
+      "owner": "list",
+      "found_via": "seed; returns 403 to scrapers",
+      "status": "unreachable"
+    },
+    {
+      "url": "https://kachollavan.org.il/wp-content/uploads/2022/09/principles.pdf",
+      "kind": "platform",
+      "title": "מסמך עקרונות (2022)",
+      "owner": "list",
+      "found_via": "seed in sources.json",
+      "status": "unreachable"
+    },
+    {
+      "url": "https://www.instagram.com/gantzbe/",
+      "kind": "leader_instagram",
+      "title": "האינסטגרם של בני גנץ",
+      "owner": "בני גנץ",
+      "found_via": "opened; bio says leader of Blue and White; links Threads and WhatsApp channel",
+      "status": "ok"
+    },
+    {
+      "url": "https://x.com/gantzbe",
+      "kind": "leader_x",
+      "title": "חשבון X של בני גנץ",
+      "owner": "בני גנץ",
+      "found_via": "web search result titled Benny Gantz",
+      "status": "login-wall"
+    },
+    {
+      "url": "https://www.facebook.com/BeGantz",
+      "kind": "leader_facebook",
+      "title": "עמוד הפייסבוק של בני גנץ",
+      "owner": "בני גנץ",
+      "found_via": "web search snippet, opened (page name Benny Gantz)",
+      "status": "login-wall"
+    }
+  ],
+  "unverified": [],
+  "notes": "Site and gov.il blocked (403), so party-level social links not extracted. Gantz Instagram bio links Threads and a WhatsApp channel; hrefs not visible via fetch, worth extracting later."
+}

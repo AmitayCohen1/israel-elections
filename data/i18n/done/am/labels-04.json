@@ -1,0 +1,602 @@
+[
+ {
+  "key": "people|sharshar:2|headline",
+  "he": "סוכנת נסיעות",
+  "value": "የጉዞ ወኪል (ሴት)"
+ },
+ {
+  "key": "people|sharshar:2|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|shas:1|headline",
+  "he": "ממייסדי ש\"ס, יו\"ר התנועה מ-2013, שר הפנים לשעבר",
+  "value": "ከሽ\"ስ መስራቾች አንዱ፣ ከ2013 ጀምሮ የንቅናቄው ሊቀ መንበር፣ የቀድሞ የውስጥ ጉዳይ ሚኒስትር"
+ },
+ {
+  "key": "people|shas:1|facts.0.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|shas:1|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|shas:1|facts.2.label",
+  "he": "כנסת",
+  "value": "ክኔሴት"
+ },
+ {
+  "key": "people|shas:2|headline",
+  "he": "חבר כנסת מטעם ש\"ס מ-2018, יו\"ר סיעת ש\"ס",
+  "value": "ከ2018 ጀምሮ በሽ\"ስ የክኔሴት አባል፣ የሽ\"ስ ቡድን ሊቀ መንበር"
+ },
+ {
+  "key": "people|shas:2|facts.0.label",
+  "he": "כנסת",
+  "value": "ክኔሴት"
+ },
+ {
+  "key": "people|shas:2|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|shas:2|facts.2.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "ወታደራዊና ሀገራዊ አገልግሎት"
+ },
+ {
+  "key": "people|shas:3|headline",
+  "he": "מרצה בישיבה, חבר מועצת עיריית ירושלים, שר לשירותי דת לשעבר",
+  "value": "የየሺቫ መምህር፣ የኢየሩሳሌም ከተማ ምክር ቤት አባል፣ የቀድሞ የሃይማኖት አገልግሎቶች ሚኒስትር"
+ },
+ {
+  "key": "people|shas:3|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|shas:3|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|shas:3|facts.2.label",
+  "he": "כנסת",
+  "value": "ክኔሴት"
+ },
+ {
+  "key": "people|shas:3|facts.3.label",
+  "he": "השכלה",
+  "value": "ትምህርት"
+ },
+ {
+  "key": "people|shas:4|headline",
+  "he": "מנכ\"ל חברת המשקם ורשת מעיין החינוך התורני, שר העבודה לשעבר",
+  "value": "የሃሚሽኬም ኩባንያ እና የማዕይን ሃሂኑኽ ሃተራኒ ትምህርት መረብ ዋና ዳይሬክተር፣ የቀድሞ የሥራ ሚኒስትር"
+ },
+ {
+  "key": "people|shas:4|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|shas:4|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|shas:4|facts.2.label",
+  "he": "כנסת",
+  "value": "ክኔሴት"
+ },
+ {
+  "key": "people|shas:4|facts.3.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "ወታደራዊና ሀገራዊ አገልግሎት"
+ },
+ {
+  "key": "people|shas:5|headline",
+  "he": "מנכ\"ל ש\"ס, מנכ\"ל רשת בני יוסף, שר החינוך לשעבר",
+  "value": "የሽ\"ስ ዋና ዳይሬክተር፣ የቤኔ ዮሴፍ መረብ ዋና ዳይሬክተር፣ የቀድሞ የትምህርት ሚኒስትር"
+ },
+ {
+  "key": "people|shas:5|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|shas:5|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|shas:5|facts.2.label",
+  "he": "כנסת",
+  "value": "ክኔሴት"
+ },
+ {
+  "key": "people|together:1|headline",
+  "he": "יזם הייטק, ראש הממשלה לשעבר",
+  "value": "የከፍተኛ ቴክኖሎጂ ሥራ ፈጣሪ፣ የቀድሞ ጠቅላይ ሚኒስትር"
+ },
+ {
+  "key": "people|together:1|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|together:1|facts.1.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "ወታደራዊና ሀገራዊ አገልግሎት"
+ },
+ {
+  "key": "people|together:1|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|together:1|facts.3.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|together:2|headline",
+  "he": "עיתונאי ומנחה טלוויזיה, ראש הממשלה לשעבר",
+  "value": "ጋዜጠኛና የቴሌቪዥን አቅራቢ፣ የቀድሞ ጠቅላይ ሚኒስትር"
+ },
+ {
+  "key": "people|together:2|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|together:2|facts.1.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "ወታደራዊና ሀገራዊ አገልግሎት"
+ },
+ {
+  "key": "people|together:2|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|together:2|facts.3.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|together:3|headline",
+  "he": "מנהלת כללית לשעבר של משרד התחבורה ושל משרד האוצר",
+  "value": "የቀድሞ የትራንስፖርት ሚኒስቴር እና የገንዘብ ሚኒስቴር ዋና ዳይሬክተር (ሴት)"
+ },
+ {
+  "key": "people|together:3|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|together:3|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|together:3|facts.2.label",
+  "he": "השכלה",
+  "value": "ትምህርት"
+ },
+ {
+  "key": "people|together:3|facts.3.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "ወታደራዊና ሀገራዊ አገልግሎት"
+ },
+ {
+  "key": "people|together:4|headline",
+  "he": "חברת כנסת, מייסדת מרכזי נוער",
+  "value": "የክኔሴት አባል፣ የወጣቶች ማዕከላት መስራች (ሴት)"
+ },
+ {
+  "key": "people|together:4|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|together:4|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|together:4|facts.2.label",
+  "he": "כנסת",
+  "value": "ክኔሴት"
+ },
+ {
+  "key": "people|together:4|facts.3.label",
+  "he": "השכלה",
+  "value": "ትምህርት"
+ },
+ {
+  "key": "people|together:5|headline",
+  "he": "מנכ\"ל לשעבר של משרד התקשורת, עורך דין",
+  "value": "የቀድሞ የኮሙኒኬሽን ሚኒስቴር ዋና ዳይሬክተር፣ ጠበቃ"
+ },
+ {
+  "key": "people|together:5|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|together:5|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|together:5|facts.2.label",
+  "he": "השכלה",
+  "value": "ትምህርት"
+ },
+ {
+  "key": "people|tzomet-beit-israel:1|headline",
+  "he": "סגן שר לשעבר, חבר כנסת לשעבר, יו\"ר מפלגת בית ישראל",
+  "value": "የቀድሞ ምክትል ሚኒስትር፣ የቀድሞ የክኔሴት አባል፣ የቤት እስራኤል ፓርቲ ሊቀ መንበር"
+ },
+ {
+  "key": "people|tzomet-beit-israel:1|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "ወታደራዊና ሀገራዊ አገልግሎት"
+ },
+ {
+  "key": "people|tzomet-beit-israel:1|facts.1.label",
+  "he": "כנסת",
+  "value": "ክኔሴት"
+ },
+ {
+  "key": "people|tzomet-beit-israel:1|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|tzomet-beit-israel:1|facts.3.label",
+  "he": "השכלה",
+  "value": "ትምህርት"
+ },
+ {
+  "key": "people|tzomet-beit-israel:2|headline",
+  "he": "יו\"ר מפלגת צומת",
+  "value": "የጾሜት ፓርቲ ሊቀ መንበር"
+ },
+ {
+  "key": "people|tzomet-beit-israel:2|facts.0.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|utj:1|headline",
+  "he": "ראש עיריית בני ברק לשעבר, חבר כנסת",
+  "value": "የቀድሞ የቤኔ ብራክ ከንቲባ፣ የክኔሴት አባል"
+ },
+ {
+  "key": "people|utj:1|facts.0.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|utj:1|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|utj:1|facts.2.label",
+  "he": "כנסת",
+  "value": "ክኔሴት"
+ },
+ {
+  "key": "people|utj:2|headline",
+  "he": "מנהל מוסדות חינוך, שר הבינוי והשיכון לשעבר",
+  "value": "የትምህርት ተቋማት አስተዳዳሪ፣ የቀድሞ የግንባታና መኖሪያ ቤት ሚኒስትር"
+ },
+ {
+  "key": "people|utj:2|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|utj:2|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|utj:2|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|utj:2|facts.3.label",
+  "he": "כנסת",
+  "value": "ክኔሴት"
+ },
+ {
+  "key": "people|utj:3|headline",
+  "he": "ראש עיריית ביתר עילית לשעבר, חבר כנסת",
+  "value": "የቀድሞ የቤታር ዒሊት ከንቲባ፣ የክኔሴት አባል"
+ },
+ {
+  "key": "people|utj:3|facts.0.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|utj:3|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|utj:3|facts.2.label",
+  "he": "כנסת",
+  "value": "ክኔሴት"
+ },
+ {
+  "key": "people|utj:4|headline",
+  "he": "חבר כנסת, שר ירושלים ומורשת לשעבר",
+  "value": "የክኔሴት አባል፣ የቀድሞ የኢየሩሳሌምና የቅርስ ሚኒስትር"
+ },
+ {
+  "key": "people|utj:4|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|utj:4|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|utj:4|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|utj:4|facts.3.label",
+  "he": "כנסת",
+  "value": "ክኔሴት"
+ },
+ {
+  "key": "people|yashar:1|headline",
+  "he": "רב-אלוף במילואים, הרמטכ\"ל לשעבר",
+  "value": "በተጠባባቂ ሌተና ጄኔራል፣ የቀድሞ የጦር ኃይሎች ኤታማዦር ሹም"
+ },
+ {
+  "key": "people|yashar:1|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "ወታደራዊና ሀገራዊ አገልግሎት"
+ },
+ {
+  "key": "people|yashar:1|facts.1.label",
+  "he": "השכלה",
+  "value": "ትምህርት"
+ },
+ {
+  "key": "people|yashar:1|facts.2.label",
+  "he": "כנסת",
+  "value": "ክኔሴት"
+ },
+ {
+  "key": "people|yashar:1|facts.3.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|yashar:2|headline",
+  "he": "ראש השב\"כ לשעבר",
+  "value": "የቀድሞ የሺን ቤት (ሻባክ) ኃላፊ"
+ },
+ {
+  "key": "people|yashar:2|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "ወታደራዊና ሀገራዊ አገልግሎት"
+ },
+ {
+  "key": "people|yashar:2|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|yashar:2|facts.2.label",
+  "he": "השכלה",
+  "value": "ትምህርት"
+ },
+ {
+  "key": "people|yashar:2|facts.3.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|yashar:3|headline",
+  "he": "עורכת דין, שרת התיירות לשעבר",
+  "value": "ጠበቃ፣ የቀድሞ የቱሪዝም ሚኒስትር (ሴት)"
+ },
+ {
+  "key": "people|yashar:3|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|yashar:3|facts.1.label",
+  "he": "השכלה",
+  "value": "ትምህርት"
+ },
+ {
+  "key": "people|yashar:3|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|yashar:3|facts.3.label",
+  "he": "כנסת",
+  "value": "ክኔሴት"
+ },
+ {
+  "key": "people|yashar:4|headline",
+  "he": "מייסדת תנועת נוער לילדים עם צרכים מיוחדים, יזמת חברתית",
+  "value": "ልዩ ፍላጎት ላላቸው ሕፃናት የወጣቶች ንቅናቄ መስራች፣ ማኅበራዊ ሥራ ፈጣሪ (ሴት)"
+ },
+ {
+  "key": "people|yashar:4|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|yashar:4|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|yashar:4|facts.2.label",
+  "he": "השכלה",
+  "value": "ትምህርት"
+ },
+ {
+  "key": "people|yashar:4|facts.3.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|yashar:5|headline",
+  "he": "אלוף-משנה במילואים, טייס קרב, שר לשעבר",
+  "value": "በተጠባባቂ ኮሎኔል፣ ተዋጊ አውሮፕላን አብራሪ፣ የቀድሞ ሚኒስትር"
+ },
+ {
+  "key": "people|yashar:5|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "ወታደራዊና ሀገራዊ አገልግሎት"
+ },
+ {
+  "key": "people|yashar:5|facts.1.label",
+  "he": "השכלה",
+  "value": "ትምህርት"
+ },
+ {
+  "key": "people|yashar:5|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|yashar:5|facts.3.label",
+  "he": "כנסת",
+  "value": "ክኔሴት"
+ },
+ {
+  "key": "people|yisrael-beiteinu:1|headline",
+  "he": "מייסד ויו\"ר ישראל ביתנו, שר הביטחון לשעבר",
+  "value": "የእስራኤል ቤተናው መስራችና ሊቀ መንበር፣ የቀድሞ የመከላከያ ሚኒስትር"
+ },
+ {
+  "key": "people|yisrael-beiteinu:1|facts.0.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|yisrael-beiteinu:1|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|yisrael-beiteinu:1|facts.2.label",
+  "he": "כנסת",
+  "value": "ክኔሴት"
+ },
+ {
+  "key": "people|yisrael-beiteinu:1|facts.3.label",
+  "he": "השכלה",
+  "value": "ትምህርት"
+ },
+ {
+  "key": "people|yisrael-beiteinu:2|headline",
+  "he": "ראש עיריית בית שאן לשעבר, מחנך",
+  "value": "የቀድሞ የቤት ሸዓን ከንቲባ፣ አስተማሪ"
+ },
+ {
+  "key": "people|yisrael-beiteinu:2|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|yisrael-beiteinu:2|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|yisrael-beiteinu:2|facts.2.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "ወታደራዊና ሀገራዊ አገልግሎት"
+ },
+ {
+  "key": "people|yisrael-beiteinu:3|headline",
+  "he": "תת-אלופה במילואים, ראשת אגף עורף במועצה לביטחון לאומי",
+  "value": "በተጠባባቂ ብርጋዴር ጄኔራል (ሴት)፣ በብሔራዊ ደኅንነት ምክር ቤት የውስጥ ግንባር ክፍል ኃላፊ"
+ },
+ {
+  "key": "people|yisrael-beiteinu:3|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "ወታደራዊና ሀገራዊ አገልግሎት"
+ },
+ {
+  "key": "people|yisrael-beiteinu:3|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|yisrael-beiteinu:3|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|yisrael-beiteinu:3|facts.3.label",
+  "he": "השכלה",
+  "value": "ትምህርት"
+ },
+ {
+  "key": "people|yisrael-beiteinu:4|headline",
+  "he": "חבר כנסת, שר החקלאות לשעבר",
+  "value": "የክኔሴት አባል፣ የቀድሞ የግብርና ሚኒስትር"
+ },
+ {
+  "key": "people|yisrael-beiteinu:4|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|yisrael-beiteinu:4|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ },
+ {
+  "key": "people|yisrael-beiteinu:4|facts.2.label",
+  "he": "כנסת",
+  "value": "ክኔሴት"
+ },
+ {
+  "key": "people|yisrael-beiteinu:4|facts.3.label",
+  "he": "השכלה",
+  "value": "ትምህርት"
+ },
+ {
+  "key": "people|yisrael-beiteinu:5|headline",
+  "he": "עורכת דין, חברת כנסת",
+  "value": "ጠበቃ፣ የክኔሴት አባል (ሴት)"
+ },
+ {
+  "key": "people|yisrael-beiteinu:5|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "የሙያ ዳራ"
+ },
+ {
+  "key": "people|yisrael-beiteinu:5|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "የሕዝብ ኃላፊነቶች"
+ }
+]

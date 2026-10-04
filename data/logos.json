@@ -1,0 +1,101 @@
+{
+  "likud": {
+    "src": "/media/logos/likud.svg",
+    "file": "Likud Logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Likud_Logo.svg",
+    "license": "Public domain",
+    "artist": "עיצוב מקורי: גדעון שגיא, עיצוב נוסף: ראובן אדלר מתוך אתר הארץ",
+    "mime": "image/svg+xml"
+  },
+  "yashar": {
+    "src": "/media/logos/yashar.png",
+    "file": "Yashar party logo.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Yashar_party_logo.png",
+    "license": "Public domain",
+    "artist": "ישר! עם איזנקוט",
+    "mime": "image/png"
+  },
+  "together": {
+    "src": "/media/logos/together.svg",
+    "file": "Together-logo-29April.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Together-logo-29April.svg",
+    "license": "Public domain",
+    "artist": "רשימת ביחד",
+    "mime": "image/svg+xml"
+  },
+  "democrats": {
+    "src": "/media/logos/democrats.svg",
+    "file": "The Democrats led by Yair Golan.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Democrats_led_by_Yair_Golan.svg",
+    "license": "Public domain",
+    "artist": "הדמוקרטים",
+    "mime": "image/svg+xml"
+  },
+  "yisrael-beiteinu": {
+    "src": "/media/logos/yisrael-beiteinu.svg",
+    "file": "Israel-beytenu-logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Israel-beytenu-logo.svg",
+    "license": "Public domain",
+    "artist": "Юкатан",
+    "mime": "image/svg+xml"
+  },
+  "otzma-yehudit": {
+    "src": "/media/logos/otzma-yehudit.svg",
+    "file": "Otzma Yehudit 2021 logo.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Otzma_Yehudit_2021_logo.svg",
+    "license": "Public domain",
+    "artist": null,
+    "mime": "image/svg+xml"
+  },
+  "joint-list": {
+    "src": "/media/logos/joint-list.svg",
+    "file": "Joint List logo 2019.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Joint_List_logo_2019.svg",
+    "license": "Public domain",
+    "artist": "Joint List",
+    "mime": "image/svg+xml"
+  },
+  "noam": {
+    "src": "/media/logos/noam.png",
+    "file": "Znak partii Noam.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Znak_partii_Noam.png",
+    "license": "CC BY-SA 4.0",
+    "artist": "PawelDS",
+    "mime": "image/png"
+  },
+  "shas": {
+    "src": "/media/logos/shas.png",
+    "file": "Shas logo.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Shas_logo.png",
+    "license": "Public domain",
+    "artist": ""
+  },
+  "blue-and-white": {
+    "src": "/media/logos/blue-and-white.png",
+    "file": "Blue and White - 2021 -1.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Blue_and_White_-_2021_-1.png",
+    "license": "CC BY-SA 3.0",
+    "artist": "מפלגת כחול לבן"
+  },
+  "israel-first": {
+    "src": "/media/logos/israel-first.png",
+    "file": "Israel First.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Israel_First.png",
+    "license": "Public domain",
+    "artist": ""
+  },
+  "pirates": {
+    "src": "/media/logos/pirates.png",
+    "file": "Piratim Party Logo.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Piratim_Party_Logo.png",
+    "license": "Public domain",
+    "artist": ""
+  },
+  "amcha-yisrael": {
+    "src": "/media/logos/amcha-yisrael.svg",
+    "file": "Amcha Yisrael.svg",
+    "page": "https://commons.wikimedia.org/wiki/File:Amcha_Yisrael.svg",
+    "license": "Public domain",
+    "artist": ""
+  }
+}

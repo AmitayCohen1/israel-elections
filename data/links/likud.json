@@ -1,0 +1,64 @@
+{
+  "slug": "likud",
+  "researched_at": "2026-10-03",
+  "links": [
+    {
+      "url": "https://www.likud.org.il/",
+      "kind": "website",
+      "title": "האתר הרשמי",
+      "owner": "list",
+      "found_via": "seed + fetched",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.facebook.com/Likudofficial",
+      "kind": "facebook",
+      "title": "עמוד הפייסבוק",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "login-wall"
+    },
+    {
+      "url": "https://www.instagram.com/likud_party/",
+      "kind": "instagram",
+      "title": "אינסטגרם",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "login-wall"
+    },
+    {
+      "url": "https://x.com/Likud_Party",
+      "kind": "x",
+      "title": "חשבון X",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "login-wall"
+    },
+    {
+      "url": "https://www.instagram.com/b.netanyahu/",
+      "kind": "leader_instagram",
+      "title": "אינסטגרם בנימין נתניהו",
+      "owner": "בנימין נתניהו",
+      "found_via": "linked from official site header/footer",
+      "status": "login-wall"
+    },
+    {
+      "url": "https://www.tiktok.com/@bnetanyahu",
+      "kind": "leader_tiktok",
+      "title": "טיקטוק בנימין נתניהו (מקושר מאתר הליכוד)",
+      "owner": "בנימין נתניהו",
+      "found_via": "linked from official site header/footer",
+      "status": "login-wall"
+    },
+    {
+      "url": "https://wa.me/972533801464",
+      "kind": "whatsapp",
+      "title": "וואטסאפ מידע למצביעים",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "ok"
+    }
+  ],
+  "unverified": [],
+  "notes": "נשלפו קישורים מאתר likud.org.il. לא נמצא ערוץ יוטיוב/טלגרם באתר. TikTok מזוהה לפי שם החשבון כשל נתניהו. לא נבדקו חשבונות נפרדים של נתניהו ב-X/פייסבוק."
+}

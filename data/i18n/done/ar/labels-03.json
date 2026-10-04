@@ -1,0 +1,602 @@
+[
+ {
+  "key": "people|noam:2|headline",
+  "he": "סגן ראש עיריית באר שבע, חבר מועצת העיר מ-2013",
+  "value": "نائب رئيس بلدية بئر السبع، عضو مجلس المدينة منذ 2013"
+ },
+ {
+  "key": "people|noam:2|facts.0.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|noam:3|headline",
+  "he": "ראש מועצת קריית ארבע לשעבר, קצין ביטחון בחברון",
+  "value": "رئيس مجلس كريات أربع سابقًا، ضابط أمن في الخليل"
+ },
+ {
+  "key": "people|noam:3|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "الخدمة العسكرية والوطنية"
+ },
+ {
+  "key": "people|noam:3|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|noam:3|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|noam:4|headline",
+  "he": "אשת חינוך, מנכ\"לית רשת בתי ספר לשעבר",
+  "value": "تربوية، المديرة العامة السابقة لشبكة مدارس"
+ },
+ {
+  "key": "people|noam:4|facts.0.label",
+  "he": "השכלה",
+  "value": "التعليم"
+ },
+ {
+  "key": "people|noam:4|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|noam:5|headline",
+  "he": "אשת חינוך וניהול, מנכ\"לית יישובים קהילתיים לשעבר",
+  "value": "تربوية وإدارية، المديرة العامة السابقة لبلدات مجتمعية"
+ },
+ {
+  "key": "people|noam:5|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|noam:5|facts.1.label",
+  "he": "השכלה",
+  "value": "التعليم"
+ },
+ {
+  "key": "people|orot-hashahar:1|headline",
+  "he": "מנהל מוזיאון הרצל לשעבר, יו\"ר מפלגת אורות השחר",
+  "value": "مدير متحف هرتسل سابقًا، رئيس حزب أنوار الفجر"
+ },
+ {
+  "key": "people|orot-hashahar:1|facts.0.label",
+  "he": "השכלה",
+  "value": "التعليم"
+ },
+ {
+  "key": "people|orot-hashahar:1|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|orot-hashahar:2|headline",
+  "he": "מדען מדינה, מייסד ודובר מפלגת אורות השחר",
+  "value": "كبير علماء الدولة، مؤسس حزب أنوار الفجر والناطق باسمه"
+ },
+ {
+  "key": "people|orot-hashahar:2|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "الخدمة العسكرية والوطنية"
+ },
+ {
+  "key": "people|orot-hashahar:2|facts.1.label",
+  "he": "השכלה",
+  "value": "التعليم"
+ },
+ {
+  "key": "people|orot-hashahar:3|headline",
+  "he": "איש חינוך וחוקר, מייסד מכינת איתן",
+  "value": "تربوي وباحث، مؤسس المدرسة التحضيرية «إيتان»"
+ },
+ {
+  "key": "people|orot-hashahar:3|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "الخدمة العسكرية والوطنية"
+ },
+ {
+  "key": "people|orot-hashahar:3|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|orot-hashahar:3|facts.2.label",
+  "he": "השכלה",
+  "value": "التعليم"
+ },
+ {
+  "key": "people|orot-hashahar:4|headline",
+  "he": "מומחה להתיישבות וחקלאות",
+  "value": "خبير في الاستيطان والزراعة"
+ },
+ {
+  "key": "people|orot-hashahar:4|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|orot-hashahar:5|headline",
+  "he": "רב, עורך דין ופובליציסט",
+  "value": "حاخام ومحامٍ وكاتب مقالات"
+ },
+ {
+  "key": "people|orot-hashahar:5|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|otzma-yehudit:1|headline",
+  "he": "עורך דין, שר לביטחון לאומי מ-2022",
+  "value": "محامٍ، وزير الأمن القومي منذ 2022"
+ },
+ {
+  "key": "people|otzma-yehudit:1|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|otzma-yehudit:1|facts.1.label",
+  "he": "השכלה",
+  "value": "التعليم"
+ },
+ {
+  "key": "people|otzma-yehudit:1|facts.2.label",
+  "he": "כנסת",
+  "value": "الكنيست"
+ },
+ {
+  "key": "people|otzma-yehudit:1|facts.3.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|otzma-yehudit:2|headline",
+  "he": "עורכת דין, חברת כנסת מ-2022",
+  "value": "محامية، عضو كنيست منذ 2022"
+ },
+ {
+  "key": "people|otzma-yehudit:2|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|otzma-yehudit:2|facts.1.label",
+  "he": "השכלה",
+  "value": "التعليم"
+ },
+ {
+  "key": "people|otzma-yehudit:2|facts.2.label",
+  "he": "כנסת",
+  "value": "الكنيست"
+ },
+ {
+  "key": "people|otzma-yehudit:3|headline",
+  "he": "שר לפיתוח הנגב והגליל, חבר כנסת מ-2022",
+  "value": "وزير تطوير النقب والجليل، عضو كنيست منذ 2022"
+ },
+ {
+  "key": "people|otzma-yehudit:3|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "الخدمة العسكرية والوطنية"
+ },
+ {
+  "key": "people|otzma-yehudit:3|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|otzma-yehudit:3|facts.2.label",
+  "he": "כנסת",
+  "value": "الكنيست"
+ },
+ {
+  "key": "people|otzma-yehudit:3|facts.3.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|otzma-yehudit:4|headline",
+  "he": "מחנך, שר המורשת",
+  "value": "مربٍّ، وزير التراث"
+ },
+ {
+  "key": "people|otzma-yehudit:4|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|otzma-yehudit:4|facts.1.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "الخدمة العسكرية والوطنية"
+ },
+ {
+  "key": "people|otzma-yehudit:4|facts.2.label",
+  "he": "כנסת",
+  "value": "الكنيست"
+ },
+ {
+  "key": "people|otzma-yehudit:4|facts.3.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|otzma-yehudit:5|headline",
+  "he": "חברת כנסת, יועצת לטיפול רגשי והדרכת הורים",
+  "value": "عضو كنيست، مستشارة في العلاج العاطفي وإرشاد الأهل"
+ },
+ {
+  "key": "people|otzma-yehudit:5|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|otzma-yehudit:5|facts.1.label",
+  "he": "השכלה",
+  "value": "التعليم"
+ },
+ {
+  "key": "people|otzma-yehudit:5|facts.2.label",
+  "he": "כנסת",
+  "value": "الكنيست"
+ },
+ {
+  "key": "people|pirates:1|headline",
+  "he": "ממקימי מפלגת הפיראטים, עמד בראש רשימתה ב-2013 וב-2021",
+  "value": "أحد مؤسسي حزب القراصنة، ترأس قائمته في 2013 و2021"
+ },
+ {
+  "key": "people|pirates:1|facts.0.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|pirates:1|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|pirates:2|headline",
+  "he": "ממנהיגי מפלגת הפיראטים, עמד בראש רשימתה בכמה מערכות בחירות",
+  "value": "أحد قادة حزب القراصنة، ترأس قائمته في عدة حملات انتخابية"
+ },
+ {
+  "key": "people|pirates:2|facts.0.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|raam:1|headline",
+  "he": "רופא שיניים, יו\"ר רע\"מ מ-2018, חבר כנסת",
+  "value": "طبيب أسنان، رئيس القائمة العربية الموحدة منذ 2018، عضو كنيست"
+ },
+ {
+  "key": "people|raam:1|facts.0.label",
+  "he": "השכלה",
+  "value": "التعليم"
+ },
+ {
+  "key": "people|raam:1|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|raam:1|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|raam:1|facts.3.label",
+  "he": "כנסת",
+  "value": "الكنيست"
+ },
+ {
+  "key": "people|raam:2|headline",
+  "he": "ניצב (דימוס) במשטרה, מקים להב 433, סגן שר לביטחון הפנים לשעבר",
+  "value": "لواء (متقاعد) في الشرطة، مؤسس لاهف 433، نائب وزير الأمن الداخلي سابقًا"
+ },
+ {
+  "key": "people|raam:2|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "الخدمة العسكرية والوطنية"
+ },
+ {
+  "key": "people|raam:2|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|raam:2|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|raam:2|facts.3.label",
+  "he": "כנסת",
+  "value": "الكنيست"
+ },
+ {
+  "key": "people|raam:3|headline",
+  "he": "מחנך ומנהל רשת גנים ובתי ספר, חבר כנסת מטעם רע\"ם",
+  "value": "مربٍّ ومدير شبكة رياض أطفال ومدارس، عضو كنيست عن القائمة العربية الموحدة"
+ },
+ {
+  "key": "people|raam:3|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|raam:3|facts.1.label",
+  "he": "השכלה",
+  "value": "التعليم"
+ },
+ {
+  "key": "people|raam:3|facts.2.label",
+  "he": "כנסת",
+  "value": "الكنيست"
+ },
+ {
+  "key": "people|raam:4|headline",
+  "he": "שופט כדורגל לשעבר, מנהל סיעת רע\"ם, חבר כנסת",
+  "value": "حكم كرة قدم سابقًا، مدير كتلة القائمة العربية الموحدة، عضو كنيست"
+ },
+ {
+  "key": "people|raam:4|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|raam:4|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|raam:4|facts.2.label",
+  "he": "השכלה",
+  "value": "التعليم"
+ },
+ {
+  "key": "people|raam:4|facts.3.label",
+  "he": "כנסת",
+  "value": "الكنيست"
+ },
+ {
+  "key": "people|raam:5|headline",
+  "he": "עובדת סוציאלית, מנהלת מתנ\"סים, חברת כנסת מ-2020",
+  "value": "أخصائية اجتماعية، مديرة مراكز جماهيرية، عضو كنيست منذ 2020"
+ },
+ {
+  "key": "people|raam:5|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|raam:5|facts.1.label",
+  "he": "השכלה",
+  "value": "التعليم"
+ },
+ {
+  "key": "people|raam:5|facts.2.label",
+  "he": "כנסת",
+  "value": "الكنيست"
+ },
+ {
+  "key": "people|reservists-economic:1|headline",
+  "he": "מג\"ד מילואים (סא\"ל), שר התקשורת לשעבר, יו\"ר המילואימניקים",
+  "value": "قائد كتيبة احتياط (مقدم)، وزير الاتصالات سابقًا، رئيس حزب جنود الاحتياط"
+ },
+ {
+  "key": "people|reservists-economic:1|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "الخدمة العسكرية والوطنية"
+ },
+ {
+  "key": "people|reservists-economic:1|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|reservists-economic:1|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|reservists-economic:2|headline",
+  "he": "כלכלן ורואה חשבון, החשב הכללי באוצר 2003–2007, פרופסור",
+  "value": "اقتصادي ومحاسب قانوني، المحاسب العام في وزارة المالية 2003–2007، بروفيسور"
+ },
+ {
+  "key": "people|reservists-economic:2|facts.0.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|reservists-economic:2|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|reservists-economic:2|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|reservists-economic:2|facts.3.label",
+  "he": "השכלה",
+  "value": "التعليم"
+ },
+ {
+  "key": "people|reservists-economic:3|headline",
+  "he": "דוקטור למדע המדינה, חברת הכנסת ה-18, יועצת מדינית לשמעון פרס",
+  "value": "دكتورة في العلوم السياسية، عضو الكنيست الـ18، مستشارة سياسية لشمعون بيريس"
+ },
+ {
+  "key": "people|reservists-economic:3|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "الخدمة العسكرية والوطنية"
+ },
+ {
+  "key": "people|reservists-economic:3|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|reservists-economic:3|facts.2.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|reservists-economic:3|facts.3.label",
+  "he": "כנסת",
+  "value": "الكنيست"
+ },
+ {
+  "key": "people|reservists-economic:5|headline",
+  "he": "ממקימי מפלגת המילואימניקים, קצין מילואים",
+  "value": "أحد مؤسسي حزب جنود الاحتياط، ضابط احتياط"
+ },
+ {
+  "key": "people|reservists-economic:5|facts.0.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|reservists-economic:5|facts.1.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "الخدمة العسكرية والوطنية"
+ },
+ {
+  "key": "people|rzp-zehut:1|headline",
+  "he": "מנהל תנועת רגבים לשעבר, שר האוצר, יו\"ר הציונות הדתית",
+  "value": "مدير حركة «ريغافيم» سابقًا، وزير المالية، رئيس الصهيونية الدينية"
+ },
+ {
+  "key": "people|rzp-zehut:1|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|rzp-zehut:1|facts.1.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "الخدمة العسكرية والوطنية"
+ },
+ {
+  "key": "people|rzp-zehut:1|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|rzp-zehut:1|facts.3.label",
+  "he": "השכלה",
+  "value": "التعليم"
+ },
+ {
+  "key": "people|rzp-zehut:2|headline",
+  "he": "ממקימי \"זו ארצנו\", יו\"ר זהות, חבר כנסת לשעבר מהליכוד",
+  "value": "أحد مؤسسي «هذه أرضنا»، رئيس زهوت، عضو كنيست سابق عن الليكود"
+ },
+ {
+  "key": "people|rzp-zehut:2|facts.0.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "الخدمة العسكرية والوطنية"
+ },
+ {
+  "key": "people|rzp-zehut:2|facts.1.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|rzp-zehut:2|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|rzp-zehut:2|facts.3.label",
+  "he": "כנסת",
+  "value": "الكنيست"
+ },
+ {
+  "key": "people|rzp-zehut:3|headline",
+  "he": "ממקימי ארגון זכויות האדם ביש\"ע, שרת ההתיישבות, חברת כנסת",
+  "value": "أحد مؤسسي منظمة حقوق الإنسان في يهودا والسامرة، وزيرة الاستيطان، عضو كنيست"
+ },
+ {
+  "key": "people|rzp-zehut:3|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|rzp-zehut:3|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|rzp-zehut:3|facts.2.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|rzp-zehut:3|facts.3.label",
+  "he": "כנסת",
+  "value": "الكنيست"
+ },
+ {
+  "key": "people|rzp-zehut:4|headline",
+  "he": "עורך דין, ממייסדי התנועה למשילות ודמוקרטיה, חבר כנסת מ-2021",
+  "value": "محامٍ، من مؤسسي الحركة من أجل الحوكمة والديمقراطية، عضو كنيست منذ 2021"
+ },
+ {
+  "key": "people|rzp-zehut:4|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|rzp-zehut:4|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|rzp-zehut:4|facts.2.label",
+  "he": "כנסת",
+  "value": "الكنيست"
+ },
+ {
+  "key": "people|rzp-zehut:4|facts.3.label",
+  "he": "השכלה",
+  "value": "التعليم"
+ },
+ {
+  "key": "people|rzp-zehut:5|headline",
+  "he": "מאמן קוגניטיבי-התנהגותי, יו\"ר פורום תקווה",
+  "value": "مدرّب معرفي-سلوكي، رئيس «منتدى الأمل»"
+ },
+ {
+  "key": "people|rzp-zehut:5|facts.0.label",
+  "he": "רקע מקצועי",
+  "value": "الخلفية المهنية"
+ },
+ {
+  "key": "people|rzp-zehut:5|facts.1.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ },
+ {
+  "key": "people|rzp-zehut:5|facts.2.label",
+  "he": "שירות צבאי ולאומי",
+  "value": "الخدمة العسكرية والوطنية"
+ },
+ {
+  "key": "people|rzp-zehut:5|facts.3.label",
+  "he": "השכלה",
+  "value": "التعليم"
+ },
+ {
+  "key": "people|sharshar:1|facts.0.label",
+  "he": "תפקידים ציבוריים",
+  "value": "المناصب العامة"
+ }
+]

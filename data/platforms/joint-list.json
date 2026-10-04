@@ -1,0 +1,73 @@
+{
+  "slug": "joint-list",
+  "platform_doc": null,
+  "self_description": {
+    "quote": "הקמנו מחדש את המשותפת, כוח פוליטי שייצג את כולנו בכבוד, באומץ ובנחישות, ויהיה שותף למאבק נגד הפשיזם, ולמען שוויון אמיתי ומלא ושלום צודק",
+    "source_url": "https://maki.org.il/%D7%94%D7%A8%D7%A9%D7%99%D7%9E%D7%94-%D7%94%D7%9E%D7%A9%D7%95%D7%AA%D7%A4%D7%AA-%D7%97%D7%95%D7%96%D7%A8%D7%AA-%D7%97%D7%93%D7%B4%D7%A9-%D7%AA%D7%A2%D7%B4%D7%9C-%D7%95%D7%91%D7%9C%D7%B4%D7%93-%D7%99/",
+    "source_title": "הרשימה המשותפת חוזרת: חד״ש, תע״ל ובל״ד יתמודדו יחד בבחירות (אתר המפלגה הקומוניסטית הישראלית)"
+  },
+  "positions": [
+    {
+      "topic": "security",
+      "point": "הרשימה תומכת בחידוש המשא ומתן עם ההנהגה הפלסטינית לקידום הקמת מדינה פלסטינית לצד ישראל.",
+      "quote": "We want to see renewed negotiations with the leadership of the Palestinian people, in order to advance the process of establishing a Palestinian state alongside Israel.",
+      "source_url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-904480",
+      "source_title": "Joint List to soon launch without Ra'am, deal in final stages, Hadash-Ta'al leader tells 'Post' (The Jerusalem Post)",
+      "source_type": "interview",
+      "date": "2026-08-03"
+    },
+    {
+      "topic": "economy",
+      "point": "הרשימה דורשת תקציבים לחברה הערבית ותמיכה ברשויות המקומיות הערביות.",
+      "quote": "We of course want to see budgets for the severe hardships in Arab society, and support for local authorities",
+      "source_url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-904480",
+      "source_title": "Joint List to soon launch without Ra'am, deal in final stages, Hadash-Ta'al leader tells 'Post' (The Jerusalem Post)",
+      "source_type": "interview",
+      "date": "2026-08-03"
+    },
+    {
+      "topic": "housing",
+      "point": "יו\"ר הרשימה מבקר את מדיניות הריסת הבתים והפקעת הקרקעות ביישובים הערביים.",
+      "quote": "under a very serious attack, from racist laws, policies of home demolitions, land confiscation, failure to transfer budgets to local authorities",
+      "source_url": "https://www.jpost.com/israel-news/politics-and-diplomacy/article-904480",
+      "source_title": "Joint List to soon launch without Ra'am, deal in final stages, Hadash-Ta'al leader tells 'Post' (The Jerusalem Post)",
+      "source_type": "interview",
+      "date": "2026-08-03"
+    },
+    {
+      "topic": "governance",
+      "point": "יו\"ר הרשימה אמר שהרשימה לא תצטרף לקואליציה המבוססת על עליונות יהודית או על הדרת הציבור הערבי.",
+      "quote": "לא נסכים להיות חלק מקואליציה שמבוססת על עליונות יהודית או הדרת הציבור הערבי",
+      "source_url": "https://www.ynet.co.il/news/article/rjntklbegg",
+      "source_title": "ריאיון עם יו\"ר חד\"ש יוסף ג'בארין: \"הציבור הערבי רוצה הנהגה לוחמת\" (ynet)",
+      "source_type": "interview",
+      "date": "2026-05-25"
+    },
+    {
+      "topic": "governance",
+      "point": "הרשימה מציבה כיעד מרכזי את החלפת הממשלה הנוכחית ותומכת בשותפות יהודית-ערבית.",
+      "quote": "מכאן אני מושיט יד לשותפות יהודית-ערבית אמיצה, שוויונית ודמוקרטית. שותפות שתשאף להחליף את הממשלה הפשיסטית, את הגזענות ואת העליונות בחזון אחר",
+      "source_url": "https://maki.org.il/%D7%94%D7%A8%D7%A9%D7%99%D7%9E%D7%94-%D7%94%D7%9E%D7%A9%D7%95%D7%AA%D7%A4%D7%AA-%D7%97%D7%95%D7%96%D7%A8%D7%AA-%D7%97%D7%93%D7%B4%D7%A9-%D7%AA%D7%A2%D7%B4%D7%9C-%D7%95%D7%91%D7%9C%D7%B4%D7%93-%D7%99/",
+      "source_title": "הרשימה המשותפת חוזרת: חד״ש, תע״ל ובל״ד יתמודדו יחד בבחירות (אתר המפלגה הקומוניסטית הישראלית)",
+      "source_type": "official_statement",
+      "date": "2026-08-19"
+    },
+    {
+      "topic": "governance",
+      "point": "יו\"ר הרשימה תומך בהחלפת השר לביטחון לאומי כצעד ראשון בטיפול בפשיעה בחברה הערבית.",
+      "quote": "כדי להתחיל בתיקון צריך קודם כול לסלק את בן גביר מהמשרד לביטחון לאומי",
+      "source_url": "https://www.ynet.co.il/news/article/rjntklbegg",
+      "source_title": "ריאיון עם יו\"ר חד\"ש יוסף ג'בארין: \"הציבור הערבי רוצה הנהגה לוחמת\" (ynet)",
+      "source_type": "interview",
+      "date": "2026-05-25"
+    }
+  ],
+  "topics_without_position": [
+    "religion_state",
+    "judiciary",
+    "education",
+    "welfare_health"
+  ],
+  "researched_at": "2026-10-02",
+  "notes": "לא נמצא מצע רשמי משותף לרשימה ל-2026 (בעמוד הרשימה במכון הישראלי לדמוקרטיה אין קישור למצע). העמדות מבוססות על ריאיונות והצהרות של יו\"ר הרשימה יוסף ג'בארין. שלושה ציטוטים הם מריאיון ל-Jerusalem Post (3.8.2026) והם באנגלית, כפי שפורסמו. זה תרגום של העיתון לדברים שנאמרו כנראה בעברית או בערבית. שני ציטוטים מהריאיון ב-ynet (25.5.2026) נאמרו כשג'בארין היה יו\"ר חד\"ש, לפני שהרשימה המשותפת הוקמה ב-19.8.2026. הצהרת ההקמה לקוחה מאתר מק\"י (מרכיב בחד\"ש), ושם אין תאריך פרסום; התאריך 19.8.2026 הוסק מהמילים 'אתמול (רביעי)'. נקודת הדיור מבוססת על ציטוט שמתאר את הדברים שהרשימה מתנגדת להם, ולא על הצעת מדיניות. פשיעה אינה אחת הקטגוריות, ולכן סווגה תחת 'שלטון ודמוקרטיה'. ועדת הבחירות פסלה את הרשימה ב-23.9.2026, והעליון ביטל את הפסילה. יו\"ר בל\"ד סאמי אבו שחאדה (מקום 3) פרש מההתמודדות. בבחירות קודמות התייחסו מצעי מרכיבי הרשימה גם לחוק הלאום, לשכר מינימום ועוד. הם לא נכללו כי לא נמצא להם מקור מ-2026."
+}

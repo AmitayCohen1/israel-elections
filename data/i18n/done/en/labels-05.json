@@ -1,0 +1,602 @@
+[
+ {
+  "key": "people|yisrael-beiteinu:5|facts.2.label",
+  "he": "כנסת",
+  "value": "Knesset"
+ },
+ {
+  "key": "people|yisrael-beiteinu:5|facts.3.label",
+  "he": "השכלה",
+  "value": "Education"
+ },
+ {
+  "key": "knesset|יו\"ר סיעה|text",
+  "he": "יו\"ר סיעה",
+  "value": "Faction chair"
+ },
+ {
+  "key": "knesset|כחול לבן|text",
+  "he": "כחול לבן",
+  "value": "Blue and White"
+ },
+ {
+  "key": "knesset|יושב-ראש הכנסת|text",
+  "he": "יושב-ראש הכנסת",
+  "value": "Speaker of the Knesset"
+ },
+ {
+  "key": "knesset|שר|text",
+  "he": "שר",
+  "value": "Minister"
+ },
+ {
+  "key": "knesset|משרד הביטחון|text",
+  "he": "משרד הביטחון",
+  "value": "Ministry of Defense"
+ },
+ {
+  "key": "knesset|ראש הממשלה החילופי|text",
+  "he": "ראש הממשלה החילופי",
+  "value": "Alternate Prime Minister"
+ },
+ {
+  "key": "knesset|משרד ראש הממשלה החלופי|text",
+  "he": "משרד ראש הממשלה החלופי",
+  "value": "Office of the Alternate Prime Minister"
+ },
+ {
+  "key": "knesset|משרד התקשורת|text",
+  "he": "משרד התקשורת",
+  "value": "Ministry of Communications"
+ },
+ {
+  "key": "knesset|משרד המשפטים|text",
+  "he": "משרד המשפטים",
+  "value": "Ministry of Justice"
+ },
+ {
+  "key": "knesset|משרד המדע והטכנולוגיה|text",
+  "he": "משרד המדע והטכנולוגיה",
+  "value": "Ministry of Science and Technology"
+ },
+ {
+  "key": "knesset|סגן ראש הממשלה|text",
+  "he": "סגן ראש הממשלה",
+  "value": "Deputy Prime Minister"
+ },
+ {
+  "key": "knesset|משרד ראש הממשלה|text",
+  "he": "משרד ראש הממשלה",
+  "value": "Prime Minister's Office"
+ },
+ {
+  "key": "knesset|המחנה הממלכתי|text",
+  "he": "המחנה הממלכתי",
+  "value": "National Unity"
+ },
+ {
+  "key": "knesset|בלי תיק|text",
+  "he": "בלי תיק",
+  "value": "Minister without portfolio"
+ },
+ {
+  "key": "knesset|שרה|text",
+  "he": "שרה",
+  "value": "Minister"
+ },
+ {
+  "key": "knesset|משרד העלייה והקליטה|text",
+  "he": "משרד העלייה והקליטה",
+  "value": "Ministry of Aliyah and Integration"
+ },
+ {
+  "key": "knesset|יו\"ר ועדה|text",
+  "he": "יו\"ר ועדה",
+  "value": "Committee chair"
+ },
+ {
+  "key": "knesset|הוועדה לקידום מעמד האישה ולשוויון מגדרי|text",
+  "he": "הוועדה לקידום מעמד האישה ולשוויון מגדרי",
+  "value": "Committee for the Advancement of the Status of Women and Gender Equality"
+ },
+ {
+  "key": "knesset|משרד החקלאות ופיתוח הכפר|text",
+  "he": "משרד החקלאות ופיתוח הכפר",
+  "value": "Ministry of Agriculture and Rural Development"
+ },
+ {
+  "key": "knesset|סגן שר|text",
+  "he": "סגן שר",
+  "value": "Deputy Minister"
+ },
+ {
+  "key": "knesset|ועדת המשנה לקידום מנופי צמיחה של ענף החקלאות|text",
+  "he": "ועדת המשנה לקידום מנופי צמיחה של ענף החקלאות",
+  "value": "Subcommittee for Promoting Growth Drivers in the Agriculture Sector"
+ },
+ {
+  "key": "knesset|ועדת המשנה לשיקום כלכלי של חבל תקומה ושל קו העימות הצפוני|text",
+  "he": "ועדת המשנה לשיקום כלכלי של חבל תקומה ושל קו העימות הצפוני",
+  "value": "Subcommittee for the Economic Rehabilitation of the Tekuma Region and the Northern Confrontation Line"
+ },
+ {
+  "key": "knesset|ועדת המשנה השניים|text",
+  "he": "ועדת המשנה השניים",
+  "value": "The Second Subcommittee"
+ },
+ {
+  "key": "knesset|הוועדה לענייני ביקורת המדינה|text",
+  "he": "הוועדה לענייני ביקורת המדינה",
+  "value": "State Control Committee"
+ },
+ {
+  "key": "knesset|ועדת המשנה לביטחון, יחסי חוץ וקשרי מסחר בינלאומיים|text",
+  "he": "ועדת המשנה לביטחון, יחסי חוץ וקשרי מסחר בינלאומיים",
+  "value": "Subcommittee on Security, Foreign Relations and International Trade Ties"
+ },
+ {
+  "key": "knesset|ועדת משנה לענייני פיתוח היישובים הדרוזים והצ'רקסים|text",
+  "he": "ועדת משנה לענייני פיתוח היישובים הדרוזים והצ'רקסים",
+  "value": "Subcommittee on the Development of Druze and Circassian Communities"
+ },
+ {
+  "key": "knesset|משרד הכלכלה והתעשייה|text",
+  "he": "משרד הכלכלה והתעשייה",
+  "value": "Ministry of Economy and Industry"
+ },
+ {
+  "key": "knesset|הוועדה המיוחדת לענייני הצעירים|text",
+  "he": "הוועדה המיוחדת לענייני הצעירים",
+  "value": "Special Committee on Youth Affairs"
+ },
+ {
+  "key": "knesset|ועדת החוקה, חוק ומשפט|text",
+  "he": "ועדת החוקה, חוק ומשפט",
+  "value": "Constitution, Law and Justice Committee"
+ },
+ {
+  "key": "knesset|ועדה משותפת של ועדת החוקה, ועדת הפנים וועדת המדע בהתאם לחוק הכללת אמצעי זיהוי ביומטריים ונתוני זיהוי ביומטריים במסמכי זיהוי ובמאגר מידע|text",
+  "he": "ועדה משותפת של ועדת החוקה, ועדת הפנים וועדת המדע בהתאם לחוק הכללת אמצעי זיהוי ביומטריים ונתוני זיהוי ביומטריים במסמכי זיהוי ובמאגר מידע",
+  "value": "Joint committee of the Constitution Committee, the Interior Committee and the Science Committee under the law on including biometric identification means and biometric identification data in identification documents and in a database"
+ },
+ {
+  "key": "knesset|ועדת העלייה, הקליטה והתפוצות|text",
+  "he": "ועדת העלייה, הקליטה והתפוצות",
+  "value": "Committee on Aliyah, Absorption and Diaspora Affairs"
+ },
+ {
+  "key": "knesset|ועדת העבודה והרווחה|text",
+  "he": "ועדת העבודה והרווחה",
+  "value": "Labor and Welfare Committee"
+ },
+ {
+  "key": "knesset|הוועדה המיוחדת לבחינת בעיית העובדים הזרים|text",
+  "he": "הוועדה המיוחדת לבחינת בעיית העובדים הזרים",
+  "value": "Special Committee to Examine the Problem of Foreign Workers"
+ },
+ {
+  "key": "knesset|ועדת המשנה לפעילות משרד הביטחון ויחידותיו|text",
+  "he": "ועדת המשנה לפעילות משרד הביטחון ויחידותיו",
+  "value": "Subcommittee on the Activity of the Ministry of Defense and Its Units"
+ },
+ {
+  "key": "knesset|ועדת המשנה למדיניות חוץ והסברה|text",
+  "he": "ועדת המשנה למדיניות חוץ והסברה",
+  "value": "Subcommittee on Foreign Policy and Public Diplomacy"
+ },
+ {
+  "key": "knesset|ועדת המשנה לשימור המורשת ותרבות העליה מקום המדינה|text",
+  "he": "ועדת המשנה לשימור המורשת ותרבות העליה מקום המדינה",
+  "value": "Subcommittee for Preserving the Heritage and Culture of Aliyah Since the Founding of the State"
+ },
+ {
+  "key": "knesset|ועדת החינוך התרבות והספורט|text",
+  "he": "ועדת החינוך התרבות והספורט",
+  "value": "Education, Culture and Sports Committee"
+ },
+ {
+  "key": "knesset|ועדת משנה לרפורמות ועתיד מערכת החינוך|text",
+  "he": "ועדת משנה לרפורמות ועתיד מערכת החינוך",
+  "value": "Subcommittee on Reforms and the Future of the Education System"
+ },
+ {
+  "key": "knesset|הוועדה המיוחדת לענייני התמכרויות, סמים ואתגרי הצעירים בישראל|text",
+  "he": "הוועדה המיוחדת לענייני התמכרויות, סמים ואתגרי הצעירים בישראל",
+  "value": "Special Committee on Addictions, Drugs and the Challenges of Youth in Israel"
+ },
+ {
+  "key": "knesset|הוועדה המיוחדת לעניין הקרן לאזרחי ישראל|text",
+  "he": "הוועדה המיוחדת לעניין הקרן לאזרחי ישראל",
+  "value": "Special Committee on the Fund for Israeli Citizens"
+ },
+ {
+  "key": "knesset|הוועדה המיוחדת לענייני מחקר ופיתוח מדעי וטכנולוגי|text",
+  "he": "הוועדה המיוחדת לענייני מחקר ופיתוח מדעי וטכנולוגי",
+  "value": "Special Committee on Scientific and Technological Research and Development"
+ },
+ {
+  "key": "knesset|סגנית שר|text",
+  "he": "סגנית שר",
+  "value": "Deputy Minister"
+ },
+ {
+  "key": "knesset|משרד התעשייה והמסחר|text",
+  "he": "משרד התעשייה והמסחר",
+  "value": "Ministry of Industry and Trade"
+ },
+ {
+  "key": "knesset|ועדת המשנה לעניין חופי רחצה|text",
+  "he": "ועדת המשנה לעניין חופי רחצה",
+  "value": "Subcommittee on Bathing Beaches"
+ },
+ {
+  "key": "knesset|הוועדה המיוחדת למאבק בנגעי הסמים והאלכוהול|text",
+  "he": "הוועדה המיוחדת למאבק בנגעי הסמים והאלכוהול",
+  "value": "Special Committee on Combating the Scourge of Drugs and Alcohol"
+ },
+ {
+  "key": "knesset|ועדת המשנה למעקב אחר ביצוע תקציבי של התכנית למניעת אלימות במשפחה|text",
+  "he": "ועדת המשנה למעקב אחר ביצוע תקציבי של התכנית למניעת אלימות במשפחה",
+  "value": "Subcommittee for Monitoring the Budgetary Implementation of the Family Violence Prevention Program"
+ },
+ {
+  "key": "knesset|המשרד להגנת הסביבה|text",
+  "he": "המשרד להגנת הסביבה",
+  "value": "Ministry of Environmental Protection"
+ },
+ {
+  "key": "knesset|ראש האופוזיציה|text",
+  "he": "ראש האופוזיציה",
+  "value": "Leader of the Opposition"
+ },
+ {
+  "key": "knesset|ועדת המשנה לנושא תכנון ופיתוח עיר הכרמל|text",
+  "he": "ועדת המשנה לנושא תכנון ופיתוח עיר הכרמל",
+  "value": "Subcommittee on the Planning and Development of the City of Carmel"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת לוועדת החינוך ולוועדת העלייה לדיון בהצעת חוק הרשות לשימור מורשת ישראל|text",
+  "he": "הוועדה המשותפת לוועדת החינוך ולוועדת העלייה לדיון בהצעת חוק הרשות לשימור מורשת ישראל",
+  "value": "Joint committee of the Education Committee and the Aliyah Committee to discuss the Israel Heritage Preservation Authority bill"
+ },
+ {
+  "key": "knesset|משרד החינוך והתרבות|text",
+  "he": "משרד החינוך והתרבות",
+  "value": "Ministry of Education and Culture"
+ },
+ {
+  "key": "knesset|משרד החינוך, התרבות והספורט|text",
+  "he": "משרד החינוך, התרבות והספורט",
+  "value": "Ministry of Education, Culture and Sport"
+ },
+ {
+  "key": "knesset|ועדת הפנים ואיכות הסביבה|text",
+  "he": "ועדת הפנים ואיכות הסביבה",
+  "value": "Interior and Environment Committee"
+ },
+ {
+  "key": "knesset|הוועדה המיוחדת לעניין לקחי אסון גשר המכביה|text",
+  "he": "הוועדה המיוחדת לעניין לקחי אסון גשר המכביה",
+  "value": "Special Committee on the Lessons of the Maccabiah Bridge Disaster"
+ },
+ {
+  "key": "knesset|משרד הבינוי והשיכון|text",
+  "he": "משרד הבינוי והשיכון",
+  "value": "Ministry of Construction and Housing"
+ },
+ {
+  "key": "knesset|הוועדה המיוחדת לקידום מעמד הילד|text",
+  "he": "הוועדה המיוחדת לקידום מעמד הילד",
+  "value": "Special Committee for the Advancement of the Status of the Child"
+ },
+ {
+  "key": "knesset|ועדת המשנה לנושא החלטת הממשלה להפרטת המעונות הממשלתיים לאנשים עם פיגור|text",
+  "he": "ועדת המשנה לנושא החלטת הממשלה להפרטת המעונות הממשלתיים לאנשים עם פיגור",
+  "value": "Subcommittee on the Government Decision to Privatize Government Residential Facilities for People with Intellectual Disabilities"
+ },
+ {
+  "key": "knesset|ועדת המשנה ליישום חוק שוויון זכויות לאנשים עם מוגבלות|text",
+  "he": "ועדת המשנה ליישום חוק שוויון זכויות לאנשים עם מוגבלות",
+  "value": "Subcommittee on Implementing the Equal Rights for People with Disabilities Law"
+ },
+ {
+  "key": "knesset|ועדת המשנה למעקב אחר הצעת חוק הביטוח הלאומי (תיקון - ביטוח אבטלה של עובד עצמאי)|text",
+  "he": "ועדת המשנה למעקב אחר הצעת חוק הביטוח הלאומי (תיקון - ביטוח אבטלה של עובד עצמאי)",
+  "value": "Subcommittee for Monitoring the National Insurance Law bill (Amendment - Unemployment Insurance for the Self-Employed)"
+ },
+ {
+  "key": "knesset|ועדת המשנה לדיון בהצעת חוק ביטוח בריאות ממלכתי (תיקון מס' 41) (בריאות הנפש)|text",
+  "he": "ועדת המשנה לדיון בהצעת חוק ביטוח בריאות ממלכתי (תיקון מס' 41) (בריאות הנפש)",
+  "value": "Subcommittee to Discuss the National Health Insurance Law bill (Amendment No. 41) (Mental Health)"
+ },
+ {
+  "key": "knesset|משרד העבודה והרווחה|text",
+  "he": "משרד העבודה והרווחה",
+  "value": "Ministry of Labor and Welfare"
+ },
+ {
+  "key": "knesset|ועדת החקירה הפרלמנטרית בנושא האלימות בספורט|text",
+  "he": "ועדת החקירה הפרלמנטרית בנושא האלימות בספורט",
+  "value": "Parliamentary Commission of Inquiry on Violence in Sports"
+ },
+ {
+  "key": "knesset|ועדת החקירה הפרלמנטרית בנושא הסחר בנשים|text",
+  "he": "ועדת החקירה הפרלמנטרית בנושא הסחר בנשים",
+  "value": "Parliamentary Commission of Inquiry on Trafficking in Women"
+ },
+ {
+  "key": "knesset|ועדת המשנה למאבק בסחר בנשים|text",
+  "he": "ועדת המשנה למאבק בסחר בנשים",
+  "value": "Subcommittee on Combating Trafficking in Women"
+ },
+ {
+  "key": "knesset|ועדת האתיקה|text",
+  "he": "ועדת האתיקה",
+  "value": "Ethics Committee"
+ },
+ {
+  "key": "knesset|ועדת החקירה בנושא איתור והשבת נכסים של נספי השואה|text",
+  "he": "ועדת החקירה בנושא איתור והשבת נכסים של נספי השואה",
+  "value": "Commission of Inquiry on Locating and Returning the Assets of Holocaust Victims"
+ },
+ {
+  "key": "knesset|ועדת המשנה לדיון בהצעת חוק נכסים של נספי שואה|text",
+  "he": "ועדת המשנה לדיון בהצעת חוק נכסים של נספי שואה",
+  "value": "Subcommittee to Discuss the Holocaust Victims' Assets bill"
+ },
+ {
+  "key": "knesset|ועדת המשנה לעניין מיגון יישובי עוטף עזה - מיגון מוסדות|text",
+  "he": "ועדת המשנה לעניין מיגון יישובי עוטף עזה - מיגון מוסדות",
+  "value": "Subcommittee on Fortifying the Gaza Envelope Communities - Fortifying Institutions"
+ },
+ {
+  "key": "knesset|ועדת המשנה לטיפול בנכי רדיפות הנאצים|text",
+  "he": "ועדת המשנה לטיפול בנכי רדיפות הנאצים",
+  "value": "Subcommittee on the Care of Nazi Persecution Disabled"
+ },
+ {
+  "key": "knesset|ועדת המשנה לגיבוש כללי אתיקה לחברי הכנסת|text",
+  "he": "ועדת המשנה לגיבוש כללי אתיקה לחברי הכנסת",
+  "value": "Subcommittee for Formulating Ethics Rules for Members of Knesset"
+ },
+ {
+  "key": "knesset|משרד הבריאות|text",
+  "he": "משרד הבריאות",
+  "value": "Ministry of Health"
+ },
+ {
+  "key": "knesset|משרד התחבורה|text",
+  "he": "משרד התחבורה",
+  "value": "Ministry of Transportation"
+ },
+ {
+  "key": "knesset|ועדת המשנה לתפיסת הביטחון ובניין צה\"ל|text",
+  "he": "ועדת המשנה לתפיסת הביטחון ובניין צה\"ל",
+  "value": "Subcommittee on the Security Concept and the Build-up of the IDF"
+ },
+ {
+  "key": "knesset|ועדת המשנה ליחסי חוץ והסברה|text",
+  "he": "ועדת המשנה ליחסי חוץ והסברה",
+  "value": "Subcommittee on Foreign Relations and Public Diplomacy"
+ },
+ {
+  "key": "knesset|תקווה חדשה|text",
+  "he": "תקווה חדשה",
+  "value": "New Hope"
+ },
+ {
+  "key": "knesset|משרד החוץ|text",
+  "he": "משרד החוץ",
+  "value": "Ministry of Foreign Affairs"
+ },
+ {
+  "key": "knesset|הוועדה המיוחדת לזכויות הילד|text",
+  "he": "הוועדה המיוחדת לזכויות הילד",
+  "value": "Special Committee on the Rights of the Child"
+ },
+ {
+  "key": "knesset|התנועה הערבית להתחדשות|text",
+  "he": "התנועה הערבית להתחדשות",
+  "value": "Arab Movement for Renewal"
+ },
+ {
+  "key": "knesset|תנועה ערבית להתחדשות|text",
+  "he": "תנועה ערבית להתחדשות",
+  "value": "Arab Movement for Renewal"
+ },
+ {
+  "key": "knesset|ועדת החקירה הפרלמנטרית בנושא העסקת עובדים ערבים בשירות הציבורי|text",
+  "he": "ועדת החקירה הפרלמנטרית בנושא העסקת עובדים ערבים בשירות הציבורי",
+  "value": "Parliamentary Commission of Inquiry on the Employment of Arab Workers in the Public Service"
+ },
+ {
+  "key": "knesset|הרשימה הערבית המאוחדת - התנועה הערבית להתחדשות|text",
+  "he": "הרשימה הערבית המאוחדת - התנועה הערבית להתחדשות",
+  "value": "United Arab List - Arab Movement for Renewal"
+ },
+ {
+  "key": "knesset|ועדת המשנה למגזר הערבי|text",
+  "he": "ועדת המשנה למגזר הערבי",
+  "value": "Subcommittee on the Arab Sector"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת לוועדת הכנסת ולוועדת העבודה, הרווחה והבריאות לדיון בהלס\"י בנושא תעסוקת ערבים ושוויון חברתי|text",
+  "he": "הוועדה המשותפת לוועדת הכנסת ולוועדת העבודה, הרווחה והבריאות לדיון בהלס\"י בנושא תעסוקת ערבים ושוויון חברתי",
+  "value": "Joint committee of the House Committee and the Labor, Welfare and Health Committee to discuss the Central Bureau of Statistics report on Arab employment and social equality"
+ },
+ {
+  "key": "knesset|חד\"ש-תע\"ל|text",
+  "he": "חד\"ש-תע\"ל",
+  "value": "Hadash-Ta'al"
+ },
+ {
+  "key": "knesset|ועדת משנה להשכלה הגבוהה|text",
+  "he": "ועדת משנה להשכלה הגבוהה",
+  "value": "Subcommittee on Higher Education"
+ },
+ {
+  "key": "knesset|ועדת המשנה לבניית תוכנית אב לטיפול באוטיזם במגזר הערבי|text",
+  "he": "ועדת המשנה לבניית תוכנית אב לטיפול באוטיזם במגזר הערבי",
+  "value": "Subcommittee for Building a Master Plan for Autism Care in the Arab Sector"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת לוועדת הפנים ולוועדת העבודה לענייני סביבה ובריאות|text",
+  "he": "הוועדה המשותפת לוועדת הפנים ולוועדת העבודה לענייני סביבה ובריאות",
+  "value": "Joint committee of the Interior Committee and the Labor Committee on Environment and Health"
+ },
+ {
+  "key": "knesset|ועדת המשנה לבדיקת סוגיית תכנון וסביבה במפרץ חיפה|text",
+  "he": "ועדת המשנה לבדיקת סוגיית תכנון וסביבה במפרץ חיפה",
+  "value": "Subcommittee to Examine Planning and Environmental Issues in Haifa Bay"
+ },
+ {
+  "key": "knesset|ועדת המשנה לתחבורה ציבורית|text",
+  "he": "ועדת המשנה לתחבורה ציבורית",
+  "value": "Subcommittee on Public Transportation"
+ },
+ {
+  "key": "knesset|ועדת המשנה לענייני המגזר הערבי|text",
+  "he": "ועדת המשנה לענייני המגזר הערבי",
+  "value": "Subcommittee on Arab Sector Affairs"
+ },
+ {
+  "key": "knesset|הצוות לבדיקת הקמת אצטדיון בעיר סכנין|text",
+  "he": "הצוות לבדיקת הקמת אצטדיון בעיר סכנין",
+  "value": "Team to Examine Building a Stadium in the City of Sakhnin"
+ },
+ {
+  "key": "knesset|החזית הדמוקרטית לשלום ולשוויון|text",
+  "he": "החזית הדמוקרטית לשלום ולשוויון",
+  "value": "Democratic Front for Peace and Equality"
+ },
+ {
+  "key": "knesset|הוועדה המיוחדת למאבק בנגע הסמים|text",
+  "he": "הוועדה המיוחדת למאבק בנגע הסמים",
+  "value": "Special Committee on Combating the Scourge of Drugs"
+ },
+ {
+  "key": "knesset|המשרד לענייני דתות|text",
+  "he": "המשרד לענייני דתות",
+  "value": "Ministry of Religious Affairs"
+ },
+ {
+  "key": "knesset|ראש הממשלה|text",
+  "he": "ראש הממשלה",
+  "value": "Prime Minister"
+ },
+ {
+  "key": "knesset|משרד המדע|text",
+  "he": "משרד המדע",
+  "value": "Ministry of Science"
+ },
+ {
+  "key": "knesset|משרד האוצר|text",
+  "he": "משרד האוצר",
+  "value": "Ministry of Finance"
+ },
+ {
+  "key": "knesset|המשרד לאזרחים ותיקים|text",
+  "he": "המשרד לאזרחים ותיקים",
+  "value": "Ministry for Senior Citizens"
+ },
+ {
+  "key": "knesset|משרד המדע, הטכנולוגיה והחלל|text",
+  "he": "משרד המדע, הטכנולוגיה והחלל",
+  "value": "Ministry of Science, Technology and Space"
+ },
+ {
+  "key": "knesset|משרד החינוך|text",
+  "he": "משרד החינוך",
+  "value": "Ministry of Education"
+ },
+ {
+  "key": "knesset|משרד הרווחה והשירותים החברתיים|text",
+  "he": "משרד הרווחה והשירותים החברתיים",
+  "value": "Ministry of Welfare and Social Services"
+ },
+ {
+  "key": "knesset|המשרד לשיתוף פעולה אזורי|text",
+  "he": "המשרד לשיתוף פעולה אזורי",
+  "value": "Ministry of Regional Cooperation"
+ },
+ {
+  "key": "knesset|משרד הכלכלה|text",
+  "he": "משרד הכלכלה",
+  "value": "Ministry of Economy"
+ },
+ {
+  "key": "knesset|משרד הפנים|text",
+  "he": "משרד הפנים",
+  "value": "Ministry of the Interior"
+ },
+ {
+  "key": "knesset|משרד העבודה, הרווחה והשירותים החברתיים|text",
+  "he": "משרד העבודה, הרווחה והשירותים החברתיים",
+  "value": "Ministry of Labor, Welfare and Social Services"
+ },
+ {
+  "key": "knesset|משרד התפוצות|text",
+  "he": "משרד התפוצות",
+  "value": "Ministry of Diaspora Affairs"
+ },
+ {
+  "key": "knesset|הליכוד |text",
+  "he": "הליכוד ",
+  "value": "Likud"
+ },
+ {
+  "key": "knesset|ועדת המשנה לכוח אדם ולמשאב האנושי בצה”ל|text",
+  "he": "ועדת המשנה לכוח אדם ולמשאב האנושי בצה”ל",
+  "value": "Subcommittee on Manpower and Human Resources in the IDF"
+ },
+ {
+  "key": "knesset|מבוטלת|text",
+  "he": "מבוטלת",
+  "value": "Cancelled"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת לוועדת הכנסת ולוועדת החוקה, חוק ומשפט לדיון בהצעת חוק יסוד: ישראל - מדינת הלאום של העם היהודי|text",
+  "he": "הוועדה המשותפת לוועדת הכנסת ולוועדת החוקה, חוק ומשפט לדיון בהצעת חוק יסוד: ישראל - מדינת הלאום של העם היהודי",
+  "value": "Joint committee of the House Committee and the Constitution, Law and Justice Committee to discuss the Basic Law bill: Israel - The Nation-State of the Jewish People"
+ },
+ {
+  "key": "knesset|המשרד לביטחון הפנים|text",
+  "he": "המשרד לביטחון הפנים",
+  "value": "Ministry of Internal Security"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת לוועדת הכנסת ולוועדת הכספים לעניין תקציב הכנסת|text",
+  "he": "הוועדה המשותפת לוועדת הכנסת ולוועדת הכספים לעניין תקציב הכנסת",
+  "value": "Joint committee of the House Committee and the Finance Committee on the Knesset budget"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת לדיון בהצעת חוק סדרי השלטון והמשפט (משאל עם)|text",
+  "he": "הוועדה המשותפת לדיון בהצעת חוק סדרי השלטון והמשפט (משאל עם)",
+  "value": "Joint committee to discuss the Law and Administration Ordinance bill (Referendum)"
+ },
+ {
+  "key": "knesset|ועדת הכנסת|text",
+  "he": "ועדת הכנסת",
+  "value": "House Committee"
+ },
+ {
+  "key": "knesset|ועדת החוץ והביטחון|text",
+  "he": "ועדת החוץ והביטחון",
+  "value": "Foreign Affairs and Defense Committee"
+ },
+ {
+  "key": "knesset|הוועדה המיוחדת לדיון בהצעת חוק הרבנות הראשית לישראל|text",
+  "he": "הוועדה המיוחדת לדיון בהצעת חוק הרבנות הראשית לישראל",
+  "value": "Special Committee to Discuss the Chief Rabbinate of Israel bill"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת לוועדת החוץ והביטחון ולוועדת החוקה, חוק ומשפט לאישור תקנות (סדרי הדין בוועדה לבחינת פטור מטעמי הכרה דתית והרכבה)|text",
+  "he": "הוועדה המשותפת לוועדת החוץ והביטחון ולוועדת החוקה, חוק ומשפט לאישור תקנות (סדרי הדין בוועדה לבחינת פטור מטעמי הכרה דתית והרכבה)",
+  "value": "Joint committee of the Foreign Affairs and Defense Committee and the Constitution, Law and Justice Committee to approve regulations (rules of procedure in the committee examining exemption on grounds of religious recognition and composition)"
+ },
+ {
+  "key": "knesset|הוועדה המשותפת לוועדת החוקה, חוק ומשפט ולוועדת הכנסת להצעות חוק יסוד: משאל עם|text",
+  "he": "הוועדה המשותפת לוועדת החוקה, חוק ומשפט ולוועדת הכנסת להצעות חוק יסוד: משאל עם",
+  "value": "Joint committee of the Constitution, Law and Justice Committee and the House Committee on the Basic Law bills: Referendum"
+ }
+]

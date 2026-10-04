@@ -1,0 +1,77 @@
+{
+  "slug": "otzma-yehudit",
+  "researched_at": "2026-10-03",
+  "links": [
+    {
+      "url": "https://ozma-yeudit.co.il/",
+      "kind": "website",
+      "title": "האתר הרשמי",
+      "owner": "list",
+      "found_via": "seed + fetched",
+      "status": "ok"
+    },
+    {
+      "url": "https://ozma-yeudit.co.il/מי-אנחנו/",
+      "kind": "positions_page",
+      "title": "מי אנחנו",
+      "owner": "list",
+      "found_via": "seed",
+      "status": "ok"
+    },
+    {
+      "url": "https://ozma-yeudit.co.il/updates/",
+      "kind": "press",
+      "title": "עדכונים",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://ozma-yeudit.co.il/video/",
+      "kind": "other",
+      "title": "וידאו",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://m.facebook.com/OtzmaYehudit2/",
+      "kind": "facebook",
+      "title": "עמוד הפייסבוק",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "login-wall"
+    },
+    {
+      "url": "https://twitter.com/otzma_yehudit",
+      "kind": "x",
+      "title": "חשבון X",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "login-wall"
+    },
+    {
+      "url": "https://t.me/bengvir",
+      "kind": "telegram",
+      "title": "ערוץ טלגרם",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://wa.link/69kkfe",
+      "kind": "whatsapp",
+      "title": "וואטסאפ",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "ok"
+    }
+  ],
+  "unverified": [
+    {
+      "url": "https://ozma-yeudit.com",
+      "note": "אתר תמיכה לא רשמי לפי sources.json"
+    }
+  ],
+  "notes": "לא נמצאו אינסטגרם/יוטיוב/טיקטוק באתר; לא נבדקו חשבונות אישיים של בן גביר. טלגרם bengvir כנראה של בן גביר אך מקושר כערוץ האתר."
+}

@@ -1,0 +1,128 @@
+{
+  "slug": "yashar",
+  "researched_at": "2026-10-03",
+  "links": [
+    {
+      "url": "https://yasharwitheisenkot.com/",
+      "kind": "website",
+      "title": "האתר הרשמי",
+      "owner": "list",
+      "found_via": "seed + fetched",
+      "status": "ok"
+    },
+    {
+      "url": "https://yasharwitheisenkot.com/principles/",
+      "kind": "positions_page",
+      "title": "עקרונות",
+      "owner": "list",
+      "found_via": "gov seed sources.json",
+      "status": "ok"
+    },
+    {
+      "url": "https://yasharwitheisenkot.com/wp-content/uploads/2026/06/Yashar_10_Steps_Brochure.pdf",
+      "kind": "platform",
+      "title": "10 הצעדים (PDF)",
+      "owner": "list",
+      "found_via": "seed sources.json",
+      "status": "ok"
+    },
+    {
+      "url": "https://yasharwitheisenkot.com/video/",
+      "kind": "other",
+      "title": "וידאו",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://win.yasharwitheisenkot.com/",
+      "kind": "other",
+      "title": "התנדבות",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "ok"
+    },
+    {
+      "url": "http://joineisenkot.com",
+      "kind": "other",
+      "title": "הצטרפות ועדכונים",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://yasharwitheisenkot.com/offline-donations/",
+      "kind": "other",
+      "title": "תרומות",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.facebook.com/profile.php?id=61580902780676",
+      "kind": "facebook",
+      "title": "עמוד הפייסבוק",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "login-wall"
+    },
+    {
+      "url": "https://www.instagram.com/yasharwitheisenkot/",
+      "kind": "instagram",
+      "title": "אינסטגרם",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "login-wall"
+    },
+    {
+      "url": "https://x.com/yashar_eisenkot",
+      "kind": "x",
+      "title": "חשבון X",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "login-wall"
+    },
+    {
+      "url": "https://www.youtube.com/@%D7%99%D7%A9%D7%A8%D7%A2%D7%9D%D7%90%D7%99%D7%96%D7%A0%D7%A7%D7%95%D7%98-%D7%A16%D7%A0",
+      "kind": "youtube",
+      "title": "ערוץ יוטיוב",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "ok"
+    },
+    {
+      "url": "https://www.tiktok.com/@gadi_eisenkot",
+      "kind": "tiktok",
+      "title": "טיקטוק",
+      "owner": "list",
+      "found_via": "linked from official site header/footer",
+      "status": "login-wall"
+    },
+    {
+      "url": "https://www.facebook.com/GadiEisenkot/",
+      "kind": "leader_facebook",
+      "title": "פייסבוק גדי איזנקוט",
+      "owner": "גדי איזנקוט",
+      "found_via": "linked from official site header/footer",
+      "status": "login-wall"
+    },
+    {
+      "url": "https://www.instagram.com/gadi_eisenkot/",
+      "kind": "leader_instagram",
+      "title": "אינסטגרם גדי איזנקוט",
+      "owner": "גדי איזנקוט",
+      "found_via": "linked from official site header/footer",
+      "status": "login-wall"
+    },
+    {
+      "url": "https://x.com/gadi_eisenkot",
+      "kind": "leader_x",
+      "title": "X גדי איזנקוט",
+      "owner": "גדי איזנקוט",
+      "found_via": "linked from official site header/footer",
+      "status": "login-wall"
+    }
+  ],
+  "unverified": [],
+  "notes": "הכל מקושר מהאתר הרשמי. ה-TikTok שמקושר הוא של גדי איזנקוט אישית (יתכן משותף). YouTube: נמצאו שתי וריאציות כינוי, נשמרה הגרסה מהעמוד."
+}

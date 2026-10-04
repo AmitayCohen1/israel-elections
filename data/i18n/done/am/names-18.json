@@ -1,0 +1,752 @@
+[
+ {
+  "key": "people|joint-list:1|name",
+  "he": "יוסף ג'בארין",
+  "value": "ዩሱፍ ጃባሪን"
+ },
+ {
+  "key": "people|joint-list:2|name",
+  "he": "אחמד טיבי",
+  "value": "አሕመድ ጢቢ"
+ },
+ {
+  "key": "people|joint-list:3|name",
+  "he": "סאמי אבו שחאדה",
+  "value": "ሳሚ አቡ ሻሐዳ"
+ },
+ {
+  "key": "people|joint-list:4|name",
+  "he": "פאתן ג'טאס",
+  "value": "ፋቲን ጀጣስ"
+ },
+ {
+  "key": "people|joint-list:5|name",
+  "he": "בכר עואודה",
+  "value": "ባኸር አዋዳ"
+ },
+ {
+  "key": "people|likud:1|name",
+  "he": "בנימין נתניהו",
+  "value": "ቢንያሚን ኔታንያሁ"
+ },
+ {
+  "key": "people|likud:2|name",
+  "he": "אלי כהן",
+  "value": "ኤሊ ኮሄን"
+ },
+ {
+  "key": "people|likud:3|name",
+  "he": "אמיר אוחנה",
+  "value": "አሚር ኦሃና"
+ },
+ {
+  "key": "people|likud:4|name",
+  "he": "יריב לוין",
+  "value": "ያሪቭ ሌቪን"
+ },
+ {
+  "key": "people|likud:5|name",
+  "he": "מירי רגב",
+  "value": "ሚሪ ሬጌቭ"
+ },
+ {
+  "key": "people|me-and-you:1|name",
+  "he": "אלון גלעדי",
+  "value": "አሎን ጊልአዲ"
+ },
+ {
+  "key": "people|me-and-you:2|name",
+  "he": "מאיה גלעדי ז'ולסון",
+  "value": "ማያ ጊልአዲ ዦልሰን"
+ },
+ {
+  "key": "people|me-and-you:3|name",
+  "he": "איציק זלכה",
+  "value": "ኢጽሃቅ ዘልካ"
+ },
+ {
+  "key": "people|me-and-you:4|name",
+  "he": "לודמילה פורטנוב",
+  "value": "ሉድሚላ ፖርትኖቭ"
+ },
+ {
+  "key": "people|me-and-you:5|name",
+  "he": "עזרא שוהם",
+  "value": "ዕዝራ ሾሃም"
+ },
+ {
+  "key": "people|mishpat-tzedek:1|name",
+  "he": "רננה לריסה עמיר",
+  "value": "ረናና ላሪሳ አሚር"
+ },
+ {
+  "key": "people|mishpat-tzedek:2|name",
+  "he": "גאולה עמיר",
+  "value": "ገኡላ አሚር"
+ },
+ {
+  "key": "people|mishpat-tzedek:3|name",
+  "he": "אליעזר יהודי",
+  "value": "ኤሊዔዘር የሁዲ"
+ },
+ {
+  "key": "people|mishpat-tzedek:4|name",
+  "he": "יצחק כהן",
+  "value": "ይስሃቅ ኮሄን"
+ },
+ {
+  "key": "people|mishpat-tzedek:5|name",
+  "he": "יליזבטה יודין",
+  "value": "ዬሊዛቬታ ዩዲን"
+ },
+ {
+  "key": "people|new-order:1|name",
+  "he": "אביטל חי אופק",
+  "value": "አቪታል ሃይ ኦፌክ"
+ },
+ {
+  "key": "people|new-order:2|name",
+  "he": "לביא נאור",
+  "value": "ላቪ ናኦር"
+ },
+ {
+  "key": "people|new-order:3|name",
+  "he": "דניאל בטיטו",
+  "value": "ዳንኤል ባቲቶ"
+ },
+ {
+  "key": "people|new-order:4|name",
+  "he": "זהבית שמש",
+  "value": "ዘሃቪት ሼሜሽ"
+ },
+ {
+  "key": "people|new-order:5|name",
+  "he": "פאולה קוין",
+  "value": "ፓውላ ኮይን"
+ },
+ {
+  "key": "people|noam:1|name",
+  "he": "אבי מעוז",
+  "value": "አቪ ማዖዝ"
+ },
+ {
+  "key": "people|noam:2|name",
+  "he": "שמעון טובול",
+  "value": "ሺሞን ቱቦል"
+ },
+ {
+  "key": "people|noam:3|name",
+  "he": "אליהו ליבמן",
+  "value": "ኤሊያሁ ሊብማን"
+ },
+ {
+  "key": "people|noam:4|name",
+  "he": "ליאורה אלון",
+  "value": "ሊዮራ አሎን"
+ },
+ {
+  "key": "people|noam:5|name",
+  "he": "יסכה חיימוב",
+  "value": "ዪስካ ሃይሞቭ"
+ },
+ {
+  "key": "people|orot-hashahar:1|name",
+  "he": "נסים לוק",
+  "value": "ኒሲም ሉክ"
+ },
+ {
+  "key": "people|orot-hashahar:2|name",
+  "he": "בניהו הר שמש",
+  "value": "በናያሁ ሃር ሼሜሽ"
+ },
+ {
+  "key": "people|orot-hashahar:3|name",
+  "he": "יאיר אנסבכר",
+  "value": "ያኢር አንስባከር"
+ },
+ {
+  "key": "people|orot-hashahar:4|name",
+  "he": "יצחק אבוקרט",
+  "value": "ይስሃቅ አቡከርት"
+ },
+ {
+  "key": "people|orot-hashahar:5|name",
+  "he": "דב הלברטל",
+  "value": "ዶቭ ሃልበርታል"
+ },
+ {
+  "key": "people|otzma-yehudit:1|name",
+  "he": "איתמר בן גביר",
+  "value": "ኢታማር ቤን ግቪር"
+ },
+ {
+  "key": "people|otzma-yehudit:2|name",
+  "he": "טלי גוטליב",
+  "value": "ታሊ ጎትሊብ"
+ },
+ {
+  "key": "people|otzma-yehudit:3|name",
+  "he": "יצחק וסרלאוף",
+  "value": "ይስሃቅ ቫሰርላውፍ"
+ },
+ {
+  "key": "people|otzma-yehudit:4|name",
+  "he": "עמיחי אליהו",
+  "value": "አሚሃይ ኤሊያሁ"
+ },
+ {
+  "key": "people|otzma-yehudit:5|name",
+  "he": "לימור סון הר-מלך",
+  "value": "ሊሞር ሶን ሃር-መሌክ"
+ },
+ {
+  "key": "people|partnership-for-all:1|name",
+  "he": "טלאל אלקרינאוי",
+  "value": "ታላል አልቀሪናዊ"
+ },
+ {
+  "key": "people|partnership-for-all:2|name",
+  "he": "עבדאללה אבו עאנם",
+  "value": "አብዱላህ አቡ አኒም"
+ },
+ {
+  "key": "people|partnership-for-all:3|name",
+  "he": "בשארה שליאן",
+  "value": "በሻራ ሸሊያን"
+ },
+ {
+  "key": "people|partnership-for-all:4|name",
+  "he": "אליעזר עופר כהן",
+  "value": "ኤሊዔዘር ኦፈር ኮሄን"
+ },
+ {
+  "key": "people|partnership-for-all:5|name",
+  "he": "עודד גול-ורדי",
+  "value": "ኦዴድ ጎል-ቫርዲ"
+ },
+ {
+  "key": "people|personal-safety:1|name",
+  "he": "מיכאל טופצ'יאשוילי",
+  "value": "ሚካኤል ቶፕቺአሽቪሊ"
+ },
+ {
+  "key": "people|personal-safety:2|name",
+  "he": "גבריאל קיקוזשוילי",
+  "value": "ገብርኤል ኪኮዝሽቪሊ"
+ },
+ {
+  "key": "people|personal-safety:3|name",
+  "he": "איליה קיקוזשווילי",
+  "value": "ኢሊያ ኪኮዝሽቪሊ"
+ },
+ {
+  "key": "people|personal-safety:4|name",
+  "he": "מקואלה חונדיאשוילי",
+  "value": "ማኩአላ ሁንዲአሽቪሊ"
+ },
+ {
+  "key": "people|personal-safety:5|name",
+  "he": "נודרי יוסבאשוילי",
+  "value": "ኑድሪ ዮሰባሽቪሊ"
+ },
+ {
+  "key": "people|pirates:1|name",
+  "he": "אוהד שם טוב",
+  "value": "ኦሃድ ሼም ቶቭ"
+ },
+ {
+  "key": "people|pirates:2|name",
+  "he": "נועם כוזר ויסגרבר",
+  "value": "ኖአም ኮዘር ቪስገርበር"
+ },
+ {
+  "key": "people|pirates:3|name",
+  "he": "דן אריאלי",
+  "value": "ዳን አሪኤሊ"
+ },
+ {
+  "key": "people|pirates:4|name",
+  "he": "מיטל רום",
+  "value": "ሚታል ሮም"
+ },
+ {
+  "key": "people|pirates:5|name",
+  "he": "רועי אברהם קלייטמן",
+  "value": "ሮዒ አብርሃም ክላይትማን"
+ },
+ {
+  "key": "people|raam:1|name",
+  "he": "מנסור עבאס",
+  "value": "ማንሱር አባስ"
+ },
+ {
+  "key": "people|raam:2|name",
+  "he": "יואב סגלוביץ",
+  "value": "ዮአቭ ሴጋሎቪች"
+ },
+ {
+  "key": "people|raam:3|name",
+  "he": "וליד טאהא",
+  "value": "ዋሊድ ጣሃ"
+ },
+ {
+  "key": "people|raam:4|name",
+  "he": "ואליד אלהואשלה",
+  "value": "ዋሊድ አልሃዋሽላ"
+ },
+ {
+  "key": "people|raam:5|name",
+  "he": "אימאן ח'טיב-יאסין",
+  "value": "ኢማን ኸጢብ-ያሲን"
+ },
+ {
+  "key": "people|reservists-economic:1|name",
+  "he": "יועז הנדל",
+  "value": "ዮአዝ ሃንደል"
+ },
+ {
+  "key": "people|reservists-economic:2|name",
+  "he": "ירון זליכה",
+  "value": "ያሮን ዘሊኻ"
+ },
+ {
+  "key": "people|reservists-economic:3|name",
+  "he": "עינת וילף",
+  "value": "ኤይናት ዊልፍ"
+ },
+ {
+  "key": "people|reservists-economic:4|name",
+  "he": "חביב ווליבוביץ",
+  "value": "ሃቪቭ ቮሊቦቪች"
+ },
+ {
+  "key": "people|reservists-economic:5|name",
+  "he": "יואב שלמה אדומי",
+  "value": "ዮአቭ ሽሎሞ አዶሚ"
+ },
+ {
+  "key": "people|rzp-zehut:1|name",
+  "he": "בצלאל סמוטריץ'",
+  "value": "ቤጻሌል ስሞትሪች"
+ },
+ {
+  "key": "people|rzp-zehut:2|name",
+  "he": "משה פייגלין",
+  "value": "ሞሼ ፌይግሊን"
+ },
+ {
+  "key": "people|rzp-zehut:3|name",
+  "he": "אורית סטרוק",
+  "value": "ኦሪት ስትሩክ"
+ },
+ {
+  "key": "people|rzp-zehut:4|name",
+  "he": "שמחה רוטמן",
+  "value": "ሲምሃ ሮትማን"
+ },
+ {
+  "key": "people|rzp-zehut:5|name",
+  "he": "צביקה מור",
+  "value": "ጽቪካ ሞር"
+ },
+ {
+  "key": "people|sharshar:1|name",
+  "he": "איתן שוילי",
+  "value": "ኢታን ሽቪሊ"
+ },
+ {
+  "key": "people|sharshar:2|name",
+  "he": "תמר שוילי",
+  "value": "ታማር ሽቪሊ"
+ },
+ {
+  "key": "people|sharshar:3|name",
+  "he": "אילן אלמקייס",
+  "value": "ኢላን አልማኬይስ"
+ },
+ {
+  "key": "people|sharshar:4|name",
+  "he": "אסחר שירזי רעיה",
+  "value": "ራያ አስሃር ሺርዚ"
+ },
+ {
+  "key": "people|sharshar:5|name",
+  "he": "היתם אשתי",
+  "value": "ሃይታም አሽቲ"
+ },
+ {
+  "key": "people|shas:1|name",
+  "he": "אריה דרעי",
+  "value": "አርዬ ደሪ"
+ },
+ {
+  "key": "people|shas:2|name",
+  "he": "ינון אזולאי",
+  "value": "ያኖን አዙላይ"
+ },
+ {
+  "key": "people|shas:3|name",
+  "he": "מיכאל מלכיאלי",
+  "value": "ሚካኤል ማልኪኤሊ"
+ },
+ {
+  "key": "people|shas:4|name",
+  "he": "יואב בן-צור",
+  "value": "ዮአቭ ቤን-ጽዎር"
+ },
+ {
+  "key": "people|shas:5|name",
+  "he": "חיים ביטון",
+  "value": "ሃይም ቢቶን"
+ },
+ {
+  "key": "people|shma:1|name",
+  "he": "גולדמן נפתלי בורוך",
+  "value": "ናፍታሊ ባሩክ ጎልድማን"
+ },
+ {
+  "key": "people|tkuma:1|name",
+  "he": "אלקנא פדרמן",
+  "value": "ኤልካና ፌደርማን"
+ },
+ {
+  "key": "people|tkuma:2|name",
+  "he": "לוטם נגר",
+  "value": "ሎቴም ናጋር"
+ },
+ {
+  "key": "people|tkuma:3|name",
+  "he": "שירה כהן",
+  "value": "ሺራ ኮሄን"
+ },
+ {
+  "key": "people|tkuma:4|name",
+  "he": "מרים אברהם",
+  "value": "ሚርያም አብርሃም"
+ },
+ {
+  "key": "people|tkuma:5|name",
+  "he": "ליאנה מירלה פרץ חיימוביץ'",
+  "value": "ሊያና ሚርላ ፔሬዝ ሃይሞቪች"
+ },
+ {
+  "key": "people|together:1|name",
+  "he": "נפתלי בנט",
+  "value": "ናፍታሊ ቤኔት"
+ },
+ {
+  "key": "people|together:2|name",
+  "he": "יאיר לפיד",
+  "value": "ያኢር ላፒድ"
+ },
+ {
+  "key": "people|together:3|name",
+  "he": "קרן טרנר",
+  "value": "ኬረን ተርነር"
+ },
+ {
+  "key": "people|together:4|name",
+  "he": "מירב בן ארי",
+  "value": "ሜራቭ ቤን አሪ"
+ },
+ {
+  "key": "people|together:5|name",
+  "he": "לירן אבישר בן-חורין",
+  "value": "ሊራን አቪሻር ቤን-ሆሪን"
+ },
+ {
+  "key": "people|tzomet-beit-israel:1|name",
+  "he": "דסטה יברקן",
+  "value": "ደስታ የባርካን"
+ },
+ {
+  "key": "people|tzomet-beit-israel:2|name",
+  "he": "משה גרין",
+  "value": "ሞሼ ግሪን"
+ },
+ {
+  "key": "people|tzomet-beit-israel:3|name",
+  "he": "יניב אשטמקר",
+  "value": "ያኒቭ ኤሽታምከር"
+ },
+ {
+  "key": "people|tzomet-beit-israel:4|name",
+  "he": "(ללא שם ברשימה)",
+  "value": "(በዝርዝሩ ውስጥ ስም የለም)"
+ },
+ {
+  "key": "people|tzomet-beit-israel:5|name",
+  "he": "(ללא שם ברשימה)",
+  "value": "(በዝርዝሩ ውስጥ ስም የለም)"
+ },
+ {
+  "key": "people|utj:1|name",
+  "he": "יעקב אשר",
+  "value": "ያዕቆብ አሸር"
+ },
+ {
+  "key": "people|utj:2|name",
+  "he": "יצחק גולדקנופף",
+  "value": "ይስሃቅ ጎልድክኖፍ"
+ },
+ {
+  "key": "people|utj:3|name",
+  "he": "יצחק פינדרוס",
+  "value": "ይስሃቅ ፒንደሮስ"
+ },
+ {
+  "key": "people|utj:4|name",
+  "he": "מאיר פרוש",
+  "value": "ሜይር ፖሩሽ"
+ },
+ {
+  "key": "people|utj:5|name",
+  "he": "משה רוזנטל",
+  "value": "ሞሼ ሮዘንታል"
+ },
+ {
+  "key": "people|womens-voice:1|name",
+  "he": "עמיר ישראל שדמי",
+  "value": "አሚር እስራኤል ሻድሚ"
+ },
+ {
+  "key": "people|womens-voice:2|name",
+  "he": "אמה בוהדנה",
+  "value": "ኤማ ቦሃዳና"
+ },
+ {
+  "key": "people|womens-voice:3|name",
+  "he": "טליה בן אבו",
+  "value": "ታሊያ ቤን አቡ"
+ },
+ {
+  "key": "people|womens-voice:4|name",
+  "he": "גדי רוזנר",
+  "value": "ጋዲ ሮዝነር"
+ },
+ {
+  "key": "people|womens-voice:5|name",
+  "he": "זהבית עכו",
+  "value": "ዘሃቪት አኮ"
+ },
+ {
+  "key": "people|yashar:1|name",
+  "he": "גדי איזנקוט",
+  "value": "ጋዲ አይዘንኮት"
+ },
+ {
+  "key": "people|yashar:2|name",
+  "he": "יורם כהן",
+  "value": "ዮራም ኮሄን"
+ },
+ {
+  "key": "people|yashar:3|name",
+  "he": "אורית פרקש-הכהן",
+  "value": "ኦሪት ፋርካሽ-ሃኮሄን"
+ },
+ {
+  "key": "people|yashar:4|name",
+  "he": "עדי אלטשולר",
+  "value": "አዲ አልትሹለር"
+ },
+ {
+  "key": "people|yashar:5|name",
+  "he": "מתן כהנא",
+  "value": "ማታን ካሃና"
+ },
+ {
+  "key": "people|yisrael-beiteinu:1|name",
+  "he": "אביגדור ליברמן",
+  "value": "አቪግዶር ሊብርማን"
+ },
+ {
+  "key": "people|yisrael-beiteinu:2|name",
+  "he": "רפי בן שטרית",
+  "value": "ራፊ ቤን ሽትሪት"
+ },
+ {
+  "key": "people|yisrael-beiteinu:3|name",
+  "he": "טליה לנקרי",
+  "value": "ታሊያ ላንክሪ"
+ },
+ {
+  "key": "people|yisrael-beiteinu:4|name",
+  "he": "עודד פורר",
+  "value": "ኦዴድ ፎረር"
+ },
+ {
+  "key": "people|yisrael-beiteinu:5|name",
+  "he": "יוליה מלינובסקי",
+  "value": "ዩሊያ ማሊኖቭስኪ"
+ },
+ {
+  "key": "knesset|כחול לבן בראשות בנימין גנץ|text",
+  "he": "כחול לבן בראשות בנימין גנץ",
+  "value": "ሰማያዊ ነጭ በቢንያሚን ጋንትስ መሪነት"
+ },
+ {
+  "key": "knesset|כחול לבן - המחנה הממלכתי|text",
+  "he": "כחול לבן - המחנה הממלכתי",
+  "value": "ሰማያዊ ነጭ - መንግሥታዊው ካምፕ"
+ },
+ {
+  "key": "knesset|יש עתיד בראשות יאיר לפיד|text",
+  "he": "יש עתיד בראשות יאיר לפיד",
+  "value": "የሽ አቲድ በያኢር ላፒድ መሪነት"
+ },
+ {
+  "key": "knesset|יש עתיד|text",
+  "he": "יש עתיד",
+  "value": "የሽ አቲድ"
+ },
+ {
+  "key": "knesset|חה\"כ פנינה תמנו|text",
+  "he": "חה\"כ פנינה תמנו",
+  "value": "የፓርላማ አባል ፒኒና ታማኑ"
+ },
+ {
+  "key": "knesset|המחנה הדמוקרטי|text",
+  "he": "המחנה הדמוקרטי",
+  "value": "ዴሞክራቲክ ካምፕ"
+ },
+ {
+  "key": "knesset|העבודה - גשר - מרצ|text",
+  "he": "העבודה - גשר - מרצ",
+  "value": "የሠራተኛ ፓርቲ - ጌሸር - ሜሬትዝ"
+ },
+ {
+  "key": "knesset|העבודה - מרצ|text",
+  "he": "העבודה - מרצ",
+  "value": "የሠራተኛ ፓርቲ - ሜሬትዝ"
+ },
+ {
+  "key": "knesset|מרצ|text",
+  "he": "מרצ",
+  "value": "ሜሬትዝ"
+ },
+ {
+  "key": "knesset|העבודה|text",
+  "he": "העבודה",
+  "value": "የሠራተኛ ፓርቲ"
+ },
+ {
+  "key": "knesset|מרצ - השמאל של ישראל|text",
+  "he": "מרצ - השמאל של ישראל",
+  "value": "ሜሬትዝ - የእስራኤል ግራ"
+ },
+ {
+  "key": "knesset|מפלגת העבודה הישראלית|text",
+  "he": "מפלגת העבודה הישראלית",
+  "value": "የእስራኤል ሠራተኛ ፓርቲ"
+ },
+ {
+  "key": "knesset|ר\"ץ|text",
+  "he": "ר\"ץ",
+  "value": "ራትዝ"
+ },
+ {
+  "key": "knesset|חה\"כ דוד צוקר|text",
+  "he": "חה\"כ דוד צוקר",
+  "value": "የፓርላማ አባል ዳዊት ዙከር"
+ },
+ {
+  "key": "knesset|העבודה בראשות שלי יחימוביץ'|text",
+  "he": "העבודה בראשות שלי יחימוביץ'",
+  "value": "የሠራተኛ ፓርቲ በሸሊ ያሂሞቪች መሪነት"
+ },
+ {
+  "key": "knesset|המחנה הציוני|text",
+  "he": "המחנה הציוני",
+  "value": "ጽዮናዊው ካምፕ"
+ },
+ {
+  "key": "knesset|העבודה הישראלית|text",
+  "he": "העבודה הישראלית",
+  "value": "የእስራኤል ሠራተኛ ፓርቲ"
+ },
+ {
+  "key": "knesset|העבודה-מימד בראשות מצנע|text",
+  "he": "העבודה-מימד בראשות מצנע",
+  "value": "የሠራተኛ ፓርቲ - ሜይማድ በሚጽና መሪነት"
+ },
+ {
+  "key": "knesset|העבודה - מימד - עם אחד|text",
+  "he": "העבודה - מימד - עם אחד",
+  "value": "የሠራተኛ ፓርቲ - ሜይማድ - አንድ ሕዝብ"
+ },
+ {
+  "key": "knesset|התנועה בראשות ציפי לבני|text",
+  "he": "התנועה בראשות ציפי לבני",
+  "value": "ንቅናቄው በጽፒ ሊቭኒ መሪነት"
+ },
+ {
+  "key": "knesset|מערך|text",
+  "he": "מערך",
+  "value": "ማአራኽ"
+ },
+ {
+  "key": "knesset|מרצ - הבחירה הדמוקרטית - שחר|text",
+  "he": "מרצ - הבחירה הדמוקרטית - שחר",
+  "value": "ሜሬትዝ - ዴሞክራሲያዊ ምርጫ - ንጋት"
+ },
+ {
+  "key": "knesset|יחד והבחירה הדמוקרטית|text",
+  "he": "יחד והבחירה הדמוקרטית",
+  "value": "ያሃድ እና ዴሞክራሲያዊ ምርጫ"
+ },
+ {
+  "key": "knesset|מרצ - יחד והבחירה הדמוקרטית|text",
+  "he": "מרצ - יחד והבחירה הדמוקרטית",
+  "value": "ሜሬትዝ - ያሃድ እና ዴሞክራሲያዊ ምርጫ"
+ },
+ {
+  "key": "knesset|מרצ-ישראל חברתית דמוקרטית|text",
+  "he": "מרצ-ישראל חברתית דמוקרטית",
+  "value": "ሜሬትዝ - ማኅበራዊ ዴሞክራሲያዊ እስራኤል"
+ },
+ {
+  "key": "knesset|ישראל אחת|text",
+  "he": "ישראל אחת",
+  "value": "አንዲት እስራኤል"
+ },
+ {
+  "key": "knesset|העבודה - מימד|text",
+  "he": "העבודה - מימד",
+  "value": "የሠራተኛ ፓርቲ - ሜይማድ"
+ },
+ {
+  "key": "knesset|התנועה החדשה מרצ|text",
+  "he": "התנועה החדשה מרצ",
+  "value": "አዲሱ ንቅናቄ ሜሬትዝ"
+ },
+ {
+  "key": "knesset|העבודה-מימד בראשות עמיר פרץ|text",
+  "he": "העבודה-מימד בראשות עמיר פרץ",
+  "value": "የሠራተኛ ፓርቲ - ሜይማድ በአሚር ፔሬዝ መሪነት"
+ },
+ {
+  "key": "knesset|העבודה בראשות אהוד ברק|text",
+  "he": "העבודה בראשות אהוד ברק",
+  "value": "የሠራተኛ ፓርቲ በኤሁድ ባራክ መሪነት"
+ },
+ {
+  "key": "knesset|מפלגת פועלים מאוחדת|text",
+  "he": "מפלגת פועלים מאוחדת",
+  "value": "የተባበረ ሠራተኞች ፓርቲ"
+ },
+ {
+  "key": "knesset|יהדות התורה והשבת אגודת ישראל-דגל התורה|text",
+  "he": "יהדות התורה והשבת אגודת ישראל-דגל התורה",
+  "value": "የቶራ እና የሰንበት አይሁድነት አጉዳት እስራኤል - ዴገል ሃቶራ"
+ },
+ {
+  "key": "knesset|הליכוד|text",
+  "he": "הליכוד",
+  "value": "ሊኩድ"
+ },
+ {
+  "key": "knesset|הליכוד בהנהגת בנימין נתניהו לראשות הממשלה|text",
+  "he": "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה",
+  "value": "ሊኩድ በቢንያሚን ኔታንያሁ መሪነት ለጠቅላይ ሚኒስትርነት"
+ }
+]

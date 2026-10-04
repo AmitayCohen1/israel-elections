@@ -1,0 +1,309 @@
+{
+ "locale": "am",
+ "series": "names",
+ "target_language": "Amharic",
+ "source_language": "Hebrew",
+ "instructions": "Each item is a Hebrew NAME (person, party or list). Write how that name is conventionally written in Amharic (Ethiopic (Ge'ez fidel)). Examples: ቢንያሚን ኔታንያሁ, ያኢር ላፒድ, ሊኩድ, የሽ አቲድ. Transliterate into Amharic script using the conventional Amharic spelling where one exists (Amharic Wikipedia, Ethiopian media); otherwise a phonetic transliteration in fidel. \"ctx\" is context to identify the person or party (list, slot, MK status, start of bio): use it, do not translate it. Names are given either in natural order or surname-first (official form like \"כהן יוסי\"): always output the natural given-name-first order. Party and list names: use the established Amharic name of the party if there is one, otherwise translate the meaning (e.g. \"הציונות הדתית\" = Religious Zionism) rather than transliterate. Keep ballot-letter acronyms as they are written. Output: for every item return {\"key\": <same key>, \"value\": <your translation>}. Return ONLY a JSON array (or {\"items\":[...]}) with one entry per input item, same keys, no omissions, no extra commentary. Value must be non-empty and written in the target script; never leave Hebrew letters in it. Preserve numbers, placeholders and punctuation meaning. Save the result as data/i18n/done/<locale>/<same file name>.",
+ "items": [
+  {
+   "key": "knesset|תקווה חדשה - אחדות לישראל|text",
+   "he": "תקווה חדשה - אחדות לישראל"
+  },
+  {
+   "key": "knesset|הימין הממלכתי |text",
+   "he": "הימין הממלכתי "
+  },
+  {
+   "key": "knesset|הרשימה המשותפת (חד\"ש, רע\"ם, בל\"ד ותע\"ל)|text",
+   "he": "הרשימה המשותפת (חד\"ש, רע\"ם, בל\"ד ותע\"ל)"
+  },
+  {
+   "key": "knesset|חד\"ש תע\"ל בראשות איימן עודה ואחמד טיבי|text",
+   "he": "חד\"ש תע\"ל בראשות איימן עודה ואחמד טיבי"
+  },
+  {
+   "key": "knesset|חד\"ש|text",
+   "he": "חד\"ש"
+  },
+  {
+   "key": "knesset|הרשימה המשותפת חד\"ש, רע\"ם, תע\"ל, בל\"ד|text",
+   "he": "הרשימה המשותפת חד\"ש, רע\"ם, תע\"ל, בל\"ד"
+  },
+  {
+   "key": "knesset|חד\"ש - חזית דמוקרטית לשלום ושוויון|text",
+   "he": "חד\"ש - חזית דמוקרטית לשלום ושוויון"
+  },
+  {
+   "key": "knesset|הרשימה המשותפת חד\"ש, רע\"מ, תע\"ל, בל\"ד|text",
+   "he": "הרשימה המשותפת חד\"ש, רע\"מ, תע\"ל, בל\"ד"
+  },
+  {
+   "key": "knesset|הרשימה המשותפת|text",
+   "he": "הרשימה המשותפת"
+  },
+  {
+   "key": "knesset|בל\"ד|text",
+   "he": "בל\"ד"
+  },
+  {
+   "key": "knesset|חד\"ש - תע\"ל|text",
+   "he": "חד\"ש - תע\"ל"
+  },
+  {
+   "key": "knesset|הרשימה הערבית המאוחדת התנועה הערבית להתחדשות|text",
+   "he": "הרשימה הערבית המאוחדת התנועה הערבית להתחדשות"
+  },
+  {
+   "key": "knesset|רע\"מ-תע\"ל-מד\"ע|text",
+   "he": "רע\"מ-תע\"ל-מד\"ע"
+  },
+  {
+   "key": "knesset|רע\"מ-תע\"ל|text",
+   "he": "רע\"מ-תע\"ל"
+  },
+  {
+   "key": "knesset|תע\"ל - התנועה הערבית להתחדשות|text",
+   "he": "תע\"ל - התנועה הערבית להתחדשות"
+  },
+  {
+   "key": "knesset|תע\"ל – בראשות אחמד טיבי|text",
+   "he": "תע\"ל – בראשות אחמד טיבי"
+  },
+  {
+   "key": "knesset|תע\"ל|text",
+   "he": "תע\"ל"
+  },
+  {
+   "key": "knesset|תע\"ל - התנועה הערבית לשינוי|text",
+   "he": "תע\"ל - התנועה הערבית לשינוי"
+  },
+  {
+   "key": "knesset|תע\"ל – התנועה הערבית להתחדשות|text",
+   "he": "תע\"ל – התנועה הערבית להתחדשות"
+  },
+  {
+   "key": "knesset|הרשימה המשותפת (חד\"ש, תע\"ל, בל\"ד)|text",
+   "he": "הרשימה המשותפת (חד\"ש, תע\"ל, בל\"ד)"
+  },
+  {
+   "key": "knesset|התנועה הערבית להתחדשות (תע\"ל)|text",
+   "he": "התנועה הערבית להתחדשות (תע\"ל)"
+  },
+  {
+   "key": "knesset|הרשימה המשותפת (חד\"ש, בל\"ד)|text",
+   "he": "הרשימה המשותפת (חד\"ש, בל\"ד)"
+  },
+  {
+   "key": "knesset|חזית דמוקרטית לשלום ושוויון|text",
+   "he": "חזית דמוקרטית לשלום ושוויון"
+  },
+  {
+   "key": "knesset|חד\"ש - החזית הדמוקרטית לשלום ושוויון|text",
+   "he": "חד\"ש - החזית הדמוקרטית לשלום ושוויון"
+  },
+  {
+   "key": "knesset|ליכוד - גשר - צומת|text",
+   "he": "ליכוד - גשר - צומת"
+  },
+  {
+   "key": "knesset|ליכוד - צומת|text",
+   "he": "ליכוד - צומת"
+  },
+  {
+   "key": "knesset|הליכוד עם בנימין נתניהו לראשות הממשלה|text",
+   "he": "הליכוד עם בנימין נתניהו לראשות הממשלה"
+  },
+  {
+   "key": "knesset|הליכוד - אח\"י בהנהגת בנימין נתניהו לראשות הממשלה|text",
+   "he": "הליכוד - אח\"י בהנהגת בנימין נתניהו לראשות הממשלה"
+  },
+  {
+   "key": "knesset|הליכוד - ישראל ביתנו |text",
+   "he": "הליכוד - ישראל ביתנו "
+  },
+  {
+   "key": "knesset|הליכוד - תנועה לאומית ליברלית|text",
+   "he": "הליכוד - תנועה לאומית ליברלית"
+  },
+  {
+   "key": "knesset|הציונות הדתית|text",
+   "he": "הציונות הדתית"
+  },
+  {
+   "key": "knesset|עוצמה יהודית בראשות איתמר בן גביר|text",
+   "he": "עוצמה יהודית בראשות איתמר בן גביר"
+  },
+  {
+   "key": "knesset|ימינה בראשות נפתלי בנט|text",
+   "he": "ימינה בראשות נפתלי בנט"
+  },
+  {
+   "key": "knesset|חה\"כ עמיחי שיקלי|text",
+   "he": "חה\"כ עמיחי שיקלי"
+  },
+  {
+   "key": "knesset|עם אחד|text",
+   "he": "עם אחד"
+  },
+  {
+   "key": "knesset|קדימה-עם אהוד אולמרט לראשות הממשלה|text",
+   "he": "קדימה-עם אהוד אולמרט לראשות הממשלה"
+  },
+  {
+   "key": "knesset|הבית היהודי - האיחוד הלאומי|text",
+   "he": "הבית היהודי - האיחוד הלאומי"
+  },
+  {
+   "key": "knesset|האיחוד הלאומי|text",
+   "he": "האיחוד הלאומי"
+  },
+  {
+   "key": "knesset|התאחדות הספרדים שומרי תורה - תנועת ש\"ס|text",
+   "he": "התאחדות הספרדים שומרי תורה - תנועת ש\"ס"
+  },
+  {
+   "key": "knesset|ש\"ס|text",
+   "he": "ש\"ס"
+  },
+  {
+   "key": "knesset|התאחדות הספרדים העולמית שומרי תורה|text",
+   "he": "התאחדות הספרדים העולמית שומרי תורה"
+  },
+  {
+   "key": "knesset|ש\"ס-התאחדות הספרדים העולמית שומרי תורה|text",
+   "he": "ש\"ס-התאחדות הספרדים העולמית שומרי תורה"
+  },
+  {
+   "key": "knesset|שס התאחדות הספרדים העולמית שומרי תורה|text",
+   "he": "שס התאחדות הספרדים העולמית שומרי תורה"
+  },
+  {
+   "key": "knesset|עוצמה יהודית|text",
+   "he": "עוצמה יהודית"
+  },
+  {
+   "key": "knesset|רע\"ם - בל\"ד - הרשימה הערבית המאוחדת ברית לאומית דמוקרטית|text",
+   "he": "רע\"ם - בל\"ד - הרשימה הערבית המאוחדת ברית לאומית דמוקרטית"
+  },
+  {
+   "key": "knesset|רע\"ם – רשימת האיחוד הערבי|text",
+   "he": "רע\"ם – רשימת האיחוד הערבי"
+  },
+  {
+   "key": "knesset|רע\"מ - רשימת האיחוד הערבי|text",
+   "he": "רע\"מ - רשימת האיחוד הערבי"
+  },
+  {
+   "key": "knesset|רע\"מ – רשימת האיחוד הערבי|text",
+   "he": "רע\"מ – רשימת האיחוד הערבי"
+  },
+  {
+   "key": "knesset|הרשימה הערבית המאוחדת|text",
+   "he": "הרשימה הערבית המאוחדת"
+  },
+  {
+   "key": "knesset|רע\"ם|text",
+   "he": "רע\"ם"
+  },
+  {
+   "key": "knesset|יש עתיד - תל\"ם|text",
+   "he": "יש עתיד - תל\"ם"
+  },
+  {
+   "key": "knesset|דרך ארץ|text",
+   "he": "דרך ארץ"
+  },
+  {
+   "key": "knesset|תל\"ם - תנועה לאומית ממלכתית|text",
+   "he": "תל\"ם - תנועה לאומית ממלכתית"
+  },
+  {
+   "key": "knesset|הבית היהודי בראשות נפתלי בנט|text",
+   "he": "הבית היהודי בראשות נפתלי בנט"
+  },
+  {
+   "key": "knesset|ימינה בראשות איילת שקד הבית היהודי – האיחוד הלאומי – הימין החדש|text",
+   "he": "ימינה בראשות איילת שקד הבית היהודי – האיחוד הלאומי – הימין החדש"
+  },
+  {
+   "key": "knesset|ימינה|text",
+   "he": "ימינה"
+  },
+  {
+   "key": "knesset|הבית היהודי מייסודם של האיחוד הלאומי והמפד\"ל החדשה|text",
+   "he": "הבית היהודי מייסודם של האיחוד הלאומי והמפד\"ל החדשה"
+  },
+  {
+   "key": "knesset|צומת|text",
+   "he": "צומת"
+  },
+  {
+   "key": "knesset|מכורה|text",
+   "he": "מכורה"
+  },
+  {
+   "key": "knesset|מולדת|text",
+   "he": "מולדת"
+  },
+  {
+   "key": "knesset|התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יוסף זצ\"ל|text",
+   "he": "התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יוסף זצ\"ל"
+  },
+  {
+   "key": "knesset|ביחד|text",
+   "he": "ביחד"
+  },
+  {
+   "key": "knesset|כולנו בראשות משה כחלון|text",
+   "he": "כולנו בראשות משה כחלון"
+  },
+  {
+   "key": "knesset|יהדות התורה והשבת, אגודת ישראל - דגל התורה|text",
+   "he": "יהדות התורה והשבת, אגודת ישראל - דגל התורה"
+  },
+  {
+   "key": "knesset|יהדות התורה|text",
+   "he": "יהדות התורה"
+  },
+  {
+   "key": "knesset|דגל התורה|text",
+   "he": "דגל התורה"
+  },
+  {
+   "key": "knesset|יהדות התורה והשבת אגודת ישראל - דגל התורה|text",
+   "he": "יהדות התורה והשבת אגודת ישראל - דגל התורה"
+  },
+  {
+   "key": "knesset|יהדות התורה והשבת - אגודת ישראל דגל התורה|text",
+   "he": "יהדות התורה והשבת - אגודת ישראל דגל התורה"
+  },
+  {
+   "key": "knesset|אגודת ישראל|text",
+   "he": "אגודת ישראל"
+  },
+  {
+   "key": "knesset|מפלגה דתית לאומית|text",
+   "he": "מפלגה דתית לאומית"
+  },
+  {
+   "key": "knesset|ישראל במרכז|text",
+   "he": "ישראל במרכז"
+  },
+  {
+   "key": "knesset|מפלגת המרכז|text",
+   "he": "מפלגת המרכז"
+  },
+  {
+   "key": "knesset|ישראל ביתנו|text",
+   "he": "ישראל ביתנו"
+  },
+  {
+   "key": "knesset|האיחוד הלאומי - ישראל ביתנו|text",
+   "he": "האיחוד הלאומי - ישראל ביתנו"
+  },
+  {
+   "key": "knesset|ישראל ביתנו בראשות אביגדור ליברמן|text",
+   "he": "ישראל ביתנו בראשות אביגדור ליברמן"
+  }
+ ]
+}

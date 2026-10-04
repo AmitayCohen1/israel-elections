@@ -1,0 +1,752 @@
+[
+ {
+  "key": "candidates|joint-list:8|official_name",
+  "he": "כרכבי סבאח מהא",
+  "value": "ማሃ ካርካቢ-ሰባሕ"
+ },
+ {
+  "key": "candidates|joint-list:9|display_name",
+  "he": "אחמד דראושה",
+  "value": "አህመድ ዱራውሻ"
+ },
+ {
+  "key": "candidates|joint-list:9|official_name",
+  "he": "דראושה אחמד",
+  "value": "አህመድ ዱራውሻ"
+ },
+ {
+  "key": "candidates|joint-list:10|display_name",
+  "he": "נהאיה ושאחי",
+  "value": "ነሃያ ወሻሒ"
+ },
+ {
+  "key": "candidates|joint-list:10|official_name",
+  "he": "וישאחי נהאיה",
+  "value": "ነሃያ ወሻሒ"
+ },
+ {
+  "key": "candidates|joint-list:11|display_name",
+  "he": "חסן נצאצרה",
+  "value": "ሐሰን ናሳሰራ"
+ },
+ {
+  "key": "candidates|joint-list:11|official_name",
+  "he": "אלנאסרה חסן",
+  "value": "ሐሰን አል-ናሲራ"
+ },
+ {
+  "key": "candidates|joint-list:12|display_name",
+  "he": "הייתם זחאלקה",
+  "value": "ሃይተም ዛሕአልካ"
+ },
+ {
+  "key": "candidates|joint-list:12|official_name",
+  "he": "זחאלקה היתם",
+  "value": "ሃይተም ዛሕአልካ"
+ },
+ {
+  "key": "candidates|joint-list:13|display_name",
+  "he": "איאס נאטור",
+  "value": "ኢያስ ናጦር"
+ },
+ {
+  "key": "candidates|joint-list:13|official_name",
+  "he": "נאטור איאס",
+  "value": "ኢያስ ናጦር"
+ },
+ {
+  "key": "candidates|joint-list:14|display_name",
+  "he": "ג'סאן עבדאללה",
+  "value": "ጀሳን ዓብደላህ"
+ },
+ {
+  "key": "candidates|joint-list:14|official_name",
+  "he": "עבדאללה ג'סאן",
+  "value": "ጀሳን ዓብደላህ"
+ },
+ {
+  "key": "candidates|joint-list:15|display_name",
+  "he": "אורלי נוי",
+  "value": "ኦርሊ ኖይ"
+ },
+ {
+  "key": "candidates|joint-list:15|official_name",
+  "he": "נוי אורלי",
+  "value": "ኦርሊ ኖይ"
+ },
+ {
+  "key": "candidates|joint-list:16|display_name",
+  "he": "מור סטולר",
+  "value": "ሞር ስቶለር"
+ },
+ {
+  "key": "candidates|joint-list:16|official_name",
+  "he": "סטור מור שושן",
+  "value": "ሞር ሾሻን ስቶር"
+ },
+ {
+  "key": "candidates|joint-list:17|display_name",
+  "he": "אעתמאד קעדאן",
+  "value": "ዕቲማድ ቃዳን"
+ },
+ {
+  "key": "candidates|joint-list:17|official_name",
+  "he": "קעדאן אעתמאד",
+  "value": "ዕቲማድ ቃዳን"
+ },
+ {
+  "key": "candidates|joint-list:18|display_name",
+  "he": "עומר ואקד",
+  "value": "ዑመር ዋቅድ"
+ },
+ {
+  "key": "candidates|joint-list:18|official_name",
+  "he": "ואקד עומר",
+  "value": "ዑመር ዋቅድ"
+ },
+ {
+  "key": "candidates|joint-list:19|display_name",
+  "he": "מואייד מיעארי",
+  "value": "ሙአዪድ ሚዓሪ"
+ },
+ {
+  "key": "candidates|joint-list:19|official_name",
+  "he": "מיעארי מואייד",
+  "value": "ሙአዪድ ሚዓሪ"
+ },
+ {
+  "key": "candidates|joint-list:20|display_name",
+  "he": "ג'זאוי גאנם אחמד",
+  "value": "አሕመድ ጋኒም ጀዛዊ"
+ },
+ {
+  "key": "candidates|joint-list:21|display_name",
+  "he": "אומניה זועבי",
+  "value": "ኡምኒያ ዛዕቢ"
+ },
+ {
+  "key": "candidates|joint-list:21|official_name",
+  "he": "זועבי אומניה",
+  "value": "ኡምኒያ ዛዕቢ"
+ },
+ {
+  "key": "candidates|joint-list:22|display_name",
+  "he": "נסר סנעאללה",
+  "value": "ናስር ሰናእላህ"
+ },
+ {
+  "key": "candidates|joint-list:22|official_name",
+  "he": "סנעאללה נסר",
+  "value": "ናስር ሰናእላህ"
+ },
+ {
+  "key": "candidates|joint-list:23|display_name",
+  "he": "סרי ח'וריה",
+  "value": "ሲሪ ኽውሪያ"
+ },
+ {
+  "key": "candidates|joint-list:23|official_name",
+  "he": "ח'וריה סרי",
+  "value": "ሲሪ ኽውሪያ"
+ },
+ {
+  "key": "candidates|joint-list:24|display_name",
+  "he": "ליאת קבהא",
+  "value": "ሊአት ቅብሃ"
+ },
+ {
+  "key": "candidates|joint-list:24|official_name",
+  "he": "קבהא ליאת",
+  "value": "ሊአት ቅብሃ"
+ },
+ {
+  "key": "candidates|joint-list:25|display_name",
+  "he": "וליד קעדאן",
+  "value": "ወሊድ ቃዳን"
+ },
+ {
+  "key": "candidates|joint-list:25|official_name",
+  "he": "קעדאן וליד",
+  "value": "ወሊድ ቃዳን"
+ },
+ {
+  "key": "candidates|joint-list:26|display_name",
+  "he": "לוי נועה",
+  "value": "ኖዓ ሌቪ"
+ },
+ {
+  "key": "candidates|joint-list:26|official_name",
+  "he": "נועה לוי",
+  "value": "ኖዓ ሌቪ"
+ },
+ {
+  "key": "candidates|joint-list:27|display_name",
+  "he": "עמאר טאהא",
+  "value": "ዓማር ጣሃ"
+ },
+ {
+  "key": "candidates|joint-list:27|official_name",
+  "he": "טאהא עמאר",
+  "value": "ዓማር ጣሃ"
+ },
+ {
+  "key": "candidates|joint-list:28|display_name",
+  "he": "אבו גררה יונס",
+  "value": "ዩኑስ አቡ ጋራራ"
+ },
+ {
+  "key": "candidates|joint-list:29|display_name",
+  "he": "רים חזאן",
+  "value": "ሪም ሐዛን"
+ },
+ {
+  "key": "candidates|joint-list:29|official_name",
+  "he": "חזאן רים",
+  "value": "ሪም ሐዛን"
+ },
+ {
+  "key": "candidates|joint-list:30|display_name",
+  "he": "אבו אחמד ואפי",
+  "value": "ዋፊ አቡ አሕመድ"
+ },
+ {
+  "key": "candidates|joint-list:31|display_name",
+  "he": "שקור משעור רודינה",
+  "value": "ሮዲና ሸኩር መሽዓር"
+ },
+ {
+  "key": "candidates|joint-list:32|display_name",
+  "he": "אלמאסה ג'בארה",
+  "value": "አልማሳ ጀባራ"
+ },
+ {
+  "key": "candidates|joint-list:32|official_name",
+  "he": "ג'בארה אלמאסה",
+  "value": "አልማሳ ጀባራ"
+ },
+ {
+  "key": "candidates|joint-list:33|display_name",
+  "he": "ג'האד אבויונס",
+  "value": "ጂሃድ አቡዩኑስ"
+ },
+ {
+  "key": "candidates|joint-list:33|official_name",
+  "he": "אבויונס ג'האד",
+  "value": "ጂሃድ አቡዩኑስ"
+ },
+ {
+  "key": "candidates|joint-list:34|display_name",
+  "he": "פאהום שמא רנא",
+  "value": "ራና ሸማ ፋሁም"
+ },
+ {
+  "key": "candidates|joint-list:35|display_name",
+  "he": "סלאם עודה",
+  "value": "ሰላም ዑዳ"
+ },
+ {
+  "key": "candidates|joint-list:35|official_name",
+  "he": "עודה סלאם",
+  "value": "ሰላም ዑዳ"
+ },
+ {
+  "key": "candidates|joint-list:36|display_name",
+  "he": "אבינועם יורן",
+  "value": "አቢኖዓም ዩራን"
+ },
+ {
+  "key": "candidates|joint-list:36|official_name",
+  "he": "יורן אבינועם",
+  "value": "አቢኖዓም ዩራን"
+ },
+ {
+  "key": "candidates|joint-list:37|display_name",
+  "he": "ויצמן דיאמונד עינאת",
+  "value": "ዔናት ዳይመንድ ዋይዝማን"
+ },
+ {
+  "key": "candidates|joint-list:38|display_name",
+  "he": "אבו לולו פואז",
+  "value": "ፈዋዝ አቡ ሉሉ"
+ },
+ {
+  "key": "candidates|joint-list:39|display_name",
+  "he": "יאסין עואד מרים",
+  "value": "መርየም የሲን ዓዋድ"
+ },
+ {
+  "key": "candidates|joint-list:40|display_name",
+  "he": "מרים פרח",
+  "value": "መርየም ፈረሕ"
+ },
+ {
+  "key": "candidates|joint-list:40|official_name",
+  "he": "פרח מרים",
+  "value": "መርየም ፈረሕ"
+ },
+ {
+  "key": "candidates|joint-list:41|display_name",
+  "he": "דוד מרגלית",
+  "value": "ዳዊት ማርጋሊት"
+ },
+ {
+  "key": "candidates|joint-list:41|official_name",
+  "he": "מרגלית דוד",
+  "value": "ዳዊት ማርጋሊት"
+ },
+ {
+  "key": "candidates|joint-list:42|display_name",
+  "he": "רנא זהר",
+  "value": "ራና ዞሃር"
+ },
+ {
+  "key": "candidates|joint-list:42|official_name",
+  "he": "זהר רנא",
+  "value": "ራና ዞሃር"
+ },
+ {
+  "key": "candidates|joint-list:43|display_name",
+  "he": "מוחמד אגבאריה",
+  "value": "ሙሐመድ አግባሪያ"
+ },
+ {
+  "key": "candidates|joint-list:43|official_name",
+  "he": "אגבאריה מוחמד",
+  "value": "ሙሐመድ አግባሪያ"
+ },
+ {
+  "key": "candidates|joint-list:44|display_name",
+  "he": "עלי סאלאח ויסאם",
+  "value": "ዌሳም ዓሊ ሳላሕ"
+ },
+ {
+  "key": "candidates|joint-list:45|display_name",
+  "he": "תופיק קיים",
+  "value": "ተውፊቅ ቃይም"
+ },
+ {
+  "key": "candidates|joint-list:45|official_name",
+  "he": "קיים תופיק",
+  "value": "ተውፊቅ ቃይም"
+ },
+ {
+  "key": "candidates|joint-list:46|display_name",
+  "he": "עומר רביע",
+  "value": "ዑመር ራቢዕ"
+ },
+ {
+  "key": "candidates|joint-list:46|official_name",
+  "he": "רביע עומר",
+  "value": "ዑመር ራቢዕ"
+ },
+ {
+  "key": "candidates|joint-list:47|display_name",
+  "he": "עמר שיף נטע",
+  "value": "ኔታ ዓመር ሺፍ"
+ },
+ {
+  "key": "candidates|joint-list:48|display_name",
+  "he": "בשאר נח'אש",
+  "value": "በሻር ነኻሽ"
+ },
+ {
+  "key": "candidates|joint-list:48|official_name",
+  "he": "נח'אש בשאר",
+  "value": "በሻር ነኻሽ"
+ },
+ {
+  "key": "candidates|joint-list:49|display_name",
+  "he": "ראמי חידר",
+  "value": "ራሚ ሃይደር"
+ },
+ {
+  "key": "candidates|joint-list:49|official_name",
+  "he": "חידר ראמי",
+  "value": "ራሚ ሃይደር"
+ },
+ {
+  "key": "candidates|joint-list:50|display_name",
+  "he": "זכי שואהנה",
+  "value": "ዛኪ ሹዋሃና"
+ },
+ {
+  "key": "candidates|joint-list:50|official_name",
+  "he": "שואהנה זכי",
+  "value": "ዛኪ ሹዋሃና"
+ },
+ {
+  "key": "candidates|joint-list:51|display_name",
+  "he": "אבו חוסיין ג'מיל",
+  "value": "ጀሚል አቡ ሑሴይን"
+ },
+ {
+  "key": "candidates|joint-list:52|display_name",
+  "he": "מגד ראס",
+  "value": "ማጅድ ራስ"
+ },
+ {
+  "key": "candidates|joint-list:52|official_name",
+  "he": "ראס מגד",
+  "value": "ማጅድ ራስ"
+ },
+ {
+  "key": "candidates|joint-list:53|display_name",
+  "he": "עמר תאודור אריאל",
+  "value": "አሪኤል ቴዎዶር ዓመር"
+ },
+ {
+  "key": "candidates|joint-list:54|display_name",
+  "he": "חוסיין עואד",
+  "value": "ሑሴይን ዓዋድ"
+ },
+ {
+  "key": "candidates|joint-list:54|official_name",
+  "he": "עואד חוסיין",
+  "value": "ሑሴይን ዓዋድ"
+ },
+ {
+  "key": "candidates|joint-list:55|display_name",
+  "he": "בסאם שקור",
+  "value": "በሳም ሸኩር"
+ },
+ {
+  "key": "candidates|joint-list:55|official_name",
+  "he": "שקור בסאם",
+  "value": "በሳም ሸኩር"
+ },
+ {
+  "key": "candidates|joint-list:56|display_name",
+  "he": "ככאל אחמד",
+  "value": "አሕመድ ኩካል"
+ },
+ {
+  "key": "candidates|joint-list:56|official_name",
+  "he": "אחמד ככאל",
+  "value": "አሕመድ ኩካል"
+ },
+ {
+  "key": "candidates|joint-list:57|display_name",
+  "he": "עומר סיקסק",
+  "value": "ዑመር ሲክሴክ"
+ },
+ {
+  "key": "candidates|joint-list:57|official_name",
+  "he": "סיקסק עומר",
+  "value": "ዑመር ሲክሴክ"
+ },
+ {
+  "key": "candidates|joint-list:58|display_name",
+  "he": "נוהא בדר",
+  "value": "ኑሃ በደር"
+ },
+ {
+  "key": "candidates|joint-list:58|official_name",
+  "he": "בדר נוהא",
+  "value": "ኑሃ በደር"
+ },
+ {
+  "key": "candidates|joint-list:59|display_name",
+  "he": "זידאן שוויירי שאדי",
+  "value": "ሻዲ ዚዳን ሹዌይሪ"
+ },
+ {
+  "key": "candidates|joint-list:60|display_name",
+  "he": "יוסף סאלם",
+  "value": "ዮሴፍ ሳሌም"
+ },
+ {
+  "key": "candidates|joint-list:60|official_name",
+  "he": "סאלם יוסף",
+  "value": "ዮሴፍ ሳሌም"
+ },
+ {
+  "key": "candidates|joint-list:61|display_name",
+  "he": "מוחמד רינאווי",
+  "value": "ሙሐመድ ሪናዊ"
+ },
+ {
+  "key": "candidates|joint-list:61|official_name",
+  "he": "רינאווי מוחמד",
+  "value": "ሙሐመድ ሪናዊ"
+ },
+ {
+  "key": "candidates|joint-list:62|display_name",
+  "he": "חאג' יחיא מטאנע",
+  "value": "ሐጅ የሕያ መጣኔ"
+ },
+ {
+  "key": "candidates|joint-list:63|display_name",
+  "he": "וסאם אגבאריה",
+  "value": "ዌሳም አግባሪያ"
+ },
+ {
+  "key": "candidates|joint-list:63|official_name",
+  "he": "אגבאריה וסאם",
+  "value": "ዌሳም አግባሪያ"
+ },
+ {
+  "key": "candidates|joint-list:64|display_name",
+  "he": "עאישה חמוד",
+  "value": "ዓኢሻ ሐሙድ"
+ },
+ {
+  "key": "candidates|joint-list:64|official_name",
+  "he": "חמוד עאישה",
+  "value": "ዓኢሻ ሐሙድ"
+ },
+ {
+  "key": "candidates|joint-list:65|display_name",
+  "he": "טלאל מריסאת",
+  "value": "ጣላል ማሪሳት"
+ },
+ {
+  "key": "candidates|joint-list:65|official_name",
+  "he": "מריסאת טלאל",
+  "value": "ጣላል ማሪሳት"
+ },
+ {
+  "key": "candidates|joint-list:66|display_name",
+  "he": "חסאן ג'סאר",
+  "value": "ሐሳን ጀሳር"
+ },
+ {
+  "key": "candidates|joint-list:66|official_name",
+  "he": "ג'סאר חסאן",
+  "value": "ሐሳን ጀሳር"
+ },
+ {
+  "key": "candidates|joint-list:67|display_name",
+  "he": "מחמוד שלבי",
+  "value": "ማሕሙድ ሸልቢ"
+ },
+ {
+  "key": "candidates|joint-list:67|official_name",
+  "he": "שלבי מחמוד",
+  "value": "ማሕሙድ ሸልቢ"
+ },
+ {
+  "key": "candidates|joint-list:68|display_name",
+  "he": "ח'תאם ואקד",
+  "value": "ኻቲም ዋቅድ"
+ },
+ {
+  "key": "candidates|joint-list:68|official_name",
+  "he": "ואקד ח'תאם",
+  "value": "ኻቲም ዋቅድ"
+ },
+ {
+  "key": "candidates|joint-list:69|display_name",
+  "he": "פאדי זעבי",
+  "value": "ፋዲ ዙዕቢ"
+ },
+ {
+  "key": "candidates|joint-list:69|official_name",
+  "he": "זעבי פאדי",
+  "value": "ፋዲ ዙዕቢ"
+ },
+ {
+  "key": "candidates|joint-list:70|display_name",
+  "he": "יוסף סעיד",
+  "value": "ዮሴፍ ሰዒድ"
+ },
+ {
+  "key": "candidates|joint-list:70|official_name",
+  "he": "סעיד יוסף",
+  "value": "ዮሴፍ ሰዒድ"
+ },
+ {
+  "key": "candidates|joint-list:71|display_name",
+  "he": "עזיז בסיוני",
+  "value": "ዓዚዝ ብሲዮኒ"
+ },
+ {
+  "key": "candidates|joint-list:71|official_name",
+  "he": "בסיוני עזיז",
+  "value": "ዓዚዝ ብሲዮኒ"
+ },
+ {
+  "key": "candidates|joint-list:72|display_name",
+  "he": "בדראן סלימאן אמין",
+  "value": "አሚን ሱለይማን በድራን"
+ },
+ {
+  "key": "candidates|joint-list:73|display_name",
+  "he": "קאסם בכרי",
+  "value": "ቃሲም በከሪ"
+ },
+ {
+  "key": "candidates|joint-list:73|official_name",
+  "he": "בכרי קאסם",
+  "value": "ቃሲም በከሪ"
+ },
+ {
+  "key": "candidates|joint-list:74|display_name",
+  "he": "פוזי ג'ומעה",
+  "value": "ፎዚ ጁምዓ"
+ },
+ {
+  "key": "candidates|joint-list:74|official_name",
+  "he": "ג'ומעה פוזי",
+  "value": "ፎዚ ጁምዓ"
+ },
+ {
+  "key": "candidates|joint-list:75|display_name",
+  "he": "זיאד עווידה",
+  "value": "ዚያድ ዑዌይዳ"
+ },
+ {
+  "key": "candidates|joint-list:75|official_name",
+  "he": "עווידה זיאד",
+  "value": "ዚያድ ዑዌይዳ"
+ },
+ {
+  "key": "candidates|joint-list:76|display_name",
+  "he": "סאגידה מוסלמאני",
+  "value": "ሳጊዳ ሙስለማኒ"
+ },
+ {
+  "key": "candidates|joint-list:76|official_name",
+  "he": "מוסלמאני סאגידה",
+  "value": "ሳጊዳ ሙስለማኒ"
+ },
+ {
+  "key": "candidates|joint-list:77|display_name",
+  "he": "חאלד מחאג'נה",
+  "value": "ኻሊድ መሐጅና"
+ },
+ {
+  "key": "candidates|joint-list:77|official_name",
+  "he": "מחאג'נה חאלד",
+  "value": "ኻሊድ መሐጅና"
+ },
+ {
+  "key": "candidates|joint-list:78|display_name",
+  "he": "חביב אללה אחמד",
+  "value": "አሕመድ ሐቢብ አላህ"
+ },
+ {
+  "key": "candidates|joint-list:79|display_name",
+  "he": "כסאן מונייר",
+  "value": "ሐሳን ሙኒር"
+ },
+ {
+  "key": "candidates|joint-list:79|official_name",
+  "he": "מונייר כסאן",
+  "value": "ሐሳን ሙኒር"
+ },
+ {
+  "key": "candidates|joint-list:80|display_name",
+  "he": "סאמח עיראקי",
+  "value": "ሳሚሕ ዒራቂ"
+ },
+ {
+  "key": "candidates|joint-list:80|official_name",
+  "he": "עיראקי סאמח",
+  "value": "ሳሚሕ ዒራቂ"
+ },
+ {
+  "key": "candidates|joint-list:81|display_name",
+  "he": "מרוואן מישרקי",
+  "value": "መርዋን ሚሽረቂ"
+ },
+ {
+  "key": "candidates|joint-list:81|official_name",
+  "he": "מישרקי מרוואן",
+  "value": "መርዋን ሚሽረቂ"
+ },
+ {
+  "key": "candidates|joint-list:82|display_name",
+  "he": "אבו פול מוחמד",
+  "value": "ሙሐመድ አቡ ፉል"
+ },
+ {
+  "key": "candidates|joint-list:83|display_name",
+  "he": "איאד ראהבי",
+  "value": "ኢያድ ራሃቢ"
+ },
+ {
+  "key": "candidates|joint-list:83|official_name",
+  "he": "ראהבי איאד",
+  "value": "ኢያድ ራሃቢ"
+ },
+ {
+  "key": "candidates|joint-list:84|display_name",
+  "he": "אבו סריחאן ראפת",
+  "value": "ራፈት አቡ ሰሪሃን"
+ },
+ {
+  "key": "candidates|joint-list:85|display_name",
+  "he": "אבו ליל עבדאללה",
+  "value": "ዓብደላህ አቡ ሊል"
+ },
+ {
+  "key": "candidates|joint-list:86|display_name",
+  "he": "נחלה טנוס",
+  "value": "ናሕላ ጠኑስ"
+ },
+ {
+  "key": "candidates|joint-list:86|official_name",
+  "he": "טנוס נחלה",
+  "value": "ናሕላ ጠኑስ"
+ },
+ {
+  "key": "candidates|joint-list:87|display_name",
+  "he": "עיימראן כנאנה",
+  "value": "ዒምራን ካናና"
+ },
+ {
+  "key": "candidates|joint-list:87|official_name",
+  "he": "כנאנה עיימראן",
+  "value": "ዒምራን ካናና"
+ },
+ {
+  "key": "candidates|joint-list:88|display_name",
+  "he": "עויידה עואד ערין",
+  "value": "ዓሪን ዑዌይዳ ዓዋድ"
+ },
+ {
+  "key": "candidates|joint-list:89|display_name",
+  "he": "אניס שינאווי",
+  "value": "አኒስ ሸናዊ"
+ },
+ {
+  "key": "candidates|joint-list:89|official_name",
+  "he": "שינאווי אניס",
+  "value": "አኒስ ሸናዊ"
+ },
+ {
+  "key": "candidates|joint-list:90|display_name",
+  "he": "אפרים דוידי",
+  "value": "ኤፍሬም ዳቪዲ"
+ },
+ {
+  "key": "candidates|joint-list:90|official_name",
+  "he": "דוידי אפרים",
+  "value": "ኤፍሬም ዳቪዲ"
+ },
+ {
+  "key": "candidates|joint-list:91|display_name",
+  "he": "נמר מוסא",
+  "value": "ኑማር ሙሳ"
+ },
+ {
+  "key": "candidates|joint-list:91|official_name",
+  "he": "מוסא נמר",
+  "value": "ኑማር ሙሳ"
+ },
+ {
+  "key": "candidates|joint-list:92|display_name",
+  "he": "סוהיל אסעד",
+  "value": "ሱሃይል አስዓድ"
+ },
+ {
+  "key": "candidates|joint-list:92|official_name",
+  "he": "אסעד סוהיל",
+  "value": "ሱሃይል አስዓድ"
+ },
+ {
+  "key": "candidates|joint-list:93|display_name",
+  "he": "עלאא אלדין מינא",
+  "value": "ዓላአ አል-ዲን ሚና"
+ }
+]

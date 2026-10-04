@@ -1,0 +1,725 @@
+{
+ "locale": "am",
+ "series": "names",
+ "target_language": "Amharic",
+ "source_language": "Hebrew",
+ "instructions": "Each item is a Hebrew NAME (person, party or list). Write how that name is conventionally written in Amharic (Ethiopic (Ge'ez fidel)). Examples: ቢንያሚን ኔታንያሁ, ያኢር ላፒድ, ሊኩድ, የሽ አቲድ. Transliterate into Amharic script using the conventional Amharic spelling where one exists (Amharic Wikipedia, Ethiopian media); otherwise a phonetic transliteration in fidel. \"ctx\" is context to identify the person or party (list, slot, MK status, start of bio): use it, do not translate it. Names are given either in natural order or surname-first (official form like \"כהן יוסי\"): always output the natural given-name-first order. Party and list names: use the established Amharic name of the party if there is one, otherwise translate the meaning (e.g. \"הציונות הדתית\" = Religious Zionism) rather than transliterate. Keep ballot-letter acronyms as they are written. Output: for every item return {\"key\": <same key>, \"value\": <your translation>}. Return ONLY a JSON array (or {\"items\":[...]}) with one entry per input item, same keys, no omissions, no extra commentary. Value must be non-empty and written in the target script; never leave Hebrew letters in it. Preserve numbers, placeholders and punctuation meaning. Save the result as data/i18n/done/<locale>/<same file name>.",
+ "items": [
+  {
+   "key": "people|joint-list:1|name",
+   "he": "יוסף ג'בארין",
+   "ctx": "רשימת הרשימה המשותפת, מקום 1"
+  },
+  {
+   "key": "people|joint-list:2|name",
+   "he": "אחמד טיבי",
+   "ctx": "רשימת הרשימה המשותפת, מקום 2"
+  },
+  {
+   "key": "people|joint-list:3|name",
+   "he": "סאמי אבו שחאדה",
+   "ctx": "רשימת הרשימה המשותפת, מקום 3"
+  },
+  {
+   "key": "people|joint-list:4|name",
+   "he": "פאתן ג'טאס",
+   "ctx": "רשימת הרשימה המשותפת, מקום 4"
+  },
+  {
+   "key": "people|joint-list:5|name",
+   "he": "בכר עואודה",
+   "ctx": "רשימת הרשימה המשותפת, מקום 5"
+  },
+  {
+   "key": "people|likud:1|name",
+   "he": "בנימין נתניהו",
+   "ctx": "רשימת הליכוד, מקום 1"
+  },
+  {
+   "key": "people|likud:2|name",
+   "he": "אלי כהן",
+   "ctx": "רשימת הליכוד, מקום 2"
+  },
+  {
+   "key": "people|likud:3|name",
+   "he": "אמיר אוחנה",
+   "ctx": "רשימת הליכוד, מקום 3"
+  },
+  {
+   "key": "people|likud:4|name",
+   "he": "יריב לוין",
+   "ctx": "רשימת הליכוד, מקום 4"
+  },
+  {
+   "key": "people|likud:5|name",
+   "he": "מירי רגב",
+   "ctx": "רשימת הליכוד, מקום 5"
+  },
+  {
+   "key": "people|me-and-you:1|name",
+   "he": "אלון גלעדי",
+   "ctx": "רשימת אני ואתה מפלגת העם הישראלית, מקום 1"
+  },
+  {
+   "key": "people|me-and-you:2|name",
+   "he": "מאיה גלעדי ז'ולסון",
+   "ctx": "רשימת אני ואתה מפלגת העם הישראלית, מקום 2"
+  },
+  {
+   "key": "people|me-and-you:3|name",
+   "he": "איציק זלכה",
+   "ctx": "רשימת אני ואתה מפלגת העם הישראלית, מקום 3"
+  },
+  {
+   "key": "people|me-and-you:4|name",
+   "he": "לודמילה פורטנוב",
+   "ctx": "רשימת אני ואתה מפלגת העם הישראלית, מקום 4"
+  },
+  {
+   "key": "people|me-and-you:5|name",
+   "he": "עזרא שוהם",
+   "ctx": "רשימת אני ואתה מפלגת העם הישראלית, מקום 5"
+  },
+  {
+   "key": "people|mishpat-tzedek:1|name",
+   "he": "רננה לריסה עמיר",
+   "ctx": "רשימת משפט צדק, מקום 1"
+  },
+  {
+   "key": "people|mishpat-tzedek:2|name",
+   "he": "גאולה עמיר",
+   "ctx": "רשימת משפט צדק, מקום 2"
+  },
+  {
+   "key": "people|mishpat-tzedek:3|name",
+   "he": "אליעזר יהודי",
+   "ctx": "רשימת משפט צדק, מקום 3"
+  },
+  {
+   "key": "people|mishpat-tzedek:4|name",
+   "he": "יצחק כהן",
+   "ctx": "רשימת משפט צדק, מקום 4"
+  },
+  {
+   "key": "people|mishpat-tzedek:5|name",
+   "he": "יליזבטה יודין",
+   "ctx": "רשימת משפט צדק, מקום 5"
+  },
+  {
+   "key": "people|new-order:1|name",
+   "he": "אביטל חי אופק",
+   "ctx": "רשימת סדר חדש, מקום 1"
+  },
+  {
+   "key": "people|new-order:2|name",
+   "he": "לביא נאור",
+   "ctx": "רשימת סדר חדש, מקום 2"
+  },
+  {
+   "key": "people|new-order:3|name",
+   "he": "דניאל בטיטו",
+   "ctx": "רשימת סדר חדש, מקום 3"
+  },
+  {
+   "key": "people|new-order:4|name",
+   "he": "זהבית שמש",
+   "ctx": "רשימת סדר חדש, מקום 4"
+  },
+  {
+   "key": "people|new-order:5|name",
+   "he": "פאולה קוין",
+   "ctx": "רשימת סדר חדש, מקום 5"
+  },
+  {
+   "key": "people|noam:1|name",
+   "he": "אבי מעוז",
+   "ctx": "רשימת נעם, מקום 1"
+  },
+  {
+   "key": "people|noam:2|name",
+   "he": "שמעון טובול",
+   "ctx": "רשימת נעם, מקום 2"
+  },
+  {
+   "key": "people|noam:3|name",
+   "he": "אליהו ליבמן",
+   "ctx": "רשימת נעם, מקום 3"
+  },
+  {
+   "key": "people|noam:4|name",
+   "he": "ליאורה אלון",
+   "ctx": "רשימת נעם, מקום 4"
+  },
+  {
+   "key": "people|noam:5|name",
+   "he": "יסכה חיימוב",
+   "ctx": "רשימת נעם, מקום 5"
+  },
+  {
+   "key": "people|orot-hashahar:1|name",
+   "he": "נסים לוק",
+   "ctx": "רשימת אורות השחר, מקום 1"
+  },
+  {
+   "key": "people|orot-hashahar:2|name",
+   "he": "בניהו הר שמש",
+   "ctx": "רשימת אורות השחר, מקום 2"
+  },
+  {
+   "key": "people|orot-hashahar:3|name",
+   "he": "יאיר אנסבכר",
+   "ctx": "רשימת אורות השחר, מקום 3"
+  },
+  {
+   "key": "people|orot-hashahar:4|name",
+   "he": "יצחק אבוקרט",
+   "ctx": "רשימת אורות השחר, מקום 4"
+  },
+  {
+   "key": "people|orot-hashahar:5|name",
+   "he": "דב הלברטל",
+   "ctx": "רשימת אורות השחר, מקום 5"
+  },
+  {
+   "key": "people|otzma-yehudit:1|name",
+   "he": "איתמר בן גביר",
+   "ctx": "רשימת עוצמה יהודית, מקום 1"
+  },
+  {
+   "key": "people|otzma-yehudit:2|name",
+   "he": "טלי גוטליב",
+   "ctx": "רשימת עוצמה יהודית, מקום 2"
+  },
+  {
+   "key": "people|otzma-yehudit:3|name",
+   "he": "יצחק וסרלאוף",
+   "ctx": "רשימת עוצמה יהודית, מקום 3"
+  },
+  {
+   "key": "people|otzma-yehudit:4|name",
+   "he": "עמיחי אליהו",
+   "ctx": "רשימת עוצמה יהודית, מקום 4"
+  },
+  {
+   "key": "people|otzma-yehudit:5|name",
+   "he": "לימור סון הר-מלך",
+   "ctx": "רשימת עוצמה יהודית, מקום 5"
+  },
+  {
+   "key": "people|partnership-for-all:1|name",
+   "he": "טלאל אלקרינאוי",
+   "ctx": "רשימת השותפות לכולם, מקום 1"
+  },
+  {
+   "key": "people|partnership-for-all:2|name",
+   "he": "עבדאללה אבו עאנם",
+   "ctx": "רשימת השותפות לכולם, מקום 2"
+  },
+  {
+   "key": "people|partnership-for-all:3|name",
+   "he": "בשארה שליאן",
+   "ctx": "רשימת השותפות לכולם, מקום 3"
+  },
+  {
+   "key": "people|partnership-for-all:4|name",
+   "he": "אליעזר עופר כהן",
+   "ctx": "רשימת השותפות לכולם, מקום 4"
+  },
+  {
+   "key": "people|partnership-for-all:5|name",
+   "he": "עודד גול-ורדי",
+   "ctx": "רשימת השותפות לכולם, מקום 5"
+  },
+  {
+   "key": "people|personal-safety:1|name",
+   "he": "מיכאל טופצ'יאשוילי",
+   "ctx": "רשימת בטחון אישי, מקום 1"
+  },
+  {
+   "key": "people|personal-safety:2|name",
+   "he": "גבריאל קיקוזשוילי",
+   "ctx": "רשימת בטחון אישי, מקום 2"
+  },
+  {
+   "key": "people|personal-safety:3|name",
+   "he": "איליה קיקוזשווילי",
+   "ctx": "רשימת בטחון אישי, מקום 3"
+  },
+  {
+   "key": "people|personal-safety:4|name",
+   "he": "מקואלה חונדיאשוילי",
+   "ctx": "רשימת בטחון אישי, מקום 4"
+  },
+  {
+   "key": "people|personal-safety:5|name",
+   "he": "נודרי יוסבאשוילי",
+   "ctx": "רשימת בטחון אישי, מקום 5"
+  },
+  {
+   "key": "people|pirates:1|name",
+   "he": "אוהד שם טוב",
+   "ctx": "רשימת הפיראטים, מקום 1"
+  },
+  {
+   "key": "people|pirates:2|name",
+   "he": "נועם כוזר ויסגרבר",
+   "ctx": "רשימת הפיראטים, מקום 2"
+  },
+  {
+   "key": "people|pirates:3|name",
+   "he": "דן אריאלי",
+   "ctx": "רשימת הפיראטים, מקום 3"
+  },
+  {
+   "key": "people|pirates:4|name",
+   "he": "מיטל רום",
+   "ctx": "רשימת הפיראטים, מקום 4"
+  },
+  {
+   "key": "people|pirates:5|name",
+   "he": "רועי אברהם קלייטמן",
+   "ctx": "רשימת הפיראטים, מקום 5"
+  },
+  {
+   "key": "people|raam:1|name",
+   "he": "מנסור עבאס",
+   "ctx": "רשימת רע\"ם, מקום 1"
+  },
+  {
+   "key": "people|raam:2|name",
+   "he": "יואב סגלוביץ",
+   "ctx": "רשימת רע\"ם, מקום 2"
+  },
+  {
+   "key": "people|raam:3|name",
+   "he": "וליד טאהא",
+   "ctx": "רשימת רע\"ם, מקום 3"
+  },
+  {
+   "key": "people|raam:4|name",
+   "he": "ואליד אלהואשלה",
+   "ctx": "רשימת רע\"ם, מקום 4"
+  },
+  {
+   "key": "people|raam:5|name",
+   "he": "אימאן ח'טיב-יאסין",
+   "ctx": "רשימת רע\"ם, מקום 5"
+  },
+  {
+   "key": "people|reservists-economic:1|name",
+   "he": "יועז הנדל",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 1"
+  },
+  {
+   "key": "people|reservists-economic:2|name",
+   "he": "ירון זליכה",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 2"
+  },
+  {
+   "key": "people|reservists-economic:3|name",
+   "he": "עינת וילף",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 3"
+  },
+  {
+   "key": "people|reservists-economic:4|name",
+   "he": "חביב ווליבוביץ",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 4"
+  },
+  {
+   "key": "people|reservists-economic:5|name",
+   "he": "יואב שלמה אדומי",
+   "ctx": "רשימת המילואימניקים והכלכלית, מקום 5"
+  },
+  {
+   "key": "people|rzp-zehut:1|name",
+   "he": "בצלאל סמוטריץ'",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 1"
+  },
+  {
+   "key": "people|rzp-zehut:2|name",
+   "he": "משה פייגלין",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 2"
+  },
+  {
+   "key": "people|rzp-zehut:3|name",
+   "he": "אורית סטרוק",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 3"
+  },
+  {
+   "key": "people|rzp-zehut:4|name",
+   "he": "שמחה רוטמן",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 4"
+  },
+  {
+   "key": "people|rzp-zehut:5|name",
+   "he": "צביקה מור",
+   "ctx": "רשימת הציונות הדתית וזהות, מקום 5"
+  },
+  {
+   "key": "people|sharshar:1|name",
+   "he": "איתן שוילי",
+   "ctx": "רשימת שרשר לאהבה ולאחדות העם, מקום 1"
+  },
+  {
+   "key": "people|sharshar:2|name",
+   "he": "תמר שוילי",
+   "ctx": "רשימת שרשר לאהבה ולאחדות העם, מקום 2"
+  },
+  {
+   "key": "people|sharshar:3|name",
+   "he": "אילן אלמקייס",
+   "ctx": "רשימת שרשר לאהבה ולאחדות העם, מקום 3"
+  },
+  {
+   "key": "people|sharshar:4|name",
+   "he": "אסחר שירזי רעיה",
+   "ctx": "רשימת שרשר לאהבה ולאחדות העם, מקום 4"
+  },
+  {
+   "key": "people|sharshar:5|name",
+   "he": "היתם אשתי",
+   "ctx": "רשימת שרשר לאהבה ולאחדות העם, מקום 5"
+  },
+  {
+   "key": "people|shas:1|name",
+   "he": "אריה דרעי",
+   "ctx": "רשימת ש\"ס, מקום 1"
+  },
+  {
+   "key": "people|shas:2|name",
+   "he": "ינון אזולאי",
+   "ctx": "רשימת ש\"ס, מקום 2"
+  },
+  {
+   "key": "people|shas:3|name",
+   "he": "מיכאל מלכיאלי",
+   "ctx": "רשימת ש\"ס, מקום 3"
+  },
+  {
+   "key": "people|shas:4|name",
+   "he": "יואב בן-צור",
+   "ctx": "רשימת ש\"ס, מקום 4"
+  },
+  {
+   "key": "people|shas:5|name",
+   "he": "חיים ביטון",
+   "ctx": "רשימת ש\"ס, מקום 5"
+  },
+  {
+   "key": "people|shma:1|name",
+   "he": "גולדמן נפתלי בורוך",
+   "ctx": "רשימת שמע, מקום 1"
+  },
+  {
+   "key": "people|tkuma:1|name",
+   "he": "אלקנא פדרמן",
+   "ctx": "רשימת דרך חזון ותקומה, מקום 1"
+  },
+  {
+   "key": "people|tkuma:2|name",
+   "he": "לוטם נגר",
+   "ctx": "רשימת דרך חזון ותקומה, מקום 2"
+  },
+  {
+   "key": "people|tkuma:3|name",
+   "he": "שירה כהן",
+   "ctx": "רשימת דרך חזון ותקומה, מקום 3"
+  },
+  {
+   "key": "people|tkuma:4|name",
+   "he": "מרים אברהם",
+   "ctx": "רשימת דרך חזון ותקומה, מקום 4"
+  },
+  {
+   "key": "people|tkuma:5|name",
+   "he": "ליאנה מירלה פרץ חיימוביץ'",
+   "ctx": "רשימת דרך חזון ותקומה, מקום 5"
+  },
+  {
+   "key": "people|together:1|name",
+   "he": "נפתלי בנט",
+   "ctx": "רשימת ביחד, מקום 1"
+  },
+  {
+   "key": "people|together:2|name",
+   "he": "יאיר לפיד",
+   "ctx": "רשימת ביחד, מקום 2"
+  },
+  {
+   "key": "people|together:3|name",
+   "he": "קרן טרנר",
+   "ctx": "רשימת ביחד, מקום 3"
+  },
+  {
+   "key": "people|together:4|name",
+   "he": "מירב בן ארי",
+   "ctx": "רשימת ביחד, מקום 4"
+  },
+  {
+   "key": "people|together:5|name",
+   "he": "לירן אבישר בן-חורין",
+   "ctx": "רשימת ביחד, מקום 5"
+  },
+  {
+   "key": "people|tzomet-beit-israel:1|name",
+   "he": "דסטה יברקן",
+   "ctx": "רשימת צומת בית ישראל, מקום 1"
+  },
+  {
+   "key": "people|tzomet-beit-israel:2|name",
+   "he": "משה גרין",
+   "ctx": "רשימת צומת בית ישראל, מקום 2"
+  },
+  {
+   "key": "people|tzomet-beit-israel:3|name",
+   "he": "יניב אשטמקר",
+   "ctx": "רשימת צומת בית ישראל, מקום 3"
+  },
+  {
+   "key": "people|tzomet-beit-israel:4|name",
+   "he": "(ללא שם ברשימה)",
+   "ctx": "רשימת צומת בית ישראל, מקום 4"
+  },
+  {
+   "key": "people|tzomet-beit-israel:5|name",
+   "he": "(ללא שם ברשימה)",
+   "ctx": "רשימת צומת בית ישראל, מקום 5"
+  },
+  {
+   "key": "people|utj:1|name",
+   "he": "יעקב אשר",
+   "ctx": "רשימת יהדות התורה, מקום 1"
+  },
+  {
+   "key": "people|utj:2|name",
+   "he": "יצחק גולדקנופף",
+   "ctx": "רשימת יהדות התורה, מקום 2"
+  },
+  {
+   "key": "people|utj:3|name",
+   "he": "יצחק פינדרוס",
+   "ctx": "רשימת יהדות התורה, מקום 3"
+  },
+  {
+   "key": "people|utj:4|name",
+   "he": "מאיר פרוש",
+   "ctx": "רשימת יהדות התורה, מקום 4"
+  },
+  {
+   "key": "people|utj:5|name",
+   "he": "משה רוזנטל",
+   "ctx": "רשימת יהדות התורה, מקום 5"
+  },
+  {
+   "key": "people|womens-voice:1|name",
+   "he": "עמיר ישראל שדמי",
+   "ctx": "רשימת קול הנשים, מקום 1"
+  },
+  {
+   "key": "people|womens-voice:2|name",
+   "he": "אמה בוהדנה",
+   "ctx": "רשימת קול הנשים, מקום 2"
+  },
+  {
+   "key": "people|womens-voice:3|name",
+   "he": "טליה בן אבו",
+   "ctx": "רשימת קול הנשים, מקום 3"
+  },
+  {
+   "key": "people|womens-voice:4|name",
+   "he": "גדי רוזנר",
+   "ctx": "רשימת קול הנשים, מקום 4"
+  },
+  {
+   "key": "people|womens-voice:5|name",
+   "he": "זהבית עכו",
+   "ctx": "רשימת קול הנשים, מקום 5"
+  },
+  {
+   "key": "people|yashar:1|name",
+   "he": "גדי איזנקוט",
+   "ctx": "רשימת ישר!, מקום 1"
+  },
+  {
+   "key": "people|yashar:2|name",
+   "he": "יורם כהן",
+   "ctx": "רשימת ישר!, מקום 2"
+  },
+  {
+   "key": "people|yashar:3|name",
+   "he": "אורית פרקש-הכהן",
+   "ctx": "רשימת ישר!, מקום 3"
+  },
+  {
+   "key": "people|yashar:4|name",
+   "he": "עדי אלטשולר",
+   "ctx": "רשימת ישר!, מקום 4"
+  },
+  {
+   "key": "people|yashar:5|name",
+   "he": "מתן כהנא",
+   "ctx": "רשימת ישר!, מקום 5"
+  },
+  {
+   "key": "people|yisrael-beiteinu:1|name",
+   "he": "אביגדור ליברמן",
+   "ctx": "רשימת ישראל ביתנו, מקום 1"
+  },
+  {
+   "key": "people|yisrael-beiteinu:2|name",
+   "he": "רפי בן שטרית",
+   "ctx": "רשימת ישראל ביתנו, מקום 2"
+  },
+  {
+   "key": "people|yisrael-beiteinu:3|name",
+   "he": "טליה לנקרי",
+   "ctx": "רשימת ישראל ביתנו, מקום 3"
+  },
+  {
+   "key": "people|yisrael-beiteinu:4|name",
+   "he": "עודד פורר",
+   "ctx": "רשימת ישראל ביתנו, מקום 4"
+  },
+  {
+   "key": "people|yisrael-beiteinu:5|name",
+   "he": "יוליה מלינובסקי",
+   "ctx": "רשימת ישראל ביתנו, מקום 5"
+  },
+  {
+   "key": "knesset|כחול לבן בראשות בנימין גנץ|text",
+   "he": "כחול לבן בראשות בנימין גנץ"
+  },
+  {
+   "key": "knesset|כחול לבן - המחנה הממלכתי|text",
+   "he": "כחול לבן - המחנה הממלכתי"
+  },
+  {
+   "key": "knesset|יש עתיד בראשות יאיר לפיד|text",
+   "he": "יש עתיד בראשות יאיר לפיד"
+  },
+  {
+   "key": "knesset|יש עתיד|text",
+   "he": "יש עתיד"
+  },
+  {
+   "key": "knesset|חה\"כ פנינה תמנו|text",
+   "he": "חה\"כ פנינה תמנו"
+  },
+  {
+   "key": "knesset|המחנה הדמוקרטי|text",
+   "he": "המחנה הדמוקרטי"
+  },
+  {
+   "key": "knesset|העבודה - גשר - מרצ|text",
+   "he": "העבודה - גשר - מרצ"
+  },
+  {
+   "key": "knesset|העבודה - מרצ|text",
+   "he": "העבודה - מרצ"
+  },
+  {
+   "key": "knesset|מרצ|text",
+   "he": "מרצ"
+  },
+  {
+   "key": "knesset|העבודה|text",
+   "he": "העבודה"
+  },
+  {
+   "key": "knesset|מרצ - השמאל של ישראל|text",
+   "he": "מרצ - השמאל של ישראל"
+  },
+  {
+   "key": "knesset|מפלגת העבודה הישראלית|text",
+   "he": "מפלגת העבודה הישראלית"
+  },
+  {
+   "key": "knesset|ר\"ץ|text",
+   "he": "ר\"ץ"
+  },
+  {
+   "key": "knesset|חה\"כ דוד צוקר|text",
+   "he": "חה\"כ דוד צוקר"
+  },
+  {
+   "key": "knesset|העבודה בראשות שלי יחימוביץ'|text",
+   "he": "העבודה בראשות שלי יחימוביץ'"
+  },
+  {
+   "key": "knesset|המחנה הציוני|text",
+   "he": "המחנה הציוני"
+  },
+  {
+   "key": "knesset|העבודה הישראלית|text",
+   "he": "העבודה הישראלית"
+  },
+  {
+   "key": "knesset|העבודה-מימד בראשות מצנע|text",
+   "he": "העבודה-מימד בראשות מצנע"
+  },
+  {
+   "key": "knesset|העבודה - מימד - עם אחד|text",
+   "he": "העבודה - מימד - עם אחד"
+  },
+  {
+   "key": "knesset|התנועה בראשות ציפי לבני|text",
+   "he": "התנועה בראשות ציפי לבני"
+  },
+  {
+   "key": "knesset|מערך|text",
+   "he": "מערך"
+  },
+  {
+   "key": "knesset|מרצ - הבחירה הדמוקרטית - שחר|text",
+   "he": "מרצ - הבחירה הדמוקרטית - שחר"
+  },
+  {
+   "key": "knesset|יחד והבחירה הדמוקרטית|text",
+   "he": "יחד והבחירה הדמוקרטית"
+  },
+  {
+   "key": "knesset|מרצ - יחד והבחירה הדמוקרטית|text",
+   "he": "מרצ - יחד והבחירה הדמוקרטית"
+  },
+  {
+   "key": "knesset|מרצ-ישראל חברתית דמוקרטית|text",
+   "he": "מרצ-ישראל חברתית דמוקרטית"
+  },
+  {
+   "key": "knesset|ישראל אחת|text",
+   "he": "ישראל אחת"
+  },
+  {
+   "key": "knesset|העבודה - מימד|text",
+   "he": "העבודה - מימד"
+  },
+  {
+   "key": "knesset|התנועה החדשה מרצ|text",
+   "he": "התנועה החדשה מרצ"
+  },
+  {
+   "key": "knesset|העבודה-מימד בראשות עמיר פרץ|text",
+   "he": "העבודה-מימד בראשות עמיר פרץ"
+  },
+  {
+   "key": "knesset|העבודה בראשות אהוד ברק|text",
+   "he": "העבודה בראשות אהוד ברק"
+  },
+  {
+   "key": "knesset|מפלגת פועלים מאוחדת|text",
+   "he": "מפלגת פועלים מאוחדת"
+  },
+  {
+   "key": "knesset|יהדות התורה והשבת אגודת ישראל-דגל התורה|text",
+   "he": "יהדות התורה והשבת אגודת ישראל-דגל התורה"
+  },
+  {
+   "key": "knesset|הליכוד|text",
+   "he": "הליכוד"
+  },
+  {
+   "key": "knesset|הליכוד בהנהגת בנימין נתניהו לראשות הממשלה|text",
+   "he": "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה"
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+{
+ "slug": "otzma-yehudit",
+ "researched_at": "2026-10-04",
+ "people": [
+  {
+   "position": 1,
+   "name": "איתמר בן גביר",
+   "headline": "עורך דין, שר לביטחון לאומי מ-2022",
+   "facts": [
+    {
+     "label": "רקע מקצועי",
+     "value": "עורך דין מ-2012, יועץ תקשורת לח\"כ מיכאל בן ארי",
+     "source_url": "https://he.wikipedia.org/wiki/איתמר_בן-גביר"
+    },
+    {
+     "label": "השכלה",
+     "value": "תואר במשפטים, המכללה האקדמית אונו",
+     "source_url": "https://he.wikipedia.org/wiki/איתמר_בן-גביר"
+    },
+    {
+     "label": "כנסת",
+     "value": "חבר כנסת מ-2021",
+     "source_url": "https://he.wikipedia.org/wiki/איתמר_בן-גביר"
+    },
+    {
+     "label": "תפקידים ציבוריים",
+     "value": "שר לביטחון לאומי מדצמבר 2022 (עם הפסקה בינואר–מרץ 2025)",
+     "source_url": "https://he.wikipedia.org/wiki/איתמר_בן-גביר"
+    }
+   ],
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "position": 2,
+   "name": "טלי גוטליב",
+   "headline": "עורכת דין, חברת כנסת מ-2022",
+   "facts": [
+    {
+     "label": "רקע מקצועי",
+     "value": "עורכת דין פלילית מ-2000, מבני ברק; פרשנית משפטית בתקשורת",
+     "source_url": "https://he.wikipedia.org/wiki/טלי_גוטליב"
+    },
+    {
+     "label": "השכלה",
+     "value": "תואר ראשון ושני במשפטים, אוניברסיטת בר-אילן",
+     "source_url": "https://he.wikipedia.org/wiki/טלי_גוטליב"
+    },
+    {
+     "label": "כנסת",
+     "value": "חברת כנסת מנובמבר 2022 (ליכוד, ב-2026 עברה לעוצמה יהודית)",
+     "source_url": "https://he.wikipedia.org/wiki/טלי_גוטליב"
+    }
+   ],
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "position": 3,
+   "name": "יצחק וסרלאוף",
+   "headline": "שר לפיתוח הנגב והגליל, חבר כנסת מ-2022",
+   "facts": [
+    {
+     "label": "שירות צבאי ולאומי",
+     "value": "שירות בגולני, גדוד 12, מ-2012",
+     "source_url": "https://he.wikipedia.org/wiki/יצחק_וסרלאוף"
+    },
+    {
+     "label": "רקע מקצועי",
+     "value": "הקים את עמותת 'אחיעד' לחיזוק אופי יהודי בשכונות תל אביב",
+     "source_url": "https://he.wikipedia.org/wiki/יצחק_וסרלאוף"
+    },
+    {
+     "label": "כנסת",
+     "value": "חבר כנסת מנובמבר 2022",
+     "source_url": "https://he.wikipedia.org/wiki/יצחק_וסרלאוף"
+    },
+    {
+     "label": "תפקידים ציבוריים",
+     "value": "שר לפיתוח הנגב, הגליל והחוסן הלאומי מדצמבר 2022, בהפסקה בינואר–מרץ 2025",
+     "source_url": "https://he.wikipedia.org/wiki/יצחק_וסרלאוף"
+    }
+   ],
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "position": 4,
+   "name": "עמיחי אליהו",
+   "headline": "מחנך, שר המורשת",
+   "facts": [
+    {
+     "label": "רקע מקצועי",
+     "value": "מורה בישיבת התיכונית חספין 2009–2013; הקים מרכז לימוד 'אורות יהודה' במגדל העמק",
+     "source_url": "https://he.wikipedia.org/wiki/עמיחי_אליהו"
+    },
+    {
+     "label": "שירות צבאי ולאומי",
+     "value": "לוחם בגדוד 202 בחטיבת הצנחנים",
+     "source_url": "https://he.wikipedia.org/wiki/עמיחי_אליהו"
+    },
+    {
+     "label": "כנסת",
+     "value": "חבר כנסת מ-2022",
+     "source_url": "https://he.wikipedia.org/wiki/עמיחי_אליהו"
+    },
+    {
+     "label": "תפקידים ציבוריים",
+     "value": "שר המורשת מ-2023",
+     "source_url": "https://he.wikipedia.org/wiki/עמיחי_אליהו"
+    }
+   ],
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "position": 5,
+   "name": "לימור סון הר-מלך",
+   "headline": "חברת כנסת, יועצת לטיפול רגשי והדרכת הורים",
+   "facts": [
+    {
+     "label": "רקע מקצועי",
+     "value": "עוסקת בטיפול רגשי והדרכת הורים; פרסמה ספר שירה ב-2021",
+     "source_url": "https://he.wikipedia.org/wiki/לימור_סון_הר-מלך"
+    },
+    {
+     "label": "השכלה",
+     "value": "למדה במדרשת בינה ובמכללת אורות ישראל, ייעוץ חינוכי",
+     "source_url": "https://he.wikipedia.org/wiki/לימור_סון_הר-מלך"
+    },
+    {
+     "label": "כנסת",
+     "value": "חברת כנסת מ-2022; סגנית יושב ראש הכנסת מ-2025",
+     "source_url": "https://he.wikipedia.org/wiki/לימור_סון_הר-מלך"
+    }
+   ],
+   "confidence": "high",
+   "notes": ""
+  }
+ ]
+}

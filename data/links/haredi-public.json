@@ -1,0 +1,117 @@
+{
+ "slug": "haredi-public",
+ "researched_at": "2026-10-03",
+ "links": [
+  {
+   "url": "https://hatzibur-haharedi.org/",
+   "kind": "website",
+   "title": "האתר הרשמי",
+   "owner": "list",
+   "found_via": "data/sources.json seed; fetched, ok",
+   "status": "ok"
+  },
+  {
+   "url": "https://hatzibur-haharedi.org/מצע",
+   "kind": "platform",
+   "title": "מצע הרשימה",
+   "owner": "list",
+   "found_via": "official site nav",
+   "status": "ok"
+  },
+  {
+   "url": "https://hatzibur-haharedi.org/הדרך",
+   "kind": "positions_page",
+   "title": "הדרך שלנו",
+   "owner": "list",
+   "found_via": "official site nav",
+   "status": "ok"
+  },
+  {
+   "url": "https://hatzibur-haharedi.org/חדשות",
+   "kind": "press",
+   "title": "חדשות",
+   "owner": "list",
+   "found_via": "official site nav",
+   "status": "ok"
+  },
+  {
+   "url": "https://hatzibur-haharedi.org/ראיונות",
+   "kind": "press",
+   "title": "ראיונות",
+   "owner": "list",
+   "found_via": "official site nav",
+   "status": "ok"
+  },
+  {
+   "url": "https://hatzibur-haharedi.org/תרומות",
+   "kind": "other",
+   "title": "תרומות ושקיפות",
+   "owner": "list",
+   "found_via": "official site nav",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.facebook.com/hatzibur.haharedi",
+   "kind": "facebook",
+   "title": "עמוד הפייסבוק",
+   "owner": "list",
+   "found_via": "official site footer redirect /r/facebook",
+   "status": "login-wall"
+  },
+  {
+   "url": "https://www.instagram.com/hatzibur_haharedi/",
+   "kind": "instagram",
+   "title": "אינסטגרם",
+   "owner": "list",
+   "found_via": "official site footer redirect /r/instagram",
+   "status": "login-wall"
+  },
+  {
+   "url": "https://x.com/hatziburha",
+   "kind": "x",
+   "title": "חשבון X",
+   "owner": "list",
+   "found_via": "official site footer redirect /r/x",
+   "status": "login-wall"
+  },
+  {
+   "url": "https://www.tiktok.com/@motileitner",
+   "kind": "tiktok",
+   "title": "טיקטוק (מוטי ליטנר)",
+   "owner": "list",
+   "found_via": "official site footer redirect /r/tiktok",
+   "status": "ok"
+  },
+  {
+   "url": "https://chat.whatsapp.com/Ede75w7qgaODINCtKljFsP",
+   "kind": "whatsapp",
+   "title": "קבוצת וואטסאפ",
+   "owner": "list",
+   "found_via": "official site redirect /r/whatsapp",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.facebook.com/MotiLeitnerOfficial",
+   "kind": "leader_facebook",
+   "title": "פייסבוק מוטי ליטנר",
+   "owner": "מוטי ליטנר",
+   "found_via": "linked from leader page on official site",
+   "status": "login-wall"
+  }
+ ],
+ "unverified": [
+  {
+   "url": "https://www.facebook.com/HatziburHacharedi",
+   "note": "seen on official leader page, alternate spelling; unclear if active list page"
+  },
+  {
+   "url": "https://www.instagram.com/hatzibur_hacharedi",
+   "note": "alternate spelling seen on official leader page"
+  },
+  {
+   "url": "https://x.com/HatziburCharedi",
+   "note": "alternate spelling seen on official leader page"
+  }
+ ],
+ "notes": "Fetched official site; social links resolved via site's /r/<platform> redirects. cec page (gov.il) returns 403 to fetchers. No YouTube/Telegram found."
+}

@@ -1,0 +1,752 @@
+[
+ {
+  "key": "candidates|raam:49|official_name",
+  "he": "אגבאריה אבראהים",
+  "value": "Ибрагим Агбария"
+ },
+ {
+  "key": "candidates|raam:50|display_name",
+  "he": "טארק קאדרייה",
+  "value": "Тарик Кадрие"
+ },
+ {
+  "key": "candidates|raam:50|official_name",
+  "he": "קאדרייה טארק",
+  "value": "Тарик Кадрие"
+ },
+ {
+  "key": "candidates|raam:51|display_name",
+  "he": "מגד מוהרה",
+  "value": "Маджд Мухра"
+ },
+ {
+  "key": "candidates|raam:51|official_name",
+  "he": "מוהרה מגד",
+  "value": "Маджд Мухра"
+ },
+ {
+  "key": "candidates|raam:52|display_name",
+  "he": "חייר עפאן",
+  "value": "Хайр Афан"
+ },
+ {
+  "key": "candidates|raam:52|official_name",
+  "he": "עפאן חייר",
+  "value": "Хайр Афан"
+ },
+ {
+  "key": "candidates|raam:53|display_name",
+  "he": "בדר גביילי חיתאם",
+  "value": "Хитам Гбейли Бадр"
+ },
+ {
+  "key": "candidates|raam:54|display_name",
+  "he": "אחמד מרעי",
+  "value": "Ахмад Мараи"
+ },
+ {
+  "key": "candidates|raam:54|official_name",
+  "he": "מרעי אחמד",
+  "value": "Ахмад Мараи"
+ },
+ {
+  "key": "candidates|raam:55|display_name",
+  "he": "עפיף גיוסי",
+  "value": "Афиф Джиуси"
+ },
+ {
+  "key": "candidates|raam:55|official_name",
+  "he": "גיוסי עפיף",
+  "value": "Афиф Джиуси"
+ },
+ {
+  "key": "candidates|raam:56|display_name",
+  "he": "אמיר עומרי",
+  "value": "Амир Омари"
+ },
+ {
+  "key": "candidates|raam:56|official_name",
+  "he": "עומרי אמיר",
+  "value": "Амир Омари"
+ },
+ {
+  "key": "candidates|raam:57|display_name",
+  "he": "חסן חוגיראת",
+  "value": "Хасан Хаджират"
+ },
+ {
+  "key": "candidates|raam:57|official_name",
+  "he": "חוגיראת חסן",
+  "value": "Хасан Хаджират"
+ },
+ {
+  "key": "candidates|raam:58|display_name",
+  "he": "מחמוד סאלח",
+  "value": "Махмуд Салех"
+ },
+ {
+  "key": "candidates|raam:58|official_name",
+  "he": "סאלח מחמוד",
+  "value": "Махмуд Салех"
+ },
+ {
+  "key": "candidates|raam:59|display_name",
+  "he": "זיאד מינזל",
+  "value": "Зияд Минзаль"
+ },
+ {
+  "key": "candidates|raam:59|official_name",
+  "he": "מינזל זיאד",
+  "value": "Зияд Минзаль"
+ },
+ {
+  "key": "candidates|raam:60|display_name",
+  "he": "מאגדה סמארה",
+  "value": "Маджида Самара"
+ },
+ {
+  "key": "candidates|raam:60|official_name",
+  "he": "סמארה מאגדה",
+  "value": "Маджида Самара"
+ },
+ {
+  "key": "candidates|raam:61|display_name",
+  "he": "סאמי אשווי",
+  "value": "Сами Ашви"
+ },
+ {
+  "key": "candidates|raam:61|official_name",
+  "he": "אשווי סאמי",
+  "value": "Сами Ашви"
+ },
+ {
+  "key": "candidates|raam:62|display_name",
+  "he": "כאיד טאהא",
+  "value": "Каид Таха"
+ },
+ {
+  "key": "candidates|raam:62|official_name",
+  "he": "טאהא כאיד",
+  "value": "Каид Таха"
+ },
+ {
+  "key": "candidates|raam:63|display_name",
+  "he": "ממדוח הייב",
+  "value": "Мамдух Хаиб"
+ },
+ {
+  "key": "candidates|raam:63|official_name",
+  "he": "הייב ממדוח",
+  "value": "Мамдух Хаиб"
+ },
+ {
+  "key": "candidates|raam:64|display_name",
+  "he": "מוחמד רעד",
+  "value": "Мухаммад Раад"
+ },
+ {
+  "key": "candidates|raam:64|official_name",
+  "he": "רעד מוחמד",
+  "value": "Мухаммад Раад"
+ },
+ {
+  "key": "candidates|raam:65|display_name",
+  "he": "הינדאוי שימא",
+  "value": "Шима Хиндави"
+ },
+ {
+  "key": "candidates|raam:65|official_name",
+  "he": "שימא הינדאוי",
+  "value": "Шима Хиндави"
+ },
+ {
+  "key": "candidates|raam:66|display_name",
+  "he": "אבו עראר טלב",
+  "value": "Талаб Абу Арар"
+ },
+ {
+  "key": "candidates|raam:67|display_name",
+  "he": "אל עמור אבראהים",
+  "value": "Ибрагим аль-Амур"
+ },
+ {
+  "key": "candidates|raam:68|display_name",
+  "he": "אבו מדעים עטא",
+  "value": "Ата Абу Мадиам"
+ },
+ {
+  "key": "candidates|raam:69|display_name",
+  "he": "אל קצאצי גומעה",
+  "value": "Джума аль-Касаси"
+ },
+ {
+  "key": "candidates|raam:70|display_name",
+  "he": "מסעוד גנאים",
+  "value": "Масуд Гнаим"
+ },
+ {
+  "key": "candidates|raam:70|official_name",
+  "he": "גנאים מסעוד",
+  "value": "Масуд Гнаим"
+ },
+ {
+  "key": "candidates|raam:71|display_name",
+  "he": "מאזן גנאים",
+  "value": "Мазен Гнаим"
+ },
+ {
+  "key": "candidates|raam:71|official_name",
+  "he": "גנאים מאזן",
+  "value": "Мазен Гнаим"
+ },
+ {
+  "key": "candidates|raam:72|display_name",
+  "he": "אברהים צרצור",
+  "value": "Ибрагим Царцур"
+ },
+ {
+  "key": "candidates|raam:72|official_name",
+  "he": "צרצור אברהים",
+  "value": "Ибрагим Царцур"
+ },
+ {
+  "key": "candidates|raam:73|display_name",
+  "he": "דהאמשה עבד אלמאלכ",
+  "value": "Абд аль-Малик Дахамше"
+ },
+ {
+  "key": "candidates|reservists-economic:1|display_name",
+  "he": "יועז הנדל",
+  "value": "Йоаз Гендель"
+ },
+ {
+  "key": "candidates|reservists-economic:1|official_name",
+  "he": "הנדל יועז",
+  "value": "Йоаз Гендель"
+ },
+ {
+  "key": "candidates|reservists-economic:2|display_name",
+  "he": "ירון זליכה",
+  "value": "Ярон Зелиха"
+ },
+ {
+  "key": "candidates|reservists-economic:2|official_name",
+  "he": "זליכה ירון",
+  "value": "Ярон Зелиха"
+ },
+ {
+  "key": "candidates|reservists-economic:3|display_name",
+  "he": "עינת וילף",
+  "value": "Эйнат Вильф"
+ },
+ {
+  "key": "candidates|reservists-economic:3|official_name",
+  "he": "וילף עינת",
+  "value": "Эйнат Вильф"
+ },
+ {
+  "key": "candidates|reservists-economic:4|display_name",
+  "he": "חביב ווליבוביץ",
+  "value": "Хабиб Волибович"
+ },
+ {
+  "key": "candidates|reservists-economic:4|official_name",
+  "he": "ווליבוביץ חביב",
+  "value": "Хабиб Волибович"
+ },
+ {
+  "key": "candidates|reservists-economic:5|display_name",
+  "he": "יואב שלמה אדומי",
+  "value": "Йоав Шломо Адоми"
+ },
+ {
+  "key": "candidates|reservists-economic:5|official_name",
+  "he": "אדומי יואב שלמה",
+  "value": "Йоав Шломо Адоми"
+ },
+ {
+  "key": "candidates|reservists-economic:6|display_name",
+  "he": "אופיר שי לנגמן",
+  "value": "Офир Шай Лангман"
+ },
+ {
+  "key": "candidates|reservists-economic:6|official_name",
+  "he": "לנגמן אופיר שי",
+  "value": "Офир Шай Лангман"
+ },
+ {
+  "key": "candidates|reservists-economic:7|display_name",
+  "he": "שלומי דמרי",
+  "value": "Шломи Дамри"
+ },
+ {
+  "key": "candidates|reservists-economic:7|official_name",
+  "he": "דמרי שלומי",
+  "value": "Шломи Дамри"
+ },
+ {
+  "key": "candidates|reservists-economic:8|display_name",
+  "he": "ליאור גלבוע",
+  "value": "Лиор Гильбоа"
+ },
+ {
+  "key": "candidates|reservists-economic:8|official_name",
+  "he": "גלבוע ליאור",
+  "value": "Лиор Гильбоа"
+ },
+ {
+  "key": "candidates|reservists-economic:9|display_name",
+  "he": "תהילה פרץ",
+  "value": "Тхила Перец"
+ },
+ {
+  "key": "candidates|reservists-economic:9|official_name",
+  "he": "פרץ תהילה",
+  "value": "Тхила Перец"
+ },
+ {
+  "key": "candidates|reservists-economic:10|display_name",
+  "he": "שלום ביטון",
+  "value": "Шалом Битон"
+ },
+ {
+  "key": "candidates|reservists-economic:10|official_name",
+  "he": "ביטון שלום",
+  "value": "Шалом Битон"
+ },
+ {
+  "key": "candidates|reservists-economic:11|display_name",
+  "he": "עמליה קינן",
+  "value": "Амалия Кинан"
+ },
+ {
+  "key": "candidates|reservists-economic:11|official_name",
+  "he": "קינן עמליה",
+  "value": "Амалия Кинан"
+ },
+ {
+  "key": "candidates|reservists-economic:12|display_name",
+  "he": "הילה בורנשטיין",
+  "value": "Хила Борнштейн"
+ },
+ {
+  "key": "candidates|reservists-economic:12|official_name",
+  "he": "בורנשטיין הילה",
+  "value": "Хила Борнштейн"
+ },
+ {
+  "key": "candidates|reservists-economic:13|display_name",
+  "he": "איתי גיטלר",
+  "value": "Итай Гитлер"
+ },
+ {
+  "key": "candidates|reservists-economic:13|official_name",
+  "he": "גיטלר איתי",
+  "value": "Итай Гитлер"
+ },
+ {
+  "key": "candidates|reservists-economic:14|display_name",
+  "he": "משה אלישע",
+  "value": "Моше Элиша"
+ },
+ {
+  "key": "candidates|reservists-economic:14|official_name",
+  "he": "אלישע משה",
+  "value": "Моше Элиша"
+ },
+ {
+  "key": "candidates|reservists-economic:15|display_name",
+  "he": "יונתן בהט",
+  "value": "Йонатан Бахат"
+ },
+ {
+  "key": "candidates|reservists-economic:15|official_name",
+  "he": "בהט יונתן",
+  "value": "Йонатан Бахат"
+ },
+ {
+  "key": "candidates|reservists-economic:16|display_name",
+  "he": "מאור פז",
+  "value": "Маор Паз"
+ },
+ {
+  "key": "candidates|reservists-economic:16|official_name",
+  "he": "פז מאור",
+  "value": "Маор Паз"
+ },
+ {
+  "key": "candidates|reservists-economic:17|display_name",
+  "he": "אלמוג רום",
+  "value": "Альмог Ром"
+ },
+ {
+  "key": "candidates|reservists-economic:17|official_name",
+  "he": "רום אלמוג",
+  "value": "Альмог Ром"
+ },
+ {
+  "key": "candidates|reservists-economic:18|display_name",
+  "he": "דוד שבח",
+  "value": "Давид Шабах"
+ },
+ {
+  "key": "candidates|reservists-economic:18|official_name",
+  "he": "שבח דוד",
+  "value": "Давид Шабах"
+ },
+ {
+  "key": "candidates|reservists-economic:19|display_name",
+  "he": "דוד לוי",
+  "value": "Давид Леви"
+ },
+ {
+  "key": "candidates|reservists-economic:19|official_name",
+  "he": "לוי דוד",
+  "value": "Давид Леви"
+ },
+ {
+  "key": "candidates|reservists-economic:20|display_name",
+  "he": "סתיו נקי",
+  "value": "Став Наки"
+ },
+ {
+  "key": "candidates|reservists-economic:20|official_name",
+  "he": "נקי סתיו",
+  "value": "Став Наки"
+ },
+ {
+  "key": "candidates|reservists-economic:21|display_name",
+  "he": "בתאל טגן",
+  "value": "Бетаэль Таген"
+ },
+ {
+  "key": "candidates|reservists-economic:21|official_name",
+  "he": "טגן בתאל",
+  "value": "Бетаэль Таген"
+ },
+ {
+  "key": "candidates|reservists-economic:22|display_name",
+  "he": "כריסי חוברה הדס רנה",
+  "value": "Хадас Рене Кристи Хубра"
+ },
+ {
+  "key": "candidates|reservists-economic:23|display_name",
+  "he": "רוית לוי",
+  "value": "Равит Леви"
+ },
+ {
+  "key": "candidates|reservists-economic:23|official_name",
+  "he": "לוי רוית",
+  "value": "Равит Леви"
+ },
+ {
+  "key": "candidates|reservists-economic:24|display_name",
+  "he": "אליאן לזמי",
+  "value": "Элиан Лазми"
+ },
+ {
+  "key": "candidates|reservists-economic:24|official_name",
+  "he": "לזמי אליאן",
+  "value": "Элиан Лазми"
+ },
+ {
+  "key": "candidates|reservists-economic:25|display_name",
+  "he": "גבריאל נתן",
+  "value": "Габриэль Натан"
+ },
+ {
+  "key": "candidates|reservists-economic:25|official_name",
+  "he": "נתן גבריאל",
+  "value": "Габриэль Натан"
+ },
+ {
+  "key": "candidates|reservists-economic:26|display_name",
+  "he": "חפציבה ספירט",
+  "value": "Хефциба Спирт"
+ },
+ {
+  "key": "candidates|reservists-economic:26|official_name",
+  "he": "ספירט חפציבה",
+  "value": "Хефциба Спирт"
+ },
+ {
+  "key": "candidates|reservists-economic:27|display_name",
+  "he": "עמית אריה אליעד",
+  "value": "Арье Элиад Амит"
+ },
+ {
+  "key": "candidates|reservists-economic:28|display_name",
+  "he": "יניב ששון",
+  "value": "Янив Сасон"
+ },
+ {
+  "key": "candidates|reservists-economic:28|official_name",
+  "he": "ששון יניב",
+  "value": "Янив Сасон"
+ },
+ {
+  "key": "candidates|reservists-economic:29|display_name",
+  "he": "סלונימסקי יוגב יבגני",
+  "value": "Йогев Евгений Слонимский"
+ },
+ {
+  "key": "candidates|reservists-economic:30|display_name",
+  "he": "ניר אליהו",
+  "value": "Нир Элияху"
+ },
+ {
+  "key": "candidates|reservists-economic:30|official_name",
+  "he": "אליהו ניר",
+  "value": "Нир Элияху"
+ },
+ {
+  "key": "candidates|reservists-economic:31|display_name",
+  "he": "מזרחי איתמר חי",
+  "value": "Итамар Хай Мизрахи"
+ },
+ {
+  "key": "candidates|reservists-economic:32|display_name",
+  "he": "יזהר קארבאט",
+  "value": "Изхар Карбат"
+ },
+ {
+  "key": "candidates|reservists-economic:32|official_name",
+  "he": "קארבאט יזהר",
+  "value": "Изхар Карбат"
+ },
+ {
+  "key": "candidates|reservists-economic:33|display_name",
+  "he": "בן דוד דור רון",
+  "value": "Дор Рон Бен-Давид"
+ },
+ {
+  "key": "candidates|reservists-economic:34|display_name",
+  "he": "מנחם נגר",
+  "value": "Менахем Нагар"
+ },
+ {
+  "key": "candidates|reservists-economic:34|official_name",
+  "he": "נגר מנחם",
+  "value": "Менахем Нагар"
+ },
+ {
+  "key": "candidates|reservists-economic:35|display_name",
+  "he": "יעקב-גל מיקטן",
+  "value": "Яаков-Галь Миктан"
+ },
+ {
+  "key": "candidates|reservists-economic:35|official_name",
+  "he": "מיקטן יעקב-גל",
+  "value": "Яаков-Галь Миктан"
+ },
+ {
+  "key": "candidates|reservists-economic:36|display_name",
+  "he": "ברק ליליאן",
+  "value": "Барак Лилиан"
+ },
+ {
+  "key": "candidates|reservists-economic:36|official_name",
+  "he": "ליליאן ברק",
+  "value": "Барак Лилиан"
+ },
+ {
+  "key": "candidates|reservists-economic:37|display_name",
+  "he": "בר שמיאן",
+  "value": "Бар Шемиян"
+ },
+ {
+  "key": "candidates|reservists-economic:37|official_name",
+  "he": "שמיאן בר",
+  "value": "Бар Шемиян"
+ },
+ {
+  "key": "candidates|reservists-economic:38|display_name",
+  "he": "גיא פורמן",
+  "value": "Гай Форман"
+ },
+ {
+  "key": "candidates|reservists-economic:38|official_name",
+  "he": "פורמן גיא",
+  "value": "Гай Форман"
+ },
+ {
+  "key": "candidates|reservists-economic:39|display_name",
+  "he": "עזיז זדה אמיר",
+  "value": "Амир Азиз-Заде"
+ },
+ {
+  "key": "candidates|rzp-zehut:1|display_name",
+  "he": "בצלאל סמוטריץ'",
+  "value": "Бецалель Смотрич"
+ },
+ {
+  "key": "candidates|rzp-zehut:1|official_name",
+  "he": "סמוטריץ בצלאל יואל",
+  "value": "Бецалель Йоэль Смотрич"
+ },
+ {
+  "key": "candidates|rzp-zehut:2|display_name",
+  "he": "משה פייגלין",
+  "value": "Моше Фейглин"
+ },
+ {
+  "key": "candidates|rzp-zehut:2|official_name",
+  "he": "פייגלין משה זלמן",
+  "value": "Моше Залман Фейглин"
+ },
+ {
+  "key": "candidates|rzp-zehut:3|display_name",
+  "he": "אורית סטרוק",
+  "value": "Орит Струк"
+ },
+ {
+  "key": "candidates|rzp-zehut:3|official_name",
+  "he": "סטרוק אורית מלכה",
+  "value": "Орит Малка Струк"
+ },
+ {
+  "key": "candidates|rzp-zehut:4|display_name",
+  "he": "שמחה רוטמן",
+  "value": "Симха Ротман"
+ },
+ {
+  "key": "candidates|rzp-zehut:4|official_name",
+  "he": "רוטמן שמחה דן",
+  "value": "Симха Дан Ротман"
+ },
+ {
+  "key": "candidates|rzp-zehut:5|display_name",
+  "he": "צביקה מור",
+  "value": "Цвика Мор"
+ },
+ {
+  "key": "candidates|rzp-zehut:5|official_name",
+  "he": "מור צבי",
+  "value": "Цви Мор"
+ },
+ {
+  "key": "candidates|rzp-zehut:6|display_name",
+  "he": "איתמר איתם",
+  "value": "Итамар Эйтам"
+ },
+ {
+  "key": "candidates|rzp-zehut:6|official_name",
+  "he": "איתם איתמר מרדכי",
+  "value": "Итамар Мордехай Эйтам"
+ },
+ {
+  "key": "candidates|rzp-zehut:7|display_name",
+  "he": "צבי סוכות",
+  "value": "Цви Сукот"
+ },
+ {
+  "key": "candidates|rzp-zehut:7|official_name",
+  "he": "סוכות צבי ידידיה",
+  "value": "Цви Едидья Сукот"
+ },
+ {
+  "key": "candidates|rzp-zehut:8|display_name",
+  "he": "יצחק זאגא",
+  "value": "Ицхак Зага"
+ },
+ {
+  "key": "candidates|rzp-zehut:8|official_name",
+  "he": "זאגא יצחק חי",
+  "value": "Ицхак Хай Зага"
+ },
+ {
+  "key": "candidates|rzp-zehut:9|display_name",
+  "he": "רעות בן חיים",
+  "value": "Реут Бен-Хаим"
+ },
+ {
+  "key": "candidates|rzp-zehut:9|official_name",
+  "he": "בן חיים רעות",
+  "value": "Реут Бен-Хаим"
+ },
+ {
+  "key": "candidates|rzp-zehut:10|display_name",
+  "he": "עומר פציניאש ולדמן",
+  "value": "Омер Пациниаш Вальдман"
+ },
+ {
+  "key": "candidates|rzp-zehut:10|official_name",
+  "he": "פציניאש וולדמן עומר",
+  "value": "Омер Пациниаш-Вальдман"
+ },
+ {
+  "key": "candidates|rzp-zehut:11|display_name",
+  "he": "ארקדי מוטר",
+  "value": "Аркадий Мутер"
+ },
+ {
+  "key": "candidates|rzp-zehut:11|official_name",
+  "he": "מוטר ארקדי",
+  "value": "Аркадий Мутер"
+ },
+ {
+  "key": "candidates|rzp-zehut:12|display_name",
+  "he": "אוהד טל",
+  "value": "Охад Таль"
+ },
+ {
+  "key": "candidates|rzp-zehut:12|official_name",
+  "he": "טל אוהד",
+  "value": "Охад Таль"
+ },
+ {
+  "key": "candidates|rzp-zehut:13|display_name",
+  "he": "רועי קירשברג",
+  "value": "Рои Киршберг"
+ },
+ {
+  "key": "candidates|rzp-zehut:13|official_name",
+  "he": "קירשברג רועי",
+  "value": "Рои Киршберг"
+ },
+ {
+  "key": "candidates|rzp-zehut:14|display_name",
+  "he": "עומר רחמים",
+  "value": "Омер Рахамим"
+ },
+ {
+  "key": "candidates|rzp-zehut:14|official_name",
+  "he": "רחמים עומר",
+  "value": "Омер Рахамим"
+ },
+ {
+  "key": "candidates|rzp-zehut:15|display_name",
+  "he": "סימון חסון",
+  "value": "Симон Хасон"
+ },
+ {
+  "key": "candidates|rzp-zehut:15|official_name",
+  "he": "חסון סימון",
+  "value": "Симон Хасон"
+ },
+ {
+  "key": "candidates|rzp-zehut:16|display_name",
+  "he": "שמואל ששון",
+  "value": "Шмуэль Сасон"
+ },
+ {
+  "key": "candidates|rzp-zehut:16|official_name",
+  "he": "ששון שמואל",
+  "value": "Шмуэль Сасон"
+ },
+ {
+  "key": "candidates|rzp-zehut:17|display_name",
+  "he": "שיראל נהיר",
+  "value": "Ширали Нахир"
+ },
+ {
+  "key": "candidates|rzp-zehut:17|official_name",
+  "he": "נהיר שיראל",
+  "value": "Ширали Нахир"
+ },
+ {
+  "key": "candidates|rzp-zehut:18|display_name",
+  "he": "צבי וישינגרד",
+  "value": "Цви Вишингрид"
+ }
+]

@@ -1,0 +1,216 @@
+{
+  "slug": "together",
+  "platform_doc": {
+    "url": "https://be-yahad.org.il/plans/",
+    "title": "תוכניות התיקון של ישראל – תכניות מפלגת ביחד בראשות נפתלי בנט",
+    "published": null
+  },
+  "self_description": {
+    "quote": "במשך השנתיים האחרונות עבדנו עם מומחים, אנשי מקצוע ונבחרת הביצועיסטים שלנו",
+    "source_url": "https://be-yahad.org.il/",
+    "source_title": "מפלגת ביחד בראשות נפתלי בנט | ביחד נתקן את ישראל | עמוד בית"
+  },
+  "positions": [
+    {
+      "topic": "security",
+      "point": "הרשימה מציעה להישאר בקו הצהוב ברצועת עזה עד לפירוק מלא של חמאס מנשקו, ולתקוף בתגובה להתעצמות או לאימונים של חמאס.",
+      "quote": "לא נזוז מילימטר מהקו הצהוב עד שחמאס יתפרק לגמרי מנשקו, והכלל יהיה פשוט: חמאס מתעצם – אנחנו תוקפים; חמאס מתאמן – אנחנו תוקפים.",
+      "source_url": "https://be-yahad.org.il/plans/natsec/",
+      "source_title": "רק ביחד נשמור על הבטחון הלאומי - מפלגת ביחד",
+      "source_type": "party_site",
+      "date": "2026-09-24"
+    },
+    {
+      "topic": "security",
+      "point": "הרשימה מציעה להכריז על קטאר כמדינת אויב, ולהוציא את קטאר וטורקיה ממעורבות בעזה ולהכניס במקומן את מצרים.",
+      "quote": "היא לא \"מדינה מורכבת\" – היא מדינת אויב, ובממשלה הבאה נכריז על כך מיד. נוציא את קטאר ואת טורקיה מכל מעורבות בעזה ונכניס במקומן את מצרים",
+      "source_url": "https://be-yahad.org.il/plans/natsec/",
+      "source_title": "רק ביחד נשמור על הבטחון הלאומי - מפלגת ביחד",
+      "source_type": "party_site",
+      "date": "2026-09-24"
+    },
+    {
+      "topic": "security",
+      "point": "הרשימה תומכת בחיזוק הסכמי אברהם, בחידוש ועידת הנגב ובקידום נורמליזציה עם סעודיה, אינדונזיה ומדינות נוספות.",
+      "quote": "נחזק את הסכמי אברהם, נחזיר את ועידת הנגב שיזם שר החוץ יאיר לפיד, ונביא נורמליזציה עם סעודיה, אינדונזיה ומדינות מפתח נוספות.",
+      "source_url": "https://be-yahad.org.il/plans/natsec/",
+      "source_title": "רק ביחד נשמור על הבטחון הלאומי - מפלגת ביחד",
+      "source_type": "party_site",
+      "date": "2026-09-24"
+    },
+    {
+      "topic": "economy",
+      "point": "הרשימה מציבה יעד להורדת מחירי המזון ב-30% בתוך שלוש שנים.",
+      "quote": "ביחד נתקן את יוקר המחיה- תוך שלוש שנים נוריד את מחירי המזון ב-30%.",
+      "source_url": "https://be-yahad.org.il/plans/",
+      "source_title": "תכניות התיקון - מפלגת ביחד בראשות נפתלי בנט",
+      "source_type": "party_site",
+      "date": null
+    },
+    {
+      "topic": "economy",
+      "point": "הרשימה מציעה לפרק מונופולים בשרשרת אספקת המזון ולאסור על מונופול לשלוט בכמה ענפים במקביל.",
+      "quote": "נפרק מונופולי־על לאורך כל שרשרת הייצור והאספקה – מהמפעל והנמל ועד למדף. יבואן גדול לא יורשה להפיץ יותר ממותג מונופוליסטי אחד; מונופולים לא יוכלו לשלוט בכמה ענפים שונים.",
+      "source_url": "https://be-yahad.org.il/plans/yokermichya/",
+      "source_title": "תכנית להורדת יוקר המחיה - מפלגת ביחד",
+      "source_type": "party_site",
+      "date": "2026-05-17"
+    },
+    {
+      "topic": "economy",
+      "point": "הרשימה מציעה לבטל מכסים, לתמוך ישירות בחקלאים ולהכיר באופן אוטומטי בכשרויות מחו״ל.",
+      "quote": "נבטל מכסים ובמקומם נתמוך ישירות בחקלאים שחשובים לבטחון התזונתי והלאומי ישראל, ונשבור את מונופול הרבנות באמצעות הכרה אוטומטית בכשרויות מחו\"ל",
+      "source_url": "https://be-yahad.org.il/plans/yokermichya/",
+      "source_title": "תכנית להורדת יוקר המחיה - מפלגת ביחד",
+      "source_type": "party_site",
+      "date": "2026-05-17"
+    },
+    {
+      "topic": "religion_state",
+      "point": "הרשימה מציעה לחוקק ברית זוגיות אזרחית עם רישום במשרד הפנים, ללא תלות בדת, מגדר או נטייה מינית.",
+      "quote": "נחוקק את חוק ברית הזוגיות האזרחית וניצור מסלול אזרחי מלא ונגיש לרישום זוגיות במרשם ממלכתי במשרד הפנים, עם מלוא הזכויות והחובות של זוגות נשואים וללא תלות בדת, מגדר או נטייה מינית.",
+      "source_url": "https://be-yahad.org.il/plans/religionandstate/",
+      "source_title": "רק ביחד נתקן את יחסי הדת והמדינה - מפלגת ביחד",
+      "source_type": "party_site",
+      "date": "2026-09-17"
+    },
+    {
+      "topic": "religion_state",
+      "point": "הרשימה מציעה שכל רשות מקומית תחליט בעצמה אם להפעיל תחבורה ציבורית בשבת ובחג.",
+      "quote": "כל רשות מקומית תחליט בעצמה אם היא רוצה תחבורה ציבורית עירונית ובינעירונית בשבת ובחג. בלי איסור ארצי ובלי כפייה הפוכה.",
+      "source_url": "https://be-yahad.org.il/plans/religionandstate/",
+      "source_title": "רק ביחד נתקן את יחסי הדת והמדינה - מפלגת ביחד",
+      "source_type": "party_site",
+      "date": "2026-09-17"
+    },
+    {
+      "topic": "religion_state",
+      "point": "הרשימה תומכת בגיוס כלל הצעירים החרדים ללא פטורים, ובשלילת הטבות ממי שאינו משרת.",
+      "quote": "כולם יתגייסו, בלי פטורים, בלי ועדות ובלי קומבינות. ומי שלא ישרת – לא יקבל.",
+      "source_url": "https://be-yahad.org.il/plans/natsec/",
+      "source_title": "רק ביחד נשמור על הבטחון הלאומי - מפלגת ביחד",
+      "source_type": "party_site",
+      "date": "2026-09-24"
+    },
+    {
+      "topic": "judiciary",
+      "point": "הרשימה מציעה להסדיר את הביקורת השיפוטית ואת חוקי היסוד מתוך חתירה להסכמות רחבות.",
+      "quote": "יוסדרו הביקורת השיפוטית וחוקי היסוד תוך חתירה להסכמות רחבות.",
+      "source_url": "https://be-yahad.org.il/plans/",
+      "source_title": "תכניות התיקון - מפלגת ביחד בראשות נפתלי בנט",
+      "source_type": "party_site",
+      "date": null
+    },
+    {
+      "topic": "governance",
+      "point": "הרשימה מציעה להקים ועדת חקירה ממלכתית לאירועי 7 באוקטובר ולהגביל את כהונת ראש הממשלה ל-8 שנים.",
+      "quote": "תוקם ועדת חקירה ממלכתית לאירועי ה-7 באוקטובר והתנהלות המדינה לאחריהם. כהונת ראש הממשלה תוגבל ל-8 שנים.",
+      "source_url": "https://be-yahad.org.il/plans/",
+      "source_title": "תכניות התיקון - מפלגת ביחד בראשות נפתלי בנט",
+      "source_type": "party_site",
+      "date": null
+    },
+    {
+      "topic": "governance",
+      "point": "הרשימה מציעה לכונן חוקה על בסיס עקרונות מגילת העצמאות.",
+      "quote": "הממשלה תיקח אחריות ותכונן חוקה על בסיס עקרונות מגילת העצמאות, כחלק מעיגון ערכי היסוד של מדינת ישראל.",
+      "source_url": "https://be-yahad.org.il/plans/",
+      "source_title": "תכניות התיקון - מפלגת ביחד בראשות נפתלי בנט",
+      "source_type": "party_site",
+      "date": null
+    },
+    {
+      "topic": "governance",
+      "point": "הרשימה מציעה לסגור שבעה משרדי ממשלה, להעביר סמכויות לרשויות המקומיות ולהחליף מינויים פוליטיים במינויים מקצועיים.",
+      "quote": "נסגור שבעה משרדים, נבזר סמכויות לרשויות המקומיות ונעבור ממינויים פוליטיים של ג'ובים וקומבינות למינויים מקצועיים.",
+      "source_url": "https://be-yahad.org.il/plans/",
+      "source_title": "תכניות התיקון - מפלגת ביחד בראשות נפתלי בנט",
+      "source_type": "party_site",
+      "date": null
+    },
+    {
+      "topic": "housing",
+      "point": "הרשימה מציעה הטבה בשווי מיליון ש״ח לרכישת דירה למשרתי מילואים פעילים, ומלאי דירות למימוש הזכאות בתוך ארבע שנים.",
+      "quote": "נעניק למשרתי מילואים פעילים מיליון ש״ח לדירה ונבטיח מלאי שיאפשר לממש את הזכאות בתוך ארבע שנים – מי שמשרת יקבל בחזרה.",
+      "source_url": "https://be-yahad.org.il/plans/housing/",
+      "source_title": "רק ביחד נתקן את משבר הדיור - מפלגת ביחד",
+      "source_type": "party_site",
+      "date": "2026-09-27"
+    },
+    {
+      "topic": "housing",
+      "point": "הרשימה מציעה כ-100 אלף דירות להשכרה ארוכת טווח בתוך עשור, 40% מהן במסלול מסובסד בהנחה של 30% ממחיר השוק.",
+      "quote": "ניצור חלופה אמיתית לבעלות: כ־100 אלף דירות להשכרה ארוכת טווח בתוך עשור, לצעירים, למשפחות עובדות ולמשרתי מילואים. 40% מהן יהיו במסלול מסובסד, בהנחה של 30% ממחיר השוק.",
+      "source_url": "https://be-yahad.org.il/plans/housing/",
+      "source_title": "רק ביחד נתקן את משבר הדיור - מפלגת ביחד",
+      "source_type": "party_site",
+      "date": "2026-09-27"
+    },
+    {
+      "topic": "housing",
+      "point": "הרשימה מציעה יעדי זמן מחייבים: תב״ע מקומית בתוך 18 חודשים, היתר בנייה בתוך 3 חודשים וביצוע בתוך 24 חודשים.",
+      "quote": "נקבע יעד מחייב: תב״ע מקומית תוך 18 חודשים, היתר בניה תוך 3 חודשים והביצוע יושלם תוך 24 חודשים.",
+      "source_url": "https://be-yahad.org.il/plans/housing/",
+      "source_title": "רק ביחד נתקן את משבר הדיור - מפלגת ביחד",
+      "source_type": "party_site",
+      "date": "2026-09-27"
+    },
+    {
+      "topic": "education",
+      "point": "הרשימה מציעה להעלות את רף הכניסה להוראה ולקבוע שכר התחלתי של 12 אלף ש״ח למורה.",
+      "quote": "נביא את האנשים הטובים ביותר להוראה: נעלה את הרף ונשלם בהתאם – עם שכר התחלתי של 12 אלף שקל למורה.",
+      "source_url": "https://be-yahad.org.il/plans/education/",
+      "source_title": "רק ביחד נתקן את מערכת החינוך - מפלגת ביחד",
+      "source_type": "party_site",
+      "date": "2026-06-22"
+    },
+    {
+      "topic": "education",
+      "point": "הרשימה מציעה להתנות מימון ציבורי של מוסדות חינוך בלימוד מלא של לימודי הליבה.",
+      "quote": "מימון ציבורי יינתן רק למוסדות המלמדים 100% לימודי ליבה ומעניקים לתלמידים כלים להשתלבות באקדמיה, בתעסוקה, באזרחות ובשירות, בלי לפגוע באורח חייהם ובאמונתם.",
+      "source_url": "https://be-yahad.org.il/plans/education/",
+      "source_title": "רק ביחד נתקן את מערכת החינוך - מפלגת ביחד",
+      "source_type": "party_site",
+      "date": "2026-06-22"
+    },
+    {
+      "topic": "education",
+      "point": "הרשימה מציעה להקים מועצה לאומית לחינוך שתקבע ליבה משותפת של 60% מהלימודים לכל התלמידים.",
+      "quote": "מועצה לאומית לחינוך תקבע ליבה משותפת של 60% מהלימודים לכל ילדי ישראל – ידע, ערכים, אזרחות ומיומנויות לעולם החדש.",
+      "source_url": "https://be-yahad.org.il/plans/education/",
+      "source_title": "רק ביחד נתקן את מערכת החינוך - מפלגת ביחד",
+      "source_type": "party_site",
+      "date": "2026-06-22"
+    },
+    {
+      "topic": "welfare_health",
+      "point": "הרשימה מציעה להקים בתוך חמש שנים עשרות מרכזי רפואה קהילתיים שיספקו ניתוחים בהרדמה מקומית, דימות, מרפאות יועצים ורפואה דחופה.",
+      "quote": "נקים תוך חמש שנים עשרות מרכזי רפואה קהילתיים בפריסה ארצית. המרכזים האלו יספקו שירותים כמו ניתוחים בהרדמה מקומית, צילומי הדמיה מתקדמים, מרפאות יועצים ורפואה דחופה ממש קרוב לבית",
+      "source_url": "https://be-yahad.org.il/plans/health/",
+      "source_title": "רק ביחד נתקן את מערכת הבריאות - מפלגת ביחד",
+      "source_type": "party_site",
+      "date": "2026-09-07"
+    },
+    {
+      "topic": "welfare_health",
+      "point": "הרשימה מציעה להכפיל את ההשקעה ברפואה מונעת ולתגמל את קופות החולים על מניעת תחלואה וגילוי מוקדם.",
+      "quote": "נכפיל את ההשקעה ברפואה מונעת ונתגמל את קופות החולים לא רק על טיפול בחולים, אלא גם על מניעת תחלואה, גילוי מוקדם ושמירה על בריאות לאורך זמן.",
+      "source_url": "https://be-yahad.org.il/plans/health/",
+      "source_title": "רק ביחד נתקן את מערכת הבריאות - מפלגת ביחד",
+      "source_type": "party_site",
+      "date": "2026-09-07"
+    },
+    {
+      "topic": "welfare_health",
+      "point": "הרשימה מציעה להעלות את קצבת הזקנה לנזקקים ביותר, להסדיר את תחום הסיעוד ולתמוך בבני משפחה מטפלים.",
+      "quote": "נבנה מדיניות ארוכת-טווח לתמיכה בגיל השלישי, נעלה את קצבת הזקנה לנזקקים ביותר, נסדיר את תחום הסיעוד וניתן גב לבני המשפחה המטפלים.",
+      "source_url": "https://be-yahad.org.il/plans/",
+      "source_title": "תכניות התיקון - מפלגת ביחד בראשות נפתלי בנט",
+      "source_type": "party_site",
+      "date": null
+    }
+  ],
+  "topics_without_position": [],
+  "researched_at": "2026-10-02",
+  "notes": "No single platform PDF found; the list publishes topic 'plans' (תוכניות התיקון) on be-yahad.org.il/plans/ (index page has no publication date; per-plan dates are the WordPress datePublished values, pages were modified 23-27 Sep 2026). All quotes were checked programmatically as exact substrings of the raw page text downloaded on 2026-10-02. The plans index page is the source for short summaries of plans (governance, aging, cost of living) whose full pages were not separately fetched. Judiciary has a single, general position (regulating judicial review and Basic Laws via broad consensus); no detailed judicial-reform plan was found - reviewer may want to check for later statements. The Haredi draft position is filed under religion_state although it is sourced from the national-security plan; it could also be classed as security. Kashrut (recognition of foreign kashrut certification) appears under economy as part of the cost-of-living plan; the religion-and-state plan contains the same proposal. Bennett's 6 Sep 2026 launch speech (ynet) repeats the commission of inquiry, 8-year term limit, Qatar-as-enemy-state and 30% cost-of-living pledges; it was not used as a separate source to avoid duplication. Pre-merger Yesh Atid positions were not used."
+}

@@ -1,0 +1,289 @@
+{
+ "locale": "ar",
+ "series": "text",
+ "target_language": "Arabic",
+ "source_language": "Hebrew",
+ "instructions": "Each item is Hebrew prose (biography, background, platform summary, research notes). Translate faithfully into natural, neutral Arabic (Arabic). Do not add, drop or soften facts or claims. Keep every number, date and year exactly as in the source. Person, party and place names must be written as in the \"names\" convention for Arabic. This is a non-partisan election guide: neutral register. Output: for every item return {\"key\": <same key>, \"value\": <your translation>}. Return ONLY a JSON array (or {\"items\":[...]}) with one entry per input item, same keys, no omissions, no extra commentary. Value must be non-empty and written in the target script; never leave Hebrew letters in it. Preserve numbers, placeholders and punctuation meaning. Save the result as data/i18n/done/<locale>/<same file name>.",
+ "items": [
+  {
+   "key": "people|orot-hashahar:3|facts.1.value",
+   "he": "מייסד ומנהל ראשון של המכינה הקדם-צבאית איתן 2011"
+  },
+  {
+   "key": "people|orot-hashahar:3|facts.2.value",
+   "he": "תואר שני באוניברסיטת תל אביב (2016), דוקטורט באוניברסיטת אריאל (2024)"
+  },
+  {
+   "key": "people|orot-hashahar:4|facts.0.value",
+   "he": "עוסק בחוות בודדות בדרום"
+  },
+  {
+   "key": "people|orot-hashahar:5|facts.0.value",
+   "he": "רב מוסמך, עורך דין ופובליציסט"
+  },
+  {
+   "key": "people|otzma-yehudit:1|facts.0.value",
+   "he": "עורך דין מ-2012, יועץ תקשורת לח\"כ מיכאל בן ארי"
+  },
+  {
+   "key": "people|otzma-yehudit:1|facts.1.value",
+   "he": "תואר במשפטים, המכללה האקדמית אונו"
+  },
+  {
+   "key": "people|otzma-yehudit:1|facts.2.value",
+   "he": "חבר כנסת מ-2021"
+  },
+  {
+   "key": "people|otzma-yehudit:1|facts.3.value",
+   "he": "שר לביטחון לאומי מדצמבר 2022 (עם הפסקה בינואר–מרץ 2025)"
+  },
+  {
+   "key": "people|otzma-yehudit:2|facts.0.value",
+   "he": "עורכת דין פלילית מ-2000, מבני ברק; פרשנית משפטית בתקשורת"
+  },
+  {
+   "key": "people|otzma-yehudit:2|facts.1.value",
+   "he": "תואר ראשון ושני במשפטים, אוניברסיטת בר-אילן"
+  },
+  {
+   "key": "people|otzma-yehudit:2|facts.2.value",
+   "he": "חברת כנסת מנובמבר 2022 (ליכוד, ב-2026 עברה לעוצמה יהודית)"
+  },
+  {
+   "key": "people|otzma-yehudit:3|facts.0.value",
+   "he": "שירות בגולני, גדוד 12, מ-2012"
+  },
+  {
+   "key": "people|otzma-yehudit:3|facts.1.value",
+   "he": "הקים את עמותת 'אחיעד' לחיזוק אופי יהודי בשכונות תל אביב"
+  },
+  {
+   "key": "people|otzma-yehudit:3|facts.2.value",
+   "he": "חבר כנסת מנובמבר 2022"
+  },
+  {
+   "key": "people|otzma-yehudit:3|facts.3.value",
+   "he": "שר לפיתוח הנגב, הגליל והחוסן הלאומי מדצמבר 2022, בהפסקה בינואר–מרץ 2025"
+  },
+  {
+   "key": "people|otzma-yehudit:4|facts.0.value",
+   "he": "מורה בישיבת התיכונית חספין 2009–2013; הקים מרכז לימוד 'אורות יהודה' במגדל העמק"
+  },
+  {
+   "key": "people|otzma-yehudit:4|facts.1.value",
+   "he": "לוחם בגדוד 202 בחטיבת הצנחנים"
+  },
+  {
+   "key": "people|otzma-yehudit:4|facts.2.value",
+   "he": "חבר כנסת מ-2022"
+  },
+  {
+   "key": "people|otzma-yehudit:4|facts.3.value",
+   "he": "שר המורשת מ-2023"
+  },
+  {
+   "key": "people|otzma-yehudit:5|facts.0.value",
+   "he": "עוסקת בטיפול רגשי והדרכת הורים; פרסמה ספר שירה ב-2021"
+  },
+  {
+   "key": "people|otzma-yehudit:5|facts.1.value",
+   "he": "למדה במדרשת בינה ובמכללת אורות ישראל, ייעוץ חינוכי"
+  },
+  {
+   "key": "people|otzma-yehudit:5|facts.2.value",
+   "he": "חברת כנסת מ-2022; סגנית יושב ראש הכנסת מ-2025"
+  },
+  {
+   "key": "people|pirates:1|facts.0.value",
+   "he": "יו\"ר מפלגת עלה ירוק 2006–2009"
+  },
+  {
+   "key": "people|pirates:1|facts.1.value",
+   "he": "ראש רשימת הפיראטים בבחירות 2013 ו-2021"
+  },
+  {
+   "key": "people|pirates:2|facts.0.value",
+   "he": "ראש רשימת הפיראטים בבחירות 2019 (שתי מערכות), 2020 ו-2022"
+  },
+  {
+   "key": "people|raam:1|facts.0.value",
+   "he": "דוקטור לרפואת שיניים (העברית), תואר שני במדע המדינה (חיפה)"
+  },
+  {
+   "key": "people|raam:1|facts.1.value",
+   "he": "יו\"ר ועד הסטודנטים הערבים בעברית 1997–1998; מזכ\"ל רע\"מ מ-2007"
+  },
+  {
+   "key": "people|raam:1|facts.2.value",
+   "he": "נבחר ליו\"ר רע\"מ ב-2018"
+  },
+  {
+   "key": "people|raam:1|facts.3.value",
+   "he": "חבר כנסת, יו\"ר הוועדה המיוחדת לענייני החברה הערבית וסגן יו\"ר הכנסת"
+  },
+  {
+   "key": "people|raam:2|facts.0.value",
+   "he": "קצין מודיעין בחטיבת הצנחנים בצה\"ל"
+  },
+  {
+   "key": "people|raam:2|facts.1.value",
+   "he": "מפקד אגף החקירות והמודיעין 2009–2013; הקים את להב 433; מפקד מרחב אילת מ-2002"
+  },
+  {
+   "key": "people|raam:2|facts.2.value",
+   "he": "סגן השר לביטחון הפנים בממשלה ה-36"
+  },
+  {
+   "key": "people|raam:2|facts.3.value",
+   "he": "חבר כנסת לשעבר מטעם יש עתיד"
+  },
+  {
+   "key": "people|raam:3|facts.0.value",
+   "he": "מנהל רשת הגנים ובתי הספר אל-הודא ברמלה"
+  },
+  {
+   "key": "people|raam:3|facts.1.value",
+   "he": "תואר שני במדע המדינה (תל אביב), תואר ראשון בהיסטוריה (תל אביב)"
+  },
+  {
+   "key": "people|raam:3|facts.2.value",
+   "he": "חבר כנסת מטעם רע\"ם (נכון ל-2026), יו\"ר ועדת הפנים והגנת הסביבה לשעבר"
+  },
+  {
+   "key": "people|raam:4|facts.0.value",
+   "he": "שופט בהתאחדות לכדורגל 2000–2013"
+  },
+  {
+   "key": "people|raam:4|facts.1.value",
+   "he": "יועץ ח\"כ סעיד אלחרומי; מנהל סיעת רע\"ם ודוברה מ-2020"
+  },
+  {
+   "key": "people|raam:4|facts.2.value",
+   "he": "תואר שני במדע המדינה, אוניברסיטת חיפה"
+  },
+  {
+   "key": "people|raam:4|facts.3.value",
+   "he": "חבר כנסת מטעם רע\"ם (נכון ל-2026)"
+  },
+  {
+   "key": "people|raam:5|facts.0.value",
+   "he": "ניהלה מרכז לנערות במצוקה בנצרת תשע שנים ואת המתנ\"ס ביפיע 14 שנה"
+  },
+  {
+   "key": "people|raam:5|facts.1.value",
+   "he": "תואר שני בעבודה סוציאלית, תל אביב; תואר ראשון בחיפה"
+  },
+  {
+   "key": "people|raam:5|facts.2.value",
+   "he": "חברת כנסת מ-2020"
+  },
+  {
+   "key": "people|reservists-economic:1|facts.0.value",
+   "he": "התגייס 1993, לחם בשייטת 13; ב-2015 הקים את יחידת עומר; הקים בעת מלחמת חרבות ברזל גדוד מילואים"
+  },
+  {
+   "key": "people|reservists-economic:1|facts.1.value",
+   "he": "דוקטור להיסטוריה, מרצה לשעבר בבר-אילן, יזם ושותף בקרן דיפנס טק"
+  },
+  {
+   "key": "people|reservists-economic:1|facts.2.value",
+   "he": "שר התקשורת וחבר כנסת לשעבר; יו\"ר מפלגת המילואימניקים"
+  },
+  {
+   "key": "people|reservists-economic:2|facts.0.value",
+   "he": "החשב הכללי במשרד האוצר 2003–2007"
+  },
+  {
+   "key": "people|reservists-economic:2|facts.1.value",
+   "he": "1996–1998 מנהל התחום הכלכלי במשרד ראש הממשלה; ראש התמחות בחשבונאות בקריה האקדמית אונו"
+  },
+  {
+   "key": "people|reservists-economic:2|facts.2.value",
+   "he": "הקים את \"המפלגה הכלכלית החדשה\", התמודד בכנסת ה-24 וה-25"
+  },
+  {
+   "key": "people|reservists-economic:2|facts.3.value",
+   "he": "תואר ראשון בכלכלה וחשבונאות, בר-אילן, 1994"
+  },
+  {
+   "key": "people|reservists-economic:3|facts.0.value",
+   "he": "קצינה ביחידה 8200"
+  },
+  {
+   "key": "people|reservists-economic:3|facts.1.value",
+   "he": "2002–2006 יועצת מדינית למשנה לראש הממשלה שמעון פרס"
+  },
+  {
+   "key": "people|reservists-economic:3|facts.2.value",
+   "he": "יועצת במקינזי; שותפה מנהלת בקרן ההון סיכון של כור תעשיות"
+  },
+  {
+   "key": "people|reservists-economic:3|facts.3.value",
+   "he": "חברת הכנסת ה-18 מטעם העבודה והעצמאות; יו\"ר ועדת החינוך"
+  },
+  {
+   "key": "people|reservists-economic:5|facts.0.value",
+   "he": "ממקימי ומנהיגי מפלגת המילואימניקים; מועמד מס' 5 ברשימה המשותפת"
+  },
+  {
+   "key": "people|reservists-economic:5|facts.1.value",
+   "he": "קצין מילואים (Major Res.)"
+  },
+  {
+   "key": "people|rzp-zehut:1|facts.0.value",
+   "he": "מנהל הפעילות של תנועת \"רגבים\" ומנהל ישיבת קדומים"
+  },
+  {
+   "key": "people|rzp-zehut:1|facts.1.value",
+   "he": "שירת בצה\"ל כשנה וארבעה חודשים כסמב\"ץ בחטיבת המבצעים במטכ\"ל"
+  },
+  {
+   "key": "people|rzp-zehut:1|facts.2.value",
+   "he": "שר האוצר ה-27 ושר במשרד הביטחון לענייני התיישבות (נכון ל-2026); שר התחבורה לשעבר"
+  },
+  {
+   "key": "people|rzp-zehut:1|facts.3.value",
+   "he": "תואר ראשון במשפטים, הקריה האקדמית אונו"
+  },
+  {
+   "key": "people|rzp-zehut:2|facts.0.value",
+   "he": "קצין לוחם באב\"ך, שוחרר בדרגת סרן"
+  },
+  {
+   "key": "people|rzp-zehut:2|facts.1.value",
+   "he": "הקים חברת גלישת מצוקים וחברת הזנק"
+  },
+  {
+   "key": "people|rzp-zehut:2|facts.2.value",
+   "he": "ממקימי תנועת \"זו ארצנו\"; הקים את מפלגת זהות (התמודדה לכנסת ה-21)"
+  },
+  {
+   "key": "people|rzp-zehut:2|facts.3.value",
+   "he": "חבר כנסת מטעם הליכוד וסגן יו\"ר הכנסת ה-19"
+  },
+  {
+   "key": "people|rzp-zehut:3|facts.0.value",
+   "he": "ייסדה ב-2002 את ארגון זכויות האדם ביש\"ע וניהלה אותו 2004–2012"
+  },
+  {
+   "key": "people|rzp-zehut:3|facts.1.value",
+   "he": "מ-2000 ראשת המחלקה המשפטית-מדינית ביישוב היהודי בחברון"
+  },
+  {
+   "key": "people|rzp-zehut:3|facts.2.value",
+   "he": "שרת ההתיישבות והמשימות הלאומיות (נכון ל-2026)"
+  },
+  {
+   "key": "people|rzp-zehut:3|facts.3.value",
+   "he": "חברת כנסת מטעם סיעת הציונות הדתית"
+  },
+  {
+   "key": "people|rzp-zehut:4|facts.0.value",
+   "he": "התמחה במשרד המשפטים, עבד ברשם העמותות והקים משרד עורכי דין"
+  },
+  {
+   "key": "people|rzp-zehut:4|facts.1.value",
+   "he": "ממייסדי התנועה למשילות ודמוקרטיה ויועצה המשפטי עד 2021"
+  }
+ ]
+}

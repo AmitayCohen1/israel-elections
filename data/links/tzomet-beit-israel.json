@@ -1,0 +1,77 @@
+{
+ "slug": "tzomet-beit-israel",
+ "researched_at": "2026-10-03",
+ "links": [
+  {
+   "url": "https://beit-israel.co.il/",
+   "kind": "website",
+   "title": "אתר מפלגת בית ישראל (רכיב ברשימה)",
+   "owner": "בית ישראל – גדי יברקן",
+   "found_via": "seed; fetched ok",
+   "status": "ok"
+  },
+  {
+   "url": "https://beit-israel.co.il/goals/",
+   "kind": "platform",
+   "title": "יעדים ומצע",
+   "owner": "בית ישראל – גדי יברקן",
+   "found_via": "official site nav",
+   "status": "ok"
+  },
+  {
+   "url": "https://beit-israel.co.il/leader/",
+   "kind": "other",
+   "title": "עמוד היו\"ר",
+   "owner": "בית ישראל – גדי יברקן",
+   "found_via": "official site nav",
+   "status": "ok"
+  },
+  {
+   "url": "https://beit-israel.co.il/updates/",
+   "kind": "press",
+   "title": "עדכונים",
+   "owner": "בית ישראל – גדי יברקן",
+   "found_via": "official site nav",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.facebook.com/people/%D7%9E%D7%A4%D7%9C%D7%92%D7%AA-%D7%91%D7%99%D7%AA-%D7%99%D7%A9%D7%A8%D7%90%D7%9C/61593081147458/",
+   "kind": "facebook",
+   "title": "פייסבוק מפלגת בית ישראל",
+   "owner": "בית ישראל – גדי יברקן",
+   "found_via": "official site footer",
+   "status": "login-wall"
+  },
+  {
+   "url": "https://www.instagram.com/beit__israel/",
+   "kind": "instagram",
+   "title": "אינסטגרם בית ישראל",
+   "owner": "בית ישראל – גדי יברקן",
+   "found_via": "official site footer",
+   "status": "login-wall"
+  },
+  {
+   "url": "https://www.tiktok.com/@beit_israelll",
+   "kind": "tiktok",
+   "title": "טיקטוק בית ישראל",
+   "owner": "בית ישראל – גדי יברקן",
+   "found_via": "official site footer",
+   "status": "ok"
+  },
+  {
+   "url": "https://www.whatsapp.com/channel/0029VbD88i3L2ATzel1yVY3F",
+   "kind": "whatsapp",
+   "title": "ערוץ וואטסאפ",
+   "owner": "בית ישראל – גדי יברקן",
+   "found_via": "official site footer",
+   "status": "ok"
+  }
+ ],
+ "unverified": [
+  {
+   "url": "https://tzomet.org.il",
+   "note": "Tzomet party site; DNS fails; not linked from any official page seen"
+  }
+ ],
+ "notes": "Site belongs to Beit Yisrael component (leader Gadi Yaberkan, #1), not necessarily the joint list branding. Tzomet's own accounts not found."
+}

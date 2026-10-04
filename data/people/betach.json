@@ -1,0 +1,62 @@
+{
+  "slug": "betach",
+  "researched_at": "2026-10-04",
+  "people": [
+    {
+      "position": 1,
+      "name": "סמיון גרפמן",
+      "headline": "איש תקשורת ועסקים, מייסד מפלגת בט\"ח",
+      "facts": [
+        {
+          "label": "רקע מקצועי",
+          "value": "טכנאי שיניים, איש עסקים בניו יורק במסחר ובציוד רפואי",
+          "source_url": "https://he.wikipedia.org/wiki/סמיון_גרפמן"
+        },
+        {
+          "label": "רקע מקצועי",
+          "value": "אישיות רשת ופאנליסט בתוכנית \"הצינור\" מ-2015",
+          "source_url": "https://he.wikipedia.org/wiki/סמיון_גרפמן"
+        },
+        {
+          "label": "תפקידים ציבוריים",
+          "value": "מייסד בט\"ח - ביטחון חברתי, התמודד בבחירות 2019",
+          "source_url": "https://he.wikipedia.org/wiki/סמיון_גרפמן"
+        }
+      ],
+      "confidence": "high",
+      "notes": ""
+    },
+    {
+      "position": 2,
+      "name": "לובוב חניס",
+      "headline": null,
+      "facts": [],
+      "confidence": "low",
+      "notes": "לא נמצא מידע אמין."
+    },
+    {
+      "position": 3,
+      "name": "דמיטרי זלטקין",
+      "headline": null,
+      "facts": [],
+      "confidence": "low",
+      "notes": "לא נמצא מידע אמין."
+    },
+    {
+      "position": 4,
+      "name": "(ללא שם ברשימה)",
+      "headline": null,
+      "facts": [],
+      "confidence": "low",
+      "notes": "הרשימה כוללת 3 מועמדים בנתונים."
+    },
+    {
+      "position": 5,
+      "name": "(ללא שם ברשימה)",
+      "headline": null,
+      "facts": [],
+      "confidence": "low",
+      "notes": "הרשימה כוללת 3 מועמדים בנתונים."
+    }
+  ]
+}

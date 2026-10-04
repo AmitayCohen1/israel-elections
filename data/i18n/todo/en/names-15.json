@@ -1,0 +1,759 @@
+{
+ "locale": "en",
+ "series": "names",
+ "target_language": "English",
+ "source_language": "Hebrew",
+ "instructions": "Each item is a Hebrew NAME (person, party or list). Write how that name is conventionally written in English (Latin). Examples: Binyamin Netanyahu, Yair Lapid, Likud, Yesh Atid. Use the spelling established in English-language media (Times of Israel, Haaretz English, Wikipedia); otherwise a plain Hebrew-to-Latin transliteration (no diacritics). Do not put the Hebrew in the output. \"ctx\" is context to identify the person or party (list, slot, MK status, start of bio): use it, do not translate it. Names are given either in natural order or surname-first (official form like \"כהן יוסי\"): always output the natural given-name-first order. Party and list names: use the established English name of the party if there is one, otherwise translate the meaning (e.g. \"הציונות הדתית\" = Religious Zionism) rather than transliterate. Keep ballot-letter acronyms as they are written. Output: for every item return {\"key\": <same key>, \"value\": <your translation>}. Return ONLY a JSON array (or {\"items\":[...]}) with one entry per input item, same keys, no omissions, no extra commentary. Value must be non-empty and written in the target script; never leave Hebrew letters in it. Preserve numbers, placeholders and punctuation meaning. Save the result as data/i18n/done/<locale>/<same file name>.",
+ "items": [
+  {
+   "key": "candidates|utj:61|display_name",
+   "he": "לברן צבי יוסף",
+   "ctx": "רשימת יהדות התורה, מקום 61"
+  },
+  {
+   "key": "candidates|utj:62|display_name",
+   "he": "גיטלר נחום אהרן",
+   "ctx": "רשימת יהדות התורה, מקום 62"
+  },
+  {
+   "key": "candidates|utj:63|display_name",
+   "he": "רוטנר דוד נחמן",
+   "ctx": "רשימת יהדות התורה, מקום 63"
+  },
+  {
+   "key": "candidates|utj:64|display_name",
+   "he": "סילברסטין ישראל מרדכי",
+   "ctx": "רשימת יהדות התורה, מקום 64"
+  },
+  {
+   "key": "candidates|utj:65|display_name",
+   "he": "גרליץ מיכאל דב",
+   "ctx": "רשימת יהדות התורה, מקום 65"
+  },
+  {
+   "key": "candidates|utj:66|display_name",
+   "he": "רוזנשטיין יעקב צבי",
+   "ctx": "רשימת יהדות התורה, מקום 66"
+  },
+  {
+   "key": "candidates|utj:67|display_name",
+   "he": "שמואל שוק",
+   "ctx": "רשימת יהדות התורה, מקום 67"
+  },
+  {
+   "key": "candidates|utj:67|official_name",
+   "he": "שוק שמואל",
+   "ctx": "רשימת יהדות התורה, מקום 67"
+  },
+  {
+   "key": "candidates|utj:68|display_name",
+   "he": "שלמה ברילנט",
+   "ctx": "רשימת יהדות התורה, מקום 68"
+  },
+  {
+   "key": "candidates|utj:68|official_name",
+   "he": "ברילנט שלמה",
+   "ctx": "רשימת יהדות התורה, מקום 68"
+  },
+  {
+   "key": "candidates|utj:69|display_name",
+   "he": "ברום יצחק מאיר",
+   "ctx": "רשימת יהדות התורה, מקום 69"
+  },
+  {
+   "key": "candidates|utj:70|display_name",
+   "he": "בן גד אפרים יוחנן",
+   "ctx": "רשימת יהדות התורה, מקום 70"
+  },
+  {
+   "key": "candidates|utj:71|display_name",
+   "he": "ויכלדר חיים ברוך",
+   "ctx": "רשימת יהדות התורה, מקום 71"
+  },
+  {
+   "key": "candidates|utj:72|display_name",
+   "he": "דוד פינקל",
+   "ctx": "רשימת יהדות התורה, מקום 72"
+  },
+  {
+   "key": "candidates|utj:72|official_name",
+   "he": "פינקל דוד",
+   "ctx": "רשימת יהדות התורה, מקום 72"
+  },
+  {
+   "key": "candidates|utj:73|display_name",
+   "he": "בקנרוט יחזקאל שרגא",
+   "ctx": "רשימת יהדות התורה, מקום 73"
+  },
+  {
+   "key": "candidates|utj:74|display_name",
+   "he": "רייכמן חיים יהודה",
+   "ctx": "רשימת יהדות התורה, מקום 74"
+  },
+  {
+   "key": "candidates|utj:75|display_name",
+   "he": "כהן ישראל חיים",
+   "ctx": "רשימת יהדות התורה, מקום 75"
+  },
+  {
+   "key": "candidates|utj:76|display_name",
+   "he": "יעקב גרבר",
+   "ctx": "רשימת יהדות התורה, מקום 76"
+  },
+  {
+   "key": "candidates|utj:76|official_name",
+   "he": "גרבר יעקב",
+   "ctx": "רשימת יהדות התורה, מקום 76"
+  },
+  {
+   "key": "candidates|utj:77|display_name",
+   "he": "ישראל מילר",
+   "ctx": "רשימת יהדות התורה, מקום 77"
+  },
+  {
+   "key": "candidates|utj:77|official_name",
+   "he": "מילר ישראל",
+   "ctx": "רשימת יהדות התורה, מקום 77"
+  },
+  {
+   "key": "candidates|utj:78|display_name",
+   "he": "אבשלום יעקבי",
+   "ctx": "רשימת יהדות התורה, מקום 78"
+  },
+  {
+   "key": "candidates|utj:78|official_name",
+   "he": "יעקבי אבשלום",
+   "ctx": "רשימת יהדות התורה, מקום 78"
+  },
+  {
+   "key": "candidates|utj:79|display_name",
+   "he": "דוד שפיצר",
+   "ctx": "רשימת יהדות התורה, מקום 79"
+  },
+  {
+   "key": "candidates|utj:79|official_name",
+   "he": "שפיצר דוד",
+   "ctx": "רשימת יהדות התורה, מקום 79"
+  },
+  {
+   "key": "candidates|utj:80|display_name",
+   "he": "לירון עמר",
+   "ctx": "רשימת יהדות התורה, מקום 80"
+  },
+  {
+   "key": "candidates|utj:80|official_name",
+   "he": "עמר לירון",
+   "ctx": "רשימת יהדות התורה, מקום 80"
+  },
+  {
+   "key": "candidates|utj:81|display_name",
+   "he": "זורגר יעקב חיים",
+   "ctx": "רשימת יהדות התורה, מקום 81"
+  },
+  {
+   "key": "candidates|utj:82|display_name",
+   "he": "גולד מנחם מנדל",
+   "ctx": "רשימת יהדות התורה, מקום 82"
+  },
+  {
+   "key": "candidates|utj:83|display_name",
+   "he": "יואל פרויליך",
+   "ctx": "רשימת יהדות התורה, מקום 83"
+  },
+  {
+   "key": "candidates|utj:83|official_name",
+   "he": "פרויליך יואל",
+   "ctx": "רשימת יהדות התורה, מקום 83"
+  },
+  {
+   "key": "candidates|utj:84|display_name",
+   "he": "הר אבן אביר",
+   "ctx": "רשימת יהדות התורה, מקום 84"
+  },
+  {
+   "key": "candidates|utj:85|display_name",
+   "he": "אברהם שטרן",
+   "ctx": "רשימת יהדות התורה, מקום 85"
+  },
+  {
+   "key": "candidates|utj:85|official_name",
+   "he": "שטרן אברהם",
+   "ctx": "רשימת יהדות התורה, מקום 85"
+  },
+  {
+   "key": "candidates|utj:86|display_name",
+   "he": "עופר אלקיים",
+   "ctx": "רשימת יהדות התורה, מקום 86"
+  },
+  {
+   "key": "candidates|utj:86|official_name",
+   "he": "אלקיים עופר",
+   "ctx": "רשימת יהדות התורה, מקום 86"
+  },
+  {
+   "key": "candidates|utj:87|display_name",
+   "he": "גליק בנימין זאב",
+   "ctx": "רשימת יהדות התורה, מקום 87"
+  },
+  {
+   "key": "candidates|utj:88|display_name",
+   "he": "עופר עזרא",
+   "ctx": "רשימת יהדות התורה, מקום 88"
+  },
+  {
+   "key": "candidates|utj:88|official_name",
+   "he": "עזרא עופר",
+   "ctx": "רשימת יהדות התורה, מקום 88"
+  },
+  {
+   "key": "candidates|utj:89|display_name",
+   "he": "יעקב גרינוולד",
+   "ctx": "רשימת יהדות התורה, מקום 89"
+  },
+  {
+   "key": "candidates|utj:89|official_name",
+   "he": "גרינוולד יעקב",
+   "ctx": "רשימת יהדות התורה, מקום 89"
+  },
+  {
+   "key": "candidates|utj:90|display_name",
+   "he": "אלקנה וינשטיין",
+   "ctx": "רשימת יהדות התורה, מקום 90"
+  },
+  {
+   "key": "candidates|utj:90|official_name",
+   "he": "וינשטיין אלקנה",
+   "ctx": "רשימת יהדות התורה, מקום 90"
+  },
+  {
+   "key": "candidates|utj:91|display_name",
+   "he": "גנץ יעקב יוסף",
+   "ctx": "רשימת יהדות התורה, מקום 91"
+  },
+  {
+   "key": "candidates|utj:92|display_name",
+   "he": "זיסמן אריה יהודה",
+   "ctx": "רשימת יהדות התורה, מקום 92"
+  },
+  {
+   "key": "candidates|utj:93|display_name",
+   "he": "ישראל לייזר",
+   "ctx": "רשימת יהדות התורה, מקום 93"
+  },
+  {
+   "key": "candidates|utj:93|official_name",
+   "he": "לייזר ישראל",
+   "ctx": "רשימת יהדות התורה, מקום 93"
+  },
+  {
+   "key": "candidates|utj:94|display_name",
+   "he": "גולדנטל שלמה יהודה",
+   "ctx": "רשימת יהדות התורה, מקום 94"
+  },
+  {
+   "key": "candidates|utj:95|display_name",
+   "he": "רודיך מנחם מנדל",
+   "ctx": "רשימת יהדות התורה, מקום 95"
+  },
+  {
+   "key": "candidates|utj:96|display_name",
+   "he": "דוד מילר",
+   "ctx": "רשימת יהדות התורה, מקום 96"
+  },
+  {
+   "key": "candidates|utj:96|official_name",
+   "he": "מילר דוד",
+   "ctx": "רשימת יהדות התורה, מקום 96"
+  },
+  {
+   "key": "candidates|utj:97|display_name",
+   "he": "ישראל פרנקל",
+   "ctx": "רשימת יהדות התורה, מקום 97"
+  },
+  {
+   "key": "candidates|utj:97|official_name",
+   "he": "פרנקל ישראל",
+   "ctx": "רשימת יהדות התורה, מקום 97"
+  },
+  {
+   "key": "candidates|utj:98|display_name",
+   "he": "אפרים וייס",
+   "ctx": "רשימת יהדות התורה, מקום 98"
+  },
+  {
+   "key": "candidates|utj:98|official_name",
+   "he": "וייס אפרים",
+   "ctx": "רשימת יהדות התורה, מקום 98"
+  },
+  {
+   "key": "candidates|utj:99|display_name",
+   "he": "חיים גרוס",
+   "ctx": "רשימת יהדות התורה, מקום 99"
+  },
+  {
+   "key": "candidates|utj:99|official_name",
+   "he": "גרוס חיים",
+   "ctx": "רשימת יהדות התורה, מקום 99"
+  },
+  {
+   "key": "candidates|utj:100|display_name",
+   "he": "יונה מושקוביץ",
+   "ctx": "רשימת יהדות התורה, מקום 100"
+  },
+  {
+   "key": "candidates|utj:100|official_name",
+   "he": "מושקוביץ יונה",
+   "ctx": "רשימת יהדות התורה, מקום 100"
+  },
+  {
+   "key": "candidates|utj:101|display_name",
+   "he": "לוין אברהם יעקב",
+   "ctx": "רשימת יהדות התורה, מקום 101"
+  },
+  {
+   "key": "candidates|utj:102|display_name",
+   "he": "משה פרנק",
+   "ctx": "רשימת יהדות התורה, מקום 102"
+  },
+  {
+   "key": "candidates|utj:102|official_name",
+   "he": "פרנק משה",
+   "ctx": "רשימת יהדות התורה, מקום 102"
+  },
+  {
+   "key": "candidates|utj:103|display_name",
+   "he": "ברים חיים אורי",
+   "ctx": "רשימת יהדות התורה, מקום 103"
+  },
+  {
+   "key": "candidates|utj:104|display_name",
+   "he": "אלחנן ארנטרוי",
+   "ctx": "רשימת יהדות התורה, מקום 104"
+  },
+  {
+   "key": "candidates|utj:104|official_name",
+   "he": "ארנטרוי אלחנן",
+   "ctx": "רשימת יהדות התורה, מקום 104"
+  },
+  {
+   "key": "candidates|utj:105|display_name",
+   "he": "ברנשטיין מנחם שמעון אריה",
+   "ctx": "רשימת יהדות התורה, מקום 105"
+  },
+  {
+   "key": "candidates|utj:106|display_name",
+   "he": "משה מן",
+   "ctx": "רשימת יהדות התורה, מקום 106"
+  },
+  {
+   "key": "candidates|utj:106|official_name",
+   "he": "מן משה",
+   "ctx": "רשימת יהדות התורה, מקום 106"
+  },
+  {
+   "key": "candidates|utj:107|display_name",
+   "he": "חיים קליין",
+   "ctx": "רשימת יהדות התורה, מקום 107"
+  },
+  {
+   "key": "candidates|utj:107|official_name",
+   "he": "קליין חיים",
+   "ctx": "רשימת יהדות התורה, מקום 107"
+  },
+  {
+   "key": "candidates|utj:108|display_name",
+   "he": "מנחם שורץ",
+   "ctx": "רשימת יהדות התורה, מקום 108"
+  },
+  {
+   "key": "candidates|utj:108|official_name",
+   "he": "שורץ מנחם",
+   "ctx": "רשימת יהדות התורה, מקום 108"
+  },
+  {
+   "key": "candidates|utj:109|display_name",
+   "he": "אליהו גפני",
+   "ctx": "רשימת יהדות התורה, מקום 109"
+  },
+  {
+   "key": "candidates|utj:109|official_name",
+   "he": "גפני אליהו",
+   "ctx": "רשימת יהדות התורה, מקום 109"
+  },
+  {
+   "key": "candidates|utj:110|display_name",
+   "he": "יעקב ויזבינסקי",
+   "ctx": "רשימת יהדות התורה, מקום 110"
+  },
+  {
+   "key": "candidates|utj:110|official_name",
+   "he": "ויזבינסקי יעקב",
+   "ctx": "רשימת יהדות התורה, מקום 110"
+  },
+  {
+   "key": "candidates|utj:111|display_name",
+   "he": "לנדאו יחזקאל שאול",
+   "ctx": "רשימת יהדות התורה, מקום 111"
+  },
+  {
+   "key": "candidates|utj:112|display_name",
+   "he": "שמעון חדד",
+   "ctx": "רשימת יהדות התורה, מקום 112"
+  },
+  {
+   "key": "candidates|utj:112|official_name",
+   "he": "חדד שמעון",
+   "ctx": "רשימת יהדות התורה, מקום 112"
+  },
+  {
+   "key": "candidates|utj:113|display_name",
+   "he": "יעקובוביץ יוסף צבי",
+   "ctx": "רשימת יהדות התורה, מקום 113"
+  },
+  {
+   "key": "candidates|utj:114|display_name",
+   "he": "בוימל אריה צבי",
+   "ctx": "רשימת יהדות התורה, מקום 114"
+  },
+  {
+   "key": "candidates|utj:115|display_name",
+   "he": "יצחק ברטלר",
+   "ctx": "רשימת יהדות התורה, מקום 115"
+  },
+  {
+   "key": "candidates|utj:115|official_name",
+   "he": "ברטלר יצחק",
+   "ctx": "רשימת יהדות התורה, מקום 115"
+  },
+  {
+   "key": "candidates|utj:116|display_name",
+   "he": "אליעזר סורוצקין",
+   "ctx": "רשימת יהדות התורה, מקום 116"
+  },
+  {
+   "key": "candidates|utj:116|official_name",
+   "he": "סורוצקין אליעזר",
+   "ctx": "רשימת יהדות התורה, מקום 116"
+  },
+  {
+   "key": "candidates|utj:117|display_name",
+   "he": "אברהם שוורץ",
+   "ctx": "רשימת יהדות התורה, מקום 117"
+  },
+  {
+   "key": "candidates|utj:117|official_name",
+   "he": "שוורץ אברהם",
+   "ctx": "רשימת יהדות התורה, מקום 117"
+  },
+  {
+   "key": "candidates|utj:118|display_name",
+   "he": "מקלב ישראל מאיר אורי",
+   "ctx": "רשימת יהדות התורה, מקום 118"
+  },
+  {
+   "key": "candidates|utj:119|display_name",
+   "he": "חנוך זייברט",
+   "ctx": "רשימת יהדות התורה, מקום 119"
+  },
+  {
+   "key": "candidates|utj:119|official_name",
+   "he": "זייברט חנוך",
+   "ctx": "רשימת יהדות התורה, מקום 119"
+  },
+  {
+   "key": "candidates|utj:120|display_name",
+   "he": "גפני משה רפאל",
+   "ctx": "רשימת יהדות התורה, מקום 120, חבר/ת הכנסת מכהן/ת — משה רפאל גפני הוא חבר כנסת המשמש יושב ראש תנועת דגל התורה הארצית. בעבר"
+  },
+  {
+   "key": "candidates|womens-voice:1|display_name",
+   "he": "ישראל שדמי עמיר",
+   "ctx": "רשימת קול הנשים, מקום 1"
+  },
+  {
+   "key": "candidates|womens-voice:2|display_name",
+   "he": "אמה בוהדנה",
+   "ctx": "רשימת קול הנשים, מקום 2"
+  },
+  {
+   "key": "candidates|womens-voice:2|official_name",
+   "he": "בוהדנה אמה",
+   "ctx": "רשימת קול הנשים, מקום 2"
+  },
+  {
+   "key": "candidates|womens-voice:3|display_name",
+   "he": "בן אבו טליה",
+   "ctx": "רשימת קול הנשים, מקום 3"
+  },
+  {
+   "key": "candidates|womens-voice:4|display_name",
+   "he": "גדי רוזנר",
+   "ctx": "רשימת קול הנשים, מקום 4"
+  },
+  {
+   "key": "candidates|womens-voice:4|official_name",
+   "he": "רוזנר גדי",
+   "ctx": "רשימת קול הנשים, מקום 4"
+  },
+  {
+   "key": "candidates|womens-voice:5|display_name",
+   "he": "זהבית עכו",
+   "ctx": "רשימת קול הנשים, מקום 5"
+  },
+  {
+   "key": "candidates|womens-voice:5|official_name",
+   "he": "עכו זהבית",
+   "ctx": "רשימת קול הנשים, מקום 5"
+  },
+  {
+   "key": "candidates|womens-voice:6|display_name",
+   "he": "אבקסיס אמיר שלמה",
+   "ctx": "רשימת קול הנשים, מקום 6"
+  },
+  {
+   "key": "candidates|womens-voice:7|display_name",
+   "he": "שמואל קהימקר",
+   "ctx": "רשימת קול הנשים, מקום 7"
+  },
+  {
+   "key": "candidates|womens-voice:7|official_name",
+   "he": "קהימקר שמואל",
+   "ctx": "רשימת קול הנשים, מקום 7"
+  },
+  {
+   "key": "candidates|womens-voice:8|display_name",
+   "he": "כץ מיכאל נפתלי",
+   "ctx": "רשימת קול הנשים, מקום 8"
+  },
+  {
+   "key": "candidates|womens-voice:9|display_name",
+   "he": "ערן שלם",
+   "ctx": "רשימת קול הנשים, מקום 9"
+  },
+  {
+   "key": "candidates|womens-voice:9|official_name",
+   "he": "שלם ערן",
+   "ctx": "רשימת קול הנשים, מקום 9"
+  },
+  {
+   "key": "candidates|womens-voice:10|display_name",
+   "he": "בוהדנה נדב יצחק",
+   "ctx": "רשימת קול הנשים, מקום 10"
+  },
+  {
+   "key": "candidates|womens-voice:11|display_name",
+   "he": "בוהדנה ניר מבורך שלומי",
+   "ctx": "רשימת קול הנשים, מקום 11"
+  },
+  {
+   "key": "candidates|womens-voice:12|display_name",
+   "he": "שירן אמסלם",
+   "ctx": "רשימת קול הנשים, מקום 12"
+  },
+  {
+   "key": "candidates|womens-voice:12|official_name",
+   "he": "אמסלם שירן",
+   "ctx": "רשימת קול הנשים, מקום 12"
+  },
+  {
+   "key": "candidates|womens-voice:13|display_name",
+   "he": "עידן בוהדנה",
+   "ctx": "רשימת קול הנשים, מקום 13"
+  },
+  {
+   "key": "candidates|womens-voice:13|official_name",
+   "he": "בוהדנה עידן",
+   "ctx": "רשימת קול הנשים, מקום 13"
+  },
+  {
+   "key": "candidates|womens-voice:14|display_name",
+   "he": "אבו צמח לירון",
+   "ctx": "רשימת קול הנשים, מקום 14"
+  },
+  {
+   "key": "candidates|womens-voice:15|display_name",
+   "he": "לזר בוהדנה מורן",
+   "ctx": "רשימת קול הנשים, מקום 15"
+  },
+  {
+   "key": "candidates|yashar:1|display_name",
+   "he": "גדי איזנקוט",
+   "ctx": "רשימת ישר!, מקום 1 — גד איזנקוט הוא איש צבא בדימוס ופוליטיקאי ישראלי המכהן כיושב ראש מפלגת "
+  },
+  {
+   "key": "candidates|yashar:1|official_name",
+   "he": "אינזקוט גדי",
+   "ctx": "רשימת ישר!, מקום 1 — גד איזנקוט הוא איש צבא בדימוס ופוליטיקאי ישראלי המכהן כיושב ראש מפלגת "
+  },
+  {
+   "key": "candidates|yashar:2|display_name",
+   "he": "יורם כהן",
+   "ctx": "רשימת ישר!, מקום 2 — יורם כהן הוא איש שירות הביטחון הכללי לשעבר שכיהן מ-15 במאי 2011 עד 8 ב"
+  },
+  {
+   "key": "candidates|yashar:2|official_name",
+   "he": "כהן יורם",
+   "ctx": "רשימת ישר!, מקום 2 — יורם כהן הוא איש שירות הביטחון הכללי לשעבר שכיהן מ-15 במאי 2011 עד 8 ב"
+  },
+  {
+   "key": "candidates|yashar:3|display_name",
+   "he": "אורית פרקש-הכהן",
+   "ctx": "רשימת ישר!, מקום 3 — אורית פרקש-הכהן היא חברת כנסת, חברת ועדת הכספים ויו\"ר הוועדה לענייני ב"
+  },
+  {
+   "key": "candidates|yashar:3|official_name",
+   "he": "פרקש-הכהן אורית",
+   "ctx": "רשימת ישר!, מקום 3 — אורית פרקש-הכהן היא חברת כנסת, חברת ועדת הכספים ויו\"ר הוועדה לענייני ב"
+  },
+  {
+   "key": "candidates|yashar:4|display_name",
+   "he": "עדי אלטשולר",
+   "ctx": "רשימת ישר!, מקום 4 — עדי אלטשולר היא אשת חינוך ויזמת חברתית ישראלית; כלת פרס ישראל למנהיגות"
+  },
+  {
+   "key": "candidates|yashar:4|official_name",
+   "he": "אלטשולר עדי",
+   "ctx": "רשימת ישר!, מקום 4 — עדי אלטשולר היא אשת חינוך ויזמת חברתית ישראלית; כלת פרס ישראל למנהיגות"
+  },
+  {
+   "key": "candidates|yashar:5|display_name",
+   "he": "מתן כהנא",
+   "ctx": "רשימת ישר!, מקום 5 — מתן כהנא הוא פוליטיקאי ישראלי, שבעבר כיהן כשר לשירותי דת וכחבר הכנסת. "
+  },
+  {
+   "key": "candidates|yashar:5|official_name",
+   "he": "כהנא מתן",
+   "ctx": "רשימת ישר!, מקום 5 — מתן כהנא הוא פוליטיקאי ישראלי, שבעבר כיהן כשר לשירותי דת וכחבר הכנסת. "
+  },
+  {
+   "key": "candidates|yashar:6|display_name",
+   "he": "חילי טרופר",
+   "ctx": "רשימת ישר!, מקום 6 — יחיאל משה טרופר הוא חבר הכנסת מטעם המחנה הממלכתי. בעבר כיהן כשר התרבות"
+  },
+  {
+   "key": "candidates|yashar:6|official_name",
+   "he": "טרופר יחיאל משה",
+   "ctx": "רשימת ישר!, מקום 6 — יחיאל משה טרופר הוא חבר הכנסת מטעם המחנה הממלכתי. בעבר כיהן כשר התרבות"
+  },
+  {
+   "key": "candidates|yashar:7|display_name",
+   "he": "שאול מרידור",
+   "ctx": "רשימת ישר!, מקום 7 — שאול מרידור הוא סמנכ\"ל כספים בחברת לייטריקס. כיהן כראש אגף התקציבים במ"
+  },
+  {
+   "key": "candidates|yashar:7|official_name",
+   "he": "מרידור שאול",
+   "ctx": "רשימת ישר!, מקום 7 — שאול מרידור הוא סמנכ\"ל כספים בחברת לייטריקס. כיהן כראש אגף התקציבים במ"
+  },
+  {
+   "key": "candidates|yashar:8|display_name",
+   "he": "תאיר איפרגן",
+   "ctx": "רשימת ישר!, מקום 8 — תאיר איפרגן שימשה מנכ\"לית משרד העבודה בפועל. לפני כן הייתה מנכ\"לית זרו"
+  },
+  {
+   "key": "candidates|yashar:8|official_name",
+   "he": "איפרגן תאיר",
+   "ctx": "רשימת ישר!, מקום 8 — תאיר איפרגן שימשה מנכ\"לית משרד העבודה בפועל. לפני כן הייתה מנכ\"לית זרו"
+  },
+  {
+   "key": "candidates|yashar:9|display_name",
+   "he": "אושרת גני גונן",
+   "ctx": "רשימת ישר!, מקום 9 — אושרת גני גונן היא ראש המועצה האזורית דרום השרון. בעבר שימשה מנכ\"לית ע"
+  },
+  {
+   "key": "candidates|yashar:9|official_name",
+   "he": "גני גולן אושרת",
+   "ctx": "רשימת ישר!, מקום 9 — אושרת גני גונן היא ראש המועצה האזורית דרום השרון. בעבר שימשה מנכ\"לית ע"
+  },
+  {
+   "key": "candidates|yashar:10|display_name",
+   "he": "שירה שפירא",
+   "ctx": "רשימת ישר!, מקום 10"
+  },
+  {
+   "key": "candidates|yashar:10|official_name",
+   "he": "שפירא שירה",
+   "ctx": "רשימת ישר!, מקום 10"
+  },
+  {
+   "key": "candidates|yashar:11|display_name",
+   "he": "ענבר הרוש גיטי",
+   "ctx": "רשימת ישר!, מקום 11"
+  },
+  {
+   "key": "candidates|yashar:11|official_name",
+   "he": "הרוש גיטי ענבל",
+   "ctx": "רשימת ישר!, מקום 11"
+  },
+  {
+   "key": "candidates|yashar:12|display_name",
+   "he": "אלעזר שטרן",
+   "ctx": "רשימת ישר!, מקום 12 — אלעזר שטרן הוא שר המודיעין וחבר הכנסת לשעבר, מטעם מפלגות התנועה, כחול "
+  },
+  {
+   "key": "candidates|yashar:12|official_name",
+   "he": "שטרן אלעזר",
+   "ctx": "רשימת ישר!, מקום 12 — אלעזר שטרן הוא שר המודיעין וחבר הכנסת לשעבר, מטעם מפלגות התנועה, כחול "
+  },
+  {
+   "key": "candidates|yashar:13|display_name",
+   "he": "כמיל אבו רוקון",
+   "ctx": "רשימת ישר!, מקום 13 — כמיל אבו רוקון הוא קצין בצה\"ל בדימוס בדרגת אלוף. כיהן כמתאם פעולות הממ"
+  },
+  {
+   "key": "candidates|yashar:13|official_name",
+   "he": "אבו רוקן כמיל",
+   "ctx": "רשימת ישר!, מקום 13 — כמיל אבו רוקון הוא קצין בצה\"ל בדימוס בדרגת אלוף. כיהן כמתאם פעולות הממ"
+  },
+  {
+   "key": "candidates|yashar:14|display_name",
+   "he": "דבורה שריפיאן בכר",
+   "ctx": "רשימת ישר!, מקום 14"
+  },
+  {
+   "key": "candidates|yashar:14|official_name",
+   "he": "בכר דבורה",
+   "ctx": "רשימת ישר!, מקום 14"
+  },
+  {
+   "key": "candidates|yashar:15|display_name",
+   "he": "אלקס ריף",
+   "ctx": "רשימת ישר!, מקום 15 — אלקס ריף היא משוררת, סופרת, יזמית ופעילה חברתית ישראלית. ספר שיריה \"טפ"
+  },
+  {
+   "key": "candidates|yashar:16|display_name",
+   "he": "ענבר יחזקאלי בליליוס",
+   "ctx": "רשימת ישר!, מקום 16"
+  },
+  {
+   "key": "candidates|yashar:16|official_name",
+   "he": "יחזקאלי בליליוס ענבר",
+   "ctx": "רשימת ישר!, מקום 16"
+  },
+  {
+   "key": "candidates|yashar:17|display_name",
+   "he": "רועי פולקמן",
+   "ctx": "רשימת ישר!, מקום 17 — רועי שמואל פולקמן הוא מנהל ופוליטיקאי ישראלי, כיהן כחבר כנסת בכנסות ה-"
+  },
+  {
+   "key": "candidates|yashar:17|official_name",
+   "he": "פולקמן רועי שמואל",
+   "ctx": "רשימת ישר!, מקום 17 — רועי שמואל פולקמן הוא מנהל ופוליטיקאי ישראלי, כיהן כחבר כנסת בכנסות ה-"
+  },
+  {
+   "key": "candidates|yashar:18|display_name",
+   "he": "ישראל זרי",
+   "ctx": "רשימת ישר!, מקום 18 — ישראל זרי הוא פעיל חברתי ואיש ציבור ישראלי המכהן נכון ל-2026, כסגן ראש"
+  },
+  {
+   "key": "candidates|yashar:18|official_name",
+   "he": "זרי ישראל",
+   "ctx": "רשימת ישר!, מקום 18 — ישראל זרי הוא פעיל חברתי ואיש ציבור ישראלי המכהן נכון ל-2026, כסגן ראש"
+  },
+  {
+   "key": "candidates|yashar:19|display_name",
+   "he": "טל אוחנה",
+   "ctx": "רשימת ישר!, מקום 19 — טל אוחנה היא ראש מועצת ירוחם לשעבר. כלת פרס רפפורט לנשים פורצות דרך."
+  }
+ ]
+}

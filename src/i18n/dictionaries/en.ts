@@ -1,0 +1,52 @@
+import type { Dictionary } from "./he";
+
+export const en: Dictionary = {
+  meta: {
+    title: "Who to Vote For? · Elections 2026",
+    titleTemplate: "%s · Who to Vote For?",
+    description: "Every party and every candidate for the 26th Knesset in one place: who is on the list, in which spot, what they say — with sources.",
+  },
+  ui: {
+    brand: "Who to Vote For?",
+    homeAria: "Who to Vote For? — home page",
+    blurb: "An independent, non-partisan site. Data from the Central Elections Committee, the Knesset and Wikipedia.",
+    viewsAria: "Views",
+    moreAria: "More",
+    searchShort: "Find a candidate",
+    searchLong: "Search a candidate by name",
+    searchAria: "Search a candidate by name",
+    searchBtn: "Search",
+    nfTitle: "This slip is not in the ballot box",
+    nfBody: "We could not find the page you were looking for.",
+    nfCta: "All parties",
+    language: "Language",
+  },
+  nav: {
+    home: "Overview",
+    topics: "Topics",
+    map: "Position map",
+    people: "Party leaders",
+    lists: "Parties",
+    vote: "How to vote",
+    about: "Sources and method",
+    resources: "Official links",
+    contact: "Contact",
+  },
+  topics: {
+    security: "Security",
+    economy: "Economy",
+    religion_state: "Religion",
+    judiciary: "Justice",
+    housing: "Housing",
+    education: "Education",
+    welfare_health: "Welfare",
+    governance: "Governance",
+  },
+  sourceTypes: {
+    platform: "Official platform",
+    party_site: "Party website",
+    official_statement: "Official statement",
+    interview: "Interview",
+    news_report: "News report",
+  },
+};

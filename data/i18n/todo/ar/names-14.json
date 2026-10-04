@@ -1,0 +1,759 @@
+{
+ "locale": "ar",
+ "series": "names",
+ "target_language": "Arabic",
+ "source_language": "Hebrew",
+ "instructions": "Each item is a Hebrew NAME (person, party or list). Write how that name is conventionally written in Arabic (Arabic). Examples: بنيامين نتنياهو، يائير لبيد، الليكود، يش عتيد. Use the established Arabic spelling (Arabic Wikipedia, Al-Jazeera, Arab-Israeli media) for known figures and parties; otherwise a standard transliteration. Arabic letters only, no diacritics (tashkeel) unless needed. \"ctx\" is context to identify the person or party (list, slot, MK status, start of bio): use it, do not translate it. Names are given either in natural order or surname-first (official form like \"כהן יוסי\"): always output the natural given-name-first order. Party and list names: use the established Arabic name of the party if there is one, otherwise translate the meaning (e.g. \"הציונות הדתית\" = Religious Zionism) rather than transliterate. Keep ballot-letter acronyms as they are written. Output: for every item return {\"key\": <same key>, \"value\": <your translation>}. Return ONLY a JSON array (or {\"items\":[...]}) with one entry per input item, same keys, no omissions, no extra commentary. Value must be non-empty and written in the target script; never leave Hebrew letters in it. Preserve numbers, placeholders and punctuation meaning. Save the result as data/i18n/done/<locale>/<same file name>.",
+ "items": [
+  {
+   "key": "candidates|together:100|display_name",
+   "he": "תומר הראל",
+   "ctx": "רשימת ביחד, מקום 100"
+  },
+  {
+   "key": "candidates|together:100|official_name",
+   "he": "הראל תומר",
+   "ctx": "רשימת ביחד, מקום 100"
+  },
+  {
+   "key": "candidates|together:101|display_name",
+   "he": "סימה כחלון",
+   "ctx": "רשימת ביחד, מקום 101"
+  },
+  {
+   "key": "candidates|together:101|official_name",
+   "he": "כחלון סימה",
+   "ctx": "רשימת ביחד, מקום 101"
+  },
+  {
+   "key": "candidates|together:102|display_name",
+   "he": "רחל גבע",
+   "ctx": "רשימת ביחד, מקום 102"
+  },
+  {
+   "key": "candidates|together:102|official_name",
+   "he": "גבע רחל",
+   "ctx": "רשימת ביחד, מקום 102"
+  },
+  {
+   "key": "candidates|together:103|display_name",
+   "he": "נגה גולן",
+   "ctx": "רשימת ביחד, מקום 103"
+  },
+  {
+   "key": "candidates|together:103|official_name",
+   "he": "גולן נגה",
+   "ctx": "רשימת ביחד, מקום 103"
+  },
+  {
+   "key": "candidates|together:104|display_name",
+   "he": "אסתר כהן",
+   "ctx": "רשימת ביחד, מקום 104"
+  },
+  {
+   "key": "candidates|together:104|official_name",
+   "he": "כהן אסתר",
+   "ctx": "רשימת ביחד, מקום 104"
+  },
+  {
+   "key": "candidates|together:105|display_name",
+   "he": "מוזס יוכבד אבגיל",
+   "ctx": "רשימת ביחד, מקום 105"
+  },
+  {
+   "key": "candidates|together:106|display_name",
+   "he": "נורית טופז",
+   "ctx": "רשימת ביחד, מקום 106"
+  },
+  {
+   "key": "candidates|together:106|official_name",
+   "he": "טופז נורית",
+   "ctx": "רשימת ביחד, מקום 106"
+  },
+  {
+   "key": "candidates|together:107|display_name",
+   "he": "כהן אוריאן לי",
+   "ctx": "רשימת ביחד, מקום 107"
+  },
+  {
+   "key": "candidates|together:108|display_name",
+   "he": "אילן פוקסמן",
+   "ctx": "רשימת ביחד, מקום 108"
+  },
+  {
+   "key": "candidates|together:108|official_name",
+   "he": "פוקסמן אילן",
+   "ctx": "רשימת ביחד, מקום 108"
+  },
+  {
+   "key": "candidates|together:109|display_name",
+   "he": "יצחק אפריאט",
+   "ctx": "רשימת ביחד, מקום 109"
+  },
+  {
+   "key": "candidates|together:109|official_name",
+   "he": "אפריאט יצחק",
+   "ctx": "רשימת ביחד, מקום 109"
+  },
+  {
+   "key": "candidates|together:110|display_name",
+   "he": "נטע בוחבוט",
+   "ctx": "רשימת ביחד, מקום 110"
+  },
+  {
+   "key": "candidates|together:110|official_name",
+   "he": "בוחבוט נטע",
+   "ctx": "רשימת ביחד, מקום 110"
+  },
+  {
+   "key": "candidates|together:111|display_name",
+   "he": "וונגר מייקלסון מור",
+   "ctx": "רשימת ביחד, מקום 111"
+  },
+  {
+   "key": "candidates|together:112|display_name",
+   "he": "גור כהן דלית",
+   "ctx": "רשימת ביחד, מקום 112"
+  },
+  {
+   "key": "candidates|together:113|display_name",
+   "he": "גיורא לוי",
+   "ctx": "רשימת ביחד, מקום 113"
+  },
+  {
+   "key": "candidates|together:113|official_name",
+   "he": "לוי גיורא",
+   "ctx": "רשימת ביחד, מקום 113"
+  },
+  {
+   "key": "candidates|together:114|display_name",
+   "he": "אביטל טבצ'ניק",
+   "ctx": "רשימת ביחד, מקום 114"
+  },
+  {
+   "key": "candidates|together:114|official_name",
+   "he": "טבצ'ניק אביטל",
+   "ctx": "רשימת ביחד, מקום 114"
+  },
+  {
+   "key": "candidates|together:115|display_name",
+   "he": "עופר אוגש",
+   "ctx": "רשימת ביחד, מקום 115"
+  },
+  {
+   "key": "candidates|together:115|official_name",
+   "he": "אוגש עופר",
+   "ctx": "רשימת ביחד, מקום 115"
+  },
+  {
+   "key": "candidates|together:116|display_name",
+   "he": "סיגל שחר",
+   "ctx": "רשימת ביחד, מקום 116"
+  },
+  {
+   "key": "candidates|together:116|official_name",
+   "he": "שחר סיגל",
+   "ctx": "רשימת ביחד, מקום 116"
+  },
+  {
+   "key": "candidates|together:117|display_name",
+   "he": "זיו ביטון",
+   "ctx": "רשימת ביחד, מקום 117"
+  },
+  {
+   "key": "candidates|together:117|official_name",
+   "he": "ביטון זיו",
+   "ctx": "רשימת ביחד, מקום 117"
+  },
+  {
+   "key": "candidates|together:118|display_name",
+   "he": "אנטולי בראל",
+   "ctx": "רשימת ביחד, מקום 118"
+  },
+  {
+   "key": "candidates|together:118|official_name",
+   "he": "בראל אנטולי",
+   "ctx": "רשימת ביחד, מקום 118"
+  },
+  {
+   "key": "candidates|together:119|display_name",
+   "he": "דבורה ויינשטיין",
+   "ctx": "רשימת ביחד, מקום 119"
+  },
+  {
+   "key": "candidates|together:119|official_name",
+   "he": "ויינשטיין דבורה",
+   "ctx": "רשימת ביחד, מקום 119"
+  },
+  {
+   "key": "candidates|together:120|display_name",
+   "he": "רוני סומק",
+   "ctx": "רשימת ביחד, מקום 120"
+  },
+  {
+   "key": "candidates|together:120|official_name",
+   "he": "סומק רוני",
+   "ctx": "רשימת ביחד, מקום 120"
+  },
+  {
+   "key": "candidates|tzomet-beit-israel:1|display_name",
+   "he": "דסטה יברקן",
+   "ctx": "רשימת צומת בית ישראל, מקום 1 — דסטה יברקן הוא פוליטיקאי ישראלי שכיהן כחבר הכנסת מטעם מפלגת הליכוד ולפ"
+  },
+  {
+   "key": "candidates|tzomet-beit-israel:1|official_name",
+   "he": "יברקן דסטה",
+   "ctx": "רשימת צומת בית ישראל, מקום 1 — דסטה יברקן הוא פוליטיקאי ישראלי שכיהן כחבר הכנסת מטעם מפלגת הליכוד ולפ"
+  },
+  {
+   "key": "candidates|tzomet-beit-israel:2|display_name",
+   "he": "משה גרין",
+   "ctx": "רשימת צומת בית ישראל, מקום 2"
+  },
+  {
+   "key": "candidates|tzomet-beit-israel:2|official_name",
+   "he": "גרין משה",
+   "ctx": "רשימת צומת בית ישראל, מקום 2"
+  },
+  {
+   "key": "candidates|tzomet-beit-israel:3|display_name",
+   "he": "יניב אשטמקר",
+   "ctx": "רשימת צומת בית ישראל, מקום 3"
+  },
+  {
+   "key": "candidates|tzomet-beit-israel:3|official_name",
+   "he": "אשטמקר יניב",
+   "ctx": "רשימת צומת בית ישראל, מקום 3"
+  },
+  {
+   "key": "candidates|tzomet-beit-israel:4|display_name",
+   "he": "דויטש רם טופז",
+   "ctx": "רשימת צומת בית ישראל, מקום 4"
+  },
+  {
+   "key": "candidates|tzomet-beit-israel:5|display_name",
+   "he": "אלעזר טקלה תמיר",
+   "ctx": "רשימת צומת בית ישראל, מקום 5"
+  },
+  {
+   "key": "candidates|tzomet-beit-israel:6|display_name",
+   "he": "אלימלך ניצן ניסן",
+   "ctx": "רשימת צומת בית ישראל, מקום 6"
+  },
+  {
+   "key": "candidates|tzomet-beit-israel:7|display_name",
+   "he": "כהנא אפרים יובל",
+   "ctx": "רשימת צומת בית ישראל, מקום 7"
+  },
+  {
+   "key": "candidates|tzomet-beit-israel:8|display_name",
+   "he": "אינס אליאס",
+   "ctx": "רשימת צומת בית ישראל, מקום 8"
+  },
+  {
+   "key": "candidates|tzomet-beit-israel:8|official_name",
+   "he": "אליאס אינס",
+   "ctx": "רשימת צומת בית ישראל, מקום 8"
+  },
+  {
+   "key": "candidates|tzomet-beit-israel:9|display_name",
+   "he": "אסממאו בלאי",
+   "ctx": "רשימת צומת בית ישראל, מקום 9"
+  },
+  {
+   "key": "candidates|tzomet-beit-israel:9|official_name",
+   "he": "בלאי אסממאו",
+   "ctx": "רשימת צומת בית ישראל, מקום 9"
+  },
+  {
+   "key": "candidates|tzomet-beit-israel:10|display_name",
+   "he": "דוד לינד",
+   "ctx": "רשימת צומת בית ישראל, מקום 10"
+  },
+  {
+   "key": "candidates|tzomet-beit-israel:10|official_name",
+   "he": "לינד דוד",
+   "ctx": "רשימת צומת בית ישראל, מקום 10"
+  },
+  {
+   "key": "candidates|tzomet-beit-israel:11|display_name",
+   "he": "אבי קוה",
+   "ctx": "רשימת צומת בית ישראל, מקום 11"
+  },
+  {
+   "key": "candidates|tzomet-beit-israel:11|official_name",
+   "he": "קוה אבי",
+   "ctx": "רשימת צומת בית ישראל, מקום 11"
+  },
+  {
+   "key": "candidates|tzomet-beit-israel:12|display_name",
+   "he": "גיא רייף",
+   "ctx": "רשימת צומת בית ישראל, מקום 12"
+  },
+  {
+   "key": "candidates|tzomet-beit-israel:12|official_name",
+   "he": "רייף גיא",
+   "ctx": "רשימת צומת בית ישראל, מקום 12"
+  },
+  {
+   "key": "candidates|utj:1|display_name",
+   "he": "יעקב אשר",
+   "ctx": "רשימת יהדות התורה, מקום 1, חבר/ת הכנסת מכהן/ת — יעקב אשר הוא יושב ראש מפלגת דגל התורה וחבר כנסת מטעמה בסיעת יהדות התור"
+  },
+  {
+   "key": "candidates|utj:1|official_name",
+   "he": "אשר יעקב",
+   "ctx": "רשימת יהדות התורה, מקום 1, חבר/ת הכנסת מכהן/ת — יעקב אשר הוא יושב ראש מפלגת דגל התורה וחבר כנסת מטעמה בסיעת יהדות התור"
+  },
+  {
+   "key": "candidates|utj:2|display_name",
+   "he": "יצחק גולדקנופף",
+   "ctx": "רשימת יהדות התורה, מקום 2, חבר/ת הכנסת מכהן/ת — יצחק יששכר גולדקנופף הוא פוליטיקאי ישראלי, שכיהן כשר הבינוי והשיכון, ע"
+  },
+  {
+   "key": "candidates|utj:2|official_name",
+   "he": "גולדקנופ יצחק יששכר",
+   "ctx": "רשימת יהדות התורה, מקום 2, חבר/ת הכנסת מכהן/ת — יצחק יששכר גולדקנופף הוא פוליטיקאי ישראלי, שכיהן כשר הבינוי והשיכון, ע"
+  },
+  {
+   "key": "candidates|utj:3|display_name",
+   "he": "יצחק פינדרוס",
+   "ctx": "רשימת יהדות התורה, מקום 3 — יצחק זאב פינדרוס הוא חבר הכנסת מטעם מפלגת דגל התורה בסיעת יהדות התורה."
+  },
+  {
+   "key": "candidates|utj:3|official_name",
+   "he": "יצחק זאב פינדרוס",
+   "ctx": "רשימת יהדות התורה, מקום 3 — יצחק זאב פינדרוס הוא חבר הכנסת מטעם מפלגת דגל התורה בסיעת יהדות התורה."
+  },
+  {
+   "key": "candidates|utj:4|display_name",
+   "he": "מאיר פרוש",
+   "ctx": "רשימת יהדות התורה, מקום 4, חבר/ת הכנסת מכהן/ת — מאיר פרוש הוא חבר הכנסת מטעם מפלגת אגודת ישראל בסיעת יהדות התורה, ויו\""
+  },
+  {
+   "key": "candidates|utj:4|official_name",
+   "he": "פרוש מאיר",
+   "ctx": "רשימת יהדות התורה, מקום 4, חבר/ת הכנסת מכהן/ת — מאיר פרוש הוא חבר הכנסת מטעם מפלגת אגודת ישראל בסיעת יהדות התורה, ויו\""
+  },
+  {
+   "key": "candidates|utj:5|display_name",
+   "he": "משה רוזנטל",
+   "ctx": "רשימת יהדות התורה, מקום 5"
+  },
+  {
+   "key": "candidates|utj:5|official_name",
+   "he": "רוזנטל משה עזריאל",
+   "ctx": "רשימת יהדות התורה, מקום 5"
+  },
+  {
+   "key": "candidates|utj:6|display_name",
+   "he": "אליקים שטארק",
+   "ctx": "רשימת יהדות התורה, מקום 6"
+  },
+  {
+   "key": "candidates|utj:6|official_name",
+   "he": "שטארק אלי",
+   "ctx": "רשימת יהדות התורה, מקום 6"
+  },
+  {
+   "key": "candidates|utj:7|display_name",
+   "he": "יהודה וייספיש",
+   "ctx": "רשימת יהדות התורה, מקום 7 — יהודה לייב וייספיש הוא עסקן ויזם חינוכי חרדי ישראלי, מייסד ארגון איחוד"
+  },
+  {
+   "key": "candidates|utj:7|official_name",
+   "he": "וויסיפיש יהודה לייב",
+   "ctx": "רשימת יהדות התורה, מקום 7 — יהודה לייב וייספיש הוא עסקן ויזם חינוכי חרדי ישראלי, מייסד ארגון איחוד"
+  },
+  {
+   "key": "candidates|utj:8|display_name",
+   "he": "יעקב טסלר",
+   "ctx": "רשימת יהדות התורה, מקום 8 — יואל יעקב טסלר הוא פוליטיקאי ישראליחרדי, חבר הכנסת מטעם מפלגת אגודת יש"
+  },
+  {
+   "key": "candidates|utj:8|official_name",
+   "he": "טסלר יואל יעקב",
+   "ctx": "רשימת יהדות התורה, מקום 8 — יואל יעקב טסלר הוא פוליטיקאי ישראליחרדי, חבר הכנסת מטעם מפלגת אגודת יש"
+  },
+  {
+   "key": "candidates|utj:9|display_name",
+   "he": "דוד זלץ",
+   "ctx": "רשימת יהדות התורה, מקום 9"
+  },
+  {
+   "key": "candidates|utj:9|official_name",
+   "he": "זלץ דוד",
+   "ctx": "רשימת יהדות התורה, מקום 9"
+  },
+  {
+   "key": "candidates|utj:10|display_name",
+   "he": "דוד אוחנה",
+   "ctx": "רשימת יהדות התורה, מקום 10"
+  },
+  {
+   "key": "candidates|utj:10|official_name",
+   "he": "אוחנה דוד",
+   "ctx": "רשימת יהדות התורה, מקום 10"
+  },
+  {
+   "key": "candidates|utj:11|display_name",
+   "he": "משה רוט",
+   "ctx": "רשימת יהדות התורה, מקום 11 — משה שמעון רוט הוא פוליטיקאי ישראלי, איש יהדות התורה, שכיהן כחבר כנסת. "
+  },
+  {
+   "key": "candidates|utj:11|official_name",
+   "he": "רוט משה",
+   "ctx": "רשימת יהדות התורה, מקום 11 — משה שמעון רוט הוא פוליטיקאי ישראלי, איש יהדות התורה, שכיהן כחבר כנסת. "
+  },
+  {
+   "key": "candidates|utj:12|display_name",
+   "he": "אליהו ברוכי",
+   "ctx": "רשימת יהדות התורה, מקום 12 — אליהו ברוכי הוא פוליטיקאי ישראלי שכיהן כחבר הכנסת מטעם מפלגת דגל התורה"
+  },
+  {
+   "key": "candidates|utj:12|official_name",
+   "he": "ברוכי אליהו",
+   "ctx": "רשימת יהדות התורה, מקום 12 — אליהו ברוכי הוא פוליטיקאי ישראלי שכיהן כחבר הכנסת מטעם מפלגת דגל התורה"
+  },
+  {
+   "key": "candidates|utj:13|display_name",
+   "he": "ישראל פרוש",
+   "ctx": "רשימת יהדות התורה, מקום 13 — ישראל פרוש הוא פוליטיקאי חרדיישראלי, יו\"ר ארגון \"מרכז מגן ומושיע\" וחבר"
+  },
+  {
+   "key": "candidates|utj:13|official_name",
+   "he": "פרוש ישראל",
+   "ctx": "רשימת יהדות התורה, מקום 13 — ישראל פרוש הוא פוליטיקאי חרדיישראלי, יו\"ר ארגון \"מרכז מגן ומושיע\" וחבר"
+  },
+  {
+   "key": "candidates|utj:14|display_name",
+   "he": "יצחק רייך",
+   "ctx": "רשימת יהדות התורה, מקום 14 — יצחק רייך הוא איש ציבור חרדי, ראש המועצה המקומית רכסים. בעבר ממלא מקום"
+  },
+  {
+   "key": "candidates|utj:14|official_name",
+   "he": "רייך יצחק",
+   "ctx": "רשימת יהדות התורה, מקום 14 — יצחק רייך הוא איש ציבור חרדי, ראש המועצה המקומית רכסים. בעבר ממלא מקום"
+  },
+  {
+   "key": "candidates|utj:15|display_name",
+   "he": "יוסף באהם",
+   "ctx": "רשימת יהדות התורה, מקום 15"
+  },
+  {
+   "key": "candidates|utj:15|official_name",
+   "he": "באהם יוסף",
+   "ctx": "רשימת יהדות התורה, מקום 15"
+  },
+  {
+   "key": "candidates|utj:16|display_name",
+   "he": "גוטרמן יעקב אשר",
+   "ctx": "רשימת יהדות התורה, מקום 16 — יעקב אשר גוטרמן הוא ראש עיריית מודיעין עילית."
+  },
+  {
+   "key": "candidates|utj:17|display_name",
+   "he": "יוסי דייטש",
+   "ctx": "רשימת יהדות התורה, מקום 17 — אהרן יוסף דייטש הוא איש ציבור ישראלי, שהיה סגן ראש עיריית ירושלים ויו\""
+  },
+  {
+   "key": "candidates|utj:17|official_name",
+   "he": "דייטש יוסי",
+   "ctx": "רשימת יהדות התורה, מקום 17 — אהרן יוסף דייטש הוא איש ציבור ישראלי, שהיה סגן ראש עיריית ירושלים ויו\""
+  },
+  {
+   "key": "candidates|utj:18|display_name",
+   "he": "שמואל גרינברג",
+   "ctx": "רשימת יהדות התורה, מקום 18 — שמואל גרינברג הוא ראש עיריית בית שמש. בעבר היה מנהל אגף החינוך החרדי ב"
+  },
+  {
+   "key": "candidates|utj:18|official_name",
+   "he": "גרינברג שמואל",
+   "ctx": "רשימת יהדות התורה, מקום 18 — שמואל גרינברג הוא ראש עיריית בית שמש. בעבר היה מנהל אגף החינוך החרדי ב"
+  },
+  {
+   "key": "candidates|utj:19|display_name",
+   "he": "ויינגרטן יחיאל אריה",
+   "ctx": "רשימת יהדות התורה, מקום 19"
+  },
+  {
+   "key": "candidates|utj:20|display_name",
+   "he": "יצחק רביץ",
+   "ctx": "רשימת יהדות התורה, מקום 20 — יצחק רביץ הוא פוליטיקאי ואיש ציבור חרדי ישראלי, ראש המועצה המקומית קרי"
+  },
+  {
+   "key": "candidates|utj:20|official_name",
+   "he": "רביץ יצחק",
+   "ctx": "רשימת יהדות התורה, מקום 20 — יצחק רביץ הוא פוליטיקאי ואיש ציבור חרדי ישראלי, ראש המועצה המקומית קרי"
+  },
+  {
+   "key": "candidates|utj:21|display_name",
+   "he": "פרץ אברמוביץ",
+   "ctx": "רשימת יהדות התורה, מקום 21"
+  },
+  {
+   "key": "candidates|utj:21|official_name",
+   "he": "אברמוביץ פרץ",
+   "ctx": "רשימת יהדות התורה, מקום 21"
+  },
+  {
+   "key": "candidates|utj:22|display_name",
+   "he": "שפירא מנחם מנדל",
+   "ctx": "רשימת יהדות התורה, מקום 22"
+  },
+  {
+   "key": "candidates|utj:23|display_name",
+   "he": "כץ חיים מאיר",
+   "ctx": "רשימת יהדות התורה, מקום 23, חבר/ת הכנסת מכהן/ת"
+  },
+  {
+   "key": "candidates|utj:24|display_name",
+   "he": "מורגנשטרן משה דוד",
+   "ctx": "רשימת יהדות התורה, מקום 24"
+  },
+  {
+   "key": "candidates|utj:25|display_name",
+   "he": "אפרים וובר",
+   "ctx": "רשימת יהדות התורה, מקום 25"
+  },
+  {
+   "key": "candidates|utj:25|official_name",
+   "he": "וובר אפרים",
+   "ctx": "רשימת יהדות התורה, מקום 25"
+  },
+  {
+   "key": "candidates|utj:26|display_name",
+   "he": "ראוכברגר אליעזר צבי",
+   "ctx": "רשימת יהדות התורה, מקום 26"
+  },
+  {
+   "key": "candidates|utj:27|display_name",
+   "he": "רושגולד אברהם צבי",
+   "ctx": "רשימת יהדות התורה, מקום 27"
+  },
+  {
+   "key": "candidates|utj:28|display_name",
+   "he": "דייטש אברהם בן ציון",
+   "ctx": "רשימת יהדות התורה, מקום 28"
+  },
+  {
+   "key": "candidates|utj:29|display_name",
+   "he": "מנחם אלבוים",
+   "ctx": "רשימת יהדות התורה, מקום 29"
+  },
+  {
+   "key": "candidates|utj:29|official_name",
+   "he": "אלבוים מנחם",
+   "ctx": "רשימת יהדות התורה, מקום 29"
+  },
+  {
+   "key": "candidates|utj:30|display_name",
+   "he": "אלפר מרדכי מיכאל",
+   "ctx": "רשימת יהדות התורה, מקום 30"
+  },
+  {
+   "key": "candidates|utj:31|display_name",
+   "he": "ויזל חיים מאיר",
+   "ctx": "רשימת יהדות התורה, מקום 31"
+  },
+  {
+   "key": "candidates|utj:32|display_name",
+   "he": "קלרמן שמעון ישראל",
+   "ctx": "רשימת יהדות התורה, מקום 32"
+  },
+  {
+   "key": "candidates|utj:33|display_name",
+   "he": "ויסמן ישעיהו יצחק",
+   "ctx": "רשימת יהדות התורה, מקום 33"
+  },
+  {
+   "key": "candidates|utj:34|display_name",
+   "he": "ישראל גולומב",
+   "ctx": "רשימת יהדות התורה, מקום 34"
+  },
+  {
+   "key": "candidates|utj:34|official_name",
+   "he": "גולומב ישראל",
+   "ctx": "רשימת יהדות התורה, מקום 34"
+  },
+  {
+   "key": "candidates|utj:35|display_name",
+   "he": "ברסלר אברהם אלכסנדר זיסקינד",
+   "ctx": "רשימת יהדות התורה, מקום 35"
+  },
+  {
+   "key": "candidates|utj:36|display_name",
+   "he": "שטרית יוסף שאול",
+   "ctx": "רשימת יהדות התורה, מקום 36"
+  },
+  {
+   "key": "candidates|utj:37|display_name",
+   "he": "בנימין הקר",
+   "ctx": "רשימת יהדות התורה, מקום 37"
+  },
+  {
+   "key": "candidates|utj:37|official_name",
+   "he": "הקר בנימין",
+   "ctx": "רשימת יהדות התורה, מקום 37"
+  },
+  {
+   "key": "candidates|utj:38|display_name",
+   "he": "בדור פנחס שלום",
+   "ctx": "רשימת יהדות התורה, מקום 38"
+  },
+  {
+   "key": "candidates|utj:39|display_name",
+   "he": "יהושע מנדל",
+   "ctx": "רשימת יהדות התורה, מקום 39"
+  },
+  {
+   "key": "candidates|utj:39|official_name",
+   "he": "מנדל יהושע",
+   "ctx": "רשימת יהדות התורה, מקום 39"
+  },
+  {
+   "key": "candidates|utj:40|display_name",
+   "he": "יהודה יברוב",
+   "ctx": "רשימת יהדות התורה, מקום 40"
+  },
+  {
+   "key": "candidates|utj:40|official_name",
+   "he": "יברוב יהודה",
+   "ctx": "רשימת יהדות התורה, מקום 40"
+  },
+  {
+   "key": "candidates|utj:41|display_name",
+   "he": "קליין נחום יחיאל",
+   "ctx": "רשימת יהדות התורה, מקום 41"
+  },
+  {
+   "key": "candidates|utj:42|display_name",
+   "he": "בלוי מרדכי זאב",
+   "ctx": "רשימת יהדות התורה, מקום 42"
+  },
+  {
+   "key": "candidates|utj:43|display_name",
+   "he": "עמרם דרינפלד",
+   "ctx": "רשימת יהדות התורה, מקום 43"
+  },
+  {
+   "key": "candidates|utj:43|official_name",
+   "he": "דרינפלד עמרם",
+   "ctx": "רשימת יהדות התורה, מקום 43"
+  },
+  {
+   "key": "candidates|utj:44|display_name",
+   "he": "סירוקה פנחס דוד",
+   "ctx": "רשימת יהדות התורה, מקום 44"
+  },
+  {
+   "key": "candidates|utj:45|display_name",
+   "he": "אהרן טירנהויז",
+   "ctx": "רשימת יהדות התורה, מקום 45"
+  },
+  {
+   "key": "candidates|utj:45|official_name",
+   "he": "טירנהויז אהרן",
+   "ctx": "רשימת יהדות התורה, מקום 45"
+  },
+  {
+   "key": "candidates|utj:46|display_name",
+   "he": "ברגר יצחק דב",
+   "ctx": "רשימת יהדות התורה, מקום 46"
+  },
+  {
+   "key": "candidates|utj:47|display_name",
+   "he": "שלמה דייטש",
+   "ctx": "רשימת יהדות התורה, מקום 47"
+  },
+  {
+   "key": "candidates|utj:47|official_name",
+   "he": "דייטש שלמה",
+   "ctx": "רשימת יהדות התורה, מקום 47"
+  },
+  {
+   "key": "candidates|utj:48|display_name",
+   "he": "מאיר יפה",
+   "ctx": "רשימת יהדות התורה, מקום 48"
+  },
+  {
+   "key": "candidates|utj:48|official_name",
+   "he": "יפה מאיר",
+   "ctx": "רשימת יהדות התורה, מקום 48"
+  },
+  {
+   "key": "candidates|utj:49|display_name",
+   "he": "לוצקין ברוך אליעזר",
+   "ctx": "רשימת יהדות התורה, מקום 49"
+  },
+  {
+   "key": "candidates|utj:50|display_name",
+   "he": "סברדלוב ישראל מאיר",
+   "ctx": "רשימת יהדות התורה, מקום 50"
+  },
+  {
+   "key": "candidates|utj:51|display_name",
+   "he": "הלל רובינשטיין",
+   "ctx": "רשימת יהדות התורה, מקום 51"
+  },
+  {
+   "key": "candidates|utj:51|official_name",
+   "he": "רובינשטיין הלל",
+   "ctx": "רשימת יהדות התורה, מקום 51"
+  },
+  {
+   "key": "candidates|utj:52|display_name",
+   "he": "שטרן אברהם פנחס",
+   "ctx": "רשימת יהדות התורה, מקום 52"
+  },
+  {
+   "key": "candidates|utj:53|display_name",
+   "he": "שמעון גולדברג",
+   "ctx": "רשימת יהדות התורה, מקום 53"
+  },
+  {
+   "key": "candidates|utj:53|official_name",
+   "he": "גולדברג שמעון",
+   "ctx": "רשימת יהדות התורה, מקום 53"
+  },
+  {
+   "key": "candidates|utj:54|display_name",
+   "he": "פולק שלמה אפרים",
+   "ctx": "רשימת יהדות התורה, מקום 54"
+  },
+  {
+   "key": "candidates|utj:55|display_name",
+   "he": "קליין יצחק אהרן",
+   "ctx": "רשימת יהדות התורה, מקום 55"
+  },
+  {
+   "key": "candidates|utj:56|display_name",
+   "he": "ברונר אליהו יוסף",
+   "ctx": "רשימת יהדות התורה, מקום 56"
+  },
+  {
+   "key": "candidates|utj:57|display_name",
+   "he": "פרנקל אברהם נחמן",
+   "ctx": "רשימת יהדות התורה, מקום 57"
+  },
+  {
+   "key": "candidates|utj:58|display_name",
+   "he": "ויזל אפרים פישל",
+   "ctx": "רשימת יהדות התורה, מקום 58"
+  },
+  {
+   "key": "candidates|utj:59|display_name",
+   "he": "מאיר שכטר",
+   "ctx": "רשימת יהדות התורה, מקום 59"
+  },
+  {
+   "key": "candidates|utj:59|official_name",
+   "he": "שכטר מאיר",
+   "ctx": "רשימת יהדות התורה, מקום 59"
+  },
+  {
+   "key": "candidates|utj:60|display_name",
+   "he": "דיסלר משה אורי",
+   "ctx": "רשימת יהדות התורה, מקום 60"
+  }
+ ]
+}

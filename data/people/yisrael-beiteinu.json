@@ -1,0 +1,146 @@
+{
+ "slug": "yisrael-beiteinu",
+ "researched_at": "2026-10-04",
+ "people": [
+  {
+   "position": 1,
+   "name": "אביגדור ליברמן",
+   "headline": "מייסד ויו\"ר ישראל ביתנו, שר הביטחון לשעבר",
+   "facts": [
+    {
+     "label": "תפקידים ציבוריים",
+     "value": "מנכ\"ל משרד ראש הממשלה 1996–1997; הקים את ישראל ביתנו ב-1999",
+     "source_url": "https://he.wikipedia.org/wiki/אביגדור_ליברמן"
+    },
+    {
+     "label": "תפקידים ציבוריים",
+     "value": "שר החוץ 2009–2012 ו-2013–2015, שר הביטחון 2016–2018, שר האוצר 2021–2022",
+     "source_url": "https://he.wikipedia.org/wiki/אביגדור_ליברמן"
+    },
+    {
+     "label": "כנסת",
+     "value": "חבר כנסת מ-1999 בהפסקות",
+     "source_url": "https://he.wikipedia.org/wiki/אביגדור_ליברמן"
+    },
+    {
+     "label": "השכלה",
+     "value": "תואר ראשון ביחסים בינלאומיים, האוניברסיטה העברית",
+     "source_url": "https://he.wikipedia.org/wiki/אביגדור_ליברמן"
+    }
+   ],
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "position": 2,
+   "name": "רפי בן שטרית",
+   "headline": "ראש עיריית בית שאן לשעבר, מחנך",
+   "facts": [
+    {
+     "label": "רקע מקצועי",
+     "value": "רכז נוער, מחנך ומנהל פנימייה; רכז צפון בבני עקיבא",
+     "source_url": "https://he.wikipedia.org/wiki/רפי_בן_שטרית"
+    },
+    {
+     "label": "תפקידים ציבוריים",
+     "value": "סגן ראש עיריית בית שאן 2003–2008, ראש העיר 2013–2018",
+     "source_url": "https://he.wikipedia.org/wiki/רפי_בן_שטרית"
+    },
+    {
+     "label": "שירות צבאי ולאומי",
+     "value": "קצין קישור במודיעין, רב-סרן במילואים",
+     "source_url": "https://he.wikipedia.org/wiki/רפי_בן_שטרית"
+    }
+   ],
+   "confidence": "medium",
+   "notes": "פירוט תפקידים אחרי 2018 לא אומת מעבר לערך אחד."
+  },
+  {
+   "position": 3,
+   "name": "טליה לנקרי",
+   "headline": "תת-אלופה במילואים, ראשת אגף עורף במועצה לביטחון לאומי",
+   "facts": [
+    {
+     "label": "שירות צבאי ולאומי",
+     "value": "שירות בצה\"ל 1989–2019, חיל השריון, דרגת תת-אלוף",
+     "source_url": "https://he.wikipedia.org/wiki/טליה_לנקרי"
+    },
+    {
+     "label": "תפקידים ציבוריים",
+     "value": "ראשת אגף העורף במטה לביטחון לאומי 2019–2022",
+     "source_url": "https://he.wikipedia.org/wiki/טליה_לנקרי"
+    },
+    {
+     "label": "תפקידים ציבוריים",
+     "value": "התמודדה על ראשות עיריית גדרה ב-2024",
+     "source_url": "https://he.wikipedia.org/wiki/טליה_לנקרי"
+    },
+    {
+     "label": "השכלה",
+     "value": "תואר ראשון בסוציולוגיה וחינוך, תארים שניים במנהל עסקים ובביטחון לאומי",
+     "source_url": "https://he.wikipedia.org/wiki/טליה_לנקרי"
+    }
+   ],
+   "confidence": "medium",
+   "notes": "מקור יחיד."
+  },
+  {
+   "position": 4,
+   "name": "עודד פורר",
+   "headline": "חבר כנסת, שר החקלאות לשעבר",
+   "facts": [
+    {
+     "label": "רקע מקצועי",
+     "value": "יועץ פוליטי ויועץ אסטרטגי; הקים חברת ייעוץ ב-2005",
+     "source_url": "https://he.wikipedia.org/wiki/עודד_פורר"
+    },
+    {
+     "label": "תפקידים ציבוריים",
+     "value": "מנכ\"ל משרד העלייה והקליטה 2013–2015; שר החקלאות ושר לפיתוח הנגב והגליל 2021–2022",
+     "source_url": "https://he.wikipedia.org/wiki/עודד_פורר"
+    },
+    {
+     "label": "כנסת",
+     "value": "חבר כנסת 2015–2021 ומ-2022",
+     "source_url": "https://he.wikipedia.org/wiki/עודד_פורר"
+    },
+    {
+     "label": "השכלה",
+     "value": "תואר ראשון במשפטים וממשל ותואר שני בתקשורת פוליטית, רייכמן",
+     "source_url": "https://he.wikipedia.org/wiki/עודד_פורר"
+    }
+   ],
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "position": 5,
+   "name": "יוליה מלינובסקי",
+   "headline": "עורכת דין, חברת כנסת",
+   "facts": [
+    {
+     "label": "רקע מקצועי",
+     "value": "שוטרת באוקראינה בתחום כוח אדם; עורכת דין",
+     "source_url": "https://he.wikipedia.org/wiki/יוליה_מלינובסקי"
+    },
+    {
+     "label": "תפקידים ציבוריים",
+     "value": "חברת מועצת העיר חולון מ-2004",
+     "source_url": "https://he.wikipedia.org/wiki/יוליה_מלינובסקי"
+    },
+    {
+     "label": "כנסת",
+     "value": "חברת כנסת 2016–2018 ומאפריל 2019",
+     "source_url": "https://he.wikipedia.org/wiki/יוליה_מלינובסקי"
+    },
+    {
+     "label": "השכלה",
+     "value": "תואר במשפטים, אוניברסיטת לוהנסק",
+     "source_url": "https://he.wikipedia.org/wiki/יוליה_מלינובסקי"
+    }
+   ],
+   "confidence": "high",
+   "notes": ""
+  }
+ ]
+}

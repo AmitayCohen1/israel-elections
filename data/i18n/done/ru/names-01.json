@@ -1,0 +1,752 @@
+[
+ {
+  "key": "lists|together|name",
+  "he": "ביחד",
+  "value": "Вместе"
+ },
+ {
+  "key": "lists|together|official_name",
+  "he": "ביחד בראשות נפתלי בנט",
+  "value": "«Вместе» во главе с Нафтали Беннетом"
+ },
+ {
+  "key": "lists|together|parties.0",
+  "he": "ביחד בראשות בנט מחזירים את התקווה",
+  "value": "«Вместе» во главе с Беннетом возвращает надежду"
+ },
+ {
+  "key": "lists|together|parties.1",
+  "he": "יש עתיד - בראשות יאיר לפיד",
+  "value": "«Еш Атид» во главе с Яиром Лапидом"
+ },
+ {
+  "key": "lists|yashar|name",
+  "he": "ישר!",
+  "value": "«Яшар!»"
+ },
+ {
+  "key": "lists|yashar|official_name",
+  "he": "ישר! עם איזנקוט לראשות הממשלה מאחדים את ישראל",
+  "value": "«Яшар!» с Айзенкотом на пост премьер-министра объединяет Израиль"
+ },
+ {
+  "key": "lists|yashar|parties.0",
+  "he": "ישר לישראל עם איזנקוט",
+  "value": "«Прямо к Израилю» с Айзенкотом"
+ },
+ {
+  "key": "lists|yashar|parties.1",
+  "he": "יסודות ישראל",
+  "value": "«Основы Израиля»"
+ },
+ {
+  "key": "lists|sharshar|name",
+  "he": "שרשר לאהבה ולאחדות העם",
+  "value": "Цепочка любви и единства народа"
+ },
+ {
+  "key": "lists|sharshar|official_name",
+  "he": "שרשר לאהבה ואחדות העם",
+  "value": "Цепочка любви и единства народа"
+ },
+ {
+  "key": "lists|partnership-for-all|name",
+  "he": "השותפות לכולם",
+  "value": "Партнёрство для всех"
+ },
+ {
+  "key": "lists|partnership-for-all|official_name",
+  "he": "השותפות לכולם",
+  "value": "Партнёрство для всех"
+ },
+ {
+  "key": "lists|pirates|name",
+  "he": "הפיראטים",
+  "value": "Пираты"
+ },
+ {
+  "key": "lists|pirates|official_name",
+  "he": "הפיראטים – צפים לטוב",
+  "value": "Пираты — плывём к добру"
+ },
+ {
+  "key": "lists|amcha-yisrael|name",
+  "he": "עמך ישראל",
+  "value": "«Амха Исраэль»"
+ },
+ {
+  "key": "lists|amcha-yisrael|official_name",
+  "he": "עמך ישראל בראשות עופר וינטר",
+  "value": "«Амха Исраэль» во главе с Офером Винтером"
+ },
+ {
+  "key": "lists|israel-first|name",
+  "he": "ישראל תחילה",
+  "value": "Израиль прежде всего"
+ },
+ {
+  "key": "lists|israel-first|official_name",
+  "he": "ישראל תחילה בראשות שרן השכל",
+  "value": "«Израиль прежде всего» во главе с Шарен Хаскель"
+ },
+ {
+  "key": "lists|gan-eden|name",
+  "he": "גן עדן",
+  "value": "Ган Эден"
+ },
+ {
+  "key": "lists|gan-eden|official_name",
+  "he": "גן עדן בראשות ישוע ישראל בן דוד",
+  "value": "«Ган Эден» во главе с Иешуа Исраэлем бен Давидом"
+ },
+ {
+  "key": "lists|womens-voice|name",
+  "he": "קול הנשים",
+  "value": "Голос женщин"
+ },
+ {
+  "key": "lists|womens-voice|official_name",
+  "he": "קול הנשים",
+  "value": "Голос женщин"
+ },
+ {
+  "key": "lists|beyachad-natzliach|name",
+  "he": "ביחד נצליח",
+  "value": "Вместе мы добьёмся успеха"
+ },
+ {
+  "key": "lists|beyachad-natzliach|official_name",
+  "he": "מפלגת ביחד נצליח – רשימה משותפת ערבית יהודית בראשות אבי שקד",
+  "value": "Партия «Вместе мы добьёмся успеха» — совместный арабо-еврейский список во главе с Ави Шакедом"
+ },
+ {
+  "key": "lists|yisrael-beiteinu|name",
+  "he": "ישראל ביתנו",
+  "value": "«Наш дом — Израиль»"
+ },
+ {
+  "key": "lists|yisrael-beiteinu|official_name",
+  "he": "ישראל ביתנו בראשות אביגדור ליברמן",
+  "value": "«Наш дом — Израиль» во главе с Авигдором Либерманом"
+ },
+ {
+  "key": "lists|mishpat-tzedek|name",
+  "he": "משפט צדק",
+  "value": "Справедливый суд"
+ },
+ {
+  "key": "lists|mishpat-tzedek|official_name",
+  "he": "משפט צדק",
+  "value": "Справедливый суд"
+ },
+ {
+  "key": "lists|shma|name",
+  "he": "שמע",
+  "value": "«Шма»"
+ },
+ {
+  "key": "lists|shma|official_name",
+  "he": "שמע בראשות נפתלי גולדמן",
+  "value": "«Шма» во главе с Нафтали Гольдманом"
+ },
+ {
+  "key": "lists|otzma-yehudit|name",
+  "he": "עוצמה יהודית",
+  "value": "«Оцма Иегудит»"
+ },
+ {
+  "key": "lists|otzma-yehudit|official_name",
+  "he": "עוצמה יהודית בראשות איתמר בן גביר",
+  "value": "«Оцма Иегудит» во главе с Итамаром Бен-Гвиром"
+ },
+ {
+  "key": "lists|otzma-yehudit|parties.0",
+  "he": "חזית יהודית לאומית (המוכרת בכינוי עוצמה יהודית).",
+  "value": "Национальный еврейский фронт (известный как «Оцма Иегудит»)."
+ },
+ {
+  "key": "lists|otzma-yehudit|parties.1",
+  "he": "ארץ ישראל שלנו – מפלגה יהודית מאוחדת לשלמות התורה העם והארץ (מפלגת מדף השייכת לעוצמה יהודית).",
+  "value": "«Наша земля Израиля» — объединённая еврейская партия за целостность Торы, народа и страны (запасная партия, принадлежащая «Оцма Иегудит»)."
+ },
+ {
+  "key": "lists|new-order|name",
+  "he": "סדר חדש",
+  "value": "Новый порядок"
+ },
+ {
+  "key": "lists|new-order|official_name",
+  "he": "סדר-חדש לכינון חוקה, להפרדת רשויות ולבחירות אישיות",
+  "value": "«Новый порядок» — за принятие конституции, разделение властей и персональные выборы"
+ },
+ {
+  "key": "lists|reservists-economic|name",
+  "he": "המילואימניקים והכלכלית",
+  "value": "Резервисты и Экономическая партия"
+ },
+ {
+  "key": "lists|reservists-economic|official_name",
+  "he": "המילואימניקים והכלכלית בראשות יועז הנדל וירון זליכה",
+  "value": "«Резервисты и Экономическая партия» во главе с Йоазом Гендлем и Яроном Зелихой"
+ },
+ {
+  "key": "lists|reservists-economic|parties.0",
+  "he": "המילואימניקים",
+  "value": "Резервисты"
+ },
+ {
+  "key": "lists|reservists-economic|parties.1",
+  "he": "הכלכלית החדשה",
+  "value": "Новая экономическая партия"
+ },
+ {
+  "key": "lists|democrats|name",
+  "he": "הדמוקרטים",
+  "value": "Демократы"
+ },
+ {
+  "key": "lists|democrats|official_name",
+  "he": "הדמוקרטים בראשות יאיר גולן",
+  "value": "«Демократы» во главе с Яиром Голаном"
+ },
+ {
+  "key": "lists|democrats|parties.0",
+  "he": "מפלגת הדמוקרטים מיסודה של תנועת העבודה",
+  "value": "Партия «Демократы», основанная на базе движения «Авода»"
+ },
+ {
+  "key": "lists|democrats|parties.1",
+  "he": "מרצ",
+  "value": "«Мерец»"
+ },
+ {
+  "key": "lists|raam|name",
+  "he": "רע\"ם",
+  "value": "«Раам»"
+ },
+ {
+  "key": "lists|raam|official_name",
+  "he": "רע\"ם – הרשימה הערבית המאוחדת",
+  "value": "«Раам» — Объединённый арабский список"
+ },
+ {
+  "key": "lists|shas|name",
+  "he": "ש\"ס",
+  "value": "ШАС"
+ },
+ {
+  "key": "lists|shas|official_name",
+  "he": "התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יוסף זצ\"ל",
+  "value": "Объединение сефардов — хранителей Торы, движение мара рава Овадии Йосефа, благословенна память праведника"
+ },
+ {
+  "key": "lists|haredi-public|name",
+  "he": "הציבור החרדי",
+  "value": "Харедимская общественность"
+ },
+ {
+  "key": "lists|haredi-public|official_name",
+  "he": "הציבור החרדי בראשות מוטי ליטנר",
+  "value": "«Харедимская общественность» во главе с Моти Литнером"
+ },
+ {
+  "key": "lists|me-and-you|name",
+  "he": "אני ואתה מפלגת העם הישראלית",
+  "value": "Я и ты — партия израильского народа"
+ },
+ {
+  "key": "lists|me-and-you|official_name",
+  "he": "אני ואתה מפלגת העם הישראלית",
+  "value": "Я и ты — партия израильского народа"
+ },
+ {
+  "key": "lists|brit-olam|name",
+  "he": "ברית עולם",
+  "value": "Вечный союз"
+ },
+ {
+  "key": "lists|brit-olam|official_name",
+  "he": "ברית עולם לגאולת ישראל",
+  "value": "«Вечный союз» за избавление Израиля"
+ },
+ {
+  "key": "lists|hatikun|name",
+  "he": "התיקון",
+  "value": "Исправление"
+ },
+ {
+  "key": "lists|hatikun|official_name",
+  "he": "התיקון לשיטת הבחירות והממשל",
+  "value": "«Исправление» избирательной системы и системы управления"
+ },
+ {
+  "key": "lists|bible-bloc|name",
+  "he": "גה\"ת-גוש התנ\"כי",
+  "value": "ГаТ — Библейский блок"
+ },
+ {
+  "key": "lists|bible-bloc|official_name",
+  "he": "גה\"ת – גוש התנ\"כי",
+  "value": "ГаТ — Библейский блок"
+ },
+ {
+  "key": "lists|betach|name",
+  "he": "בטח",
+  "value": "«Бетах»"
+ },
+ {
+  "key": "lists|betach|official_name",
+  "he": "בטח – בטחון חברתי בראשות סמיון גרפמן",
+  "value": "«Бетах» — социальная безопасность, во главе с Семёном Графманом"
+ },
+ {
+  "key": "lists|orot-hashahar|name",
+  "he": "אורות השחר",
+  "value": "Лучи рассвета"
+ },
+ {
+  "key": "lists|orot-hashahar|official_name",
+  "he": "אורות השחר בראשות ניסים לוק",
+  "value": "«Лучи рассвета» во главе с Нисимом Локом"
+ },
+ {
+  "key": "lists|personal-safety|name",
+  "he": "בטחון אישי",
+  "value": "Личная безопасность"
+ },
+ {
+  "key": "lists|personal-safety|official_name",
+  "he": "ביטחון אישי",
+  "value": "Личная безопасность"
+ },
+ {
+  "key": "lists|color-black|name",
+  "he": "צבע שחור – מגן עולם התורה",
+  "value": "Чёрный цвет — защитник мира Торы"
+ },
+ {
+  "key": "lists|color-black|official_name",
+  "he": "צבע שחור – מגן עולם התורה",
+  "value": "Чёрный цвет — защитник мира Торы"
+ },
+ {
+  "key": "lists|likud|name",
+  "he": "הליכוד",
+  "value": "«Ликуд»"
+ },
+ {
+  "key": "lists|likud|official_name",
+  "he": "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה",
+  "value": "«Ликуд» под руководством Биньямина Нетаньяху на пост премьер-министра"
+ },
+ {
+  "key": "lists|likud|parties.0",
+  "he": "הליכוד, תנועה לאומית ליברלית",
+  "value": "«Ликуд» — национальное либеральное движение"
+ },
+ {
+  "key": "lists|likud|parties.1",
+  "he": "תקווה חדשה הימין הממלכתי",
+  "value": "«Новая надежда» — государственное правое крыло"
+ },
+ {
+  "key": "lists|blue-and-white|name",
+  "he": "כחול לבן",
+  "value": "«Кахоль Лаван»"
+ },
+ {
+  "key": "lists|blue-and-white|official_name",
+  "he": "כחול לבן בראשות בני גנץ",
+  "value": "«Кахоль Лаван» во главе с Бени Ганцем"
+ },
+ {
+  "key": "lists|rzp-zehut|name",
+  "he": "הציונות הדתית וזהות",
+  "value": "Религиозный сионизм и «Зехут»"
+ },
+ {
+  "key": "lists|rzp-zehut|official_name",
+  "he": "הציונות הדתית בראשות בצלאל סמוטריץ' וזהות בראשות משה פייגלין",
+  "value": "«Религиозный сионизм» во главе с Бецалелем Смотричем и «Зехут» во главе с Моше Фейглином"
+ },
+ {
+  "key": "lists|rzp-zehut|parties.0",
+  "he": "האיחוד הלאומי–תקומה (המוכרת בכינוי הציונות הדתית).",
+  "value": "Национальный союз — «Ткума» (известный как «Религиозный сионизм»)."
+ },
+ {
+  "key": "lists|rzp-zehut|parties.1",
+  "he": "זהות",
+  "value": "«Зехут»"
+ },
+ {
+  "key": "lists|rzp-zehut|parties.2",
+  "he": "עתיד אחד – עתיד טוב לישראל (מפלגת מדף השייכת לציונות הדתית).",
+  "value": "«Одно будущее» — хорошее будущее для Израиля (запасная партия, принадлежащая «Религиозному сионизму»)."
+ },
+ {
+  "key": "lists|ahi|name",
+  "he": "אחי",
+  "value": "«Ахи»"
+ },
+ {
+  "key": "lists|ahi|official_name",
+  "he": "תנועת אחי תנועתו של הרב יורם אברג'ל זצ\"ל",
+  "value": "Движение «Ахи» — движение рава Йорама Абергеля, благословенна память праведника"
+ },
+ {
+  "key": "lists|tzomet-beit-israel|name",
+  "he": "צומת בית ישראל",
+  "value": "«Цомет — Бейт Исраэль»"
+ },
+ {
+  "key": "lists|tzomet-beit-israel|official_name",
+  "he": "צומת בית ישראל",
+  "value": "«Цомет — Бейт Исраэль»"
+ },
+ {
+  "key": "lists|tzomet-beit-israel|parties.0",
+  "he": "מפלגת צומת",
+  "value": "Партия «Цомет»"
+ },
+ {
+  "key": "lists|tzomet-beit-israel|parties.1",
+  "he": "בית ימני חברתי ציוני לכלל עם ישראל",
+  "value": "Правый социальный сионистский дом для всего народа Израиля"
+ },
+ {
+  "key": "lists|tkuma|name",
+  "he": "דרך חזון ותקומה",
+  "value": "Путь видения и возрождения"
+ },
+ {
+  "key": "lists|tkuma|official_name",
+  "he": "מפלגת דרך חזון ותקומה",
+  "value": "Партия «Путь видения и возрождения»"
+ },
+ {
+  "key": "lists|joint-list|name",
+  "he": "הרשימה המשותפת",
+  "value": "Объединённый список"
+ },
+ {
+  "key": "lists|joint-list|official_name",
+  "he": "הרשימה המשותפת",
+  "value": "Объединённый список"
+ },
+ {
+  "key": "lists|joint-list|parties.0",
+  "he": "המפלגה הקומוניסטית הישראלית",
+  "value": "Коммунистическая партия Израиля"
+ },
+ {
+  "key": "lists|joint-list|parties.1",
+  "he": "ברית לאומית דמוקרטית",
+  "value": "Национально-демократический альянс"
+ },
+ {
+  "key": "lists|joint-list|parties.2",
+  "he": "התנועה הערבית להתחדשות",
+  "value": "Арабское движение за обновление"
+ },
+ {
+  "key": "lists|hakahal|name",
+  "he": "הקהל",
+  "value": "«Ха-Кахаль»"
+ },
+ {
+  "key": "lists|hakahal|official_name",
+  "he": "הקהל – מפלגה כלל חרדית שנציגיה נבחרים על ידי הציבור בראשות הרב שלמה אלבוים",
+  "value": "«Ха-Кахаль» — общеультраортодоксальная партия, представители которой избираются общественностью, во главе с раввином Шломо Албоимом"
+ },
+ {
+  "key": "lists|utj|name",
+  "he": "יהדות התורה",
+  "value": "«Яхадут ха-Тора»"
+ },
+ {
+  "key": "lists|utj|official_name",
+  "he": "יהדות התורה והשבת אגודת ישראל – דגל התורה",
+  "value": "«Яхадут ха-Тора ве-ха-Шабат» — «Агудат Исраэль» — «Дегель ха-Тора»"
+ },
+ {
+  "key": "lists|utj|parties.0",
+  "he": "אגודת החרדים – דגל התורה.",
+  "value": "«Агудат ха-Харедим» — «Дегель ха-Тора»."
+ },
+ {
+  "key": "lists|utj|parties.1",
+  "he": "הסתדרות אגודת ישראל בארץ ישראל.",
+  "value": "Объединение «Агудат Исраэль» в Земле Израиля."
+ },
+ {
+  "key": "lists|utj|parties.2",
+  "he": "חומת תורת ישראל (שלומי אמונים וחסידות בעלז)",
+  "value": "«Хомат Торат Исраэль» («Шломей Эмунэй» и хасидизм Белз)"
+ },
+ {
+  "key": "lists|noam|name",
+  "he": "נעם",
+  "value": "«Ноам»"
+ },
+ {
+  "key": "lists|noam|official_name",
+  "he": "נעם לישראל למען עתיד הילדים בראשות אבי מעוז",
+  "value": "«Ноам» для Израиля, ради будущего детей, во главе с Ави Маозом"
+ },
+ {
+  "key": "lists|noam|parties.0",
+  "he": "לזוז (המוכרת בכינוי מפלגת נעם).",
+  "value": "«Лазуз» (известная как партия «Ноам»)."
+ },
+ {
+  "key": "lists|noam|parties.1",
+  "he": "אחריות לאומית - למען עתיד ילדינו",
+  "value": "Национальная ответственность — ради будущего наших детей"
+ },
+ {
+  "key": "candidates|ahi:1|display_name",
+  "he": "יובל אלמלך",
+  "value": "Юваль Альмелех"
+ },
+ {
+  "key": "candidates|ahi:1|official_name",
+  "he": "אלמלך יובל",
+  "value": "Юваль Альмелех"
+ },
+ {
+  "key": "candidates|ahi:2|display_name",
+  "he": "אפל ישראל אביחי",
+  "value": "Исраэль Авихай Афель"
+ },
+ {
+  "key": "candidates|ahi:3|display_name",
+  "he": "ארז ראובן",
+  "value": "Реувен Эрез"
+ },
+ {
+  "key": "candidates|ahi:3|official_name",
+  "he": "ראובן ארז",
+  "value": "Реувен Эрез"
+ },
+ {
+  "key": "candidates|ahi:4|display_name",
+  "he": "אברהם דיין",
+  "value": "Авраам Даян"
+ },
+ {
+  "key": "candidates|ahi:4|official_name",
+  "he": "דיין אברהם",
+  "value": "Авраам Даян"
+ },
+ {
+  "key": "candidates|ahi:5|display_name",
+  "he": "אדיר כהן",
+  "value": "Адир Коэн"
+ },
+ {
+  "key": "candidates|ahi:5|official_name",
+  "he": "כהן אדיר",
+  "value": "Адир Коэн"
+ },
+ {
+  "key": "candidates|ahi:6|display_name",
+  "he": "חנן יחזקאל",
+  "value": "Ханан Йехезкель"
+ },
+ {
+  "key": "candidates|ahi:6|official_name",
+  "he": "יחזקאל חנן",
+  "value": "Ханан Йехезкель"
+ },
+ {
+  "key": "candidates|ahi:7|display_name",
+  "he": "יהודה דדון",
+  "value": "Иехуда Дадон"
+ },
+ {
+  "key": "candidates|ahi:7|official_name",
+  "he": "דדון יהודה",
+  "value": "Иехуда Дадон"
+ },
+ {
+  "key": "candidates|ahi:8|display_name",
+  "he": "וודגה גרמה גד",
+  "value": "Гад Водга Герма"
+ },
+ {
+  "key": "candidates|ahi:9|display_name",
+  "he": "סויסה יצחק שניר רפאל",
+  "value": "Ицхак Шнир Рафаэль Суиса"
+ },
+ {
+  "key": "candidates|ahi:10|display_name",
+  "he": "נהרי יואל יקיר",
+  "value": "Йоэль Якир Нахари"
+ },
+ {
+  "key": "candidates|amcha-yisrael:1|display_name",
+  "he": "עופר וינטר",
+  "value": "Офер Винтер"
+ },
+ {
+  "key": "candidates|amcha-yisrael:1|official_name",
+  "he": "ווינטר עופר",
+  "value": "Офер Винтер"
+ },
+ {
+  "key": "candidates|amcha-yisrael:2|display_name",
+  "he": "יוסף חדאד",
+  "value": "Йосеф Хаддад"
+ },
+ {
+  "key": "candidates|amcha-yisrael:2|official_name",
+  "he": "חדאד יוסף",
+  "value": "Йосеф Хаддад"
+ },
+ {
+  "key": "candidates|amcha-yisrael:3|display_name",
+  "he": "נטעלי שם טוב",
+  "value": "Нетали Шем-Тов"
+ },
+ {
+  "key": "candidates|amcha-yisrael:3|official_name",
+  "he": "שם טוב נטעלי",
+  "value": "Нетали Шем-Тов"
+ },
+ {
+  "key": "candidates|amcha-yisrael:4|display_name",
+  "he": "ערן בן ארי",
+  "value": "Эран Бен-Ари"
+ },
+ {
+  "key": "candidates|amcha-yisrael:4|official_name",
+  "he": "בן ארי ערן",
+  "value": "Эран Бен-Ари"
+ },
+ {
+  "key": "candidates|amcha-yisrael:5|display_name",
+  "he": "פלר חסן-נחום",
+  "value": "Флер Хасан-Нахум"
+ },
+ {
+  "key": "candidates|amcha-yisrael:5|official_name",
+  "he": "חסן-נחום פלר",
+  "value": "Флер Хасан-Нахум"
+ },
+ {
+  "key": "candidates|amcha-yisrael:6|display_name",
+  "he": "ללי דרעי",
+  "value": "Лали Дери"
+ },
+ {
+  "key": "candidates|amcha-yisrael:6|official_name",
+  "he": "דרעי ללי",
+  "value": "Лали Дери"
+ },
+ {
+  "key": "candidates|amcha-yisrael:7|display_name",
+  "he": "רונן בודנרו",
+  "value": "Ронен Буднеро"
+ },
+ {
+  "key": "candidates|amcha-yisrael:7|official_name",
+  "he": "בודנרו רונן",
+  "value": "Ронен Буднеро"
+ },
+ {
+  "key": "candidates|amcha-yisrael:8|display_name",
+  "he": "דוד נחום בן ציון",
+  "value": "Давид Нахум Бен-Цион"
+ },
+ {
+  "key": "candidates|amcha-yisrael:8|official_name",
+  "he": "בן ציון דוד נחום",
+  "value": "Давид Нахум Бен-Цион"
+ },
+ {
+  "key": "candidates|amcha-yisrael:9|display_name",
+  "he": "אביב עזרא",
+  "value": "Авив Эзра"
+ },
+ {
+  "key": "candidates|amcha-yisrael:9|official_name",
+  "he": "עזרא אביב חיים",
+  "value": "Авив Хаим Эзра"
+ },
+ {
+  "key": "candidates|amcha-yisrael:10|display_name",
+  "he": "אלי ג'ינו",
+  "value": "Эли Джино"
+ },
+ {
+  "key": "candidates|amcha-yisrael:10|official_name",
+  "he": "ג'ינו אלי",
+  "value": "Эли Джино"
+ },
+ {
+  "key": "candidates|amcha-yisrael:11|display_name",
+  "he": "קראוניק זריפה סגלית",
+  "value": "Сигалит Зарифа Краоник"
+ },
+ {
+  "key": "candidates|amcha-yisrael:12|display_name",
+  "he": "רובין אריק מת'יו",
+  "value": "Арик Мэтью Рубин"
+ },
+ {
+  "key": "candidates|amcha-yisrael:13|display_name",
+  "he": "עלמאדין אבראהים",
+  "value": "Аламаддин Ибрахим"
+ },
+ {
+  "key": "candidates|amcha-yisrael:13|official_name",
+  "he": "אבראהים עלמאדין",
+  "value": "Аламаддин Ибрахим"
+ },
+ {
+  "key": "candidates|amcha-yisrael:14|display_name",
+  "he": "הר ציון משה",
+  "value": "Моше Хар-Цион"
+ },
+ {
+  "key": "candidates|amcha-yisrael:15|display_name",
+  "he": "חיים אידלברג לילך",
+  "value": "Лилах Хаим-Эйдельберг"
+ },
+ {
+  "key": "candidates|amcha-yisrael:16|display_name",
+  "he": "משה טולדנו",
+  "value": "Моше Толедано"
+ },
+ {
+  "key": "candidates|amcha-yisrael:16|official_name",
+  "he": "טולדנו משה",
+  "value": "Моше Толедано"
+ },
+ {
+  "key": "candidates|amcha-yisrael:17|display_name",
+  "he": "רז מלכה",
+  "value": "Раз Малка"
+ },
+ {
+  "key": "candidates|amcha-yisrael:17|official_name",
+  "he": "מלכה רז",
+  "value": "Раз Малка"
+ },
+ {
+  "key": "candidates|amcha-yisrael:18|display_name",
+  "he": "לוי דור יצחק",
+  "value": "Ицхак Дор Леви"
+ },
+ {
+  "key": "candidates|betach:1|display_name",
+  "he": "סמיון גרפמן",
+  "value": "Семён Графман"
+ },
+ {
+  "key": "candidates|betach:1|official_name",
+  "he": "גרפמן סמיון",
+  "value": "Семён Графман"
+ }
+]

@@ -1,0 +1,48 @@
+{
+  "slug": "pirates",
+  "researched_at": "2026-10-03",
+  "links": [
+    {
+      "url": "https://piratim.org/",
+      "kind": "website",
+      "title": "האתר הרשמי",
+      "owner": "list",
+      "found_via": "seed website, opened",
+      "status": "ok"
+    },
+    {
+      "url": "https://piratim.org/flag/",
+      "kind": "positions_page",
+      "title": "הדגל - קווי יסוד",
+      "owner": "list",
+      "found_via": "linked from official site nav",
+      "status": "ok"
+    },
+    {
+      "url": "https://piratim.org/wiki/matza/",
+      "kind": "platform",
+      "title": "המצע (ויקי)",
+      "owner": "list",
+      "found_via": "linked from official site nav",
+      "status": "ok"
+    },
+    {
+      "url": "https://piratim.org/elections/",
+      "kind": "press",
+      "title": "עמוד הבחירות",
+      "owner": "list",
+      "found_via": "linked from official site nav",
+      "status": "ok"
+    },
+    {
+      "url": "https://deck.piratim.org",
+      "kind": "other",
+      "title": "הסיפון (פלטפורמת המפלגה)",
+      "owner": "list",
+      "found_via": "linked from official site header",
+      "status": "ok"
+    }
+  ],
+  "unverified": [],
+  "notes": "gov.il list page returned 403 to curl; not read. Official site footer/nav has no social account links; only Instagram post/reel links (not account pages) on /elections/. Web search returned nothing useful for socials. Subdomain legacy.piratim.org exists (old site), omitted."
+}

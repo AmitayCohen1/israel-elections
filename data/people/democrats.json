@@ -1,0 +1,146 @@
+{
+ "slug": "democrats",
+ "researched_at": "2026-10-04",
+ "people": [
+  {
+   "position": 1,
+   "name": "יאיר גולן",
+   "headline": "אלוף במילואים, יושב ראש מפלגת הדמוקרטים",
+   "facts": [
+    {
+     "label": "שירות צבאי ולאומי",
+     "value": "שירות בצה\"ל 1980–2018; מפקד פיקוד הצפון 2011–2014, סגן הרמטכ\"ל 2014–2017",
+     "source_url": "https://he.wikipedia.org/wiki/יאיר_גולן"
+    },
+    {
+     "label": "השכלה",
+     "value": "תואר ראשון במדע המדינה (תל אביב), תואר שני במנהל ציבורי (הרווארד)",
+     "source_url": "https://he.wikipedia.org/wiki/יאיר_גולן"
+    },
+    {
+     "label": "כנסת",
+     "value": "חבר כנסת 2019–2022; סגן שר הכלכלה 2021–2022",
+     "source_url": "https://he.wikipedia.org/wiki/יאיר_גולן"
+    },
+    {
+     "label": "תפקידים ציבוריים",
+     "value": "יושב ראש מפלגת העבודה ממאי 2024; איחד אותה עם מרצ למפלגת הדמוקרטים",
+     "source_url": "https://he.wikipedia.org/wiki/יאיר_גולן"
+    }
+   ],
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "position": 2,
+   "name": "נעמה לזימי",
+   "headline": "חברת כנסת, חברת מועצת העיר חיפה לשעבר",
+   "facts": [
+    {
+     "label": "רקע מקצועי",
+     "value": "רכזת בעמותת קו לעובד 2012–2018, יועצת פרלמנטרית",
+     "source_url": "https://he.wikipedia.org/wiki/נעמה_לזימי"
+    },
+    {
+     "label": "תפקידים ציבוריים",
+     "value": "חברת מועצת העיר חיפה 2018–2021",
+     "source_url": "https://he.wikipedia.org/wiki/נעמה_לזימי"
+    },
+    {
+     "label": "כנסת",
+     "value": "חברת כנסת מ-2021",
+     "source_url": "https://he.wikipedia.org/wiki/נעמה_לזימי"
+    },
+    {
+     "label": "השכלה",
+     "value": "תואר ראשון במדע המדינה ותואר שני בהיסטוריה של ישראל, אוניברסיטת חיפה",
+     "source_url": "https://he.wikipedia.org/wiki/נעמה_לזימי"
+    }
+   ],
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "position": 3,
+   "name": "גלעד קריב",
+   "headline": "רב רפורמי ועורך דין, חבר כנסת מ-2021",
+   "facts": [
+    {
+     "label": "רקע מקצועי",
+     "value": "עורך דין ורב רפורמי; מנכ\"ל התנועה הרפורמית בישראל 2009–2021",
+     "source_url": "https://he.wikipedia.org/wiki/גלעד_קריב"
+    },
+    {
+     "label": "השכלה",
+     "value": "תואר במשפטים ומחשבת ישראל; הסמכה לרבנות; תואר שני במשפט ציבורי",
+     "source_url": "https://he.wikipedia.org/wiki/גלעד_קריב"
+    },
+    {
+     "label": "כנסת",
+     "value": "חבר כנסת מ-2021; יושב ראש ועדת החוקה 2021–2023",
+     "source_url": "https://he.wikipedia.org/wiki/גלעד_קריב"
+    }
+   ],
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "position": 4,
+   "name": "אפרת רייטן",
+   "headline": "שחקנית ומגישה לשעבר, עורכת דין, חברת כנסת מ-2021",
+   "facts": [
+    {
+     "label": "רקע מקצועי",
+     "value": "שחקנית ומגישת טלוויזיה 1992–2012",
+     "source_url": "https://he.wikipedia.org/wiki/אפרת_רייטן"
+    },
+    {
+     "label": "רקע מקצועי",
+     "value": "עורכת דין מ-2012, בתחום החוזים והתאגידים",
+     "source_url": "https://he.wikipedia.org/wiki/אפרת_רייטן"
+    },
+    {
+     "label": "כנסת",
+     "value": "חברת כנסת מ-2021; יושבת ראש ועדת העבודה והרווחה 2021–2022",
+     "source_url": "https://he.wikipedia.org/wiki/אפרת_רייטן"
+    },
+    {
+     "label": "השכלה",
+     "value": "תואר במשפטים, המרכז האקדמי שערי משפט (2004)",
+     "source_url": "https://he.wikipedia.org/wiki/אפרת_רייטן"
+    }
+   ],
+   "confidence": "high",
+   "notes": ""
+  },
+  {
+   "position": 5,
+   "name": "יאיא פינק",
+   "headline": "מנכ\"ל לשעבר של תנועת 'דרכנו', מייסד 'לובי 99'",
+   "facts": [
+    {
+     "label": "רקע מקצועי",
+     "value": "ראש לשכת יו\"ר העבודה שלי יחימוביץ' 2011–2013",
+     "source_url": "https://he.wikipedia.org/wiki/יאיא_פינק"
+    },
+    {
+     "label": "רקע מקצועי",
+     "value": "מייסד ומנהל 'לובי 99' 2015–2019; מנכ\"ל תנועת 'דרכנו' 2020–2022",
+     "source_url": "https://he.wikipedia.org/wiki/יאיא_פינק"
+    },
+    {
+     "label": "תפקידים ציבוריים",
+     "value": "חבר אסיפת ההסתדרות מ-2017, ראש סיעת 'צדק חברתי'",
+     "source_url": "https://he.wikipedia.org/wiki/יאיא_פינק"
+    },
+    {
+     "label": "השכלה",
+     "value": "תואר ראשון במדע המדינה ותואר שני במנהל עסקים, האוניברסיטה העברית",
+     "source_url": "https://he.wikipedia.org/wiki/יאיא_פינק"
+    }
+   ],
+   "confidence": "high",
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,16 @@
+{
+ "slug": "noam",
+ "researched_at": "2026-10-03",
+ "links": [
+  {
+   "url": "https://noamlisrael.org.il/",
+   "kind": "website",
+   "title": "האתר הרשמי (שגיאת שרת)",
+   "owner": "list",
+   "found_via": "data/sources.json notes / search results",
+   "status": "unreachable"
+  }
+ ],
+ "unverified": [],
+ "notes": "noamlisrael.org.il returns HTTP 500 (database error) at time of check; listed as unreachable per prior research and search result naming it as party website. noamparty.org.il is a parked domain (not listed). Searches for Facebook/Instagram returned only news; no social account could be confirmed. gov.il page 403."
+}

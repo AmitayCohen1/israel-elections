@@ -1,0 +1,289 @@
+{
+ "locale": "en",
+ "series": "text",
+ "target_language": "English",
+ "source_language": "Hebrew",
+ "instructions": "Each item is Hebrew prose (biography, background, platform summary, research notes). Translate faithfully into natural, neutral English (Latin). Do not add, drop or soften facts or claims. Keep every number, date and year exactly as in the source. Person, party and place names must be written as in the \"names\" convention for English. This is a non-partisan election guide: neutral register. Output: for every item return {\"key\": <same key>, \"value\": <your translation>}. Return ONLY a JSON array (or {\"items\":[...]}) with one entry per input item, same keys, no omissions, no extra commentary. Value must be non-empty and written in the target script; never leave Hebrew letters in it. Preserve numbers, placeholders and punctuation meaning. Save the result as data/i18n/done/<locale>/<same file name>.",
+ "items": [
+  {
+   "key": "people|democrats:3|facts.2.value",
+   "he": "חבר כנסת מ-2021; יושב ראש ועדת החוקה 2021–2023"
+  },
+  {
+   "key": "people|democrats:4|facts.0.value",
+   "he": "שחקנית ומגישת טלוויזיה 1992–2012"
+  },
+  {
+   "key": "people|democrats:4|facts.1.value",
+   "he": "עורכת דין מ-2012, בתחום החוזים והתאגידים"
+  },
+  {
+   "key": "people|democrats:4|facts.2.value",
+   "he": "חברת כנסת מ-2021; יושבת ראש ועדת העבודה והרווחה 2021–2022"
+  },
+  {
+   "key": "people|democrats:4|facts.3.value",
+   "he": "תואר במשפטים, המרכז האקדמי שערי משפט (2004)"
+  },
+  {
+   "key": "people|democrats:5|facts.0.value",
+   "he": "ראש לשכת יו\"ר העבודה שלי יחימוביץ' 2011–2013"
+  },
+  {
+   "key": "people|democrats:5|facts.1.value",
+   "he": "מייסד ומנהל 'לובי 99' 2015–2019; מנכ\"ל תנועת 'דרכנו' 2020–2022"
+  },
+  {
+   "key": "people|democrats:5|facts.2.value",
+   "he": "חבר אסיפת ההסתדרות מ-2017, ראש סיעת 'צדק חברתי'"
+  },
+  {
+   "key": "people|democrats:5|facts.3.value",
+   "he": "תואר ראשון במדע המדינה ותואר שני במנהל עסקים, האוניברסיטה העברית"
+  },
+  {
+   "key": "people|gan-eden:1|facts.0.value",
+   "he": "יו\"ר תנועת גן עדן, מועמד לראשות הממשלה ולתפקיד שר האוצר (2026)"
+  },
+  {
+   "key": "people|haredi-public:1|facts.0.value",
+   "he": "סגן ראש עירייה ויו\"ר סיעה חרדית במועצת העיר, בקדנציה הנוכחית (2026)"
+  },
+  {
+   "key": "people|haredi-public:3|facts.0.value",
+   "he": "מרצה בכירה בבית הספר למדיניות ציבורית, אוניברסיטת תל אביב, מ-2020"
+  },
+  {
+   "key": "people|haredi-public:3|facts.1.value",
+   "he": "סגנית נשיא למחקר במכון תתי\"א לחקר הקהילה החרדית, מ-2020"
+  },
+  {
+   "key": "people|haredi-public:3|facts.2.value",
+   "he": "תואר שלישי באוניברסיטה העברית; פוסט-דוקטורט באוניברסיטת פרינסטון"
+  },
+  {
+   "key": "people|israel-first:1|facts.0.value",
+   "he": "שירות לוחם ומפקדת במשמר הגבול מ-2002"
+  },
+  {
+   "key": "people|israel-first:1|facts.1.value",
+   "he": "חברת כנסת בכנסות ה-20 עד ה-25, בהפסקה 2020-2021; סגנית יו\"ר הכנסת 2020-2023"
+  },
+  {
+   "key": "people|israel-first:1|facts.2.value",
+   "he": "סגנית שר החוץ 2024-2026"
+  },
+  {
+   "key": "people|israel-first:2|facts.0.value",
+   "he": "בעל עסק ויועץ לחברות ביטחוניות ועירוניות"
+  },
+  {
+   "key": "people|israel-first:2|facts.1.value",
+   "he": "יותר מ-600 ימי מילואים במלחמת חרבות ברזל"
+  },
+  {
+   "key": "people|israel-first:4|facts.0.value",
+   "he": "ראש מועצת עין קנייא מ-2018"
+  },
+  {
+   "key": "people|israel-first:4|facts.1.value",
+   "he": "מורה לחינוך גופני ומאמן ספורט 1998-2018"
+  },
+  {
+   "key": "people|israel-first:4|facts.2.value",
+   "he": "תואר שני במדעי המדינה, אוניברסיטת בר אילן"
+  },
+  {
+   "key": "people|joint-list:1|facts.0.value",
+   "he": "תואר ראשון בעברית 1995, שני באמריקן יוניברסיטי 1997, דוקטורט בג'ורג'טאון 2003, כולם במשפטים"
+  },
+  {
+   "key": "people|joint-list:1|facts.1.value",
+   "he": "מ-2004 בפקולטה למשפטים באוניברסיטת חיפה; לשעבר ראש מרכז \"דיראסאת\""
+  },
+  {
+   "key": "people|joint-list:1|facts.2.value",
+   "he": "יו\"ר רשימת חד\"ש והרשימה המשותפת לבחירות לכנסת ה-26"
+  },
+  {
+   "key": "people|joint-list:1|facts.3.value",
+   "he": "חבר כנסת מטעם חד\"ש, ראש הוועדה לזכויות הילד"
+  },
+  {
+   "key": "people|joint-list:2|facts.0.value",
+   "he": "סיים לימודי רפואה בעברית 1983, הוסמך לרופא 1986"
+  },
+  {
+   "key": "people|joint-list:2|facts.1.value",
+   "he": "יועץ לענייני ישראל ליו\"ר אש\"ף יאסר ערפאת"
+  },
+  {
+   "key": "people|joint-list:2|facts.2.value",
+   "he": "חבר כנסת מ-1999; בעבר סגן יו\"ר הכנסת"
+  },
+  {
+   "key": "people|joint-list:3|facts.0.value",
+   "he": "תואר ראשון בהיסטוריה ומדע המדינה ותואר שני בהיסטוריה של המזרח התיכון, אוניברסיטת תל אביב"
+  },
+  {
+   "key": "people|joint-list:3|facts.1.value",
+   "he": "חבר מועצת עיריית תל אביב-יפו מ-2011; יו\"ר מפלגת בל\"ד"
+  },
+  {
+   "key": "people|joint-list:3|facts.2.value",
+   "he": "נכנס לכנסת בבחירות 2019 (הכנסת ה-22)"
+  },
+  {
+   "key": "people|likud:1|facts.0.value",
+   "he": "שירות בסיירת מטכ\"ל, שוחרר בדרגת סרן ב-1972"
+  },
+  {
+   "key": "people|likud:1|facts.1.value",
+   "he": "תואר ראשון בארכיטקטורה ותואר שני במנהל עסקים, MIT"
+  },
+  {
+   "key": "people|likud:1|facts.2.value",
+   "he": "שגריר ישראל באו\"ם 1984–1988; ראש הממשלה 1996–1999, 2009–2021 ומ-2022"
+  },
+  {
+   "key": "people|likud:1|facts.3.value",
+   "he": "חבר כנסת 1988–1999 ומ-2003"
+  },
+  {
+   "key": "people|likud:2|facts.0.value",
+   "he": "רואה חשבון, אנליסט דירוג אשראי בסטנדרד אנד פורס מעלות, סגן מנכ\"ל בחברת חתם הישוב"
+  },
+  {
+   "key": "people|likud:2|facts.1.value",
+   "he": "שירות בחיל האוויר, שוחרר בדרגת רב-סרן"
+  },
+  {
+   "key": "people|likud:2|facts.2.value",
+   "he": "שר הכלכלה 2017–2020, שר המודיעין 2020–2021, שר החוץ 2022–2024, שר האנרגיה מ-2024"
+  },
+  {
+   "key": "people|likud:2|facts.3.value",
+   "he": "חבר כנסת 2015–2023"
+  },
+  {
+   "key": "people|likud:3|facts.0.value",
+   "he": "סנגור פלילי כעשר שנים, לפני כן סוחר אג\"ח בשוק ההון"
+  },
+  {
+   "key": "people|likud:3|facts.1.value",
+   "he": "שירות במשטרה הצבאית, רב-סרן במילואים"
+  },
+  {
+   "key": "people|likud:3|facts.2.value",
+   "he": "שר המשפטים 2019–2020, השר לביטחון הפנים 2020–2021"
+  },
+  {
+   "key": "people|likud:3|facts.3.value",
+   "he": "חבר כנסת 2015–2020 ומ-2021; יושב ראש הכנסת מדצמבר 2022"
+  },
+  {
+   "key": "people|likud:4|facts.0.value",
+   "he": "עורך דין בתחום המסחרי והאזרחי; סגן יושב ראש לשכת עורכי הדין 1999–2005"
+  },
+  {
+   "key": "people|likud:4|facts.1.value",
+   "he": "שירות ביחידה 8200, מתרגם ערבית ומדריך קורסי ערבית"
+  },
+  {
+   "key": "people|likud:4|facts.2.value",
+   "he": "שר התיירות 2015–2020, שר המשפטים וסגן ראש הממשלה מדצמבר 2022"
+  },
+  {
+   "key": "people|likud:4|facts.3.value",
+   "he": "חבר כנסת מ-2009; יושב ראש הכנסת 2020–2021"
+  },
+  {
+   "key": "people|likud:5|facts.0.value",
+   "he": "שירות בצה\"ל 1983–2008 בדרגת תת-אלוף; דוברת צה\"ל 2005–2007"
+  },
+  {
+   "key": "people|likud:5|facts.1.value",
+   "he": "תואר ראשון בחינוך בלתי פורמלי, תואר שני במנהל עסקים"
+  },
+  {
+   "key": "people|likud:5|facts.2.value",
+   "he": "שרת התרבות והספורט 2015–2020, שרת התחבורה 2020–2021 ומ-2022"
+  },
+  {
+   "key": "people|likud:5|facts.3.value",
+   "he": "חברת כנסת מ-2009"
+  },
+  {
+   "key": "people|me-and-you:1|facts.0.value",
+   "he": "הקים את מפלגת אני ואתה ב-2017 ועומד בראשה"
+  },
+  {
+   "key": "people|me-and-you:1|facts.1.value",
+   "he": "דוקטורט במחקר בתחום המחשבה המדינית (לפי אתר המפלגה)"
+  },
+  {
+   "key": "people|noam:1|facts.0.value",
+   "he": "שירות בצנחנים מ-1975"
+  },
+  {
+   "key": "people|noam:1|facts.1.value",
+   "he": "מנכ\"ל משרד הפנים (1999-2000) ומשרד הבינוי והשיכון (2001-2004)"
+  },
+  {
+   "key": "people|noam:1|facts.2.value",
+   "he": "חבר הכנסת ה-24 וה-25; סגן שר במשרד ראש הממשלה 2022 עד התפטרות במרץ 2025"
+  },
+  {
+   "key": "people|noam:2|facts.0.value",
+   "he": "חבר מועצת עיריית באר שבע מ-2013, סגן ראש העיר בקדנציה הנוכחית (2026)"
+  },
+  {
+   "key": "people|noam:3|facts.0.value",
+   "he": "שירות בגולני (סיור), קצין בדרגת סגן אלוף במילואים"
+  },
+  {
+   "key": "people|noam:3|facts.1.value",
+   "he": "קצין הביטחון של היישוב היהודי בחברון 1992-2018"
+  },
+  {
+   "key": "people|noam:3|facts.2.value",
+   "he": "ראש מועצת קריית ארבע 2018-2024"
+  },
+  {
+   "key": "people|noam:4|facts.0.value",
+   "he": "תואר ראשון בפסיכולוגיה וחינוך, תואר שני בניהול מערכות חינוך"
+  },
+  {
+   "key": "people|noam:4|facts.1.value",
+   "he": "מורה לחינוך מיוחד, מנכ\"לית רשת בתי ספר, יועצת לראש עיריית ירושלים"
+  },
+  {
+   "key": "people|noam:5|facts.0.value",
+   "he": "מנכ\"לית היישובים עינב ושבי שומרון, יו\"ר קריית נטפים, מנהלת פנימייה לנוער"
+  },
+  {
+   "key": "people|noam:5|facts.1.value",
+   "he": "תואר שני ביעוץ ארגוני"
+  },
+  {
+   "key": "people|orot-hashahar:1|facts.0.value",
+   "he": "תארים בפסיכולוגיה ותקשורת ותואר ראשון בהנדסת מכונות"
+  },
+  {
+   "key": "people|orot-hashahar:1|facts.1.value",
+   "he": "ניהל את מוזיאון הרצל"
+  },
+  {
+   "key": "people|orot-hashahar:2|facts.0.value",
+   "he": "שירות בחטיבת גולני"
+  },
+  {
+   "key": "people|orot-hashahar:2|facts.1.value",
+   "he": "מדעי המדינה"
+  },
+  {
+   "key": "people|orot-hashahar:3|facts.0.value",
+   "he": "לוחם במגלן מ-2002, מילואים במלחמת חרבות ברזל"
+  }
+ ]
+}

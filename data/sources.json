@@ -1,0 +1,804 @@
+{
+ "likud": {
+  "name": "הליכוד",
+  "official_name": "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה",
+  "tier": "main",
+  "cec_url": "https://www.gov.il/he/pages/halikud-tikvahadasha_iist29",
+  "website": "https://www.likud.org.il/",
+  "platform_url": null,
+  "platform_kind": null,
+  "positions_url": null,
+  "status": "no-platform-found",
+  "notes": "אתר רשמי מאומת; אין מצע 2026 באתר — רק מקטע 'הדרך שלנו' בדף הבית. מצעים ישנים רק בארכיון IDI (לא של המפלגה).",
+  "media": [
+   {
+    "title": "נתניהו בתוכנית הפטריוטים",
+    "url": "https://www.youtube.com/watch?v=J5-qzqsRwxY",
+    "outlet": "ערוץ 14 (YouTube)",
+    "date": "2026-07"
+   },
+   {
+    "title": "נתניהו בריאיון בלעדי לערוץ 14: לא סיימנו עם תימן, רק התחלנו",
+    "url": "https://www.c14.co.il/article/1081038",
+    "outlet": "ערוץ 14",
+    "date": null
+   },
+   {
+    "title": "נתניהו בראיון לתוכנית הפטריוטים",
+    "url": "https://www.youtube.com/watch?v=0xpnf9B0zj8",
+    "outlet": "ערוץ 14 (YouTube)",
+    "date": null
+   }
+  ]
+ },
+ "yashar": {
+  "name": "ישר!",
+  "official_name": "ישר! עם איזנקוט לראשות הממשלה מאחדים את ישראל",
+  "tier": "main",
+  "cec_url": "https://www.gov.il/he/pages/yashar_list_2",
+  "website": "https://yasharwitheisenkot.com/",
+  "platform_url": "https://yasharwitheisenkot.com/wp-content/uploads/2026/06/Yashar_10_Steps_Brochure.pdf",
+  "platform_kind": "pdf",
+  "positions_url": "https://yasharwitheisenkot.com/principles/",
+  "status": "found",
+  "notes": "מצע '10 הצעדים' כ-PDF באתר המפלגה; גם עמוד /principles/ ו-/agenda_point/.",
+  "media": [
+   {
+    "title": "גדי איזנקוט בראיון לדנה ויס",
+    "url": "https://www.youtube.com/watch?v=KTkeUcamFNw",
+    "outlet": "ערוץ 12 (YouTube)",
+    "date": "2026-07-15"
+   },
+   {
+    "title": "גדי איזנקוט בראיון לקרן מרציאנו",
+    "url": "https://www.youtube.com/watch?v=g7EIndseISM",
+    "outlet": "חדשות 12 (YouTube)",
+    "date": "2026-08-12"
+   },
+   {
+    "title": "איזנקוט ב'פגוש את העיתונות': רע\"ם לא תהיה חלק מהממשלה הבאה",
+    "url": "https://www.mako.co.il/news-israel-elections/2026_q4/Article-195ef5f365ad0a1026.htm",
+    "outlet": "ערוץ 12 · פגוש את העיתונות",
+    "date": "2026-09"
+   }
+  ]
+ },
+ "together": {
+  "name": "ביחד",
+  "official_name": "ביחד בראשות נפתלי בנט",
+  "tier": "main",
+  "cec_url": "https://www.gov.il/he/pages/beyahad_list1",
+  "website": "https://be-yahad.org.il/",
+  "platform_url": "https://be-yahad.org.il/plans/",
+  "platform_kind": "page",
+  "positions_url": "https://be-yahad.org.il/the-scroll/",
+  "status": "found",
+  "notes": "מצע כאינדקס תוכניות 'ביחד נתקן' ב-/plans/ עם עמודי נושא; אין PDF. עמוד עקרונות נפרד /the-scroll/.",
+  "media": [
+   {
+    "title": "\"אנחנו יכולים לנצח את הבחירות\" — בנט בריאיון ראשון אחרי האיחוד",
+    "url": "https://www.youtube.com/watch?v=3oEKPmv4uKg",
+    "outlet": "YouTube",
+    "date": "2026-Q2"
+   },
+   {
+    "title": "בנט: \"אני עם לפיד עד הסוף, לא אשב עם נתניהו\"",
+    "url": "https://www.ynet.co.il/radio/120andone/article/omnyb47a00b3516d",
+    "outlet": "ynet · פודקאסט 120 ואחת",
+    "date": "2026-09"
+   },
+   {
+    "title": "לפיד: \"זו שעה קשה לי וליש עתיד\"",
+    "url": "https://www.ynet.co.il/news/120andone/article/sya00xpcogx",
+    "outlet": "ynet · פודקאסט 120 ואחת",
+    "date": null
+   }
+  ]
+ },
+ "democrats": {
+  "name": "הדמוקרטים",
+  "official_name": "הדמוקרטים בראשות יאיר גולן",
+  "tier": "main",
+  "cec_url": "https://www.gov.il/he/pages/hademokratim_list17",
+  "website": "https://democrats.org.il/",
+  "platform_url": "https://yes.democrats.org.il/",
+  "platform_kind": "page",
+  "positions_url": null,
+  "status": "found",
+  "notes": "מצע בסאב-דומיין yes.democrats.org.il עם ~30 עמודי נושא (topics/...). אין PDF מרכזי.",
+  "media": [
+   {
+    "title": "יאיר גולן בריאיון עם חן ליברמן",
+    "url": "https://www.youtube.com/watch?v=d4TtKliwc_c",
+    "outlet": "כאן 11 (YouTube)",
+    "date": null
+   },
+   {
+    "title": "יאיר גולן בשיחה עם יובל קרני",
+    "url": "https://www.youtube.com/watch?v=K8R-vdhI-ro",
+    "outlet": "ועידת ynet (YouTube)",
+    "date": null
+   },
+   {
+    "title": "גולן: 2026 — שנת מפנה ותיקון",
+    "url": "https://www.youtube.com/watch?v=IJCFSk1ogDU",
+    "outlet": "ערוץ הכנסת (YouTube)",
+    "date": "2026"
+   }
+  ]
+ },
+ "yisrael-beiteinu": {
+  "name": "ישראל ביתנו",
+  "official_name": "ישראל ביתנו בראשות אביגדור ליברמן",
+  "tier": "main",
+  "cec_url": "https://www.gov.il/he/pages/israel-beitenu_list11",
+  "website": "https://beytenu.org.il/",
+  "platform_url": "https://beytenu.org.il/party-platform/",
+  "platform_kind": "page",
+  "positions_url": "https://beytenu.org.il/party-platform-israel-beytenu-next-government/",
+  "status": "found",
+  "notes": "עמוד 'המצע שלנו' + 'קווי היסוד לממשלה הבאה' + עמודי מצע נושאיים. אין PDF 2026.",
+  "media": [
+   {
+    "title": "ליברמן: \"היעד השני שלי — להיות ראש ממשלה\"",
+    "url": "https://www.ynet.co.il/news/elections2026/article/yokra14895450",
+    "outlet": "ועידת ynet",
+    "date": "2026-09"
+   },
+   {
+    "title": "ליברמן: \"הדאגה שלי לגבי איזנקוט — שנראה את בני גנץ 2\"",
+    "url": "https://www.mako.co.il/news-israel-elections/2026/Article-50d7660baa6b0a1027.htm",
+    "outlet": "N12",
+    "date": "2026"
+   },
+   {
+    "title": "ליברמן על החזיתות והשוקולדים שנכנסים לעזה",
+    "url": "https://www.youtube.com/watch?v=g7lSB1OAIzY",
+    "outlet": "YouTube",
+    "date": null
+   }
+  ]
+ },
+ "utj": {
+  "name": "יהדות התורה",
+  "official_name": "יהדות התורה והשבת אגודת ישראל – דגל התורה",
+  "tier": "main",
+  "cec_url": "https://www.gov.il/he/pages/yahadut-degel_list37",
+  "website": null,
+  "platform_url": null,
+  "platform_kind": null,
+  "positions_url": null,
+  "status": "no-web-presence",
+  "notes": "אין אתר ואין מצע — 'התורה היא המצע' (ynet). מצע היסטורי מ-1999 בארכיון IDI בלבד.",
+  "media": [
+   {
+    "title": "יעקב אשר: \"יש בעיית אמון קשה עם נתניהו\"",
+    "url": "https://www.kikar.co.il/interviews/tif54k",
+    "outlet": "כיכר השבת",
+    "date": "2026-08"
+   },
+   {
+    "title": "יעקב אשר על המפלגות החרדיות החדשות: \"בזבוז קולות\"",
+    "url": "https://www.ynet.co.il/news/article/sj4cjnbogg",
+    "outlet": "ועידת ynet",
+    "date": "2026-09-06"
+   },
+   {
+    "title": "יעקב אשר, המנהיג החדש של יהדות התורה",
+    "url": "https://www.ynet.co.il/news/elections2026/article/hjfept9uge",
+    "outlet": "ynet · פרופיל",
+    "date": "2026"
+   }
+  ]
+ },
+ "otzma-yehudit": {
+  "name": "עוצמה יהודית",
+  "official_name": "עוצמה יהודית בראשות איתמר בן גביר",
+  "tier": "main",
+  "cec_url": "https://www.gov.il/he/pages/yehudit-meuhedet_list14",
+  "website": "https://ozma-yeudit.co.il/",
+  "platform_url": null,
+  "platform_kind": null,
+  "positions_url": "https://ozma-yeudit.co.il/מי-אנחנו/",
+  "status": "no-platform-found",
+  "notes": "אין דף מצע באתר; 'מי אנחנו' הוא הקרוב ביותר. בן גביר הציג מצע באירוע (סיקור haipo.co.il/item/388519) אך אין מסמך באתר. זהירות: ozma-yeudit.com הוא אתר תמיכה לא רשמי.",
+  "media": [
+   {
+    "title": "בן גביר בראיון מקיף באולפן כיכר השבת",
+    "url": "https://www.youtube.com/watch?v=s3TGmqGuieY",
+    "outlet": "כיכר השבת (YouTube)",
+    "date": null
+   },
+   {
+    "title": "בן גביר אצל מוריה וברקו",
+    "url": "https://www.youtube.com/watch?v=tGA7RSyvhpU",
+    "outlet": "YouTube",
+    "date": null
+   },
+   {
+    "title": "בן גביר ב'פגוש את העיתונות': \"טלי גוטליב תעשה מה שאחרים לא עשו\"",
+    "url": "https://www.mako.co.il/news-israel-elections/2026/Article-b693d5d24aed0a1027.htm",
+    "outlet": "N12 · פגוש את העיתונות",
+    "date": "2026"
+   }
+  ]
+ },
+ "shas": {
+  "name": "ש\"ס",
+  "official_name": "התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יוסף זצ\"ל",
+  "tier": "main",
+  "cec_url": "https://www.gov.il/he/pages/shas_list19",
+  "website": "https://shas.org.il/",
+  "platform_url": null,
+  "platform_kind": null,
+  "positions_url": null,
+  "status": "no-platform-found",
+  "notes": "האתר חוסם גישה מחו\"ל (סקרייפר יצטרך לרוץ מישראל או דרך קאש). אין דף מצע; 'אודות ש\"ס' הוא המקור הרעיוני הקרוב.",
+  "media": [
+   {
+    "title": "מפגש · פרק 2: אריה דרעי פותח הכול",
+    "url": "https://www.youtube.com/watch?v=Ld-F2nVF6ow",
+    "outlet": "פודקאסט מפגש (YouTube)",
+    "date": "2026-08"
+   },
+   {
+    "title": "דרעי על איזנקוט והמסר למצביעי הימין",
+    "url": "https://www.youtube.com/watch?v=FT7v-SSEGW8",
+    "outlet": "ערוץ 14 (YouTube)",
+    "date": "2026"
+   },
+   {
+    "title": "דרעי: \"אין לנו אמון בבית המשפט העליון\"",
+    "url": "https://www.kikar.co.il/interviews/deri-supreme-court-idf-chief-interview",
+    "outlet": "כיכר השבת",
+    "date": "2026"
+   }
+  ]
+ },
+ "joint-list": {
+  "name": "הרשימה המשותפת",
+  "official_name": "הרשימה המשותפת",
+  "tier": "main",
+  "cec_url": "https://www.gov.il/he/pages/hareshima-hameshutefet_list35",
+  "website": "https://www.jointlist.org.il/",
+  "platform_url": "https://www.jointlist.org.il/he/economic-plan/",
+  "platform_kind": "page",
+  "positions_url": "https://www.jointlist.org.il/he/crime-plan/",
+  "status": "found",
+  "notes": "תחת תפריט 'מצע': תוכנית כלכלית-חברתית (10 סעיפים) ותוכנית למיגור הפשיעה. אתר תלת-לשוני.",
+  "media": [
+   {
+    "title": "ג'בארין: \"הציבור הערבי רוצה הנהגה לוחמת\"",
+    "url": "https://www.ynet.co.il/news/article/rjntklbegg",
+    "outlet": "ynet",
+    "date": "2026"
+   },
+   {
+    "title": "\"נוח להם שהציבור הערבי שוקע בדם\"",
+    "url": "https://www.mako.co.il/news-israel-elections/2026/Article-e81970c300e5e91027.htm",
+    "outlet": "N12",
+    "date": "2026-05-25"
+   },
+   {
+    "title": "חד\"ש אופטימית: ריאיון עם ג'בארין",
+    "url": "https://www.inn.co.il/news/697758",
+    "outlet": "ערוץ 7",
+    "date": "2026-05-28"
+   }
+  ]
+ },
+ "raam": {
+  "name": "רע\"ם",
+  "official_name": "רע\"ם – הרשימה הערבית המאוחדת",
+  "tier": "main",
+  "cec_url": "https://www.gov.il/he/pages/raam_list18",
+  "website": null,
+  "platform_url": null,
+  "platform_kind": null,
+  "positions_url": null,
+  "status": "no-web-presence",
+  "notes": "אין אתר חי (almwahda.com ירד, רק בארכיון). נוכחות רשמית ברשתות בלבד. אין מצע 2026 שפורסם ע\"י המפלגה.",
+  "media": [
+   {
+    "title": "מנסור עבאס פותח הכול: \"רוצה להיות בממשלה הבאה\"",
+    "url": "https://www.youtube.com/watch?v=cjYrIkwLpag",
+    "outlet": "פודקאסט מפגש (YouTube)",
+    "date": null
+   },
+   {
+    "title": "עבאס וסגלוביץ בריאיון בלעדי על המפץ הפוליטי",
+    "url": "https://www.mako.co.il/news-israel-elections/2026/Article-12c9bd7e75270a1027.htm",
+    "outlet": "N12",
+    "date": "2026"
+   },
+   {
+    "title": "עבאס: \"נתניהו אמר לי שלמנהיג יהודי צריך להיות סגן ערבי\"",
+    "url": "https://www.mako.co.il/news-politics/2026_q1/Article-46b8126913d5c91026.htm",
+    "outlet": "N12",
+    "date": "2026-02"
+   }
+  ]
+ },
+ "rzp-zehut": {
+  "name": "הציונות הדתית וזהות",
+  "official_name": "הציונות הדתית בראשות בצלאל סמוטריץ' וזהות בראשות משה פייגלין",
+  "tier": "main",
+  "cec_url": "https://www.gov.il/he/pages/tzionutdatit-zehut_list31",
+  "website": "https://zionutdatit.org.il/",
+  "platform_url": "https://zionutdatit.org.il/מצע-המפלגה/",
+  "platform_kind": "page",
+  "positions_url": null,
+  "status": "found",
+  "notes": "עמוד מצע עם 12 תחומי מדיניות + PDF לכל תחום. אין אתר משותף עם זהות; מצע זהות הישן רק באחסון ynet. תוכניות ייעודיות: judaization, miluim.zionutdatit.digital.",
+  "media": [
+   {
+    "title": "סמוטריץ': \"צריך לצאת למלחמה ביהודה ושומרון\"",
+    "url": "https://www.ynet.co.il/news/120andone/article/ryfakwwqfe",
+    "outlet": "ynet · פודקאסט 120 ואחת",
+    "date": null
+   },
+   {
+    "title": "סמוטריץ': \"הסיכוי של עופר וינטר לעבור שואף לאפס\"",
+    "url": "https://news.walla.co.il/item/3867026",
+    "outlet": "וואלה · סרי ושלזינגר",
+    "date": null
+   },
+   {
+    "title": "משה פייגלין בריאיון מיוחד ב'פטריוטים'",
+    "url": "https://www.c14.co.il/article/1685446",
+    "outlet": "ערוץ 14",
+    "date": "2026-09"
+   }
+  ]
+ },
+ "blue-and-white": {
+  "name": "כחול לבן",
+  "official_name": "כחול לבן בראשות בני גנץ",
+  "tier": "main",
+  "cec_url": "https://www.gov.il/he/pages/kachol-lavan_list30",
+  "website": "https://kachollavan.org.il/",
+  "platform_url": "https://kachollavan.org.il/wp-content/uploads/2022/09/principles.pdf",
+  "platform_kind": "pdf",
+  "positions_url": null,
+  "status": "found",
+  "notes": "מסמך 'עקרונות' מ-2022 (המחנה הממלכתי) — אין מצע 2026 עדכני. האתר חוסם סריקה (403).",
+  "media": [
+   {
+    "title": "גנץ שובר שתיקה: \"זו הייתה טעות לעזוב את הממשלה\"",
+    "url": "https://www.mako.co.il/news-politics/2026_q1/Article-a762fe46a5dbb91026.htm",
+    "outlet": "N12",
+    "date": "2026-Q1"
+   },
+   {
+    "title": "גנץ חוזר לימי ממשלת החירום",
+    "url": "https://www.ynet.co.il/news/120andone/article/hjzctaf81l",
+    "outlet": "ynet · פודקאסט 120 ואחת",
+    "date": null
+   },
+   {
+    "title": "גנץ בראיון אולפן",
+    "url": "https://www.inn.co.il/news/707259",
+    "outlet": "ערוץ 7",
+    "date": "2026-09"
+   }
+  ]
+ },
+ "reservists-economic": {
+  "name": "המילואימניקים והכלכלית",
+  "official_name": "המילואימניקים והכלכלית בראשות יועז הנדל וירון זליכה",
+  "tier": "main",
+  "cec_url": "https://www.gov.il/he/pages/hamiluimnikim-vehakalkalit_list16",
+  "website": "https://www.themiluimnikim.org.il/",
+  "platform_url": "https://www.themiluimnikim.org.il/platform/",
+  "platform_kind": "page",
+  "positions_url": "https://www.themiluimnikim.org.il/מתווה-המילואימניקים/",
+  "status": "found",
+  "notes": "לשותפה הכלכלית אתר נפרד: hakalkalit.org עם מצע ב-/מצע-המפלגה-הכלכלית — לרשום כמקור שני.",
+  "media": [
+   {
+    "title": "זליכה והנדל בריאיון ראשון לאחר האיחוד: \"לא תכירו את המדינה\"",
+    "url": "https://www.c14.co.il/article/1699795",
+    "outlet": "ערוץ 14",
+    "date": "2026"
+   },
+   {
+    "title": "הנדל משרטט ימין שלא תלוי בנתניהו",
+    "url": "https://www.inn.co.il/news/707482",
+    "outlet": "ערוץ 7",
+    "date": "2026-09"
+   },
+   {
+    "title": "ימין או שמאל? ירון זליכה בריאיון לקראת הבחירות",
+    "url": "https://www.youtube.com/watch?v=dkWBtRXXm-w",
+    "outlet": "YouTube",
+    "date": "2026"
+   }
+  ]
+ },
+ "amcha-yisrael": {
+  "name": "עמך ישראל",
+  "official_name": "עמך ישראל בראשות עופר וינטר",
+  "tier": "main",
+  "cec_url": "https://www.gov.il/he/pages/amcha-israel_list6",
+  "website": "https://amchaisrael.co.il/",
+  "platform_url": "https://amchaisrael.co.il/foundations",
+  "platform_kind": "page",
+  "positions_url": null,
+  "status": "found",
+  "notes": "'אבני היסוד': 5 ערכים, 8 עקרונות, 'עשרה צעדים'. פירוט תוכניות יפורסם בהמשך — לעקוב.",
+  "media": [
+   {
+    "title": "עופר וינטר בראיון לעמית סגל",
+    "url": "https://www.youtube.com/watch?v=V9qVDywJ_gk",
+    "outlet": "N12 (YouTube)",
+    "date": "2026-09"
+   },
+   {
+    "title": "וינטר על הקרבה לאחוז החסימה",
+    "url": "https://www.mako.co.il/news-politics/2026_q3/Article-b7dcb1d0a1860a1026.htm",
+    "outlet": "N12",
+    "date": "2026-Q3"
+   },
+   {
+    "title": "וינטר: \"נתניהו החליט לחסל את עמך ישראל\"",
+    "url": "https://www.i24news.tv/he/news/israel-elections-2026/artc-ebf66d41",
+    "outlet": "i24NEWS",
+    "date": null
+   }
+  ]
+ },
+ "haredi-public": {
+  "name": "הציבור החרדי",
+  "official_name": "הציבור החרדי בראשות מוטי ליטנר",
+  "tier": "main",
+  "cec_url": "https://www.gov.il/he/pages/tzibur-charedi_list20",
+  "website": "https://hatzibur-haharedi.org/",
+  "platform_url": "https://hatzibur-haharedi.org/מצע",
+  "platform_kind": "page",
+  "positions_url": null,
+  "status": "found",
+  "notes": "אינדקס מצע עם 9 פרקים בעמודים ייעודיים. גם עמוד שקיפות תרומות.",
+  "media": [
+   {
+    "title": "יו\"ר סיעת הציבור החרדי בריאיון מיוחד",
+    "url": "https://www.youtube.com/watch?v=vdrHQefWwoU",
+    "outlet": "YouTube",
+    "date": null
+   },
+   {
+    "title": "לייטנר: המפלגות החרדיות אכזבו אכזבה מרה",
+    "url": "https://103fm.maariv.co.il/programs/media.aspx?ZrqvnVq=KHDKGG&c41t4nzVQ=EF",
+    "outlet": "103FM",
+    "date": null
+   },
+   {
+    "title": "לייטנר מציג חזון חדש לחברה החרדית",
+    "url": "https://www.inn.co.il/news/705202",
+    "outlet": "ערוץ 7",
+    "date": "2026"
+   }
+  ]
+ },
+ "noam": {
+  "name": "נעם",
+  "official_name": "נעם לישראל למען עתיד הילדים בראשות אבי מעוז",
+  "tier": "other",
+  "cec_url": "https://www.gov.il/he/pages/noam_list38",
+  "website": "https://www.noamlisrael.org.il/",
+  "platform_url": null,
+  "platform_kind": null,
+  "positions_url": "https://www.noamlisrael.org.il/education-reform/",
+  "status": "found",
+  "notes": "האתר עובד כעת (בדיקה קודמת החזירה HTTP 500) והכותרת התחתונה \"© 2026 נעם לישראל — בראשות אבי מעוז\". אין עמוד מצע כולל; יש עיקרי עמדות בדף הבית ועמוד \"רפורמת החינוך\" (עד 22 תלמידים בכיתה, תקצוב שווה לכל ילד ועוד). נדרש חילוץ עמדות."
+ },
+ "israel-first": {
+  "name": "ישראל תחילה",
+  "official_name": "ישראל תחילה בראשות שרן השכל",
+  "tier": "other",
+  "cec_url": "https://www.gov.il/he/pages/israel-tchila_list7",
+  "website": "https://israelfirst.co.il/",
+  "platform_url": "https://israelfirst.co.il/work-plan/",
+  "platform_kind": "page",
+  "positions_url": null,
+  "status": "found",
+  "notes": "אתר רשמי עם עמוד 'תוכנית עבודה' ובו פרקי ביטחון, כלכלה, חינוך וחירות אזרחית. אין מצע מלא במסמך נפרד."
+ },
+ "tzomet-beit-israel": {
+  "name": "צומת בית ישראל",
+  "official_name": "צומת בית ישראל",
+  "tier": "other",
+  "cec_url": "https://www.gov.il/he/pages/tzomet-beit-israel_list33",
+  "website": "https://beit-israel.co.il/",
+  "platform_url": "https://beit-israel.co.il/goals/",
+  "platform_kind": "page",
+  "positions_url": null,
+  "status": "found",
+  "notes": "האתר הוא של מפלגת 'בית ישראל' בראשות גדי יברקן, אחד משני רכיבי הרשימה המשותפת (השנייה: צומת). האתר אינו מזכיר את הרשימה המשותפת. הצילום כולל שישה פרקי מצע (שירות, ריבונות, דיור, עלייה, פנסיה, ביטחון אישי). אתר מפלגת צומת (tzomet.org.il) לא נפתח מהסביבה (שגיאת DNS)."
+ },
+ "orot-hashahar": {
+  "name": "אורות השחר",
+  "official_name": "אורות השחר בראשות ניסים לוק",
+  "tier": "other",
+  "cec_url": "https://www.gov.il/he/pages/orot_list26",
+  "website": "https://orothashachar.org.il/",
+  "platform_url": "https://orothashachar.org.il/wp-content/uploads/2026/09/מצע-מפלגת-אורות-השחר-גרסה-מעוצבת-ומעודכנת.pdf",
+  "platform_kind": "pdf",
+  "positions_url": null,
+  "status": "found",
+  "notes": "אתר רשמי; עמוד 'מצע' (/platform/) מטמיע קובץ PDF בן 8 עמודים ('הכנסת ה-26, תשרי תשפ\"ו'). בדף הבית גם תקציר תחומי פעילות."
+ },
+ "betach": {
+  "name": "בטח",
+  "official_name": "בטח – בטחון חברתי בראשות סמיון גרפמן",
+  "tier": "other",
+  "cec_url": "https://www.gov.il/he/pages/betach_list25",
+  "website": null,
+  "platform_url": null,
+  "platform_kind": null,
+  "positions_url": null,
+  "status": "no-web-presence",
+  "notes": "לא נמצא אתר רשמי; נמצא רק עמוד פייסבוק. מצע מ-2019 מאוחסן באתר צד שלישי ולכן לא נרשם.",
+  "media": [
+   {
+    "title": "כוכב הרשת בכנסת: המדינה שלנו קורסת מבפנים",
+    "url": "https://www.inn.co.il/news/705934",
+    "outlet": "ערוץ 7",
+    "date": "2026-09-08"
+   }
+  ]
+ },
+ "brit-olam": {
+  "name": "ברית עולם",
+  "official_name": "ברית עולם לגאולת ישראל",
+  "tier": "other",
+  "cec_url": "https://www.gov.il/he/pages/brit-olam_list22",
+  "website": "https://brit-olam.net/",
+  "platform_url": "https://brit-olam.net/עיקרי-המצע/",
+  "platform_kind": "page",
+  "positions_url": null,
+  "status": "found",
+  "notes": "אתר הרשימה אומת (דף הבית: \"בחירות 2026 בראשות עופר ליפשיץ\"). עמוד \"עיקרי המצע\" מפרט שישה נושאים (שינוי שיטת השלטון, ריבונות, ביטול הפרטה, זכויות אדם, הפחתת מסים, ועדות חקירה), ובאתר עמודים נוספים (תוכניות לאומיות ועוד). לא להתבלבל עם brit-olam.org ו-britolam.org, שייכים לארגונים אחרים. נדרש חילוץ עמדות."
+ },
+ "bible-bloc": {
+  "name": "גה\"ת-גוש התנ\"כי",
+  "official_name": "גה\"ת – גוש התנ\"כי",
+  "tier": "other",
+  "cec_url": "https://www.gov.il/he/pages/gush-tanachi_list24",
+  "website": null,
+  "platform_url": null,
+  "platform_kind": null,
+  "positions_url": null,
+  "status": "no-platform-found",
+  "notes": "לא נמצא אתר או מצע רשמי עדכני. נמצא רק בלוג bibleblocparty.blogspot.com שתוכנו פוסטים ישנים משנת 2007 המעתיקים כתבות חדשות - אינו מצע ולא נשמר. אתרי דומיין ישירים לא נפתחו."
+ },
+ "shma": {
+  "name": "שמע",
+  "official_name": "שמע בראשות נפתלי גולדמן",
+  "tier": "other",
+  "cec_url": "https://www.gov.il/he/pages/shama",
+  "website": "https://eomzone.com/",
+  "platform_url": "https://eomzone.com/מצע/",
+  "platform_kind": "page",
+  "positions_url": "https://eomzone.com/חסד/",
+  "status": "found",
+  "notes": "אתר רשמי של מפלגת שמע בראשות נפתלי גולדמן. דף מצע עם הצעות קונקרטיות. התוכן נראה כנכתב בסביבות 2020-21 (מזכיר את הקורונה ותקציב 2020), וה-PDF המקושר הוא 'מצע 2020.21' - לא נמצא עדכון ייעודי לבחירות 2026."
+ },
+ "personal-safety": {
+  "name": "בטחון אישי",
+  "official_name": "ביטחון אישי",
+  "tier": "other",
+  "cec_url": "https://www.gov.il/he/pages/demokratura_list27",
+  "website": null,
+  "platform_url": null,
+  "platform_kind": null,
+  "positions_url": null,
+  "status": "no-web-presence",
+  "notes": "לא נמצא אתר או דף רשמי של הרשימה בחיפוש. דף ועדת הבחירות בלבד."
+ },
+ "hatikun": {
+  "name": "התיקון",
+  "official_name": "התיקון לשיטת הבחירות והממשל",
+  "tier": "other",
+  "cec_url": "https://www.gov.il/he/pages/tikun_list23",
+  "website": "https://hatikun.org.il/",
+  "platform_url": "https://hatikun.org.il/מטרות-התיקון/",
+  "platform_kind": "page",
+  "positions_url": null,
+  "status": "found",
+  "notes": "אתר אומת (\"מפלגת התיקון\"; מפלגה חברתית־שיתופית לשינוי שיטת הבחירות והממשל). אין עמוד מצע יחיד: עמוד מטרות ועמודי מאמר (בחירות אישיות לפי אזורים, ניהול לפי יעדים ומדדים, מודל הרפורמה השלטונית). האתר לא מציין שמות מנהיגים. נדרש חילוץ עמדות."
+ },
+ "color-black": {
+  "name": "צבע שחור – מגן עולם התורה",
+  "official_name": "צבע שחור – מגן עולם התורה",
+  "tier": "other",
+  "cec_url": "https://www.gov.il/he/pages/shachor_list28",
+  "website": null,
+  "platform_url": null,
+  "platform_kind": null,
+  "positions_url": null,
+  "status": "no-platform-found",
+  "notes": "נמצא אתר mottyn.github.io/black-color-web - אפליקציית התרעות על אכיפה/מעצרים, שהוצהר בה שהיא פועלת באופן עצמאי ונבנתה על ידי גורם פרטי; אינו אתר הרשימה ואין בו מצע, ולכן לא נרשם."
+ },
+ "sharshar": {
+  "name": "שרשר לאהבה ולאחדות העם",
+  "official_name": "שרשר לאהבה ואחדות העם",
+  "tier": "other",
+  "cec_url": "https://www.gov.il/he/pages/sharshar_list3",
+  "website": null,
+  "platform_url": null,
+  "platform_kind": null,
+  "positions_url": null,
+  "status": "no-web-presence",
+  "notes": "לא נמצא אתר או מצע רשמי של הרשימה; הנושאים שהוצהרו מופיעים רק בכתבות חדשות, שאינן מקור רשמי.",
+  "media": [
+   {
+    "title": "שרשר המלך: \"אני אנהיג את העם, נתניהו יהיה שר החוץ שלי\"",
+    "url": "https://www.c14.co.il/article/1696905",
+    "outlet": "ערוץ 14",
+    "date": "2026-09-09"
+   },
+   {
+    "title": "כתר, גלימה והבטחות לכסף מהשמיים: הפוסט טראומטי שרוצה לכבוש את הכנסת",
+    "url": "https://www.israelhayom.co.il/news/politics/article/21464428",
+    "outlet": "ישראל היום",
+    "date": "2026-09-22"
+   }
+  ]
+ },
+ "tkuma": {
+  "name": "דרך חזון ותקומה",
+  "official_name": "מפלגת דרך חזון ותקומה",
+  "tier": "other",
+  "cec_url": "https://www.gov.il/he/pages/tekuma_list34",
+  "website": null,
+  "platform_url": null,
+  "platform_kind": null,
+  "positions_url": null,
+  "status": "no-web-presence",
+  "notes": "לא אותר אתר רשמי של הרשימה. אתר הקמה tkuma.org.il (\"האתר בשלבי הקמה\") אינו מזוהה כשייך לרשימה ולכן לא נרשם. הרשימה נרשמה באוגוסט 2026 ואין חומר מפורסם.",
+  "media": [
+   {
+    "title": "עשרה ימים להגשת הרשימות: קב\"ט מסיבת הנובה מקים מפלגה חדשה",
+    "url": "https://www.israelhayom.co.il/news/geopolitics/article/21328137",
+    "outlet": "ישראל היום",
+    "date": "2026-09-01"
+   }
+  ]
+ },
+ "new-order": {
+  "name": "סדר חדש",
+  "official_name": "סדר-חדש לכינון חוקה, להפרדת רשויות ולבחירות אישיות",
+  "tier": "other",
+  "cec_url": "https://www.gov.il/he/pages/seder-chadash_list15",
+  "website": null,
+  "platform_url": null,
+  "platform_kind": null,
+  "positions_url": null,
+  "status": "no-platform-found",
+  "notes": "לא אותר אתר רשמי של הרשימה בחיפוש (seder-hadash.co.il שייך לשירותי סידור בתים ואינו קשור). מצע של המפלגה מופיע רק כקובץ PDF בארכיון המכון הישראלי לדמוקרטיה (מקור חיצוני, מהבחירות הקודמות; כתובת אחת החזירה 404), ולכן לא נרשם ולא תועד."
+ },
+ "mishpat-tzedek": {
+  "name": "משפט צדק",
+  "official_name": "משפט צדק",
+  "tier": "other",
+  "cec_url": "https://www.gov.il/he/pages/mishpat-tzedek_list12",
+  "website": null,
+  "platform_url": null,
+  "platform_kind": null,
+  "positions_url": null,
+  "status": "no-web-presence",
+  "notes": "לא אותר אתר רשמי של הרשימה; קיימים רק דיווחי חדשות.",
+  "media": [
+   {
+    "title": "המפלגה החדשה של אשתו של יגאל עמיר: \"דורשים משפט חוזר\" (מ־2020, לא מהקמפיין הנוכחי)",
+    "url": "https://www.mako.co.il/news-politics/2020_q1/Article-abf7899a0d3af61027.htm",
+    "outlet": "N12",
+    "date": "2020-01-14"
+   }
+  ]
+ },
+ "hakahal": {
+  "name": "הקהל",
+  "official_name": "הקהל – מפלגה כלל חרדית שנציגיה נבחרים על ידי הציבור בראשות הרב שלמה אלבוים",
+  "tier": "other",
+  "cec_url": "https://www.gov.il/he/pages/machane-israel_list36",
+  "website": "https://hakahal.co.il/",
+  "platform_url": null,
+  "platform_kind": null,
+  "positions_url": null,
+  "status": "no-platform-found",
+  "notes": "אתר רשמי אומת (שם, סיסמה ושם המפלגה הרשום תואמים; האתר נטען ב-JavaScript ונקרא דרך דפדפן). האתר מתאר מבנה מפלגתי (פריימריז, מועצת הקהל, 100 תומכים לחבר מועצה, פרוטוקולי ישיבות) ואינו כולל מצע או עמדות מדיניות, ולכן לא נערך חילוץ."
+ },
+ "ahi": {
+  "name": "אחי",
+  "official_name": "תנועת אחי תנועתו של הרב יורם אברג'ל זצ\"ל",
+  "tier": "other",
+  "cec_url": "https://www.gov.il/he/pages/chozrim-leshorashim_list32",
+  "website": "https://www.hozrimlashorashim.org/",
+  "platform_url": "https://www.hozrimlashorashim.org/",
+  "platform_kind": "page",
+  "positions_url": null,
+  "status": "found",
+  "notes": "אתר רשמי (\"אחי – חוזרים לשורשים\", מספר רישום 59-900202-9, 2026). בדף הבית \"שבעת עמודי האלף\": מנהיגות מקצועית, תמיכה בלומדי תורה, שמירה על כל שטחי הארץ, חינוך לגיל הרך, שכר עובדים סוציאליים, העצמת מורים, נוער בסיכון וקשישים. דף הבית בלבד, ללא מסמך מצע נפרד; נדרש חילוץ עמדות. אומת ב־4.10.2026."
+ },
+ "partnership-for-all": {
+  "name": "השותפות לכולם",
+  "official_name": "השותפות לכולם",
+  "tier": "other",
+  "cec_url": "https://www.gov.il/he/pages/hashutafut-lekulam_iist",
+  "website": null,
+  "platform_url": null,
+  "platform_kind": null,
+  "positions_url": null,
+  "status": "no-web-presence",
+  "notes": "לא אותר אתר רשמי של הרשימה; קיימים רק דיווחים ועמוד פייסבוק של המועמד.",
+  "media": [
+   {
+    "title": "טלאל אלקרינאוי הודיע: אתמודד לכנסת בראש מפלגת \"השותפות לכולם\"",
+    "url": "https://br7news.co.il/he/news/news-1788865786",
+    "outlet": "חדשות באר שבע והנגב",
+    "date": "2026-09-08"
+   }
+  ]
+ },
+ "pirates": {
+  "name": "הפיראטים",
+  "official_name": "הפיראטים – צפים לטוב",
+  "tier": "other",
+  "cec_url": "https://www.gov.il/he/pages/pirates_list_5",
+  "website": "https://piratim.org/",
+  "platform_url": "https://piratim.org/wiki/matza/",
+  "platform_kind": "page",
+  "positions_url": "https://piratim.org/flag/",
+  "status": "found",
+  "notes": "אתר המפלגה כולל עמוד מצע בוויקי הפתוח של המפלגה ועמוד \"הדגל\" עם חמישה קווי יסוד. המצע ממוקד בעקרונות (חופש הפרט, דמוקרטיה השתתפותית, שקיפות); סעיף \"שלום, ביטחון ואהבה\" ריק. אין סעיפי מדיניות בנושאי דיור, משפט או דת."
+ },
+ "gan-eden": {
+  "name": "גן עדן",
+  "official_name": "גן עדן בראשות ישוע ישראל בן דוד",
+  "tier": "other",
+  "cec_url": "https://www.gov.il/he/pages/gan-eden_list_8",
+  "website": "https://www.ganeden.org.il/",
+  "platform_url": "https://www.ganeden.org.il/platform",
+  "platform_kind": "page",
+  "positions_url": "https://www.ganeden.org.il/the-way",
+  "status": "found",
+  "notes": "אתר רשמי עם עמוד מצע מפורט לפי קטגוריות, כולל \"תוכנית היובל הלאומי\", רשימת חוקים ראשונים ותוכנית 100 ימים. עמוד נפרד לתוכנית היובל המלאה לא אותר באתר."
+ },
+ "womens-voice": {
+  "name": "קול הנשים",
+  "official_name": "קול הנשים",
+  "tier": "other",
+  "cec_url": "https://www.gov.il/he/pages/kol-ha-nashim_list9",
+  "website": null,
+  "platform_url": null,
+  "platform_kind": null,
+  "positions_url": null,
+  "status": "no-web-presence",
+  "notes": "לא אותר אתר רשמי של הרשימה. נמצא חשבון ברשת חברתית (X) בלבד, שאינו נחשב. הדף kolhanashim.org.il שייך לעמותה אחרת (\"כל הנשים\"); עמוד ravpage שעלה בחיפוש נחסם (403) ולא אומת כשייך לרשימה. אין מצע מקוון מאומת."
+ },
+ "beyachad-natzliach": {
+  "name": "ביחד נצליח",
+  "official_name": "מפלגת ביחד נצליח – רשימה משותפת ערבית יהודית בראשות אבי שקד",
+  "tier": "other",
+  "cec_url": "https://www.gov.il/he/pages/beyachad-natzliah_list10",
+  "website": "https://www.yahaad.com/",
+  "platform_url": null,
+  "platform_kind": "page",
+  "positions_url": "https://www.yahaad.com/aviporfile",
+  "status": "found",
+  "notes": "אתר רשמי (בעברית, אנגלית וערבית) ובו \"תוכנית 5 הנקודות\" בעמוד הבית ועמוד ערכי ליבה. אין מסמך מצע מפורט; התוכנית קצרה ללא מנגנונים או מספרים."
+ },
+ "me-and-you": {
+  "name": "אני ואתה מפלגת העם הישראלית",
+  "official_name": "אני ואתה מפלגת העם הישראלית",
+  "tier": "other",
+  "cec_url": "https://www.gov.il/he/pages/miflegat-am-israelit_list21",
+  "website": "https://www.aniveata.org.il",
+  "platform_url": "https://www.aniveata.org.il/%D7%90%D7%A0%D7%99%20%D7%95%D7%90%D7%AA%D7%94%20%D7%9E%D7%A4%D7%9C%D7%92%D7%AA%20%D7%94%D7%A2%D7%9D%20%D7%94%D7%99%D7%A9%D7%A8%D7%90%D7%9C%D7%99%D7%AA%20-%20%D7%90%D7%9E%D7%A0%D7%AA%20%D7%99%D7%A1%D7%95%D7%93.pdf",
+  "platform_kind": "pdf",
+  "positions_url": null,
+  "status": "found",
+  "notes": "אתר רשמי ובו תקציר עמדות ושני מסמכי PDF: \"אמנת יסוד\" (נוסח כינוס מייסדים 2016, עקרונות לפי נושאים) ו\"האמנה הישראלית\" (קובץ קצר, לא נקלט). הכתובת נמצאה לפי ניחוש דומיין ואומתה בתוכן (שם המפלגה ואלון גלעדי); חיפוש לא החזיר אותה. נוסח האמנה ישן מהאתר הנוכחי ועמדות מסוימות בו שונות מהמוצג בעמוד הבית."
+ }
+}

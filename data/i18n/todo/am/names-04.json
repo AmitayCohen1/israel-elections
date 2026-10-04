@@ -1,0 +1,759 @@
+{
+ "locale": "am",
+ "series": "names",
+ "target_language": "Amharic",
+ "source_language": "Hebrew",
+ "instructions": "Each item is a Hebrew NAME (person, party or list). Write how that name is conventionally written in Amharic (Ethiopic (Ge'ez fidel)). Examples: ቢንያሚን ኔታንያሁ, ያኢር ላፒድ, ሊኩድ, የሽ አቲድ. Transliterate into Amharic script using the conventional Amharic spelling where one exists (Amharic Wikipedia, Ethiopian media); otherwise a phonetic transliteration in fidel. \"ctx\" is context to identify the person or party (list, slot, MK status, start of bio): use it, do not translate it. Names are given either in natural order or surname-first (official form like \"כהן יוסי\"): always output the natural given-name-first order. Party and list names: use the established Amharic name of the party if there is one, otherwise translate the meaning (e.g. \"הציונות הדתית\" = Religious Zionism) rather than transliterate. Keep ballot-letter acronyms as they are written. Output: for every item return {\"key\": <same key>, \"value\": <your translation>}. Return ONLY a JSON array (or {\"items\":[...]}) with one entry per input item, same keys, no omissions, no extra commentary. Value must be non-empty and written in the target script; never leave Hebrew letters in it. Preserve numbers, placeholders and punctuation meaning. Save the result as data/i18n/done/<locale>/<same file name>.",
+ "items": [
+  {
+   "key": "candidates|democrats:92|official_name",
+   "he": "ורטון לורה",
+   "ctx": "רשימת הדמוקרטים, מקום 92"
+  },
+  {
+   "key": "candidates|democrats:93|display_name",
+   "he": "פרץ חנה שיינדל",
+   "ctx": "רשימת הדמוקרטים, מקום 93"
+  },
+  {
+   "key": "candidates|democrats:94|display_name",
+   "he": "אירית פילמוס",
+   "ctx": "רשימת הדמוקרטים, מקום 94"
+  },
+  {
+   "key": "candidates|democrats:94|official_name",
+   "he": "פילמוס אירית",
+   "ctx": "רשימת הדמוקרטים, מקום 94"
+  },
+  {
+   "key": "candidates|democrats:95|display_name",
+   "he": "רוז אליגון תלמה",
+   "ctx": "רשימת הדמוקרטים, מקום 95"
+  },
+  {
+   "key": "candidates|democrats:96|display_name",
+   "he": "שמואל דור",
+   "ctx": "רשימת הדמוקרטים, מקום 96"
+  },
+  {
+   "key": "candidates|democrats:96|official_name",
+   "he": "דור שמואל",
+   "ctx": "רשימת הדמוקרטים, מקום 96"
+  },
+  {
+   "key": "candidates|democrats:97|display_name",
+   "he": "רדאי פרנסס רות",
+   "ctx": "רשימת הדמוקרטים, מקום 97"
+  },
+  {
+   "key": "candidates|democrats:98|display_name",
+   "he": "דוד צוקר",
+   "ctx": "רשימת הדמוקרטים, מקום 98 — דוד צוקר הוא יזם, מנכ\"ל חברת Mappo, ממקימי \"שלום עכשיו\" ומייסדו של ארג"
+  },
+  {
+   "key": "candidates|democrats:98|official_name",
+   "he": "צוקר דוד",
+   "ctx": "רשימת הדמוקרטים, מקום 98 — דוד צוקר הוא יזם, מנכ\"ל חברת Mappo, ממקימי \"שלום עכשיו\" ומייסדו של ארג"
+  },
+  {
+   "key": "candidates|democrats:99|display_name",
+   "he": "יוסף מורציאנו",
+   "ctx": "רשימת הדמוקרטים, מקום 99"
+  },
+  {
+   "key": "candidates|democrats:99|official_name",
+   "he": "מורציאנו יוסף",
+   "ctx": "רשימת הדמוקרטים, מקום 99"
+  },
+  {
+   "key": "candidates|democrats:100|display_name",
+   "he": "בנימין צוייג",
+   "ctx": "רשימת הדמוקרטים, מקום 100"
+  },
+  {
+   "key": "candidates|democrats:100|official_name",
+   "he": "צוייג בנימין",
+   "ctx": "רשימת הדמוקרטים, מקום 100"
+  },
+  {
+   "key": "candidates|democrats:101|display_name",
+   "he": "יוכבד ליפשיץ",
+   "ctx": "רשימת הדמוקרטים, מקום 101"
+  },
+  {
+   "key": "candidates|democrats:101|official_name",
+   "he": "ליפשיץ יוכבד",
+   "ctx": "רשימת הדמוקרטים, מקום 101"
+  },
+  {
+   "key": "candidates|democrats:102|display_name",
+   "he": "מיכל בירן",
+   "ctx": "רשימת הדמוקרטים, מקום 102"
+  },
+  {
+   "key": "candidates|democrats:102|official_name",
+   "he": "בירן מיכל",
+   "ctx": "רשימת הדמוקרטים, מקום 102"
+  },
+  {
+   "key": "candidates|democrats:103|display_name",
+   "he": "חוסניה גבארה",
+   "ctx": "רשימת הדמוקרטים, מקום 103 — חוסניה ג'בארה היא חברת הכנסת לשעבר מטעם מרצ."
+  },
+  {
+   "key": "candidates|democrats:103|official_name",
+   "he": "גבארה חוסניה",
+   "ctx": "רשימת הדמוקרטים, מקום 103 — חוסניה ג'בארה היא חברת הכנסת לשעבר מטעם מרצ."
+  },
+  {
+   "key": "candidates|democrats:104|display_name",
+   "he": "ענת מאור",
+   "ctx": "רשימת הדמוקרטים, מקום 104 — ענת מאור היא חברת הכנסת לשעבר מטעם מרצ."
+  },
+  {
+   "key": "candidates|democrats:104|official_name",
+   "he": "מאור ענת",
+   "ctx": "רשימת הדמוקרטים, מקום 104 — ענת מאור היא חברת הכנסת לשעבר מטעם מרצ."
+  },
+  {
+   "key": "candidates|democrats:105|display_name",
+   "he": "מאשה לובלסקי",
+   "ctx": "רשימת הדמוקרטים, מקום 105 — מאשה לובלסקי היא לשעבר מזכ\"ל נעמת וחברת הכנסת מטעם העבודה."
+  },
+  {
+   "key": "candidates|democrats:105|official_name",
+   "he": "לובלסקי מאשה",
+   "ctx": "רשימת הדמוקרטים, מקום 105 — מאשה לובלסקי היא לשעבר מזכ\"ל נעמת וחברת הכנסת מטעם העבודה."
+  },
+  {
+   "key": "candidates|democrats:106|display_name",
+   "he": "אמירה סרטני",
+   "ctx": "רשימת הדמוקרטים, מקום 106"
+  },
+  {
+   "key": "candidates|democrats:106|official_name",
+   "he": "סרטני אמירה",
+   "ctx": "רשימת הדמוקרטים, מקום 106"
+  },
+  {
+   "key": "candidates|democrats:107|display_name",
+   "he": "פורז פוזמנטיר אברהם",
+   "ctx": "רשימת הדמוקרטים, מקום 107"
+  },
+  {
+   "key": "candidates|democrats:108|display_name",
+   "he": "יוסף ביילין",
+   "ctx": "רשימת הדמוקרטים, מקום 108"
+  },
+  {
+   "key": "candidates|democrats:108|official_name",
+   "he": "ביילין יוסף",
+   "ctx": "רשימת הדמוקרטים, מקום 108"
+  },
+  {
+   "key": "candidates|democrats:109|display_name",
+   "he": "תמר זנדברג",
+   "ctx": "רשימת הדמוקרטים, מקום 109 — תמר זנדברג היא פוליטיקאית ישראלית. כיהנה כשרה להגנת הסביבה מטעם מפלגת "
+  },
+  {
+   "key": "candidates|democrats:109|official_name",
+   "he": "זנדברג תמר",
+   "ctx": "רשימת הדמוקרטים, מקום 109 — תמר זנדברג היא פוליטיקאית ישראלית. כיהנה כשרה להגנת הסביבה מטעם מפלגת "
+  },
+  {
+   "key": "candidates|democrats:110|display_name",
+   "he": "עמרם מצנע",
+   "ctx": "רשימת הדמוקרטים, מקום 110 — עמרם מצנע הוא איש ציבור ישראלי. כיהן כאלוף בצה\"ל, כראש עיריית חיפה (19"
+  },
+  {
+   "key": "candidates|democrats:110|official_name",
+   "he": "מצנע עמרם",
+   "ctx": "רשימת הדמוקרטים, מקום 110 — עמרם מצנע הוא איש ציבור ישראלי. כיהן כאלוף בצה\"ל, כראש עיריית חיפה (19"
+  },
+  {
+   "key": "candidates|democrats:111|display_name",
+   "he": "מיכה גולדמן",
+   "ctx": "רשימת הדמוקרטים, מקום 111 — מיכה גולדמן הוא איש ציבור. היה ראש המועצה המקומית כפר תבור, וחבר הכנסת"
+  },
+  {
+   "key": "candidates|democrats:111|official_name",
+   "he": "גולדמן מיכה",
+   "ctx": "רשימת הדמוקרטים, מקום 111 — מיכה גולדמן הוא איש ציבור. היה ראש המועצה המקומית כפר תבור, וחבר הכנסת"
+  },
+  {
+   "key": "candidates|democrats:112|display_name",
+   "he": "רן כהן",
+   "ctx": "רשימת הדמוקרטים, מקום 112 — רן כהן הוא אלוף-משנה בדימוס ופוליטיקאי ישראלי. כיהן כחבר הכנסת מטעם מפ"
+  },
+  {
+   "key": "candidates|democrats:112|official_name",
+   "he": "כהן רן",
+   "ctx": "רשימת הדמוקרטים, מקום 112 — רן כהן הוא אלוף-משנה בדימוס ופוליטיקאי ישראלי. כיהן כחבר הכנסת מטעם מפ"
+  },
+  {
+   "key": "candidates|democrats:113|display_name",
+   "he": "רענן כהן",
+   "ctx": "רשימת הדמוקרטים, מקום 113 — ד\"ר רענן כהן הוא פוליטיקאי ישראלי שכיהן כחבר הכנסת ושר ממשלות ישראל."
+  },
+  {
+   "key": "candidates|democrats:113|official_name",
+   "he": "כהן רענן",
+   "ctx": "רשימת הדמוקרטים, מקום 113 — ד\"ר רענן כהן הוא פוליטיקאי ישראלי שכיהן כחבר הכנסת ושר ממשלות ישראל."
+  },
+  {
+   "key": "candidates|democrats:114|display_name",
+   "he": "אבשלום וילן",
+   "ctx": "רשימת הדמוקרטים, מקום 114 — אבשלום וילן הוא חבר הכנסת לשעבר מטעם מרצ. שימש גם מזכ\"ל התאחדות חקלאי "
+  },
+  {
+   "key": "candidates|democrats:114|official_name",
+   "he": "וילן אבשלום",
+   "ctx": "רשימת הדמוקרטים, מקום 114 — אבשלום וילן הוא חבר הכנסת לשעבר מטעם מרצ. שימש גם מזכ\"ל התאחדות חקלאי "
+  },
+  {
+   "key": "candidates|democrats:115|display_name",
+   "he": "שמעון שיטרית",
+   "ctx": "רשימת הדמוקרטים, מקום 115"
+  },
+  {
+   "key": "candidates|democrats:115|official_name",
+   "he": "שיטרית שמעון",
+   "ctx": "רשימת הדמוקרטים, מקום 115"
+  },
+  {
+   "key": "candidates|democrats:116|display_name",
+   "he": "זהבה גלאון",
+   "ctx": "רשימת הדמוקרטים, מקום 116 — זהבה גלאון היא יושבת ראש מפלגת מרצ לשעבר, נשיאת מכון זולת לשוויון וזכו"
+  },
+  {
+   "key": "candidates|democrats:116|official_name",
+   "he": "גלאון זהבה",
+   "ctx": "רשימת הדמוקרטים, מקום 116 — זהבה גלאון היא יושבת ראש מפלגת מרצ לשעבר, נשיאת מכון זולת לשוויון וזכו"
+  },
+  {
+   "key": "candidates|democrats:117|display_name",
+   "he": "קולט אביטל",
+   "ctx": "רשימת הדמוקרטים, מקום 117 — קולט אביטל היא דיפלומטית ופוליטיקאית ישראלית. מילאה תפקידים דיפלומטיים"
+  },
+  {
+   "key": "candidates|democrats:117|official_name",
+   "he": "אביטל קולט",
+   "ctx": "רשימת הדמוקרטים, מקום 117 — קולט אביטל היא דיפלומטית ופוליטיקאית ישראלית. מילאה תפקידים דיפלומטיים"
+  },
+  {
+   "key": "candidates|democrats:118|display_name",
+   "he": "חיים אורון",
+   "ctx": "רשימת הדמוקרטים, מקום 118 — חיים אורון הוא יושב ראש החברה להגנת הטבע, שימש כיושב ראש מפלגת מרצ, וכ"
+  },
+  {
+   "key": "candidates|democrats:118|official_name",
+   "he": "אורון חיים",
+   "ctx": "רשימת הדמוקרטים, מקום 118 — חיים אורון הוא יושב ראש החברה להגנת הטבע, שימש כיושב ראש מפלגת מרצ, וכ"
+  },
+  {
+   "key": "candidates|democrats:119|display_name",
+   "he": "אפרים סנה",
+   "ctx": "רשימת הדמוקרטים, מקום 119 — אפרים סנה הוא איש ציבור ישראלי, כיהן כחבר הכנסת מטעם סיעת העבודה-מימד,"
+  },
+  {
+   "key": "candidates|democrats:119|official_name",
+   "he": "סנה אפרים",
+   "ctx": "רשימת הדמוקרטים, מקום 119 — אפרים סנה הוא איש ציבור ישראלי, כיהן כחבר הכנסת מטעם סיעת העבודה-מימד,"
+  },
+  {
+   "key": "candidates|democrats:120|display_name",
+   "he": "בר עם עוזי",
+   "ctx": "רשימת הדמוקרטים, מקום 120"
+  },
+  {
+   "key": "candidates|gan-eden:1|display_name",
+   "he": "בן דוד ישוע ישראל",
+   "ctx": "רשימת גן עדן, מקום 1"
+  },
+  {
+   "key": "candidates|gan-eden:2|display_name",
+   "he": "בן יששכר יעקב",
+   "ctx": "רשימת גן עדן, מקום 2"
+  },
+  {
+   "key": "candidates|gan-eden:3|display_name",
+   "he": "כהן יעקב ליאור",
+   "ctx": "רשימת גן עדן, מקום 3"
+  },
+  {
+   "key": "candidates|gan-eden:4|display_name",
+   "he": "דה רוטשילד טליה",
+   "ctx": "רשימת גן עדן, מקום 4"
+  },
+  {
+   "key": "candidates|gan-eden:5|display_name",
+   "he": "דוד פודברי",
+   "ctx": "רשימת גן עדן, מקום 5"
+  },
+  {
+   "key": "candidates|gan-eden:5|official_name",
+   "he": "פודברי דוד",
+   "ctx": "רשימת גן עדן, מקום 5"
+  },
+  {
+   "key": "candidates|gan-eden:6|display_name",
+   "he": "בדש רז כמוס",
+   "ctx": "רשימת גן עדן, מקום 6"
+  },
+  {
+   "key": "candidates|gan-eden:7|display_name",
+   "he": "מור-חיים אברהם",
+   "ctx": "רשימת גן עדן, מקום 7"
+  },
+  {
+   "key": "candidates|gan-eden:7|official_name",
+   "he": "אברהם מור-חיים",
+   "ctx": "רשימת גן עדן, מקום 7"
+  },
+  {
+   "key": "candidates|hakahal:1|display_name",
+   "he": "שלמה אלבוים",
+   "ctx": "רשימת הקהל, מקום 1"
+  },
+  {
+   "key": "candidates|hakahal:1|official_name",
+   "he": "אלבוים שלמה",
+   "ctx": "רשימת הקהל, מקום 1"
+  },
+  {
+   "key": "candidates|hakahal:2|display_name",
+   "he": "אדלר ברוך מנדל",
+   "ctx": "רשימת הקהל, מקום 2"
+  },
+  {
+   "key": "candidates|hakahal:3|display_name",
+   "he": "דוד גבאי",
+   "ctx": "רשימת הקהל, מקום 3"
+  },
+  {
+   "key": "candidates|hakahal:3|official_name",
+   "he": "גבאי דוד",
+   "ctx": "רשימת הקהל, מקום 3"
+  },
+  {
+   "key": "candidates|hakahal:4|display_name",
+   "he": "קובן ידידיה צבי אמית",
+   "ctx": "רשימת הקהל, מקום 4"
+  },
+  {
+   "key": "candidates|hakahal:5|display_name",
+   "he": "פרידמן משה זאב",
+   "ctx": "רשימת הקהל, מקום 5"
+  },
+  {
+   "key": "candidates|hakahal:6|display_name",
+   "he": "בר לב אליסף",
+   "ctx": "רשימת הקהל, מקום 6"
+  },
+  {
+   "key": "candidates|hakahal:7|display_name",
+   "he": "צמח אלחנן יוסף",
+   "ctx": "רשימת הקהל, מקום 7"
+  },
+  {
+   "key": "candidates|hakahal:8|display_name",
+   "he": "יצחק הוד",
+   "ctx": "רשימת הקהל, מקום 8"
+  },
+  {
+   "key": "candidates|hakahal:8|official_name",
+   "he": "הוד יצחק",
+   "ctx": "רשימת הקהל, מקום 8"
+  },
+  {
+   "key": "candidates|haredi-public:1|display_name",
+   "he": "מוטי ליטנר",
+   "ctx": "רשימת הציבור החרדי, מקום 1"
+  },
+  {
+   "key": "candidates|haredi-public:1|official_name",
+   "he": "ליטנר פנחס מרדכי",
+   "ctx": "רשימת הציבור החרדי, מקום 1"
+  },
+  {
+   "key": "candidates|haredi-public:2|display_name",
+   "he": "אשר פרדי",
+   "ctx": "רשימת הציבור החרדי, מקום 2"
+  },
+  {
+   "key": "candidates|haredi-public:2|official_name",
+   "he": "פרדי אשר",
+   "ctx": "רשימת הציבור החרדי, מקום 2"
+  },
+  {
+   "key": "candidates|haredi-public:3|display_name",
+   "he": "מרים נחמה יפה",
+   "ctx": "רשימת הציבור החרדי, מקום 3 — נחומי יפה היא חוקרת פסיכולוגיה פוליטית וחברתית באוניברסיטת תל אביב וסג"
+  },
+  {
+   "key": "candidates|haredi-public:3|official_name",
+   "he": "יפה מרים נחמה",
+   "ctx": "רשימת הציבור החרדי, מקום 3 — נחומי יפה היא חוקרת פסיכולוגיה פוליטית וחברתית באוניברסיטת תל אביב וסג"
+  },
+  {
+   "key": "candidates|haredi-public:4|display_name",
+   "he": "זיוה רנית גלאנץ",
+   "ctx": "רשימת הציבור החרדי, מקום 4"
+  },
+  {
+   "key": "candidates|haredi-public:4|official_name",
+   "he": "גלאנץ זיוה רנית",
+   "ctx": "רשימת הציבור החרדי, מקום 4"
+  },
+  {
+   "key": "candidates|haredi-public:5|display_name",
+   "he": "מרדכי רובינשטיין",
+   "ctx": "רשימת הציבור החרדי, מקום 5"
+  },
+  {
+   "key": "candidates|haredi-public:5|official_name",
+   "he": "רובינשטיין מרדכי",
+   "ctx": "רשימת הציבור החרדי, מקום 5"
+  },
+  {
+   "key": "candidates|haredi-public:6|display_name",
+   "he": "יצחק אדלרשטיין",
+   "ctx": "רשימת הציבור החרדי, מקום 6"
+  },
+  {
+   "key": "candidates|haredi-public:6|official_name",
+   "he": "אדלרשטיין יצחק",
+   "ctx": "רשימת הציבור החרדי, מקום 6"
+  },
+  {
+   "key": "candidates|haredi-public:7|display_name",
+   "he": "אהרן אונגאר",
+   "ctx": "רשימת הציבור החרדי, מקום 7"
+  },
+  {
+   "key": "candidates|haredi-public:7|official_name",
+   "he": "אונגאר אהרן",
+   "ctx": "רשימת הציבור החרדי, מקום 7"
+  },
+  {
+   "key": "candidates|haredi-public:8|display_name",
+   "he": "יהודה אופנהיימר",
+   "ctx": "רשימת הציבור החרדי, מקום 8"
+  },
+  {
+   "key": "candidates|haredi-public:8|official_name",
+   "he": "אופנהיימר יהודה",
+   "ctx": "רשימת הציבור החרדי, מקום 8"
+  },
+  {
+   "key": "candidates|haredi-public:9|display_name",
+   "he": "גוטליב חיים יהודה לייב",
+   "ctx": "רשימת הציבור החרדי, מקום 9"
+  },
+  {
+   "key": "candidates|haredi-public:10|display_name",
+   "he": "קאופמן יונה שלמה",
+   "ctx": "רשימת הציבור החרדי, מקום 10"
+  },
+  {
+   "key": "candidates|haredi-public:11|display_name",
+   "he": "אליהו גולדברג",
+   "ctx": "רשימת הציבור החרדי, מקום 11"
+  },
+  {
+   "key": "candidates|haredi-public:11|official_name",
+   "he": "גולדברג אליהו",
+   "ctx": "רשימת הציבור החרדי, מקום 11"
+  },
+  {
+   "key": "candidates|haredi-public:12|display_name",
+   "he": "ראובן אוחנה",
+   "ctx": "רשימת הציבור החרדי, מקום 12"
+  },
+  {
+   "key": "candidates|haredi-public:12|official_name",
+   "he": "אוחנה ראובן",
+   "ctx": "רשימת הציבור החרדי, מקום 12"
+  },
+  {
+   "key": "candidates|hatikun:1|display_name",
+   "he": "משה סלמוביץ",
+   "ctx": "רשימת התיקון, מקום 1"
+  },
+  {
+   "key": "candidates|hatikun:1|official_name",
+   "he": "סלמוביץ משה",
+   "ctx": "רשימת התיקון, מקום 1"
+  },
+  {
+   "key": "candidates|hatikun:2|display_name",
+   "he": "יארה קבלאן",
+   "ctx": "רשימת התיקון, מקום 2"
+  },
+  {
+   "key": "candidates|hatikun:2|official_name",
+   "he": "קבלאן יארה",
+   "ctx": "רשימת התיקון, מקום 2"
+  },
+  {
+   "key": "candidates|hatikun:3|display_name",
+   "he": "יהל שרמן",
+   "ctx": "רשימת התיקון, מקום 3"
+  },
+  {
+   "key": "candidates|hatikun:3|official_name",
+   "he": "שרמן יהל",
+   "ctx": "רשימת התיקון, מקום 3"
+  },
+  {
+   "key": "candidates|hatikun:4|display_name",
+   "he": "שרון סיני-סימוני",
+   "ctx": "רשימת התיקון, מקום 4"
+  },
+  {
+   "key": "candidates|hatikun:4|official_name",
+   "he": "סיני-סימוני שרון",
+   "ctx": "רשימת התיקון, מקום 4"
+  },
+  {
+   "key": "candidates|hatikun:5|display_name",
+   "he": "רומן סורוצקי",
+   "ctx": "רשימת התיקון, מקום 5"
+  },
+  {
+   "key": "candidates|hatikun:5|official_name",
+   "he": "סורוצקי רומן",
+   "ctx": "רשימת התיקון, מקום 5"
+  },
+  {
+   "key": "candidates|hatikun:6|display_name",
+   "he": "סבג יהונתן בוריס",
+   "ctx": "רשימת התיקון, מקום 6"
+  },
+  {
+   "key": "candidates|hatikun:7|display_name",
+   "he": "אכרם עראף",
+   "ctx": "רשימת התיקון, מקום 7"
+  },
+  {
+   "key": "candidates|hatikun:7|official_name",
+   "he": "עראף אכרם",
+   "ctx": "רשימת התיקון, מקום 7"
+  },
+  {
+   "key": "candidates|hatikun:8|display_name",
+   "he": "חן אלון",
+   "ctx": "רשימת התיקון, מקום 8"
+  },
+  {
+   "key": "candidates|hatikun:8|official_name",
+   "he": "אלון חן",
+   "ctx": "רשימת התיקון, מקום 8"
+  },
+  {
+   "key": "candidates|hatikun:9|display_name",
+   "he": "בן עזרא ליאת",
+   "ctx": "רשימת התיקון, מקום 9"
+  },
+  {
+   "key": "candidates|hatikun:10|display_name",
+   "he": "אשר להב",
+   "ctx": "רשימת התיקון, מקום 10"
+  },
+  {
+   "key": "candidates|hatikun:10|official_name",
+   "he": "להב אשר",
+   "ctx": "רשימת התיקון, מקום 10"
+  },
+  {
+   "key": "candidates|hatikun:11|display_name",
+   "he": "רעות אברמסון",
+   "ctx": "רשימת התיקון, מקום 11"
+  },
+  {
+   "key": "candidates|hatikun:11|official_name",
+   "he": "אברמסון רעות",
+   "ctx": "רשימת התיקון, מקום 11"
+  },
+  {
+   "key": "candidates|hatikun:12|display_name",
+   "he": "ירמיאס לסקר רוני",
+   "ctx": "רשימת התיקון, מקום 12"
+  },
+  {
+   "key": "candidates|hatikun:13|display_name",
+   "he": "עדן סלמוביץ",
+   "ctx": "רשימת התיקון, מקום 13"
+  },
+  {
+   "key": "candidates|hatikun:13|official_name",
+   "he": "סלמוביץ עדן",
+   "ctx": "רשימת התיקון, מקום 13"
+  },
+  {
+   "key": "candidates|israel-first:1|display_name",
+   "he": "השכל שרן מרים",
+   "ctx": "רשימת ישראל תחילה, מקום 1, חבר/ת הכנסת מכהן/ת — שרן מרים השכל-הרפז היא פוליטיקאית ישראלית, חברת הכנסת מטעם מפלגת תקווה"
+  },
+  {
+   "key": "candidates|israel-first:2|display_name",
+   "he": "דנינו רועי חיים",
+   "ctx": "רשימת ישראל תחילה, מקום 2"
+  },
+  {
+   "key": "candidates|israel-first:3|display_name",
+   "he": "ניר יופטרו",
+   "ctx": "רשימת ישראל תחילה, מקום 3"
+  },
+  {
+   "key": "candidates|israel-first:3|official_name",
+   "he": "יופטרו ניר",
+   "ctx": "רשימת ישראל תחילה, מקום 3"
+  },
+  {
+   "key": "candidates|israel-first:4|display_name",
+   "he": "ואיל מוגרבי",
+   "ctx": "רשימת ישראל תחילה, מקום 4"
+  },
+  {
+   "key": "candidates|israel-first:4|official_name",
+   "he": "מוגרבי ואיל",
+   "ctx": "רשימת ישראל תחילה, מקום 4"
+  },
+  {
+   "key": "candidates|israel-first:5|display_name",
+   "he": "פדר עמית עדי",
+   "ctx": "רשימת ישראל תחילה, מקום 5"
+  },
+  {
+   "key": "candidates|israel-first:6|display_name",
+   "he": "ברוק תומר יצחק",
+   "ctx": "רשימת ישראל תחילה, מקום 6"
+  },
+  {
+   "key": "candidates|israel-first:7|display_name",
+   "he": "רוזענבערג הארי ג'ק",
+   "ctx": "רשימת ישראל תחילה, מקום 7"
+  },
+  {
+   "key": "candidates|israel-first:8|display_name",
+   "he": "פנחס בינו",
+   "ctx": "רשימת ישראל תחילה, מקום 8"
+  },
+  {
+   "key": "candidates|israel-first:8|official_name",
+   "he": "בינו פנחס",
+   "ctx": "רשימת ישראל תחילה, מקום 8"
+  },
+  {
+   "key": "candidates|israel-first:9|display_name",
+   "he": "כפיר לוי",
+   "ctx": "רשימת ישראל תחילה, מקום 9"
+  },
+  {
+   "key": "candidates|israel-first:9|official_name",
+   "he": "לוי כפיר",
+   "ctx": "רשימת ישראל תחילה, מקום 9"
+  },
+  {
+   "key": "candidates|israel-first:10|display_name",
+   "he": "אלון מנגסטו",
+   "ctx": "רשימת ישראל תחילה, מקום 10"
+  },
+  {
+   "key": "candidates|israel-first:10|official_name",
+   "he": "מנגסטו אלון",
+   "ctx": "רשימת ישראל תחילה, מקום 10"
+  },
+  {
+   "key": "candidates|israel-first:11|display_name",
+   "he": "פרקס דניאל אלחנדרו",
+   "ctx": "רשימת ישראל תחילה, מקום 11"
+  },
+  {
+   "key": "candidates|israel-first:12|display_name",
+   "he": "אדיר פהלבני",
+   "ctx": "רשימת ישראל תחילה, מקום 12"
+  },
+  {
+   "key": "candidates|israel-first:12|official_name",
+   "he": "פהלבני אדיר",
+   "ctx": "רשימת ישראל תחילה, מקום 12"
+  },
+  {
+   "key": "candidates|joint-list:1|display_name",
+   "he": "יוסף ג'בארין",
+   "ctx": "רשימת הרשימה המשותפת, מקום 1 — פרופסור יוסף תיסיר ג'בארין הוא משפטן ופוליטיקאי ערבי-ישראלי המכהן כיו\""
+  },
+  {
+   "key": "candidates|joint-list:1|official_name",
+   "he": "גבארין יוסף",
+   "ctx": "רשימת הרשימה המשותפת, מקום 1 — פרופסור יוסף תיסיר ג'בארין הוא משפטן ופוליטיקאי ערבי-ישראלי המכהן כיו\""
+  },
+  {
+   "key": "candidates|joint-list:2|display_name",
+   "he": "אחמד טיבי",
+   "ctx": "רשימת הרשימה המשותפת, מקום 2, חבר/ת הכנסת מכהן/ת — אחמד טיבי הוא פוליטיקאי ערבי-ישראלי מוסלמי, המכהן כחבר הכנסת מטעם מפלג"
+  },
+  {
+   "key": "candidates|joint-list:2|official_name",
+   "he": "טיבי אחמד",
+   "ctx": "רשימת הרשימה המשותפת, מקום 2, חבר/ת הכנסת מכהן/ת — אחמד טיבי הוא פוליטיקאי ערבי-ישראלי מוסלמי, המכהן כחבר הכנסת מטעם מפלג"
+  },
+  {
+   "key": "candidates|joint-list:3|display_name",
+   "he": "סאמי אבו שחאדה",
+   "ctx": "רשימת הרשימה המשותפת, מקום 3 — סאמי אבו שחאדה הוא פוליטיקאי ערביישראלי המכהן כיושב ראש מפלגת בל\"ד ולש"
+  },
+  {
+   "key": "candidates|joint-list:3|official_name",
+   "he": "אבו שחאדה סאמי",
+   "ctx": "רשימת הרשימה המשותפת, מקום 3 — סאמי אבו שחאדה הוא פוליטיקאי ערביישראלי המכהן כיושב ראש מפלגת בל\"ד ולש"
+  },
+  {
+   "key": "candidates|joint-list:4|display_name",
+   "he": "פאתן ג'טאס",
+   "ctx": "רשימת הרשימה המשותפת, מקום 4"
+  },
+  {
+   "key": "candidates|joint-list:4|official_name",
+   "he": "ג'טאס פאתן",
+   "ctx": "רשימת הרשימה המשותפת, מקום 4"
+  },
+  {
+   "key": "candidates|joint-list:5|display_name",
+   "he": "בכר עואודה",
+   "ctx": "רשימת הרשימה המשותפת, מקום 5"
+  },
+  {
+   "key": "candidates|joint-list:5|official_name",
+   "he": "עואודה בכר",
+   "ctx": "רשימת הרשימה המשותפת, מקום 5"
+  },
+  {
+   "key": "candidates|joint-list:6|display_name",
+   "he": "עופר כסיף",
+   "ctx": "רשימת הרשימה המשותפת, מקום 6, חבר/ת הכנסת מכהן/ת — עופר כסיף הוא פוליטיקאי ישראלי וחבר הכנסת מטעם מפלגת חד\"ש. דוקטור לפיל"
+  },
+  {
+   "key": "candidates|joint-list:6|official_name",
+   "he": "כסיף עופר",
+   "ctx": "רשימת הרשימה המשותפת, מקום 6, חבר/ת הכנסת מכהן/ת — עופר כסיף הוא פוליטיקאי ישראלי וחבר הכנסת מטעם מפלגת חד\"ש. דוקטור לפיל"
+  },
+  {
+   "key": "candidates|joint-list:7|display_name",
+   "he": "יוסף עטאונה",
+   "ctx": "רשימת הרשימה המשותפת, מקום 7 — יוסף עטאונה הוא פוליטיקאי ערבי ישראלי, ששימש כחבר הכנסת. הוא פעיל במאב"
+  },
+  {
+   "key": "candidates|joint-list:7|official_name",
+   "he": "אלעטאוונה יוסף",
+   "ctx": "רשימת הרשימה המשותפת, מקום 7 — יוסף עטאונה הוא פוליטיקאי ערבי ישראלי, ששימש כחבר הכנסת. הוא פעיל במאב"
+  },
+  {
+   "key": "candidates|joint-list:8|display_name",
+   "he": "מהא כרכבי-סבאח",
+   "ctx": "רשימת הרשימה המשותפת, מקום 8"
+  }
+ ]
+}

@@ -1,0 +1,752 @@
+[
+ {
+  "key": "lists|together|name",
+  "he": "ביחד",
+  "value": "በአንድ ላይ"
+ },
+ {
+  "key": "lists|together|official_name",
+  "he": "ביחד בראשות נפתלי בנט",
+  "value": "በናፍታሊ ቤኔት የሚመራ በአንድ ላይ"
+ },
+ {
+  "key": "lists|together|parties.0",
+  "he": "ביחד בראשות בנט מחזירים את התקווה",
+  "value": "በቤኔት የሚመራ በአንድ ላይ ተስፋን እንመልሳለን"
+ },
+ {
+  "key": "lists|together|parties.1",
+  "he": "יש עתיד - בראשות יאיר לפיד",
+  "value": "የሽ አቲድ - በያኢር ላፒድ የሚመራ"
+ },
+ {
+  "key": "lists|yashar|name",
+  "he": "ישר!",
+  "value": "ያሻር!"
+ },
+ {
+  "key": "lists|yashar|official_name",
+  "he": "ישר! עם איזנקוט לראשות הממשלה מאחדים את ישראל",
+  "value": "ያሻር! ከአይዘንኮት ጋር ለጠቅላይ ሚኒስትርነት እስራኤልን እናዋህዳለን"
+ },
+ {
+  "key": "lists|yashar|parties.0",
+  "he": "ישר לישראל עם איזנקוט",
+  "value": "ለእስራኤል ቀና ከአይዘንኮት ጋር"
+ },
+ {
+  "key": "lists|yashar|parties.1",
+  "he": "יסודות ישראל",
+  "value": "የእስራኤል መሠረቶች"
+ },
+ {
+  "key": "lists|sharshar|name",
+  "he": "שרשר לאהבה ולאחדות העם",
+  "value": "ሻርሻር ለፍቅርና ለሕዝብ አንድነት"
+ },
+ {
+  "key": "lists|sharshar|official_name",
+  "he": "שרשר לאהבה ואחדות העם",
+  "value": "ሻርሻር ለፍቅርና ለሕዝብ አንድነት"
+ },
+ {
+  "key": "lists|partnership-for-all|name",
+  "he": "השותפות לכולם",
+  "value": "ለሁሉም ሽርክና"
+ },
+ {
+  "key": "lists|partnership-for-all|official_name",
+  "he": "השותפות לכולם",
+  "value": "ለሁሉም ሽርክና"
+ },
+ {
+  "key": "lists|pirates|name",
+  "he": "הפיראטים",
+  "value": "ፓይሬትስ"
+ },
+ {
+  "key": "lists|pirates|official_name",
+  "he": "הפיראטים – צפים לטוב",
+  "value": "ፓይሬትስ - ወደ መልካም እንንሳፈፋለን"
+ },
+ {
+  "key": "lists|amcha-yisrael|name",
+  "he": "עמך ישראל",
+  "value": "አምቻ እስራኤል"
+ },
+ {
+  "key": "lists|amcha-yisrael|official_name",
+  "he": "עמך ישראל בראשות עופר וינטר",
+  "value": "በኦፈር ቪንተር የሚመራ አምቻ እስራኤል"
+ },
+ {
+  "key": "lists|israel-first|name",
+  "he": "ישראל תחילה",
+  "value": "እስራኤል ቀዳሚ"
+ },
+ {
+  "key": "lists|israel-first|official_name",
+  "he": "ישראל תחילה בראשות שרן השכל",
+  "value": "በሻረን ሃስኬል የሚመራ እስራኤል ቀዳሚ"
+ },
+ {
+  "key": "lists|gan-eden|name",
+  "he": "גן עדן",
+  "value": "ገነት"
+ },
+ {
+  "key": "lists|gan-eden|official_name",
+  "he": "גן עדן בראשות ישוע ישראל בן דוד",
+  "value": "በየሹዋ እስራኤል ቤን ዳዊት የሚመራ ገነት"
+ },
+ {
+  "key": "lists|womens-voice|name",
+  "he": "קול הנשים",
+  "value": "የሴቶች ድምፅ"
+ },
+ {
+  "key": "lists|womens-voice|official_name",
+  "he": "קול הנשים",
+  "value": "የሴቶች ድምፅ"
+ },
+ {
+  "key": "lists|beyachad-natzliach|name",
+  "he": "ביחד נצליח",
+  "value": "በአንድ ላይ እንሳካለን"
+ },
+ {
+  "key": "lists|beyachad-natzliach|official_name",
+  "he": "מפלגת ביחד נצליח – רשימה משותפת ערבית יהודית בראשות אבי שקד",
+  "value": "በአቪ ሻኬድ የሚመራ የበአንድ ላይ እንሳካለን ፓርቲ - የአረብና የአይሁድ የጋራ ዝርዝር"
+ },
+ {
+  "key": "lists|yisrael-beiteinu|name",
+  "he": "ישראל ביתנו",
+  "value": "እስራኤል ቤተናው"
+ },
+ {
+  "key": "lists|yisrael-beiteinu|official_name",
+  "he": "ישראל ביתנו בראשות אביגדור ליברמן",
+  "value": "በአቪግዶር ሊበርማን የሚመራ እስራኤል ቤተናው"
+ },
+ {
+  "key": "lists|mishpat-tzedek|name",
+  "he": "משפט צדק",
+  "value": "ፍትሐዊ ፍርድ"
+ },
+ {
+  "key": "lists|mishpat-tzedek|official_name",
+  "he": "משפט צדק",
+  "value": "ፍትሐዊ ፍርድ"
+ },
+ {
+  "key": "lists|shma|name",
+  "he": "שמע",
+  "value": "ሽማ"
+ },
+ {
+  "key": "lists|shma|official_name",
+  "he": "שמע בראשות נפתלי גולדמן",
+  "value": "በናፍታሊ ጎልድማን የሚመራ ሽማ"
+ },
+ {
+  "key": "lists|otzma-yehudit|name",
+  "he": "עוצמה יהודית",
+  "value": "ኦትዝማ የሁዲት"
+ },
+ {
+  "key": "lists|otzma-yehudit|official_name",
+  "he": "עוצמה יהודית בראשות איתמר בן גביר",
+  "value": "በኢታማር ቤን ግቪር የሚመራ ኦትዝማ የሁዲት"
+ },
+ {
+  "key": "lists|otzma-yehudit|parties.0",
+  "he": "חזית יהודית לאומית (המוכרת בכינוי עוצמה יהודית).",
+  "value": "የአይሁድ ብሔራዊ ግንባር (ኦትዝማ የሁዲት በመባል የሚታወቀው)።"
+ },
+ {
+  "key": "lists|otzma-yehudit|parties.1",
+  "he": "ארץ ישראל שלנו – מפלגה יהודית מאוחדת לשלמות התורה העם והארץ (מפלגת מדף השייכת לעוצמה יהודית).",
+  "value": "የእኛ የእስራኤል ምድር - ለሕግ፣ ለሕዝብና ለምድር ሙሉነት የተዋሐደ የአይሁድ ፓርቲ (የኦትዝማ የሁዲት ንብረት የሆነ የመደርደሪያ ፓርቲ)።"
+ },
+ {
+  "key": "lists|new-order|name",
+  "he": "סדר חדש",
+  "value": "አዲስ ሥርዓት"
+ },
+ {
+  "key": "lists|new-order|official_name",
+  "he": "סדר-חדש לכינון חוקה, להפרדת רשויות ולבחירות אישיות",
+  "value": "ሕገ መንግሥት ለመመሥረት፣ ሥልጣንን ለመለየትና ለግለሰብ ምርጫ አዲስ ሥርዓት"
+ },
+ {
+  "key": "lists|reservists-economic|name",
+  "he": "המילואימניקים והכלכלית",
+  "value": "ተጠባባቂዎቹና ኢኮኖሚያዊው"
+ },
+ {
+  "key": "lists|reservists-economic|official_name",
+  "he": "המילואימניקים והכלכלית בראשות יועז הנדל וירון זליכה",
+  "value": "በዮዓዝ ሄንደል እና በይሮን ዘሊኻ የሚመራ ተጠባባቂዎቹና ኢኮኖሚያዊው"
+ },
+ {
+  "key": "lists|reservists-economic|parties.0",
+  "he": "המילואימניקים",
+  "value": "ተጠባባቂዎቹ"
+ },
+ {
+  "key": "lists|reservists-economic|parties.1",
+  "he": "הכלכלית החדשה",
+  "value": "አዲሱ ኢኮኖሚያዊ"
+ },
+ {
+  "key": "lists|democrats|name",
+  "he": "הדמוקרטים",
+  "value": "ዴሞክራቶች"
+ },
+ {
+  "key": "lists|democrats|official_name",
+  "he": "הדמוקרטים בראשות יאיר גולן",
+  "value": "በያኢር ጎላን የሚመራ ዴሞክራቶች"
+ },
+ {
+  "key": "lists|democrats|parties.0",
+  "he": "מפלגת הדמוקרטים מיסודה של תנועת העבודה",
+  "value": "ከሰራተኞች ንቅናቄ የመነጨ የዴሞክራቶች ፓርቲ"
+ },
+ {
+  "key": "lists|democrats|parties.1",
+  "he": "מרצ",
+  "value": "መረትዝ"
+ },
+ {
+  "key": "lists|raam|name",
+  "he": "רע\"ם",
+  "value": "ራዓም"
+ },
+ {
+  "key": "lists|raam|official_name",
+  "he": "רע\"ם – הרשימה הערבית המאוחדת",
+  "value": "ራዓም - የተባበረው የአረብ ዝርዝር"
+ },
+ {
+  "key": "lists|shas|name",
+  "he": "ש\"ס",
+  "value": "ሽ\"ስ"
+ },
+ {
+  "key": "lists|shas|official_name",
+  "he": "התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יוסף זצ\"ל",
+  "value": "የሴፋርዲ የኦሪት ጠባቂዎች ማኅበር፣ የመምህር ረቢ ዖቫድያ ዮሴፍ የተባረከ መታሰቢያ ንቅናቄ"
+ },
+ {
+  "key": "lists|haredi-public|name",
+  "he": "הציבור החרדי",
+  "value": "የሃረዲ ሕዝብ"
+ },
+ {
+  "key": "lists|haredi-public|official_name",
+  "he": "הציבור החרדי בראשות מוטי ליטנר",
+  "value": "በሞቲ ሊትነር የሚመራ የሃረዲ ሕዝብ"
+ },
+ {
+  "key": "lists|me-and-you|name",
+  "he": "אני ואתה מפלגת העם הישראלית",
+  "value": "እኔና አንተ የእስራኤል ሕዝብ ፓርቲ"
+ },
+ {
+  "key": "lists|me-and-you|official_name",
+  "he": "אני ואתה מפלגת העם הישראלית",
+  "value": "እኔና አንተ የእስራኤል ሕዝብ ፓርቲ"
+ },
+ {
+  "key": "lists|brit-olam|name",
+  "he": "ברית עולם",
+  "value": "የዘላለም ቃል ኪዳን"
+ },
+ {
+  "key": "lists|brit-olam|official_name",
+  "he": "ברית עולם לגאולת ישראל",
+  "value": "የዘላለም ቃል ኪዳን ለእስራኤል ቤዛነት"
+ },
+ {
+  "key": "lists|hatikun|name",
+  "he": "התיקון",
+  "value": "ማሻሻያው"
+ },
+ {
+  "key": "lists|hatikun|official_name",
+  "he": "התיקון לשיטת הבחירות והממשל",
+  "value": "የምርጫ ሥርዓትና የአስተዳደር ማሻሻያው"
+ },
+ {
+  "key": "lists|bible-bloc|name",
+  "he": "גה\"ת-גוש התנ\"כי",
+  "value": "ጌሃት - የመጽሐፍ ቅዱስ ቡድን"
+ },
+ {
+  "key": "lists|bible-bloc|official_name",
+  "he": "גה\"ת – גוש התנ\"כי",
+  "value": "ጌሃት - የመጽሐፍ ቅዱስ ቡድን"
+ },
+ {
+  "key": "lists|betach|name",
+  "he": "בטח",
+  "value": "ቤታህ"
+ },
+ {
+  "key": "lists|betach|official_name",
+  "he": "בטח – בטחון חברתי בראשות סמיון גרפמן",
+  "value": "ቤታህ - ማኅበራዊ ደኅንነት በሰሚዮን ግራፍማን የሚመራ"
+ },
+ {
+  "key": "lists|orot-hashahar|name",
+  "he": "אורות השחר",
+  "value": "የንጋት ብርሃናት"
+ },
+ {
+  "key": "lists|orot-hashahar|official_name",
+  "he": "אורות השחר בראשות ניסים לוק",
+  "value": "በኒሲም ሉክ የሚመራ የንጋት ብርሃናት"
+ },
+ {
+  "key": "lists|personal-safety|name",
+  "he": "בטחון אישי",
+  "value": "የግል ደኅንነት"
+ },
+ {
+  "key": "lists|personal-safety|official_name",
+  "he": "ביטחון אישי",
+  "value": "የግል ደኅንነት"
+ },
+ {
+  "key": "lists|color-black|name",
+  "he": "צבע שחור – מגן עולם התורה",
+  "value": "ጥቁር ቀለም - የኦሪት ዓለም ጋሻ"
+ },
+ {
+  "key": "lists|color-black|official_name",
+  "he": "צבע שחור – מגן עולם התורה",
+  "value": "ጥቁር ቀለም - የኦሪት ዓለም ጋሻ"
+ },
+ {
+  "key": "lists|likud|name",
+  "he": "הליכוד",
+  "value": "ሊኩድ"
+ },
+ {
+  "key": "lists|likud|official_name",
+  "he": "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה",
+  "value": "በቢንያሚን ኔታንያሁ መሪነት ለጠቅላይ ሚኒስትርነት የቀረበው ሊኩድ"
+ },
+ {
+  "key": "lists|likud|parties.0",
+  "he": "הליכוד, תנועה לאומית ליברלית",
+  "value": "ሊኩድ፣ ብሔራዊ ሊበራል ንቅናቄ"
+ },
+ {
+  "key": "lists|likud|parties.1",
+  "he": "תקווה חדשה הימין הממלכתי",
+  "value": "አዲስ ተስፋ - መንግሥታዊ ቀኝ"
+ },
+ {
+  "key": "lists|blue-and-white|name",
+  "he": "כחול לבן",
+  "value": "ክሆል ላቫን"
+ },
+ {
+  "key": "lists|blue-and-white|official_name",
+  "he": "כחול לבן בראשות בני גנץ",
+  "value": "በቤኒ ጋንትስ የሚመራ ክሆል ላቫን"
+ },
+ {
+  "key": "lists|rzp-zehut|name",
+  "he": "הציונות הדתית וזהות",
+  "value": "ሃይማኖታዊ ጽዮናዊነትና ዜሁት"
+ },
+ {
+  "key": "lists|rzp-zehut|official_name",
+  "he": "הציונות הדתית בראשות בצלאל סמוטריץ' וזהות בראשות משה פייגלין",
+  "value": "በበጽልኤል ስሞትሪች የሚመራ ሃይማኖታዊ ጽዮናዊነት እና በሞሼ ፈይግሊን የሚመራ ዜሁት"
+ },
+ {
+  "key": "lists|rzp-zehut|parties.0",
+  "he": "האיחוד הלאומי–תקומה (המוכרת בכינוי הציונות הדתית).",
+  "value": "ብሔራዊ ኅብረት-ተኩማ (ሃይማኖታዊ ጽዮናዊነት በመባል የሚታወቀው)።"
+ },
+ {
+  "key": "lists|rzp-zehut|parties.1",
+  "he": "זהות",
+  "value": "ዜሁት"
+ },
+ {
+  "key": "lists|rzp-zehut|parties.2",
+  "he": "עתיד אחד – עתיד טוב לישראל (מפלגת מדף השייכת לציונות הדתית).",
+  "value": "አንድ ወደፊት - ለእስራኤል መልካም ወደፊት (የሃይማኖታዊ ጽዮናዊነት ንብረት የሆነ የመደርደሪያ ፓርቲ)።"
+ },
+ {
+  "key": "lists|ahi|name",
+  "he": "אחי",
+  "value": "አሒ"
+ },
+ {
+  "key": "lists|ahi|official_name",
+  "he": "תנועת אחי תנועתו של הרב יורם אברג'ל זצ\"ל",
+  "value": "በረቢ ዮራም አብርጀል የተባረከ መታሰቢያ የተመሠረተው የአሒ ንቅናቄ"
+ },
+ {
+  "key": "lists|tzomet-beit-israel|name",
+  "he": "צומת בית ישראל",
+  "value": "ጾሜት ቤት እስራኤል"
+ },
+ {
+  "key": "lists|tzomet-beit-israel|official_name",
+  "he": "צומת בית ישראל",
+  "value": "ጾሜት ቤት እስራኤል"
+ },
+ {
+  "key": "lists|tzomet-beit-israel|parties.0",
+  "he": "מפלגת צומת",
+  "value": "የጾሜት ፓርቲ"
+ },
+ {
+  "key": "lists|tzomet-beit-israel|parties.1",
+  "he": "בית ימני חברתי ציוני לכלל עם ישראל",
+  "value": "ለመላው የእስራኤል ሕዝብ የቀኝ፣ ማኅበራዊና ጽዮናዊ ቤት"
+ },
+ {
+  "key": "lists|tkuma|name",
+  "he": "דרך חזון ותקומה",
+  "value": "የራዕይና የትንሣኤ መንገድ"
+ },
+ {
+  "key": "lists|tkuma|official_name",
+  "he": "מפלגת דרך חזון ותקומה",
+  "value": "የራዕይና የትንሣኤ መንገድ ፓርቲ"
+ },
+ {
+  "key": "lists|joint-list|name",
+  "he": "הרשימה המשותפת",
+  "value": "የጋራ ዝርዝር"
+ },
+ {
+  "key": "lists|joint-list|official_name",
+  "he": "הרשימה המשותפת",
+  "value": "የጋራ ዝርዝር"
+ },
+ {
+  "key": "lists|joint-list|parties.0",
+  "he": "המפלגה הקומוניסטית הישראלית",
+  "value": "የእስራኤል ኮሚኒስት ፓርቲ"
+ },
+ {
+  "key": "lists|joint-list|parties.1",
+  "he": "ברית לאומית דמוקרטית",
+  "value": "ብሔራዊ ዴሞክራሲያዊ ጥምረት"
+ },
+ {
+  "key": "lists|joint-list|parties.2",
+  "he": "התנועה הערבית להתחדשות",
+  "value": "የአረብ መታደስ ንቅናቄ"
+ },
+ {
+  "key": "lists|hakahal|name",
+  "he": "הקהל",
+  "value": "ሃካሃል"
+ },
+ {
+  "key": "lists|hakahal|official_name",
+  "he": "הקהל – מפלגה כלל חרדית שנציגיה נבחרים על ידי הציבור בראשות הרב שלמה אלבוים",
+  "value": "ሃካሃል - በሕዝብ የሚመረጡ ተወካዮች ያሉት መላው የሃረዲ ፓርቲ፣ በረቢ ሽሎሞ አልባም የሚመራ"
+ },
+ {
+  "key": "lists|utj|name",
+  "he": "יהדות התורה",
+  "value": "የተባበረው የኦሪት ይሁዲነት"
+ },
+ {
+  "key": "lists|utj|official_name",
+  "he": "יהדות התורה והשבת אגודת ישראל – דגל התורה",
+  "value": "የተባበረው የኦሪት ይሁዲነት እና ሰንበት - አጉዳት እስራኤል - ደጌል ሃቶራ"
+ },
+ {
+  "key": "lists|utj|parties.0",
+  "he": "אגודת החרדים – דגל התורה.",
+  "value": "አጉዳት ሃሃረዲም - ደጌል ሃቶራ።"
+ },
+ {
+  "key": "lists|utj|parties.1",
+  "he": "הסתדרות אגודת ישראל בארץ ישראל.",
+  "value": "በእስራኤል ምድር የአጉዳት እስራኤል ማኅበር።"
+ },
+ {
+  "key": "lists|utj|parties.2",
+  "he": "חומת תורת ישראל (שלומי אמונים וחסידות בעלז)",
+  "value": "የእስራኤል ኦሪት ግንብ (ሽሎሚ አሙኒም እና የቤልዝ ሐሲዲዝም)"
+ },
+ {
+  "key": "lists|noam|name",
+  "he": "נעם",
+  "value": "ኖዓም"
+ },
+ {
+  "key": "lists|noam|official_name",
+  "he": "נעם לישראל למען עתיד הילדים בראשות אבי מעוז",
+  "value": "በአቪ ማዖዝ የሚመራ ለእስራኤል፣ ለልጆች የወደፊት ኖዓም"
+ },
+ {
+  "key": "lists|noam|parties.0",
+  "he": "לזוז (המוכרת בכינוי מפלגת נעם).",
+  "value": "ለዞዝ (የኖዓም ፓርቲ በመባል የሚታወቀው)።"
+ },
+ {
+  "key": "lists|noam|parties.1",
+  "he": "אחריות לאומית - למען עתיד ילדינו",
+  "value": "ብሔራዊ ኃላፊነት - ለልጆቻችን የወደፊት"
+ },
+ {
+  "key": "candidates|ahi:1|display_name",
+  "he": "יובל אלמלך",
+  "value": "ዩቫል ኤልማሌክ"
+ },
+ {
+  "key": "candidates|ahi:1|official_name",
+  "he": "אלמלך יובל",
+  "value": "ዩቫል ኤልማሌክ"
+ },
+ {
+  "key": "candidates|ahi:2|display_name",
+  "he": "אפל ישראל אביחי",
+  "value": "ይስራኤል አቪሐይ አፕል"
+ },
+ {
+  "key": "candidates|ahi:3|display_name",
+  "he": "ארז ראובן",
+  "value": "ሬዑቬን ኤሬዝ"
+ },
+ {
+  "key": "candidates|ahi:3|official_name",
+  "he": "ראובן ארז",
+  "value": "ሬዑቬን ኤሬዝ"
+ },
+ {
+  "key": "candidates|ahi:4|display_name",
+  "he": "אברהם דיין",
+  "value": "አብርሃም ዳያን"
+ },
+ {
+  "key": "candidates|ahi:4|official_name",
+  "he": "דיין אברהם",
+  "value": "አብርሃም ዳያን"
+ },
+ {
+  "key": "candidates|ahi:5|display_name",
+  "he": "אדיר כהן",
+  "value": "አዲር ኮኸን"
+ },
+ {
+  "key": "candidates|ahi:5|official_name",
+  "he": "כהן אדיר",
+  "value": "አዲር ኮኸን"
+ },
+ {
+  "key": "candidates|ahi:6|display_name",
+  "he": "חנן יחזקאל",
+  "value": "ሐናን የሕዝቅኤል"
+ },
+ {
+  "key": "candidates|ahi:6|official_name",
+  "he": "יחזקאל חנן",
+  "value": "ሐናን የሕዝቅኤል"
+ },
+ {
+  "key": "candidates|ahi:7|display_name",
+  "he": "יהודה דדון",
+  "value": "የሁዳ ዳዶን"
+ },
+ {
+  "key": "candidates|ahi:7|official_name",
+  "he": "דדון יהודה",
+  "value": "የሁዳ ዳዶን"
+ },
+ {
+  "key": "candidates|ahi:8|display_name",
+  "he": "וודגה גרמה גד",
+  "value": "ወዳጌ ግርማ ጋድ"
+ },
+ {
+  "key": "candidates|ahi:9|display_name",
+  "he": "סויסה יצחק שניר רפאל",
+  "value": "ይጽሐቅ ሽኒር ራፋኤል ሱይሳ"
+ },
+ {
+  "key": "candidates|ahi:10|display_name",
+  "he": "נהרי יואל יקיר",
+  "value": "ዮኤል ያኪር ናህሪ"
+ },
+ {
+  "key": "candidates|amcha-yisrael:1|display_name",
+  "he": "עופר וינטר",
+  "value": "ኦፈር ቪንተር"
+ },
+ {
+  "key": "candidates|amcha-yisrael:1|official_name",
+  "he": "ווינטר עופר",
+  "value": "ኦፈር ቪንተር"
+ },
+ {
+  "key": "candidates|amcha-yisrael:2|display_name",
+  "he": "יוסף חדאד",
+  "value": "ዮሴፍ ሃዳድ"
+ },
+ {
+  "key": "candidates|amcha-yisrael:2|official_name",
+  "he": "חדאד יוסף",
+  "value": "ዮሴፍ ሃዳድ"
+ },
+ {
+  "key": "candidates|amcha-yisrael:3|display_name",
+  "he": "נטעלי שם טוב",
+  "value": "ነታሊ ሸም ቶቭ"
+ },
+ {
+  "key": "candidates|amcha-yisrael:3|official_name",
+  "he": "שם טוב נטעלי",
+  "value": "ነታሊ ሸም ቶቭ"
+ },
+ {
+  "key": "candidates|amcha-yisrael:4|display_name",
+  "he": "ערן בן ארי",
+  "value": "ኤራን ቤን አሪ"
+ },
+ {
+  "key": "candidates|amcha-yisrael:4|official_name",
+  "he": "בן ארי ערן",
+  "value": "ኤራን ቤን አሪ"
+ },
+ {
+  "key": "candidates|amcha-yisrael:5|display_name",
+  "he": "פלר חסן-נחום",
+  "value": "ፔለር ሐሳን-ናሆም"
+ },
+ {
+  "key": "candidates|amcha-yisrael:5|official_name",
+  "he": "חסן-נחום פלר",
+  "value": "ፔለር ሐሳን-ናሆም"
+ },
+ {
+  "key": "candidates|amcha-yisrael:6|display_name",
+  "he": "ללי דרעי",
+  "value": "ሌሊ ዴራዒ"
+ },
+ {
+  "key": "candidates|amcha-yisrael:6|official_name",
+  "he": "דרעי ללי",
+  "value": "ሌሊ ዴራዒ"
+ },
+ {
+  "key": "candidates|amcha-yisrael:7|display_name",
+  "he": "רונן בודנרו",
+  "value": "ሮነን ቦድነሮ"
+ },
+ {
+  "key": "candidates|amcha-yisrael:7|official_name",
+  "he": "בודנרו רונן",
+  "value": "ሮነን ቦድነሮ"
+ },
+ {
+  "key": "candidates|amcha-yisrael:8|display_name",
+  "he": "דוד נחום בן ציון",
+  "value": "ዳዊት ናሆም ቤን ጽዮን"
+ },
+ {
+  "key": "candidates|amcha-yisrael:8|official_name",
+  "he": "בן ציון דוד נחום",
+  "value": "ዳዊት ናሆም ቤን ጽዮን"
+ },
+ {
+  "key": "candidates|amcha-yisrael:9|display_name",
+  "he": "אביב עזרא",
+  "value": "አቪቭ ዕዝራ"
+ },
+ {
+  "key": "candidates|amcha-yisrael:9|official_name",
+  "he": "עזרא אביב חיים",
+  "value": "አቪቭ ሐይም ዕዝራ"
+ },
+ {
+  "key": "candidates|amcha-yisrael:10|display_name",
+  "he": "אלי ג'ינו",
+  "value": "ኤሊ ጂኖ"
+ },
+ {
+  "key": "candidates|amcha-yisrael:10|official_name",
+  "he": "ג'ינו אלי",
+  "value": "ኤሊ ጂኖ"
+ },
+ {
+  "key": "candidates|amcha-yisrael:11|display_name",
+  "he": "קראוניק זריפה סגלית",
+  "value": "ዘሪፋ ሰጋሊት ክራውኒክ"
+ },
+ {
+  "key": "candidates|amcha-yisrael:12|display_name",
+  "he": "רובין אריק מת'יו",
+  "value": "ኤሪክ ማቲው ሮቢን"
+ },
+ {
+  "key": "candidates|amcha-yisrael:13|display_name",
+  "he": "עלמאדין אבראהים",
+  "value": "አላዲን ኢብራሂም"
+ },
+ {
+  "key": "candidates|amcha-yisrael:13|official_name",
+  "he": "אבראהים עלמאדין",
+  "value": "አላዲን ኢብራሂም"
+ },
+ {
+  "key": "candidates|amcha-yisrael:14|display_name",
+  "he": "הר ציון משה",
+  "value": "ሞሼ ሃር ጽዮን"
+ },
+ {
+  "key": "candidates|amcha-yisrael:15|display_name",
+  "he": "חיים אידלברג לילך",
+  "value": "ሊላክ ሐይም ኢዴልበርግ"
+ },
+ {
+  "key": "candidates|amcha-yisrael:16|display_name",
+  "he": "משה טולדנו",
+  "value": "ሞሼ ቶሌዳኖ"
+ },
+ {
+  "key": "candidates|amcha-yisrael:16|official_name",
+  "he": "טולדנו משה",
+  "value": "ሞሼ ቶሌዳኖ"
+ },
+ {
+  "key": "candidates|amcha-yisrael:17|display_name",
+  "he": "רז מלכה",
+  "value": "ራዝ ማልካ"
+ },
+ {
+  "key": "candidates|amcha-yisrael:17|official_name",
+  "he": "מלכה רז",
+  "value": "ራዝ ማልካ"
+ },
+ {
+  "key": "candidates|amcha-yisrael:18|display_name",
+  "he": "לוי דור יצחק",
+  "value": "ዶር ይጽሐቅ ሌቪ"
+ },
+ {
+  "key": "candidates|betach:1|display_name",
+  "he": "סמיון גרפמן",
+  "value": "ሰሚዮን ግራፍማን"
+ },
+ {
+  "key": "candidates|betach:1|official_name",
+  "he": "גרפמן סמיון",
+  "value": "ሰሚዮን ግራፍማን"
+ }
+]

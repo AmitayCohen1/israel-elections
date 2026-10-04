@@ -1,0 +1,683 @@
+{
+ "locale": "ru",
+ "series": "names",
+ "target_language": "Russian",
+ "source_language": "Hebrew",
+ "instructions": "Each item is a Hebrew NAME (person, party or list). Write how that name is conventionally written in Russian (Cyrillic). Examples: Биньямин Нетаньяху, Яир Лапид, Ликуд, Еш Атид. Use the established Russian-language spelling (Wikipedia, Russian Israeli media: NEWSru.co.il, vesty.co.il); otherwise standard Hebrew-to-Russian practical transcription. \"ctx\" is context to identify the person or party (list, slot, MK status, start of bio): use it, do not translate it. Names are given either in natural order or surname-first (official form like \"כהן יוסי\"): always output the natural given-name-first order. Party and list names: use the established Russian name of the party if there is one, otherwise translate the meaning (e.g. \"הציונות הדתית\" = Religious Zionism) rather than transliterate. Keep ballot-letter acronyms as they are written. Output: for every item return {\"key\": <same key>, \"value\": <your translation>}. Return ONLY a JSON array (or {\"items\":[...]}) with one entry per input item, same keys, no omissions, no extra commentary. Value must be non-empty and written in the target script; never leave Hebrew letters in it. Preserve numbers, placeholders and punctuation meaning. Save the result as data/i18n/done/<locale>/<same file name>.",
+ "items": [
+  {
+   "key": "lists|together|name",
+   "he": "ביחד"
+  },
+  {
+   "key": "lists|together|official_name",
+   "he": "ביחד בראשות נפתלי בנט"
+  },
+  {
+   "key": "lists|together|parties.0",
+   "he": "ביחד בראשות בנט מחזירים את התקווה",
+   "ctx": "מפלגה ברשימת ביחד"
+  },
+  {
+   "key": "lists|together|parties.1",
+   "he": "יש עתיד - בראשות יאיר לפיד",
+   "ctx": "מפלגה ברשימת ביחד"
+  },
+  {
+   "key": "lists|yashar|name",
+   "he": "ישר!"
+  },
+  {
+   "key": "lists|yashar|official_name",
+   "he": "ישר! עם איזנקוט לראשות הממשלה מאחדים את ישראל"
+  },
+  {
+   "key": "lists|yashar|parties.0",
+   "he": "ישר לישראל עם איזנקוט",
+   "ctx": "מפלגה ברשימת ישר!"
+  },
+  {
+   "key": "lists|yashar|parties.1",
+   "he": "יסודות ישראל",
+   "ctx": "מפלגה ברשימת ישר!"
+  },
+  {
+   "key": "lists|sharshar|name",
+   "he": "שרשר לאהבה ולאחדות העם"
+  },
+  {
+   "key": "lists|sharshar|official_name",
+   "he": "שרשר לאהבה ואחדות העם"
+  },
+  {
+   "key": "lists|partnership-for-all|name",
+   "he": "השותפות לכולם"
+  },
+  {
+   "key": "lists|partnership-for-all|official_name",
+   "he": "השותפות לכולם"
+  },
+  {
+   "key": "lists|pirates|name",
+   "he": "הפיראטים"
+  },
+  {
+   "key": "lists|pirates|official_name",
+   "he": "הפיראטים – צפים לטוב"
+  },
+  {
+   "key": "lists|amcha-yisrael|name",
+   "he": "עמך ישראל"
+  },
+  {
+   "key": "lists|amcha-yisrael|official_name",
+   "he": "עמך ישראל בראשות עופר וינטר"
+  },
+  {
+   "key": "lists|israel-first|name",
+   "he": "ישראל תחילה"
+  },
+  {
+   "key": "lists|israel-first|official_name",
+   "he": "ישראל תחילה בראשות שרן השכל"
+  },
+  {
+   "key": "lists|gan-eden|name",
+   "he": "גן עדן"
+  },
+  {
+   "key": "lists|gan-eden|official_name",
+   "he": "גן עדן בראשות ישוע ישראל בן דוד"
+  },
+  {
+   "key": "lists|womens-voice|name",
+   "he": "קול הנשים"
+  },
+  {
+   "key": "lists|womens-voice|official_name",
+   "he": "קול הנשים"
+  },
+  {
+   "key": "lists|beyachad-natzliach|name",
+   "he": "ביחד נצליח"
+  },
+  {
+   "key": "lists|beyachad-natzliach|official_name",
+   "he": "מפלגת ביחד נצליח – רשימה משותפת ערבית יהודית בראשות אבי שקד"
+  },
+  {
+   "key": "lists|yisrael-beiteinu|name",
+   "he": "ישראל ביתנו"
+  },
+  {
+   "key": "lists|yisrael-beiteinu|official_name",
+   "he": "ישראל ביתנו בראשות אביגדור ליברמן"
+  },
+  {
+   "key": "lists|mishpat-tzedek|name",
+   "he": "משפט צדק"
+  },
+  {
+   "key": "lists|mishpat-tzedek|official_name",
+   "he": "משפט צדק"
+  },
+  {
+   "key": "lists|shma|name",
+   "he": "שמע"
+  },
+  {
+   "key": "lists|shma|official_name",
+   "he": "שמע בראשות נפתלי גולדמן"
+  },
+  {
+   "key": "lists|otzma-yehudit|name",
+   "he": "עוצמה יהודית"
+  },
+  {
+   "key": "lists|otzma-yehudit|official_name",
+   "he": "עוצמה יהודית בראשות איתמר בן גביר"
+  },
+  {
+   "key": "lists|otzma-yehudit|parties.0",
+   "he": "חזית יהודית לאומית (המוכרת בכינוי עוצמה יהודית).",
+   "ctx": "מפלגה ברשימת עוצמה יהודית"
+  },
+  {
+   "key": "lists|otzma-yehudit|parties.1",
+   "he": "ארץ ישראל שלנו – מפלגה יהודית מאוחדת לשלמות התורה העם והארץ (מפלגת מדף השייכת לעוצמה יהודית).",
+   "ctx": "מפלגה ברשימת עוצמה יהודית"
+  },
+  {
+   "key": "lists|new-order|name",
+   "he": "סדר חדש"
+  },
+  {
+   "key": "lists|new-order|official_name",
+   "he": "סדר-חדש לכינון חוקה, להפרדת רשויות ולבחירות אישיות"
+  },
+  {
+   "key": "lists|reservists-economic|name",
+   "he": "המילואימניקים והכלכלית"
+  },
+  {
+   "key": "lists|reservists-economic|official_name",
+   "he": "המילואימניקים והכלכלית בראשות יועז הנדל וירון זליכה"
+  },
+  {
+   "key": "lists|reservists-economic|parties.0",
+   "he": "המילואימניקים",
+   "ctx": "מפלגה ברשימת המילואימניקים והכלכלית"
+  },
+  {
+   "key": "lists|reservists-economic|parties.1",
+   "he": "הכלכלית החדשה",
+   "ctx": "מפלגה ברשימת המילואימניקים והכלכלית"
+  },
+  {
+   "key": "lists|democrats|name",
+   "he": "הדמוקרטים"
+  },
+  {
+   "key": "lists|democrats|official_name",
+   "he": "הדמוקרטים בראשות יאיר גולן"
+  },
+  {
+   "key": "lists|democrats|parties.0",
+   "he": "מפלגת הדמוקרטים מיסודה של תנועת העבודה",
+   "ctx": "מפלגה ברשימת הדמוקרטים"
+  },
+  {
+   "key": "lists|democrats|parties.1",
+   "he": "מרצ",
+   "ctx": "מפלגה ברשימת הדמוקרטים"
+  },
+  {
+   "key": "lists|raam|name",
+   "he": "רע\"ם"
+  },
+  {
+   "key": "lists|raam|official_name",
+   "he": "רע\"ם – הרשימה הערבית המאוחדת"
+  },
+  {
+   "key": "lists|shas|name",
+   "he": "ש\"ס"
+  },
+  {
+   "key": "lists|shas|official_name",
+   "he": "התאחדות הספרדים שומרי תורה תנועתו של מרן הרב עובדיה יוסף זצ\"ל"
+  },
+  {
+   "key": "lists|haredi-public|name",
+   "he": "הציבור החרדי"
+  },
+  {
+   "key": "lists|haredi-public|official_name",
+   "he": "הציבור החרדי בראשות מוטי ליטנר"
+  },
+  {
+   "key": "lists|me-and-you|name",
+   "he": "אני ואתה מפלגת העם הישראלית"
+  },
+  {
+   "key": "lists|me-and-you|official_name",
+   "he": "אני ואתה מפלגת העם הישראלית"
+  },
+  {
+   "key": "lists|brit-olam|name",
+   "he": "ברית עולם"
+  },
+  {
+   "key": "lists|brit-olam|official_name",
+   "he": "ברית עולם לגאולת ישראל"
+  },
+  {
+   "key": "lists|hatikun|name",
+   "he": "התיקון"
+  },
+  {
+   "key": "lists|hatikun|official_name",
+   "he": "התיקון לשיטת הבחירות והממשל"
+  },
+  {
+   "key": "lists|bible-bloc|name",
+   "he": "גה\"ת-גוש התנ\"כי"
+  },
+  {
+   "key": "lists|bible-bloc|official_name",
+   "he": "גה\"ת – גוש התנ\"כי"
+  },
+  {
+   "key": "lists|betach|name",
+   "he": "בטח"
+  },
+  {
+   "key": "lists|betach|official_name",
+   "he": "בטח – בטחון חברתי בראשות סמיון גרפמן"
+  },
+  {
+   "key": "lists|orot-hashahar|name",
+   "he": "אורות השחר"
+  },
+  {
+   "key": "lists|orot-hashahar|official_name",
+   "he": "אורות השחר בראשות ניסים לוק"
+  },
+  {
+   "key": "lists|personal-safety|name",
+   "he": "בטחון אישי"
+  },
+  {
+   "key": "lists|personal-safety|official_name",
+   "he": "ביטחון אישי"
+  },
+  {
+   "key": "lists|color-black|name",
+   "he": "צבע שחור – מגן עולם התורה"
+  },
+  {
+   "key": "lists|color-black|official_name",
+   "he": "צבע שחור – מגן עולם התורה"
+  },
+  {
+   "key": "lists|likud|name",
+   "he": "הליכוד"
+  },
+  {
+   "key": "lists|likud|official_name",
+   "he": "הליכוד בהנהגת בנימין נתניהו לראשות הממשלה"
+  },
+  {
+   "key": "lists|likud|parties.0",
+   "he": "הליכוד, תנועה לאומית ליברלית",
+   "ctx": "מפלגה ברשימת הליכוד"
+  },
+  {
+   "key": "lists|likud|parties.1",
+   "he": "תקווה חדשה הימין הממלכתי",
+   "ctx": "מפלגה ברשימת הליכוד"
+  },
+  {
+   "key": "lists|blue-and-white|name",
+   "he": "כחול לבן"
+  },
+  {
+   "key": "lists|blue-and-white|official_name",
+   "he": "כחול לבן בראשות בני גנץ"
+  },
+  {
+   "key": "lists|rzp-zehut|name",
+   "he": "הציונות הדתית וזהות"
+  },
+  {
+   "key": "lists|rzp-zehut|official_name",
+   "he": "הציונות הדתית בראשות בצלאל סמוטריץ' וזהות בראשות משה פייגלין"
+  },
+  {
+   "key": "lists|rzp-zehut|parties.0",
+   "he": "האיחוד הלאומי–תקומה (המוכרת בכינוי הציונות הדתית).",
+   "ctx": "מפלגה ברשימת הציונות הדתית וזהות"
+  },
+  {
+   "key": "lists|rzp-zehut|parties.1",
+   "he": "זהות",
+   "ctx": "מפלגה ברשימת הציונות הדתית וזהות"
+  },
+  {
+   "key": "lists|rzp-zehut|parties.2",
+   "he": "עתיד אחד – עתיד טוב לישראל (מפלגת מדף השייכת לציונות הדתית).",
+   "ctx": "מפלגה ברשימת הציונות הדתית וזהות"
+  },
+  {
+   "key": "lists|ahi|name",
+   "he": "אחי"
+  },
+  {
+   "key": "lists|ahi|official_name",
+   "he": "תנועת אחי תנועתו של הרב יורם אברג'ל זצ\"ל"
+  },
+  {
+   "key": "lists|tzomet-beit-israel|name",
+   "he": "צומת בית ישראל"
+  },
+  {
+   "key": "lists|tzomet-beit-israel|official_name",
+   "he": "צומת בית ישראל"
+  },
+  {
+   "key": "lists|tzomet-beit-israel|parties.0",
+   "he": "מפלגת צומת",
+   "ctx": "מפלגה ברשימת צומת בית ישראל"
+  },
+  {
+   "key": "lists|tzomet-beit-israel|parties.1",
+   "he": "בית ימני חברתי ציוני לכלל עם ישראל",
+   "ctx": "מפלגה ברשימת צומת בית ישראל"
+  },
+  {
+   "key": "lists|tkuma|name",
+   "he": "דרך חזון ותקומה"
+  },
+  {
+   "key": "lists|tkuma|official_name",
+   "he": "מפלגת דרך חזון ותקומה"
+  },
+  {
+   "key": "lists|joint-list|name",
+   "he": "הרשימה המשותפת"
+  },
+  {
+   "key": "lists|joint-list|official_name",
+   "he": "הרשימה המשותפת"
+  },
+  {
+   "key": "lists|joint-list|parties.0",
+   "he": "המפלגה הקומוניסטית הישראלית",
+   "ctx": "מפלגה ברשימת הרשימה המשותפת"
+  },
+  {
+   "key": "lists|joint-list|parties.1",
+   "he": "ברית לאומית דמוקרטית",
+   "ctx": "מפלגה ברשימת הרשימה המשותפת"
+  },
+  {
+   "key": "lists|joint-list|parties.2",
+   "he": "התנועה הערבית להתחדשות",
+   "ctx": "מפלגה ברשימת הרשימה המשותפת"
+  },
+  {
+   "key": "lists|hakahal|name",
+   "he": "הקהל"
+  },
+  {
+   "key": "lists|hakahal|official_name",
+   "he": "הקהל – מפלגה כלל חרדית שנציגיה נבחרים על ידי הציבור בראשות הרב שלמה אלבוים"
+  },
+  {
+   "key": "lists|utj|name",
+   "he": "יהדות התורה"
+  },
+  {
+   "key": "lists|utj|official_name",
+   "he": "יהדות התורה והשבת אגודת ישראל – דגל התורה"
+  },
+  {
+   "key": "lists|utj|parties.0",
+   "he": "אגודת החרדים – דגל התורה.",
+   "ctx": "מפלגה ברשימת יהדות התורה"
+  },
+  {
+   "key": "lists|utj|parties.1",
+   "he": "הסתדרות אגודת ישראל בארץ ישראל.",
+   "ctx": "מפלגה ברשימת יהדות התורה"
+  },
+  {
+   "key": "lists|utj|parties.2",
+   "he": "חומת תורת ישראל (שלומי אמונים וחסידות בעלז)",
+   "ctx": "מפלגה ברשימת יהדות התורה"
+  },
+  {
+   "key": "lists|noam|name",
+   "he": "נעם"
+  },
+  {
+   "key": "lists|noam|official_name",
+   "he": "נעם לישראל למען עתיד הילדים בראשות אבי מעוז"
+  },
+  {
+   "key": "lists|noam|parties.0",
+   "he": "לזוז (המוכרת בכינוי מפלגת נעם).",
+   "ctx": "מפלגה ברשימת נעם"
+  },
+  {
+   "key": "lists|noam|parties.1",
+   "he": "אחריות לאומית - למען עתיד ילדינו",
+   "ctx": "מפלגה ברשימת נעם"
+  },
+  {
+   "key": "candidates|ahi:1|display_name",
+   "he": "יובל אלמלך",
+   "ctx": "רשימת אחי, מקום 1"
+  },
+  {
+   "key": "candidates|ahi:1|official_name",
+   "he": "אלמלך יובל",
+   "ctx": "רשימת אחי, מקום 1"
+  },
+  {
+   "key": "candidates|ahi:2|display_name",
+   "he": "אפל ישראל אביחי",
+   "ctx": "רשימת אחי, מקום 2"
+  },
+  {
+   "key": "candidates|ahi:3|display_name",
+   "he": "ארז ראובן",
+   "ctx": "רשימת אחי, מקום 3"
+  },
+  {
+   "key": "candidates|ahi:3|official_name",
+   "he": "ראובן ארז",
+   "ctx": "רשימת אחי, מקום 3"
+  },
+  {
+   "key": "candidates|ahi:4|display_name",
+   "he": "אברהם דיין",
+   "ctx": "רשימת אחי, מקום 4"
+  },
+  {
+   "key": "candidates|ahi:4|official_name",
+   "he": "דיין אברהם",
+   "ctx": "רשימת אחי, מקום 4"
+  },
+  {
+   "key": "candidates|ahi:5|display_name",
+   "he": "אדיר כהן",
+   "ctx": "רשימת אחי, מקום 5"
+  },
+  {
+   "key": "candidates|ahi:5|official_name",
+   "he": "כהן אדיר",
+   "ctx": "רשימת אחי, מקום 5"
+  },
+  {
+   "key": "candidates|ahi:6|display_name",
+   "he": "חנן יחזקאל",
+   "ctx": "רשימת אחי, מקום 6"
+  },
+  {
+   "key": "candidates|ahi:6|official_name",
+   "he": "יחזקאל חנן",
+   "ctx": "רשימת אחי, מקום 6"
+  },
+  {
+   "key": "candidates|ahi:7|display_name",
+   "he": "יהודה דדון",
+   "ctx": "רשימת אחי, מקום 7"
+  },
+  {
+   "key": "candidates|ahi:7|official_name",
+   "he": "דדון יהודה",
+   "ctx": "רשימת אחי, מקום 7"
+  },
+  {
+   "key": "candidates|ahi:8|display_name",
+   "he": "וודגה גרמה גד",
+   "ctx": "רשימת אחי, מקום 8"
+  },
+  {
+   "key": "candidates|ahi:9|display_name",
+   "he": "סויסה יצחק שניר רפאל",
+   "ctx": "רשימת אחי, מקום 9"
+  },
+  {
+   "key": "candidates|ahi:10|display_name",
+   "he": "נהרי יואל יקיר",
+   "ctx": "רשימת אחי, מקום 10"
+  },
+  {
+   "key": "candidates|amcha-yisrael:1|display_name",
+   "he": "עופר וינטר",
+   "ctx": "רשימת עמך ישראל, מקום 1 — עופר וינטר הוא קצין צה\"ל במילואים בדרגת תת-אלוף; מייסד וראש מפלגת \"עמך"
+  },
+  {
+   "key": "candidates|amcha-yisrael:1|official_name",
+   "he": "ווינטר עופר",
+   "ctx": "רשימת עמך ישראל, מקום 1 — עופר וינטר הוא קצין צה\"ל במילואים בדרגת תת-אלוף; מייסד וראש מפלגת \"עמך"
+  },
+  {
+   "key": "candidates|amcha-yisrael:2|display_name",
+   "he": "יוסף חדאד",
+   "ctx": "רשימת עמך ישראל, מקום 2 — יוסף חדאד הוא ערבי-ישראלי נוצרי, פוליטיקאי, פעיל הסברה ציוני בישראל וב"
+  },
+  {
+   "key": "candidates|amcha-yisrael:2|official_name",
+   "he": "חדאד יוסף",
+   "ctx": "רשימת עמך ישראל, מקום 2 — יוסף חדאד הוא ערבי-ישראלי נוצרי, פוליטיקאי, פעיל הסברה ציוני בישראל וב"
+  },
+  {
+   "key": "candidates|amcha-yisrael:3|display_name",
+   "he": "נטעלי שם טוב",
+   "ctx": "רשימת עמך ישראל, מקום 3 — נטעלי שם טוב היא עיתונאית ישראלית. הגישה את מהדורת \"זמן שישי\" בחדשות 1"
+  },
+  {
+   "key": "candidates|amcha-yisrael:3|official_name",
+   "he": "שם טוב נטעלי",
+   "ctx": "רשימת עמך ישראל, מקום 3 — נטעלי שם טוב היא עיתונאית ישראלית. הגישה את מהדורת \"זמן שישי\" בחדשות 1"
+  },
+  {
+   "key": "candidates|amcha-yisrael:4|display_name",
+   "he": "ערן בן ארי",
+   "ctx": "רשימת עמך ישראל, מקום 4"
+  },
+  {
+   "key": "candidates|amcha-yisrael:4|official_name",
+   "he": "בן ארי ערן",
+   "ctx": "רשימת עמך ישראל, מקום 4"
+  },
+  {
+   "key": "candidates|amcha-yisrael:5|display_name",
+   "he": "פלר חסן-נחום",
+   "ctx": "רשימת עמך ישראל, מקום 5 — פלר חסן-נחום היא פוליטיקאית ויועצת תקשורת ישראלית ילידת בריטניה, הייתה"
+  },
+  {
+   "key": "candidates|amcha-yisrael:5|official_name",
+   "he": "חסן-נחום פלר",
+   "ctx": "רשימת עמך ישראל, מקום 5 — פלר חסן-נחום היא פוליטיקאית ויועצת תקשורת ישראלית ילידת בריטניה, הייתה"
+  },
+  {
+   "key": "candidates|amcha-yisrael:6|display_name",
+   "he": "ללי דרעי",
+   "ctx": "רשימת עמך ישראל, מקום 6"
+  },
+  {
+   "key": "candidates|amcha-yisrael:6|official_name",
+   "he": "דרעי ללי",
+   "ctx": "רשימת עמך ישראל, מקום 6"
+  },
+  {
+   "key": "candidates|amcha-yisrael:7|display_name",
+   "he": "רונן בודנרו",
+   "ctx": "רשימת עמך ישראל, מקום 7"
+  },
+  {
+   "key": "candidates|amcha-yisrael:7|official_name",
+   "he": "בודנרו רונן",
+   "ctx": "רשימת עמך ישראל, מקום 7"
+  },
+  {
+   "key": "candidates|amcha-yisrael:8|display_name",
+   "he": "דוד נחום בן ציון",
+   "ctx": "רשימת עמך ישראל, מקום 8"
+  },
+  {
+   "key": "candidates|amcha-yisrael:8|official_name",
+   "he": "בן ציון דוד נחום",
+   "ctx": "רשימת עמך ישראל, מקום 8"
+  },
+  {
+   "key": "candidates|amcha-yisrael:9|display_name",
+   "he": "אביב עזרא",
+   "ctx": "רשימת עמך ישראל, מקום 9"
+  },
+  {
+   "key": "candidates|amcha-yisrael:9|official_name",
+   "he": "עזרא אביב חיים",
+   "ctx": "רשימת עמך ישראל, מקום 9"
+  },
+  {
+   "key": "candidates|amcha-yisrael:10|display_name",
+   "he": "אלי ג'ינו",
+   "ctx": "רשימת עמך ישראל, מקום 10"
+  },
+  {
+   "key": "candidates|amcha-yisrael:10|official_name",
+   "he": "ג'ינו אלי",
+   "ctx": "רשימת עמך ישראל, מקום 10"
+  },
+  {
+   "key": "candidates|amcha-yisrael:11|display_name",
+   "he": "קראוניק זריפה סגלית",
+   "ctx": "רשימת עמך ישראל, מקום 11"
+  },
+  {
+   "key": "candidates|amcha-yisrael:12|display_name",
+   "he": "רובין אריק מת'יו",
+   "ctx": "רשימת עמך ישראל, מקום 12"
+  },
+  {
+   "key": "candidates|amcha-yisrael:13|display_name",
+   "he": "עלמאדין אבראהים",
+   "ctx": "רשימת עמך ישראל, מקום 13"
+  },
+  {
+   "key": "candidates|amcha-yisrael:13|official_name",
+   "he": "אבראהים עלמאדין",
+   "ctx": "רשימת עמך ישראל, מקום 13"
+  },
+  {
+   "key": "candidates|amcha-yisrael:14|display_name",
+   "he": "הר ציון משה",
+   "ctx": "רשימת עמך ישראל, מקום 14"
+  },
+  {
+   "key": "candidates|amcha-yisrael:15|display_name",
+   "he": "חיים אידלברג לילך",
+   "ctx": "רשימת עמך ישראל, מקום 15"
+  },
+  {
+   "key": "candidates|amcha-yisrael:16|display_name",
+   "he": "משה טולדנו",
+   "ctx": "רשימת עמך ישראל, מקום 16"
+  },
+  {
+   "key": "candidates|amcha-yisrael:16|official_name",
+   "he": "טולדנו משה",
+   "ctx": "רשימת עמך ישראל, מקום 16"
+  },
+  {
+   "key": "candidates|amcha-yisrael:17|display_name",
+   "he": "רז מלכה",
+   "ctx": "רשימת עמך ישראל, מקום 17"
+  },
+  {
+   "key": "candidates|amcha-yisrael:17|official_name",
+   "he": "מלכה רז",
+   "ctx": "רשימת עמך ישראל, מקום 17"
+  },
+  {
+   "key": "candidates|amcha-yisrael:18|display_name",
+   "he": "לוי דור יצחק",
+   "ctx": "רשימת עמך ישראל, מקום 18"
+  },
+  {
+   "key": "candidates|betach:1|display_name",
+   "he": "סמיון גרפמן",
+   "ctx": "רשימת בטח, מקום 1 — סמיון גרפמן הוא אושיית רשת וטלוויזיה, שחקן, איש עסקים לשעבר ופעיל חברת"
+  },
+  {
+   "key": "candidates|betach:1|official_name",
+   "he": "גרפמן סמיון",
+   "ctx": "רשימת בטח, מקום 1 — סמיון גרפמן הוא אושיית רשת וטלוויזיה, שחקן, איש עסקים לשעבר ופעיל חברת"
+  }
+ ]
+}

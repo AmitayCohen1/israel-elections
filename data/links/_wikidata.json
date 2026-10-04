@@ -1,0 +1,1779 @@
+{
+ "likud": [
+  {
+   "role": "list",
+   "wiki_title": "הליכוד",
+   "qid": "Q187009",
+   "links": [
+    {
+     "kind": "website",
+     "url": "https://www.likud.org.il/"
+    },
+    {
+     "kind": "website",
+     "url": "https://www.likud.org.il/en/"
+    },
+    {
+     "kind": "website",
+     "url": "https://www.likud.org.il/ru/"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/LikudNetanyahu"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/Likud_Party"
+    },
+    {
+     "kind": "telegram",
+     "url": "https://t.me/OfficialLikudBot"
+    }
+   ]
+  },
+  {
+   "role": "party",
+   "wiki_title": "הליכוד, תנועה לאומית ליברלית",
+   "qid": null,
+   "links": []
+  },
+  {
+   "role": "party",
+   "wiki_title": "תקווה חדשה הימין הממלכתי",
+   "qid": "Q104073895",
+   "links": [
+    {
+     "kind": "website",
+     "url": "https://www.newhope.org.il/"
+    },
+    {
+     "kind": "website",
+     "url": "https://www.newhope.org.il/en/home/"
+    },
+    {
+     "kind": "website",
+     "url": "https://www.newhope.org.il/ru/главная/"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/ilNewHope"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/ilnewhope"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/ILNewHope"
+    },
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/channel/UCh2WGu6EjxHhJjkPWcVzujw"
+    }
+   ]
+  },
+  {
+   "role": "leader1",
+   "wiki_title": "בנימין נתניהו",
+   "qid": "Q43723",
+   "links": [
+    {
+     "kind": "website",
+     "url": "https://www.netanyahu.org.il"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/Netanyahu"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/b.netanyahu"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/netanyahu"
+    },
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/channel/UCzuhZvXZVi7KQAPbOQfBIgw"
+    },
+    {
+     "kind": "tiktok",
+     "url": "https://www.tiktok.com/@bnetanyahu"
+    },
+    {
+     "kind": "telegram",
+     "url": "https://t.me/bnetanyahu"
+    },
+    {
+     "kind": "telegram",
+     "url": "https://t.me/OfficialLikudBot"
+    },
+    {
+     "kind": "telegram",
+     "url": "https://t.me/netaniahurus"
+    }
+   ]
+  },
+  {
+   "role": "leader2",
+   "wiki_title": "אלי כהן (פוליטיקאי, 1972)",
+   "qid": "Q19634024",
+   "links": [
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/cpa.eli.cohen"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/eli_cohen_minister"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/elicoh1"
+    },
+    {
+     "kind": "telegram",
+     "url": "https://t.me/elicohenminister"
+    }
+   ]
+  },
+  {
+   "role": "leader3",
+   "wiki_title": "אמיר אוחנה",
+   "qid": "Q21794010",
+   "links": [
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/amirohana"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/realamirohana"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/amirohana"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/AmirOhana"
+    },
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/channel/UCrhb9DsJw_aecuAPZyGGKMA"
+    },
+    {
+     "kind": "telegram",
+     "url": "https://t.me/AmirOhanail"
+    }
+   ]
+  }
+ ],
+ "yashar": [
+  {
+   "role": "list",
+   "wiki_title": "ישר!",
+   "qid": "Q136306684",
+   "links": [
+    {
+     "kind": "website",
+     "url": "https://yasharwitheisenkot.com/"
+    }
+   ]
+  },
+  {
+   "role": "party",
+   "wiki_title": "ישר לישראל עם איזנקוט",
+   "qid": null,
+   "links": []
+  },
+  {
+   "role": "party",
+   "wiki_title": "יסודות ישראל",
+   "qid": null,
+   "links": []
+  },
+  {
+   "role": "leader1",
+   "wiki_title": "גדי איזנקוט",
+   "qid": "Q796885",
+   "links": [
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/GadiEisenkot"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/gadi_eisenkot"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/gadi_eisenkot"
+    },
+    {
+     "kind": "tiktok",
+     "url": "https://www.tiktok.com/@gadi_eisenkot"
+    }
+   ]
+  },
+  {
+   "role": "leader2",
+   "wiki_title": "יורם כהן",
+   "qid": "Q2585671",
+   "links": []
+  },
+  {
+   "role": "leader3",
+   "wiki_title": "אורית פרקש-הכהן",
+   "qid": "Q20071724",
+   "links": []
+  }
+ ],
+ "together": [
+  {
+   "role": "list",
+   "wiki_title": "ביחד",
+   "qid": "Q139567027",
+   "links": [
+    {
+     "kind": "website",
+     "url": "https://be-yahad.org.il/"
+    },
+    {
+     "kind": "website",
+     "url": "https://bennett2026.org.il/"
+    }
+   ]
+  },
+  {
+   "role": "party",
+   "wiki_title": "ביחד בראשות בנט מחזירים את התקווה",
+   "qid": null,
+   "links": []
+  },
+  {
+   "role": "party",
+   "wiki_title": "יש עתיד - בראשות יאיר לפיד",
+   "qid": null,
+   "links": []
+  },
+  {
+   "role": "leader1",
+   "wiki_title": "נפתלי בנט",
+   "qid": "Q39318",
+   "links": [
+    {
+     "kind": "website",
+     "url": "https://naftalibennett.co.il/"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/NaftaliBennett"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/NaftaliBennettArabic"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/NaftaliBennettFrancais"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/NaftaliBennettRussian"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/naftalibennett"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/naftalibennett"
+    },
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/channel/UC4x7LYSzgGH-TMKc9J8pwgQ"
+    },
+    {
+     "kind": "tiktok",
+     "url": "https://www.tiktok.com/@naftalibennett_official"
+    },
+    {
+     "kind": "telegram",
+     "url": "https://t.me/naftalibennett1"
+    },
+    {
+     "kind": "telegram",
+     "url": "https://t.me/NaftaliBennettRussian"
+    }
+   ]
+  },
+  {
+   "role": "leader2",
+   "wiki_title": "יאיר לפיד",
+   "qid": "Q1396120",
+   "links": [
+    {
+     "kind": "website",
+     "url": "http://www.yairlapid.org.il/"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/YairLapid"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/yairlapid"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/yairlapid"
+    },
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/channel/UCGaxHoA164ZtteUDLsVOJBQ"
+    },
+    {
+     "kind": "tiktok",
+     "url": "https://www.tiktok.com/@yair_lapid"
+    },
+    {
+     "kind": "telegram",
+     "url": "https://t.me/YLapid"
+    },
+    {
+     "kind": "telegram",
+     "url": "https://t.me/YairLapid_RU"
+    }
+   ]
+  },
+  {
+   "role": "leader3",
+   "wiki_title": "קרן טרנר",
+   "qid": "Q27020211",
+   "links": [
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/keren.terner"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/KerenTernerEyal"
+    }
+   ]
+  }
+ ],
+ "democrats": [
+  {
+   "role": "list",
+   "wiki_title": "הדמוקרטים",
+   "qid": "Q126948059",
+   "links": [
+    {
+     "kind": "website",
+     "url": "https://democrats.org.il/"
+    },
+    {
+     "kind": "website",
+     "url": "https://democrats.org.il/en/"
+    },
+    {
+     "kind": "website",
+     "url": "https://democrats.org.il/ar"
+    },
+    {
+     "kind": "website",
+     "url": "https://democrats.org.il/ru"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/HademocratimIL"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/61576367274456"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/hademocratimil"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/democraty.il"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/hademocratimen"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/hademocratim_francophones"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/DemocratsIL"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/hademocratimEN"
+    },
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/channel/UCByElalkPOnXBHVzuLJyAVg"
+    },
+    {
+     "kind": "tiktok",
+     "url": "https://www.tiktok.com/@hademocratim"
+    },
+    {
+     "kind": "telegram",
+     "url": "https://t.me/haDemokratim_RU"
+    }
+   ]
+  },
+  {
+   "role": "party",
+   "wiki_title": "מפלגת הדמוקרטים מיסודה של תנועת העבודה",
+   "qid": null,
+   "links": []
+  },
+  {
+   "role": "party",
+   "wiki_title": "מרצ",
+   "qid": "Q239951",
+   "links": [
+    {
+     "kind": "website",
+     "url": "http://meretz.org.il/"
+    },
+    {
+     "kind": "website",
+     "url": "http://meretz.org.il/ar/"
+    },
+    {
+     "kind": "website",
+     "url": "http://meretz.org.il/ru/"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/Meretz"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/votemeretz"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/meretzparty"
+    },
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/channel/UC-drUtawnlD9Rxe1JYGMONw"
+    }
+   ]
+  },
+  {
+   "role": "leader1",
+   "wiki_title": "יאיר גולן",
+   "qid": "Q569975",
+   "links": [
+    {
+     "kind": "website",
+     "url": "https://yairgolan.org.il/"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/yair.golan.9"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/MK.YairGolan"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/61585028348272"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/61579474827525"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/yairgolan_"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/yairgolanarabic"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/YairGolan1"
+    },
+    {
+     "kind": "tiktok",
+     "url": "https://www.tiktok.com/@yairgolan_"
+    }
+   ]
+  },
+  {
+   "role": "leader2",
+   "wiki_title": "נעמה לזימי",
+   "qid": "Q107264625",
+   "links": [
+    {
+     "kind": "website",
+     "url": "https://www.NLazimi.org/"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/NaamaLazimiOfficial"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/naamalazimi"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/naamalazimi"
+    },
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/channel/UCiA2Zj8qRPv8RNhuSuaBg2Q"
+    },
+    {
+     "kind": "tiktok",
+     "url": "https://www.tiktok.com/@naamalazimi"
+    }
+   ]
+  },
+  {
+   "role": "leader3",
+   "wiki_title": "גלעד קריב",
+   "qid": "Q868609",
+   "links": [
+    {
+     "kind": "website",
+     "url": "http://giladkariv.com"
+    },
+    {
+     "kind": "website",
+     "url": "https://giladkariv.com/"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/GiladKariv"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/gilad.kariv"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/KarivGilad"
+    },
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/channel/UCNyb39Dfy1boTMRN36Nbl0Q"
+    },
+    {
+     "kind": "tiktok",
+     "url": "https://www.tiktok.com/@gilad_kariv_arabic"
+    }
+   ]
+  }
+ ],
+ "yisrael-beiteinu": [
+  {
+   "role": "list",
+   "wiki_title": "ישראל ביתנו",
+   "qid": "Q514442",
+   "links": [
+    {
+     "kind": "website",
+     "url": "https://beytenu.org.il/"
+    },
+    {
+     "kind": "website",
+     "url": "https://ndi.org.il/"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/beytenu"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/beytenurusskiy"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/israel_beytenu"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/Beytenu"
+    },
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/channel/UCzYTVUmcq3Dh9w2XUYt6_Iw"
+    }
+   ]
+  },
+  {
+   "role": "leader1",
+   "wiki_title": "אביגדור ליברמן",
+   "qid": "Q58311",
+   "links": [
+    {
+     "kind": "website",
+     "url": "https://liberman.org.il"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/AvigdorLiberman"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/avigdor.liberman"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/AvigdorLiberman"
+    }
+   ]
+  },
+  {
+   "role": "leader2",
+   "wiki_title": "רפי בן שטרית",
+   "qid": "Q20925133",
+   "links": [
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/100063610898733"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/rafibs666"
+    }
+   ]
+  },
+  {
+   "role": "leader3",
+   "wiki_title": "טליה לנקרי",
+   "qid": "Q125495037",
+   "links": [
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/Talya.Gedera"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/talya.gedera"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/talyalankri"
+    }
+   ]
+  }
+ ],
+ "utj": [
+  {
+   "role": "list",
+   "wiki_title": "יהדות התורה",
+   "qid": "Q1466053",
+   "links": [
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/yahdutatora"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/YahdutAtora"
+    },
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/channel/UCB5CEXiTc3451D-LAJ_DG2Q"
+    }
+   ]
+  },
+  {
+   "role": "party",
+   "wiki_title": "אגודת החרדים – דגל התורה.",
+   "qid": null,
+   "links": []
+  },
+  {
+   "role": "party",
+   "wiki_title": "הסתדרות אגודת ישראל בארץ ישראל.",
+   "qid": null,
+   "links": []
+  },
+  {
+   "role": "party",
+   "wiki_title": "חומת תורת ישראל (שלומי אמונים וחסידות בעלז)",
+   "qid": null,
+   "links": []
+  },
+  {
+   "role": "leader1",
+   "wiki_title": "יעקב אשר",
+   "qid": "Q2899261",
+   "links": []
+  },
+  {
+   "role": "leader2",
+   "wiki_title": "יצחק גולדקנופף",
+   "qid": "Q113045208",
+   "links": [
+    {
+     "kind": "x",
+     "url": "https://x.com/DOVRUTGoldknopf"
+    }
+   ]
+  },
+  {
+   "role": "leader3",
+   "wiki_title": "יצחק פינדרוס",
+   "qid": "Q7007279",
+   "links": [
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/yitzhakp"
+    }
+   ]
+  }
+ ],
+ "otzma-yehudit": [
+  {
+   "role": "list",
+   "wiki_title": "עוצמה יהודית",
+   "qid": "Q46559",
+   "links": [
+    {
+     "kind": "website",
+     "url": "https://www.ozma-yeudit.co.il"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/OtzmaYehudit2"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/otzma_yehudit"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/otzma_yehudit"
+    },
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/channel/UCPB05dcSp3spmQVw2kzEeeA"
+    }
+   ]
+  },
+  {
+   "role": "party",
+   "wiki_title": "חזית יהודית לאומית (המוכרת בכינוי עוצמה יהודית).",
+   "qid": null,
+   "links": []
+  },
+  {
+   "role": "party",
+   "wiki_title": "ארץ ישראל שלנו – מפלגה יהודית מאוחדת לשלמות התורה העם והארץ (מפלגת מדף השייכת לעוצמה יהודית).",
+   "qid": null,
+   "links": []
+  },
+  {
+   "role": "leader1",
+   "wiki_title": "איתמר בן גביר",
+   "qid": "Q12403861",
+   "links": [
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/ibengvir"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/otzma_yehudit"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/itamarbengvir"
+    },
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/channel/UC3y5Z7NKpA8Ylc_YAqDwSfg"
+    },
+    {
+     "kind": "tiktok",
+     "url": "https://www.tiktok.com/@itamar_ben_gvir"
+    },
+    {
+     "kind": "telegram",
+     "url": "https://t.me/bengvir"
+    }
+   ]
+  },
+  {
+   "role": "leader2",
+   "wiki_title": "טלי גוטליב",
+   "qid": "Q113989783",
+   "links": [
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/100000307018075"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/tali_gotliv"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/TallyGotliv"
+    }
+   ]
+  },
+  {
+   "role": "leader3",
+   "wiki_title": "יצחק וסרלאוף",
+   "qid": "Q114025577",
+   "links": [
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/vaserlof"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/ItshakWaserlauf"
+    },
+    {
+     "kind": "tiktok",
+     "url": "https://www.tiktok.com/@itzhak_wasserlauf"
+    }
+   ]
+  }
+ ],
+ "shas": [
+  {
+   "role": "list",
+   "wiki_title": "ש\"ס",
+   "qid": "Q1419724",
+   "links": []
+  },
+  {
+   "role": "leader1",
+   "wiki_title": "אריה דרעי",
+   "qid": "Q2670985",
+   "links": [
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/DeryArye"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/ariyederi"
+    },
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/channel/UCH64kBQ4giPAinLXHpgcm1Q"
+    },
+    {
+     "kind": "telegram",
+     "url": "https://t.me/aryederi"
+    }
+   ]
+  },
+  {
+   "role": "leader2",
+   "wiki_title": "ינון אזולאי",
+   "qid": "Q50424294",
+   "links": []
+  },
+  {
+   "role": "leader3",
+   "wiki_title": "מיכאל מלכיאלי",
+   "qid": "Q27670547",
+   "links": []
+  }
+ ],
+ "joint-list": [
+  {
+   "role": "list",
+   "wiki_title": "הרשימה המשותפת",
+   "qid": "Q18913555",
+   "links": [
+    {
+     "kind": "website",
+     "url": "http://www.moshtrka.com/"
+    },
+    {
+     "kind": "website",
+     "url": "http://www.jointlist.org.il"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/JointListHebrew"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/moshtraka"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/moshtraka"
+    },
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/channel/UCa0lib1WwExwJvZdbNQwBUQ"
+    }
+   ]
+  },
+  {
+   "role": "party",
+   "wiki_title": "המפלגה הקומוניסטית הישראלית",
+   "qid": "Q1137968",
+   "links": [
+    {
+     "kind": "website",
+     "url": "https://maki.org.il/"
+    }
+   ]
+  },
+  {
+   "role": "party",
+   "wiki_title": "ברית לאומית דמוקרטית",
+   "qid": "Q143719",
+   "links": [
+    {
+     "kind": "website",
+     "url": "https://www.altajamoa.org/"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/tjamoa"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/baladtajamoa"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/tajamoa"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/Balad_Tajamoa"
+    }
+   ]
+  },
+  {
+   "role": "party",
+   "wiki_title": "התנועה הערבית להתחדשות",
+   "qid": "Q2099890",
+   "links": [
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/العربية-للتغيير-610857865661458"
+    }
+   ]
+  },
+  {
+   "role": "leader1",
+   "wiki_title": "יוסף ג'בארין",
+   "qid": "Q19628276",
+   "links": []
+  },
+  {
+   "role": "leader2",
+   "wiki_title": "אחמד טיבי",
+   "qid": "Q2420712",
+   "links": [
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/atibi"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/Ahmad_tibi"
+    },
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/channel/UCdapt0c5amuqfMXwrltHvcw"
+    }
+   ]
+  },
+  {
+   "role": "leader3",
+   "wiki_title": "סאמי אבו שחאדה",
+   "qid": "Q68105483",
+   "links": [
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/samiaboushahadeh1"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/sami.aboushahadeh"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/samiaboushahadeh"
+    }
+   ]
+  }
+ ],
+ "raam": [
+  {
+   "role": "list",
+   "wiki_title": "רע\"ם",
+   "qid": "Q12411411",
+   "links": []
+  },
+  {
+   "role": "leader1",
+   "wiki_title": "מנסור עבאס",
+   "qid": "Q62394296",
+   "links": [
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/MansourAbbas.me"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/mnsorabbas"
+    }
+   ]
+  },
+  {
+   "role": "leader2",
+   "wiki_title": "יואב סגלוביץ",
+   "qid": "Q6832388",
+   "links": []
+  },
+  {
+   "role": "leader3",
+   "wiki_title": "וליד טאהא",
+   "qid": "Q67958229",
+   "links": [
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/waleedtaha2019"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/Waleedt68"
+    }
+   ]
+  }
+ ],
+ "rzp-zehut": [
+  {
+   "role": "list",
+   "wiki_title": "הציונות הדתית וזהות",
+   "qid": null,
+   "links": []
+  },
+  {
+   "role": "party",
+   "wiki_title": "האיחוד הלאומי–תקומה (המוכרת בכינוי הציונות הדתית).",
+   "qid": null,
+   "links": []
+  },
+  {
+   "role": "party",
+   "wiki_title": "זהות",
+   "qid": "Q844569",
+   "links": []
+  },
+  {
+   "role": "party",
+   "wiki_title": "עתיד אחד – עתיד טוב לישראל (מפלגת מדף השייכת לציונות הדתית).",
+   "qid": null,
+   "links": []
+  },
+  {
+   "role": "leader1",
+   "wiki_title": "בצלאל סמוטריץ'",
+   "qid": "Q18759744",
+   "links": [
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/Bezazelsmotrich"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/bezalel_smotrich"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/bezalelsm"
+    },
+    {
+     "kind": "tiktok",
+     "url": "https://www.tiktok.com/@b_smotrich"
+    }
+   ]
+  },
+  {
+   "role": "leader2",
+   "wiki_title": "משה פייגלין",
+   "qid": "Q1367272",
+   "links": [
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/MFeiglin"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/MFeiglin.ru"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/moshefeiglin"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/moshefeiglin"
+    },
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/channel/UCOZL13F5YxiMtzUTer8zPYA"
+    },
+    {
+     "kind": "telegram",
+     "url": "https://t.me/m_feiglin"
+    }
+   ]
+  },
+  {
+   "role": "leader3",
+   "wiki_title": "אורית סטרוק",
+   "qid": "Q3593944",
+   "links": [
+    {
+     "kind": "website",
+     "url": "https://oritstrock.co.il/"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/oritstrook"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/QtVrSH8IIHRVT4J9"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/orit_strock"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/oritstrock"
+    }
+   ]
+  }
+ ],
+ "blue-and-white": [
+  {
+   "role": "list",
+   "wiki_title": "כחול לבן",
+   "qid": "Q95889735",
+   "links": []
+  },
+  {
+   "role": "leader1",
+   "wiki_title": "בני גנץ",
+   "qid": "Q557436",
+   "links": [
+    {
+     "kind": "website",
+     "url": "https://kachollavan.org.il"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/BeGantz"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/gantzbe"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/gantzbe"
+    },
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/channel/UCwf8d-hDrt3OXBoSMQuc4kQ"
+    },
+    {
+     "kind": "telegram",
+     "url": "https://t.me/BeGantz"
+    }
+   ]
+  },
+  {
+   "role": "leader2",
+   "wiki_title": "פנינה תמנו",
+   "qid": "Q3663047",
+   "links": []
+  },
+  {
+   "role": "leader3",
+   "wiki_title": "עליזה בלוך",
+   "qid": "Q58008212",
+   "links": [
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/AlizaMyMayor"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/bloch.aliza"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/aliza_bloch"
+    }
+   ]
+  }
+ ],
+ "reservists-economic": [
+  {
+   "role": "list",
+   "wiki_title": "המילואימניקים והכלכלית",
+   "qid": null,
+   "links": []
+  },
+  {
+   "role": "party",
+   "wiki_title": "המילואימניקים",
+   "qid": "Q141595926",
+   "links": []
+  },
+  {
+   "role": "party",
+   "wiki_title": "הכלכלית החדשה",
+   "qid": "Q96395543",
+   "links": [
+    {
+     "kind": "website",
+     "url": "https://bechirot24.bechirot.gov.il/election/Pages/HomePage.aspx"
+    },
+    {
+     "kind": "website",
+     "url": "https://bechirot24.bechirot.gov.il/election/English/pages/default.aspx"
+    },
+    {
+     "kind": "website",
+     "url": "https://bechirot24.bechirot.gov.il/election/Arabic/Pages/default.aspx"
+    }
+   ]
+  },
+  {
+   "role": "leader1",
+   "wiki_title": "יועז הנדל",
+   "qid": "Q8054214",
+   "links": [
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/YoazHendelpage"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/yoazh"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/YoazHendel1"
+    },
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/channel/UC9Jk_zAXIl77kC4DPXfXh7w"
+    }
+   ]
+  },
+  {
+   "role": "leader2",
+   "wiki_title": "ירון זליכה",
+   "qid": "Q8049449",
+   "links": [
+    {
+     "kind": "website",
+     "url": "https://www.yaronzelekha.co.il"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/Pzelekha"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/pzelekha"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/Pzelekha"
+    },
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/channel/UCPLCDfWIPxzjhRNbXZpJByg"
+    }
+   ]
+  },
+  {
+   "role": "leader3",
+   "wiki_title": "עינת וילף",
+   "qid": "Q2612852",
+   "links": [
+    {
+     "kind": "website",
+     "url": "http://www.wilf.org"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/einat.wilf"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/EinatWilf"
+    },
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/channel/UCiaGRCBkU6U0sOGsza7ftAg"
+    }
+   ]
+  }
+ ],
+ "amcha-yisrael": [
+  {
+   "role": "list",
+   "wiki_title": "עמך ישראל",
+   "qid": "Q141329900",
+   "links": [
+    {
+     "kind": "website",
+     "url": "https://amchaisrael.co.il/"
+    }
+   ]
+  },
+  {
+   "role": "leader1",
+   "wiki_title": "עופר וינטר",
+   "qid": "Q6700602",
+   "links": []
+  },
+  {
+   "role": "leader2",
+   "wiki_title": "יוסף חדאד",
+   "qid": "Q109688971",
+   "links": [
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/YosHaddad"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/yosephhaddad"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/yosephhaddad"
+    },
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/channel/UCX56N31-FRzP9y-P6Exbopg"
+    },
+    {
+     "kind": "tiktok",
+     "url": "https://www.tiktok.com/@yosephhaddad"
+    },
+    {
+     "kind": "telegram",
+     "url": "https://t.me/yosephhaddad"
+    }
+   ]
+  },
+  {
+   "role": "leader3",
+   "wiki_title": "נטעלי שם טוב",
+   "qid": "Q102254880",
+   "links": [
+    {
+     "kind": "website",
+     "url": "https://netalishemtov.wixsite.com/main"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/netalishemtov"
+    }
+   ]
+  }
+ ],
+ "haredi-public": [
+  {
+   "role": "list",
+   "wiki_title": "הציבור החרדי",
+   "qid": "Q212912",
+   "links": []
+  },
+  {
+   "role": "leader3",
+   "wiki_title": "נחומי יפה",
+   "qid": "Q131551360",
+   "links": [
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/nechumi.yaffe"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/NechumiYaffe"
+    }
+   ]
+  }
+ ],
+ "noam": [
+  {
+   "role": "list",
+   "wiki_title": "נעם",
+   "qid": "Q1994678",
+   "links": []
+  },
+  {
+   "role": "party",
+   "wiki_title": "לזוז (המוכרת בכינוי מפלגת נעם).",
+   "qid": null,
+   "links": []
+  },
+  {
+   "role": "party",
+   "wiki_title": "אחריות לאומית - למען עתיד ילדינו",
+   "qid": null,
+   "links": []
+  },
+  {
+   "role": "leader1",
+   "wiki_title": "אבי מעוז",
+   "qid": "Q105103347",
+   "links": []
+  },
+  {
+   "role": "leader3",
+   "wiki_title": "אליהו ליבמן",
+   "qid": "Q58779787",
+   "links": [
+    {
+     "kind": "x",
+     "url": "https://x.com/ElyahuLivman"
+    }
+   ]
+  }
+ ],
+ "israel-first": [
+  {
+   "role": "list",
+   "wiki_title": "ישראל תחילה",
+   "qid": null,
+   "links": []
+  },
+  {
+   "role": "leader1",
+   "wiki_title": "שרן השכל",
+   "qid": "Q20824112",
+   "links": [
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/sharren1"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/sharrenhaskel"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/SharrenHaskel"
+    },
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/channel/UCSKejH81Wgl7IJ3b3OFjGcQ"
+    },
+    {
+     "kind": "telegram",
+     "url": "https://t.me/HASKEL"
+    }
+   ]
+  }
+ ],
+ "tzomet-beit-israel": [
+  {
+   "role": "list",
+   "wiki_title": "צומת בית ישראל",
+   "qid": null,
+   "links": []
+  },
+  {
+   "role": "party",
+   "wiki_title": "מפלגת צומת",
+   "qid": "Q2679208",
+   "links": [
+    {
+     "kind": "website",
+     "url": "http://tsomet.co.il"
+    }
+   ]
+  },
+  {
+   "role": "party",
+   "wiki_title": "בית ימני חברתי ציוני לכלל עם ישראל",
+   "qid": null,
+   "links": []
+  },
+  {
+   "role": "leader1",
+   "wiki_title": "גדי יברקן",
+   "qid": "Q62062074",
+   "links": [
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/gadi.yavarkan"
+    },
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/GadiYevarkan"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/gadi_yevarkan"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/GYevarkan"
+    }
+   ]
+  }
+ ],
+ "orot-hashahar": [
+  {
+   "role": "list",
+   "wiki_title": "אורות השחר",
+   "qid": null,
+   "links": []
+  },
+  {
+   "role": "leader3",
+   "wiki_title": "יאיר אנסבכר",
+   "qid": "Q63747727",
+   "links": [
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/yair.ansbacher.5"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/AnsbacherYair"
+    }
+   ]
+  }
+ ],
+ "betach": [
+  {
+   "role": "list",
+   "wiki_title": "בטח",
+   "qid": null,
+   "links": []
+  },
+  {
+   "role": "leader1",
+   "wiki_title": "סמיון גרפמן",
+   "qid": "Q28776621",
+   "links": [
+    {
+     "kind": "facebook",
+     "url": "https://www.facebook.com/semiongrafman"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/semion"
+    },
+    {
+     "kind": "youtube",
+     "url": "https://www.youtube.com/channel/UCM2nKB0vfR_g0Ido0XKwG8A"
+    }
+   ]
+  }
+ ],
+ "brit-olam": [
+  {
+   "role": "list",
+   "wiki_title": "ברית עולם",
+   "qid": "Q2908697",
+   "links": []
+  }
+ ],
+ "bible-bloc": [
+  {
+   "role": "list",
+   "wiki_title": "גה\"ת-גוש התנ\"כי",
+   "qid": null,
+   "links": []
+  }
+ ],
+ "shma": [
+  {
+   "role": "list",
+   "wiki_title": "שמע",
+   "qid": "Q11461",
+   "links": []
+  }
+ ],
+ "personal-safety": [
+  {
+   "role": "list",
+   "wiki_title": "בטחון אישי",
+   "qid": "Q7445060",
+   "links": []
+  }
+ ],
+ "hatikun": [
+  {
+   "role": "list",
+   "wiki_title": "התיקון",
+   "qid": "Q6618163",
+   "links": [
+    {
+     "kind": "website",
+     "url": "http://taliyafinkel.com/film/%D7%94%D7%AA%D7%99%D7%A7%D7%95%D7%9F/"
+    }
+   ]
+  }
+ ],
+ "color-black": [
+  {
+   "role": "list",
+   "wiki_title": "צבע שחור – מגן עולם התורה",
+   "qid": null,
+   "links": []
+  }
+ ],
+ "sharshar": [
+  {
+   "role": "list",
+   "wiki_title": "שרשר לאהבה ולאחדות העם",
+   "qid": null,
+   "links": []
+  }
+ ],
+ "tkuma": [
+  {
+   "role": "list",
+   "wiki_title": "דרך חזון ותקומה",
+   "qid": null,
+   "links": []
+  }
+ ],
+ "new-order": [
+  {
+   "role": "list",
+   "wiki_title": "סדר חדש",
+   "qid": "Q1900371",
+   "links": []
+  }
+ ],
+ "mishpat-tzedek": [
+  {
+   "role": "list",
+   "wiki_title": "משפט צדק",
+   "qid": null,
+   "links": []
+  }
+ ],
+ "hakahal": [
+  {
+   "role": "list",
+   "wiki_title": "הקהל",
+   "qid": "Q5640449",
+   "links": []
+  }
+ ],
+ "ahi": [
+  {
+   "role": "list",
+   "wiki_title": "אחי",
+   "qid": "Q141361957",
+   "links": []
+  }
+ ],
+ "partnership-for-all": [
+  {
+   "role": "list",
+   "wiki_title": "השותפות לכולם",
+   "qid": null,
+   "links": []
+  },
+  {
+   "role": "leader1",
+   "wiki_title": "טלאל אל-קרינאווי",
+   "qid": "Q25492739",
+   "links": []
+  }
+ ],
+ "pirates": [
+  {
+   "role": "list",
+   "wiki_title": "הפיראטים",
+   "qid": "Q11559221",
+   "links": []
+  }
+ ],
+ "gan-eden": [
+  {
+   "role": "list",
+   "wiki_title": "גן עדן",
+   "qid": "Q19014",
+   "links": []
+  }
+ ],
+ "womens-voice": [
+  {
+   "role": "list",
+   "wiki_title": "קול הנשים",
+   "qid": null,
+   "links": []
+  }
+ ],
+ "beyachad-natzliach": [
+  {
+   "role": "list",
+   "wiki_title": "ביחד נצליח",
+   "qid": null,
+   "links": []
+  },
+  {
+   "role": "leader1",
+   "wiki_title": "אבי שקד",
+   "qid": "Q136455467",
+   "links": [
+    {
+     "kind": "website",
+     "url": "https://avishaked.org/"
+    },
+    {
+     "kind": "instagram",
+     "url": "https://www.instagram.com/avi.shaked.yahad"
+    },
+    {
+     "kind": "x",
+     "url": "https://x.com/avi_shaked"
+    }
+   ]
+  }
+ ],
+ "me-and-you": [
+  {
+   "role": "list",
+   "wiki_title": "אני ואתה מפלגת העם הישראלית",
+   "qid": null,
+   "links": []
+  }
+ ]
+}
