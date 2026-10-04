@@ -26,20 +26,28 @@ async function quoteUrl(slug: string, quote: string) {
 type RawPos = { topic: string; stance?: string; point?: string; quote: string; source_url?: string };
 type Raw = { status?: string; source_url?: string; positions: RawPos[] };
 
-/** The stored position a coded cell points at: from the extraction when there is one, else the platform file. */
+/**
+ * The stored position a coded cell points at: from the extraction when it holds it, else the platform file. (A list can
+ * have both: an extraction of its own pages, and older research the map's coding still points at.)
+ */
 async function position(slug: string, topic: string, match: string) {
-  let doc: Raw;
-  let status = "platforms";
+  const docs: { doc: Raw; status: string }[] = [];
   try {
-    doc = await read<Raw>("extracted", `${slug}.json`);
-    status = doc.status ?? "draft";
-  } catch {
-    doc = await read<Raw>("platforms", `${slug}.json`);
+    const doc = await read<Raw>("extracted", `${slug}.json`);
+    docs.push({ doc, status: doc.status ?? "draft" });
+  } catch {}
+  try {
+    docs.push({ doc: await read<Raw>("platforms", `${slug}.json`), status: "platforms" });
+  } catch {}
+  for (const { doc, status } of docs) {
+    const hits = doc.positions.filter((p) => p.topic === topic && (p.stance ?? p.point ?? "").includes(match));
+    if (hits.length > 1) throw new Error(`${slug}: ${hits.length} matches for "${match}"`);
+    if (hits.length === 1) {
+      const source_url = hits[0].source_url ?? (await quoteUrl(slug, hits[0].quote)) ?? doc.source_url ?? "";
+      return { quote: hits[0].quote, source_url, draft: status === "draft" };
+    }
   }
-  const hits = doc.positions.filter((p) => p.topic === topic && (p.stance ?? p.point ?? "").includes(match));
-  if (hits.length !== 1) throw new Error(`${slug}: ${hits.length} matches for "${match}"`);
-  const source_url = hits[0].source_url ?? (await quoteUrl(slug, hits[0].quote)) ?? doc.source_url ?? "";
-  return { quote: hits[0].quote, source_url, draft: status === "draft" };
+  throw new Error(`${slug}: no match for "${match}"`);
 }
 
 type AxisFile = Omit<AxisData, "cells" | "uncoded" | "ordered"> & { ordered?: boolean; coding: { slug: string; level: number; match: string }[] };
