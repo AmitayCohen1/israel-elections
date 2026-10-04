@@ -2,12 +2,10 @@ import { getDictionary, getIntl, getLocale, getMessages } from "@/i18n";
 import { defineMessages } from "@/i18n/messages";
 import { arCount, ruPlural } from "@/i18n/messages/plural";
 import { getDataset } from "@/lib/data";
-import { loadAxes } from "@/lib/axes";
 import { FlapCountdown } from "@/components/flap-countdown";
 import { VoteClip } from "@/components/vote-clip";
 import Image from "next/image";
 import { PartyFan } from "@/components/party-fan";
-import { MapTeaser } from "@/components/map-teaser";
 import { FaceRow } from "@/components/face-row";
 import Link from "@/i18n/link";
 import { Gate } from "@/components/gate";
@@ -37,9 +35,12 @@ const m = defineMessages(
     partiesCta: "לכל המפלגות",
     guideLine: "מה עושים בקלפי, ואיך נקבע כמה מנדטים תקבל כל מפלגה.",
     guideCta: "למדריך ההצבעה",
-    start: "מה תרצו לדעת לפני שמצביעים?",
     peopleLine: "הכירו את ראשי המפלגות ואת המועמדים המובילים: הרקע שלהם, הניסיון והתפקידים שמילאו.",
     peopleCta: "להיכרות עם המועמדים",
+    peopleTitle: "מתמודדים",
+    gamesTitle: "משחקים",
+    gamesLine: "שאלון התאמה, בניית קואליציה, מפת קרבה ומחשבון מנדטים.",
+    gamesCta: "לכל המשחקים",
     statement: ["מי מתמודד,", "מי ברשימה", "ומה כל מפלגה מציעה."],
     playTitle: "איך יכולה להיראות הכנסת הבאה?",
     playNote: "בדקו הרכבים אפשריים של קואליציה, את הקרבה בין המפלגות ואת חלוקת המנדטים.",
@@ -71,9 +72,12 @@ const m = defineMessages(
       partiesCta: "All parties",
       guideLine: "How to vote, and how votes become seats.",
       guideCta: "Open the guide",
-      start: "Where would you like to start?",
       peopleLine: "Who is on the lists: what they did before, and the roles they held.",
       peopleCta: "Meet them",
+      peopleTitle: "Candidates",
+      gamesTitle: "Games",
+      gamesLine: "A match quiz, a coalition builder, a closeness map and a seat calculator.",
+      gamesCta: "See them",
       statement: ["The parties,", "the people", "and the positions, with sources you can check."],
       playTitle: "Play with the data",
       playNote: "Three tools that turn the positions into something you can try yourself.",
@@ -104,9 +108,12 @@ const m = defineMessages(
       partiesCta: "إلى جميع الأحزاب",
       guideLine: "كيف نصوّت، وكيف تتحول الأصوات إلى مقاعد.",
       guideCta: "إلى الدليل",
-      start: "من أين تريدون أن تبدأوا؟",
       peopleLine: "من في القوائم: ماذا فعلوا من قبل، وأي مناصب شغلوا.",
       peopleCta: "إلى الأشخاص",
+      peopleTitle: "المرشحون",
+      gamesTitle: "ألعاب",
+      gamesLine: "استبيان توافق، بناء ائتلاف، خريطة تقارب وحاسبة مقاعد.",
+      gamesCta: "إلى الألعاب",
       statement: ["الأحزاب،", "الأشخاص", "والمواقف، مع مصادر يمكن التحقق منها."],
       playTitle: "العبوا بالبيانات",
       playNote: "ثلاث أدوات تحوّل المواقف إلى شيء يمكنكم تجربته بأنفسكم.",
@@ -137,9 +144,12 @@ const m = defineMessages(
       partiesCta: "Ко всем партиям",
       guideLine: "Как голосовать и как голоса становятся мандатами.",
       guideCta: "К путеводителю",
-      start: "С чего хотите начать?",
       peopleLine: "Кто в списках: чем занимались раньше и какие должности занимали.",
       peopleCta: "К людям",
+      peopleTitle: "Кандидаты",
+      gamesTitle: "Игры",
+      gamesLine: "Тест на совпадение, сборка коалиции, карта близости и калькулятор мандатов.",
+      gamesCta: "К играм",
       statement: ["Партии,", "люди", "и позиции — с источниками, которые можно проверить."],
       playTitle: "Поиграйте с данными",
       playNote: "Три инструмента, которые превращают позиции в то, что можно попробовать самому.",
@@ -170,9 +180,12 @@ const m = defineMessages(
       partiesCta: "ወደ ሁሉም ፓርቲዎች",
       guideLine: "እንዴት እንደሚመርጡ፣ ድምጽ እንዴት ወደ መቀመጫ እንደሚቀየር።",
       guideCta: "ወደ መመሪያው",
-      start: "ከየት መጀመር ይፈልጋሉ?",
       peopleLine: "በዝርዝሮቹ ላይ ያሉት እነማን ናቸው፦ ከዚህ በፊት ምን እንደሠሩና የያዟቸው ኃላፊነቶች።",
       peopleCta: "ወደ ሰዎቹ",
+      peopleTitle: "ዕጩዎች",
+      gamesTitle: "ጨዋታዎች",
+      gamesLine: "የተዛማጅነት መጠይቅ፣ ጥምረት መገንባት፣ የቅርበት ካርታ እና የመቀመጫ ማስያ።",
+      gamesCta: "ወደ ጨዋታዎቹ",
       statement: ["ፓርቲዎቹ፣", "ሰዎቹ", "እና አቋሞቹ፣ ሊረጋገጡ ከሚችሉ ምንጮች ጋር።"],
       playTitle: "በመረጃው ይጫወቱ",
       playNote: "አቋሞቹን እራስዎ ሊሞክሩት ወደሚችሉት ነገር የሚቀይሩ ሦስት መሣሪያዎች።",
@@ -239,8 +252,22 @@ function Seats() {
   );
 }
 
+/** A question's answers, one of them picked: the quiz in miniature, without words. */
+function Choices() {
+  return (
+    <span className="flex w-full max-w-[14rem] flex-col gap-2.5" aria-hidden>
+      {[0, 1, 2, 3].map((i) => (
+        <span key={i} className={`flex h-9 items-center gap-3 rounded-full px-3 ${i === 1 ? "bg-accent" : "bg-paper ring-1 ring-line-strong"}`}>
+          <span className={`size-4 shrink-0 rounded-full ${i === 1 ? "bg-paper" : "ring-2 ring-line-strong"}`} />
+          <span className={`h-2 rounded-full ${i === 1 ? "bg-paper/70" : "bg-line-strong/70"}`} style={{ width: `${[58, 72, 46, 64][i]}%` }} />
+        </span>
+      ))}
+    </span>
+  );
+}
+
 /**
- * The home page, one long scroll. The hero asks where to start (your own answers, the positions, the parties, the people),
+ * The home page, one long scroll. The hero leads straight into three ways in (the candidates, the parties, the games),
  * then the page walks through the rest: one sentence that sharpens as it passes, the tools to play with, the comparison of a
  * few parties side by side, the parties as an index, and how to vote. Each section rises in as it arrives.
  */
@@ -255,13 +282,8 @@ export default async function Home() {
   const sorted = [...lists].sort((a, b) => a.cec_order - b.cec_order);
   const main = sorted.filter((l) => l.tier === "main");
 
-  // The map's gate shows only the line and the faces (no words), so it works in every language.
-  const axes = (await loadAxes())
-    .filter((a) => a.ordered)
-    .map((a) => ({ id: a.id, stops: a.scale.map((s) => a.cells.filter((c) => c.level === s.level).map((c) => ({ slug: c.slug, name: c.name, color: c.color, face: c.face }))) }));
-  // The leaders with a portrait, of the parties in the polls; and for the people's gate, those right behind them.
+  // The leaders with a portrait, of the parties in the polls.
   const faces = main.filter((l) => l.candidates[0]?.image_url).map((l) => ({ slug: l.slug, name: l.candidates[0].display_name, img: l.candidates[0].image_url, color: l.color }));
-  const seconds = main.flatMap((l) => l.candidates.slice(1, 3).filter((c) => c.image_url).map((c) => ({ slug: `${l.slug}-${c.position}`, name: c.display_name, img: c.image_url, color: l.color })));
   const trio = faces.slice(0, 3);
 
   const compareTopics = COMPARE.map((key) => ({ key, label: dict.topics[key], icon: <TopicIllustration topic={key} className="!w-16" /> }));
@@ -271,10 +293,10 @@ export default async function Home() {
     <div className="pb-8">
       <JsonLd data={{ "@type": "WebSite", name: dict.ui.brand, url: SITE_URL + localeUrl(locale), inLanguage: locale, description: dict.meta.description }} />
 
-      {/* The hero: the slip going into the box, the name, and the question it is all for: where to start. (The countdown is with "how to vote", at the end.) */}
+      {/* The hero: the slip going into the box, the name and the line, then the three ways in, a little apart. (The countdown is with "how to vote", at the end.) */}
       <section className="mx-auto max-w-[88rem] px-4 pt-6 sm:px-8 sm:pt-8">
         <div className="flex flex-col items-center text-center">
-          <VoteClip autoplay loop className="pointer-events-none h-36 w-auto object-contain sm:h-44" />
+          <VoteClip autoplay loop className="pointer-events-none h-28 w-auto object-contain sm:h-32" />
           <h1 className="serif mt-2 text-[clamp(3.2rem,5.6vw,6rem)] leading-[0.95] text-balance">{dict.ui.brand}</h1>
           <p className="mt-4 max-w-2xl text-lg leading-snug text-ink-2 text-pretty sm:text-xl">
             {dict.ui.blurb}{" "}
@@ -282,20 +304,17 @@ export default async function Home() {
               {t.about}
             </Link>
           </p>
-          <p className="title mt-8 text-2xl sm:text-3xl">{t.start}</p>
         </div>
-        <div className="mt-5 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
-          <Gate stack className="min-h-[18rem]" href="/quiz" title={dict.nav.quiz} line={t.quizLine} cta={t.quizCta}>
+        {/* Three ways in, one visual each and none repeated: faces for the candidates, ballot slips for the parties, seats for the games. */}
+        <div className="mt-14 grid gap-4 lg:grid-cols-3 lg:mt-20">
+          <Gate stack className="min-h-[18rem]" href="/people" title={t.peopleTitle} line={t.peopleLine} cta={t.peopleCta}>
             <FaceRow faces={faces} />
-          </Gate>
-          <Gate stack className="min-h-[18rem]" href="/map" title={dict.nav.positions} line={t.positionsLine} cta={t.positionsCta}>
-            <MapTeaser axes={axes} />
           </Gate>
           <Gate stack className="min-h-[18rem]" href="/lists" title={dict.nav.lists} line={t.partiesLine(lists.length)} cta={t.partiesCta}>
             <PartyFan parties={sorted.map((l) => ({ slug: l.slug, name: l.name, letters: l.letters, color: l.color, count: l.candidates.length }))} />
           </Gate>
-          <Gate stack className="min-h-[18rem]" href="/people" title={dict.nav.people} line={t.peopleLine} cta={t.peopleCta}>
-            <FaceRow faces={seconds} every={2300} />
+          <Gate stack className="min-h-[18rem]" href="#play" title={t.gamesTitle} line={t.gamesLine} cta={t.gamesCta}>
+            <Seats />
           </Gate>
         </div>
       </section>
@@ -326,7 +345,10 @@ export default async function Home() {
       </section>
 
       <Section id="play" title={t.playTitle} note={t.playNote} wide>
-        <div className="grid gap-4 lg:grid-cols-3">
+        <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+          <Gate stack className="min-h-[22rem]" href="/quiz" title={dict.nav.quiz} line={t.quizLine} cta={t.quizCta}>
+            <Choices />
+          </Gate>
           <Gate stack className="min-h-[22rem]" href="/coalition" title={dict.nav.coalition} line={t.coalitionLine} cta={t.coalitionCta}>
             <span className="relative block h-[9rem] w-[12rem]">
               <Image src="/media/illustrations/knesset.png" alt="" fill sizes="192px" style={{ "--bob-duration": "7s" } as React.CSSProperties} className="bob object-contain mix-blend-multiply" />
