@@ -89,3 +89,25 @@ CREATE TABLE IF NOT EXISTS page_views (
   visitor text NOT NULL
 );
 CREATE INDEX IF NOT EXISTS page_views_created ON page_views (created_at DESC);
+
+-- Engagement for each view, topped up by the browser while the page is open; and the per-tab session it belongs to.
+ALTER TABLE page_views ADD COLUMN IF NOT EXISTS view_id text;
+ALTER TABLE page_views ADD COLUMN IF NOT EXISTS session text;
+ALTER TABLE page_views ADD COLUMN IF NOT EXISTS engaged_ms integer NOT NULL DEFAULT 0;
+ALTER TABLE page_views ADD COLUMN IF NOT EXISTS scroll_pct smallint NOT NULL DEFAULT 0;
+ALTER TABLE page_views ADD COLUMN IF NOT EXISTS last_seen timestamptz;
+CREATE INDEX IF NOT EXISTS page_views_view ON page_views (view_id);
+CREATE INDEX IF NOT EXISTS page_views_session ON page_views (session, created_at);
+
+-- Clicks (tabs, buttons, links, outbound) and searches. Same anonymous visitor hash as page_views.
+CREATE TABLE IF NOT EXISTS events (
+  id bigserial PRIMARY KEY,
+  created_at timestamptz NOT NULL DEFAULT now(),
+  kind text NOT NULL,
+  label text NOT NULL,
+  path text NOT NULL,
+  lang text,
+  session text,
+  visitor text NOT NULL
+);
+CREATE INDEX IF NOT EXISTS events_created ON events (created_at DESC);
