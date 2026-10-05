@@ -156,13 +156,13 @@ async function Positions({ list }: { list: List }) {
           const gist = quoteGist(items) ?? items[0].point;
           return (
             <details key={key} name="topics" className="group rounded-3xl transition open:bg-paper open:shadow-[0_14px_30px_-24px_rgb(0_12_31/0.25)]">
-              <summary className="flex cursor-pointer items-center gap-4 rounded-3xl p-3 transition hover:bg-paper/60">
-                <span className="grid size-16 shrink-0 place-items-center rounded-full bg-paper">
-                  <TopicIllustration topic={key} className="!w-12" />
+              <summary className="flex cursor-pointer items-center gap-3 rounded-3xl p-3 transition hover:bg-paper/60 sm:gap-4">
+                <span className="grid size-12 shrink-0 place-items-center rounded-full bg-paper sm:size-16">
+                  <TopicIllustration topic={key} className="!w-9 sm:!w-12" />
                 </span>
                 <span className="min-w-0 flex-1">
                   <span className="title block text-xl">{dict.topics[key]}</span>
-                  <span className="mt-0.5 line-clamp-1 block text-lg text-ink-2 group-open:line-clamp-none">{gist}</span>
+                  <span className="mt-0.5 line-clamp-2 text-lg text-ink-2 group-open:line-clamp-none sm:line-clamp-1">{gist}</span>
                 </span>
                 {plus}
               </summary>

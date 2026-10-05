@@ -122,9 +122,9 @@ export function CandidateSkeleton() {
     <div aria-hidden className="animate-pulse">
       <div className="mb-8 flex items-center gap-4">
         <div className="size-24 shrink-0 rounded-full bg-mist" />
-        <div className="space-y-3">
-          <div className={`${bar} h-8 w-56`} />
-          <div className={`${bar} h-5 w-72`} />
+        <div className="min-w-0 flex-1 space-y-3">
+          <div className={`${bar} h-8 w-56 max-w-full`} />
+          <div className={`${bar} h-5 w-72 max-w-full`} />
         </div>
       </div>
       <div className="max-w-[44rem] space-y-4">

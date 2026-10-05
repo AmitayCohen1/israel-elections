@@ -178,13 +178,13 @@ export function MatchQuiz({ axes: all, parties }: { axes: QAxis[]; parties: QPar
 
             <div className="mt-8 flex items-center gap-2">
               {step > 0 && (
-                <button type="button" onClick={() => setStep(step - 1)} className="rounded-full px-4 py-3 text-lg text-ink-2 transition hover:text-ink">
+                <button type="button" onClick={() => setStep(step - 1)} className="rounded-full px-3 py-3 sm:px-4 text-lg text-ink-2 transition hover:text-ink">
                   {t.back}
                 </button>
               )}
               <span className="flex-1" />
               {!mine && (
-                <button type="button" onClick={skip} className="rounded-full px-4 py-3 text-lg text-ink-2 transition hover:text-ink">
+                <button type="button" onClick={skip} className="rounded-full px-3 py-3 sm:px-4 text-lg text-ink-2 transition hover:text-ink">
                   {t.skip}
                 </button>
               )}
@@ -192,7 +192,7 @@ export function MatchQuiz({ axes: all, parties }: { axes: QAxis[]; parties: QPar
                 type="button"
                 onClick={next}
                 disabled={!mine}
-                className="rounded-full bg-ink px-8 py-3 text-lg font-medium text-paper transition hover:bg-accent disabled:opacity-30 disabled:hover:bg-ink"
+                className="rounded-full bg-ink px-6 py-3 whitespace-nowrap sm:px-8 text-lg font-medium text-paper transition hover:bg-accent disabled:opacity-30 disabled:hover:bg-ink"
               >
                 {step + 1 >= axes.length ? t.finish : t.next}
               </button>
@@ -290,10 +290,12 @@ function Intro({ parties, all, questions, onStart }: { parties: QParty[]; all: Q
         {ring.map((p, i) => {
           const a = (i / ring.length) * Math.PI * 2 - Math.PI / 2;
           const size = i % 3 === 0 ? 88 : i % 3 === 1 ? 72 : 60;
+          // On a phone the sides of the ring would sit on the text: only the top and bottom arcs stay, a little smaller.
+          const side = Math.abs(Math.sin(a)) < 0.75;
           return (
             <span
               key={p.slug}
-              className="absolute"
+              className={`absolute max-sm:scale-75 ${side ? "max-sm:hidden" : ""}`}
               style={{ left: `${(50 + Math.cos(a) * 42).toFixed(2)}%`, top: `${(50 + Math.sin(a) * 40).toFixed(2)}%`, translate: "-50% -50%" }}
             >
               <span className="hover-float block rounded-full p-[3px] shadow-[0_14px_30px_-16px_rgb(0_12_31/0.5)]" style={{ animationDelay: `${-i * 0.7}s`, background: p.color }}>

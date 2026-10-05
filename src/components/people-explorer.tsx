@@ -125,7 +125,7 @@ export function PeopleExplorer({ leaders }: { leaders: LeaderEntry[] }) {
           className={`flex w-28 flex-col items-center gap-1.5 rounded-2xl p-2 text-center transition lg:w-full lg:flex-row lg:gap-5 lg:px-3 lg:py-3 lg:text-start ${on ? "bg-mist" : "hover:bg-mist/60"}`}
         >
           <Avatar name={lead.name} src={lead.img} color={l.color} size={88} />
-          <span className="min-w-0 lg:flex-1">
+          <span className="w-full min-w-0 lg:w-auto lg:flex-1">
             <span className={`block truncate text-lg leading-tight lg:text-xl ${on ? "title" : "font-medium"}`}>{lead.name}</span>
             <span className="block truncate text-lg leading-tight text-ink-2 lg:text-lg">{l.listName}</span>
           </span>
@@ -171,7 +171,7 @@ export function PeopleExplorer({ leaders }: { leaders: LeaderEntry[] }) {
             {person.facts.length > 0 && (
               <dl className="mt-6 divide-y divide-line border-t border-line">
                 {person.facts.map((f, i) => (
-                  <div key={i} className="grid grid-cols-[7rem_1fr] items-baseline gap-4 py-3 sm:grid-cols-[11rem_1fr]">
+                  <div key={i} className="grid items-baseline gap-x-4 gap-y-0.5 py-3 sm:grid-cols-[11rem_1fr]">
                     <dt className="text-lg text-ink-2">{f.label}</dt>
                     <dd className="text-xl text-pretty">
                       {f.value}
