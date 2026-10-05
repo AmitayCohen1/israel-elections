@@ -17,6 +17,13 @@ import { ListRow } from "@/components/list-card";
 import { TileFigure } from "@/components/tile";
 import { m as guide } from "@/i18n/messages/how-it-works";
 import { SITE_URL, localeUrl } from "@/lib/seo";
+import { m as games } from "@/i18n/messages/games";
+import { loadMatchData } from "@/lib/games";
+import { layout } from "@/lib/space";
+import { PartySpace, type SpaceView } from "@/components/party-space";
+import { SeatsCalculator } from "@/components/seats-calculator";
+import { CoalitionPeek, QuizPeek } from "@/components/play-peeks";
+import { Arrow } from "@/components/arrow";
 
 const m = defineMessages(
   {
@@ -74,7 +81,7 @@ const m = defineMessages(
       gamesCta: "See them",
       statement: ["The parties,", "the people", "and the positions, with sources you can check."],
       playTitle: "Play with the data",
-      playNote: "Three tools that turn the positions into something you can try yourself.",
+      playNote: "Four tools that turn the positions into something you can try yourself.",
       closenessLine: "Who is close to whom, topic by topic.",
       closenessCta: "Open the map",
       seatsTitle: "Seat calculator",
@@ -107,7 +114,7 @@ const m = defineMessages(
       gamesCta: "إلى الألعاب",
       statement: ["الأحزاب،", "الأشخاص", "والمواقف، مع مصادر يمكن التحقق منها."],
       playTitle: "العبوا بالبيانات",
-      playNote: "ثلاث أدوات تحوّل المواقف إلى شيء يمكنكم تجربته بأنفسكم.",
+      playNote: "أربع أدوات تحوّل المواقف إلى شيء يمكنكم تجربته بأنفسكم.",
       closenessLine: "من قريب ممن، في كل موضوع على حدة.",
       closenessCta: "إلى الخريطة",
       seatsTitle: "حاسبة المقاعد",
@@ -140,7 +147,7 @@ const m = defineMessages(
       gamesCta: "К играм",
       statement: ["Партии,", "люди", "и позиции — с источниками, которые можно проверить."],
       playTitle: "Поиграйте с данными",
-      playNote: "Три инструмента, которые превращают позиции в то, что можно попробовать самому.",
+      playNote: "Четыре инструмента, которые превращают позиции в то, что можно попробовать самому.",
       closenessLine: "Кто к кому близок — по каждой теме отдельно.",
       closenessCta: "К карте",
       seatsTitle: "Калькулятор мандатов",
@@ -173,7 +180,7 @@ const m = defineMessages(
       gamesCta: "ወደ ጨዋታዎቹ",
       statement: ["ፓርቲዎቹ፣", "ሰዎቹ", "እና አቋሞቹ፣ ሊረጋገጡ ከሚችሉ ምንጮች ጋር።"],
       playTitle: "በመረጃው ይጫወቱ",
-      playNote: "አቋሞቹን እራስዎ ሊሞክሩት ወደሚችሉት ነገር የሚቀይሩ ሦስት መሣሪያዎች።",
+      playNote: "አቋሞቹን እራስዎ ሊሞክሩት ወደሚችሉት ነገር የሚቀይሩ አራት መሣሪያዎች።",
       closenessLine: "ማን ለማን ይቀርባል፣ በእያንዳንዱ ርዕስ በተናጠል።",
       closenessCta: "ወደ ካርታው",
       seatsTitle: "የመቀመጫ ማስያ",
@@ -204,22 +211,6 @@ function Section({ id, title, note, children, wide = false }: { id: string; titl
   );
 }
 
-/** Faces scattered at fixed spots, some near each other and some apart: the closeness map in miniature. */
-function Scatter({ faces }: { faces: { slug: string; name: string; img: string | null }[] }) {
-  const SPOTS = [
-    [18, 30], [30, 22], [26, 58], [62, 34], [72, 26], [68, 62], [84, 70], [46, 76],
-  ];
-  return (
-    <span className="relative block h-[9rem] w-full max-w-[16rem]">
-      {faces.slice(0, SPOTS.length).map((f, i) => (
-        <span key={f.slug} className="absolute size-11 -translate-x-1/2 -translate-y-1/2 overflow-hidden rounded-full bg-line ring-2 ring-paper" style={{ left: `${SPOTS[i][0]}%`, top: `${SPOTS[i][1]}%` }}>
-          {f.img && <Image src={f.img} alt="" fill sizes="44px" className="object-cover object-top" />}
-        </span>
-      ))}
-    </span>
-  );
-}
-
 /** The 120 seats, the first 61 filled: the majority line the seat counter is about. */
 function Seats() {
   return (
@@ -231,17 +222,21 @@ function Seats() {
   );
 }
 
-/** A question's answers, one of them picked: the quiz in miniature, without words. */
-function Choices() {
+/** One tool inside the play section: its name, one line and a way in on one row, then the tool itself to try right here. */
+function Feature({ title, line, href, cta, children }: { title: string; line: string; href: string; cta: string; children: React.ReactNode }) {
   return (
-    <span className="flex w-full max-w-[14rem] flex-col gap-2.5" aria-hidden>
-      {[0, 1, 2, 3].map((i) => (
-        <span key={i} className={`flex h-9 items-center gap-3 rounded-full px-3 ${i === 1 ? "bg-accent" : "bg-paper ring-1 ring-line-strong"}`}>
-          <span className={`size-4 shrink-0 rounded-full ${i === 1 ? "bg-paper" : "ring-2 ring-line-strong"}`} />
-          <span className={`h-2 rounded-full ${i === 1 ? "bg-paper/70" : "bg-line-strong/70"}`} style={{ width: `${[58, 72, 46, 64][i]}%` }} />
-        </span>
-      ))}
-    </span>
+    <div>
+      <div className="mb-6 flex flex-wrap items-end justify-between gap-x-8 gap-y-4 sm:mb-8">
+        <div className="max-w-2xl">
+          <h3 className="serif text-4xl leading-none sm:text-5xl">{title}</h3>
+          <p className="mt-3 text-xl leading-snug text-ink-2 text-pretty">{line}</p>
+        </div>
+        <Link href={href} className="inline-flex h-14 shrink-0 items-center gap-2 rounded-full bg-ink px-7 text-lg font-medium text-paper transition hover:bg-accent">
+          {cta} <Arrow />
+        </Link>
+      </div>
+      {children}
+    </div>
   );
 }
 
@@ -266,6 +261,17 @@ export default async function Home() {
   // The leaders with a portrait, of the parties in the polls.
   const faces = main.filter((l) => l.candidates[0]?.image_url).map((l) => ({ slug: l.slug, name: l.candidates[0].display_name, img: l.candidates[0].image_url, color: l.color }));
   const trio = faces.slice(0, 3);
+
+  // The tools' data: the position map per party, and the closeness map's layouts, all questions first and then each topic.
+  const match = await loadMatchData(locale);
+  const sp = (await getMessages(games)).space;
+  const views: SpaceView[] = [
+    { id: "all", label: sp.all, questions: [], axes: match.axes, points: layout(match.axes, match.parties) },
+    ...[...new Set(match.axes.map((a) => a.topic))].map((topic) => {
+      const own = match.axes.filter((a) => a.topic === topic);
+      return { id: topic, label: dict.topics[topic as keyof typeof dict.topics] ?? topic, questions: own.map((a) => a.short), axes: own, points: layout(own, match.parties, { topic: true }) };
+    }),
+  ];
 
 
   return (
@@ -329,21 +335,22 @@ export default async function Home() {
       </section>
 
       <Section id="play" title={t.playTitle} note={t.playNote} wide>
-        <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
-          <Gate stack className="min-h-[22rem]" href="/quiz" title={dict.nav.quiz} line={t.quizLine} cta={t.quizCta}>
-            <Choices />
-          </Gate>
-          <Gate stack className="min-h-[22rem]" href="/coalition" title={dict.nav.coalition} line={t.coalitionLine} cta={t.coalitionCta}>
-            <span className="relative block h-[9rem] w-[12rem]">
-              <Image src="/media/illustrations/knesset.png" alt="" fill sizes="192px" style={{ "--bob-duration": "7s" } as React.CSSProperties} className="bob object-contain mix-blend-multiply" />
-            </span>
-          </Gate>
-          <Gate stack className="min-h-[22rem]" href="/closeness" title={dict.nav.closeness} line={t.closenessLine} cta={t.closenessCta}>
-            <Scatter faces={faces} />
-          </Gate>
-          <Gate stack className="min-h-[22rem]" href="/how-it-works" title={t.seatsTitle} line={t.seatsLine} cta={t.seatsCta}>
-            <Seats />
-          </Gate>
+        {/* Each tool as itself, one after the other: the quiz's first question, the coalition's agreements, the closeness map, the seat calculator. */}
+        <div className="space-y-24 sm:space-y-32">
+          <Feature title={dict.nav.quiz} line={t.quizLine} href="/quiz" cta={t.quizCta}>
+            <QuizPeek axes={match.axes} parties={match.parties} />
+          </Feature>
+          <Feature title={dict.nav.coalition} line={t.coalitionLine} href="/coalition" cta={t.coalitionCta}>
+            <CoalitionPeek axes={match.axes} parties={match.parties} />
+          </Feature>
+          <Feature title={dict.nav.closeness} line={t.closenessLine} href="/closeness" cta={t.closenessCta}>
+            <div className="flex flex-col rounded-[2rem] bg-mist p-4 sm:p-6 lg:h-[46rem]">
+              <PartySpace views={views} parties={match.parties} />
+            </div>
+          </Feature>
+          <Feature title={t.seatsTitle} line={t.seatsLine} href="/how-it-works" cta={t.seatsCta}>
+            <SeatsCalculator />
+          </Feature>
         </div>
       </Section>
 
