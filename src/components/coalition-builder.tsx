@@ -383,7 +383,7 @@ function statusOf(axis: QAxis, members: QParty[], t: T): Status | null {
  * The heart of the game, under the Knesset: on which questions the partners give the same answer, and on which they would
  * argue, each side shown with its faces and its answer. Questions with too few coded partners are named at the end.
  */
-export function Verdict({ axes, members, t, onOpen }: { axes: QAxis[]; members: QParty[]; t: T; onOpen: () => void }) {
+function Verdict({ axes, members, t, onOpen }: { axes: QAxis[]; members: QParty[]; t: T; onOpen: () => void }) {
   const rows = axes.map((a) => ({ a, s: statusOf(a, members, t) }));
   const agree = rows.filter((r) => r.s?.key === "agree");
   const argue = rows.filter((r) => r.s && r.s.key !== "agree");
