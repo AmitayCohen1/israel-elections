@@ -43,6 +43,7 @@ export function MatchQuiz({ axes: all, parties }: { axes: QAxis[]; parties: QPar
 
   const axis = axes[step];
   const mine = axis ? answers[axis.id] : undefined;
+  const silent = axis ? parties.filter((p) => p.tier === "main" && !(axis.id in p.levels)) : [];
   const answered = Object.keys(answers).length;
 
   const points = useMemo(() => {
@@ -226,6 +227,19 @@ export function MatchQuiz({ axes: all, parties }: { axes: QAxis[]; parties: QPar
                   );
                 })}
               </div>
+
+              {/* The main lists with no quoted position on this question: named, greyed, never just missing */}
+              {mine && silent.length > 0 && (
+                <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-2 px-1">
+                  <span className="text-base text-ink-2">{t.noQuote}</span>
+                  {silent.map((p) => (
+                    <span key={p.slug} className="flex items-center gap-1.5 opacity-60 grayscale" title={p.name}>
+                      <Avatar name={p.name} src={p.face} color={p.color} size={26} />
+                      <span className="text-base">{p.name}</span>
+                    </span>
+                  ))}
+                </div>
+              )}
 
               {/* Right under the answers: the way on first, then the extras */}
               <div className="mt-5 flex flex-wrap items-center gap-2">
