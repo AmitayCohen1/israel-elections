@@ -27,7 +27,7 @@ export const he = {
     topics: "עמדות לפי נושא",
     map: "מפת עמדות",
     positions: "עמדות",
-    quiz: "מי קרוב אליי?",
+    quiz: "שאלון בחירות",
     coalition: "בנו קואליציה",
     closeness: "מי קרוב למי",
     people: "ראשי המפלגות",

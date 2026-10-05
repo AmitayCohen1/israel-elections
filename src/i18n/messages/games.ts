@@ -4,7 +4,7 @@ import { defineMessages } from "@/i18n/messages";
 export const m = defineMessages(
   {
     quiz: {
-      title: "מי קרוב אליי?",
+      title: "שאלון בחירות",
       hint: "עונים על השאלות של מפת העמדות ורואים בזמן אמת אילו מפלגות קרובות לתשובות שלכם. זו לא המלצת הצבעה.",
       progress: (i: number, n: number) => `שאלה ${i} מתוך ${n}`,
       meta: (n: number) => `${n} שאלות · כשתי דקות`,
