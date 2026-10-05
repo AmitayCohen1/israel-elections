@@ -68,7 +68,7 @@ export async function loadAxes(): Promise<AxisData[]> {
         }),
       );
       const coded = new Set(ax.coding.map((c) => c.slug));
-      const uncoded = lists.filter((l) => !coded.has(l.slug)).sort((a, b) => a.cec_order - b.cec_order).map((l) => ({ slug: l.slug, name: l.name }));
+      const uncoded = lists.filter((l) => !coded.has(l.slug)).sort((a, b) => a.cec_order - b.cec_order).map((l) => ({ slug: l.slug, name: l.name, color: listColor(l.color), face: l.candidates[0]?.image_url ?? null, main: l.tier === "main" }));
       return { id, topic: ax.topic, short: ax.short, question: ax.question, ordered: ax.ordered !== false, poles: ax.poles, scale: ax.scale, rules: ax.rules, cells: cells.sort((a, b) => a.order - b.order), uncoded };
     }),
   );

@@ -10,7 +10,8 @@ export async function loadMatchData(locale?: Locale): Promise<{ axes: QAxis[]; p
   const [raw, lists] = await Promise.all([loadAxes(), getDataset(locale)]);
   const axes: QAxis[] = raw.map((a) => ({ id: a.id, topic: a.topic, short: a.short, question: a.question, ordered: a.ordered, scale: a.scale }));
   const parties: QParty[] = lists
-    .sort((a, b) => a.cec_order - b.cec_order)
+    // The main lists first, each group in ballot order: wherever only some parties fit, the main ones are the ones shown.
+    .sort((a, b) => (a.tier === b.tier ? a.cec_order - b.cec_order : a.tier === "main" ? -1 : 1))
     .map((l) => {
       const p: QParty = { slug: l.slug, name: l.name, color: listColor(l.color), face: l.candidates[0]?.image_url ?? null, tier: l.tier, levels: {}, quotes: {} };
       for (const ax of raw) {

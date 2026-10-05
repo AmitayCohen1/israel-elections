@@ -59,7 +59,7 @@ export default async function Topics() {
             label: topicLabel(dict, key),
             icon: <TopicIllustration topic={key} className="!w-20" />,
             rows: rows.map((r) => ({ id: r.id, name: r.name, gist: r.gist, mark: r.mark, body: r.body })),
-            silent: lists.filter((l) => !rows.some((r) => r.id === l.slug)).map((l) => ({ slug: l.slug, name: l.name })),
+            silent: lists.filter((l) => !rows.some((r) => r.id === l.slug)).map((l) => ({ slug: l.slug, name: l.name, main: l.tier === "main" })),
             total: lists.length,
           };
         })}

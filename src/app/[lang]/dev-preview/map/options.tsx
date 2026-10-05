@@ -2,6 +2,8 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Avatar } from "@/components/avatar";
+import { TopicIllustration } from "@/components/illustration";
+import type { TopicKey } from "@/lib/topics";
 
 export type Cell = {
   slug: string;
@@ -25,7 +27,8 @@ export type AxisData = {
   scale: { level: number; label: string; short: string }[];
   rules: string[];
   cells: Cell[];
-  uncoded: { slug: string; name: string }[];
+  /** the lists with no coded answer on this question; `main` marks the ones the map never leaves out */
+  uncoded: { slug: string; name: string; color: string; face: string | null; main: boolean }[];
 };
 
 function host(u: string) {
@@ -150,8 +153,26 @@ export function TopicMenu({
   );
 }
 
-/** One thick line with named stops on a grey card (the look of the overview's lead); the parties stand at their stop as faces. Pressing a party opens its words right there. */
-export function AxisStacks({ axes }: { axes: AxisData[] }) {
+/** One thick line with named stops on a grey card (the look of the overview's lead; `className` replaces the card, e.g. when the page sets it on a grey band of its own); the parties stand at their stop as faces. Pressing a party opens its words right there. */
+export function AxisStacks({
+  axes,
+  className = "rounded-[2rem] bg-mist p-6 sm:p-8",
+  chart,
+  quiet = false,
+  art = quiet,
+}: {
+  axes: AxisData[];
+  className?: string;
+  /**
+   * Heads the map like a chart: the question, the topic picker across from it and a rule under them, with no hint.
+   * A string is a small name over the question too, for a page where the map is one part of many, which also leaves out the footnote.
+   */
+  chart?: string | boolean;
+  /** Leaves out the hint and the footnote and centres the head, for a page that heads the map itself. */
+  quiet?: boolean;
+  /** The topic's picture over the question; on with `quiet` unless turned off. */
+  art?: boolean;
+}) {
   const [id, setId] = useState(axes[0].id);
   const [open, setOpen] = useState<Open | null>(null);
   const pop = useRef<HTMLDivElement>(null);
@@ -162,6 +183,7 @@ export function AxisStacks({ axes }: { axes: AxisData[] }) {
     if (axes.some((a) => a.id === asked)) setId(asked);
   }, [axes]);
   const axis = axes.find((a) => a.id === id)!;
+  const named = typeof chart === "string";
   const cell = axis.cells.find((c) => c.slug === open?.slug);
   const cols = {
     gridTemplateColumns: `repeat(${axis.scale.length}, minmax(0, 1fr))`,
@@ -210,28 +232,45 @@ export function AxisStacks({ axes }: { axes: AxisData[] }) {
   };
 
   return (
-    <div className="rounded-[2rem] bg-mist p-6 sm:p-8">
-      {/* The question is one sentence; the topic in it is the control. */}
-      <p className="title flex flex-wrap items-center gap-x-3 gap-y-2 text-2xl sm:text-3xl">
-        מה עמדת המפלגות בנושא
-        <TopicMenu
-          axes={axes}
-          value={id}
-          onChange={(next) => {
-            setId(next);
-            setOpen(null);
-          }}
-          idle="bg-paper hover:bg-mist-deep"
-        />
-      </p>
-      <p className="mt-2 max-w-3xl text-xl text-ink-2">{axis.question}</p>
-      <p className="mt-3 inline-flex items-center gap-2 rounded-full bg-paper px-4 py-1.5 text-lg font-medium text-ink">
-        <span aria-hidden>👆</span> לחצו על מפלגה כדי לקרוא את הציטוט שלה
-      </p>
+    <div className={className}>
+      {chart ? (
+        <div className="flex flex-wrap items-end justify-between gap-x-8 gap-y-4 border-b border-line-strong pb-6">
+          <div className="min-w-0 max-w-3xl">
+            {named && <h2 className="text-base font-medium tracking-wide text-muted">{chart}</h2>}
+            <p className="title mt-1 text-2xl leading-snug sm:text-[1.75rem]">{axis.question}</p>
+          </div>
+          <TopicMenu axes={axes} value={id} onChange={(next) => (setId(next), setOpen(null))} idle="bg-paper hover:bg-mist-deep" />
+        </div>
+      ) : (
+        <div className={quiet ? "flex flex-col items-center text-center" : ""}>
+          {art && <TopicIllustration key={axis.topic} topic={axis.topic as TopicKey} className="dot-in !w-24 sm:!w-32" />}
+          <div className={`min-w-0 ${art ? "mt-4" : ""}`}>
+            {/* The question is one sentence; the topic in it is the control. */}
+            <p className={`title flex flex-wrap items-center gap-x-3 gap-y-2 text-2xl sm:text-3xl ${quiet ? "justify-center" : ""}`}>
+              מה עמדת המפלגות בנושא
+              <TopicMenu
+                axes={axes}
+                value={id}
+                onChange={(next) => {
+                  setId(next);
+                  setOpen(null);
+                }}
+                idle="bg-paper hover:bg-mist-deep"
+              />
+            </p>
+            <p className={`mt-2 max-w-3xl text-xl text-ink-2 ${quiet ? "mx-auto text-balance" : ""}`}>{axis.question}</p>
+            {!quiet && (
+              <p className="mt-3 inline-flex items-center gap-2 rounded-full bg-paper px-4 py-1.5 text-lg font-medium text-ink">
+                <span aria-hidden>👆</span> לחצו על מפלגה כדי לקרוא את הציטוט שלה
+              </p>
+            )}
+          </div>
+        </div>
+      )}
 
       <div className="min-w-0">
         {/* Phones and tablets: the axis runs top to bottom, each stop a section with its parties wrapped beneath. */}
-        <ol className="relative mt-8 border-s-4 border-ink ps-6 lg:hidden">
+        <ol className={`relative border-s-4 border-ink ps-6 lg:hidden ${quiet ? "mt-14" : "mt-8"}`}>
           {axis.scale.map((lv) => (
             <li key={lv.level} className="relative pb-9 last:pb-0">
               <span aria-hidden className="absolute -start-[2.2rem] top-1.5 size-5 rounded-full border-4 border-mist bg-ink" />
@@ -248,7 +287,7 @@ export function AxisStacks({ axes }: { axes: AxisData[] }) {
           ))}
         </ol>
 
-        <div className="mt-12 hidden lg:block">
+        <div className={`hidden lg:block ${chart || quiet ? "mt-24" : "mt-12"}`}>
           <div className="grid items-end gap-4" style={cols}>
             {axis.scale.map((lv) => (
               <ul key={lv.level} className="flex flex-wrap justify-center gap-2 pb-4">
@@ -278,10 +317,29 @@ export function AxisStacks({ axes }: { axes: AxisData[] }) {
           </div>
         </div>
 
-        <p className="mt-10 max-w-4xl text-base leading-relaxed text-ink-2">
-          טרם סיווגנו בשאלה זו ({axis.uncoded.length} מפלגות):{" "}
-          {axis.uncoded.map((l) => l.name).join(" · ")}
-        </p>
+        {/* A main list is never missing from the map: with no coded answer here, it stands under the line, greyed, and says so. */}
+        {axis.uncoded.some((l) => l.main) && (
+          <div className={`mt-10 flex flex-wrap items-center gap-x-4 gap-y-3 border-t border-line-strong pt-5 ${quiet ? "justify-center" : ""}`}>
+            <p className="text-base text-ink-2">עוד לא מצאנו עמדה מצוטטת בשאלה זו:</p>
+            <ul className="flex flex-wrap gap-2">
+              {axis.uncoded
+                .filter((l) => l.main)
+                .map((l) => (
+                  <li key={l.slug} title={l.name} className="flex items-center gap-2 rounded-full bg-paper/70 py-1 ps-1 pe-3 text-base text-ink-2">
+                    <Avatar name={l.name} src={l.face} color={l.color} size={32} className="opacity-70 grayscale" />
+                    {l.name}
+                  </li>
+                ))}
+            </ul>
+          </div>
+        )}
+
+        {!named && !quiet && (
+          <p className="mt-10 max-w-4xl text-base leading-relaxed text-ink-2">
+            טרם סיווגנו בשאלה זו ({axis.uncoded.length} מפלגות):{" "}
+            {axis.uncoded.map((l) => l.name).join(" · ")}
+          </p>
+        )}
       </div>
 
       {open && cell && (
@@ -324,5 +382,19 @@ export function AxisStacks({ axes }: { axes: AxisData[] }) {
         </div>
       )}
     </div>
+  );
+}
+
+/** The map at full size: a grey band from edge to edge with the map bare on it, all centred. `label` is a small name over it, `top` whatever goes first (the map page's tabs); the page sets the height in `className`. */
+export function MapBand({ axes, label, top, art = true, className = "", ...rest }: { axes: AxisData[]; label?: string; top?: React.ReactNode; art?: boolean; className?: string } & React.HTMLAttributes<HTMLElement>) {
+  return (
+    <section {...rest} className={`flex flex-col justify-center bg-mist ${className}`}>
+      {/* A classic centred block: the label, the picture and the question on the middle line, the axis under them. */}
+      <div className="mx-auto w-full max-w-6xl px-4 sm:px-8">
+        {top}
+        {label && <h2 className="mb-6 text-center text-lg font-medium text-ink-2">{label}</h2>}
+        <AxisStacks axes={axes} quiet art={art} />
+      </div>
+    </section>
   );
 }

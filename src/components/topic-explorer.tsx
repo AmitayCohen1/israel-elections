@@ -14,7 +14,7 @@ export type ExplorerTopic = {
   icon: React.ReactNode;
   /** Every list that wrote on this topic. */
   rows: ExplorerRow[];
-  silent: { slug: string; name: string }[];
+  silent: { slug: string; name: string; main?: boolean }[];
   total: number;
 };
 
@@ -130,13 +130,12 @@ export function TopicExplorer({ topics, defaultKey }: { topics: ExplorerTopic[];
           ))}
         </div>
 
-        {t.silent.length > 0 && (
-          <details className="mt-4 text-lg leading-snug text-ink-2">
-            <summary className="inline-block cursor-pointer font-semibold text-accent underline-offset-4 hover:underline">
-              {tx.silent(t.silent.length, t.label)}
-            </summary>
+        {/* A main list with nothing on this topic is named in the open; the rest of the silent ones fold away. */}
+        {[t.silent.filter((l) => l.main), t.silent.filter((l) => !l.main)].map((group, k) => {
+          if (group.length === 0) return null;
+          const names = (
             <p className="mt-1">
-              {t.silent.map((l, i) => (
+              {group.map((l, i) => (
                 <span key={l.slug}>
                   {i > 0 && " · "}
                   <Link href={`/lists/${l.slug}`} className="underline-offset-4 hover:underline">
@@ -145,8 +144,19 @@ export function TopicExplorer({ topics, defaultKey }: { topics: ExplorerTopic[];
                 </span>
               ))}
             </p>
-          </details>
-        )}
+          );
+          return k === 0 ? (
+            <div key="main" className="mt-4 text-lg leading-snug text-ink-2">
+              <p className="font-semibold text-ink">{tx.silent(group.length, t.label)}</p>
+              {names}
+            </div>
+          ) : (
+            <details key="rest" className="mt-4 text-lg leading-snug text-ink-2">
+              <summary className="inline-block cursor-pointer font-semibold text-accent underline-offset-4 hover:underline">{tx.silent(group.length, t.label)}</summary>
+              {names}
+            </details>
+          );
+        })}
       </div>
     </div>
   );

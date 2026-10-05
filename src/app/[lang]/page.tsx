@@ -11,14 +11,11 @@ import Link from "@/i18n/link";
 import { Gate } from "@/components/gate";
 import { JsonLd } from "@/components/json-ld";
 import { Statement } from "@/components/statement";
-import { PartyCompare } from "@/components/party-compare";
-import { compareRows } from "@/components/topic-panels";
-import { TopicIllustration } from "@/components/illustration";
+import { MapBand } from "./dev-preview/map/options";
+import { loadAxes } from "@/lib/axes";
 import { ListRow } from "@/components/list-card";
-import { Clamp } from "@/components/clamp";
 import { TileFigure } from "@/components/tile";
 import { m as guide } from "@/i18n/messages/how-it-works";
-import type { TopicKey } from "@/lib/topics";
 import { SITE_URL, localeUrl } from "@/lib/seo";
 
 const m = defineMessages(
@@ -49,9 +46,6 @@ const m = defineMessages(
     seatsTitle: "מחשבון מנדטים",
     seatsLine: "שנו את מספר הקולות לכל מפלגה וראו איך זה משפיע על חלוקת המנדטים.",
     seatsCta: "למחשבון המנדטים",
-    compareTitle: "מתלבטים בין כמה מפלגות?",
-    compareNote: "בחרו עד שלוש מפלגות והשוו מה הן אומרות על ביטחון, כלכלה ושאר הנושאים שעל סדר היום.",
-    compareAll: "להשוואה המלאה",
     listsTitle: "המפלגות",
     listsNote: "המפלגות המרכזיות בסקרים. בחרו מפלגה כדי לקרוא על המועמדים ועל העמדות שלה.",
     listsAll: (n: number) => `לכל ${n} המפלגות`,
@@ -86,9 +80,6 @@ const m = defineMessages(
       seatsTitle: "Seat calculator",
       seatsLine: "Move the votes and see how the 120 seats are divided.",
       seatsCta: "Calculate",
-      compareTitle: "Torn between a few parties?",
-      compareNote: "Pick up to three and read them side by side, topic by topic, in their own words.",
-      compareAll: "The full comparison",
       listsTitle: "The parties",
       listsNote: "Those that appear in the polls, in the Central Elections Committee's official order.",
       listsAll: (n: number) => `All ${n} parties`,
@@ -122,9 +113,6 @@ const m = defineMessages(
       seatsTitle: "حاسبة المقاعد",
       seatsLine: "حرّكوا الأصوات وشاهدوا كيف تتوزع المقاعد الـ120.",
       seatsCta: "احسبوا",
-      compareTitle: "مترددون بين عدة أحزاب؟",
-      compareNote: "اختاروا حتى ثلاثة واقرأوها جنبًا إلى جنب، موضوعًا بعد موضوع، بكلماتها.",
-      compareAll: "المقارنة الكاملة",
       listsTitle: "الأحزاب",
       listsNote: "تلك التي تظهر في الاستطلاعات، بالترتيب الرسمي للجنة الانتخابات المركزية.",
       listsAll: (n: number) => `جميع الأحزاب (${n})`,
@@ -158,9 +146,6 @@ const m = defineMessages(
       seatsTitle: "Калькулятор мандатов",
       seatsLine: "Двигайте голоса и смотрите, как делятся 120 мандатов.",
       seatsCta: "Посчитать",
-      compareTitle: "Выбираете между несколькими партиями?",
-      compareNote: "Выберите до трёх и читайте их рядом, тема за темой, их же словами.",
-      compareAll: "Полное сравнение",
       listsTitle: "Партии",
       listsNote: "Те, что есть в опросах, в официальном порядке ЦИК.",
       listsAll: (n: number) => `Все партии (${n})`,
@@ -194,9 +179,6 @@ const m = defineMessages(
       seatsTitle: "የመቀመጫ ማስያ",
       seatsLine: "ድምጾቹን ያንቀሳቅሱና 120ው መቀመጫዎች እንዴት እንደሚከፋፈሉ ይመልከቱ።",
       seatsCta: "አስሉ",
-      compareTitle: "በጥቂት ፓርቲዎች መካከል እያመነቱ ነው?",
-      compareNote: "እስከ ሦስት ይምረጡና ጎን ለጎን፣ ርዕስ በርዕስ፣ በራሳቸው ቃል ያንብቡ።",
-      compareAll: "ሙሉው ንጽጽር",
       listsTitle: "ፓርቲዎቹ",
       listsNote: "በሕዝብ አስተያየት ላይ የሚታዩት፣ በማዕከላዊ ምርጫ ኮሚቴው ይፋዊ ቅደም ተከተል።",
       listsAll: (n: number) => `ሁሉም ፓርቲዎች (${n})`,
@@ -206,9 +188,6 @@ const m = defineMessages(
   },
 );
 
-
-/** The topics the comparison opens with; every party page still carries all eight. */
-const COMPARE: TopicKey[] = ["economy", "security", "religion_state", "education", "welfare_health"];
 
 function Painted({ name }: { name: string }) {
   return <Image src={`/media/illustrations/${name}.png`} alt="" width={1000} height={1000} sizes="380px" className="h-[86%] w-auto mix-blend-multiply [mask-image:radial-gradient(closest-side,black_78%,transparent_100%)]" />;
@@ -279,6 +258,8 @@ export default async function Home() {
   const locale = await getLocale();
   const electionDay = new Intl.DateTimeFormat(intl, { day: "numeric", month: "long", timeZone: "UTC" }).format(Date.UTC(2026, 9, 27));
   const lists = await getDataset();
+  // Only questions whose answers form a scale can sit on a line.
+  const axes = (await loadAxes()).filter((a) => a.ordered);
   const sorted = [...lists].sort((a, b) => a.cec_order - b.cec_order);
   const main = sorted.filter((l) => l.tier === "main");
 
@@ -286,21 +267,21 @@ export default async function Home() {
   const faces = main.filter((l) => l.candidates[0]?.image_url).map((l) => ({ slug: l.slug, name: l.candidates[0].display_name, img: l.candidates[0].image_url, color: l.color }));
   const trio = faces.slice(0, 3);
 
-  const compareTopics = COMPARE.map((key) => ({ key, label: dict.topics[key], icon: <TopicIllustration topic={key} className="!w-16" /> }));
-  const rows = compareRows(sorted, COMPARE);
 
   return (
     <div className="pb-8">
       <JsonLd data={{ "@type": "WebSite", name: dict.ui.brand, url: SITE_URL + localeUrl(locale), inLanguage: locale, description: dict.meta.description }} />
 
-      {/* The hero: the slip going into the box with the time left beside it, the name and the line, then the three ways in, a little apart. */}
+      {/* The hero: the time left and the slip going into the box in the top corners, the name and the line, then the three ways in, a little apart. */}
       <section className="mx-auto max-w-[88rem] px-4 pt-6 sm:px-8 sm:pt-8">
         <div className="flex flex-col items-center text-center">
-          <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
-            <VoteClip autoplay loop className="pointer-events-none h-28 w-auto object-contain sm:h-32" />
-            <FlapCountdown className="text-[1.9rem]" gap="gap-2.5" />
+          {/* The time left in the top right corner and the clip in the top left, on a line of their own above the name.
+              On a phone the bar's logo is already the ballot box, so the clip steps aside and the countdown stands alone. */}
+          <div className="flex w-full items-center justify-center sm:justify-between ltr:flex-row-reverse">
+            <FlapCountdown className="text-[1.3rem]" gap="gap-2" />
+            <VoteClip autoplay loop className="pointer-events-none hidden h-20 w-auto object-contain sm:block" />
           </div>
-          <h1 className="serif mt-2 text-[clamp(3.2rem,5.6vw,6rem)] leading-[0.95] text-balance">{dict.ui.brand}</h1>
+          <h1 className="serif mt-7 text-[clamp(3.2rem,5.6vw,6rem)] leading-[0.95] text-balance sm:mt-14">{dict.ui.brand}</h1>
           <p className="mt-4 max-w-2xl text-lg leading-snug text-ink-2 text-pretty sm:text-xl">
             {dict.ui.blurb}{" "}
             <Link href="/about" className="font-medium text-ink underline underline-offset-4">
@@ -366,11 +347,8 @@ export default async function Home() {
         </div>
       </Section>
 
-      <Section id="compare" title={t.compareTitle} note={t.compareNote} wide>
-        <Clamp label={t.compareAll}>
-          <PartyCompare topics={compareTopics} rows={rows} silentNames={[]} total={lists.length} />
-        </Clamp>
-      </Section>
+      {/* The position map gets the whole screen, as on its own page. */}
+      <MapBand id="map" axes={axes} label={dict.nav.map} className="reveal mt-28 min-h-dvh scroll-mt-0 py-20 sm:mt-40 sm:py-24" />
 
       <Section id="parties" title={t.listsTitle} note={t.listsNote}>
         <ul className="border-t border-line-strong">
