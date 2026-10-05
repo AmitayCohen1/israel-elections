@@ -12,7 +12,7 @@ export function Stage({ children, className = "" }: { children: React.ReactNode;
     window.scrollTo(0, 0);
     const html = document.documentElement;
     const before = html.style.overflow;
-    html.style.overflow = "hidden";
+    html.style.overflow = "clip"; // clip, not hidden: nothing can scroll it, not even a focus jump
     return () => {
       html.style.overflow = before;
     };

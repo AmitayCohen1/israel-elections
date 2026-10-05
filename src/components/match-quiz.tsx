@@ -6,6 +6,7 @@ import { m } from "@/i18n/messages/games";
 import { Avatar } from "@/components/avatar";
 import { TopicIllustration } from "@/components/illustration";
 import { Sheet, Stage } from "@/components/game-stage";
+import { H, W, COLORS, ShareSheet, drawFace, fitText, loadFaces, startCard, useDir } from "@/components/share-card";
 import type { TopicKey } from "@/lib/topics";
 import { agreement, score, type Answers, type QAxis, type QParty } from "@/lib/match";
 
@@ -109,9 +110,47 @@ export function MatchQuiz({ axes: all, parties }: { axes: QAxis[]; parties: QPar
 
   const sheetParty = sheet && sheet !== "all" ? coded.find((p) => p.slug === sheet) : null;
 
+  // Sharing: the closest three on a card, and a link that carries them so a friend sees them before playing.
+  const share = useMessages(m).share;
+  const dir = useDir();
+  const [sharing, setSharing] = useState(false);
+  const top = useMemo(() => ranked.ok.slice(0, 3), [ranked]);
+  const shareUrl =
+    typeof window === "undefined" ? "" : `${window.location.origin}${window.location.pathname}?r=${top.map((r) => `${r.p.slug}.${Math.round(r.score! * 100)}`).join(",")}`;
+  const draw = useCallback(async () => {
+    const { canvas, ctx, f } = await startCard(dir, share.brand);
+    const faces = await loadFaces(top.map((r) => r.p));
+    ctx.textAlign = "center";
+    ctx.fillStyle = COLORS.ink;
+    ctx.font = `400 92px ${f.serif}`;
+    ctx.fillText(share.quizCard, W / 2, 250);
+    const [a, b, c] = top;
+    if (a) {
+      drawFace(ctx, faces[0], a.p, W / 2, 490, 140, f.sans, 12);
+      ctx.fillStyle = COLORS.ink;
+      fitText(ctx, a.p.name, W / 2, 685, 900, 64, 500, f.sans);
+      ctx.font = `400 128px ${f.serif}`;
+      ctx.fillText(`${Math.round(a.score! * 100)}%`, W / 2, 790);
+    }
+    [b, c].forEach((r, i) => {
+      if (!r) return;
+      // second on the start side, third on the other, as on the podium
+      const x = W / 2 + (i === 0 ? 1 : -1) * (dir === "rtl" ? 230 : -230);
+      drawFace(ctx, faces[i + 1], r.p, x, 945, 72, f.sans, 8);
+      ctx.fillStyle = COLORS.ink;
+      fitText(ctx, r.p.name, x, 1052, 400, 38, 500, f.sans);
+      ctx.font = `400 60px ${f.serif}`;
+      ctx.fillText(`${Math.round(r.score! * 100)}%`, x, 1115);
+    });
+    ctx.fillStyle = COLORS.flag;
+    ctx.font = `500 40px ${f.sans}`;
+    ctx.fillText(share.quizCta, W / 2, H - 120);
+    return canvas;
+  }, [dir, share, top]);
+
   return (
     <Stage>
-      {phase === "intro" && <Intro parties={coded} questions={axes.length} onStart={() => setPhase("play")} />}
+      {phase === "intro" && <Intro parties={coded} all={parties} questions={axes.length} onStart={() => setPhase("play")} />}
 
       {phase === "play" && axis && (
         <div className="flex h-full flex-col">
@@ -267,12 +306,15 @@ export function MatchQuiz({ axes: all, parties }: { axes: QAxis[]; parties: QPar
           onWhy={(slug) => setSheet(slug)}
           onAll={() => setSheet("all")}
           onRestart={restart}
+          onShare={() => setSharing(true)}
           onChange={() => {
             setStep(0);
             setPhase("play");
           }}
         />
       )}
+
+      <ShareSheet open={sharing} onClose={() => setSharing(false)} draw={draw} url={shareUrl} text={top[0] ? share.quizText(top[0].p.name, Math.round(top[0].score! * 100)) : ""} file="my-match" />
 
       <Sheet open={sheet != null} onClose={() => setSheet(null)} title={sheetParty ? sheetParty.name : t.all} closeLabel={t.close}>
         {sheetParty ? (
@@ -315,9 +357,27 @@ export function MatchQuiz({ axes: all, parties }: { axes: QAxis[]; parties: QPar
 }
 
 /** The start screen: the question in large type, the parties floating around it, one button. */
-function Intro({ parties, questions, onStart }: { parties: QParty[]; questions: number; onStart: () => void }) {
+function Intro({ parties, all, questions, onStart }: { parties: QParty[]; all: QParty[]; questions: number; onStart: () => void }) {
   const t = useMessages(m).quiz;
+  const s = useMessages(m).share;
   const ring = parties.slice(0, 16);
+  // A shared link (?r=likud.83,shas.78) shows the friend's closest three before the start button.
+  const [friend, setFriend] = useState<{ p: QParty; pct: number }[]>([]);
+  useEffect(() => {
+    const r = new URLSearchParams(window.location.search).get("r") ?? "";
+    const got = r
+      .split(",")
+      .map((x) => {
+        const [slug, n] = x.split(".");
+        const p = all.find((q) => q.slug === slug);
+        const pct = Number(n);
+        return p && pct >= 0 && pct <= 100 ? { p, pct } : null;
+      })
+      .filter((x): x is { p: QParty; pct: number } => x != null)
+      .slice(0, 3);
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- the address is only readable in the browser
+    setFriend(got);
+  }, [all]);
   return (
     <div className="relative flex h-full flex-col items-center justify-center px-6 text-center">
       <div aria-hidden className="pointer-events-none absolute inset-0">
@@ -340,8 +400,22 @@ function Intro({ parties, questions, onStart }: { parties: QParty[]; questions: 
       <p className="relative rounded-full bg-paper px-4 py-1.5 text-lg text-ink-2">{t.meta(questions)}</p>
       <h1 className="serif relative mt-6 max-w-3xl text-6xl text-balance sm:text-7xl xl:text-8xl">{t.title}</h1>
       <p className="relative mt-6 max-w-xl text-xl text-ink-2 text-balance">{t.introNote}</p>
+      {friend.length > 0 && (
+        <div className="card-in relative mt-8 rounded-3xl bg-paper px-6 py-4 shadow-[0_14px_34px_-22px_rgb(0_12_31/0.5)]">
+          <p className="text-lg text-ink-2">{s.friend}</p>
+          <ul className="mt-3 flex flex-wrap justify-center gap-4">
+            {friend.map(({ p, pct }) => (
+              <li key={p.slug} className="flex items-center gap-2">
+                <Avatar name={p.name} src={p.face} color={p.color} size={40} />
+                <span className="text-lg">{p.name}</span>
+                <span className="text-lg font-medium tabular-nums">{pct}%</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
       <button type="button" onClick={onStart} className="relative mt-10 rounded-full bg-ink px-10 py-4 text-xl font-medium text-paper transition hover:scale-[1.03] hover:bg-accent">
-        {t.start}
+        {friend.length ? s.friendStart : t.start}
       </button>
     </div>
   );
@@ -356,6 +430,7 @@ function Podium({
   onWhy,
   onAll,
   onRestart,
+  onShare,
   onChange,
 }: {
   ranked: Ranked[];
@@ -363,8 +438,10 @@ function Podium({
   onWhy: (slug: string) => void;
   onAll: () => void;
   onRestart: () => void;
+  onShare: () => void;
   onChange: () => void;
 }) {
+  const s = useMessages(m).share;
   const t = useMessages(m).quiz;
   const [first, second, third] = ranked;
   if (!first)
@@ -411,6 +488,10 @@ function Podium({
         })}
       </div>
       <div className="flex flex-wrap items-center justify-center gap-2 border-t border-line px-5 py-4">
+        <button type="button" onClick={onShare} className="flex items-center gap-2 rounded-full bg-[#0038b8] px-7 py-3 text-lg font-medium text-paper shadow-[0_14px_30px_-14px_rgb(0_56_184/0.8)] transition hover:bg-accent">
+          <ShareIcon />
+          {s.quizButton}
+        </button>
         <button type="button" onClick={() => onWhy(first.p.slug)} className="rounded-full bg-ink px-7 py-3 text-lg font-medium text-paper transition hover:bg-accent">
           {t.why}
         </button>
@@ -486,6 +567,14 @@ function Star({ filled, className = "size-5" }: { filled?: boolean; className?: 
   return (
     <svg viewBox="0 0 24 24" fill={filled ? "currentColor" : "none"} stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" aria-hidden className={className}>
       <path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.9l-5.2 2.7 1-5.8-4.3-4.1 5.9-.9z" />
+    </svg>
+  );
+}
+
+function ShareIcon() {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden className="size-5">
+      <path d="M12 3v12M7 8l5-5 5 5M5 14v5a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-5" />
     </svg>
   );
 }

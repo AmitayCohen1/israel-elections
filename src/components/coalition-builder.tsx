@@ -6,6 +6,7 @@ import { LOCALE_INFO } from "@/i18n/config";
 import { m } from "@/i18n/messages/games";
 import { Avatar } from "@/components/avatar";
 import { Sheet, Stage } from "@/components/game-stage";
+import { H, W, COLORS, ShareSheet, drawFace, fitText, loadFaces, roundRect, startCard } from "@/components/share-card";
 import { distance, type QAxis, type QParty } from "@/lib/match";
 
 const SEATS = 120;
@@ -68,7 +69,6 @@ export function CoalitionBuilder({ axes, parties, query }: { axes: QAxis[]; part
   const rtl = LOCALE_INFO[locale].dir === "rtl";
   const [state, setState] = useState<State>(() => fromQuery(parties, query));
   const [all, setAll] = useState(false);
-  const [copied, setCopied] = useState(false);
   const [details, setDetails] = useState(false);
 
   useEffect(() => {
@@ -113,6 +113,62 @@ export function CoalitionBuilder({ axes, parties, query }: { axes: QAxis[]; part
   // The chairs, from the coalition's side in its parties' colours; the rest of the Knesset stays grey.
   const fill = members.flatMap((p) => Array.from({ length: seats[p.slug] ?? 0 }, () => ({ color: p.color, name: p.name })));
   const chairs = rtl ? [...ARC].reverse() : ARC;
+
+  // Sharing: the half circle, the total, the partners with their seats and how much they agree, on one card.
+  const sh = useMessages(m).share;
+  const [sharing, setSharing] = useState(false);
+  const judged = axes.map((a) => statusOf(a, members, t)).filter((x) => x);
+  const agreeLine = members.length >= 2 && judged.length ? t.agreeCount(judged.filter((x) => x!.key === "agree").length, judged.length) : "";
+  const draw = async () => {
+    const { canvas, ctx, f } = await startCard(rtl ? "rtl" : "ltr", sh.brand);
+    const faces = await loadFaces(members);
+    ctx.textAlign = "center";
+    ctx.fillStyle = COLORS.ink;
+    ctx.font = `400 88px ${f.serif}`;
+    ctx.fillText(sh.coalitionCard, W / 2, 250);
+    // the half circle, scaled from its 400-wide drawing
+    const k = 2.2;
+    const ox = (W - 400 * k) / 2;
+    const oy = 320;
+    chairs.forEach((c, i) => {
+      const d = fill[i];
+      ctx.beginPath();
+      ctx.arc(ox + c.x * k, oy + c.y * k, 7.4 * k, 0, Math.PI * 2);
+      ctx.fillStyle = d ? d.color : COLORS.line;
+      ctx.fill();
+    });
+    ctx.fillStyle = has ? COLORS.green : COLORS.ink;
+    ctx.font = `400 150px ${f.serif}`;
+    ctx.fillText(String(total), W / 2, oy + 175 * k);
+    // the verdict pill
+    const verdict = has ? t.majorityOf(total) : t.missing(MAJORITY - total);
+    ctx.font = `500 42px ${f.sans}`;
+    const vw = ctx.measureText(verdict).width + 80;
+    ctx.fillStyle = has ? "#2f9e6c" : COLORS.paper;
+    roundRect(ctx, W / 2 - vw / 2, 852, vw, 76, 38);
+    ctx.fill();
+    ctx.fillStyle = has ? COLORS.paper : COLORS.ink;
+    ctx.fillText(verdict, W / 2, 892);
+    // the partners, in a row, each with its seats
+    const shown = members.slice(0, 6);
+    const gap = Math.min(170, 900 / Math.max(1, shown.length));
+    shown.forEach((p, i) => {
+      const off = (i - (shown.length - 1) / 2) * gap;
+      const x = W / 2 + (rtl ? -off : off);
+      drawFace(ctx, faces[i], p, x, 1015, 52, f.sans, 6);
+      ctx.fillStyle = COLORS.ink;
+      ctx.font = `500 40px ${f.sans}`;
+      ctx.fillText(String(seats[p.slug] ?? 0), x, 1105);
+    });
+    if (agreeLine) {
+      ctx.fillStyle = COLORS.ink2;
+      fitText(ctx, agreeLine, W / 2, 1168, 900, 38, 400, f.sans);
+    }
+    ctx.fillStyle = COLORS.flag;
+    ctx.font = `500 40px ${f.sans}`;
+    ctx.fillText(sh.coalitionCta, W / 2, H - 120);
+    return canvas;
+  };
 
   return (
     <Stage className="flex flex-col overflow-y-auto lg:grid lg:grid-cols-[22rem_minmax(0,1fr)_26rem] lg:overflow-hidden xl:grid-cols-[24rem_minmax(0,1fr)_30rem]">
@@ -201,15 +257,14 @@ export function CoalitionBuilder({ axes, parties, query }: { axes: QAxis[]; part
         <div className="mt-5 flex flex-wrap justify-center gap-2">
           <button
             type="button"
-            onClick={() => {
-              navigator.clipboard?.writeText(window.location.href).then(() => {
-                setCopied(true);
-                setTimeout(() => setCopied(false), 1500);
-              });
-            }}
-            className="rounded-full bg-paper px-5 py-2.5 text-lg transition hover:bg-mist-deep"
+            onClick={() => setSharing(true)}
+            disabled={!members.length}
+            className="flex items-center gap-2 rounded-full bg-[#0038b8] px-6 py-3 text-lg font-medium text-paper shadow-[0_14px_30px_-14px_rgb(0_56_184/0.8)] transition hover:bg-accent disabled:opacity-40 disabled:shadow-none"
           >
-            {copied ? t.copied : t.share}
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden className="size-5">
+              <path d="M12 3v12M7 8l5-5 5 5M5 14v5a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-5" />
+            </svg>
+            {sh.coalitionButton}
           </button>
           {coalition.length > 0 && (
             <button type="button" onClick={() => setState({ seats: {}, coalition: [] })} className="rounded-full px-5 py-2.5 text-lg text-ink-2 transition hover:bg-mist-deep hover:text-ink">
@@ -223,6 +278,15 @@ export function CoalitionBuilder({ axes, parties, query }: { axes: QAxis[]; part
       <section className="order-3 flex min-h-0 flex-col p-3 lg:border-s lg:border-line">
         <Verdict axes={axes} members={members} t={t} onOpen={() => setDetails(true)} />
       </section>
+
+      <ShareSheet
+        open={sharing}
+        onClose={() => setSharing(false)}
+        draw={draw}
+        url={typeof window === "undefined" ? "" : window.location.origin + toUrl(state)}
+        text={sh.coalitionText(total)}
+        file="my-coalition"
+      />
 
       <Sheet open={details} onClose={() => setDetails(false)} title={t.gaps} closeLabel={t.close}>
         <Gaps axes={axes} members={members} parties={parties} t={t} />
