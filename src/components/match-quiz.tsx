@@ -4,21 +4,14 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import { useMessages } from "@/i18n/link";
 import { m } from "@/i18n/messages/games";
 import { Avatar } from "@/components/avatar";
-import { TopicIllustration } from "@/components/illustration";
 import { Sheet, Stage } from "@/components/game-stage";
 import { H, W, COLORS, ShareSheet, drawFace, fitText, loadFaces, startCard, useDir } from "@/components/share-card";
-import type { TopicKey } from "@/lib/topics";
 import { agreement, score, type Answers, type QAxis, type QParty } from "@/lib/match";
 
 /** A party gets a final percentage only once it has a coded position on at least half of the questions answered. */
 const enough = (overlap: number, answered: number) => overlap >= Math.max(1, Math.ceil(answered / 2));
 
 /** Points for one answer: 100 when the party gave the same answer, 0 at the far end, doubled on a starred question. */
-const gain = (axis: QAxis, a: { level: number; weight: number }, party: QParty) => {
-  const lvl = party.levels[axis.id];
-  return lvl == null ? 0 : Math.round(agreement(axis, a.level, lvl) * 100) * a.weight;
-};
-
 type Phase = "intro" | "play" | "end";
 
 /**
@@ -43,15 +36,16 @@ export function MatchQuiz({ axes: all, parties }: { axes: QAxis[]; parties: QPar
 
   const axis = axes[step];
   const mine = axis ? answers[axis.id] : undefined;
-  const silent = axis ? parties.filter((p) => p.tier === "main" && !(axis.id in p.levels)) : [];
   const answered = Object.keys(answers).length;
 
-  const points = useMemo(() => {
-    const out: Record<string, number> = {};
-    for (const p of coded) out[p.slug] = axes.reduce((s, a) => s + (answers[a.id] ? gain(a, answers[a.id], p) : 0), 0);
-    return out;
+  // The live standing: each party's agreement with the answers so far, out of the most it could have. No number is shown
+  // while playing (a share after one answer means little); the bars and the order carry it, and the % waits for the end.
+  const standing = useMemo(() => {
+    const done = axes.filter((a) => answers[a.id]);
+    const most = done.reduce((n, a) => n + answers[a.id].weight, 0);
+    const share = (p: QParty) => (most ? done.reduce((n, a) => n + (a.id in p.levels ? agreement(a, answers[a.id].level, p.levels[a.id]) * answers[a.id].weight : 0), 0) / most : 0);
+    return [...coded].map((p) => ({ p, share: share(p) })).sort((a, b) => b.share - a.share);
   }, [axes, answers, coded]);
-  const race = useMemo(() => [...coded].sort((a, b) => points[b.slug] - points[a.slug]).filter((p) => points[p.slug] > 0), [coded, points]);
 
   const ranked = useMemo(() => {
     const scored = coded.map((p) => ({ p, ...score(axes, answers, p) }));
@@ -82,11 +76,6 @@ export function MatchQuiz({ axes: all, parties }: { axes: QAxis[]; parties: QPar
     next();
   }
 
-  function star() {
-    const on = !starred[axis.id];
-    setStarred({ ...starred, [axis.id]: on });
-    if (mine) setAnswers({ ...answers, [axis.id]: { ...mine, weight: on ? 2 : 1 } });
-  }
 
   function restart() {
     setAnswers({});
@@ -154,162 +143,65 @@ export function MatchQuiz({ axes: all, parties }: { axes: QAxis[]; parties: QPar
       {phase === "intro" && <Intro parties={coded} all={parties} questions={axes.length} onStart={() => setPhase("play")} />}
 
       {phase === "play" && axis && (
-        <div className="flex h-full flex-col">
-          {/* Top: progress */}
-          <div className="flex items-center gap-4 px-5 pt-5 sm:px-8 sm:pt-6">
-            <ol className="flex flex-1 gap-1.5" aria-label={t.progress(step + 1, axes.length)}>
-              {axes.map((a, i) => (
-                <li key={a.id} className="flex-1">
-                  <button
-                    type="button"
-                    onClick={() => setStep(i)}
-                    aria-label={`${i + 1}. ${a.short}`}
-                    aria-current={i === step ? "step" : undefined}
-                    className={`block h-1.5 w-full rounded-full transition-colors duration-300 ${i === step ? "bg-ink" : answers[a.id] ? "bg-accent/60" : "bg-line-strong/60 hover:bg-line-strong"}`}
-                  />
-                </li>
-              ))}
-            </ol>
-            <p className="text-lg text-ink-2 tabular-nums">
-              {step + 1}/{axes.length}
-            </p>
-          </div>
-
-          <div className="flex min-h-0 flex-1 flex-col lg:flex-row">
-            {/* The question */}
-            <div key={axis.id} className="q-in flex min-h-0 flex-1 flex-col justify-center overflow-y-auto px-5 py-4 sm:px-8 lg:py-6">
-              <div className="flex items-center gap-4">
-                <span className="grid size-14 shrink-0 place-items-center rounded-full bg-paper lg:size-16">
-                  <TopicIllustration topic={axis.topic as TopicKey} className="!w-10 lg:!w-11" priority />
-                </span>
-                <p className="text-lg text-ink-2">{axis.short}</p>
-              </div>
-              <h2 className="title mt-4 max-w-4xl text-3xl text-balance xl:text-4xl">{axis.question}</h2>
-
-              <div className="mt-5 grid gap-2 lg:mt-6" role="group" aria-label={axis.question}>
-                {axis.scale.map((s, i) => {
-                  const on = mine?.level === s.level;
-                  const here = mine ? coded.filter((p) => p.levels[axis.id] === s.level) : [];
-                  return (
-                    <button
-                      key={s.level}
-                      type="button"
-                      onClick={() => pick(s.level)}
-                      aria-pressed={on}
-                      className={`grid items-center gap-x-5 gap-y-3 rounded-3xl px-4 py-3.5 text-start transition duration-300 sm:px-5 lg:grid-cols-[minmax(0,24rem)_minmax(0,1fr)] ${
-                        on
-                          ? "bg-[#0038b8] text-paper shadow-[0_18px_36px_-18px_rgb(0_56_184/0.75)]"
-                          : mine
-                            ? "bg-paper/60 text-ink-2 hover:bg-paper"
-                            : "bg-paper hover:-translate-y-0.5 hover:shadow-[0_12px_28px_-18px_rgb(0_12_31/0.45)]"
-                      }`}
-                    >
-                      <span className="flex items-center gap-3">
-                        <span className={`grid size-8 shrink-0 place-items-center rounded-full text-base tabular-nums ${on ? "bg-paper text-[#0038b8]" : "bg-mist text-ink-2"}`}>{i + 1}</span>
-                        <span className={`text-xl leading-snug ${on ? "font-medium" : mine ? "" : "text-ink"}`}>{s.label}</span>
-                      </span>
-                      {mine && (
-                        <span className="flex flex-wrap gap-1.5">
-                          {here.map((p, j) => (
-                            <span
-                              key={p.slug}
-                              className={`drop-in flex max-w-[13rem] items-center gap-2 rounded-full py-1 ps-1 pe-3 ${on ? "bg-paper/15" : "bg-mist"}`}
-                              style={{ animationDelay: `${100 + j * 50}ms` }}
-                            >
-                              <Avatar name={p.name} src={p.face} color={p.color} size={30} />
-                              <span className={`truncate text-base ${on ? "text-paper" : "text-ink"}`}>{p.name}</span>
-                            </span>
-                          ))}
-                          {here.length === 0 && <span className={`text-base ${on ? "text-paper/70" : "text-muted"}`}>{t.nobody}</span>}
-                        </span>
-                      )}
-                    </button>
-                  );
-                })}
-              </div>
-
-              {/* The main lists with no quoted position on this question: named, greyed, never just missing */}
-              {mine && silent.length > 0 && (
-                <div className="mt-3 flex flex-wrap items-center gap-x-3 gap-y-2 px-1">
-                  <span className="text-base text-ink-2">{t.noQuote}</span>
-                  {silent.map((p) => (
-                    <span key={p.slug} className="flex items-center gap-1.5 opacity-60 grayscale" title={p.name}>
-                      <Avatar name={p.name} src={p.face} color={p.color} size={26} />
-                      <span className="text-base">{p.name}</span>
-                    </span>
-                  ))}
-                </div>
-              )}
-
-              {/* Right under the answers: the way on first, then the extras */}
-              <div className="mt-5 flex flex-wrap items-center gap-2">
-                {mine ? (
-                  <>
-                    <button type="button" onClick={next} className="flex items-center gap-2 rounded-full bg-ink px-8 py-3.5 text-lg font-medium text-paper transition hover:bg-accent">
-                      {step + 1 >= axes.length ? t.finish : t.next}
-                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" aria-hidden className="size-5 rtl:rotate-180">
-                        <path d="M5 12h14M13 6l6 6-6 6" />
-                      </svg>
-                    </button>
-                    <p className="px-2 text-lg text-ink-2" aria-live="polite">
-                      {t.withYou(coded.filter((p) => p.levels[axis.id] === mine.level).length)}
-                    </p>
-                  </>
-                ) : (
-                  <p className="px-1 text-lg text-ink-2">{t.pick}</p>
-                )}
-                <span className="flex-1" />
-                <button
-                  type="button"
-                  onClick={star}
-                  aria-pressed={!!starred[axis.id]}
-                  title={t.importantNote}
-                  className={`flex items-center gap-2 rounded-full px-4 py-2.5 text-lg transition ${starred[axis.id] ? "bg-[#f5c451] text-ink" : "bg-paper hover:bg-mist-deep"}`}
-                >
-                  <Star filled={!!starred[axis.id]} />
-                  {t.important}
-                </button>
-                {step > 0 && (
-                  <button type="button" onClick={() => setStep(step - 1)} className="rounded-full px-4 py-2.5 text-lg text-ink-2 transition hover:bg-paper hover:text-ink">
-                    {t.back}
-                  </button>
-                )}
-                {!mine && (
-                  <button type="button" onClick={skip} className="rounded-full px-4 py-2.5 text-lg text-ink-2 transition hover:bg-paper hover:text-ink">
-                    {t.skip}
-                  </button>
-                )}
-              </div>
+        // Half and half: the question on the start side, and on the other the parties lining up live as the answers come in.
+        <div className="scrollbar-none grid h-full overflow-y-auto lg:grid-cols-2 lg:grid-rows-[minmax(0,1fr)] lg:overflow-hidden">
+          <div className="scrollbar-none lg:min-h-0 lg:overflow-y-auto">
+          <div key={axis.id} className="q-in mx-auto flex min-h-full w-full max-w-2xl flex-col justify-center px-5 py-8 sm:px-8">
+            <div className="flex items-center gap-4">
+              <p className="shrink-0 text-lg text-ink-2 tabular-nums">{t.progress(step + 1, axes.length)}</p>
+              <ol className="flex flex-1 gap-1.5" aria-hidden>
+                {axes.map((a, i) => (
+                  <li key={a.id} className={`h-1.5 flex-1 rounded-full ${i <= step ? "bg-[#0038b8]" : "bg-line-strong/60"}`} />
+                ))}
+              </ol>
             </div>
 
-            {/* The race: parties collecting points, the leaders on top */}
-            <aside className="hidden w-96 shrink-0 flex-col border-s border-line px-6 pt-8 lg:flex">
-              <p className="text-lg text-ink-2">{t.live}</p>
-              {race.length === 0 ? (
-                <p className="mt-3 text-lg text-muted">{t.boardEmpty}</p>
-              ) : (
-                <ol className="mt-4 space-y-2.5 overflow-y-auto pb-4">
-                  {race.slice(0, 8).map((p, i) => {
-                    const g = mine ? gain(axis, mine, p) : 0;
-                    return (
-                      <li key={p.slug} className="flex items-center gap-3">
-                        <span className="w-5 text-base text-muted tabular-nums">{i + 1}</span>
-                        <Avatar name={p.name} src={p.face} color={p.color} size={36} />
-                        <span className="min-w-0 flex-1 truncate text-lg">{p.name}</span>
-                        {g > 0 && (
-                          <span key={`${axis.id}-${g}`} className="drop-in rounded-full bg-[#e3f3eb] px-2 text-base text-[#1f7a52] tabular-nums" dir="ltr">
-                            +{g}
-                          </span>
-                        )}
-                        <span className="w-12 text-end text-lg font-medium tabular-nums">{points[p.slug]}</span>
-                      </li>
-                    );
-                  })}
-                </ol>
-              )}
-            </aside>
-          </div>
+            <p className="mt-10 text-lg text-ink-2">{axis.short}</p>
+            <h2 className="title mt-2 text-3xl leading-snug text-balance sm:text-4xl">{axis.question}</h2>
 
+            <div className="mt-8 grid gap-2.5" role="group" aria-label={axis.question}>
+              {axis.scale.map((s) => {
+                const on = mine?.level === s.level;
+                return (
+                  <button
+                    key={s.level}
+                    type="button"
+                    onClick={() => pick(s.level)}
+                    aria-pressed={on}
+                    className={`rounded-2xl px-5 py-4 text-start text-xl leading-snug transition ${on ? "bg-[#0038b8] text-paper" : "bg-paper hover:bg-paper/60"}`}
+                  >
+                    {s.label}
+                  </button>
+                );
+              })}
+            </div>
+
+            <div className="mt-8 flex items-center gap-2">
+              {step > 0 && (
+                <button type="button" onClick={() => setStep(step - 1)} className="rounded-full px-4 py-3 text-lg text-ink-2 transition hover:text-ink">
+                  {t.back}
+                </button>
+              )}
+              <span className="flex-1" />
+              {!mine && (
+                <button type="button" onClick={skip} className="rounded-full px-4 py-3 text-lg text-ink-2 transition hover:text-ink">
+                  {t.skip}
+                </button>
+              )}
+              <button
+                type="button"
+                onClick={next}
+                disabled={!mine}
+                className="rounded-full bg-ink px-8 py-3 text-lg font-medium text-paper transition hover:bg-accent disabled:opacity-30 disabled:hover:bg-ink"
+              >
+                {step + 1 >= axes.length ? t.finish : t.next}
+              </button>
+            </div>
+          </div>
+          </div>
+          <div className="p-3 pt-0 sm:p-4 lg:min-h-0 lg:ps-0 lg:pt-4">
+            <Standing title={t.live} note={answered > 0 ? t.liveNote : t.boardEmpty} rows={standing} started={answered > 0} />
+          </div>
         </div>
       )}
 
@@ -590,5 +482,38 @@ function ShareIcon() {
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden className="size-5">
       <path d="M12 3v12M7 8l5-5 5 5M5 14v5a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-5" />
     </svg>
+  );
+}
+
+const ROW = 52; // one row of the live standing, in px: rows slide between fixed slots as the order changes
+
+/**
+ * The live standing beside the question: every party as a face, a name and a bar for how close it is to the answers so far.
+ * Rows sit at fixed slots and glide to their new place after each answer, the bars growing and shrinking with them. On a
+ * phone only the first five show.
+ */
+function Standing({ title, note, rows, started }: { title: string; note: string; rows: { p: QParty; share: number }[]; started: boolean }) {
+  return (
+    <section className="flex h-full min-h-0 flex-col rounded-[1.75rem] bg-paper p-5 sm:p-6">
+      <h2 className="title text-2xl">{title}</h2>
+      <p className="mt-1 text-lg text-ink-2">{note}</p>
+      <div className="scrollbar-none mt-4 min-h-0 flex-1 lg:overflow-y-auto">
+        <ol className="relative h-[calc(5*52px)] max-lg:overflow-hidden lg:h-[calc(var(--n)*52px)]" style={{ "--n": rows.length } as React.CSSProperties}>
+          {rows.map(({ p, share }, i) => (
+            <li
+              key={p.slug}
+              className={`absolute inset-x-0 flex items-center gap-3 rounded-2xl px-2 transition-[top,opacity] duration-700 ease-in-out ${i >= 5 ? "max-lg:pointer-events-none max-lg:opacity-0" : ""} ${i === 0 && started ? "bg-mist" : ""}`}
+              style={{ top: i * ROW, height: ROW - 4 }}
+            >
+              <Avatar name={p.name} src={p.face} color={p.color} size={36} />
+              <span className="w-32 shrink-0 truncate text-lg sm:w-48">{p.name}</span>
+              <span className={`h-2.5 flex-1 overflow-hidden rounded-full transition-colors duration-700 ${started ? "bg-mist-deep" : "bg-transparent"}`}>
+                <span className="block h-full rounded-full transition-[width] duration-700 ease-out" style={{ width: `${Math.round(share * 100)}%`, background: p.color }} />
+              </span>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </section>
   );
 }
