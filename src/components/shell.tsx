@@ -9,6 +9,7 @@ import { LocaleSwitcher } from "@/components/locale-switcher";
 import { useDict } from "@/i18n/provider";
 import { MORE, VIEWS, isActive, stripLocale } from "@/lib/nav";
 import { useScrolledDown } from "@/components/hide-on-scroll";
+import { DaysLeft } from "@/components/countdown";
 
 const PATHS: Record<string, React.ReactNode> = {
   search: (
@@ -126,6 +127,16 @@ function NavLinks({ onNavigate }: { onNavigate?: () => void }) {
   );
 }
 
+/** The days to the election as one quiet line, a live dot before it; it leads to how to vote. */
+function Countdown({ className = "" }: { className?: string }) {
+  return (
+    <Link href="/how-it-works" className={`items-center gap-2 text-base whitespace-nowrap text-ink-2 transition hover:text-ink ${className}`}>
+      <span aria-hidden className="size-2 shrink-0 rounded-full bg-accent" />
+      <DaysLeft />
+    </Link>
+  );
+}
+
 /**
  * Wide screens: the classic top bar. The name on the start side, the views in a row (the current one underlined where the
  * bar meets the page), then search and language at the end. It slides away while the page is scrolled down, so each
@@ -160,6 +171,7 @@ export function TopBar() {
           })}
         </nav>
         <div className="ms-auto flex items-center gap-3">
+          <Countdown className="me-3 flex" />
           <button
             type="button"
             aria-label={ui.searchAria}
@@ -231,7 +243,8 @@ export function Header() {
             </svg>
           </button>
           <Logo />
-          <button type="button" aria-label={ui.searchAria} onClick={() => setSearchOn(path)} className={`ms-auto ${round}`}>
+          <Countdown className="ms-auto hidden sm:flex" />
+          <button type="button" aria-label={ui.searchAria} onClick={() => setSearchOn(path)} className={`ms-auto sm:ms-0 ${round}`}>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden className="size-5">
               <circle cx="11" cy="11" r="6.5" />
               <path d="M16 16l4 4" />

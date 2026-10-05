@@ -293,10 +293,13 @@ export default async function Home() {
     <div className="pb-8">
       <JsonLd data={{ "@type": "WebSite", name: dict.ui.brand, url: SITE_URL + localeUrl(locale), inLanguage: locale, description: dict.meta.description }} />
 
-      {/* The hero: the slip going into the box, the name and the line, then the three ways in, a little apart. (The countdown is with "how to vote", at the end.) */}
+      {/* The hero: the slip going into the box with the time left beside it, the name and the line, then the three ways in, a little apart. */}
       <section className="mx-auto max-w-[88rem] px-4 pt-6 sm:px-8 sm:pt-8">
         <div className="flex flex-col items-center text-center">
-          <VoteClip autoplay loop className="pointer-events-none h-28 w-auto object-contain sm:h-32" />
+          <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
+            <VoteClip autoplay loop className="pointer-events-none h-28 w-auto object-contain sm:h-32" />
+            <FlapCountdown className="text-[1.9rem]" gap="gap-2.5" />
+          </div>
           <h1 className="serif mt-2 text-[clamp(3.2rem,5.6vw,6rem)] leading-[0.95] text-balance">{dict.ui.brand}</h1>
           <p className="mt-4 max-w-2xl text-lg leading-snug text-ink-2 text-pretty sm:text-xl">
             {dict.ui.blurb}{" "}

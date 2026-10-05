@@ -36,7 +36,7 @@ export function FaceRow({ faces, every = 1800 }: { faces: RowFace[]; every?: num
     return () => clearInterval(id);
   }, [held, n, S, every]);
   return (
-    <span onMouseEnter={() => setHeld(true)} onMouseLeave={() => setHeld(false)} className="flex h-[6.5rem] shrink-0 items-center justify-center -space-x-3 rtl:space-x-reverse">
+    <span onMouseEnter={() => setHeld(true)} onMouseLeave={() => setHeld(false)} className="isolate flex h-[6.5rem] shrink-0 items-center justify-center -space-x-3 rtl:space-x-reverse">
       {SLOTS.slice(0, S).map((s, k) => {
         // How many times this slot has been swapped so far: slots take turns, one per tick.
         const turns = Math.floor((tick + (S - 1 - k)) / S);
