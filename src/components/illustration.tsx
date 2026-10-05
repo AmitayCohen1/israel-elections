@@ -9,6 +9,6 @@ export function Illustration({ name, className = "" }: { name: IllustrationName;
 }
 
 /** The painted object for one of the eight topics — same set, one per topic, shared by every list. */
-export function TopicIllustration({ topic, className = "" }: { topic: TopicKey; className?: string }) {
-  return <Image src={`/media/illustrations/topics/${topic}.png`} alt="" width={1000} height={1000} sizes="240px" className={`mx-auto w-40 mix-blend-multiply sm:w-52 ${className}`} />;
+export function TopicIllustration({ topic, className = "", priority = false }: { topic: TopicKey; className?: string; priority?: boolean }) {
+  return <Image src={`/media/illustrations/topics/${topic}.png`} alt="" width={1000} height={1000} sizes="240px" priority={priority} className={`mx-auto w-40 mix-blend-multiply sm:w-52 ${className}`} />;
 }
