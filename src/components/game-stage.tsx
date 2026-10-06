@@ -18,8 +18,8 @@ export function Stage({ children, className = "" }: { children: React.ReactNode;
     };
   }, []);
   return (
-    <div className="stage p-2 sm:p-3">
-      <div className={`game relative h-full overflow-hidden rounded-[1.75rem] bg-mist text-ink ${className}`}>{children}</div>
+    <div className="stage sm:p-3">
+      <div className={`game relative h-full overflow-hidden bg-mist sm:rounded-[1.75rem] text-ink ${className}`}>{children}</div>
     </div>
   );
 }

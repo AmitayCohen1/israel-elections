@@ -97,12 +97,15 @@ export async function PartyCard({ list }: { list: List }) {
       <Link href={`/lists/${list.slug}`} className="group flex items-center gap-4 py-3.5">
         <Face c={leader} size={52} />
         <span className="min-w-0 flex-1">
-          <span className="title block truncate text-xl transition group-hover:text-accent">{list.name}</span>
-          <span className="mt-0.5 block truncate text-base text-ink-2">
+          <span className="title block text-xl transition group-hover:text-accent sm:truncate">{list.name}</span>
+          <span className="mt-0.5 line-clamp-2 text-base text-ink-2 sm:line-clamp-1">
             {[leader?.display_name, t.candidates(list.candidates.length), topics > 0 ? t.positions(topics) : t.noPositions].filter(Boolean).join(" · ")}
           </span>
         </span>
-        <PartyMark slug={list.slug} letters={list.letters} color={list.color} size="sm" />
+        {/* A phone gives the width to the name; the slip comes back where there is room. */}
+        <span className="max-sm:hidden">
+          <PartyMark slug={list.slug} letters={list.letters} color={list.color} size="sm" />
+        </span>
       </Link>
     </li>
   );

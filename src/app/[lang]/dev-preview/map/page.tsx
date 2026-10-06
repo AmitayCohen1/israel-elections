@@ -17,11 +17,11 @@ export default async function PositionMap() {
         axes={axes}
         art={false}
         top={
-          <div key="tabs" className="mb-10 flex justify-center sm:mb-14">
+          <div key="tabs" className="mb-6 flex justify-center sm:mb-14">
             <ModeTabs />
           </div>
         }
-        className="min-h-[calc(100dvh-4rem)] py-10 sm:py-14 xl:min-h-[calc(100dvh-5rem)]"
+        className="min-h-[calc(100dvh-4rem)] py-5 sm:py-14 xl:min-h-[calc(100dvh-5rem)]"
       />
     </>
   );

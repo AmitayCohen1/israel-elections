@@ -12,12 +12,13 @@ export function ModeTabs() {
   const group = MODES.find((g) => g.some((x) => x.href === path));
   if (!group) return null;
   return (
-    <nav className="scrollbar-none -mx-4 mb-5 overflow-x-auto px-4 sm:mx-0 sm:px-0">
-      <span className="inline-flex gap-1 rounded-full bg-mist p-1">
+    // A phone gets the modes as equal parts of one full-width control, so none of them hides off the edge.
+    <nav className="mb-5">
+      <span className="flex w-full gap-1 rounded-2xl bg-mist p-1 sm:inline-flex sm:w-auto sm:rounded-full">
         {group.map((x) => {
           const on = x.href === path;
           return (
-            <Link key={x.href} href={x.href} aria-current={on ? "page" : undefined} className={`rounded-full px-3 py-2 text-base whitespace-nowrap sm:px-4 sm:text-lg transition ${on ? "title bg-paper shadow-[0_8px_18px_-14px_rgb(0_12_31/0.4)]" : "text-ink-2 hover:text-ink"}`}>
+            <Link key={x.href} href={x.href} aria-current={on ? "page" : undefined} className={`flex flex-1 items-center justify-center rounded-xl px-2 py-2 text-center text-base leading-tight transition sm:flex-none sm:rounded-full sm:px-4 sm:text-lg sm:whitespace-nowrap ${on ? "title bg-paper shadow-[0_8px_18px_-14px_rgb(0_12_31/0.4)]" : "text-ink-2 hover:text-ink"}`}>
               {nav[x.key]}
             </Link>
           );

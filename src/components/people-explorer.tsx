@@ -150,7 +150,7 @@ export function PeopleExplorer({ leaders }: { leaders: LeaderEntry[] }) {
       <article key={`${sel?.slug}-${sel?.pos}`} className="min-w-0 max-w-2xl">
         {person && list ? (
           <>
-            <div className="flex items-center gap-5">
+            <div className="flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:gap-5">
               <Avatar name={person.name} src={person.img} color={list.color} size={120} />
               <div className="min-w-0">
                 <h2 className="serif text-4xl leading-tight text-balance sm:text-5xl">{person.name}</h2>

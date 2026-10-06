@@ -4,7 +4,6 @@ import Link from "@/i18n/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { Logo } from "@/components/logo";
-import { SearchBox } from "@/components/search-box";
 import { LocaleSwitcher } from "@/components/locale-switcher";
 import { useDict } from "@/i18n/provider";
 import { MORE, VIEWS, isActive, stripLocale } from "@/lib/nav";
@@ -139,18 +138,16 @@ function Countdown({ className = "" }: { className?: string }) {
 
 /**
  * Wide screens: the classic top bar. The name on the start side, the views in a row (the current one underlined where the
- * bar meets the page), then search and language at the end. It slides away while the page is scrolled down, so each
- * section has the whole screen, and comes back the moment the page is scrolled up; search opens as a band just below it.
+ * bar meets the page), then the countdown and language at the end. It slides away while the page is scrolled down, so each
+ * section has the whole screen, and comes back the moment the page is scrolled up.
  */
 export function TopBar() {
   const { nav, ui } = useDict();
   const path = usePathname();
-  const [searchOn, setSearchOn] = useState<string | null>(null);
-  const searching = searchOn === path;
-  // Out of the way while reading down; never while its search is open or something in it has the keyboard.
+  // Out of the way while reading down; never while something in it has the keyboard.
   const down = useScrolledDown();
   const [held, setHeld] = useState(false);
-  const away = down && !searching && !held;
+  const away = down && !held;
   return (
     <header onFocusCapture={() => setHeld(true)} onBlurCapture={() => setHeld(false)} className={`sticky top-0 z-40 hidden border-b border-line bg-paper/90 backdrop-blur-md transition-transform duration-300 motion-reduce:transition-none xl:block ${away ? "-translate-y-full" : ""}`}>
       <div className="mx-auto flex h-20 max-w-[88rem] items-center gap-10 px-8">
@@ -172,40 +169,16 @@ export function TopBar() {
         </nav>
         <div className="ms-auto flex items-center gap-3">
           <Countdown className="me-3 flex" />
-          <button
-            type="button"
-            aria-label={ui.searchAria}
-            aria-expanded={searching}
-            onClick={() => setSearchOn(searching ? null : path)}
-            className={`grid size-11 place-items-center rounded-full transition ${searching ? "bg-ink text-paper" : "bg-mist hover:bg-mist-deep"}`}
-          >
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden className="size-5">
-              <circle cx="11" cy="11" r="6.5" />
-              <path d="M16 16l4 4" />
-            </svg>
-          </button>
           <LocaleSwitcher variant="menu" className="w-40" />
         </div>
       </div>
-      {searching && (
-        <div
-          className="border-t border-line bg-paper"
-          onKeyDown={(e) => {
-            if (e.key === "Escape") setSearchOn(null);
-          }}
-        >
-          <div className="mx-auto max-w-2xl px-8 py-5">
-            <SearchBox size="md" autoFocus />
-          </div>
-        </div>
-      )}
     </header>
   );
 }
 
 /**
- * Phones and narrower screens: a slim top bar with the menu button, the name and a search button. The menu opens the same sidebar as a drawer
- * from the start edge (name, language, views, quieter links); the search button turns the bar into the one search.
+ * Phones and narrower screens: a slim top bar with the menu button and the name. The menu opens the same sidebar as a drawer
+ * from the start edge (name, language, views, quieter links).
  * Like the wide bar, it slides away while the page is scrolled down and comes back on the way up.
  */
 export function Header() {
@@ -213,30 +186,17 @@ export function Header() {
   const path = usePathname();
   // Each remembers the page it was opened on, so moving to another page closes it.
   const [menuOn, setMenuOn] = useState<string | null>(null);
-  const [searchOn, setSearchOn] = useState<string | null>(null);
   const menu = menuOn === path;
-  const searching = searchOn === path;
   const round = "grid size-11 shrink-0 place-items-center rounded-full bg-mist transition hover:bg-mist-deep";
   const cross = (
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden className="size-5">
       <path d="M6 6l12 12M18 6L6 18" />
     </svg>
   );
-  const away = useScrolledDown() && !menu && !searching;
+  const away = useScrolledDown() && !menu;
   return (
     <>
     <header className={`sticky top-0 z-40 flex h-16 shrink-0 items-center gap-3 bg-paper/90 px-4 backdrop-blur-md transition-transform duration-300 motion-reduce:transition-none xl:hidden ${away ? "-translate-y-full" : ""}`}>
-      {searching ? (
-        <>
-          <div className="min-w-0 flex-1">
-            <SearchBox size="sm" autoFocus />
-          </div>
-          <button type="button" aria-label={ui.close} onClick={() => setSearchOn(null)} className={round}>
-            {cross}
-          </button>
-        </>
-      ) : (
-        <>
           <button type="button" aria-label={ui.menu} aria-expanded={menu} aria-controls="drawer" onClick={() => setMenuOn(path)} className={round}>
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" aria-hidden className="size-5">
               <path d="M4 7h16M4 12h16M4 17h16" />
@@ -244,14 +204,6 @@ export function Header() {
           </button>
           <Logo />
           <Countdown className="ms-auto hidden sm:flex" />
-          <button type="button" aria-label={ui.searchAria} onClick={() => setSearchOn(path)} className={`ms-auto sm:ms-0 ${round}`}>
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden className="size-5">
-              <circle cx="11" cy="11" r="6.5" />
-              <path d="M16 16l4 4" />
-            </svg>
-          </button>
-        </>
-      )}
     </header>
 
       {/* Outside the bar: a bar with a backdrop blur, or one that is sliding away, would trap a fixed child inside itself. */}

@@ -196,10 +196,10 @@ function Painted({ name }: { name: string }) {
 /** A section of the long page: a serif title and one line, set at the start, then its content. It rises in as it scrolls into view. */
 function Section({ id, title, note, children, wide = false }: { id: string; title: string; note?: string; children: React.ReactNode; wide?: boolean }) {
   return (
-    <section id={id} className={`reveal mx-auto scroll-mt-28 px-4 pt-28 sm:px-8 sm:pt-40 ${wide ? "max-w-[88rem]" : "max-w-[72rem]"}`}>
-      <h2 className="serif text-5xl text-balance sm:text-[4rem] sm:leading-none">{title}</h2>
-      {note && <p className="mt-4 max-w-2xl text-xl text-ink-2 sm:text-2xl sm:leading-snug">{note}</p>}
-      <div className="mt-10 sm:mt-14">{children}</div>
+    <section id={id} className={`reveal mx-auto scroll-mt-28 px-4 pt-16 sm:px-8 sm:pt-40 ${wide ? "max-w-[88rem]" : "max-w-[72rem]"}`}>
+      <h2 className="serif text-4xl text-balance sm:text-[4rem] sm:leading-none">{title}</h2>
+      {note && <p className="mt-3 max-w-2xl text-lg text-ink-2 sm:mt-4 sm:text-2xl sm:leading-snug">{note}</p>}
+      <div className="mt-6 sm:mt-14">{children}</div>
     </section>
   );
 }
@@ -290,21 +290,21 @@ export default async function Home() {
           </p>
         </div>
         {/* Three ways in, one visual each and none repeated: faces for the candidates, ballot slips for the parties, seats for the games. */}
-        <div className="mt-14 grid gap-4 lg:grid-cols-3 lg:mt-20">
-          <Gate stack className="min-h-[18rem]" href="/people" title={t.peopleTitle} line={t.peopleLine} cta={t.peopleCta}>
+        <div className="mt-8 grid gap-3 sm:mt-14 sm:gap-4 lg:mt-20 lg:grid-cols-3">
+          <Gate stack className="sm:min-h-[18rem]" href="/people" title={t.peopleTitle} line={t.peopleLine} cta={t.peopleCta}>
             <FaceRow faces={faces} />
           </Gate>
-          <Gate stack className="min-h-[18rem]" href="/lists" title={dict.nav.lists} line={t.partiesLine(lists.length)} cta={t.partiesCta}>
+          <Gate stack className="sm:min-h-[18rem]" href="/lists" title={dict.nav.lists} line={t.partiesLine(lists.length)} cta={t.partiesCta}>
             <PartyFan parties={sorted.map((l) => ({ slug: l.slug, name: l.name, letters: l.letters, color: l.color, count: l.candidates.length }))} />
           </Gate>
-          <Gate stack className="min-h-[18rem]" href="#play" title={t.gamesTitle} line={t.gamesLine} cta={t.gamesCta}>
+          <Gate stack className="sm:min-h-[18rem]" href="#play" title={t.gamesTitle} line={t.gamesLine} cta={t.gamesCta}>
             <Seats />
           </Gate>
         </div>
       </section>
 
       {/* One sentence that sharpens word by word as it scrolls past. */}
-      <section className="mx-auto max-w-[62rem] px-4 pt-36 pb-6 text-center sm:pt-48 sm:pb-10">
+      <section className="mx-auto max-w-[62rem] px-4 pt-20 pb-2 text-center sm:pt-48 sm:pb-10">
         <Statement
           className="serif text-[clamp(2.5rem,5.6vw,6rem)] leading-[1.06]"
           parts={[
@@ -329,26 +329,26 @@ export default async function Home() {
       </section>
 
       <Section id="play" title={t.playTitle} note={t.playNote} wide>
-        <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
-          <Gate stack className="min-h-[22rem]" href="/quiz" title={dict.nav.quiz} line={t.quizLine} cta={t.quizCta}>
+        <div className="grid gap-3 sm:grid-cols-2 sm:gap-4 xl:grid-cols-4">
+          <Gate stack className="sm:min-h-[22rem]" href="/quiz" title={dict.nav.quiz} line={t.quizLine} cta={t.quizCta}>
             <Choices />
           </Gate>
-          <Gate stack className="min-h-[22rem]" href="/coalition" title={dict.nav.coalition} line={t.coalitionLine} cta={t.coalitionCta}>
+          <Gate stack className="sm:min-h-[22rem]" href="/coalition" title={dict.nav.coalition} line={t.coalitionLine} cta={t.coalitionCta}>
             <span className="relative block h-[9rem] w-[12rem]">
               <Image src="/media/illustrations/knesset.png" alt="" fill sizes="192px" style={{ "--bob-duration": "7s" } as React.CSSProperties} className="bob object-contain mix-blend-multiply" />
             </span>
           </Gate>
-          <Gate stack className="min-h-[22rem]" href="/closeness" title={dict.nav.closeness} line={t.closenessLine} cta={t.closenessCta}>
+          <Gate stack className="sm:min-h-[22rem]" href="/closeness" title={dict.nav.closeness} line={t.closenessLine} cta={t.closenessCta}>
             <Scatter faces={faces} />
           </Gate>
-          <Gate stack className="min-h-[22rem]" href="/how-it-works" title={t.seatsTitle} line={t.seatsLine} cta={t.seatsCta}>
+          <Gate stack className="sm:min-h-[22rem]" href="/how-it-works" title={t.seatsTitle} line={t.seatsLine} cta={t.seatsCta}>
             <Seats />
           </Gate>
         </div>
       </Section>
 
       {/* The position map gets the whole screen, as on its own page. */}
-      <MapBand id="map" axes={axes} label={dict.nav.map} className="reveal mt-28 min-h-dvh scroll-mt-0 py-20 sm:mt-40 sm:py-24" />
+      <MapBand id="map" axes={axes} label={dict.nav.map} className="reveal mt-16 scroll-mt-0 py-10 sm:mt-40 sm:min-h-dvh sm:py-24" />
 
       <Section id="parties" title={t.listsTitle} note={t.listsNote}>
         <ul className="border-t border-line-strong">
@@ -369,7 +369,7 @@ export default async function Home() {
           <p className="text-xl whitespace-nowrap text-ink-2">{t.until(electionDay)}</p>
           <FlapCountdown className="text-[1.9rem]" gap="gap-2.5" />
         </div>
-        <div className="grid gap-x-4 gap-y-12 md:grid-cols-3">
+        <div className="grid gap-x-4 gap-y-8 sm:gap-y-12 md:grid-cols-3">
           <TileFigure compact className="bg-cream" lead={g.tray.lead} text={g.tray.text}>
             <Painted name="tray" />
           </TileFigure>

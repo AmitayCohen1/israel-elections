@@ -112,9 +112,9 @@ export function PartySpace({ views, parties }: { views: SpaceView[]; parties: QP
   return (
     <div className="grid min-h-0 flex-1 grid-cols-1 gap-5 lg:grid-cols-[minmax(0,1fr)_22rem] lg:grid-rows-[minmax(0,1fr)] lg:gap-6">
       <div className="flex min-h-0 min-w-0 flex-col">
-        <div className="flex flex-wrap items-center gap-2" role="group">
+        <div className="scrollbar-none -mx-4 flex items-center gap-2 overflow-x-auto px-4 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0" role="group">
           {views.map((v) => (
-            <button key={v.id} type="button" onClick={() => setViewId(v.id)} aria-pressed={v.id === viewId} className={`rounded-full px-4 py-1.5 text-lg transition ${v.id === viewId ? "bg-ink text-paper" : "bg-paper hover:bg-mist-deep"}`}>
+            <button key={v.id} type="button" onClick={() => setViewId(v.id)} aria-pressed={v.id === viewId} className={`shrink-0 rounded-full px-4 py-1.5 text-lg whitespace-nowrap transition ${v.id === viewId ? "bg-ink text-paper" : "bg-paper hover:bg-mist-deep"}`}>
               {v.label}
             </button>
           ))}

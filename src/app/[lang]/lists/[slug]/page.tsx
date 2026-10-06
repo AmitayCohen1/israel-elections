@@ -91,9 +91,9 @@ async function Party({ params }: { params: PageProps<"/[lang]/lists/[slug]">["pa
       </ViewHead>
 
       {/* Two columns: what the party says leads; who is on its slate sits beside it. */}
-      <div className="grid gap-12 lg:grid-cols-[minmax(0,1fr)_20rem]">
-        <div className="min-w-0 space-y-14">
-          {lead && <p className="text-xl leading-relaxed text-pretty">{lead}</p>}
+      <div className="grid gap-10 sm:gap-12 lg:grid-cols-[minmax(0,1fr)_20rem]">
+        <div className="min-w-0 space-y-10 sm:space-y-14">
+          {lead && <p className="text-lg leading-relaxed text-pretty sm:text-xl">{lead}</p>}
           {hasPositions ? <Positions list={list} /> : <p className="w-fit rounded-full bg-mist px-4 py-2 text-lg text-ink-2">{found ? t.positionsPending : t.positionsMissing}</p>}
           <People list={list} />
           <Media slug={list.slug} />
@@ -115,7 +115,7 @@ async function Popups({ list }: { list: List }) {
     .filter((c) => c.bio || c.knesset)
     .map((c) => (
       <Popup key={c.position} id={popupId(c.position)}>
-        <header className="mb-6 flex items-center gap-4 pe-12">
+        <header className="mb-6 flex flex-col items-start gap-4 pe-12 sm:flex-row sm:items-center">
           <Avatar name={c.display_name} src={c.image_url} color={list.color} size={96} />
           <div className="min-w-0">
             <h2 id={`${popupId(c.position)}-title`} className="title text-3xl text-balance sm:text-4xl">
@@ -136,7 +136,7 @@ async function Popups({ list }: { list: List }) {
 function Heading({ children }: { children: React.ReactNode }) {
   return <h2 className="title text-2xl text-balance">{children}</h2>;
 }
-const plus = <Chevron className="size-9 shrink-0 bg-paper" />;
+const plus = <Chevron className="size-8 shrink-0 bg-mist sm:size-9 sm:bg-paper" />;
 
 /** What the party says: one quiet line icon per topic, the topic, a one-line gist; open a row for the quotes. */
 async function Positions({ list }: { list: List }) {
@@ -148,25 +148,29 @@ async function Positions({ list }: { list: List }) {
     <section>
       <Heading>{t.whatSays}</Heading>
       {/* One grey panel, a row per topic: its painted object, the topic and the party's words; a row opens to every quote. */}
-      <div className="mt-4 rounded-[2rem] bg-mist p-2">
+      <div className="mt-4 divide-y divide-line border-y border-line sm:divide-y-0 sm:rounded-[2rem] sm:border-0 sm:bg-mist sm:p-2">
         {TOPIC_KEYS.map((key) => {
           const items = byTopic.get(key) ?? [];
           if (!items.length) return null;
           const digest = p?.topic_digests?.[key];
           const gist = quoteGist(items) ?? items[0].point;
           return (
-            <details key={key} name="topics" className="group rounded-3xl transition open:bg-paper open:shadow-[0_14px_30px_-24px_rgb(0_12_31/0.25)]">
-              <summary className="flex cursor-pointer items-center gap-3 rounded-3xl p-3 transition hover:bg-paper/60 sm:gap-4">
-                <span className="grid size-12 shrink-0 place-items-center rounded-full bg-paper sm:size-16">
-                  <TopicIllustration topic={key} className="!w-9 sm:!w-12" />
+            <details key={key} name="topics" className="group transition sm:rounded-3xl sm:open:bg-paper sm:open:shadow-[0_14px_30px_-24px_rgb(0_12_31/0.25)]">
+              {/* On a phone the painted object moves beside the topic's name, so the party's words get the whole width. */}
+              <summary className="flex cursor-pointer items-start gap-3 py-4 transition sm:items-center sm:gap-4 sm:rounded-3xl sm:p-3 sm:hover:bg-paper/60">
+                <span className="hidden size-16 shrink-0 place-items-center rounded-full bg-paper sm:grid">
+                  <TopicIllustration topic={key} className="!w-12" />
                 </span>
                 <span className="min-w-0 flex-1">
-                  <span className="title block text-xl">{dict.topics[key]}</span>
+                  <span className="title flex items-center gap-2 text-xl">
+                    <TopicIllustration topic={key} className="!mx-0 !w-8 shrink-0 sm:hidden" />
+                    {dict.topics[key]}
+                  </span>
                   <span className="mt-0.5 line-clamp-2 text-lg text-ink-2 group-open:line-clamp-none sm:line-clamp-1">{gist}</span>
                 </span>
                 {plus}
               </summary>
-              <div className="px-4 pt-1 pb-6 sm:ps-[5.75rem]">
+              <div className="pt-1 pb-6 sm:px-4 sm:ps-[5.75rem]">
                 <OwnWords items={items} summary={digest} size="base" />
               </div>
             </details>
@@ -305,15 +309,34 @@ async function Links({ list }: { list: List }) {
 
   if (!links.length) return null;
   return (
-    <ul className="mt-5 flex flex-wrap gap-2">
-      {links.map((l) => (
-        <li key={l.href}>
-          <a href={l.href} target="_blank" rel="noreferrer" className="block rounded-full bg-mist px-4 py-1.5 text-base font-medium transition hover:bg-ink hover:text-paper">
-            {l.label} ↗
-          </a>
-        </li>
-      ))}
-    </ul>
+    <>
+      {/* A phone gets one button that opens the list, so the links do not fill the first screen. */}
+      <details className="group mt-5 sm:hidden">
+        <summary className="flex cursor-pointer items-center justify-between gap-3 rounded-2xl bg-mist px-4 py-3 text-lg font-medium">
+          {t.links(links.length)}
+          <Chevron className="size-8 shrink-0 bg-paper" />
+        </summary>
+        <ul className="mt-2 divide-y divide-line rounded-2xl border border-line">
+          {links.map((l) => (
+            <li key={l.href}>
+              <a href={l.href} target="_blank" rel="noreferrer" className="flex items-center justify-between gap-3 px-4 py-3 text-lg">
+                {l.label}
+                <span aria-hidden className="text-ink-2">↗</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </details>
+      <ul className="mt-5 hidden flex-wrap gap-2 sm:flex">
+        {links.map((l) => (
+          <li key={l.href}>
+            <a href={l.href} target="_blank" rel="noreferrer" className="block rounded-full bg-mist px-4 py-1.5 text-base font-medium transition hover:bg-ink hover:text-paper">
+              {l.label} ↗
+            </a>
+          </li>
+        ))}
+      </ul>
+    </>
   );
 }
 

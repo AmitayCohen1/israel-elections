@@ -144,9 +144,9 @@ export function MatchQuiz({ axes: all, parties }: { axes: QAxis[]; parties: QPar
 
       {phase === "play" && axis && (
         // Half and half: the question on the start side, and on the other the parties lining up live as the answers come in.
-        <div className="scrollbar-none grid h-full overflow-y-auto lg:grid-cols-2 lg:grid-rows-[minmax(0,1fr)] lg:overflow-hidden">
+        <div className="scrollbar-none grid h-full grid-cols-[minmax(0,1fr)] overflow-y-auto lg:grid-cols-2 lg:grid-rows-[minmax(0,1fr)] lg:overflow-hidden">
           <div className="scrollbar-none lg:min-h-0 lg:overflow-y-auto">
-          <div key={axis.id} className="q-in mx-auto flex min-h-full w-full max-w-2xl flex-col justify-center px-5 py-8 sm:px-8">
+          <div key={axis.id} className="q-in mx-auto flex min-h-full w-full max-w-2xl flex-col justify-center px-4 py-6 sm:px-8 sm:py-8">
             <div className="flex items-center gap-4">
               <p className="shrink-0 text-lg text-ink-2 tabular-nums">{t.progress(step + 1, axes.length)}</p>
               <ol className="flex flex-1 gap-1.5" aria-hidden>
@@ -156,10 +156,10 @@ export function MatchQuiz({ axes: all, parties }: { axes: QAxis[]; parties: QPar
               </ol>
             </div>
 
-            <p className="mt-10 text-lg text-ink-2">{axis.short}</p>
-            <h2 className="title mt-2 text-3xl leading-snug text-balance sm:text-4xl">{axis.question}</h2>
+            <p className="mt-6 text-lg text-ink-2 sm:mt-10">{axis.short}</p>
+            <h2 className="title mt-2 text-2xl leading-snug text-balance sm:text-4xl">{axis.question}</h2>
 
-            <div className="mt-8 grid gap-2.5" role="group" aria-label={axis.question}>
+            <div className="mt-6 grid gap-2.5 sm:mt-8" role="group" aria-label={axis.question}>
               {axis.scale.map((s) => {
                 const on = mine?.level === s.level;
                 return (
@@ -168,7 +168,7 @@ export function MatchQuiz({ axes: all, parties }: { axes: QAxis[]; parties: QPar
                     type="button"
                     onClick={() => pick(s.level)}
                     aria-pressed={on}
-                    className={`rounded-2xl px-5 py-4 text-start text-xl leading-snug transition ${on ? "bg-[#0038b8] text-paper" : "bg-paper hover:bg-paper/60"}`}
+                    className={`rounded-2xl px-4 py-3.5 text-start text-lg leading-snug transition sm:px-5 sm:py-4 sm:text-xl ${on ? "bg-[#0038b8] text-paper" : "bg-paper hover:bg-paper/60"}`}
                   >
                     {s.label}
                   </button>
@@ -176,7 +176,7 @@ export function MatchQuiz({ axes: all, parties }: { axes: QAxis[]; parties: QPar
               })}
             </div>
 
-            <div className="mt-8 flex items-center gap-2">
+            <div className="mt-8 flex flex-wrap items-center gap-2">
               {step > 0 && (
                 <button type="button" onClick={() => setStep(step - 1)} className="rounded-full px-3 py-3 sm:px-4 text-lg text-ink-2 transition hover:text-ink">
                   {t.back}
@@ -286,16 +286,14 @@ function Intro({ parties, all, questions, onStart }: { parties: QParty[]; all: Q
   }, [all]);
   return (
     <div className="relative flex h-full flex-col items-center justify-center px-6 text-center">
-      <div aria-hidden className="pointer-events-none absolute inset-0">
+      <div aria-hidden className="pointer-events-none absolute inset-0 max-sm:hidden">
         {ring.map((p, i) => {
           const a = (i / ring.length) * Math.PI * 2 - Math.PI / 2;
           const size = i % 3 === 0 ? 88 : i % 3 === 1 ? 72 : 60;
-          // On a phone the sides of the ring would sit on the text: only the top and bottom arcs stay, a little smaller.
-          const side = Math.abs(Math.sin(a)) < 0.75;
           return (
             <span
               key={p.slug}
-              className={`absolute max-sm:scale-75 ${side ? "max-sm:hidden" : ""}`}
+              className="absolute"
               style={{ left: `${(50 + Math.cos(a) * 42).toFixed(2)}%`, top: `${(50 + Math.sin(a) * 40).toFixed(2)}%`, translate: "-50% -50%" }}
             >
               <span className="hover-float block rounded-full p-[3px] shadow-[0_14px_30px_-16px_rgb(0_12_31/0.5)]" style={{ animationDelay: `${-i * 0.7}s`, background: p.color }}>
@@ -304,6 +302,14 @@ function Intro({ parties, all, questions, onStart }: { parties: QParty[]; all: Q
             </span>
           );
         })}
+      </div>
+      {/* A phone has no room for the ring around the title: the faces line up in one row above it instead. */}
+      <div aria-hidden className="mb-6 flex -space-x-3 sm:hidden rtl:space-x-reverse">
+        {ring.slice(0, 6).map((p) => (
+          <span key={p.slug} className="rounded-full p-[2px]" style={{ background: p.color }}>
+            <Avatar name={p.name} src={p.face} color={p.color} size={48} className="ring-2 ring-paper" />
+          </span>
+        ))}
       </div>
       <p className="relative rounded-full bg-paper px-4 py-1.5 text-lg text-ink-2">{t.meta(questions)}</p>
       <h1 className="serif relative mt-6 max-w-3xl text-6xl text-balance sm:text-7xl xl:text-8xl">{t.title}</h1>
@@ -496,7 +502,7 @@ const ROW = 52; // one row of the live standing, in px: rows slide between fixed
  */
 function Standing({ title, note, rows, started }: { title: string; note: string; rows: { p: QParty; share: number }[]; started: boolean }) {
   return (
-    <section className="flex h-full min-h-0 flex-col rounded-[1.75rem] bg-paper p-5 sm:p-6">
+    <section className="flex h-full min-h-0 flex-col rounded-[1.75rem] bg-paper p-4 sm:p-6">
       <h2 className="title text-2xl">{title}</h2>
       <p className="mt-1 text-lg text-ink-2">{note}</p>
       <div className="scrollbar-none mt-4 min-h-0 flex-1 lg:overflow-y-auto">
@@ -508,8 +514,8 @@ function Standing({ title, note, rows, started }: { title: string; note: string;
               style={{ top: i * ROW, height: ROW - 4 }}
             >
               <Avatar name={p.name} src={p.face} color={p.color} size={36} />
-              <span className="w-32 shrink-0 truncate text-lg sm:w-48">{p.name}</span>
-              <span className={`h-2.5 flex-1 overflow-hidden rounded-full transition-colors duration-700 ${started ? "bg-mist-deep" : "bg-transparent"}`}>
+              <span className="min-w-0 flex-1 truncate text-lg sm:w-48 sm:flex-none">{p.name}</span>
+              <span className={`h-2.5 w-16 shrink-0 overflow-hidden rounded-full sm:w-auto sm:flex-1 transition-colors duration-700 ${started ? "bg-mist-deep" : "bg-transparent"}`}>
                 <span className="block h-full rounded-full transition-[width] duration-700 ease-out" style={{ width: `${Math.round(share * 100)}%`, background: p.color }} />
               </span>
             </li>

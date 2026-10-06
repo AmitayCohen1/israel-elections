@@ -93,7 +93,7 @@ export async function OwnWords({ items, summary, size = "lg" }: { items: Positio
   return (
     <div>
       <p className="mb-3 text-lg font-semibold text-muted">{labels.quote}</p>
-      <ul className="space-y-5 border-s-2 border-ink/20 ps-4">
+      <ul className="space-y-5 border-s-2 border-ink/20 ps-3 sm:ps-4">
         {items.map((p, i) => (
           <li key={i}>
             <p className={`${big} text-pretty`}>{t.quote(p.quote)}</p>

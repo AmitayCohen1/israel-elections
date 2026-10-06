@@ -117,15 +117,14 @@ export function TopicExplorer({ topics, defaultKey }: { topics: ExplorerTopic[];
         <div className="border-t border-line">
           {rows.map((r) => (
             <details key={`${t.key}-${r.id}`} id={`${t.key}-${r.id}`} name="rows" open={focus === r.id} className="group scroll-mt-32 border-b border-line">
-              <summary className="flex cursor-pointer items-center gap-3 py-3.5">
-                <span className="grid size-11 shrink-0 place-items-center">{r.mark}</span>
-                <span className="min-w-0 flex-1">
-                  <span className="title block text-xl leading-tight">{r.name}</span>
-                  {r.gist && <span className="mt-0.5 line-clamp-1 block text-lg leading-snug text-ink-2 group-open:hidden">{r.gist}</span>}
-                </span>
-                <Chevron className="size-8 bg-tile" />
+              {/* The mark, the name and the arrow on one line; on a phone the party's words run under all three, the whole width. */}
+              <summary className="grid cursor-pointer grid-cols-[auto_minmax(0,1fr)_auto] items-center gap-x-3 py-3.5">
+                <span className="grid size-11 shrink-0 place-items-center sm:row-span-2">{r.mark}</span>
+                <span className="title min-w-0 text-xl leading-tight">{r.name}</span>
+                <Chevron className="size-8 bg-tile sm:row-span-2" />
+                {r.gist && <span className="col-span-3 mt-1.5 line-clamp-3 text-lg leading-snug text-ink-2 group-open:hidden sm:col-span-1 sm:col-start-2 sm:mt-0.5 sm:line-clamp-1">{r.gist}</span>}
               </summary>
-              <div className="pb-6 ps-14">{r.body}</div>
+              <div className="pb-6 sm:ps-14">{r.body}</div>
             </details>
           ))}
         </div>

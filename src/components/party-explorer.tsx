@@ -112,7 +112,7 @@ export function PartyExplorer({ parties, moreLabel }: { parties: PartyEntry[]; m
       <article key={sel?.slug} className="min-w-0 max-w-2xl">
         {sel ? (
           <>
-            <div className="flex items-center gap-5">
+            <div className="flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:gap-5">
               <Avatar name={sel.leader?.name ?? sel.name} src={sel.leader?.img ?? null} color={sel.color} size={120} />
               <div className="min-w-0 flex-1">
                 <h2 className="serif text-4xl leading-tight text-balance sm:text-5xl">{sel.name}</h2>

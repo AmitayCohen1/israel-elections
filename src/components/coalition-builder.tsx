@@ -174,6 +174,11 @@ export function CoalitionBuilder({ axes, parties, query }: { axes: QAxis[]; part
     <Stage className="flex flex-col overflow-y-auto lg:grid lg:grid-cols-[22rem_minmax(0,1fr)_26rem] lg:overflow-hidden xl:grid-cols-[24rem_minmax(0,1fr)_30rem]">
       {/* Managing the coalition: who is in and with how many seats, then the parties to add */}
       <section className="order-2 flex shrink-0 flex-col lg:order-none lg:min-h-0 lg:shrink lg:border-e lg:border-line">
+        {/* On a phone the seat count scrolls away while picking parties, so a slim bar keeps it in sight. */}
+        <div className={`sticky top-0 z-10 flex items-center justify-between gap-3 px-4 py-2.5 text-lg font-medium shadow-[0_8px_20px_-16px_rgb(0_12_31/0.5)] transition-colors lg:hidden ${has ? "bg-[#2f9e6c] text-paper" : "bg-paper"}`} aria-hidden>
+          <span className="tabular-nums">{total} / 120</span>
+          <span>{has ? t.majorityOf(total) : t.missing(MAJORITY - total)}</span>
+        </div>
         <div className="min-h-0 flex-1 overflow-y-auto p-4 lg:p-5">
           <div className="flex items-baseline justify-between gap-3 px-1">
             <h2 className="title text-2xl">{t.coalitionSide}</h2>
@@ -251,7 +256,7 @@ export function CoalitionBuilder({ axes, parties, query }: { axes: QAxis[]; part
             <p className="mt-2 text-base text-ink-2">{t.outOf}</p>
           </div>
         </div>
-        <p className={`mt-5 rounded-full px-5 py-2 text-xl font-medium transition-colors ${has ? "bg-[#2f9e6c] text-paper" : "bg-paper"}`} aria-live="polite">
+        <p className={`mt-5 rounded-full px-5 py-2 text-xl font-medium transition-colors max-lg:hidden ${has ? "bg-[#2f9e6c] text-paper" : "bg-paper"}`} aria-live="polite">
           {has ? t.majorityOf(total) : t.missing(MAJORITY - total)}
         </p>
         <div className="mt-5 flex flex-wrap justify-center gap-2">

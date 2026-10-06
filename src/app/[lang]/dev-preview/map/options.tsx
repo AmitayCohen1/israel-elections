@@ -156,7 +156,7 @@ export function TopicMenu({
 /** One thick line with named stops on a grey card (the look of the overview's lead; `className` replaces the card, e.g. when the page sets it on a grey band of its own); the parties stand at their stop as faces. Pressing a party opens its words right there. */
 export function AxisStacks({
   axes,
-  className = "rounded-[2rem] bg-mist p-6 sm:p-8",
+  className = "rounded-[2rem] bg-mist sm:p-8",
   chart,
   quiet = false,
   art = quiet,
