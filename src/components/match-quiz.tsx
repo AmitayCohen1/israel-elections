@@ -3,6 +3,7 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { useMessages } from "@/i18n/link";
 import { m } from "@/i18n/messages/games";
+import { qm } from "@/i18n/messages/quiz-questions";
 import { Avatar } from "@/components/avatar";
 import { Sheet, Stage } from "@/components/game-stage";
 import { H, W, COLORS, ShareSheet, drawFace, fitText, loadFaces, startCard, useDir } from "@/components/share-card";
@@ -21,11 +22,18 @@ type Phase = "intro" | "play" | "end";
  */
 export function MatchQuiz({ axes: all, parties }: { axes: QAxis[]; parties: QParty[] }) {
   const t = useMessages(m).quiz;
-  // The questions most parties are coded on come first, so the first reveals are full.
+  const words = useMessages(qm);
+  // The questions most parties are coded on come first, so the first reveals are full. Each is asked in the quiz's own
+  // wording, to the voter, rather than the map's coding rubric.
   const axes = useMemo(() => {
     const n = (a: QAxis) => parties.filter((p) => a.id in p.levels).length;
-    return [...all].sort((a, b) => n(b) - n(a));
-  }, [all, parties]);
+    const asked = all.map((a): QAxis => {
+      const w = (words as Record<string, (typeof words)[keyof typeof words] | undefined>)[a.id];
+      if (!w) return a;
+      return { ...a, short: w.topic, question: w.question, scale: a.scale.map((s) => ({ ...s, label: w.answers[s.level - 1] ?? s.label, short: w.shorts[s.level - 1] ?? s.short })) };
+    });
+    return asked.sort((a, b) => n(b) - n(a));
+  }, [all, parties, words]);
   const coded = useMemo(() => parties.filter((p) => Object.keys(p.levels).length > 0), [parties]);
 
   const [phase, setPhase] = useState<Phase>("intro");
