@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "@/i18n/link";
 import { getDictionary, getMessages } from "@/i18n";
 import { defineMessages } from "@/i18n/messages";
+import { axm } from "@/i18n/messages/axes";
 import type { AxisData, Cell } from "@/app/[lang]/dev-preview/map/options";
 import type { TopicKey } from "@/lib/topics";
 
@@ -35,8 +36,19 @@ function Chip({ c, topic }: { c: Cell; topic: string }) {
  * placed in the column its own quoted words were scored on. A phone reads the columns top to bottom.
  * `only` limits the parties to these slugs (the parties in the polls); the rest are counted, not drawn.
  */
-export async function AxisScale({ axis, only, heading = "h2" }: { axis: AxisData; only?: Set<string>; heading?: "h2" | "h3" }) {
-  const [t, dict] = await Promise.all([getMessages(m), getDictionary()]);
+export async function AxisScale({ axis: raw, only, heading = "h2" }: { axis: AxisData; only?: Set<string>; heading?: "h2" | "h3" }) {
+  const [t, dict, words] = await Promise.all([getMessages(m), getDictionary(), getMessages(axm)]);
+  // The axis's wording in the page's language; an axis with no translation yet keeps its Hebrew.
+  const w = (words as Record<string, (typeof words)["economy-state"] | undefined>)[raw.id];
+  const axis: AxisData = w
+    ? {
+        ...raw,
+        short: w.short,
+        question: w.question,
+        poles: raw.poles && [w.poles[0], w.poles[1]],
+        scale: raw.scale.map((s, i) => (w.scale[i] ? { ...s, short: w.scale[i][0], label: w.scale[i][1] } : s)),
+      }
+    : raw;
   const keep = (slug: string) => !only || only.has(slug);
   const cells = axis.cells.filter((c) => keep(c.slug));
   const hidden = axis.cells.length - cells.length;
