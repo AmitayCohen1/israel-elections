@@ -67,7 +67,7 @@ export default async function CardOptions() {
   const wallQuotes = [0, 4].flatMap((n) =>
     chatTopics.map((t, k) => {
       const r = t.rows[(k * 3 + n) % t.rows.length];
-      return { id: `${t.key}-${r.id}`, href: `/topics#${t.key}:${r.id}`, party: r.name, topic: t.label, art: t.art, text: r.text, face: r.face };
+      return { id: `${t.key}-${r.id}`, href: `/positions#${t.key}:${r.id}`, party: r.name, topic: t.label, art: t.art, text: r.text, face: r.face };
     }),
   );
 
@@ -88,31 +88,31 @@ export default async function CardOptions() {
 
       <Group title="עמדות המפלגות" note="קטגוריה קופצת, ומה כל מפלגה חושבת עליה.">
         <Option k="A" title="צ'אט" note="שאלה, הקלדה, ארבע מפלגות עונות, ושוב.">
-          <Card className="h-full" title="עמדות המפלגות" note="8 נושאים" href="/topics">
+          <Card className="h-full" title="עמדות המפלגות" note="8 נושאים" href="/positions">
             <TopicChat topics={chatTopics} />
           </Card>
         </Option>
         <Option k="B" title="קרוסלה" note="נושא אחד גדול עם האיור שלו, שלוש מפלגות מתחתיו, גולש הצידה.">
-          <Card className="h-full" title="עמדות המפלגות" note="8 נושאים" href="/topics">
+          <Card className="h-full" title="עמדות המפלגות" note="8 נושאים" href="/positions">
             <TopicCarousel topics={chatTopics} />
           </Card>
         </Option>
         <Option k="C" title="שולחן עגול" note="הנושא באמצע, מנהיגי המפלגות סביבו, וכל אחד בתורו מדבר.">
-          <Card className="h-full" title="עמדות המפלגות" note="8 נושאים" href="/topics">
+          <Card className="h-full" title="עמדות המפלגות" note="8 נושאים" href="/positions">
             <RoundTable topics={chatTopics} />
           </Card>
         </Option>
         <Option k="D" title="קיר ציטוטים" note="ציטוטים בכל הנושאים עולים למעלה בלי הפסקה; כל אחד עם הפנים והנושא.">
-          <Card className="h-full" title="עמדות המפלגות" note="8 נושאים" href="/topics">
+          <Card className="h-full" title="עמדות המפלגות" note="8 נושאים" href="/positions">
             <QuoteWall quotes={wallQuotes} />
           </Card>
         </Option>
         <Option k="E" title="מי ענה על מה" note="שמונה שורות: הנושא עם האיור שלו, והפנים של כל המפלגות שכתבו עליו. בלי תנועה.">
-          <Card className="h-full" title="עמדות המפלגות" note="8 נושאים" href="/topics">
+          <Card className="h-full" title="עמדות המפלגות" note="8 נושאים" href="/positions">
             <ul className="grid h-full content-between">
               {chatTopics.map((t) => (
                 <li key={t.key}>
-                  <Link href={`/topics#${t.key}`} className="flex items-center gap-3 rounded-2xl px-1 py-1 hover:bg-paper/70">
+                  <Link href={`/positions#${t.key}`} className="flex items-center gap-3 rounded-2xl px-1 py-1 hover:bg-paper/70">
                     <Image src={t.art} alt="" width={96} height={96} className="size-11 shrink-0 object-contain mix-blend-multiply" />
                     <span className="title w-16 shrink-0 text-lg">{t.label}</span>
                     <span className="flex min-w-0 flex-1" dir="ltr">
@@ -130,23 +130,23 @@ export default async function CardOptions() {
           </Card>
         </Option>
         <Option k="F" title="זרקור" note="ציטוט אחד גדול בסריף, של מפלגה אחת על נושא אחד; הנושאים כשורת מילים מעליו.">
-          <Card className="h-full" title="עמדות המפלגות" note="8 נושאים" href="/topics">
+          <Card className="h-full" title="עמדות המפלגות" note="8 נושאים" href="/positions">
             <Spotlight topics={chatTopics} />
           </Card>
         </Option>
         <Option k="G" title="זו מול זו" note="נושא אחד, שתי מפלגות זו לצד זו. הזוג מתחלף, ואז הנושא.">
-          <Card className="h-full" title="עמדות המפלגות" note="8 נושאים" href="/topics">
+          <Card className="h-full" title="עמדות המפלגות" note="8 נושאים" href="/positions">
             <Versus topics={chatTopics} />
           </Card>
         </Option>
         <Option k="H" title="אינדקס" note="שמונה שורות שקטות: נושא, ומשפט אחד של מפלגה אחת. בלי תנועה, כמו שאר האתר.">
-          <Card className="h-full" title="עמדות המפלגות" note="8 נושאים" href="/topics">
+          <Card className="h-full" title="עמדות המפלגות" note="8 נושאים" href="/positions">
             <ul className="grid h-full content-between divide-y divide-ink/10 border-t border-ink/10">
               {chatTopics.map((t, k) => {
                 const r = t.rows[k % t.rows.length];
                 return (
                   <li key={t.key}>
-                    <Link href={`/topics#${t.key}`} className="flex items-baseline gap-4 py-2 hover:bg-paper/60">
+                    <Link href={`/positions#${t.key}`} className="flex items-baseline gap-4 py-2 hover:bg-paper/60">
                       <span className="title w-16 shrink-0 text-lg">{t.label}</span>
                       <span className="line-clamp-1 min-w-0 flex-1 text-base text-ink-2">
                         <span className="text-ink">{r.name}:</span> {r.text}

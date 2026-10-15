@@ -36,7 +36,14 @@ export const ru: Dictionary = {
     vote: "Гид по голосованию",
     about: "Источники и метод",
     resources: "Ссылки и дополнительные материалы",
+    tools: "Инструменты",
     contact: "Контакты",
+  },
+  navShort: {
+    lists: "Партии",
+    positions: "Взгляды",
+    tools: "Игры",
+    vote: "Выборы",
   },
   topics: {
     security: "Безопасность",

@@ -24,7 +24,7 @@ export const he = {
   },
   nav: {
     home: "סקירה",
-    topics: "עמדות לפי נושא",
+    topics: "לפי נושא",
     map: "מפת עמדות",
     positions: "עמדות",
     quiz: "שאלון בחירות",
@@ -35,7 +35,14 @@ export const he = {
     vote: "מדריך הצבעה",
     about: "מקורות ושיטה",
     resources: "קישורים ומידע נוסף",
+    tools: "כלים",
     contact: "יצירת קשר",
+  },
+  navShort: {
+    lists: "מפלגות",
+    positions: "עמדות",
+    tools: "כלים",
+    vote: "הצבעה",
   },
   topics: {
     security: "ביטחון",

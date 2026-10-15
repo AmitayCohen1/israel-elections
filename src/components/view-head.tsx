@@ -1,7 +1,6 @@
 import { Children, isValidElement } from "react";
 import Link from "@/i18n/link";
 import { Arrow } from "@/components/arrow";
-import { ModeTabs } from "@/components/mode-tabs";
 
 /**
  * Every page sits in the same frame: one column of one width, the page head, then the content. Nothing spreads to the screen's
@@ -19,7 +18,6 @@ export function View({ children, width = "full" }: { children: React.ReactNode; 
       {head && (
         <div className="px-4 pt-6 sm:px-8 lg:pt-10">
           <div className={`mx-auto ${max}`}>
-            <ModeTabs />
             {head}
           </div>
         </div>
@@ -46,7 +44,7 @@ export function ViewHead({ title, hint, back, lead, children }: { title: string;
       )}
       <div className="flex items-center gap-4">
         {lead}
-        <h1 className="serif text-4xl leading-tight text-balance sm:text-5xl">{title}</h1>
+        <h1 className="text-2xl leading-tight font-bold text-balance sm:text-4xl">{title}</h1>
       </div>
       {hint && <p className="mt-2 max-w-2xl text-lg leading-snug text-ink-2 text-pretty sm:text-xl">{hint}</p>}
       {children && <div className="mt-4">{children}</div>}

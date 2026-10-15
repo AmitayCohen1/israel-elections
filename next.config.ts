@@ -2,11 +2,20 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   cacheComponents: true,
-  // The topic pages became a section of the home page.
-  redirects: async () => [
-    { source: "/positions/:topic", destination: "/#:topic", permanent: true },
-    { source: "/:lang(he|en|ar|ru|am)/positions/:topic", destination: "/:lang#:topic", permanent: true },
-  ],
+  // Old addresses from before the four sections (2026-10-15): each lands where its content lives now.
+  redirects: async () =>
+    [
+      ["/positions/:topic", "/positions#:topic"],
+      ["/topics/:topic(security|economy|religion_state|judiciary|housing|education|welfare_health|governance)", "/positions#:topic"],
+      ["/topics", "/positions"],
+      ["/map", "/positions"],
+      ["/lists", "/"],
+      ["/people", "/"],
+      ["/explore", "/tools"],
+    ].flatMap(([from, to]) => [
+      { source: from, destination: to, permanent: false },
+      { source: `/:lang(he|en|ar|ru|am)${from}`, destination: `/:lang${to === "/" ? "" : to}`, permanent: false },
+    ]),
   images: {
     remotePatterns: [
       new URL("https://upload.wikimedia.org/wikipedia/commons/**"),

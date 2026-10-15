@@ -4,7 +4,7 @@ import { notFound } from "next/navigation";
 import { Analytics } from "@vercel/analytics/next";
 import { Frank_Ruhl_Libre, Heebo, Noto_Sans_Arabic, Noto_Sans_Ethiopic } from "next/font/google";
 import { Footer } from "@/components/footer";
-import { Header, TopBar } from "@/components/shell";
+import { Header } from "@/components/shell";
 import { LOCALES, LOCALE_INFO, getDictionary, hasLocale } from "@/i18n";
 import { Track } from "@/components/track";
 import { DictionaryProvider } from "@/i18n/provider";
@@ -48,9 +48,8 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
         <DictionaryProvider lang={lang} dict={dict}>
           {/* A classic page: the bar stays at the top, the page scrolls under it, the footer closes it. */}
           <div className="flex min-h-dvh flex-col">
-            <Suspense fallback={<div className="h-16 shrink-0 xl:h-20" />}>
+            <Suspense fallback={<div className="h-28 shrink-0 lg:h-16" />}>
               <Header />
-              <TopBar />
             </Suspense>
             <main className="flex-1">{children}</main>
             <Footer dict={dict} />

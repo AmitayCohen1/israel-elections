@@ -61,13 +61,13 @@ export function LocaleSwitcher({ className = "", variant = "row" }: { className?
         aria-expanded={open}
         aria-label={`${ui.language}: ${LOCALE_INFO[lang].native}`}
         onClick={() => setOpen((o) => !o)}
-        className="flex h-11 w-full items-center gap-3 rounded-full border border-ink/15 bg-card px-4 text-base transition hover:border-ink/40 focus-visible:border-ink"
+        className="flex h-11 w-full items-center gap-2 rounded-full border border-ink/15 bg-card px-3 text-base transition sm:gap-3 sm:px-4 hover:border-ink/40 focus-visible:border-ink"
       >
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden className="size-5 shrink-0 text-ink-2">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden className="size-5 shrink-0 text-ink-2 max-sm:hidden">
           <circle cx="12" cy="12" r="9" />
           <path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z" />
         </svg>
-        <span className="title flex-1 text-start">{LOCALE_INFO[lang].native}</span>
+        <span className="title flex-1 text-start whitespace-nowrap">{LOCALE_INFO[lang].native}</span>
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden className={`size-4 shrink-0 text-ink-2 transition ${open ? "rotate-180" : ""}`}>
           <path d="M6 9l6 6 6-6" />
         </svg>
@@ -76,7 +76,7 @@ export function LocaleSwitcher({ className = "", variant = "row" }: { className?
       {open && (
         <nav
           aria-label={ui.language}
-          className="absolute inset-x-0 top-full z-50 mt-2 grid gap-0.5 rounded-3xl border border-ink/10 bg-card p-1.5 shadow-[0_24px_60px_-20px_rgb(10_12_27/0.5)]"
+          className="absolute end-0 top-full z-50 mt-2 grid w-max min-w-full gap-0.5 rounded-3xl border border-ink/10 bg-card p-1.5 shadow-[0_24px_60px_-20px_rgb(10_12_27/0.5)]"
         >
           {LOCALES.map((l) => {
             const on = l === lang;

@@ -77,7 +77,7 @@ export default async function Archive() {
         </div>
         <div className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-4">
           {TOPIC_KEYS.map((k) => (
-            <Link key={k} href={`/topics#${k}`} className="group flex flex-col items-center rounded-[2rem] px-2 pt-4 pb-5 text-center transition hover:bg-tile">
+            <Link key={k} href={`/positions#${k}`} className="group flex flex-col items-center rounded-[2rem] px-2 pt-4 pb-5 text-center transition hover:bg-tile">
               <TopicIllustration topic={k} className="!w-28 transition duration-300 group-hover:scale-105 sm:!w-32" />
               <span className="title mt-1 text-xl">{TOPICS[k].label}</span>
               <span className="mt-0.5 text-base text-ink-2">

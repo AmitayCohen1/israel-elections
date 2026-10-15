@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { loadAxes } from "@/lib/axes";
-import { ModeTabs } from "@/components/mode-tabs";
 import { MapBand } from "./options";
 
 export const metadata: Metadata = { title: "Dev preview · position map", robots: { index: false } };
@@ -16,11 +15,6 @@ export default async function PositionMap() {
       <MapBand
         axes={axes}
         art={false}
-        top={
-          <div key="tabs" className="mb-6 flex justify-center sm:mb-14">
-            <ModeTabs />
-          </div>
-        }
         className="min-h-[calc(100dvh-4rem)] py-5 sm:py-14 xl:min-h-[calc(100dvh-5rem)]"
       />
     </>

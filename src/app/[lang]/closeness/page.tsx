@@ -4,7 +4,6 @@ import { getDictionary, getLocale, getMessages } from "@/i18n";
 import { m } from "@/i18n/messages/games";
 import { loadMatchData } from "@/lib/games";
 import { layout } from "@/lib/space";
-import { ModeTabs } from "@/components/mode-tabs";
 import { PartySpace, type SpaceView } from "@/components/party-space";
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -30,9 +29,6 @@ export default async function Closeness() {
     // is 4rem, 5rem from xl), so the map and its side list are read without scrolling the page.
     <section className="flex flex-col overflow-x-clip bg-mist py-6 lg:h-[calc(100dvh-4rem)] lg:min-h-[40rem] xl:h-[calc(100dvh-5rem)]">
       <div className="mx-auto flex min-h-0 w-full max-w-[88rem] flex-1 flex-col px-4 sm:px-8">
-        <div className="flex justify-center">
-          <ModeTabs />
-        </div>
         <h1 className="sr-only">{t.title}</h1>
         <PartySpace views={views} parties={parties} />
       </div>

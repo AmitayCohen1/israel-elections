@@ -36,7 +36,14 @@ export const ar: Dictionary = {
     vote: "دليل التصويت",
     about: "المصادر والمنهجية",
     resources: "روابط ومعلومات إضافية",
+    tools: "أدوات",
     contact: "اتصل بنا",
+  },
+  navShort: {
+    lists: "الأحزاب",
+    positions: "المواقف",
+    tools: "أدوات",
+    vote: "التصويت",
   },
   topics: {
     security: "الأمن",

@@ -37,7 +37,14 @@ export const am: Dictionary = {
     vote: "የድምጽ መስጫ መመሪያ",
     about: "ምንጮችና ዘዴ",
     resources: "አገናኞችና ተጨማሪ መረጃ",
+    tools: "መሣሪያዎች",
     contact: "አግኙን",
+  },
+  navShort: {
+    lists: "ፓርቲዎች",
+    positions: "አቋሞች",
+    tools: "መሣሪያዎች",
+    vote: "ምርጫ",
   },
   topics: {
     security: "ደህንነት",

@@ -79,7 +79,7 @@ export function TopicColumn({ topics, every = 9000, className = "" }: { topics: 
         <ul className="mt-5 grid flex-1 content-start gap-1">
           {shown.map((r) => (
             <li key={r.id}>
-              <Link href={`/topics#${t.key}:${r.id}`} className="flex items-start gap-3 rounded-2xl px-2 py-2.5 transition hover:bg-paper">
+              <Link href={`/positions#${t.key}:${r.id}`} className="flex items-start gap-3 rounded-2xl px-2 py-2.5 transition hover:bg-paper">
                 <span className="mt-0.5 grid size-11 shrink-0 place-items-center">{r.mark}</span>
                 <span className="min-w-0">
                   <span className="title block text-lg leading-tight">{r.name}</span>
@@ -90,7 +90,7 @@ export function TopicColumn({ topics, every = 9000, className = "" }: { topics: 
           ))}
         </ul>
 
-        <Link href={`/topics#${t.key}`} className="mt-auto shrink-0 pt-3 text-base text-ink-2 underline-offset-4 hover:text-ink hover:underline">
+        <Link href={`/positions#${t.key}`} className="mt-auto shrink-0 pt-3 text-base text-ink-2 underline-offset-4 hover:text-ink hover:underline">
           {tx.all(t.rows.length, t.label)} <Arrow />
         </Link>
       </div>

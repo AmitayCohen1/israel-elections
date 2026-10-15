@@ -63,7 +63,7 @@ export default async function OverviewOptions() {
             ))}
           </span>
         </Link>
-        <Link href="/topics" className={TILE}>
+        <Link href="/positions" className={TILE}>
           <span className="text-base text-ink-2">עמדות</span>
           <span className="title mt-1 text-6xl leading-none tabular-nums">{positions}</span>
           {first && (

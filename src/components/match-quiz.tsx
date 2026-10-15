@@ -320,7 +320,7 @@ function Intro({ parties, all, questions, onStart }: { parties: QParty[]; all: Q
         ))}
       </div>
       <p className="relative rounded-full bg-paper px-4 py-1.5 text-lg text-ink-2">{t.meta(questions)}</p>
-      <h1 className="serif relative mt-6 max-w-3xl text-6xl text-balance sm:text-7xl xl:text-8xl">{t.title}</h1>
+      <h1 className="serif relative mt-6 max-w-3xl text-5xl text-balance sm:text-7xl xl:text-8xl">{t.title}</h1>
       <p className="relative mt-6 max-w-xl text-xl text-ink-2 text-balance">{t.introNote}</p>
       {friend.length > 0 && (
         <div className="card-in relative mt-8 rounded-3xl bg-paper px-6 py-4 shadow-[0_14px_34px_-22px_rgb(0_12_31/0.5)]">

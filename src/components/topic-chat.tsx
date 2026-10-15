@@ -83,7 +83,7 @@ export function TopicChat({ topics }: { topics: ChatTopic[] }) {
 
   return (
     <div onMouseEnter={() => setHeld(true)} onMouseLeave={() => setHeld(false)} className="flex h-full min-h-0 flex-col">
-      <Link key={current.key} href={`/topics#${current.key}`} className="card-in flex shrink-0 items-center gap-4 border-b border-ink/10 pb-3">
+      <Link key={current.key} href={`/positions#${current.key}`} className="card-in flex shrink-0 items-center gap-4 border-b border-ink/10 pb-3">
         <span className="relative size-16 shrink-0">
           <Image src={current.art} alt="" fill sizes="64px" loading="eager" className="object-contain mix-blend-multiply [mask-image:radial-gradient(closest-side,black_70%,transparent_100%)]" />
         </span>
@@ -99,12 +99,12 @@ export function TopicChat({ topics }: { topics: ChatTopic[] }) {
             <div className="min-h-0 overflow-hidden">
               {m.kind === "q" ? (
                 <div className="flex pt-2">
-                  <Link href={`/topics#${m.t.key}`} className="ms-auto rounded-2xl rounded-ee-md bg-ink px-5 py-2.5 text-lg text-white">
+                  <Link href={`/positions#${m.t.key}`} className="ms-auto rounded-2xl rounded-ee-md bg-ink px-5 py-2.5 text-lg text-white">
                     {t.ask(m.t.label)}
                   </Link>
                 </div>
               ) : (
-                <Link href={`/topics#${m.t.key}:${m.r.id}`} className="flex items-end gap-2.5">
+                <Link href={`/positions#${m.t.key}:${m.r.id}`} className="flex items-end gap-2.5">
                   <Avatar name={m.r.face.name} src={m.r.face.src} color={m.r.face.color} size={38} />
                   <span className="max-w-[30rem] rounded-2xl rounded-es-md bg-paper px-4 py-2.5">
                     <span className="title block text-base text-ink-2">{m.r.name}</span>

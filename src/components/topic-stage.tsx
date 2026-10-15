@@ -90,7 +90,7 @@ export function TopicStage({ topics, every = 9000, className = "" }: { topics: C
           <h2 className="title text-2xl leading-tight">{dict.nav.topics}</h2>
           <p className="mt-0.5 text-base text-ink-2">{tx.sub}</p>
         </div>
-        <Link href={`/topics#${t.key}`} aria-label={tx.allOn(t.label)} className="grid size-10 shrink-0 place-items-center rounded-full bg-paper hover:bg-ink hover:text-white">
+        <Link href={`/positions#${t.key}`} aria-label={tx.allOn(t.label)} className="grid size-10 shrink-0 place-items-center rounded-full bg-paper hover:bg-ink hover:text-white">
           <Arrow>↖</Arrow>
         </Link>
       </div>
@@ -110,7 +110,7 @@ export function TopicStage({ topics, every = 9000, className = "" }: { topics: C
       <ul key={i} style={{ perspective: "1100px" }} className="mt-4 flex min-h-0 flex-1 flex-col flex-wrap content-start gap-x-8 gap-y-3 overflow-hidden">
         {rows.map((r, k) => (
           <li key={r.id} style={{ "--d": `${180 + k * 130}ms` } as React.CSSProperties} className="board-in w-full max-lg:nth-[n+5]:hidden">
-            <Link href={`/topics#${t.key}:${r.id}`} className="block rounded-[1.5rem] bg-paper p-4">
+            <Link href={`/positions#${t.key}:${r.id}`} className="block rounded-[1.5rem] bg-paper p-4">
               <span className="flex items-center gap-3">
                 <Avatar name={r.face.name} src={r.face.src} color={r.face.color} size={40} />
                 <span className="title text-lg leading-tight">{r.name}</span>
@@ -135,7 +135,7 @@ export function TopicStage({ topics, every = 9000, className = "" }: { topics: C
       </ul>
 
       {/* Says out loud that this is a sample: how many parties wrote on the category, and the way to all of them */}
-      <Link href={`/topics#${t.key}`} className="mt-3 block shrink-0 text-base text-ink-2 underline-offset-4 hover:text-ink hover:underline">
+      <Link href={`/positions#${t.key}`} className="mt-3 block shrink-0 text-base text-ink-2 underline-offset-4 hover:text-ink hover:underline">
         <span className="title text-ink">{tx.count(t.rows.length)}</span>
         {tx.rest(t.rows.length, t.label)}
         <Arrow />

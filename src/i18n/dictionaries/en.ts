@@ -36,7 +36,14 @@ export const en: Dictionary = {
     vote: "Voting guide",
     about: "Sources and methodology",
     resources: "Links and further reading",
+    tools: "Tools",
     contact: "Contact",
+  },
+  navShort: {
+    lists: "Parties",
+    positions: "Positions",
+    tools: "Tools",
+    vote: "Voting",
   },
   topics: {
     security: "Security",

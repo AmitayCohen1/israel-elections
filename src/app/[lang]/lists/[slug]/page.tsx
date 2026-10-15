@@ -15,13 +15,12 @@ import { CandidateProfile, CandidateSkeleton, popupId } from "@/components/candi
 import { Popup, PopupLink } from "@/components/popup";
 import { m as cm } from "./[position]/messages";
 import { YouTubeLite } from "@/components/youtube-lite";
-import { OwnWords } from "@/components/topic-rows";
+import { Quotes } from "@/components/topic-compare";
+import { topicGist } from "@/lib/gist";
 import { mkLabelT, mkMessages } from "@/components/candidate-messages";
 import { m } from "./messages";
-import { quoteGist } from "@/lib/quotes";
 import sources from "../../../../../data/sources.json";
 import { Chevron } from "@/components/chevron";
-import { TopicIllustration } from "@/components/illustration";
 
 type MediaItem = { title: string; url: string; outlet: string; date: string | null };
 const mediaFor = (slug: string): MediaItem[] => (sources as Record<string, { media?: MediaItem[] }>)[slug]?.media ?? [];
@@ -83,7 +82,7 @@ async function Party({ params }: { params: PageProps<"/[lang]/lists/[slug]">["pa
       />
       <ViewHead
         title={list.name}
-        back={{ href: "/lists", label: t.allParties }}
+        back={{ href: "/", label: t.allParties }}
         lead={<PartyMark slug={list.slug} letters={list.letters} color={list.color} size="sm" />}
         hint={t.hint({ total: list.candidates.length, served, sitting })}
       >
@@ -118,7 +117,7 @@ async function Popups({ list }: { list: List }) {
         <header className="mb-6 flex flex-col items-start gap-4 pe-12 sm:flex-row sm:items-center">
           <Avatar name={c.display_name} src={c.image_url} color={list.color} size={96} />
           <div className="min-w-0">
-            <h2 id={`${popupId(c.position)}-title`} className="title text-3xl text-balance sm:text-4xl">
+            <h2 id={`${popupId(c.position)}-title`} className="title text-2xl text-balance sm:text-4xl">
               {c.display_name}
             </h2>
             <p className="mt-1.5 text-lg text-ink-2">
@@ -136,49 +135,42 @@ async function Popups({ list }: { list: List }) {
 function Heading({ children }: { children: React.ReactNode }) {
   return <h2 className="title text-2xl text-balance">{children}</h2>;
 }
-const plus = <Chevron className="size-8 shrink-0 bg-mist sm:size-9 sm:bg-paper" />;
 
-/** What the party says: one quiet line icon per topic, the topic, a one-line gist; open a row for the quotes. */
+/** What the party says, all of it open: per topic its bottom line, a short explanation, then its own words with the sources. */
 async function Positions({ list }: { list: List }) {
   const [t, dict] = await Promise.all([getMessages(m), getDictionary()]);
   const p = list.platform;
   const byTopic = Map.groupBy(p?.positions ?? [], (x) => x.topic);
+  const present = TOPIC_KEYS.filter((k) => byTopic.has(k));
   const missing = TOPIC_KEYS.filter((k) => !byTopic.has(k));
   return (
-    <section>
+    <section id="positions" className="scroll-mt-32">
       <Heading>{t.whatSays}</Heading>
-      {/* One grey panel, a row per topic: its painted object, the topic and the party's words; a row opens to every quote. */}
-      <div className="mt-4 divide-y divide-line border-y border-line sm:divide-y-0 sm:rounded-[2rem] sm:border-0 sm:bg-mist sm:p-2">
-        {TOPIC_KEYS.map((key) => {
-          const items = byTopic.get(key) ?? [];
-          if (!items.length) return null;
+      {/* The topics as a short index, so a reader can jump to the one they came for. */}
+      <nav className="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-lg">
+        {present.map((k) => (
+          <a key={k} href={`#${k}`} className="text-accent underline-offset-4 hover:underline">
+            {dict.topics[k]}
+          </a>
+        ))}
+      </nav>
+      <div className="mt-4 border-t border-line-strong">
+        {present.map((key) => {
+          const items = byTopic.get(key)!;
+          const gist = topicGist(list, key);
           const digest = p?.topic_digests?.[key];
-          const gist = quoteGist(items) ?? items[0].point;
           return (
-            <details key={key} name="topics" className="group transition sm:rounded-3xl sm:open:bg-paper sm:open:shadow-[0_14px_30px_-24px_rgb(0_12_31/0.25)]">
-              {/* On a phone the painted object moves beside the topic's name, so the party's words get the whole width. */}
-              <summary className="flex cursor-pointer items-start gap-3 py-4 transition sm:items-center sm:gap-4 sm:rounded-3xl sm:p-3 sm:hover:bg-paper/60">
-                <span className="hidden size-16 shrink-0 place-items-center rounded-full bg-paper sm:grid">
-                  <TopicIllustration topic={key} className="!w-12" />
-                </span>
-                <span className="min-w-0 flex-1">
-                  <span className="title flex items-center gap-2 text-xl">
-                    <TopicIllustration topic={key} className="!mx-0 !w-8 shrink-0 sm:hidden" />
-                    {dict.topics[key]}
-                  </span>
-                  <span className="mt-0.5 line-clamp-2 text-lg text-ink-2 group-open:line-clamp-none sm:line-clamp-1">{gist}</span>
-                </span>
-                {plus}
-              </summary>
-              <div className="pt-1 pb-6 sm:px-4 sm:ps-[5.75rem]">
-                <OwnWords items={items} summary={digest} size="base" />
-              </div>
-            </details>
+            <article key={key} id={key} className="scroll-mt-32 border-b border-line py-6">
+              <h3 className="text-base font-semibold tracking-wide text-muted">{dict.topics[key]}</h3>
+              {gist && <p className="mt-1 text-xl leading-snug font-semibold text-balance sm:text-2xl">{gist}</p>}
+              {digest && <p className="mt-2 text-lg leading-relaxed text-pretty text-ink-2">{digest}</p>}
+              <Quotes items={items} />
+            </article>
           );
         })}
       </div>
       {(missing.length > 0 || p?.platform_doc) && (
-        <p className="mt-4 text-base text-ink-2">
+        <p className="mt-4 text-lg text-ink-2">
           {missing.length > 0 && t.noPositionsOn(missing.map((k) => dict.topics[k]).join(" · "))}
           {p?.platform_doc && (
             <a href={p.platform_doc.url} target="_blank" rel="noreferrer" className="font-semibold text-accent underline-offset-4 hover:underline">

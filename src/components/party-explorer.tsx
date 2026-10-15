@@ -146,7 +146,7 @@ export function PartyExplorer({ parties, moreLabel }: { parties: PartyEntry[]; m
               <Link href={`/lists/${sel.slug}`} className="rounded-full bg-ink px-5 py-2.5 text-paper transition hover:bg-accent">
                 {t.openParty(sel.name)}
               </Link>
-              <Link href="/topics" className="text-accent underline-offset-4 hover:underline">
+              <Link href="/positions" className="text-accent underline-offset-4 hover:underline">
                 {t.whatPartiesSay}
               </Link>
             </p>

@@ -99,7 +99,7 @@ export default async function HowItWorks() {
       </div>
 
       <SectionTitle compact>{t.tryIt}</SectionTitle>
-      <div className="max-w-6xl">
+      <div id="seats" className="max-w-6xl scroll-mt-32">
         <SeatsCalculator />
       </div>
 

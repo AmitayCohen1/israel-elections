@@ -23,14 +23,14 @@ export function Split({ topics }: { topics: SplitTopic[] }) {
       <div className="rounded-[2rem] bg-mist p-6">
         <div className="flex items-baseline justify-between">
           <h3 className="serif text-5xl leading-none">{t.label}</h3>
-          <Link href={`/topics#${t.key}`} className="text-base text-ink-2 underline-offset-4 hover:text-ink hover:underline">
+          <Link href={`/positions#${t.key}`} className="text-base text-ink-2 underline-offset-4 hover:text-ink hover:underline">
             כל {t.rows.length} הרשימות ←
           </Link>
         </div>
         <ul className="mt-5 grid gap-1 md:grid-cols-2">
           {t.rows.slice(0, 6).map((r) => (
             <li key={r.id}>
-              <Link href={`/topics#${t.key}:${r.id}`} className="flex items-start gap-3 rounded-2xl px-2 py-2 transition hover:bg-paper">
+              <Link href={`/positions#${t.key}:${r.id}`} className="flex items-start gap-3 rounded-2xl px-2 py-2 transition hover:bg-paper">
                 <span className="mt-0.5 grid size-11 shrink-0 place-items-center">{r.mark}</span>
                 <span className="min-w-0">
                   <span className="title block text-base leading-tight">{r.name}</span>

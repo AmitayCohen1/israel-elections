@@ -225,7 +225,7 @@ export function PeopleExplorer({ leaders }: { leaders: LeaderEntry[] }) {
               <Link href={`/lists/${list.slug}`} className="text-accent underline-offset-4 hover:underline">
                 {t.wholeList}
               </Link>
-              <Link href="/topics" className="text-accent underline-offset-4 hover:underline">
+              <Link href="/positions" className="text-accent underline-offset-4 hover:underline">
                 {t.whatPartiesSay}
               </Link>
             </p>

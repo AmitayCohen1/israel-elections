@@ -7,7 +7,7 @@ import type { Dictionary } from "@/i18n";
 
 export function Footer({ dict }: { dict: Dictionary }) {
   return (
-    <footer className="mt-24 border-t border-line">
+    <footer className="mt-12 border-t border-line bg-mist">
       <div className="mx-auto flex max-w-[72rem] flex-col gap-12 px-5 py-16 sm:px-10 md:flex-row md:items-start md:justify-between">
         <div>
           <Logo />
